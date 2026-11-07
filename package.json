@@ -1,0 +1,17 @@
+{
+  "name": "radar-agentes-web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "snapshot": "python -X utf8 ../scripts/export_web.py"
+  },
+  "dependencies": {
+    "@insforge/sdk": "^1.5.2",
+    "nuxt": "^4.6.4",
+    "vue": "^3.5.45"
+  }
+}
