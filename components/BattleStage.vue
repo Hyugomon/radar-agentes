@@ -1,87 +1,80 @@
 <template>
-  <div class="battle">
-    <div class="battle__top">
-      <button class="btn btn--sm" @click="$emit('close')">← Salir</button>
-      <span class="battle__tag">Versus · {{ Math.max(0, roundIndex + 1) }}/{{ rounds.length }}</span>
-      <span class="battle__matchup">
-        {{ a.full_name }} <em>vs</em> {{ b.full_name }}
-      </span>
-      <span style="margin-left: auto" />
+  <section class="a2" :class="{ 'a2--done': done }">
+    <header class="a2-top">
+      <span class="a2-round">Ronda {{ Math.max(0, roundIndex + 1) }} / {{ rounds.length }}</span>
+      <span class="a2-phase">{{ phaseLabel }}</span>
+      <span style="flex: 1" />
       <button v-if="!done" class="btn btn--sm" @click="skip">Saltar ⏭</button>
-      <template v-else>
-        <button class="btn btn--sm" @click="$emit('rematch')">Revancha 🎲</button>
-        <button class="btn btn--sm" @click="$emit('download')">📸 Tarjeta</button>
-      </template>
+      <button v-else class="btn btn--sm" @click="$emit('rematch')">Revancha 🎲</button>
+      <button class="btn btn--sm" @click="$emit('close')">Cerrar ✕</button>
+    </header>
+
+    <div ref="stage" class="a2-stage" :class="{ shake: shaking }">
+      <div class="a2-half a2-half--a" />
+      <div class="a2-half a2-half--b" />
+
+      <div ref="orbA" class="a2-orb a2-orb--a" :class="{ hit: hitSide === 'a', ko: done && winner === 'b', champion: done && winner === 'a' }">
+        <span class="a2-mono">{{ initials(a.full_name) }}</span>
+        <span v-if="done && winner === 'a'" class="a2-crown">👑</span>
+      </div>
+
+      <div ref="orbB" class="a2-orb a2-orb--b" :class="{ hit: hitSide === 'b', ko: done && winner === 'a', champion: done && winner === 'b' }">
+        <span class="a2-mono">{{ initials(b.full_name) }}</span>
+        <span v-if="done && winner === 'b'" class="a2-crown">👑</span>
+      </div>
+
+      <div ref="impact" class="a2-impact">
+        <svg viewBox="0 0 120 120" aria-hidden="true">
+          <polygon points="60,2 70,38 104,24 82,54 118,60 82,66 104,96 70,82 60,118 50,82 16,96 38,66 2,60 38,54 16,24 50,38" />
+        </svg>
+      </div>
+
+      <div ref="slash" class="a2-slash" />
+      <div ref="dmg" class="a2-dmg">−0</div>
+
+      <canvas ref="confetti" class="a2-confetti" />
     </div>
 
-    <div class="duel-strip">
-      <div class="duel-side" :class="{ champion: done && winner === 'a', hurt: done && winner === 'b' }">
-        <div class="duel-who">
-          <span class="avatar" :style="{ background: avatarBg(a.full_name) }">{{ initials(a.full_name) }}</span>
-          <div>
-            <div class="duel-name">{{ a.full_name }}</div>
-            <div class="duel-sub">#{{ a.rank }} · {{ a.archetype_label }} · {{ a.confidence }}% conf.</div>
-          </div>
-        </div>
-        <div class="duel-score">{{ displayA.toFixed(1) }}<span>pts</span></div>
-        <div class="hp">
-          <div class="hp__label"><span>HP</span><span>{{ Math.round(hpA) }}</span></div>
-          <div class="hp__bar"><div class="hp__fill" :style="{ width: hpA + '%' }" /></div>
-        </div>
+    <div class="a2-hud">
+      <div class="a2-card a2-card--a" :class="{ champion: done && winner === 'a', hurt: done && winner === 'b' }">
+        <div class="a2-name">{{ a.full_name }}</div>
+        <div class="a2-score">{{ displayA.toFixed(1) }}<span>pts</span></div>
+        <div class="a2-hp"><i :style="{ width: hpA + '%' }" /></div>
+        <div class="a2-sub">#{{ a.rank }} · Tier {{ a.tier }} · agencia {{ Math.round(a.agency) }}</div>
       </div>
 
-      <div class="duel-center">
-        <span class="vs-badge" :class="{ 'vs-badge--clash': clashing }">VS</span>
-        <div class="round__name">{{ currentLabel }}</div>
-      </div>
+      <div class="a2-vs"><span>VS</span></div>
 
-      <div class="duel-side duel-side--right" :class="{ champion: done && winner === 'b', hurt: done && winner === 'a' }">
-        <div class="duel-who">
-          <span class="avatar" :style="{ background: avatarBg(b.full_name) }">{{ initials(b.full_name) }}</span>
-          <div>
-            <div class="duel-name">{{ b.full_name }}</div>
-            <div class="duel-sub">#{{ b.rank }} · {{ b.archetype_label }} · {{ b.confidence }}% conf.</div>
-          </div>
-        </div>
-        <div class="duel-score">{{ displayB.toFixed(1) }}<span>pts</span></div>
-        <div class="hp">
-          <div class="hp__label"><span>HP</span><span>{{ Math.round(hpB) }}</span></div>
-          <div class="hp__bar"><div class="hp__fill" :style="{ width: hpB + '%' }" /></div>
-        </div>
+      <div class="a2-card a2-card--b" :class="{ champion: done && winner === 'b', hurt: done && winner === 'a' }">
+        <div class="a2-name">{{ b.full_name }}</div>
+        <div class="a2-score">{{ displayB.toFixed(1) }}<span>pts</span></div>
+        <div class="a2-hp"><i :style="{ width: hpB + '%' }" /></div>
+        <div class="a2-sub">#{{ b.rank }} · Tier {{ b.tier }} · agencia {{ Math.round(b.agency) }}</div>
       </div>
     </div>
 
-    <div ref="arenaHost" class="arena" :class="{ shake: shaking }">
-      <canvas ref="canvas" class="arena__canvas" />
-      <div v-if="!webgl" class="css-arena">
-        <span class="css-orb css-orb--a" :class="{ 'is-champion': done && winner === 'a', 'is-hurt': done && winner === 'b' }" />
-        <span class="css-orb css-orb--b" :class="{ 'is-champion': done && winner === 'b', 'is-hurt': done && winner === 'a' }" />
-      </div>
-      <div v-if="!webgl" class="arena__fallback">
-        <span>Modo ligero: tu navegador no expone WebGL; el duelo se juega igual.</span>
-      </div>
-      <canvas ref="confetti" class="confetti-half" :class="winner === 'a' ? 'left' : 'right'" />
-    </div>
-
-    <div class="battle__result" :class="{ on: done }">
+    <div class="a2-result" :class="{ on: done }">
       <b v-if="done">👑 Gana {{ winnerName }} · Tier {{ winnerTier }}</b>
       <span v-if="done">
         por {{ margin.toFixed(1) }} pts · {{ dimsWon }} de {{ rounds.length }} dimensiones ·
         agencia {{ Math.round(a.agency) }} vs {{ Math.round(b.agency) }}
       </span>
     </div>
-
-    <div class="flash" :class="{ on: flashing }" />
-  </div>
+  </section>
 </template>
 
 <script setup lang="ts">
 const props = defineProps<{ a: any; b: any; meta: any }>()
-defineEmits<{ close: []; rematch: []; download: [] }>()
+const emit = defineEmits<{ close: []; rematch: []; download: [] }>()
 
-const canvas = ref<HTMLCanvasElement | null>(null)
+const stage = ref<HTMLElement | null>(null)
+const orbA = ref<HTMLElement | null>(null)
+const orbB = ref<HTMLElement | null>(null)
+const impact = ref<HTMLElement | null>(null)
+const slash = ref<HTMLElement | null>(null)
+const dmg = ref<HTMLElement | null>(null)
 const confetti = ref<HTMLCanvasElement | null>(null)
-const arenaHost = ref<HTMLElement | null>(null)
+
 const displayA = ref(0)
 const displayB = ref(0)
 const hpA = ref(100)
@@ -89,11 +82,8 @@ const hpB = ref(100)
 const roundIndex = ref(-1)
 const done = ref(false)
 const shaking = ref(false)
-const flashing = ref(false)
-const clashing = ref(false)
-const webgl = ref(true)
-const arenaError = ref('')
-let arena: any = null
+const hitSide = ref<'' | 'a' | 'b'>('')
+let animateFn: any = null
 let token = 0
 
 const rounds = computed(() => [...props.meta.dimensions]
@@ -102,8 +92,7 @@ const rounds = computed(() => [...props.meta.dimensions]
     key: d.key,
     label: d.label,
     av: Number(props.a.dimensions?.[d.key] || 0),
-    bv: Number(props.b.dimensions?.[d.key] || 0),
-    weight: d.weight
+    bv: Number(props.b.dimensions?.[d.key] || 0)
   })))
 
 const winner = computed(() => {
@@ -118,22 +107,58 @@ const dimsWon = computed(() => {
   const w = winner.value
   return rounds.value.filter(r => (w === 'a' ? r.av > r.bv : r.bv > r.av)).length
 })
-const currentLabel = computed(() => {
+const phaseLabel = computed(() => {
   if (done.value) return 'resultado'
-  if (roundIndex.value < 0) return 'preparados…'
-  return rounds.value[roundIndex.value]?.label || '…'
+  if (roundIndex.value < 0) return 'preparados'
+  return rounds.value[roundIndex.value]?.label || ''
 })
 
 const sleep = (ms: number) => new Promise(r => setTimeout(r, ms))
+
+function fx(target: any, params: any) {
+  if (!animateFn || !target) return
+  try {
+    animateFn(target, params)
+  } catch {
+    /* la animación es decorativa: si falla, el estado igual avanza */
+  }
+}
 
 function initials(name: string) {
   const part = (name.split('/')[1] || name).replace(/[^a-zA-Z0-9]/g, '')
   return part.slice(0, 2).toUpperCase()
 }
-function avatarBg(name: string) {
-  let h = 0
-  for (let i = 0; i < name.length; i++) h = (h * 31 + name.charCodeAt(i)) % 360
-  return `linear-gradient(135deg, hsl(${h} 68% 50%), hsl(${(h + 40) % 360} 68% 42%))`
+
+function punch(side: 'a' | 'b', amount: number) {
+  const attacker = side === 'a' ? orbA.value : orbB.value
+  const defender = side === 'a' ? orbB.value : orbA.value
+  const dir = side === 'a' ? 1 : -1
+
+  fx(attacker, { translateX: dir * 70, scale: 1.08, duration: 170, ease: 'outQuad' })
+  setTimeout(() => fx(attacker, { translateX: 0, scale: 1, duration: 320, ease: 'outElastic(1, .5)' }), 190)
+
+  hitSide.value = side === 'a' ? 'b' : 'a'
+  setTimeout(() => fx(defender, { translateX: [-14, 0], rotate: [-6, 0], duration: 320, ease: 'outQuad' }), 150)
+  setTimeout(() => { hitSide.value = '' }, 420)
+
+  fx(impact.value, { scale: [0, 1.6], opacity: [1, 0], rotate: [Math.random() * 90, Math.random() * 90 + 40], duration: 380, ease: 'outQuad' })
+  fx(slash.value, { opacity: [0.9, 0], scaleX: [0.2, 1.5], duration: 340, ease: 'outQuad' })
+
+  if (dmg.value) {
+    dmg.value.textContent = `−${Math.max(1, Math.round(amount))}`
+    fx(dmg.value, { translateY: [-10, -56], opacity: [1, 0], scale: [1.35, 0.95], duration: 720, ease: 'outQuad' })
+  }
+
+  shaking.value = true
+  setTimeout(() => { shaking.value = false }, 260)
+}
+
+function knockout() {
+  const lose = winner.value === 'a' ? orbB.value : orbA.value
+  const win = winner.value === 'a' ? orbA.value : orbB.value
+  fx(lose, { rotate: winner.value === 'a' ? 16 : -16, translateY: 26, scale: 0.9, duration: 700, ease: 'outQuad' })
+  fx(win, { scale: [1, 1.12, 1.06], duration: 900, ease: 'outElastic(1, .6)' })
+  fireConfetti()
 }
 
 async function run() {
@@ -147,23 +172,19 @@ async function run() {
 
   await new Promise<void>((resolve) => {
     let ticks = 0
-    const total = 34
     const timer = setInterval(() => {
       if (my !== token) { clearInterval(timer); return resolve() }
       ticks++
-      const e = 1 - Math.pow(1 - Math.min(1, ticks / total), 3)
+      const e = 1 - Math.pow(1 - Math.min(1, ticks / 32), 3)
       displayA.value = props.a.total * e
       displayB.value = props.b.total * e
-      if (ticks >= total) { clearInterval(timer); resolve() }
+      if (ticks >= 32) { clearInterval(timer); resolve() }
     }, 18)
   })
   if (my !== token) return
 
-  clashing.value = true
-  await sleep(120)
-  arena?.clash?.()
-  await sleep(620)
-  clashing.value = false
+  fx(stage.value, { scale: [0.985, 1], duration: 420, ease: 'outQuad' })
+  await sleep(320)
   if (my !== token) return
 
   const gap = Math.abs(props.a.total - props.b.total)
@@ -179,12 +200,12 @@ async function run() {
     const diff = Math.max(0, winnerVal - loserVal)
 
     if (diff > 0) {
-      shaking.value = true
-      if (diff >= 4) arena?.round?.(winner.value as 'a' | 'b')
       const dmg = Math.min(18, 4 + diff * 0.45)
       if (loser === 'a') hpA.value = Math.max(finalLoserHp, hpA.value - dmg)
       else hpB.value = Math.max(finalLoserHp, hpB.value - dmg)
-      setTimeout(() => { shaking.value = false }, 420)
+      punch(winner.value as 'a' | 'b', dmg)
+    } else {
+      fx(stage.value, { scale: [1, 1.006, 1], duration: 220 })
     }
     await sleep(430)
   }
@@ -193,13 +214,10 @@ async function run() {
   roundIndex.value = rounds.value.length - 1
   hpA.value = winner.value === 'a' ? 100 : finalLoserHp
   hpB.value = winner.value === 'b' ? 100 : finalLoserHp
-  arena?.finish?.(winner.value as 'a' | 'b')
-  await sleep(450)
+  knockout()
+  await sleep(500)
   if (my !== token) return
-
   done.value = true
-  await nextTick()
-  fireConfetti()
 }
 
 function skip() {
@@ -211,17 +229,16 @@ function skip() {
   const finalLoserHp = Math.max(16, Math.min(96, 100 - gap * 2.6))
   hpA.value = winner.value === 'a' ? 100 : finalLoserHp
   hpB.value = winner.value === 'b' ? 100 : finalLoserHp
-  arena?.finish?.(winner.value as 'a' | 'b')
   done.value = true
-  nextTick(() => fireConfetti())
+  knockout()
 }
 
 function fireConfetti() {
   const cv = confetti.value
   if (!cv) return
   const rect = cv.getBoundingClientRect()
-  const w = rect.width || window.innerWidth / 2
-  const h = rect.height || window.innerHeight
+  const w = rect.width || 600
+  const h = rect.height || 300
   const dpr = Math.min(2, window.devicePixelRatio || 1)
   cv.width = Math.round(w * dpr)
   cv.height = Math.round(h * dpr)
@@ -229,14 +246,15 @@ function fireConfetti() {
   if (!g) return
   g.setTransform(dpr, 0, 0, dpr, 0, 0)
   const colors = ['#ffd166', '#5b9dff', '#a78bfa', '#3ed383', '#ffffff']
+  const originX = winner.value === 'a' ? w * 0.25 : w * 0.75
   const parts = Array.from({ length: 130 }, (_, i) => ({
-    x: Math.random() * w,
-    y: -20 - Math.random() * h * 0.25,
-    vx: (Math.random() - 0.5) * 2.2,
-    vy: 1.6 + Math.random() * 3.2,
+    x: originX + (Math.random() - 0.5) * w * 0.42,
+    y: -20 - Math.random() * h * 0.3,
+    vx: (Math.random() - 0.5) * 2.4,
+    vy: 1.4 + Math.random() * 3.2,
     r: 3 + Math.random() * 4,
     rot: Math.random() * 6.28,
-    vr: (Math.random() - 0.5) * 0.3,
+    vr: (Math.random() - 0.5) * 0.35,
     c: colors[i % colors.length]
   }))
   const start = performance.now()
@@ -244,34 +262,28 @@ function fireConfetti() {
     const elapsed = t - start
     g.clearRect(0, 0, w, h)
     for (const p of parts) {
-      p.vy += 0.28; p.x += p.vx; p.y += p.vy; p.vx *= 0.995; p.rot += p.vr
-      const life = Math.max(0, 1 - elapsed / 2400)
+      p.vy += 0.3; p.x += p.vx; p.y += p.vy; p.vx *= 0.99; p.rot += p.vr
+      const life = Math.max(0, 1 - elapsed / 2200)
       g.save(); g.translate(p.x, p.y); g.rotate(p.rot); g.globalAlpha = life
       g.fillStyle = p.c; g.fillRect(-p.r / 2, -p.r / 2, p.r, p.r * 1.7); g.restore()
     }
-    if (elapsed < 2400) requestAnimationFrame(frame)
+    if (elapsed < 2200) requestAnimationFrame(frame)
     else g.clearRect(0, 0, w, h)
   }
   requestAnimationFrame(frame)
 }
 
 onMounted(async () => {
-  const reduced = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches
   try {
-    const { createArena } = await import('~/composables/useArena')
-    if (canvas.value) arena = createArena(canvas.value)
-  } catch (err: any) {
-    webgl.value = false
-    arenaError.value = String(err?.message || err).slice(0, 160)
-    console.warn('[versus] sin WebGL:', err)
+    const mod: any = await import('animejs')
+    animateFn = mod.animate
+  } catch (err) {
+    console.warn('[versus] anime.js no disponible, animación en CSS', err)
   }
+  const reduced = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches
   if (reduced) skip()
   else run()
 })
 
-onBeforeUnmount(() => {
-  token++
-  arena?.dispose?.()
-  arena = null
-})
+onBeforeUnmount(() => { token++ })
 </script>

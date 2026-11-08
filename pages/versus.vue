@@ -24,7 +24,7 @@
       <p v-if="!canStart" class="tiny" style="text-align: center">Elige dos agentes distintos para comenzar.</p>
     </div>
 
-    <div v-if="a && b" class="panel" style="padding: 16px 20px; margin-top: 18px">
+    <div v-if="a && b && !battleOpen" class="panel" style="padding: 16px 20px; margin-top: 18px">
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px">
         <b style="font-size: 13.5px">{{ a.full_name }}</b>
         <span class="tiny" style="text-transform: uppercase; letter-spacing: .1em">cara a cara</span>
@@ -39,16 +39,18 @@
       </div>
     </div>
 
-    <BattleStage
-      v-if="battleOpen && a && b"
-      :key="battleKey"
-      :a="a"
-      :b="b"
-      :meta="meta"
-      @close="battleOpen = false"
-      @rematch="rematch"
-      @download="downloadCard"
-    />
+    <div ref="arenaSlot">
+      <BattleStage
+        v-if="battleOpen && a && b"
+        :key="battleKey"
+        :a="a"
+        :b="b"
+        :meta="meta"
+        @close="battleOpen = false"
+        @rematch="rematch"
+        @download="downloadCard"
+      />
+    </div>
   </div>
 </template>
 
@@ -65,6 +67,7 @@ const slugA = ref('')
 const slugB = ref('')
 const battleOpen = ref(false)
 const battleKey = ref(0)
+const arenaSlot = ref<HTMLElement | null>(null)
 
 const a = computed(() => agents.find(x => x.slug === slugA.value))
 const b = computed(() => agents.find(x => x.slug === slugB.value))
@@ -90,6 +93,7 @@ function startBattle() {
   battleKey.value++
   battleOpen.value = true
   router.replace({ query: { a: slugA.value, b: slugB.value } })
+  nextTick(() => arenaSlot.value?.scrollIntoView({ behavior: 'smooth', block: 'start' }))
 }
 
 function rematch() {

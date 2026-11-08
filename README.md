@@ -4,8 +4,8 @@ Ranking público de agentes de IA. Cada repositorio se evalúa **uno por uno** y
 veredicto, la cuenta que lo produce y el modo versus.
 
 - **Stack**: Nuxt 4.6 (Vue 3.5, Nitro, Vite 8) · TypeScript · CSS propio (sin dependencias de UI).
-- **Versus 3D**: `three` 0.187 + `postprocessing` 6.39 (bloom + SMAA + viñeta en un solo pase), cargado
-  por import dinámico solo al abrir la batalla. Sin WebGL cae a un duelo CSS y el resultado no cambia.
+- **Versus 2D**: `animejs` 4.5 (timeline, springs, offsets) sobre SVG/CSS, inline en la misma página.
+  Sin escena 3D ni overlay: la batalla ocurre en el hueco del panel, junto a los selectores.
 - **Datos**: tabla `public.radar_agents` en InsForge (Postgres + PostgREST), con RLS de solo lectura
   para el rol `anon`. El sitio lee con la clave anónima; solo el pipeline de Python escribe.
 - **Hosting**: Coolify en el VPS (build con `Dockerfile`, Node 24) detrás de Traefik + Let's Encrypt.
