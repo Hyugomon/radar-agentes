@@ -2,11 +2,9 @@
   <div class="battle">
     <div class="battle__top">
       <button class="btn btn--sm" @click="$emit('close')">← Salir</button>
-      <span style="font-weight: 800; letter-spacing: .08em; text-transform: uppercase; font-size: 12px; color: #9fb0cc">
-        Versus · {{ Math.max(0, roundIndex + 1) }}/{{ rounds.length }}
-      </span>
-      <span style="margin-left: 18px; font-size: 13px; color: #c7d3e6; font-weight: 700">
-        {{ a.full_name }} <span style="color: #7f8ea8">vs</span> {{ b.full_name }}
+      <span class="battle__tag">Versus · {{ Math.max(0, roundIndex + 1) }}/{{ rounds.length }}</span>
+      <span class="battle__matchup">
+        {{ a.full_name }} <em>vs</em> {{ b.full_name }}
       </span>
       <span style="margin-left: auto" />
       <button v-if="!done" class="btn btn--sm" @click="skip">Saltar ⏭</button>
@@ -16,51 +14,61 @@
       </template>
     </div>
 
-    <div ref="stage" class="battle__stage" :class="{ shake: shaking }">
-      <div class="fighter fighter--left" :class="{ hurt: done && winner === 'b', champion: done && winner === 'a' }">
-        <div v-if="done && winner === 'a'" class="crown">👑</div>
-        <div class="fighter__name">{{ a.full_name }}</div>
-        <div class="fighter__sub">#{{ a.rank }} · {{ a.archetype_label }} · {{ a.confidence }}% conf.</div>
-        <div class="fighter__score">{{ displayA.toFixed(1) }}</div>
+    <div class="duel-strip">
+      <div class="duel-side" :class="{ champion: done && winner === 'a', hurt: done && winner === 'b' }">
+        <div class="duel-who">
+          <span class="avatar" :style="{ background: avatarBg(a.full_name) }">{{ initials(a.full_name) }}</span>
+          <div>
+            <div class="duel-name">{{ a.full_name }}</div>
+            <div class="duel-sub">#{{ a.rank }} · {{ a.archetype_label }} · {{ a.confidence }}% conf.</div>
+          </div>
+        </div>
+        <div class="duel-score">{{ displayA.toFixed(1) }}<span>pts</span></div>
         <div class="hp">
           <div class="hp__label"><span>HP</span><span>{{ Math.round(hpA) }}</span></div>
           <div class="hp__bar"><div class="hp__fill" :style="{ width: hpA + '%' }" /></div>
         </div>
       </div>
 
-      <div class="clash">
-        <div class="clash__ball" :class="{ shake: shaking }">VS</div>
-        <div class="round__name" style="margin-top: 12px">{{ currentLabel }}</div>
-        <div style="display: flex; gap: 5px; margin-top: 10px">
-          <i
-            v-for="(r, i) in rounds"
-            :key="r.key"
-            style="width: 7px; height: 7px; border-radius: 50%; display: block; background: rgba(255,255,255,.2)"
-            :style="{ background: i <= roundIndex ? '#ffd166' : 'rgba(255,255,255,.2)' }"
-          />
-        </div>
+      <div class="duel-center">
+        <span class="vs-badge" :class="{ 'vs-badge--clash': clashing }">VS</span>
+        <div class="round__name">{{ currentLabel }}</div>
       </div>
 
-      <div class="fighter fighter--right" :class="{ hurt: done && winner === 'a', champion: done && winner === 'b' }">
-        <div v-if="done && winner === 'b'" class="crown" style="left: auto; right: 22px">👑</div>
-        <div class="fighter__name">{{ b.full_name }}</div>
-        <div class="fighter__sub">#{{ b.rank }} · {{ b.archetype_label }} · {{ b.confidence }}% conf.</div>
-        <div class="fighter__score">{{ displayB.toFixed(1) }}</div>
+      <div class="duel-side duel-side--right" :class="{ champion: done && winner === 'b', hurt: done && winner === 'a' }">
+        <div class="duel-who">
+          <span class="avatar" :style="{ background: avatarBg(b.full_name) }">{{ initials(b.full_name) }}</span>
+          <div>
+            <div class="duel-name">{{ b.full_name }}</div>
+            <div class="duel-sub">#{{ b.rank }} · {{ b.archetype_label }} · {{ b.confidence }}% conf.</div>
+          </div>
+        </div>
+        <div class="duel-score">{{ displayB.toFixed(1) }}<span>pts</span></div>
         <div class="hp">
           <div class="hp__label"><span>HP</span><span>{{ Math.round(hpB) }}</span></div>
           <div class="hp__bar"><div class="hp__fill" :style="{ width: hpB + '%' }" /></div>
         </div>
       </div>
+    </div>
 
-      <canvas ref="confetti" class="confetti-half" :class="winner === 'a' ? 'left' : 'right'" />
-
-      <div class="battle__result" :class="{ on: done }">
-        <b v-if="done">👑 Gana {{ winnerName }} · Tier {{ winnerTier }}</b>
-        <span v-if="done">
-          por {{ margin.toFixed(1) }} pts · {{ dimsWon }} de {{ rounds.length }} dimensiones ·
-          agencia {{ Math.round(a.agency) }} vs {{ Math.round(b.agency) }}
-        </span>
+    <div ref="arenaHost" class="arena" :class="{ shake: shaking }">
+      <canvas ref="canvas" class="arena__canvas" />
+      <div v-if="!webgl" class="css-arena">
+        <span class="css-orb css-orb--a" :class="{ 'is-champion': done && winner === 'a', 'is-hurt': done && winner === 'b' }" />
+        <span class="css-orb css-orb--b" :class="{ 'is-champion': done && winner === 'b', 'is-hurt': done && winner === 'a' }" />
       </div>
+      <div v-if="!webgl" class="arena__fallback">
+        <span>Modo ligero: tu navegador no expone WebGL; el duelo se juega igual.</span>
+      </div>
+      <canvas ref="confetti" class="confetti-half" :class="winner === 'a' ? 'left' : 'right'" />
+    </div>
+
+    <div class="battle__result" :class="{ on: done }">
+      <b v-if="done">👑 Gana {{ winnerName }} · Tier {{ winnerTier }}</b>
+      <span v-if="done">
+        por {{ margin.toFixed(1) }} pts · {{ dimsWon }} de {{ rounds.length }} dimensiones ·
+        agencia {{ Math.round(a.agency) }} vs {{ Math.round(b.agency) }}
+      </span>
     </div>
 
     <div class="flash" :class="{ on: flashing }" />
@@ -71,8 +79,9 @@
 const props = defineProps<{ a: any; b: any; meta: any }>()
 defineEmits<{ close: []; rematch: []; download: [] }>()
 
-const stage = ref<HTMLElement | null>(null)
+const canvas = ref<HTMLCanvasElement | null>(null)
 const confetti = ref<HTMLCanvasElement | null>(null)
+const arenaHost = ref<HTMLElement | null>(null)
 const displayA = ref(0)
 const displayB = ref(0)
 const hpA = ref(100)
@@ -81,6 +90,10 @@ const roundIndex = ref(-1)
 const done = ref(false)
 const shaking = ref(false)
 const flashing = ref(false)
+const clashing = ref(false)
+const webgl = ref(true)
+const arenaError = ref('')
+let arena: any = null
 let token = 0
 
 const rounds = computed(() => [...props.meta.dimensions]
@@ -113,6 +126,16 @@ const currentLabel = computed(() => {
 
 const sleep = (ms: number) => new Promise(r => setTimeout(r, ms))
 
+function initials(name: string) {
+  const part = (name.split('/')[1] || name).replace(/[^a-zA-Z0-9]/g, '')
+  return part.slice(0, 2).toUpperCase()
+}
+function avatarBg(name: string) {
+  let h = 0
+  for (let i = 0; i < name.length; i++) h = (h * 31 + name.charCodeAt(i)) % 360
+  return `linear-gradient(135deg, hsl(${h} 68% 50%), hsl(${(h + 40) % 360} 68% 42%))`
+}
+
 async function run() {
   const my = ++token
   displayA.value = 0
@@ -122,10 +145,9 @@ async function run() {
   roundIndex.value = -1
   done.value = false
 
-  // contadores de puntos (por ticks: no depende del reloj del navegador)
   await new Promise<void>((resolve) => {
     let ticks = 0
-    const total = 38
+    const total = 34
     const timer = setInterval(() => {
       if (my !== token) { clearInterval(timer); return resolve() }
       ticks++
@@ -135,14 +157,15 @@ async function run() {
       if (ticks >= total) { clearInterval(timer); resolve() }
     }, 18)
   })
-
-  await sleep(220)
-  flashing.value = true
-  await sleep(180)
-  flashing.value = false
   if (my !== token) return
 
-  // turnos
+  clashing.value = true
+  await sleep(120)
+  arena?.clash?.()
+  await sleep(620)
+  clashing.value = false
+  if (my !== token) return
+
   const gap = Math.abs(props.a.total - props.b.total)
   const finalLoserHp = Math.max(16, Math.min(96, 100 - gap * 2.6))
   const loser = winner.value === 'a' ? 'b' : 'a'
@@ -157,6 +180,7 @@ async function run() {
 
     if (diff > 0) {
       shaking.value = true
+      if (diff >= 4) arena?.round?.(winner.value as 'a' | 'b')
       const dmg = Math.min(18, 4 + diff * 0.45)
       if (loser === 'a') hpA.value = Math.max(finalLoserHp, hpA.value - dmg)
       else hpB.value = Math.max(finalLoserHp, hpB.value - dmg)
@@ -164,13 +188,13 @@ async function run() {
     }
     await sleep(430)
   }
-
   if (my !== token) return
+
   roundIndex.value = rounds.value.length - 1
-  if (loser === 'a') { hpA.value = finalLoserHp } else { hpB.value = finalLoserHp }
   hpA.value = winner.value === 'a' ? 100 : finalLoserHp
   hpB.value = winner.value === 'b' ? 100 : finalLoserHp
-  await sleep(320)
+  arena?.finish?.(winner.value as 'a' | 'b')
+  await sleep(450)
   if (my !== token) return
 
   done.value = true
@@ -187,6 +211,7 @@ function skip() {
   const finalLoserHp = Math.max(16, Math.min(96, 100 - gap * 2.6))
   hpA.value = winner.value === 'a' ? 100 : finalLoserHp
   hpB.value = winner.value === 'b' ? 100 : finalLoserHp
+  arena?.finish?.(winner.value as 'a' | 'b')
   done.value = true
   nextTick(() => fireConfetti())
 }
@@ -230,10 +255,23 @@ function fireConfetti() {
   requestAnimationFrame(frame)
 }
 
-onMounted(() => {
+onMounted(async () => {
   const reduced = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches
+  try {
+    const { createArena } = await import('~/composables/useArena')
+    if (canvas.value) arena = createArena(canvas.value)
+  } catch (err: any) {
+    webgl.value = false
+    arenaError.value = String(err?.message || err).slice(0, 160)
+    console.warn('[versus] sin WebGL:', err)
+  }
   if (reduced) skip()
   else run()
 })
-onBeforeUnmount(() => { token++ })
+
+onBeforeUnmount(() => {
+  token++
+  arena?.dispose?.()
+  arena = null
+})
 </script>
