@@ -1,0 +1,31 @@
+{
+  "full_name": "NousResearch/hermes-agent",
+  "html_url": "https://github.com/NousResearch/hermes-agent",
+  "description": "The agent that grows with you",
+  "homepage": "https://hermes-agent.nousresearch.com",
+  "license": "MIT",
+  "language": "Python",
+  "stars": 262811,
+  "forks": 59107,
+  "open_issues": 54058,
+  "pushed_at": "2026-11-12T07:45:11Z",
+  "created_at": "2025-07-22T22:22:28Z",
+  "topics": [
+    "ai",
+    "ai-agent",
+    "ai-agents",
+    "anthropic",
+    "chatgpt",
+    "claude",
+    "claude-code",
+    "codex",
+    "hermes",
+    "hermes-agent",
+    "llm",
+    "nous-research",
+    "openai"
+  ],
+  "archived": false,
+  "api_status": 200,
+  "fetched_at": "2026-11-12"
+}

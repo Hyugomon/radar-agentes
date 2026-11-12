@@ -15,6 +15,7 @@
             <span class="tag">#{{ agent.rank }} del ranking</span>
             <a v-if="agent.website" class="tag" :href="agent.website" target="_blank" rel="noopener">Web ↗</a>
             <a v-if="agent.repo" class="tag" :href="agent.repo" target="_blank" rel="noopener">Repo ↗</a>
+            <a v-if="agent.researchUrl" class="tag" :href="agent.researchUrl" target="_blank" rel="noopener">Dossier ↗</a>
             <NuxtLink class="tag" :to="`/versus?retador=${agent.slug}`">⚔️ Versus</NuxtLink>
           </div>
         </div>
@@ -54,7 +55,7 @@ const route = useRoute()
 const { data, error } = await useFetch(`/api/agent/${route.params.slug}`)
 
 if (error.value || !data.value) {
-  throw createError({ statusCode: 404, statusMessage: 'Producto no encontrado', fatal: true })
+  throw createError({ statusCode: 404, statusMessage: 'Repo no encontrado', fatal: true })
 }
 
 const agent = (data.value as any).agent

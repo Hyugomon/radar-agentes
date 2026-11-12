@@ -1,9 +1,9 @@
 <template>
   <footer class="site-footer">
     <div class="container">
-      <span><b>Radar de Agentes IA</b> · ranking de productos medidos contra Grok Bot</span>
+      <span><b>Radar de Agentes IA</b> · ranking de repos open source medidos contra Grok Bot</span>
       <span style="margin-left:auto">
-        Datos: catálogo curado de productos · {{ generated }}
+        Datos: dossiers de investigación · {{ generated }}
       </span>
       <NuxtLink to="/metodologia">Cómo se califica</NuxtLink>
     </div>

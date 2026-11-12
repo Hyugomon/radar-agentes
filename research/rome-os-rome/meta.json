@@ -1,0 +1,31 @@
+{
+  "full_name": "rome-os/rome",
+  "html_url": "https://github.com/rome-os/rome",
+  "description": "A compounding agent OS for recursive agents. Also an open source alternative to Grok Bot and Meta's Muse.",
+  "homepage": "https://romeos.cc",
+  "license": "MIT",
+  "language": "TypeScript",
+  "stars": 897,
+  "forks": 68,
+  "open_issues": 330,
+  "pushed_at": "2026-11-12T07:44:42Z",
+  "created_at": "2026-08-23T06:15:15Z",
+  "topics": [
+    "agent",
+    "agent-os",
+    "ai-agent",
+    "ai-assistant",
+    "claude-code",
+    "codex",
+    "grok-bot-alternative",
+    "llm",
+    "muse-alternative",
+    "open-source",
+    "personal-ai",
+    "self-hosted",
+    "workflow-automation"
+  ],
+  "archived": false,
+  "api_status": 200,
+  "fetched_at": "2026-11-12"
+}

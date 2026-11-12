@@ -1,0 +1,31 @@
+{
+  "full_name": "opencrabs/opencrabs",
+  "html_url": "https://github.com/opencrabs/opencrabs",
+  "description": "The all-in-one AI agent. Build mobile apps, frontend, backend, manages files, deep research, schedule tasks and events. Self-improving, self-healing, fully autonomous. TUI, CLI and Daemon. Connect to your favorite channels. Zero Telemetry.",
+  "homepage": "https://opencrabs.com",
+  "license": "MIT",
+  "language": "Rust",
+  "stars": 1029,
+  "forks": 108,
+  "open_issues": 55,
+  "pushed_at": "2026-11-12T03:59:17Z",
+  "created_at": "2026-02-14T00:05:58Z",
+  "topics": [
+    "agent-orchestration",
+    "agentic-ai",
+    "agentic-framework",
+    "autonomous-agents",
+    "harness",
+    "harness-framework",
+    "open-source",
+    "opencrabs",
+    "orchestration-framework",
+    "recursive-self-improvement",
+    "rsi",
+    "self-healing",
+    "self-learning"
+  ],
+  "archived": false,
+  "api_status": 200,
+  "fetched_at": "2026-11-12"
+}

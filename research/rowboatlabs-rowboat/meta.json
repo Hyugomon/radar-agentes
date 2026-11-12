@@ -1,0 +1,33 @@
+{
+  "full_name": "rowboatlabs/rowboat",
+  "html_url": "https://github.com/rowboatlabs/rowboat",
+  "description": "Your agent team, in one group chat.",
+  "homepage": "https://www.rowboatlabs.com",
+  "license": "Apache-2.0",
+  "language": "TypeScript",
+  "stars": 18167,
+  "forks": 1822,
+  "open_issues": 233,
+  "pushed_at": "2026-11-12T03:42:58Z",
+  "created_at": "2025-01-13T09:30:40Z",
+  "topics": [
+    "agents",
+    "agents-sdk",
+    "ai",
+    "ai-agents",
+    "ai-agents-automation",
+    "chatgpt",
+    "claude-code",
+    "claude-cowork",
+    "generative-ai",
+    "llm",
+    "multiagent",
+    "opeani",
+    "open-source",
+    "orchestration",
+    "productivity"
+  ],
+  "archived": false,
+  "api_status": 200,
+  "fetched_at": "2026-11-12"
+}

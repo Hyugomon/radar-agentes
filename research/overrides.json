@@ -1,0 +1,284 @@
+{
+  "milind-soni-openmausbot": {
+    "category": "teams",
+    "tagline": "Cada bot con su propia computadora.",
+    "setup": "easy",
+    "platforms": ["macOS", "Windows", "Linux", "iOS", "Android"],
+    "channels": ["Chat", "WhatsApp", "Telegram", "Slack"],
+    "pillars": { "memoria": true, "rutinas": true, "apps": true, "coordinacion": true, "aprobaciones": true, "desatendido": false },
+    "dimensions": { "producto": 68 },
+    "evidence": {
+      "identidad": [{ "text": "Every bot in the sidebar is a real agent — Claude or Codex running locally under the hood — with its own personality, its own model, its own cloud computer, and its own connected apps.", "source": "https://github.com/milind-soni/OpenMausBot#readme" }],
+      "computadora": [{ "text": "Every bot can get its own Linux computer in the cloud, with a desktop you can watch live while it works and take over at any time.", "source": "https://www.mausbot.com/" }],
+      "memoria": [{ "text": "memory of its thread, model, computer, and apps", "source": "https://github.com/milind-soni/OpenMausBot#readme" }],
+      "rutinas": [{ "text": "Schedules (routines) can run once, on selected weekdays, or every 5–1,440 minutes, using either a bot's configured model/computer or the Cloud VM runner.", "source": "https://www.mausbot.com/" }],
+      "apps": [{ "text": "A one-click marketplace over Composio Sessions: Gmail, Slack, GitHub, Notion, Linear and hundreds more.", "source": "https://github.com/milind-soni/OpenMausBot#readme" }],
+      "coordinacion": [{ "text": "OpenMausBot is the open-source version of that shape: a team of agents in a chat app, each with its own model, its own computer and its own connected apps.", "source": "https://github.com/milind-soni/OpenMausBot#readme" }],
+      "aprobaciones": [{ "text": "A permission broker turns every risky action into a decision you make, for cloud and local computers alike.", "source": "https://www.mausbot.com/" }],
+      "desatendido": [{ "text": "To keep working independently of your laptop, you need an always-on host, such as a separately configured server or the optional paid MausBot Cloud workspace.", "source": "https://www.mausbot.com/" }]
+    },
+    "note": "README: cada bot tiene personalidad, modelo, computadora y apps; memoria y rutinas por bot; equipos y group chats; aprobaciones. Corre en tu máquina, así que no es 24/7 salvo que lo pongas en un VPS."
+  },
+  "leepokai-codync": {
+    "category": "teams",
+    "tagline": "Tus agentes CLI, convertidos en bots.",
+    "setup": "easy",
+    "platforms": ["macOS", "Windows", "Linux", "iOS"],
+    "channels": ["Chat", "Voz", "Móvil"],
+    "pillars": { "memoria": true, "rutinas": false, "apps": true, "coordinacion": true, "aprobaciones": true, "desatendido": false },
+    "evidence": {
+      "identidad": [{ "text": "Persistent named bots, group chats, quote replies, bots asking each other for help, approval cards, per-bot memory, remote screen, voice calls and 'needs you / done' notifications.", "source": "https://github.com/leepokai/Codync#readme" }],
+      "computadora": [{ "text": "Remote screen. See and control your computer from the iPhone over WebRTC, and let bots use the screen themselves through the built-in computer tool.", "source": "https://github.com/leepokai/Codync#readme" }],
+      "memoria": [{ "text": "Persistent named bots, group chats, quote replies, bots asking each other for help, approval cards, per-bot memory, remote screen, voice calls.", "source": "https://github.com/leepokai/Codync#readme" }],
+      "apps": [{ "text": "Remote screen. See and control your computer from the iPhone over WebRTC, and let bots use the screen themselves through the built-in computer tool.", "source": "https://github.com/leepokai/Codync#readme" }],
+      "coordinacion": [{ "text": "Many bots, one team. Run as many bots as you like side by side, each with its own agent, project folder and approvals... Put several in a group chat and they answer in turn.", "source": "https://github.com/leepokai/Codync#readme" }],
+      "aprobaciones": [{ "text": "The chat only shows what matters: your messages, each turn's final reply, approval cards and notices.", "source": "https://github.com/leepokai/Codync#readme" }],
+      "desatendido": [{ "text": "Bots run on the Claude, ChatGPT or other plan your agents are already signed in with, on your own computer.", "source": "https://github.com/leepokai/Codync#readme" }]
+    },
+    "note": "README: bots persistentes con nombre, memoria por bot, group chats, aprobaciones y herramienta de computadora. No encontré scheduler/rutinas en el README, así que rutinas queda en falso. Los agentes corren en tu computadora."
+  },
+  "nanocoai-nanoclaw": {
+    "category": "teams",
+    "tagline": "Agentes aislados con canales reales.",
+    "setup": "moderate",
+    "platforms": ["macOS", "Linux", "Web"],
+    "channels": ["WhatsApp", "Telegram", "Slack", "Gmail"],
+    "pillars": { "apps": false, "aprobaciones": false },
+    "evidence": {
+      "identidad": [{ "text": "Spawn teammates from chat: every one gets its own bot identity, container, and memory, with shared rooms and canvases.", "source": "https://github.com/nanocoai/nanoclaw#readme" }],
+      "computadora": [{ "text": "Container isolation - agents are sandboxed in Docker containers (macOS/Linux/WSL2).", "source": "https://github.com/nanocoai/nanoclaw#readme" }],
+      "memoria": [{ "text": "Per-agent workspace - each agent group has its own CLAUDE.md, its own memory, its own container, and only the mounts you allow.", "source": "https://github.com/nanocoai/nanoclaw#readme" }],
+      "rutinas": [{ "text": "Scheduled tasks: recurring jobs executed by the agent, with optional script gates that avoid waking it when there is no work.", "source": "https://github.com/nanocoai/nanoclaw#readme" }],
+      "coordinacion": [{ "text": "Spawn teammates from chat... with shared rooms and canvases.", "source": "https://github.com/nanocoai/nanoclaw#readme" }],
+      "desatendido": [{ "text": "Scheduled tasks: recurring jobs executed by the agent... The host keeps one outbound connection to the portal.", "source": "https://github.com/nanocoai/nanoclaw#readme" }]
+    },
+    "note": "README: un contenedor por agente, memoria y workspace propios, tareas programadas y equipos. Los canales son conectores; no opera una GUI completa ni tiene capa de aprobaciones."
+  },
+  "nano-muse-nanomuse": {
+    "category": "personal",
+    "tagline": "Tu agente, en todos tus dispositivos.",
+    "setup": "moderate",
+    "platforms": ["Web", "macOS", "Windows", "Linux", "iOS", "Android"],
+    "channels": ["Chat", "Voz", "Móvil"],
+    "note": "Revisión previa + README: identidad, memoria y computer-use con aprobaciones en móvil, escritorio y web. Sin coordinación de varios bots."
+  },
+  "modelflare-ai-anymodelbot": {
+    "category": "personal",
+    "tagline": "Bots locales con memoria y workspace.",
+    "setup": "moderate",
+    "platforms": ["macOS", "Windows", "Linux"],
+    "channels": ["Telegram", "Slack", "Discord", "WeChat"],
+    "pillars": { "coordinacion": false, "desatendido": true },
+    "note": "README + revisión previa: workspace, memoria y control del escritorio por bot; multi-modelo, rutinas, canales y aprobaciones. No coordina varios bots entre sí."
+  },
+  "anil-matcha-open-duet": {
+    "category": "teams",
+    "tagline": "Equipo de agentes con computadoras aisladas.",
+    "setup": "technical",
+    "platforms": ["macOS", "Windows", "Linux", "Web"],
+    "channels": ["Chat", "Telegram"],
+    "pillars": { "desatendido": true },
+    "evidence": {
+      "identidad": [{ "text": "Give agents a name, role, engine, workspace, memory, and approval settings.", "source": "https://github.com/Anil-matcha/open-duet#readme" }],
+      "computadora": [{ "text": "Docker is only needed for the optional isolated agent computers.", "source": "https://github.com/Anil-matcha/open-duet#readme" }],
+      "memoria": [{ "text": "Suparagent keeps conversations, memory, routines, and approvals in one place.", "source": "https://github.com/Anil-matcha/open-duet#readme" }],
+      "rutinas": [{ "text": "Add teammates or create a routine when you want to split up or repeat work.", "source": "https://github.com/Anil-matcha/open-duet#readme" }],
+      "coordinacion": [{ "text": "A request goes to a Claude or Codex team lead, who delegates work to specialists. Teammates can share a project folder, and you review actions when approval is required.", "source": "https://github.com/Anil-matcha/open-duet#readme" }],
+      "aprobaciones": [{ "text": "Choose Ask first to pause for approval before actions that change files or systems.", "source": "https://github.com/Anil-matcha/open-duet#readme" }],
+      "desatendido": [{ "text": "Use the desktop app or host the server yourself; the desktop app and server are experimental.", "source": "https://github.com/Anil-matcha/open-duet#readme" }]
+    },
+    "note": "README: agentes con nombre, memoria, rutinas, computadora aislada y aprobaciones; un líder delega en especialistas. El servidor puede quedar corriendo."
+  },
+  "rokaswk-threebot": {
+    "category": "personal",
+    "tagline": "Un hilo de T3 convertido en bot.",
+    "setup": "moderate",
+    "platforms": ["macOS", "Windows", "Linux", "iOS"],
+    "channels": ["Chat", "Móvil"],
+    "pillars": { "memoria": true, "rutinas": true, "apps": true, "coordinacion": true, "aprobaciones": true, "desatendido": false },
+    "note": "README: bot con memoria Markdown, rutinas, subagentes, navegador de T3 con control y aprobaciones. Depende de T3 Code y corre en tu máquina."
+  },
+  "cosmicstack-labs-mercury-agent": {
+    "category": "teams",
+    "tagline": "Asistente y equipo de bots autoalojado.",
+    "setup": "technical",
+    "platforms": ["macOS", "Windows", "Linux", "Web"],
+    "channels": ["Chat", "WhatsApp", "Voz"],
+    "pillars": { "rutinas": true, "apps": false, "coordinacion": true, "aprobaciones": true, "desatendido": true },
+    "evidence": {
+      "identidad": [{ "text": "Mercury is an open-source agent with a personality you write yourself, a memory that stays on your disk, and a permission system that sits between the model and your machine.", "source": "https://github.com/cosmicstack-labs/mercury-agent#readme" }],
+      "computadora": [{ "text": "It reads and writes your files, runs commands, ships code through git and GitHub, researches the web and keeps a schedule.", "source": "https://github.com/cosmicstack-labs/mercury-agent#readme" }],
+      "memoria": [{ "text": "Second Brain: typed, deduplicated facts in SQLite with full-text search, all on your disk.", "source": "https://github.com/cosmicstack-labs/mercury-agent#readme" }],
+      "rutinas": [{ "text": "Scheduled automations - Mercury Bots run on schedules, hand work to each other, and deliver finished files.", "source": "https://github.com/cosmicstack-labs/mercury-agent#readme" }],
+      "coordinacion": [{ "text": "Mercury Bots gives it a team. Persistent specialists research, write and ship on their own schedule.", "source": "https://github.com/cosmicstack-labs/mercury-agent#readme" }],
+      "aprobaciones": [{ "text": "It asks before it acts. File access is scoped per folder, shell commands pass through a blocklist and an approval step.", "source": "https://github.com/cosmicstack-labs/mercury-agent#readme" }],
+      "desatendido": [{ "text": "The runtime runs as a login service (LaunchAgent on macOS, systemd on Linux, Task Scheduler on Windows) and restarts itself after a crash.", "source": "https://github.com/cosmicstack-labs/mercury-agent#readme" }]
+    },
+    "note": "README: memoria en SQLite, scheduler, bots persistentes con especialistas, aprobaciones, daemon always-on. Opera archivos, shell, git y web; no es una GUI completa."
+  },
+  "opencrabs-opencrabs": {
+    "category": "general",
+    "tagline": "Un agente autónomo en un solo binario.",
+    "setup": "moderate",
+    "platforms": ["macOS", "Linux", "Windows"],
+    "channels": ["Chat", "CLI"],
+    "note": "Revisión previa + README: identidad, runtime persistente, rutinas y trabajo desatendido en Rust. Sin evidencia de apps GUI, memoria acumulada ni coordinación de equipo."
+  },
+  "microclaw-microclaw": {
+    "category": "personal",
+    "tagline": "Asistente self-hosted en tus canales.",
+    "setup": "technical",
+    "platforms": ["Linux", "Web"],
+    "channels": ["Slack", "Discord", "Telegram", "WhatsApp"],
+    "pillars": { "identidad": true, "apps": false, "coordinacion": false, "aprobaciones": false, "desatendido": true },
+    "note": "README: asistente self-hosted que vive en canales de chat, con memoria, rutinas y trabajo en segundo plano. No opera apps GUI."
+  },
+  "orkas-ai-orkas": {
+    "category": "teams",
+    "tagline": "Una oficina de agentes en tu escritorio.",
+    "setup": "easy",
+    "platforms": ["macOS", "Windows"],
+    "channels": ["Chat"],
+    "pillars": { "apps": false, "aprobaciones": false, "desatendido": false },
+    "evidence": {
+      "identidad": [{ "text": "16 specialists ship with the app, each with its own skills, memory and tools.", "source": "https://github.com/Orkas-AI/Orkas#readme" }],
+      "computadora": [{ "text": "Orkas runs on your computer. It is a local-first multi-agent desktop app.", "source": "https://github.com/Orkas-AI/Orkas#readme" }],
+      "memoria": [{ "text": "A project holds the goal, rules, memory and files, so every new conversation picks up where the last one left off.", "source": "https://github.com/Orkas-AI/Orkas#readme" }],
+      "rutinas": [{ "text": "Scheduled automations - run any task hourly, daily, weekly or monthly.", "source": "https://github.com/Orkas-AI/Orkas#readme" }],
+      "coordinacion": [{ "text": "A Commander that plans, delegates and does the rest - it breaks down goals, picks the right agents, skills, connectors and tools.", "source": "https://github.com/Orkas-AI/Orkas#readme" }],
+      "desatendido": [{ "text": "Orkas runs on your computer. Automations catch up their most recent missed run when the computer wakes or Orkas starts.", "source": "https://github.com/Orkas-AI/Orkas#readme" }]
+    },
+    "note": "README: proyectos con memoria, 16 especialistas, un Commander que delega y automatizaciones programadas. Es local-first; no hay evidencia de operar apps GUI ni aprobaciones formales."
+  },
+  "agentvivekkumar-dontbemichael": {
+    "category": "teams",
+    "tagline": "Una oficina de agentes para tu negocio.",
+    "setup": "easy",
+    "platforms": ["macOS", "Windows"],
+    "channels": ["Chat"],
+    "note": "Revisión previa + README: oficina de agentes de escritorio con identidad, memoria, computadora y coordinación; aprobaciones."
+  },
+  "sentelabsai-openexecutive": {
+    "category": "teams",
+    "tagline": "Un equipo ejecutivo de agentes.",
+    "setup": "moderate",
+    "platforms": ["Web"],
+    "channels": ["Chat"],
+    "note": "Revisión previa + README: una persona coherente respaldada por ocho agentes ejecutivos; coordinación y aprobaciones. Sin evidencia de computadora propia."
+  },
+  "rowboatlabs-rowboat": {
+    "category": "personal",
+    "tagline": "Tu coworker con memoria.",
+    "setup": "moderate",
+    "platforms": ["macOS", "Windows", "Linux"],
+    "channels": ["Email", "Reuniones", "Chat"],
+    "note": "Revisión previa + README: coworker de escritorio con memoria en grafo, email, reuniones y tareas de navegador. No es un equipo de bots."
+  },
+  "agentscope-ai-qwenpaw": {
+    "category": "personal",
+    "tagline": "Asistente personal open source.",
+    "setup": "moderate",
+    "platforms": ["Web", "Linux"],
+    "channels": ["Chat", "Web"],
+    "note": "Revisión previa + README: asistente personal que se instala en tu máquina o nube y se conecta a varias apps. Sin evidencia de coordinación de equipo."
+  },
+  "netease-youdao-lobsterai": {
+    "category": "general",
+    "tagline": "Agente de escritorio sobre OpenClaw.",
+    "setup": "moderate",
+    "platforms": ["macOS", "Windows"],
+    "channels": ["Chat"],
+    "note": "Revisión previa + README: agente de escritorio construido sobre OpenClaw que ejecuta tareas reales en tu computadora. Sin evidencia de equipo o rutinas."
+  },
+  "gcwing-openbitfun": {
+    "category": "general",
+    "tagline": "Workspace de agentes con computer-use.",
+    "setup": "moderate",
+    "platforms": ["macOS", "Windows", "Linux"],
+    "channels": ["Chat"],
+    "note": "Revisión previa + README: workspace de agentes con runtime Rust y computer-use. Sin evidencia de aprobaciones o equipo."
+  },
+  "makecindy-cindy": {
+    "category": "general",
+    "tagline": "Agente de escritorio y móvil.",
+    "setup": "moderate",
+    "platforms": ["macOS", "Windows", "iOS", "Android"],
+    "channels": ["Chat", "Móvil"],
+    "note": "Revisión previa + README: agente que trabaja en tus propios equipos y mantiene la sesión entre dispositivos. Sin evidencia de multi-bot."
+  },
+  "rome-os-rome": {
+    "category": "general",
+    "tagline": "Un agent OS persistente.",
+    "setup": "technical",
+    "platforms": ["Web", "Linux"],
+    "channels": ["Chat"],
+    "note": "Revisión previa + README: agente personal que vive en un entorno persistente, con memoria y ejecución. Sin evidencia de trabajo desatendido."
+  },
+  "zhayujie-cowagent": {
+    "category": "personal",
+    "tagline": "Asistente con canales y memoria.",
+    "setup": "moderate",
+    "platforms": ["Web", "Linux"],
+    "channels": ["WhatsApp", "Telegram", "Discord", "Web"],
+    "note": "Revisión previa + README: asistente personal con canales de mensajería, memoria, skills y soporte multiagente. Sin evidencia de computadora GUI."
+  },
+  "ryder-sun-meldwork": {
+    "category": "teams",
+    "tagline": "Varios agentes trabajando en tu Mac.",
+    "setup": "easy",
+    "platforms": ["macOS"],
+    "channels": ["Chat"],
+    "note": "Revisión previa + README: app de escritorio local-first donde varios agentes trabajan juntos. Sin evidencia de rutinas o apps GUI."
+  },
+  "777genius-agent-teams-ai": {
+    "category": "teams",
+    "tagline": "Equipos de agentes con roles.",
+    "setup": "easy",
+    "platforms": ["macOS", "Windows", "Linux"],
+    "channels": ["Chat"],
+    "note": "Revisión previa + README: app de escritorio para montar equipos de agentes con roles y un líder. Sin evidencia de rutinas o computadora completa."
+  },
+  "fei2411-ds-bot": {
+    "category": "personal",
+    "tagline": "Bots de larga vida sobre DeepSeek Harness.",
+    "setup": "technical",
+    "platforms": ["Web", "Linux"],
+    "channels": ["Chat"],
+    "note": "Revisión previa + README: instalador y cliente de bots de larga vida sobre DeepSeek Harness. Sin evidencia de apps GUI o rutinas."
+  },
+  "ai-timon-timon": {
+    "category": "teams",
+    "tagline": "Tu equipo de agentes local.",
+    "setup": "moderate",
+    "platforms": ["macOS", "Linux"],
+    "channels": ["Chat"],
+    "note": "Revisión previa + README: equipo de agentes que corre en tu máquina y trabaja con tus suscripciones CLI; aprobaciones y trabajo desatendido."
+  },
+  "nousresearch-hermes-agent": {
+    "category": "general",
+    "tagline": "Agente generalista con memoria y skills.",
+    "setup": "technical",
+    "platforms": ["macOS", "Windows", "Linux", "Web"],
+    "channels": ["Telegram", "Web", "CLI"],
+    "pillars": { "rutinas": true, "apps": true, "coordinacion": true, "aprobaciones": true, "desatendido": true },
+    "evidence": {
+      "identidad": [{ "text": "Hermes Agent is a general-purpose agent platform... it grows with you.", "source": "https://github.com/NousResearch/hermes-agent#readme" }],
+      "computadora": [{ "text": "Six built-in terminal backends - local, Docker, SSH, Modal, Daytona, and Vercel Sandbox - plus plugin backends.", "source": "https://github.com/NousResearch/hermes-agent#readme" }],
+      "memoria": [{ "text": "Agent-curated memory with periodic nudges. Autonomous skill creation after complex tasks. Skills self-improve during use.", "source": "https://github.com/NousResearch/hermes-agent#readme" }],
+      "rutinas": [{ "text": "Built-in cron scheduler with delivery to any platform. Daily reports, nightly backups, weekly audits - all in natural language, running unattended.", "source": "https://github.com/NousResearch/hermes-agent#readme" }],
+      "apps": [{ "text": "Tool Gateway - web search, image generation (FAL), text-to-speech (OpenAI), cloud browser (Browser Use).", "source": "https://github.com/NousResearch/hermes-agent#readme" }],
+      "coordinacion": [{ "text": "Delegates and parallelizes: spawn isolated subagents for parallel workstreams.", "source": "https://github.com/NousResearch/hermes-agent#readme" }],
+      "aprobaciones": [{ "text": "Security: command approval, DM pairing, container isolation.", "source": "https://github.com/NousResearch/hermes-agent#readme" }],
+      "desatendido": [{ "text": "Built-in cron scheduler with delivery to any platform... running unattended.", "source": "https://github.com/NousResearch/hermes-agent#readme" }]
+    },
+    "note": "README: memoria persistente, skills que se auto-mejoran, cron, subagentes, backends de terminal, navegador cloud y aprobación de comandos."
+  },
+  "androoagi-starnet": {
+    "category": "teams",
+    "tagline": "Una tripulación de agentes en tu escritorio.",
+    "setup": "moderate",
+    "platforms": ["macOS", "Windows"],
+    "channels": ["Chat"],
+    "note": "Revisión previa + README: app de escritorio local-first para crear una tripulación de agentes con identidad, memoria y coordinación."
+  }
+}

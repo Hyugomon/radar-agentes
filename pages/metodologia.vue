@@ -1,25 +1,25 @@
 <template>
   <div class="container" style="padding-top: 40px">
     <span class="eyebrow">METODOLOGÍA · 2026</span>
-    <h1 style="font-size: 38px; max-width: 980px; margin-top: 14px">Cómo se califica: el listón es Grok Bot</h1>
+    <h1 style="font-size: 38px; max-width: 980px; margin-top: 14px">Cómo se califica: solo open source, con Grok Bot como listón</h1>
     <p class="muted" style="font-size: 16px; max-width: 860px; margin-top: 12px">
-      Esto no es un ranking de repositorios ni de frameworks. Es un ranking de <b>productos que puedes usar
-      hoy</b>. Grok Bot define el estándar: bots con identidad, computadora propia, memoria, rutinas, apps
-      reales, coordinación y aprobaciones. Cada producto se mide contra esa lista, no contra una fórmula que
-      mezcle peras con manzanas.
+      Esto no es un ranking de frameworks ni de productos cerrados. Es un ranking de <b>repos open source</b>
+      que puedes instalar o autoalojar. Grok Bot define el estándar —identidad, computadora propia, memoria,
+      rutinas, apps reales, coordinación y aprobaciones—, pero <b>no compite</b>: es cerrado. Cada repo se
+      mide contra esa lista y guarda su dossier con las fuentes consultadas.
     </p>
 
     <div class="grid-2" style="margin-top: 26px">
       <div class="panel" style="padding: 22px 24px">
         <h2 style="font-size: 16px; margin-bottom: 10px">Qué entra y qué no</h2>
         <div class="callout" style="margin-bottom: 14px">
-          <b>Entra:</b> agentes, bots, asistentes y workspaces que una persona puede contratar o instalar
-          como producto final.
+          <b>Entra:</b> repos open source con licencia publicada que puedas instalar o autoalojar como
+          bot, agente, asistente o equipo.
         </div>
         <div class="callout callout--warn" style="margin-bottom: 14px">
-          <b>No entra:</b> frameworks, SDKs, runtimes e infraestructura. LangChain, LangGraph, CrewAI,
-          AutoGen, OpenAI Agents SDK y compañía no son agentes: son piezas para construirlos. Pueden ser
-          excelentes, pero no compiten en este ranking.
+          <b>No entra:</b> productos cerrados como Grok Bot, Dots, Muse o Cue. Son la referencia, no
+          competidores. Tampoco frameworks, SDKs, runtimes e infraestructura: LangChain, LangGraph,
+          CrewAI, AutoGen, OpenAI Agents SDK y compañía no son agentes finales.
         </div>
         <div class="manifesto__badges" style="justify-content: flex-start; max-width: none">
           <span v-for="x in meta.excluded" :key="x" class="tag">{{ x }}</span>
@@ -27,7 +27,7 @@
 
         <h2 style="font-size: 16px; margin: 22px 0 10px">El circuito</h2>
         <ol style="margin: 0; padding-left: 18px; color: var(--ink-2); font-size: 13.5px; line-height: 1.7">
-          <li><b style="color: var(--ink)">Ficha.</b> Documentación oficial, web del producto, repo y notas de versión. Sin inventar funciones.</li>
+          <li><b style="color: var(--ink)">Ficha.</b> README actual, web oficial, releases y snapshot previo. Cada repo guarda su carpeta <code>research/&lt;slug&gt;/</code> con la evidencia y las citas.</li>
           <li><b style="color: var(--ink)">Puntuación.</b> 8 dimensiones ponderadas + 8 piezas del ADN Grok Bot.</li>
           <li><b style="color: var(--ink)">Lectura.</b> Grok Score (0-100) y tier. El ADN desempata; no premia la popularidad.</li>
           <li><b style="color: var(--ink)">Revisión.</b> Precios, límites y funciones cambian: la fecha de revisión queda en cada ficha.</li>
@@ -74,10 +74,10 @@
         </div>
 
         <h2 style="font-size: 16px; margin: 22px 0 10px">Cobertura</h2>
-        <div class="kvrow" style="padding: 6px 0; border-bottom: 1px solid var(--line-2)"><span>Productos rankeados</span><b>{{ fmt(counts.ready) }}</b></div>
-        <div class="kvrow" style="padding: 6px 0; border-bottom: 1px solid var(--line-2)"><span>Open source</span><b>{{ fmt(counts.open) }}</b></div>
-        <div class="kvrow" style="padding: 6px 0; border-bottom: 1px solid var(--line-2)"><span>Comerciales</span><b>{{ fmt(counts.hosted) }}</b></div>
-        <div class="kvrow" style="padding: 6px 0; border-bottom: 1px solid var(--line-2)"><span>Equipos / workspaces</span><b>{{ fmt(counts.teams) }}</b></div>
+        <div class="kvrow" style="padding: 6px 0; border-bottom: 1px solid var(--line-2)"><span>Repos open source</span><b>{{ fmt(counts.ready) }}</b></div>
+        <div class="kvrow" style="padding: 6px 0; border-bottom: 1px solid var(--line-2)"><span>Bots personales</span><b>{{ fmt(counts.personal) }}</b></div>
+        <div class="kvrow" style="padding: 6px 0; border-bottom: 1px solid var(--line-2)"><span>Equipos</span><b>{{ fmt(counts.teams) }}</b></div>
+        <div class="kvrow" style="padding: 6px 0; border-bottom: 1px solid var(--line-2)"><span>Agentes generales</span><b>{{ fmt(counts.general) }}</b></div>
       </div>
     </div>
 
@@ -86,8 +86,9 @@
       <p class="muted" style="font-size: 14px; max-width: 920px">
         Grok Bot gana porque junta las piezas que casi nadie junta: varios bots con nombre, una computadora
         persistente con navegador y terminal, memoria, skills y rutinas, coordinación entre bots y
-        aprobaciones antes de lo irreversible. Un producto puede ser mejor en una pieza —más barato, más
-        abierto, más privado— pero si le falta la mitad del paquete, no es el listón.
+        aprobaciones antes de lo irreversible. Es cerrado y no entra al ranking; los repos open source se
+        miden contra esa lista. Un repo puede ser mejor en una pieza —más barato, más abierto, más privado—
+        pero si le falta la mitad del paquete, no es el listón.
       </p>
       <a href="https://docs.x.ai/grok-bot/overview" target="_blank" rel="noopener" class="btn" style="margin-top: 14px">Ver la documentación oficial de Grok Bot ↗</a>
     </div>
@@ -103,7 +104,7 @@ const counts = radar.counts || {}
 function fmt(n: number) { return new Intl.NumberFormat('es-PE').format(n || 0) }
 
 useHead({
-  title: 'Metodología: cómo se califica cada agente contra Grok Bot',
-  meta: [{ name: 'description', content: 'Rúbrica de 8 dimensiones, 8 piezas del ADN Grok Bot y tiers. Solo productos finales: frameworks como LangChain quedan fuera del ranking.' }]
+  title: 'Metodología: cómo se califica cada repo open source contra Grok Bot',
+  meta: [{ name: 'description', content: 'Rúbrica de 8 dimensiones, 8 piezas del ADN Grok Bot y tiers. Solo repos open source; productos cerrados y frameworks quedan fuera del ranking.' }]
 })
 </script>

@@ -13,8 +13,8 @@
       <input
         ref="input"
         v-model="query"
-        :placeholder="selected ? selected.full_name : 'Busca el producto…'"
-        aria-label="Buscar producto"
+        :placeholder="selected ? selected.full_name : 'Busca el repo…'"
+        aria-label="Buscar repo"
         @focus="open = true"
         @input="open = true"
         @keydown.down.prevent="move(1)"

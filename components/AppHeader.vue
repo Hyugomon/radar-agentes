@@ -5,7 +5,7 @@
         <span class="brand__mark">◎</span>
         <span>
           Radar de Agentes IA
-          <small>productos, no frameworks · 2026</small>
+          <small>solo open source · 2026</small>
         </span>
       </NuxtLink>
 

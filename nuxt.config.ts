@@ -9,7 +9,7 @@ export default defineNuxtConfig({
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'theme-color', content: '#f7f8fb' },
-        { name: 'description', content: 'Ranking de productos de IA medidos contra Grok Bot: bots con computadora, memoria, rutinas y aprobaciones. Sin frameworks, con la cuenta a la vista.' },
+        { name: 'description', content: 'Ranking de repos open source medidos contra Grok Bot: identidad, computadora, memoria, rutinas y aprobaciones. Sin frameworks ni productos cerrados.' },
         { property: 'og:site_name', content: 'Radar de Agentes IA' },
         { property: 'og:type', content: 'website' },
         { name: 'twitter:card', content: 'summary_large_image' }

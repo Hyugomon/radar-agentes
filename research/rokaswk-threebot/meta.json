@@ -1,0 +1,23 @@
+{
+  "full_name": "RokaSwK/threebot",
+  "html_url": "https://github.com/RokaSwK/threebot",
+  "description": "Your Bot is a T3 thread. Personal agents on T3 Code, on your own subscriptions.",
+  "homepage": "https://bot.swk.tools/",
+  "license": "MIT",
+  "language": "TypeScript",
+  "stars": 38,
+  "forks": 6,
+  "open_issues": 3,
+  "pushed_at": "2026-11-11T13:08:21Z",
+  "created_at": "2026-11-02T00:17:37Z",
+  "topics": [
+    "ai-agents",
+    "personal-agent",
+    "pwa",
+    "self-hosted",
+    "t3code"
+  ],
+  "archived": false,
+  "api_status": 200,
+  "fetched_at": "2026-11-12"
+}

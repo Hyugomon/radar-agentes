@@ -13,6 +13,7 @@ export interface AgentRow {
   website: string
   repo: string | null
   docs: string | null
+  researchUrl?: string
   category: string
   catLabel: string
   licenseType: string
@@ -203,10 +204,12 @@ function buildPayload(rows: AgentRow[], dbMeta: any): RadarPayload {
     meta,
     counts: {
       ready: sorted.length,
-      open: sorted.filter(r => r.licenseType === 'Open source').length,
-      hosted: sorted.filter(r => r.licenseType === 'Comercial').length,
+      open: sorted.length,
+      personal: sorted.filter(r => r.category === 'personal').length,
       teams: sorted.filter(r => r.category === 'teams').length,
-      reference: sorted.filter(r => r.reference).length
+      general: sorted.filter(r => r.category === 'general').length,
+      hosted: 0,
+      reference: 0
     },
     pending: 0,
     total_repos: sorted.length,
@@ -215,7 +218,7 @@ function buildPayload(rows: AgentRow[], dbMeta: any): RadarPayload {
   }
 }
 
-/** Catálogo de productos desde InsForge; si falla, usa el snapshot de data/agents.json. */
+/** Catálogo de repos open source desde InsForge; si falla, usa el snapshot de data/agents.json. */
 export async function getRadar(): Promise<RadarPayload> {
   if (cache && Date.now() - cache.at < TTL) return cache.data
   const db = await fromInsForge()

@@ -151,6 +151,15 @@ await upsert('radar_products', products, 'slug')
 await upsert('radar_catalog_meta', [meta], 'id')
 
 if (!dry) {
+  // Quita productos que ya no están en el catálogo (p. ej. los comerciales de la versión anterior).
+  const existingProducts = await request('/api/database/records/radar_products?select=slug')
+  const keep = new Set(products.map(p => p.slug))
+  const stale = (existingProducts || []).filter(p => !keep.has(p.slug))
+  for (const p of stale) {
+    await request(`/api/database/records/radar_products?slug=eq.${encodeURIComponent(p.slug)}`, { method: 'DELETE' })
+  }
+  if (stale.length) console.log(`OK radar_products: ${stale.length} filas fuera del catálogo eliminadas`)
+
   // Las fuentes se reemplazan para no dejar URLs viejas.
   await request('/api/database/records/radar_product_sources', { method: 'DELETE' })
   await upsert('radar_product_sources', sources, 'product_slug,url')

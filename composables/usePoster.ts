@@ -146,7 +146,7 @@ export function usePoster() {
     g.textAlign = 'center'
     g.fillStyle = '#7b879c'
     g.font = `600 17px ${fam}`
-    g.fillText('Veredicto contra el listón de Grok Bot · 8 dimensiones y ADN · Radar de Agentes IA', W / 2, 1300)
+    g.fillText('Veredicto contra el listón de Grok Bot · repos open source · Radar de Agentes IA', W / 2, 1300)
     g.textAlign = 'left'
 
     return c

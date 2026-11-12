@@ -3,12 +3,12 @@
     <section class="hero container">
       <div class="hero__grid">
         <div>
-          <span class="eyebrow">◎ Radar 2026 · productos, no frameworks</span>
-          <h1>Los agentes que <em>de verdad</em> trabajan por ti</h1>
+          <span class="eyebrow">◎ Radar 2026 · solo open source</span>
+          <h1>Los agentes open source que <em>de verdad</em> trabajan por ti</h1>
           <p class="lead">
-            Un ranking de <b>bots y asistentes que puedes usar hoy</b>, no de librerías para construirlos.
-            El listón es <b>Grok Bot</b>: identidad propia, computadora, memoria, rutinas y aprobaciones.
-            Aquí ves qué tan cerca está cada alternativa y qué le falta.
+            Un ranking de <b>repos open source</b> que puedes instalar o autoalojar. El listón es
+            <b>Grok Bot</b>, un producto cerrado: identidad propia, computadora, memoria, rutinas y
+            aprobaciones. Aquí ves qué tan cerca está cada repo y qué le falta.
           </p>
           <div class="hero__cta">
             <a href="#ranking" class="btn btn--primary">Ver el ranking</a>
@@ -16,35 +16,35 @@
             <NuxtLink to="/metodologia" class="btn btn--ghost">Cómo se califica</NuxtLink>
           </div>
           <div class="hero__proof">
-            <span><b>{{ counts.ready || 0 }}</b> productos</span>
-            <span><b>{{ counts.open || 0 }}</b> open source</span>
-            <span><b>{{ counts.hosted || 0 }}</b> comerciales</span>
-            <span><b>{{ topTiers }}</b> en SS/S</span>
+            <span><b>{{ counts.ready || 0 }}</b> repos</span>
+            <span><b>{{ counts.personal || 0 }}</b> bots personales</span>
+            <span><b>{{ counts.teams || 0 }}</b> equipos</span>
+            <span><b>{{ topTiers }}</b> en S</span>
           </div>
         </div>
 
-        <aside v-if="benchmark" class="benchmark">
-          <div class="benchmark__eyebrow">EL LISTÓN · {{ benchmark.total.toFixed(1) }}/100</div>
+        <aside v-if="reference" class="benchmark">
+          <div class="benchmark__eyebrow">EL LISTÓN · {{ reference.score }}/100</div>
           <div class="benchmark__top">
             <span class="benchmark__avatar">GB</span>
             <div style="min-width: 0">
-              <b>{{ benchmark.full_name }}</b>
-              <small>{{ benchmark.maker }} · bots con computadora</small>
+              <b>{{ reference.name }}</b>
+              <small>{{ reference.maker }} · producto cerrado</small>
             </div>
             <span class="tier tier--SS">SS</span>
           </div>
           <p class="benchmark__text">
-            Varios bots con nombre que comparten una computadora en la nube, con memoria, skills,
-            rutinas y aprobaciones. Todo lo demás se mide contra esto.
+            No compite: es el estándar. Varios bots con nombre que comparten una computadora,
+            memoria, skills, rutinas y aprobaciones. Todo lo demás se mide contra esto.
           </p>
           <ul class="benchmark__list">
-            <li v-for="p in benchmarkChecks" :key="p.key" :class="{ off: !p.on }">
-              <span>{{ p.on ? '✓' : '✕' }}</span>{{ p.label }}
+            <li v-for="p in meta.pillars" :key="p.key">
+              <span>✓</span>{{ p.label }}
             </li>
           </ul>
-          <NuxtLink :to="`/agente/${benchmark.slug}`" class="btn btn--ghost btn--sm" style="width: 100%; justify-content: center">
-            Ver por qué es el listón →
-          </NuxtLink>
+          <a :href="reference.url" target="_blank" rel="noopener" class="btn btn--ghost btn--sm" style="width: 100%; justify-content: center">
+            Ver la documentación oficial ↗
+          </a>
         </aside>
       </div>
     </section>
@@ -52,16 +52,17 @@
     <section class="container" style="padding-top: 8px">
       <div class="manifesto">
         <div>
-          <span class="eyebrow">SIN FRAMEWORKS</span>
-          <h2>Ranking de productos, no de librerías</h2>
+          <span class="eyebrow">SOLO OPEN SOURCE</span>
+          <h2>Repos open source, no frameworks ni productos cerrados</h2>
           <p>
-            LangChain, LangGraph, CrewAI, AutoGen, SDKs y runtimes <b>no entran</b>: no son agentes
-            que puedas usar, son piezas para construir agentes. Aquí solo hay bots, asistentes y
-            workspaces que puedes contratar o instalar hoy.
+            Grok Bot, Dots, Muse o Cue son la referencia de lo que debe hacer un agente, pero
+            <b>no entran</b>: son cerrados. LangChain, LangGraph, CrewAI, AutoGen, SDKs y runtimes
+            tampoco: no son agentes finales. Aquí solo hay repos que puedes instalar, auditar y autoalojar.
           </p>
         </div>
         <div class="manifesto__badges">
-          <span class="tag tag--warn">Fuera del ranking</span>
+          <span class="tag tag--warn">Grok Bot: referencia cerrada</span>
+          <span class="tag">Fuera del ranking</span>
           <span v-for="x in meta.excluded.slice(0, 8)" :key="x" class="tag">{{ x }}</span>
         </div>
       </div>
@@ -74,7 +75,7 @@
             <span class="eyebrow">SHORTLIST</span>
             <h2>Si quieres lo más parecido a Grok Bot</h2>
           </div>
-          <p class="muted">Cuatro atajos según lo que busques: producto comercial, open source, móvil o equipo.</p>
+          <p class="muted">Cuatro atajos entre los repos open source del ranking.</p>
         </div>
         <div class="shortlist__grid">
           <NuxtLink
@@ -91,7 +92,7 @@
             <p>{{ pick.agent.tagline }}</p>
             <div class="shortlist__bottom">
               <span class="shortlist__score">{{ pick.agent.total.toFixed(1) }}<small>/100</small></span>
-              <span class="tiny">{{ pick.agent.priceLabel }} · {{ pick.agent.setupLabel }}</span>
+              <span class="tiny">{{ pick.agent.license }} · {{ pick.agent.setupLabel }}</span>
             </div>
           </NuxtLink>
         </div>
@@ -103,7 +104,7 @@
         <div class="panel__head">
           <div>
             <span class="eyebrow">RANKING 2026</span>
-            <h2 style="font-size: 20px; margin-top: 8px">Agentes que puedes usar hoy</h2>
+            <h2 style="font-size: 20px; margin-top: 8px">Repos open source que puedes instalar hoy</h2>
           </div>
           <div class="spacer" />
           <div class="chips">
@@ -124,7 +125,7 @@
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" />
             </svg>
-            <input v-model="q" type="search" placeholder="Buscar producto, maker, plataforma…" />
+            <input v-model="q" type="search" placeholder="Buscar repo, maker, licencia…" />
           </label>
           <div class="chips">
             <button
@@ -155,8 +156,7 @@
                 <td>
                   <div class="repo-name">
                     {{ a.full_name }}
-                    <span v-if="a.reference" class="tag tag--gold">Listón</span>
-                    <span v-else class="tag">{{ a.catLabel }}</span>
+                    <span class="tag">{{ a.catLabel }}</span>
                   </div>
                   <div class="repo-desc">{{ a.tagline }} — {{ a.summary }}</div>
                   <div class="dims" :title="dimTitle(a)">
@@ -166,22 +166,22 @@
                 <td class="num score-cell"><b>{{ a.total.toFixed(1) }}</b><div class="tiny">Grok Score</div></td>
                 <td class="num">{{ Math.round(a.agency) }}</td>
                 <td>
-                  <span class="tag">{{ a.priceLabel }}</span>
-                  <div class="tiny">{{ a.priceNote }}</div>
+                  <span class="tag">{{ a.license || '—' }}</span>
+                  <div class="tiny">Open source</div>
                 </td>
                 <td>{{ a.setupLabel }}</td>
                 <td class="num deltatier">{{ a.next_tier ? `+${a.delta_next.toFixed(1)} → ${a.next_tier}` : '—' }}</td>
               </tr>
               <tr v-if="!visible.length">
-                <td colspan="8" class="empty">Ningún producto coincide con el filtro.</td>
+                <td colspan="8" class="empty">Ningún repo coincide con el filtro.</td>
               </tr>
             </tbody>
           </table>
         </div>
       </div>
       <p class="tiny" style="margin: 12px 2px 0">
-        {{ visible.length }} de {{ counts.ready || 0 }} productos · Orden por Grok Score; el ADN desempata.
-        Haz clic en una fila para ver la ficha completa y las fuentes.
+        {{ visible.length }} de {{ counts.ready || 0 }} repos open source · Orden por Grok Score; el ADN desempata.
+        Haz clic en una fila para ver la ficha completa, las fuentes y el dossier.
       </p>
     </section>
 
@@ -213,18 +213,16 @@ const counts = computed(() => radar.counts || {})
 const meta = radar.meta
 const dims = meta.dimensions
 const ready = computed(() => (radar.groups.ready || []) as any[])
-const benchmark = computed(() => ready.value.find(a => a.reference))
-const benchmarkChecks = computed(() => meta.pillars.map((p: any) => ({ ...p, on: !!benchmark.value?.pillars?.[p.key] })))
+const reference = computed(() => meta.reference)
 const topTiers = computed(() => ready.value.filter(a => ['SS', 'S'].includes(a.tier)).length)
 
 useState('radar-generated', () => radar.generated_at)
 
 const filters = [
   { key: 'ALL', label: 'Todos' },
-  { key: 'COMERCIAL', label: 'Comerciales' },
-  { key: 'OPEN', label: 'Open source' },
-  { key: 'ASISTENTES', label: 'Asistentes' },
-  { key: 'EQUIPOS', label: 'Equipos' }
+  { key: 'PERSONAL', label: 'Bots personales' },
+  { key: 'TEAMS', label: 'Equipos' },
+  { key: 'GENERAL', label: 'Agentes generales' }
 ]
 const filter = ref('ALL')
 const q = ref('')
@@ -235,10 +233,10 @@ const selected = ref('')
 
 const shortlist = computed(() => {
   const picks = [
-    { slug: 'openai-dots', label: 'Mejor comercial' },
-    { slug: 'mausbot', label: 'Mejor open source' },
-    { slug: 'cue', label: 'Mejor móvil' },
-    { slug: 'kylon', label: 'Mejor para equipos' }
+    { slug: 'milind-soni-openmausbot', label: 'El más cercano a Grok Bot' },
+    { slug: 'leepokai-codync', label: 'Mejor desde el móvil' },
+    { slug: 'anil-matcha-open-duet', label: 'Mejor equipo' },
+    { slug: 'nanocoai-nanoclaw', label: 'Mejor aislamiento' }
   ]
   return picks
     .map(pick => ({ ...pick, agent: ready.value.find(a => a.slug === pick.slug) }))
@@ -248,10 +246,10 @@ const shortlist = computed(() => {
 const columns = [
   { key: 'rank', label: '#' },
   { key: 'tier', label: 'Tier' },
-  { key: 'full_name', label: 'Agente' },
+  { key: 'full_name', label: 'Repo' },
   { key: 'total', label: 'Grok Score' },
   { key: 'agency', label: 'ADN' },
-  { key: 'priceLabel', label: 'Precio' },
+  { key: 'license', label: 'Licencia' },
   { key: 'setupLabel', label: 'Setup' },
   { key: 'delta_next', label: 'Le falta' }
 ]
@@ -262,10 +260,9 @@ function setSort(key: string) {
 }
 
 function matchesFilter(a: any) {
-  if (filter.value === 'COMERCIAL') return a.licenseType === 'Comercial'
-  if (filter.value === 'OPEN') return a.licenseType === 'Open source'
-  if (filter.value === 'ASISTENTES') return a.kind === 'assistant'
-  if (filter.value === 'EQUIPOS') return a.category === 'teams'
+  if (filter.value === 'PERSONAL') return a.category === 'personal'
+  if (filter.value === 'TEAMS') return a.category === 'teams'
+  if (filter.value === 'GENERAL') return a.category === 'general'
   return true
 }
 
@@ -276,7 +273,7 @@ const visible = computed(() => {
     if (!matchesFilter(a)) return false
     if (tier.value !== 'ALL' && a.tier !== tier.value) return false
     if (!needle) return true
-    return [a.full_name, a.summary, a.tagline, a.maker, a.catLabel, a.models, a.platforms?.join(' ')]
+    return [a.full_name, a.repo, a.summary, a.tagline, a.maker, a.catLabel, a.license, a.models, a.platforms?.join(' ')]
       .join(' ').toLowerCase().includes(needle)
   })
   return filtered.sort((a, b) => {
@@ -293,9 +290,9 @@ function dimTitle(a: any) {
 function open(slug: string) { selected.value = slug }
 
 useHead({
-  title: 'Ranking de agentes y bots de IA que trabajan por ti',
+  title: 'Ranking de agentes open source que trabajan por ti',
   meta: [
-    { name: 'description', content: `Ranking de ${counts.value.ready} productos de IA medidos contra Grok Bot: bots con computadora, memoria, rutinas y aprobaciones. Sin frameworks.` }
+    { name: 'description', content: `Ranking de ${counts.value.ready} repos open source medidos contra Grok Bot: identidad, computadora, memoria, rutinas y aprobaciones. Sin frameworks ni productos cerrados.` }
   ],
   script: [
     {

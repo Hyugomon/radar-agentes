@@ -19,6 +19,7 @@
           <div style="display: flex; gap: 6px; flex-wrap: wrap">
             <a v-if="data.agent.website" class="tag" :href="data.agent.website" target="_blank" rel="noopener">Web ↗</a>
             <a v-if="data.agent.repo" class="tag" :href="data.agent.repo" target="_blank" rel="noopener">Repo ↗</a>
+            <a v-if="data.agent.researchUrl" class="tag" :href="data.agent.researchUrl" target="_blank" rel="noopener">Dossier ↗</a>
             <NuxtLink class="tag" :to="`/agente/${data.agent.slug}`" @click="$emit('close')">Ficha completa →</NuxtLink>
             <NuxtLink class="tag" :to="`/versus?retador=${data.agent.slug}`" @click="$emit('close')">⚔️ Versus</NuxtLink>
           </div>

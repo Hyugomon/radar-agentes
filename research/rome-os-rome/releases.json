@@ -1,0 +1,27 @@
+[
+  {
+    "tag": "Rome v1.1.192",
+    "date": "2026-11-11",
+    "url": "https://github.com/rome-os/rome/releases/tag/v1.1.192"
+  },
+  {
+    "tag": "v1.1.191",
+    "date": "2026-11-11",
+    "url": "https://github.com/rome-os/rome/releases/tag/v1.1.191"
+  },
+  {
+    "tag": "ui: v0.3.10",
+    "date": "2026-11-11",
+    "url": "https://github.com/rome-os/rome/releases/tag/ui-v0.3.10"
+  },
+  {
+    "tag": "rome-web-components: v0.1.26",
+    "date": "2026-11-11",
+    "url": "https://github.com/rome-os/rome/releases/tag/rome-web-components-v0.1.26"
+  },
+  {
+    "tag": "node: v0.1.10",
+    "date": "2026-11-11",
+    "url": "https://github.com/rome-os/rome/releases/tag/node-v0.1.10"
+  }
+]

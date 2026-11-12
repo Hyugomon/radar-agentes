@@ -60,7 +60,7 @@
       <div class="callout" style="margin-top: 10px">
         {{ agent.pillars_detail.filter(p => p.on).length }} de {{ agent.pillars_detail.length }} piezas ·
         <b>ADN {{ Math.round(agent.agency) }}</b>
-        {{ agent.agency >= 85 ? '· bot completo, al nivel del listón' : agent.agency >= 65 ? '· bot persistente con piezas claras' : '· más asistente que bot autónomo' }}
+        {{ agent.agency >= 85 ? '· bot persistente muy completo' : agent.agency >= 65 ? '· bot persistente con piezas claras' : '· más asistente que bot autónomo' }}
       </div>
     </div>
 
@@ -82,7 +82,7 @@
     </div>
 
     <div class="block">
-      <h3>Ficha del producto</h3>
+      <h3>Ficha del repo open source</h3>
       <div class="datagrid">
         <div><span>Maker</span><b>{{ agent.maker }}</b></div>
         <div><span>Precio</span><b>{{ agent.priceLabel }}</b></div>

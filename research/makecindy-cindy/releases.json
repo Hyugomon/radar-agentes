@@ -1,0 +1,27 @@
+[
+  {
+    "tag": "v0.1.133",
+    "date": "2026-11-11",
+    "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.133"
+  },
+  {
+    "tag": "v0.1.133-beta: test(plugin): 等待列表回归的滚动结束回调",
+    "date": "2026-11-11",
+    "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.133-beta"
+  },
+  {
+    "tag": "v0.1.130",
+    "date": "2026-11-10",
+    "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.130"
+  },
+  {
+    "tag": "v0.1.130-beta: fix(models): preserve native subscription feature flag discovery",
+    "date": "2026-11-09",
+    "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.130-beta"
+  },
+  {
+    "tag": "v0.1.128",
+    "date": "2026-11-06",
+    "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.128"
+  }
+]

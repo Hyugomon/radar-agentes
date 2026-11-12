@@ -1,0 +1,27 @@
+[
+  {
+    "tag": "Mercury v1.5.1",
+    "date": "2026-11-03",
+    "url": "https://github.com/cosmicstack-labs/mercury-agent/releases/tag/v1.5.1"
+  },
+  {
+    "tag": "Mercury v1.5.0",
+    "date": "2026-11-03",
+    "url": "https://github.com/cosmicstack-labs/mercury-agent/releases/tag/v1.5.0"
+  },
+  {
+    "tag": "Optimus 0.5.1 (plugin update)",
+    "date": "2026-11-03",
+    "url": "https://github.com/cosmicstack-labs/mercury-agent/releases/tag/optimus-v0.5.1"
+  },
+  {
+    "tag": "Mercury Dev — 1.4.2-dev.20261102.3418788",
+    "date": "2026-11-02",
+    "url": "https://github.com/cosmicstack-labs/mercury-agent/releases/tag/mercury-dev-latest"
+  },
+  {
+    "tag": "WhatsApp 0.1.2 (plugin update)",
+    "date": "2026-10-30",
+    "url": "https://github.com/cosmicstack-labs/mercury-agent/releases/tag/whatsapp-v0.1.2"
+  }
+]
