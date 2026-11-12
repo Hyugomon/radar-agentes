@@ -3,8 +3,8 @@
     <span class="eyebrow">⚔️ Modo versus</span>
     <h1 style="font-size: clamp(32px, 4vw, 46px); margin: 16px 0 10px">Ponlos cara a cara</h1>
     <p class="muted" style="font-size: 16px; max-width: 720px">
-      Elige dos agentes y deja que se peleen dimensión por dimensión. Gana el que más puntos tiene;
-      si empatan, decide la agencia y luego las estrellas. Todo con los números reales del veredicto.
+      Elige dos productos y deja que se peleen dimensión por dimensión. Gana el que más Grok Score tiene;
+      si empatan, decide el ADN y luego la dimensión de producto. Todo con los números reales del veredicto.
     </p>
 
     <div class="panel" style="padding: 22px; margin-top: 22px">
@@ -146,6 +146,6 @@ onMounted(() => {
 
 useHead({
   title: 'Versus: compara dos agentes de IA cara a cara',
-  meta: [{ name: 'description', content: 'Duelo animado entre dos agentes: 7 dimensiones, 8 pilares y tarjeta para compartir. Con los números reales del radar.' }]
+  meta: [{ name: 'description', content: 'Duelo animado entre dos productos de IA: 8 dimensiones, ADN Grok Bot y tarjeta para compartir. Con los números reales del radar.' }]
 })
 </script>

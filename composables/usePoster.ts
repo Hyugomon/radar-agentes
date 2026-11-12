@@ -52,7 +52,6 @@ export function usePoster() {
     let winner: 'a' | 'b' | null = null
     if (Math.abs(a.total - b.total) > 0.049) winner = a.total > b.total ? 'a' : 'b'
     else if (a.agency !== b.agency) winner = a.agency > b.agency ? 'a' : 'b'
-
     const wrap = (text: string, x: number, y: number, maxW: number, lh: number, align: CanvasTextAlign) => {
       g.textAlign = align
       const words = String(text).split(' ')
@@ -74,8 +73,8 @@ export function usePoster() {
 
     g.fillStyle = '#7b879c'
     g.font = `700 18px ${fam}`
-    g.fillText('PUNTOS IA', 64, 512)
-    g.textAlign = 'right'; g.fillText('PUNTOS IA', 1016, 512); g.textAlign = 'left'
+    g.fillText('GROK SCORE', 64, 512)
+    g.textAlign = 'right'; g.fillText('GROK SCORE', 1016, 512); g.textAlign = 'left'
 
     g.font = `900 104px ${fam}`
     g.fillStyle = '#1d4ed8'; g.fillText(a.total.toFixed(1), 60, 606)
@@ -83,9 +82,9 @@ export function usePoster() {
 
     g.fillStyle = '#0d1526'
     g.font = `700 23px ${fam}`
-    g.fillText(`Tier ${a.tier} · agencia ${Math.round(a.agency)} · ${a.confidence}/100 conf.`, 64, 652)
+    g.fillText(`Tier ${a.tier} · ADN ${Math.round(a.agency)} · ${a.confidence}/100 conf.`, 64, 652)
     g.textAlign = 'right'
-    g.fillText(`Tier ${b.tier} · agencia ${Math.round(b.agency)} · ${b.confidence}/100 conf.`, 1016, 652)
+    g.fillText(`Tier ${b.tier} · ADN ${Math.round(b.agency)} · ${b.confidence}/100 conf.`, 1016, 652)
     g.textAlign = 'left'
 
     g.fillStyle = '#ffffff'
@@ -96,7 +95,7 @@ export function usePoster() {
 
     const trackW = 300
     rows.forEach((r, i) => {
-      const y = 790 + i * 34
+      const y = 780 + i * 30
       const awin = r.av > r.bv
       const bwin = r.bv > r.av
       g.textAlign = 'right'
@@ -135,26 +134,26 @@ export function usePoster() {
     g.globalAlpha = 0.94
     g.font = `600 22px ${fam}`
     const sub = winner
-      ? `por ${Math.abs(a.total - b.total).toFixed(1)} pts · ${winner === 'a' ? aw : bw} de 7 dimensiones · ${fmt(a.stars)} vs ${fmt(b.stars)} ⭐`
-      : `mismos puntos · agencia ${Math.round(a.agency)} vs ${Math.round(b.agency)}`
+      ? `por ${Math.abs(a.total - b.total).toFixed(1)} pts · ${winner === 'a' ? aw : bw} de ${rows.length} dimensiones · ADN ${Math.round(a.agency)} vs ${Math.round(b.agency)}`
+      : `mismos puntos · ADN ${Math.round(a.agency)} vs ${Math.round(b.agency)}`
     g.fillText(sub, 100, 1150)
     g.globalAlpha = 1
 
     g.fillStyle = '#5a6b81'
     g.font = `600 19px ${fam}`
-    g.fillText(`github.com/${a.full_name}`, 64, 1250)
-    g.textAlign = 'right'; g.fillText(`github.com/${b.full_name}`, W - 64, 1250)
+    g.fillText(host(a.website), 64, 1250)
+    g.textAlign = 'right'; g.fillText(host(b.website), W - 64, 1250)
     g.textAlign = 'center'
     g.fillStyle = '#7b879c'
     g.font = `600 17px ${fam}`
-    g.fillText('Veredicto individual con rúbrica de 7 dimensiones y 8 pilares · Radar de Agentes IA', W / 2, 1300)
+    g.fillText('Veredicto contra el listón de Grok Bot · 8 dimensiones y ADN · Radar de Agentes IA', W / 2, 1300)
     g.textAlign = 'left'
 
     return c
   }
 
-  function fmt(n: number) {
-    return new Intl.NumberFormat('es-PE').format(n || 0)
+  function host(url: string) {
+    try { return new URL(url).hostname.replace(/^www\./, '') } catch { return url || '' }
   }
 
   function download(a: any, b: any, dims: any[], stamp: string) {

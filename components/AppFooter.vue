@@ -1,9 +1,9 @@
 <template>
   <footer class="site-footer">
     <div class="container">
-      <span><b>Radar de Agentes IA</b> · ranking independiente de agentes que trabajan por ti</span>
+      <span><b>Radar de Agentes IA</b> · ranking de productos medidos contra Grok Bot</span>
       <span style="margin-left:auto">
-        Datos: veredictos individuales con rúbrica de 7 dimensiones · {{ generated }}
+        Datos: catálogo curado de productos · {{ generated }}
       </span>
       <NuxtLink to="/metodologia">Cómo se califica</NuxtLink>
     </div>
@@ -11,5 +11,5 @@
 </template>
 
 <script setup lang="ts">
-const generated = useState('radar-generated', () => '')
+const generated = useState('radar-generated', () => 'nov 2026')
 </script>

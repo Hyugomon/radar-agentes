@@ -9,15 +9,16 @@
             <span class="tier tier--lg" :class="`tier--${data.agent.tier}`">{{ data.agent.tier }}</span>
             <div>
               <h2 style="font-size: 21px; margin: 0">{{ data.agent.full_name }}</h2>
-              <div class="tiny">{{ data.agent.archetype_label }} · {{ data.agent.kind }} · confianza {{ data.agent.confidence }}</div>
+              <div class="tiny">{{ data.agent.maker }} · {{ data.agent.catLabel }} · confianza {{ data.agent.confidence }}</div>
             </div>
             <div style="margin-left: auto; text-align: right">
               <div style="font-size: 24px; font-weight: 900">{{ data.agent.total.toFixed(1) }}</div>
-              <div class="tiny">pts IA</div>
+              <div class="tiny">Grok Score</div>
             </div>
           </div>
           <div style="display: flex; gap: 6px; flex-wrap: wrap">
-            <a class="tag" :href="data.agent.url" target="_blank" rel="noopener">GitHub ↗</a>
+            <a v-if="data.agent.website" class="tag" :href="data.agent.website" target="_blank" rel="noopener">Web ↗</a>
+            <a v-if="data.agent.repo" class="tag" :href="data.agent.repo" target="_blank" rel="noopener">Repo ↗</a>
             <NuxtLink class="tag" :to="`/agente/${data.agent.slug}`" @click="$emit('close')">Ficha completa →</NuxtLink>
             <NuxtLink class="tag" :to="`/versus?retador=${data.agent.slug}`" @click="$emit('close')">⚔️ Versus</NuxtLink>
           </div>

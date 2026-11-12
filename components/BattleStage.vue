@@ -40,7 +40,7 @@
         <div class="a2-name">{{ a.full_name }}</div>
         <div class="a2-score">{{ displayA.toFixed(1) }}<span>pts</span></div>
         <div class="a2-hp"><i :style="{ width: hpA + '%' }" /></div>
-        <div class="a2-sub">#{{ a.rank }} · Tier {{ a.tier }} · agencia {{ Math.round(a.agency) }}</div>
+        <div class="a2-sub">#{{ a.rank }} · Tier {{ a.tier }} · ADN {{ Math.round(a.agency) }}</div>
       </div>
 
       <div class="a2-vs"><span>VS</span></div>
@@ -49,7 +49,7 @@
         <div class="a2-name">{{ b.full_name }}</div>
         <div class="a2-score">{{ displayB.toFixed(1) }}<span>pts</span></div>
         <div class="a2-hp"><i :style="{ width: hpB + '%' }" /></div>
-        <div class="a2-sub">#{{ b.rank }} · Tier {{ b.tier }} · agencia {{ Math.round(b.agency) }}</div>
+        <div class="a2-sub">#{{ b.rank }} · Tier {{ b.tier }} · ADN {{ Math.round(b.agency) }}</div>
       </div>
     </div>
 
@@ -57,7 +57,7 @@
       <b v-if="done">👑 Gana {{ winnerName }} · Tier {{ winnerTier }}</b>
       <span v-if="done">
         por {{ margin.toFixed(1) }} pts · {{ dimsWon }} de {{ rounds.length }} dimensiones ·
-        agencia {{ Math.round(a.agency) }} vs {{ Math.round(b.agency) }}
+        ADN {{ Math.round(a.agency) }} vs {{ Math.round(b.agency) }}
       </span>
     </div>
   </section>
@@ -98,7 +98,9 @@ const rounds = computed(() => [...props.meta.dimensions]
 const winner = computed(() => {
   if (Math.abs(props.a.total - props.b.total) > 0.049) return props.a.total > props.b.total ? 'a' : 'b'
   if (props.a.agency !== props.b.agency) return props.a.agency > props.b.agency ? 'a' : 'b'
-  return props.a.stars > props.b.stars ? 'a' : 'b'
+  const ap = Number(props.a.dimensions?.producto || 0)
+  const bp = Number(props.b.dimensions?.producto || 0)
+  return ap >= bp ? 'a' : 'b'
 })
 const winnerName = computed(() => (winner.value === 'a' ? props.a.full_name : props.b.full_name))
 const winnerTier = computed(() => (winner.value === 'a' ? props.a.tier : props.b.tier))

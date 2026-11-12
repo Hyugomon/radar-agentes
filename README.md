@@ -1,55 +1,78 @@
 # Radar de Agentes IA — web
 
-Ranking público de agentes de IA. Cada repositorio se evalúa **uno por uno** y la web muestra el
-veredicto, la cuenta que lo produce y el modo versus.
+Ranking de **productos** de IA, no de repositorios ni frameworks. Cada agente, bot o workspace se
+mide contra el listón de **Grok Bot**: identidad propia, computadora, memoria, rutinas, apps reales,
+coordinación y aprobaciones. Frameworks como LangChain, LangGraph, CrewAI o AutoGen quedan fuera.
 
 - **Stack**: Nuxt 4.6 (Vue 3.5, Nitro, Vite 8) · TypeScript · CSS propio (sin dependencias de UI).
 - **Versus 2D**: `animejs` 4.5 (timeline, springs, offsets) sobre SVG/CSS, inline en la misma página.
-  Sin escena 3D ni overlay: la batalla ocurre en el hueco del panel, junto a los selectores.
-- **Datos**: tabla `public.radar_agents` en InsForge (Postgres + PostgREST), con RLS de solo lectura
-  para el rol `anon`. El sitio lee con la clave anónima; solo el pipeline de Python escribe.
+- **Datos**: InsForge (Postgres + PostgREST). La web lee `radar_products` y `radar_catalog_meta`
+  con la clave anónima; si la BD falla, cae al snapshot `data/agents.json`.
 - **Hosting**: Coolify en el VPS (build con `Dockerfile`, Node 24) detrás de Traefik + Let's Encrypt.
 
 ## Rutas
 
 | Ruta | Qué es |
 |---|---|
-| `/` | Ranking con filtros, tabla y ficha lateral |
-| `/agente/[slug]` | Ficha completa (SSR, indexable) |
+| `/` | Ranking de productos, shortlist, filtros y ficha lateral |
+| `/agente/[slug]` | Ficha completa (SSR, indexable) con fuentes |
 | `/versus` | Selector con buscador + batalla animada + tarjeta PNG |
-| `/metodologia` | Rúbrica, pesos, tiers y límites |
+| `/metodologia` | Rúbrica, ADN Grok Bot, tiers, límites y qué queda fuera |
 | `/sitemap.xml`, `/robots.txt` | SEO |
+
+## Esquema de datos (InsForge)
+
+La tabla antigua `radar_agents` (un JSON por repositorio) queda como legado y **no se usa** en este
+ranking. El catálogo nuevo vive en:
+
+| Tabla | Para qué |
+|---|---|
+| `radar_catalog_meta` | Una fila (`id = 'main'`) con dimensiones, pilares, tiers, calibración, límites, referencia y reglas |
+| `radar_products` | Un producto por fila: identidad, maker, precios, setup, plataformas, scores, ADN, payload completo y `published` |
+| `radar_product_sources` | Fuentes oficiales por producto (`product_slug`, `label`, `url`, `checked_at`) |
+| `radar_product_revisions` | Historial de cada revisión: score, tier, ADN, dimensiones, pilares y payload |
+| `radar_analysis_jobs` | Cola privada del pipeline: `queued/running/done/failed`, prioridad, modelo, fuentes y resultado |
+
+Columnas pensadas para filtrar sin abrir el JSON: `category`, `license_type`, `pricing`, `setup`,
+`maturity`, `tier`, `total`, `agency`, `confidence`, `is_reference`, `published`, `reviewed_at`.
+El campo `payload` conserva la ficha completa que consume la web.
+
+RLS: lectura pública solo de productos publicados y metadatos; las escrituras se hacen con la
+`INSFORGE_API_KEY` desde el script de sincronización, nunca desde el navegador. El DDL reproducible
+está en `db/001_radar_products.sql`.
+
+## Scripts
+
+```bash
+# 1) Regenerar el snapshot local y recalcular scores/ranks
+node scripts/build-products.mjs
+
+# 2) Subir el catálogo a InsForge (requiere la project admin key)
+INSFORGE_URL=https://insforge.amaqon.cloud \
+INSFORGE_API_KEY=ik_... \
+node scripts/sync-insforge.mjs
+```
+
+`scripts/sync-insforge.mjs` hace upsert de productos y metadatos, reemplaza fuentes e inserta una
+revisión nueva por producto si cambió la fecha de revisión. `--dry` muestra lo que haría.
 
 ## Variables de entorno
 
-```
+```bash
 INSFORGE_URL=https://insforge.amaqon.cloud
-INSFORGE_ANON_KEY=<jwt anónimo, solo lectura>
-NUXT_PUBLIC_SITE_URL=https://radar.amaqon.cloud
+INSFORGE_ANON_KEY=anon_...          # lectura pública (o JWT con role anon)
+# INSFORGE_API_KEY=ik_...           # solo para scripts de escritura
+NUXT_PUBLIC_SITE_URL=https://radar-agentes.72.60.159.20.sslip.io
 ```
 
-Sin `INSFORGE_URL` la app cae al snapshot `data/agents.json` (generado con
-`python ../scripts/export_web.py`), así que también funciona offline.
-
-## Datos
-
-1. El pipeline local (`radar.py sync / dossiers / apply / rank`) llena `data/radar.db` (SQLite).
-2. `python scripts/export_web.py` genera `web/data/agents.json`.
-3. `python scripts/make_seed.py` + `bulk-upsert` de InsForge publican las filas en `radar_agents`.
-4. La web lee de Postgres. Un `update` en la tabla se refleja en ≤60 s (caché en memoria del servidor).
+Sin `INSFORGE_URL`/`INSFORGE_ANON_KEY` la app funciona con el snapshot local. El dominio
+`radar.amaqon.cloud` sigue pendiente de registro A; mientras tanto el canonical apunta al host de
+Coolify. Cuando exista el dominio, basta cambiarlo en Coolify y volver a desplegar.
 
 ## Deploy
 
-```
+```bash
 git push origin main        # Coolify despliega con el webhook
 ```
 
-La app se creó en Coolify: proyecto `Radar Agentes IA` (rq35j3ph76pt5ffuu4xongop),
-aplicación `radar-agentes` (qounqlrwueb9zixwhjw5bpb8), servidor 72.60.159.20.
-
-## Pendiente
-
-- Apuntar `radar.amaqon.cloud` → `72.60.159.20` (registro A). La API de Hostinger respondía 530
-  el día del deploy, así que quedó publicado con la URL temporal
-  `https://radar-agentes.72.60.159.20.sslip.io`. En cuanto exista el registro, basta actualizar el
-  dominio en Coolify y volver a desplegar para que emita el certificado.
+Aplicación Coolify: `radar-agentes` (`qounqlrwueb9zixwhjw5bpb8`), servidor `72.60.159.20`.

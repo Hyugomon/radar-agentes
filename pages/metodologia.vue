@@ -1,34 +1,42 @@
 <template>
   <div class="container" style="padding-top: 40px">
-    <h1 style="font-size: 38px; max-width: 900px">Cómo se califica cada repositorio</h1>
-    <p class="muted" style="font-size: 16px; max-width: 820px; margin-top: 12px">
-      No hay una fórmula que ordene repositorios entre sí: hay <b>un juez que evalúa uno por uno</b> y deja
-      un veredicto con notas. El panel no recalcula nada: muestra ese veredicto y su aritmética.
+    <span class="eyebrow">METODOLOGÍA · 2026</span>
+    <h1 style="font-size: 38px; max-width: 980px; margin-top: 14px">Cómo se califica: el listón es Grok Bot</h1>
+    <p class="muted" style="font-size: 16px; max-width: 860px; margin-top: 12px">
+      Esto no es un ranking de repositorios ni de frameworks. Es un ranking de <b>productos que puedes usar
+      hoy</b>. Grok Bot define el estándar: bots con identidad, computadora propia, memoria, rutinas, apps
+      reales, coordinación y aprobaciones. Cada producto se mide contra esa lista, no contra una fórmula que
+      mezcle peras con manzanas.
     </p>
 
     <div class="grid-2" style="margin-top: 26px">
       <div class="panel" style="padding: 22px 24px">
-        <h2 style="font-size: 16px; margin-bottom: 12px">El circuito</h2>
+        <h2 style="font-size: 16px; margin-bottom: 10px">Qué entra y qué no</h2>
+        <div class="callout" style="margin-bottom: 14px">
+          <b>Entra:</b> agentes, bots, asistentes y workspaces que una persona puede contratar o instalar
+          como producto final.
+        </div>
+        <div class="callout callout--warn" style="margin-bottom: 14px">
+          <b>No entra:</b> frameworks, SDKs, runtimes e infraestructura. LangChain, LangGraph, CrewAI,
+          AutoGen, OpenAI Agents SDK y compañía no son agentes: son piezas para construirlos. Pueden ser
+          excelentes, pero no compiten en este ranking.
+        </div>
+        <div class="manifesto__badges" style="justify-content: flex-start; max-width: none">
+          <span v-for="x in meta.excluded" :key="x" class="tag">{{ x }}</span>
+        </div>
+
+        <h2 style="font-size: 16px; margin: 22px 0 10px">El circuito</h2>
         <ol style="margin: 0; padding-left: 18px; color: var(--ink-2); font-size: 13.5px; line-height: 1.7">
-          <li><b style="color: var(--ink)">Expediente.</b> Metadatos de GitHub: descripción, topics, estrellas, lenguaje, licencia, fechas, extracto del README (2.400 caracteres) y últimas releases.</li>
-          <li><b style="color: var(--ink)">Juez.</b> Un subagente lee ese expediente, clasifica qué es y puntúa 7 dimensiones + 8 pilares.</li>
-          <li><b style="color: var(--ink)">Cálculo.</b> Se validan rangos y se obtienen <b>puntos</b> (dimensiones ponderadas), <b>tier</b> y <b>agencia</b> (suma de pilares).</li>
-          <li><b style="color: var(--ink)">Publicación.</b> Orden por generación, luego puntos, luego estrellas.</li>
+          <li><b style="color: var(--ink)">Ficha.</b> Documentación oficial, web del producto, repo y notas de versión. Sin inventar funciones.</li>
+          <li><b style="color: var(--ink)">Puntuación.</b> 8 dimensiones ponderadas + 8 piezas del ADN Grok Bot.</li>
+          <li><b style="color: var(--ink)">Lectura.</b> Grok Score (0-100) y tier. El ADN desempata; no premia la popularidad.</li>
+          <li><b style="color: var(--ink)">Revisión.</b> Precios, límites y funciones cambian: la fecha de revisión queda en cada ficha.</li>
         </ol>
 
         <h2 style="font-size: 16px; margin: 22px 0 10px">Escalera de tiers</h2>
         <div class="ladder">
           <div v-for="t in meta.tiers" :key="t.name" class="rung"><b>{{ t.name }}</b>≥ {{ t.floor }}</div>
         </div>
-
-        <h2 style="font-size: 16px; margin: 22px 0 10px">Reglas del juez</h2>
-        <ul style="margin: 0; padding-left: 18px; color: var(--ink-2); font-size: 13.5px; line-height: 1.7">
-          <li>Si para usarlo hay que programar, no es un agente.</li>
-          <li>Las estrellas no puntúan: son contexto de adopción.</li>
-          <li>Un CLI o un chat no llega a 90 solo por existir.</li>
-          <li>Proyecto con menos de 30 días: madurez ≤ 45 salvo tests, docs y releases.</li>
-          <li>Evalúa lo que el repositorio es hoy, no lo que fue.</li>
-        </ul>
 
         <h2 style="font-size: 16px; margin: 22px 0 10px">Límites, dicho claro</h2>
         <ul style="margin: 0; padding-left: 18px; color: var(--ink-2); font-size: 13.5px; line-height: 1.7">
@@ -38,7 +46,7 @@
 
       <div class="panel" style="padding: 22px 24px">
         <h2 style="font-size: 16px; margin-bottom: 10px">Dimensiones y pesos</h2>
-        <p class="lede">Capacidad y autonomía pesan 46 % juntas: lo que demuestra que el producto trabaja por ti. Madurez y ecosistema pesan poco a propósito.</p>
+        <p class="lede">Capacidad, autonomía y computadora pesan 45 % juntas: lo que separa un bot que trabaja de un chat con herramientas. Producto pesa 15 % porque la mejor arquitectura no sirve si no puedes usarla.</p>
         <table class="calc">
           <tbody>
             <tr v-for="d in meta.dimensions" :key="d.key">
@@ -48,8 +56,8 @@
           </tbody>
         </table>
 
-        <h2 style="font-size: 16px; margin: 22px 0 10px">Pilares de Grok Bot</h2>
-        <p class="lede">Suman {{ meta.agency_max }}. Se marcan solo con evidencia; ante la duda, falso.</p>
+        <h2 style="font-size: 16px; margin: 22px 0 10px">ADN Grok Bot</h2>
+        <p class="lede">Suman {{ meta.agency_max }}. Se marcan solo con evidencia; ante la duda, falso. No es lo mismo tener “memoria” en el marketing que recordar por bot.</p>
         <table class="calc">
           <tbody>
             <tr v-for="p in meta.pillars" :key="p.key">
@@ -66,10 +74,22 @@
         </div>
 
         <h2 style="font-size: 16px; margin: 22px 0 10px">Cobertura</h2>
-        <div class="kvrow" style="padding: 6px 0; border-bottom: 1px solid var(--line-2)"><span>Repositorios activos</span><b>{{ fmt(counts.total_repos) }}</b></div>
-        <div class="kvrow" style="padding: 6px 0; border-bottom: 1px solid var(--line-2)"><span>Con veredicto</span><b>{{ fmt(counts.total_analyzed) }}</b></div>
-        <div class="kvrow" style="padding: 6px 0; border-bottom: 1px solid var(--line-2)"><span>Pendientes</span><b>{{ fmt(counts.pending) }}</b></div>
+        <div class="kvrow" style="padding: 6px 0; border-bottom: 1px solid var(--line-2)"><span>Productos rankeados</span><b>{{ fmt(counts.ready) }}</b></div>
+        <div class="kvrow" style="padding: 6px 0; border-bottom: 1px solid var(--line-2)"><span>Open source</span><b>{{ fmt(counts.open) }}</b></div>
+        <div class="kvrow" style="padding: 6px 0; border-bottom: 1px solid var(--line-2)"><span>Comerciales</span><b>{{ fmt(counts.hosted) }}</b></div>
+        <div class="kvrow" style="padding: 6px 0; border-bottom: 1px solid var(--line-2)"><span>Equipos / workspaces</span><b>{{ fmt(counts.teams) }}</b></div>
       </div>
+    </div>
+
+    <div class="panel" style="padding: 22px 24px; margin-top: 24px">
+      <h2 style="font-size: 16px; margin-bottom: 10px">El listón, en una frase</h2>
+      <p class="muted" style="font-size: 14px; max-width: 920px">
+        Grok Bot gana porque junta las piezas que casi nadie junta: varios bots con nombre, una computadora
+        persistente con navegador y terminal, memoria, skills y rutinas, coordinación entre bots y
+        aprobaciones antes de lo irreversible. Un producto puede ser mejor en una pieza —más barato, más
+        abierto, más privado— pero si le falta la mitad del paquete, no es el listón.
+      </p>
+      <a href="https://docs.x.ai/grok-bot/overview" target="_blank" rel="noopener" class="btn" style="margin-top: 14px">Ver la documentación oficial de Grok Bot ↗</a>
     </div>
   </div>
 </template>
@@ -78,12 +98,12 @@
 const { data } = await useFetch('/api/agents')
 const radar = data.value as any
 const meta = radar.meta
-const counts = { total_repos: radar.total_repos, total_analyzed: radar.total_analyzed, pending: radar.pending }
+const counts = radar.counts || {}
 
 function fmt(n: number) { return new Intl.NumberFormat('es-PE').format(n || 0) }
 
 useHead({
-  title: 'Metodología: cómo se evalúa cada agente',
-  meta: [{ name: 'description', content: 'Rúbrica de 7 dimensiones ponderadas, 8 pilares de agencia, tiers y calibración 2026. La cuenta completa, sin cajas negras.' }]
+  title: 'Metodología: cómo se califica cada agente contra Grok Bot',
+  meta: [{ name: 'description', content: 'Rúbrica de 8 dimensiones, 8 piezas del ADN Grok Bot y tiers. Solo productos finales: frameworks como LangChain quedan fuera del ranking.' }]
 })
 </script>

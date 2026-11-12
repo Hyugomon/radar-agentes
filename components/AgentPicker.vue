@@ -13,8 +13,8 @@
       <input
         ref="input"
         v-model="query"
-        :placeholder="selected ? selected.full_name : 'Busca el agente…'"
-        aria-label="Buscar agente"
+        :placeholder="selected ? selected.full_name : 'Busca el producto…'"
+        aria-label="Buscar producto"
         @focus="open = true"
         @input="open = true"
         @keydown.down.prevent="move(1)"
@@ -27,7 +27,7 @@
     </div>
 
     <div v-if="selected && !open" class="tiny" style="margin-top: 6px">
-      #{{ selected.rank }} · Tier {{ selected.tier }} · {{ selected.total.toFixed(1) }} pts · agencia {{ Math.round(selected.agency) }}
+      #{{ selected.rank }} · Tier {{ selected.tier }} · {{ selected.total.toFixed(1) }} pts · ADN {{ Math.round(selected.agency) }}
     </div>
 
     <div v-if="open" class="picker__list">

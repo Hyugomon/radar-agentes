@@ -2,18 +2,19 @@
   <div class="container">
     <div class="agent-hero">
       <div class="crumbs">
-        <NuxtLink to="/">Ranking</NuxtLink> <span>/</span> <span>{{ agent.kind }}</span>
+        <NuxtLink to="/">Ranking</NuxtLink> <span>/</span> <span>{{ agent.catLabel }}</span>
       </div>
       <div class="agent-hero__grid">
         <div>
           <h1 class="agent-title">{{ agent.full_name }}</h1>
-          <p class="muted" style="font-size: 16px; max-width: 720px">{{ agent.summary || agent.description }}</p>
+          <p class="muted" style="font-size: 16px; max-width: 720px">{{ agent.summary }}</p>
           <div style="display: flex; gap: 6px; flex-wrap: wrap; margin-top: 14px">
-            <span class="tag">{{ agent.kind }}</span>
-            <span class="tag">{{ agent.archetype_label }}</span>
-            <span class="tag">{{ generationLabel }}</span>
+            <span class="tag">{{ agent.catLabel }}</span>
+            <span class="tag">{{ agent.priceLabel }}</span>
+            <span class="tag">Setup {{ agent.setupLabel }}</span>
             <span class="tag">#{{ agent.rank }} del ranking</span>
-            <a class="tag" :href="agent.url" target="_blank" rel="noopener">GitHub ↗</a>
+            <a v-if="agent.website" class="tag" :href="agent.website" target="_blank" rel="noopener">Web ↗</a>
+            <a v-if="agent.repo" class="tag" :href="agent.repo" target="_blank" rel="noopener">Repo ↗</a>
             <NuxtLink class="tag" :to="`/versus?retador=${agent.slug}`">⚔️ Versus</NuxtLink>
           </div>
         </div>
@@ -30,13 +31,13 @@
             </svg>
             <div class="gauge__val">
               <b>{{ agent.total.toFixed(1) }}</b>
-              <span>pts IA</span>
+              <span>Grok Score</span>
             </div>
           </div>
           <span class="tier tier--lg" :class="`tier--${agent.tier}`">{{ agent.tier }}</span>
-          <div class="kvrow"><span>Agencia</span><b>{{ Math.round(agent.agency) }}/{{ agent.agency_max }}</b></div>
+          <div class="kvrow"><span>ADN</span><b>{{ Math.round(agent.agency) }}/{{ agent.agency_max }}</b></div>
+          <div class="kvrow"><span>Gap vs Grok</span><b>{{ gap.toFixed(1) }} pts</b></div>
           <div class="kvrow"><span>Confianza</span><b>{{ agent.confidence }}/100</b></div>
-          <div class="kvrow"><span>Estrellas</span><b>{{ fmt(agent.stars) }}</b></div>
           <div class="kvrow"><span>Siguiente tier</span><b>{{ agent.next_tier ? `${agent.next_tier} (−${agent.delta_next?.toFixed(1)})` : '—' }}</b></div>
         </aside>
       </div>
@@ -53,26 +54,20 @@ const route = useRoute()
 const { data, error } = await useFetch(`/api/agent/${route.params.slug}`)
 
 if (error.value || !data.value) {
-  throw createError({ statusCode: 404, statusMessage: 'Agente no encontrado', fatal: true })
+  throw createError({ statusCode: 404, statusMessage: 'Producto no encontrado', fatal: true })
 }
 
 const agent = (data.value as any).agent
 const meta = (data.value as any).meta
-
-const generationLabel = computed(() => {
-  const g = (meta.generations || []).find((x: any) => x.key === agent.generation)
-  return g?.label || agent.generation
-})
-const ringColor = computed(() => agent.total >= 75 ? 'var(--good)' : agent.total >= 55 ? 'var(--accent)' : 'var(--t-D)')
-
-function fmt(n: number) { return new Intl.NumberFormat('es-PE').format(n || 0) }
+const ringColor = computed(() => agent.total >= 85 ? 'var(--good)' : agent.total >= 65 ? 'var(--accent)' : 'var(--t-D)')
+const gap = computed(() => Math.max(0, Number(meta.reference?.score || 0) - agent.total))
 
 useHead({
-  title: `${agent.full_name} — Tier ${agent.tier} · ${agent.total.toFixed(1)} pts`,
+  title: `${agent.full_name} — Tier ${agent.tier} · ${agent.total.toFixed(1)} Grok Score`,
   meta: [
-    { name: 'description', content: `${agent.full_name}: ${String(agent.summary || agent.description).slice(0, 155)}` },
+    { name: 'description', content: `${agent.full_name}: ${String(agent.summary || agent.tagline).slice(0, 155)}` },
     { property: 'og:title', content: `${agent.full_name} — Tier ${agent.tier}` },
-    { property: 'og:description', content: `Agencia ${Math.round(agent.agency)}/100 · ${agent.total.toFixed(1)} pts en el Radar de Agentes IA.` },
+    { property: 'og:description', content: `ADN ${Math.round(agent.agency)}/100 · ${agent.total.toFixed(1)} Grok Score en el Radar de Agentes IA.` },
     { property: 'og:url', content: `${useRuntimeConfig().public.siteUrl}/agente/${agent.slug}` }
   ],
   link: [{ rel: 'canonical', href: `${useRuntimeConfig().public.siteUrl}/agente/${agent.slug}` }],
@@ -83,10 +78,10 @@ useHead({
         '@context': 'https://schema.org',
         '@type': 'SoftwareApplication',
         name: agent.full_name,
-        description: agent.summary || agent.description,
-        applicationCategory: 'DeveloperApplication',
-        operatingSystem: 'Web',
-        url: agent.url,
+        description: agent.summary || agent.tagline,
+        applicationCategory: 'BusinessApplication',
+        operatingSystem: agent.platforms?.join(', ') || 'Web',
+        url: agent.website,
         aggregateRating: {
           '@type': 'AggregateRating',
           ratingValue: agent.total,

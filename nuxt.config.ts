@@ -9,22 +9,23 @@ export default defineNuxtConfig({
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'theme-color', content: '#f7f8fb' },
-        { name: 'description', content: 'Ranking independiente de agentes de IA: cada repositorio evaluado uno por uno con una rúbrica de 7 dimensiones y 8 pilares, con la cuenta a la vista.' },
+        { name: 'description', content: 'Ranking de productos de IA medidos contra Grok Bot: bots con computadora, memoria, rutinas y aprobaciones. Sin frameworks, con la cuenta a la vista.' },
         { property: 'og:site_name', content: 'Radar de Agentes IA' },
         { property: 'og:type', content: 'website' },
         { name: 'twitter:card', content: 'summary_large_image' }
       ],
       link: [
         { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
-        { rel: 'canonical', href: 'https://radar.amaqon.cloud' }
+        { rel: 'canonical', href: 'https://radar-agentes.72.60.159.20.sslip.io' }
       ]
     }
   },
   runtimeConfig: {
-    insforgeUrl: process.env.INSFORGE_URL || '',
+    insforgeUrl: process.env.INSFORGE_URL || 'https://insforge.amaqon.cloud',
     insforgeAnonKey: process.env.INSFORGE_ANON_KEY || '',
+    insforgeApiKey: process.env.INSFORGE_API_KEY || '',
     public: {
-      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://radar.amaqon.cloud'
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://radar-agentes.72.60.159.20.sslip.io'
     }
   },
   nitro: {
