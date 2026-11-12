@@ -25,6 +25,10 @@ coordinación y aprobaciones. Frameworks como LangChain, LangGraph, CrewAI o Aut
 La tabla antigua `radar_agents` (un JSON por repositorio) queda como legado y **no se usa** en este
 ranking. El catálogo nuevo vive en:
 
+> Si tu pipeline actual sigue escribiendo en `radar_agents`, no alimenta esta web. Debe escribir en
+> `radar_products` (y sus tablas de fuentes/revisiones) o ejecutar `npm run sync` después de exportar
+> `data/agents.json`.
+
 | Tabla | Para qué |
 |---|---|
 | `radar_catalog_meta` | Una fila (`id = 'main'`) con dimensiones, pilares, tiers, calibración, límites, referencia y reglas |
