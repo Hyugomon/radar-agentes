@@ -2,7 +2,7 @@
 
 - **Web oficial**: https://emdash.com/
 - **Repo**: https://github.com/generalaction/emdash
-- **Licencia**: Apache-2.0
+- **Licencia**: Comercial
 - **Categoría**: workspace
 - **Revisado**: 2026-11-13
 - **ADE Score**: 82.42 · Tier S
@@ -28,6 +28,7 @@ Workspace open source con worktrees, tareas programadas, SSH y revisión integra
 
 ### revision
 - “- Review diffs, create pull requests, inspect CI checks, and merge from one place.” — https://github.com/generalaction/emdash#readme
+- “Each task runs in its own Git worktree, so you can explore multiple fixes or features at once, review the diffs, and merge what works.” — https://github.com/generalaction/emdash#readme
 
 ### remoto
 - “It works with local projects and remote machines over SSH.” — https://github.com/generalaction/emdash#readme

@@ -2,7 +2,7 @@
 
 - **Web oficial**: https://www.trysynara.com/
 - **Repo**: https://github.com/Emanuele-web04/synara
-- **Licencia**: MIT
+- **Licencia**: Comercial
 - **Categoría**: workspace
 - **Revisado**: 2026-11-13
 - **ADE Score**: 83.64 · Tier S
@@ -29,9 +29,9 @@ Workspace local-first para tareas de agentes, worktrees, handoffs y revisión, c
 - “| | **Orchestration** | Provider handoffs, automations, and scoped external MCP.” — https://github.com/Emanuele-web04/synara#readme
 
 ### revision
+- “| | **Delivery** | Diffs, Git actions, managed worktrees, and pull requests.” — https://github.com/Emanuele-web04/synara#readme
 - “Continue in this thread Claude Codex Cursor Grok Continue in a new thread OpenCode Pi 04 Review the diff, verify in the browser, open the PR Inspect every change, check the running app in the built-in browser, then commit, push and open the pull request from the same task.” — https://github.com/Emanuele-web04/synara#readme
-- “Use a normal branch or an isolated worktree, inspect the resulting diff, run the required checks, commit the intended changes, push the branch, and open or review the pull request from the same task workflow.” — https://github.com/Emanuele-web04/synara#readme
-- “| | **Git** | Work with branches, commits, pushes, and pull requests.” — https://github.com/Emanuele-web04/synara#readme
+- “Provider traffic goes to the selected provider The coding-agent runtime receives the prompts, files, diffs, command output, and tool results required for that provider session.” — https://github.com/Emanuele-web04/synara#readme
 
 ### remoto
 - “Remote Connections run only between computers you pair and approve, through the configured relay or a managed Cloudflare tunnel.” — https://github.com/Emanuele-web04/synara#readme

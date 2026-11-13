@@ -2,7 +2,7 @@
 
 - **Web oficial**: https://getbb.app/
 - **Repo**: https://github.com/get-bb/bb
-- **Licencia**: MIT
+- **Licencia**: Comercial
 - **Categoría**: ide
 - **Revisado**: 2026-11-13
 - **ADE Score**: 83.1 · Tier S
@@ -14,34 +14,35 @@ Workspace extensible con plugins, orquestación de agentes, tareas programadas y
 ## Evidencia
 
 ### harnesses
-- “bb spawn "fix CI on main" Worker thread spawning running Fix CI on main bb/fix-ci-on-main Message The gang's all here Claude Code, Codex, Cursor, Pi, OpenCode, Grok, omp, and Hermes all live in bb.” — https://github.com/get-bb/bb#readme
-- “Claude OpenAI Cursor Pi opencode Grok Build oh-my-pi Hermes Agent + 5 more Threads 5 active Claude Claude Code Ship the release managing done OpenAI Codex Port module to TS running done Cursor Cursor Refactor the auth flow running done Pi Pi Write release notes running done opencode OpenCode Add integration tests running done Fork it.” — https://github.com/get-bb/bb#readme
-- “Bring my Linear issues to bb OpenAI Codex bb/linear-plugin Linear Plugin APP-1 Fix the login redirect loop high APP-2 Rate-limit file uploads medium APP-3 Add filters to search low APP-4 Draft the release notes medium APP-5 Triage flaky checkout tests high APP-6 Port the billing page low APP-7 Document the public API medium Anything can kick off work.” — https://github.com/get-bb/bb#readme
+- “Have Claude Code plan, Cursor implement, Codex review, and Grok orchestrate them all.” — https://github.com/get-bb/bb#readme
+- “Ship the checkout fix New thread Threads Claude Bump the SDK Grok Build Ship the checkout fix Claude Plan the fix Cursor Build it OpenAI Review the diff Cursor Refactor auth OpenAI Weekly changelog Ship the checkout timeout fix.” — https://github.com/get-bb/bb#readme
+- “Browse plugins → Fix the checkout bug New thread Threads Claude Fix the checkout bug OpenAI Signups by plan Claude Bump the SDK Cursor Refactor auth OpenAI Weekly changelog Checkout times out on slow networks.” — https://github.com/get-bb/bb#readme
 
 ### paralelo
-- “Development runs (`pnpm dev`, `pnpm start:worktree`) never send.” — https://github.com/get-bb/bb#readme
-- “Separate worktrees can run alongside each other and the packaged `npx bb-app@latest` instance.” — https://github.com/get-bb/bb#readme
-- “To test the production bundle and serving path without switching to production data or ports, use: ```bash pnpm start:worktree ``` This builds the same optimized frontend and runtime artifacts as `pnpm start`, then serves the app from the BB server on the checkout-specific dev server port.” — https://github.com/get-bb/bb#readme
+- “Ask a follow-up Claude Opus 5.5 checkout-web Worktree main Full Access Stop babysitting agents.” — https://github.com/get-bb/bb#readme
+- “Ask a follow-up Grok Build Grok Build checkout-web Worktree main Full Access Review the diff now Waiting for your input Start from anywhere.” — https://github.com/get-bb/bb#readme
+- “Ask a follow-up OpenAI Codex checkout-web Worktree main Full Access 9:41 Fix the checkout bug Fix the checkout bug: payments hang on slow networks Worked for 9s Explored 5 files, 1 search The payment call has no timeout, so slow networks hang checkout.” — https://github.com/get-bb/bb#readme
 
 ### orquestacion
-- “bb: agentic IDE · The IDE that builds itself Plugins Marketplace Building plugins Guides Orchestrate agents Automate Schedule agents Test web apps Automate browser tasks Remote & mobile Run dev servers Work from anywhere Blog Changelog Sign in 5.5k Download New A more reliable bb The IDE that builds itself Run all your coding agents in one programmable workspace.” — https://github.com/get-bb/bb#readme
-- “Subscribe Product Download Plugins Building plugins Changelog Sign in Guides Orchestrate agents Schedule agents Test web apps Automate browser tasks Run dev servers Work from anywhere Compare bb vs Conductor bb vs Cursor bb vs Superset bb vs T3 Code bb vs Vibe Kanban Community Blog GitHub Discord Legal Privacy Brand assets Software License © 2026 Terragon Labs, Inc.” — https://github.com/get-bb/bb#readme
+- “bb: agentic IDE · The IDE that builds itself Plugins Marketplace Building plugins Guides Orchestrate agents Automate Schedule agents Test web apps Automate browser tasks Remote & mobile Run dev servers Work from anywhere Blog Changelog Sign in Download for macOS New A more reliable bb The IDE that builds itself Run all your coding agents in one programmable workspace.” — https://github.com/get-bb/bb#readme
+- “Have Claude Code plan, Cursor implement, Codex review, and Grok orchestrate them all.” — https://github.com/get-bb/bb#readme
+- “ishan @0xishand bb is the best agent orchestrator out there, for software engineers, product managers, operations, literally anyone who works heavily with agents can trivially customize it to their needs and workflows and it comes with my HIGHEST recommendations.” — https://github.com/get-bb/bb#readme
 
 ### revision
 - Sin cita directa en la web/README revisada.
 
 ### remoto
-- “bb: agentic IDE · The IDE that builds itself Plugins Marketplace Building plugins Guides Orchestrate agents Automate Schedule agents Test web apps Automate browser tasks Remote & mobile Run dev servers Work from anywhere Blog Changelog Sign in 5.5k Download New A more reliable bb The IDE that builds itself Run all your coding agents in one programmable workspace.” — https://github.com/get-bb/bb#readme
-- “The GitHub integration, agent memory, scheduled jobs, and even remote access are all plugins.” — https://github.com/get-bb/bb#readme
-- “Telemetry never includes Git commit hashes or remote URLs.” — https://github.com/get-bb/bb#readme
+- “bb: agentic IDE · The IDE that builds itself Plugins Marketplace Building plugins Guides Orchestrate agents Automate Schedule agents Test web apps Automate browser tasks Remote & mobile Run dev servers Work from anywhere Blog Changelog Sign in Download for macOS New A more reliable bb The IDE that builds itself Run all your coding agents in one programmable workspace.” — https://github.com/get-bb/bb#readme
+- “Threads run on machines you own, from your laptop to a remote server or VM.” — https://github.com/get-bb/bb#readme
+- “Download for macOS Send download link Link copied Apple Silicon · Also for Linux (Alpha) bb runs on macOS, Windows, and Linux $ npx bb-app@latest Copy Copied to clipboard Windows (Alpha) , Intel Macs & remote machines Stay in the loop.” — https://github.com/get-bb/bb#readme
 
 ### movil
-- Sin cita directa en la web/README revisada.
+- “Start bb from your desk, CI, the bb mobile app, even other AI apps like ChatGPT or Claude.” — https://github.com/get-bb/bb#readme
 
 ### extensiones
-- “bb: agentic IDE · The IDE that builds itself Plugins Marketplace Building plugins Guides Orchestrate agents Automate Schedule agents Test web apps Automate browser tasks Remote & mobile Run dev servers Work from anywhere Blog Changelog Sign in 5.5k Download New A more reliable bb The IDE that builds itself Run all your coding agents in one programmable workspace.” — https://github.com/get-bb/bb#readme
-- “The GitHub integration, agent memory, scheduled jobs, and even remote access are all plugins.” — https://github.com/get-bb/bb#readme
-- “Subscribe Product Download Plugins Building plugins Changelog Sign in Guides Orchestrate agents Schedule agents Test web apps Automate browser tasks Run dev servers Work from anywhere Compare bb vs Conductor bb vs Cursor bb vs Superset bb vs T3 Code bb vs Vibe Kanban Community Blog GitHub Discord Legal Privacy Brand assets Software License © 2026 Terragon Labs, Inc.” — https://github.com/get-bb/bb#readme
+- “bb: agentic IDE · The IDE that builds itself Plugins Marketplace Building plugins Guides Orchestrate agents Automate Schedule agents Test web apps Automate browser tasks Remote & mobile Run dev servers Work from anywhere Blog Changelog Sign in Download for macOS New A more reliable bb The IDE that builds itself Run all your coding agents in one programmable workspace.” — https://github.com/get-bb/bb#readme
+- “Prompt an agent to change almost anything in bb, or choose from 500+ plugins built by the community.” — https://github.com/get-bb/bb#readme
+- “Browse plugins → Fix the checkout bug New thread Threads Claude Fix the checkout bug OpenAI Signups by plan Claude Bump the SDK Cursor Refactor auth OpenAI Weekly changelog Checkout times out on slow networks.” — https://github.com/get-bb/bb#readme
 
 ### control
 - Sin cita directa en la web/README revisada.

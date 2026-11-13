@@ -2,7 +2,7 @@
 
 - **Web oficial**: https://orchestrator.inc/
 - **Repo**: https://github.com/OrchestratorInc/agent-orchestrator
-- **Licencia**: Apache-2.0
+- **Licencia**: Comercial
 - **Categoría**: orchestrator
 - **Revisado**: 2026-11-13
 - **ADE Score**: 84.18 · Tier S

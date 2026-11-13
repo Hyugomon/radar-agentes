@@ -2,7 +2,7 @@
 
 - **Web oficial**: https://agentteams.live/
 - **Repo**: https://github.com/777genius/agent-teams-ai
-- **Licencia**: AGPL-3.0
+- **Licencia**: Comercial
 - **Categoría**: orchestrator
 - **Revisado**: 2026-11-13
 - **ADE Score**: 71.9 · Tier B
@@ -30,8 +30,8 @@ App de escritorio para correr agentes como equipo alrededor de un tablero: un l�
 
 ### revision
 - “See it in action Real screenshots from the app — kanban board, code review, agent teams, and more.” — https://github.com/777genius/agent-teams-ai#readme
+- “Navigate files and full diffs, accept or reject whole files or individual hunks, edit when needed, undo decisions, and send feedback.” — https://github.com/777genius/agent-teams-ai#readme
 - “Free model with no auth included Free model with no auth for first runs No account or provider login required to try Optional access to Claude Code, Codex, OpenCode, Cursor, SuperGrok, GitHub Copilot, Z.AI, MiniMax, and Kiro Unlimited agent teams Kanban board with real-time updates Code review with diff view Cross-team communication Solo & team modes Download Now Agent Teams has no paid tier.” — https://github.com/777genius/agent-teams-ai#readme
-- “Powerfull AI code review that runs inside your CI/CD (privacy) using your Claude/Codex/other subscription accounts (pool)/API.” — https://github.com/777genius/agent-teams-ai#readme
 
 ### remoto
 - “There is no Agent Teams cloud backend for storing your code.” — https://github.com/777genius/agent-teams-ai#readme

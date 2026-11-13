@@ -2,7 +2,7 @@
 
 - **Web oficial**: https://www.cloudroom.dev/
 - **Repo**: https://github.com/davidondrej/cloudroom
-- **Licencia**: Apache-2.0
+- **Licencia**: Comercial
 - **Categoría**: workspace
 - **Revisado**: 2026-11-13
 - **ADE Score**: 77.56 · Tier A

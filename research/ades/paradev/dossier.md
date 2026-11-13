@@ -2,7 +2,7 @@
 
 - **Web oficial**: https://paradev.com/
 - **Repo**: https://github.com/paradevai/paradev
-- **Licencia**: MIT
+- **Licencia**: Comercial
 - **Categoría**: workspace
 - **Revisado**: 2026-11-13
 - **ADE Score**: 85.56 · Tier S
@@ -29,8 +29,8 @@ Workspace open source para correr agentes de código en paralelo, con CLI, MCP, 
 
 ### revision
 - “The code is public on GitHub, and anyone can file issues, open pull requests, or fork it.” — https://github.com/paradevai/paradev#readme
+- “An app for iPhone and iPad on the App Store lets you check on agents and review their diffs away from your desk.” — https://github.com/paradevai/paradev#readme
 - “Each task gets its own Git worktree and branch, persistent sessions, diff review, and automations that run on events or a schedule, without tying the workflow to one provider.” — https://github.com/paradevai/paradev#readme
-- “English Security Terms Privacy MIT License Download for macOS Download Download for macOS Download <div align="center"> <img src="apps/desktop/src/resources/build/icons/icon.png" alt="Paradev app icon" width="96" height="96" /> ### Paradev (formerly Superset) Run Claude Code, Codex, or another CLI agent with terminals, code review, and browser previews in one workspace.” — https://github.com/paradevai/paradev#readme
 
 ### remoto
 - “Each one works on its own branch, locally or in the cloud.” — https://github.com/paradevai/paradev#readme

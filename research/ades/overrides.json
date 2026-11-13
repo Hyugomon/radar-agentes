@@ -188,6 +188,7 @@
     "tagline": "ADE open source para agentes de código.",
     "summary": "Entorno de desarrollo agéntico open source con sesiones, extensiones, revisión y acceso remoto para varios agentes.",
     "scores": { "harnesses": 84, "paralelo": 82, "orquestacion": 72, "revision": 76, "remoto": 80, "movil": 80, "extensiones": 78, "control": 65, "abierto": 90, "producto": 76 },
+    "license": "MIT",
     "strengths": ["Open source y multiplataforma", "Extensiones y acceso remoto", "Buena adopción"],
     "weaknesses": ["Orquestación menos profunda", "Control/aprobaciones básicos", "Ecosistema joven"],
     "pricing": "free",

@@ -2,7 +2,7 @@
 
 - **Web oficial**: https://github.com/kdlbs/kandev
 - **Repo**: https://github.com/kdlbs/kandev
-- **Licencia**: AGPL-3.0
+- **Licencia**: Comercial
 - **Categoría**: orchestrator
 - **Revisado**: 2026-11-13
 - **ADE Score**: 83.82 · Tier S

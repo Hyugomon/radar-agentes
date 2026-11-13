@@ -2,7 +2,7 @@
 
 - **Web oficial**: https://sidecar.haplab.com/
 - **Repo**: https://github.com/marcus/sidecar
-- **Licencia**: MIT
+- **Licencia**: Comercial
 - **Categoría**: terminal
 - **Revisado**: 2026-11-13
 - **ADE Score**: 72.42 · Tier A
@@ -26,7 +26,9 @@ Terminal workspace para sesiones de agentes, hosts remotos y entrega con Git; br
 - “compatibility Works in the terminal you already use Sidecar brings rich multi-pane workspaces, agent orchestration, and task management directly into your favorite terminal emulator on macOS, Linux, and Windows.” — https://github.com/marcus/sidecar#readme
 
 ### revision
-- Sin cita directa en la web/README revisada.
+- “Monitor live agent sessions, inspect git diffs, track durable tasks, take notes, and manage your day without losing your place.” — https://github.com/marcus/sidecar#readme
+- “Review Inspect changes alongside the conversation — files, diffs, git history, and tasks open automatically in synchronized adjacent panes.” — https://github.com/marcus/sidecar#readme
+- “Agents can programmatically project files, diffs, and tasks into adjacent panes at exact line numbers, giving you immediate visual clarity while the agent continues building.” — https://github.com/marcus/sidecar#readme
 
 ### remoto
 - “Configuration & setup , Visual settings for appearance, projects, workspaces, agents, remote hosts, and integrations.” — https://github.com/marcus/sidecar#readme

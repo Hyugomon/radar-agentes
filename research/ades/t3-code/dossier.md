@@ -2,7 +2,7 @@
 
 - **Web oficial**: https://t3.codes/
 - **Repo**: https://github.com/pingdotgg/t3code
-- **Licencia**: MIT
+- **Licencia**: Comercial
 - **Categoría**: ide
 - **Revisado**: 2026-11-13
 - **ADE Score**: 87.59 · Tier S

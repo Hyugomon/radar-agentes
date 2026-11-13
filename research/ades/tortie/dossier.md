@@ -2,7 +2,7 @@
 
 - **Web oficial**: https://tortie.sh/
 - **Repo**: https://github.com/gregce/tortie
-- **Licencia**: Apache-2.0
+- **Licencia**: Comercial
 - **Categoría**: workspace
 - **Revisado**: 2026-11-13
 - **ADE Score**: 73.68 · Tier A
@@ -23,7 +23,9 @@ Workspace con múltiples agentes, multiplexación de sesiones, skills y companio
 - “Several at once Usually one ← Back ↻ Start over Tortie Agent multiplexer Code IDE Editor-first workflow Agent orchestrator Delegate and review Each result is a link.” — https://github.com/gregce/tortie#readme
 
 ### revision
-- Sin cita directa en la web/README revisada.
+- “Sessions, files, changes, diffs, and search stay scoped to the project in front of you.” — https://github.com/gregce/tortie#readme
+- “Keep provider-specific terminal agents alive across projects, with files, diffs, search, and Git in one window.” — https://github.com/gregce/tortie#readme
+- “- [Pierre](https://pierre.co/)'s [@pierre/trees](https://www.npmjs.com/package/@pierre/trees) and [@pierre/diffs](https://www.npmjs.com/package/@pierre/diffs) render the file tree and the diffs.” — https://github.com/gregce/tortie#readme
 
 ### remoto
 - “The machine needs ssh, and on a Mac, Remote Login turned on.” — https://github.com/gregce/tortie#readme

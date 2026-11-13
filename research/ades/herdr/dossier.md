@@ -2,7 +2,7 @@
 
 - **Web oficial**: https://herdr.dev/
 - **Repo**: https://github.com/herdrdev/herdr-app
-- **Licencia**: Apache-2.0
+- **Licencia**: Comercial
 - **Categoría**: terminal
 - **Revisado**: 2026-11-13
 - **ADE Score**: 72.22 · Tier A

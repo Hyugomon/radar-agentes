@@ -2,7 +2,7 @@
 
 - **Web oficial**: https://www.onorca.dev/
 - **Repo**: https://github.com/stablyai/orca
-- **Licencia**: MIT
+- **Licencia**: Comercial
 - **Categoría**: ide
 - **Revisado**: 2026-11-13
 - **ADE Score**: 90.21 · Tier SS
@@ -27,7 +27,9 @@ Workspace para correr Claude Code, Codex y otros harnesses en paralelo, con work
 - “Workspaces Orchestration Chat or terminal Remote Browser Terminal Tasks Editor Notes Git integration Workspaces Quickly split tasks into isolated environments, so multiple agents can work side by side without interfering with each other.” — https://github.com/stablyai/orca#readme
 
 ### revision
-- Sin cita directa en la web/README revisada.
+- “Chat or terminal, on your laptop or in the cloud, with diffs, a browser, and a CLI in one app.” — https://github.com/stablyai/orca#readme
+- “✓ Compiled /checkout in 812ms GET /checkout 200 in 41ms GET /api/cart 200 in 18ms validators.ts × validators.ts 9 + switch (country) { 10 + case "US": 11 + return US_ZIP; 12 + case "CA": 13 + return CA_POSTAL; 14 + default: Split Anything Click to inspect Put agents, terminals, browsers, and diffs side by side in split panes shaped to the task.” — https://github.com/stablyai/orca#readme
+- “Chat or terminal, on your laptop or in the cloud, with diffs, a browser, and a CLI in one app.” — https://github.com/stablyai/orca#readme
 
 ### remoto
 - “Can I run agents on a remote machine or in the cloud?” — https://github.com/stablyai/orca#readme

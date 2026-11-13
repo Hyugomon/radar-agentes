@@ -7,7 +7,7 @@
       "name": "Orca",
       "repo": "https://github.com/stablyai/orca",
       "website": "https://www.onorca.dev/",
-      "license": "MIT",
+      "license": null,
       "category": "ide",
       "summary": "Workspace para correr Claude Code, Codex y otros harnesses en paralelo, con worktrees aislados, revisión de cambios y companion móvil.",
       "features": {
@@ -18,7 +18,7 @@
         "mobile": true,
         "extensions": true,
         "control": true,
-        "openSource": true,
+        "openSource": false,
         "mature": true
       },
       "scores": {
@@ -82,7 +82,20 @@
             "source": "https://github.com/stablyai/orca#readme"
           }
         ],
-        "revision": [],
+        "revision": [
+          {
+            "text": "Chat or terminal, on your laptop or in the cloud, with diffs, a browser, and a CLI in one app.",
+            "source": "https://github.com/stablyai/orca#readme"
+          },
+          {
+            "text": "✓ Compiled /checkout in 812ms GET /checkout 200 in 41ms GET /api/cart 200 in 18ms validators.ts × validators.ts 9 + switch (country) { 10 + case \"US\": 11 + return US_ZIP; 12 + case \"CA\": 13 + return CA_POSTAL; 14 + default: Split Anything Click to inspect Put agents, terminals, browsers, and diffs side by side in split panes shaped to the task.",
+            "source": "https://github.com/stablyai/orca#readme"
+          },
+          {
+            "text": "Chat or terminal, on your laptop or in the cloud, with diffs, a browser, and a CLI in one app.",
+            "source": "https://github.com/stablyai/orca#readme"
+          }
+        ],
         "remoto": [
           {
             "text": "Can I run agents on a remote machine or in the cloud?",
@@ -166,14 +179,14 @@
         "No es un runtime de agentes propio: depende de los CLIs",
         "La curva de configuración crece con el equipo"
       ],
-      "licenseType": "Open source"
+      "licenseType": "Comercial"
     },
     {
       "slug": "t3-code",
       "name": "T3 Code",
       "repo": "https://github.com/pingdotgg/t3code",
       "website": "https://t3.codes/",
-      "license": "MIT",
+      "license": null,
       "category": "ide",
       "summary": "Workspace open source para manejar varios agentes de código, sesiones remotas y worktrees desde escritorio y móvil.",
       "features": {
@@ -184,7 +197,7 @@
         "mobile": true,
         "extensions": true,
         "control": true,
-        "openSource": true,
+        "openSource": false,
         "mature": true
       },
       "scores": {
@@ -330,14 +343,14 @@
         "No trae modelo propio",
         "La revisión es más de workspace que de code review profundo"
       ],
-      "licenseType": "Open source"
+      "licenseType": "Comercial"
     },
     {
       "slug": "paradev",
       "name": "Paradev",
       "repo": "https://github.com/paradevai/paradev",
       "website": "https://paradev.com/",
-      "license": "MIT",
+      "license": null,
       "category": "workspace",
       "summary": "Workspace open source para correr agentes de código en paralelo, con CLI, MCP, móvil, automatizaciones y workspaces cloud opcionales.",
       "features": {
@@ -348,7 +361,7 @@
         "mobile": true,
         "extensions": true,
         "control": true,
-        "openSource": true,
+        "openSource": false,
         "mature": true
       },
       "scores": {
@@ -421,11 +434,11 @@
             "source": "https://github.com/paradevai/paradev#readme"
           },
           {
-            "text": "Each task gets its own Git worktree and branch, persistent sessions, diff review, and automations that run on events or a schedule, without tying the workflow to one provider.",
+            "text": "An app for iPhone and iPad on the App Store lets you check on agents and review their diffs away from your desk.",
             "source": "https://github.com/paradevai/paradev#readme"
           },
           {
-            "text": "English Security Terms Privacy MIT License Download for macOS Download Download for macOS Download <div align=\"center\"> <img src=\"apps/desktop/src/resources/build/icons/icon.png\" alt=\"Paradev app icon\" width=\"96\" height=\"96\" /> ### Paradev (formerly Superset) Run Claude Code, Codex, or another CLI agent with terminals, code review, and browser previews in one workspace.",
+            "text": "Each task gets its own Git worktree and branch, persistent sessions, diff review, and automations that run on events or a schedule, without tying the workflow to one provider.",
             "source": "https://github.com/paradevai/paradev#readme"
           }
         ],
@@ -518,14 +531,14 @@
         "Cloud en beta",
         "Depende de los harnesses que conectes"
       ],
-      "licenseType": "Open source"
+      "licenseType": "Comercial"
     },
     {
       "slug": "agent-orchestrator",
       "name": "Agent Orchestrator",
       "repo": "https://github.com/OrchestratorInc/agent-orchestrator",
       "website": "https://orchestrator.inc/",
-      "license": "Apache-2.0",
+      "license": null,
       "category": "orchestrator",
       "summary": "Orquestador open source para repartir tareas entre agentes, aislar trabajo, revisar cambios y abrir pull requests.",
       "features": {
@@ -536,7 +549,7 @@
         "mobile": true,
         "extensions": true,
         "control": true,
-        "openSource": true,
+        "openSource": false,
         "mature": true
       },
       "scores": {
@@ -714,14 +727,14 @@
         "Extensiones y MCP no son el centro",
         "Requiere configurar los agentes conectados"
       ],
-      "licenseType": "Open source"
+      "licenseType": "Comercial"
     },
     {
       "slug": "kandev",
       "name": "Kandev",
       "repo": "https://github.com/kdlbs/kandev",
       "website": "https://github.com/kdlbs/kandev",
-      "license": "AGPL-3.0",
+      "license": null,
       "category": "orchestrator",
       "summary": "Entorno self-hostable con tablero Kanban, pipelines de agentes, revisión de cambios y pull requests. Multi-proveedor y sin telemetría.",
       "features": {
@@ -732,7 +745,7 @@
         "mobile": true,
         "extensions": true,
         "control": true,
-        "openSource": true,
+        "openSource": false,
         "mature": true
       },
       "scores": {
@@ -896,14 +909,14 @@
         "Móvil limitado al navegador",
         "Setup self-hosted"
       ],
-      "licenseType": "Open source"
+      "licenseType": "Comercial"
     },
     {
       "slug": "synara",
       "name": "Synara",
       "repo": "https://github.com/Emanuele-web04/synara",
       "website": "https://www.trysynara.com/",
-      "license": "MIT",
+      "license": null,
       "category": "workspace",
       "summary": "Workspace local-first para tareas de agentes, worktrees, handoffs y revisión, con MCP y soporte de varios harnesses.",
       "features": {
@@ -914,7 +927,7 @@
         "mobile": true,
         "extensions": true,
         "control": true,
-        "openSource": true,
+        "openSource": false,
         "mature": true
       },
       "scores": {
@@ -984,15 +997,15 @@
         ],
         "revision": [
           {
+            "text": "| | **Delivery** | Diffs, Git actions, managed worktrees, and pull requests.",
+            "source": "https://github.com/Emanuele-web04/synara#readme"
+          },
+          {
             "text": "Continue in this thread Claude Codex Cursor Grok Continue in a new thread OpenCode Pi 04 Review the diff, verify in the browser, open the PR Inspect every change, check the running app in the built-in browser, then commit, push and open the pull request from the same task.",
             "source": "https://github.com/Emanuele-web04/synara#readme"
           },
           {
-            "text": "Use a normal branch or an isolated worktree, inspect the resulting diff, run the required checks, commit the intended changes, push the branch, and open or review the pull request from the same task workflow.",
-            "source": "https://github.com/Emanuele-web04/synara#readme"
-          },
-          {
-            "text": "| | **Git** | Work with branches, commits, pushes, and pull requests.",
+            "text": "Provider traffic goes to the selected provider The coding-agent runtime receives the prompts, files, diffs, command output, and tool results required for that provider session.",
             "source": "https://github.com/Emanuele-web04/synara#readme"
           }
         ],
@@ -1091,25 +1104,25 @@
         "No tiene runtime propio",
         "Ecosistema joven"
       ],
-      "licenseType": "Open source"
+      "licenseType": "Comercial"
     },
     {
       "slug": "bb",
       "name": "bb",
       "repo": "https://github.com/get-bb/bb",
       "website": "https://getbb.app/",
-      "license": "MIT",
+      "license": null,
       "category": "ide",
       "summary": "Workspace extensible con plugins, orquestación de agentes, tareas programadas y ejecución remota en tus propios hosts.",
       "features": {
         "parallel": true,
         "orchestration": true,
         "review": true,
-        "remote": false,
-        "mobile": false,
+        "remote": true,
+        "mobile": true,
         "extensions": true,
         "control": true,
-        "openSource": true,
+        "openSource": false,
         "mature": true
       },
       "scores": {
@@ -1139,69 +1152,78 @@
       "evidence": {
         "harnesses": [
           {
-            "text": "bb spawn \"fix CI on main\" Worker thread spawning running Fix CI on main bb/fix-ci-on-main Message The gang's all here Claude Code, Codex, Cursor, Pi, OpenCode, Grok, omp, and Hermes all live in bb.",
+            "text": "Have Claude Code plan, Cursor implement, Codex review, and Grok orchestrate them all.",
             "source": "https://github.com/get-bb/bb#readme"
           },
           {
-            "text": "Claude OpenAI Cursor Pi opencode Grok Build oh-my-pi Hermes Agent + 5 more Threads 5 active Claude Claude Code Ship the release managing done OpenAI Codex Port module to TS running done Cursor Cursor Refactor the auth flow running done Pi Pi Write release notes running done opencode OpenCode Add integration tests running done Fork it.",
+            "text": "Ship the checkout fix New thread Threads Claude Bump the SDK Grok Build Ship the checkout fix Claude Plan the fix Cursor Build it OpenAI Review the diff Cursor Refactor auth OpenAI Weekly changelog Ship the checkout timeout fix.",
             "source": "https://github.com/get-bb/bb#readme"
           },
           {
-            "text": "Bring my Linear issues to bb OpenAI Codex bb/linear-plugin Linear Plugin APP-1 Fix the login redirect loop high APP-2 Rate-limit file uploads medium APP-3 Add filters to search low APP-4 Draft the release notes medium APP-5 Triage flaky checkout tests high APP-6 Port the billing page low APP-7 Document the public API medium Anything can kick off work.",
+            "text": "Browse plugins → Fix the checkout bug New thread Threads Claude Fix the checkout bug OpenAI Signups by plan Claude Bump the SDK Cursor Refactor auth OpenAI Weekly changelog Checkout times out on slow networks.",
             "source": "https://github.com/get-bb/bb#readme"
           }
         ],
         "paralelo": [
           {
-            "text": "Development runs (`pnpm dev`, `pnpm start:worktree`) never send.",
+            "text": "Ask a follow-up Claude Opus 5.5 checkout-web Worktree main Full Access Stop babysitting agents.",
             "source": "https://github.com/get-bb/bb#readme"
           },
           {
-            "text": "Separate worktrees can run alongside each other and the packaged `npx bb-app@latest` instance.",
+            "text": "Ask a follow-up Grok Build Grok Build checkout-web Worktree main Full Access Review the diff now Waiting for your input Start from anywhere.",
             "source": "https://github.com/get-bb/bb#readme"
           },
           {
-            "text": "To test the production bundle and serving path without switching to production data or ports, use: ```bash pnpm start:worktree ``` This builds the same optimized frontend and runtime artifacts as `pnpm start`, then serves the app from the BB server on the checkout-specific dev server port.",
+            "text": "Ask a follow-up OpenAI Codex checkout-web Worktree main Full Access 9:41 Fix the checkout bug Fix the checkout bug: payments hang on slow networks Worked for 9s Explored 5 files, 1 search The payment call has no timeout, so slow networks hang checkout.",
             "source": "https://github.com/get-bb/bb#readme"
           }
         ],
         "orquestacion": [
           {
-            "text": "bb: agentic IDE · The IDE that builds itself Plugins Marketplace Building plugins Guides Orchestrate agents Automate Schedule agents Test web apps Automate browser tasks Remote & mobile Run dev servers Work from anywhere Blog Changelog Sign in 5.5k Download New A more reliable bb The IDE that builds itself Run all your coding agents in one programmable workspace.",
+            "text": "bb: agentic IDE · The IDE that builds itself Plugins Marketplace Building plugins Guides Orchestrate agents Automate Schedule agents Test web apps Automate browser tasks Remote & mobile Run dev servers Work from anywhere Blog Changelog Sign in Download for macOS New A more reliable bb The IDE that builds itself Run all your coding agents in one programmable workspace.",
             "source": "https://github.com/get-bb/bb#readme"
           },
           {
-            "text": "Subscribe Product Download Plugins Building plugins Changelog Sign in Guides Orchestrate agents Schedule agents Test web apps Automate browser tasks Run dev servers Work from anywhere Compare bb vs Conductor bb vs Cursor bb vs Superset bb vs T3 Code bb vs Vibe Kanban Community Blog GitHub Discord Legal Privacy Brand assets Software License © 2026 Terragon Labs, Inc.",
+            "text": "Have Claude Code plan, Cursor implement, Codex review, and Grok orchestrate them all.",
+            "source": "https://github.com/get-bb/bb#readme"
+          },
+          {
+            "text": "ishan @0xishand bb is the best agent orchestrator out there, for software engineers, product managers, operations, literally anyone who works heavily with agents can trivially customize it to their needs and workflows and it comes with my HIGHEST recommendations.",
             "source": "https://github.com/get-bb/bb#readme"
           }
         ],
         "revision": [],
         "remoto": [
           {
-            "text": "bb: agentic IDE · The IDE that builds itself Plugins Marketplace Building plugins Guides Orchestrate agents Automate Schedule agents Test web apps Automate browser tasks Remote & mobile Run dev servers Work from anywhere Blog Changelog Sign in 5.5k Download New A more reliable bb The IDE that builds itself Run all your coding agents in one programmable workspace.",
+            "text": "bb: agentic IDE · The IDE that builds itself Plugins Marketplace Building plugins Guides Orchestrate agents Automate Schedule agents Test web apps Automate browser tasks Remote & mobile Run dev servers Work from anywhere Blog Changelog Sign in Download for macOS New A more reliable bb The IDE that builds itself Run all your coding agents in one programmable workspace.",
             "source": "https://github.com/get-bb/bb#readme"
           },
           {
-            "text": "The GitHub integration, agent memory, scheduled jobs, and even remote access are all plugins.",
+            "text": "Threads run on machines you own, from your laptop to a remote server or VM.",
             "source": "https://github.com/get-bb/bb#readme"
           },
           {
-            "text": "Telemetry never includes Git commit hashes or remote URLs.",
+            "text": "Download for macOS Send download link Link copied Apple Silicon · Also for Linux (Alpha) bb runs on macOS, Windows, and Linux $ npx bb-app@latest Copy Copied to clipboard Windows (Alpha) , Intel Macs & remote machines Stay in the loop.",
             "source": "https://github.com/get-bb/bb#readme"
           }
         ],
-        "movil": [],
+        "movil": [
+          {
+            "text": "Start bb from your desk, CI, the bb mobile app, even other AI apps like ChatGPT or Claude.",
+            "source": "https://github.com/get-bb/bb#readme"
+          }
+        ],
         "extensiones": [
           {
-            "text": "bb: agentic IDE · The IDE that builds itself Plugins Marketplace Building plugins Guides Orchestrate agents Automate Schedule agents Test web apps Automate browser tasks Remote & mobile Run dev servers Work from anywhere Blog Changelog Sign in 5.5k Download New A more reliable bb The IDE that builds itself Run all your coding agents in one programmable workspace.",
+            "text": "bb: agentic IDE · The IDE that builds itself Plugins Marketplace Building plugins Guides Orchestrate agents Automate Schedule agents Test web apps Automate browser tasks Remote & mobile Run dev servers Work from anywhere Blog Changelog Sign in Download for macOS New A more reliable bb The IDE that builds itself Run all your coding agents in one programmable workspace.",
             "source": "https://github.com/get-bb/bb#readme"
           },
           {
-            "text": "The GitHub integration, agent memory, scheduled jobs, and even remote access are all plugins.",
+            "text": "Prompt an agent to change almost anything in bb, or choose from 500+ plugins built by the community.",
             "source": "https://github.com/get-bb/bb#readme"
           },
           {
-            "text": "Subscribe Product Download Plugins Building plugins Changelog Sign in Guides Orchestrate agents Schedule agents Test web apps Automate browser tasks Run dev servers Work from anywhere Compare bb vs Conductor bb vs Cursor bb vs Superset bb vs T3 Code bb vs Vibe Kanban Community Blog GitHub Discord Legal Privacy Brand assets Software License © 2026 Terragon Labs, Inc.",
+            "text": "Browse plugins → Fix the checkout bug New thread Threads Claude Fix the checkout bug OpenAI Signups by plan Claude Bump the SDK Cursor Refactor auth OpenAI Weekly changelog Checkout times out on slow networks.",
             "source": "https://github.com/get-bb/bb#readme"
           }
         ],
@@ -1245,14 +1267,14 @@
         "Sin app móvil nativa",
         "El modelo de plugins añade complejidad"
       ],
-      "licenseType": "Open source"
+      "licenseType": "Comercial"
     },
     {
       "slug": "emdash",
       "name": "Emdash",
       "repo": "https://github.com/generalaction/emdash",
       "website": "https://emdash.com/",
-      "license": "Apache-2.0",
+      "license": null,
       "category": "workspace",
       "summary": "Workspace open source con worktrees, tareas programadas, SSH y revisión integrada para que un equipo corra agentes de código.",
       "features": {
@@ -1263,7 +1285,7 @@
         "mobile": true,
         "extensions": true,
         "control": true,
-        "openSource": true,
+        "openSource": false,
         "mature": true
       },
       "scores": {
@@ -1329,6 +1351,10 @@
           {
             "text": "- Review diffs, create pull requests, inspect CI checks, and merge from one place.",
             "source": "https://github.com/generalaction/emdash#readme"
+          },
+          {
+            "text": "Each task runs in its own Git worktree, so you can explore multiple fixes or features at once, review the diffs, and merge what works.",
+            "source": "https://github.com/generalaction/emdash#readme"
           }
         ],
         "remoto": [
@@ -1392,7 +1418,7 @@
         "Orquestación menos profunda",
         "Cloud todavía en acceso anticipado"
       ],
-      "licenseType": "Open source"
+      "licenseType": "Comercial"
     },
     {
       "slug": "conductor",
@@ -1516,18 +1542,18 @@
       "name": "Ghostex",
       "repo": "https://github.com/maddada/Ghostex",
       "website": "https://ghostex.dev/",
-      "license": "MIT",
+      "license": null,
       "category": "workspace",
       "summary": "Workspace de escritorio con chats de agentes, editor de código, navegador por agente, automatizaciones y app móvil.",
       "features": {
         "parallel": true,
         "orchestration": true,
-        "review": false,
+        "review": true,
         "remote": true,
         "mobile": true,
         "extensions": true,
         "control": false,
-        "openSource": true,
+        "openSource": false,
         "mature": true
       },
       "scores": {
@@ -1660,7 +1686,7 @@
         "Revisión no es el foco",
         "Proyecto joven"
       ],
-      "licenseType": "Open source"
+      "licenseType": "Comercial"
     },
     {
       "slug": "paseo",
@@ -1753,6 +1779,10 @@
           },
           {
             "text": "- **Complete development workflow:** Edit files, review diffs, open pull requests, and run terminals, in split panes you arrange how you want.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          },
+          {
+            "text": "[Run parallel tasks in Paseo](https://paseo.sh/docs/parallel-development): start agents in separate worktrees, review their diffs, run each app, and check it in the built-in browser.",
             "source": "https://github.com/getpaseo/paseo#readme"
           }
         ],
@@ -1852,7 +1882,7 @@
       "name": "Jean",
       "repo": "https://github.com/coollabsio/jean",
       "website": "https://jean.build/",
-      "license": "Apache-2.0",
+      "license": null,
       "category": "workspace",
       "summary": "Workspace open source para agentes de código, worktrees, MCP y entrega con GitHub, con acceso local, SSH o servidor propio.",
       "features": {
@@ -1863,7 +1893,7 @@
         "mobile": true,
         "extensions": true,
         "control": true,
-        "openSource": true,
+        "openSource": false,
         "mature": true
       },
       "scores": {
@@ -1920,6 +1950,10 @@
         "revision": [
           {
             "text": "One project, many isolated worktrees: issues, pull requests and manual tasks, with diff size, PR status and your own labels.",
+            "source": "https://github.com/coollabsio/jean#readme"
+          },
+          {
+            "text": "Tauri v2 · React 19 · Rust · TypeScript · Tailwind CSS v4 · shadcn/ui v4 · Zustand v5 · TanStack Query · Pierre Diffs · xterm.js </div> ## About the Project Jean is an opinionated AI agent workspace.",
             "source": "https://github.com/coollabsio/jean#readme"
           }
         ],
@@ -1979,7 +2013,7 @@
         "Extensiones limitadas",
         "Menos adopción"
       ],
-      "licenseType": "Open source"
+      "licenseType": "Comercial"
     },
     {
       "slug": "openchamber",
@@ -1997,7 +2031,7 @@
         "mobile": true,
         "extensions": true,
         "control": true,
-        "openSource": true,
+        "openSource": false,
         "mature": true
       },
       "scores": {
@@ -2144,7 +2178,7 @@
       "name": "Traycer",
       "repo": "https://github.com/traycerai/traycer",
       "website": "https://traycer.ai/",
-      "license": "MIT",
+      "license": null,
       "category": "planning",
       "summary": "Workspace de planificación y revisión: convierte una tarea en un plan, lo reparte entre agentes y revisa los cambios y PRs.",
       "features": {
@@ -2155,7 +2189,7 @@
         "mobile": true,
         "extensions": true,
         "control": true,
-        "openSource": true,
+        "openSource": false,
         "mature": true
       },
       "scores": {
@@ -2314,7 +2348,7 @@
         "No es un entorno de ejecución remota",
         "El plan free es limitado"
       ],
-      "licenseType": "Open source"
+      "licenseType": "Comercial"
     },
     {
       "slug": "cmux",
@@ -2510,7 +2544,7 @@
       "name": "Cloudroom",
       "repo": "https://github.com/davidondrej/cloudroom",
       "website": "https://www.cloudroom.dev/",
-      "license": "Apache-2.0",
+      "license": null,
       "category": "workspace",
       "summary": "Workspace open source para correr agentes de código en la nube, con revisión de cambios y ejecución remota.",
       "features": {
@@ -2521,7 +2555,7 @@
         "mobile": false,
         "extensions": true,
         "control": true,
-        "openSource": true,
+        "openSource": false,
         "mature": true
       },
       "scores": {
@@ -2646,7 +2680,7 @@
         "Orquestación limitada",
         "Menos maduro"
       ],
-      "licenseType": "Open source"
+      "licenseType": "Comercial"
     },
     {
       "slug": "codex-app",
@@ -2664,7 +2698,7 @@
         "mobile": true,
         "extensions": true,
         "control": true,
-        "openSource": true,
+        "openSource": false,
         "mature": true
       },
       "scores": {
@@ -2771,18 +2805,18 @@
       "name": "Tortie",
       "repo": "https://github.com/gregce/tortie",
       "website": "https://tortie.sh/",
-      "license": "Apache-2.0",
+      "license": null,
       "category": "workspace",
       "summary": "Workspace con múltiples agentes, multiplexación de sesiones, skills y companion para iPhone.",
       "features": {
         "parallel": false,
         "orchestration": true,
-        "review": false,
+        "review": true,
         "remote": true,
         "mobile": true,
         "extensions": true,
         "control": true,
-        "openSource": true,
+        "openSource": false,
         "mature": true
       },
       "scores": {
@@ -2822,7 +2856,20 @@
             "source": "https://github.com/gregce/tortie#readme"
           }
         ],
-        "revision": [],
+        "revision": [
+          {
+            "text": "Sessions, files, changes, diffs, and search stay scoped to the project in front of you.",
+            "source": "https://github.com/gregce/tortie#readme"
+          },
+          {
+            "text": "Keep provider-specific terminal agents alive across projects, with files, diffs, search, and Git in one window.",
+            "source": "https://github.com/gregce/tortie#readme"
+          },
+          {
+            "text": "- [Pierre](https://pierre.co/)'s [@pierre/trees](https://www.npmjs.com/package/@pierre/trees) and [@pierre/diffs](https://www.npmjs.com/package/@pierre/diffs) render the file tree and the diffs.",
+            "source": "https://github.com/gregce/tortie#readme"
+          }
+        ],
         "remoto": [
           {
             "text": "The machine needs ssh, and on a Mac, Remote Login turned on.",
@@ -2904,14 +2951,14 @@
         "Revisión y PRs limitados",
         "Proyecto pequeño"
       ],
-      "licenseType": "Open source"
+      "licenseType": "Comercial"
     },
     {
       "slug": "sidecar",
       "name": "Sidecar",
       "repo": "https://github.com/marcus/sidecar",
       "website": "https://sidecar.haplab.com/",
-      "license": "MIT",
+      "license": null,
       "category": "terminal",
       "summary": "Terminal workspace para sesiones de agentes, hosts remotos y entrega con Git; broadcasting de agentes detrás de un flag.",
       "features": {
@@ -2922,7 +2969,7 @@
         "mobile": false,
         "extensions": true,
         "control": true,
-        "openSource": true,
+        "openSource": false,
         "mature": true
       },
       "scores": {
@@ -2980,7 +3027,20 @@
             "source": "https://github.com/marcus/sidecar#readme"
           }
         ],
-        "revision": [],
+        "revision": [
+          {
+            "text": "Monitor live agent sessions, inspect git diffs, track durable tasks, take notes, and manage your day without losing your place.",
+            "source": "https://github.com/marcus/sidecar#readme"
+          },
+          {
+            "text": "Review Inspect changes alongside the conversation — files, diffs, git history, and tasks open automatically in synchronized adjacent panes.",
+            "source": "https://github.com/marcus/sidecar#readme"
+          },
+          {
+            "text": "Agents can programmatically project files, diffs, and tasks into adjacent panes at exact line numbers, giving you immediate visual clarity while the agent continues building.",
+            "source": "https://github.com/marcus/sidecar#readme"
+          }
+        ],
         "remoto": [
           {
             "text": "Configuration & setup , Visual settings for appearance, projects, workspaces, agents, remote hosts, and integrations.",
@@ -3040,14 +3100,14 @@
         "Orquestación experimental",
         "Poca extensibilidad"
       ],
-      "licenseType": "Open source"
+      "licenseType": "Comercial"
     },
     {
       "slug": "herdr",
       "name": "Herdr",
       "repo": "https://github.com/herdrdev/herdr-app",
       "website": "https://herdr.dev/",
-      "license": "Apache-2.0",
+      "license": null,
       "category": "terminal",
       "summary": "ADE de terminal para mantener agentes de código juntos en local y SSH; las terminales sobreviven desconexiones y restauran layout.",
       "features": {
@@ -3058,7 +3118,7 @@
         "mobile": true,
         "extensions": false,
         "control": true,
-        "openSource": true,
+        "openSource": false,
         "mature": true
       },
       "scores": {
@@ -3170,7 +3230,7 @@
         "Sin revisión/PRs",
         "Más multiplexor que orquestador"
       ],
-      "licenseType": "Open source"
+      "licenseType": "Comercial"
     },
     {
       "slug": "solo",
@@ -3334,7 +3394,7 @@
       "name": "Agent Teams AI",
       "repo": "https://github.com/777genius/agent-teams-ai",
       "website": "https://agentteams.live/",
-      "license": "AGPL-3.0",
+      "license": null,
       "category": "orchestrator",
       "summary": "App de escritorio para correr agentes como equipo alrededor de un tablero: un líder delega, los agentes se mensajean y tú revisas.",
       "features": {
@@ -3345,7 +3405,7 @@
         "mobile": true,
         "extensions": true,
         "control": true,
-        "openSource": true,
+        "openSource": false,
         "mature": true
       },
       "scores": {
@@ -3421,11 +3481,11 @@
             "source": "https://github.com/777genius/agent-teams-ai#readme"
           },
           {
-            "text": "Free model with no auth included Free model with no auth for first runs No account or provider login required to try Optional access to Claude Code, Codex, OpenCode, Cursor, SuperGrok, GitHub Copilot, Z.AI, MiniMax, and Kiro Unlimited agent teams Kanban board with real-time updates Code review with diff view Cross-team communication Solo & team modes Download Now Agent Teams has no paid tier.",
+            "text": "Navigate files and full diffs, accept or reject whole files or individual hunks, edit when needed, undo decisions, and send feedback.",
             "source": "https://github.com/777genius/agent-teams-ai#readme"
           },
           {
-            "text": "Powerfull AI code review that runs inside your CI/CD (privacy) using your Claude/Codex/other subscription accounts (pool)/API.",
+            "text": "Free model with no auth included Free model with no auth for first runs No account or provider login required to try Optional access to Claude Code, Codex, OpenCode, Cursor, SuperGrok, GitHub Copilot, Z.AI, MiniMax, and Kiro Unlimited agent teams Kanban board with real-time updates Code review with diff view Cross-team communication Solo & team modes Download Now Agent Teams has no paid tier.",
             "source": "https://github.com/777genius/agent-teams-ai#readme"
           }
         ],
@@ -3498,7 +3558,7 @@
         "SSH todavía es una idea",
         "Extensiones y control básicos"
       ],
-      "licenseType": "Open source"
+      "licenseType": "Comercial"
     },
     {
       "slug": "maestri",
@@ -3625,18 +3685,18 @@
       "name": "Waku",
       "repo": "https://github.com/egoist/waku",
       "website": "https://waku.sh/",
-      "license": "GPL-3.0",
+      "license": null,
       "category": "workspace",
       "summary": "App nativa para manejar sesiones de agentes de código, contexto, skills y aprobaciones desde macOS.",
       "features": {
         "parallel": false,
         "orchestration": false,
-        "review": false,
+        "review": true,
         "remote": true,
         "mobile": false,
         "extensions": true,
         "control": false,
-        "openSource": true,
+        "openSource": false,
         "mature": true
       },
       "scores": {
@@ -3674,7 +3734,16 @@
         ],
         "paralelo": [],
         "orquestacion": [],
-        "revision": [],
+        "revision": [
+          {
+            "text": "The local folder picker and PTY are therefore unavailable until the protocol gains daemon-host picker and terminal-stream endpoints; files, diffs, Git, skills, usage, task state, and attachments already use daemon RPC.",
+            "source": "https://github.com/egoist/waku#readme"
+          },
+          {
+            "text": "Agent sessions, projects, transcripts, skills, usage, diffs, file editing, and the terminal run natively on Linux and Windows.",
+            "source": "https://github.com/egoist/waku#readme"
+          }
+        ],
         "remoto": [
           {
             "text": "No account, no telemetry, no Waku cloud between you and your agents.",
@@ -3733,7 +3802,7 @@
         "Orquestación limitada",
         "Menos adopción"
       ],
-      "licenseType": "Open source"
+      "licenseType": "Comercial"
     }
   ],
   "queue": [

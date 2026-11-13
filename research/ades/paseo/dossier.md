@@ -31,6 +31,7 @@ Workspace para acceder a sesiones de agentes de código desde distintos disposit
 ### revision
 - “Open the desktop app and work: agents, editor, terminals, diffs, pull requests, and a browser in one window.” — https://github.com/getpaseo/paseo#readme
 - “- **Complete development workflow:** Edit files, review diffs, open pull requests, and run terminals, in split panes you arrange how you want.” — https://github.com/getpaseo/paseo#readme
+- “[Run parallel tasks in Paseo](https://paseo.sh/docs/parallel-development): start agents in separate worktrees, review their diffs, run each app, and check it in the built-in browser.” — https://github.com/getpaseo/paseo#readme
 
 ### remoto
 - “Sponsors Cloud coding agents Become a sponsor Sponsor Paseo Paseo is an independent project used by tens of thousands of developers daily.” — https://github.com/getpaseo/paseo#readme

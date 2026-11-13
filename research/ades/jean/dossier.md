@@ -2,7 +2,7 @@
 
 - **Web oficial**: https://jean.build/
 - **Repo**: https://github.com/coollabsio/jean
-- **Licencia**: Apache-2.0
+- **Licencia**: Comercial
 - **Categoría**: workspace
 - **Revisado**: 2026-11-13
 - **ADE Score**: 79.44 · Tier A
@@ -28,6 +28,7 @@ Workspace open source para agentes de código, worktrees, MCP y entrega con GitH
 
 ### revision
 - “One project, many isolated worktrees: issues, pull requests and manual tasks, with diff size, PR status and your own labels.” — https://github.com/coollabsio/jean#readme
+- “Tauri v2 · React 19 · Rust · TypeScript · Tailwind CSS v4 · shadcn/ui v4 · Zustand v5 · TanStack Query · Pierre Diffs · xterm.js </div> ## About the Project Jean is an opinionated AI agent workspace.” — https://github.com/coollabsio/jean#readme
 
 ### remoto
 - “Many servers - add as many remotes as you want, or install one over SSH from the app.” — https://github.com/coollabsio/jean#readme

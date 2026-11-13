@@ -2,7 +2,7 @@
 
 - **Web oficial**: https://ghostex.dev/
 - **Repo**: https://github.com/maddada/Ghostex
-- **Licencia**: MIT
+- **Licencia**: Comercial
 - **Categoría**: workspace
 - **Revisado**: 2026-11-13
 - **ADE Score**: 80.16 · Tier A

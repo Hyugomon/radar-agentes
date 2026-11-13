@@ -2,7 +2,7 @@
 
 - **Web oficial**: https://waku.sh/
 - **Repo**: https://github.com/egoist/waku
-- **Licencia**: GPL-3.0
+- **Licencia**: Comercial
 - **Categoría**: workspace
 - **Revisado**: 2026-11-13
 - **ADE Score**: 70.88 · Tier B
@@ -24,7 +24,8 @@ App nativa para manejar sesiones de agentes de código, contexto, skills y aprob
 - Sin cita directa en la web/README revisada.
 
 ### revision
-- Sin cita directa en la web/README revisada.
+- “The local folder picker and PTY are therefore unavailable until the protocol gains daemon-host picker and terminal-stream endpoints; files, diffs, Git, skills, usage, task state, and attachments already use daemon RPC.” — https://github.com/egoist/waku#readme
+- “Agent sessions, projects, transcripts, skills, usage, diffs, file editing, and the terminal run natively on Linux and Windows.” — https://github.com/egoist/waku#readme
 
 ### remoto
 - “No account, no telemetry, no Waku cloud between you and your agents.” — https://github.com/egoist/waku#readme

@@ -1,7 +1,7 @@
-/**
+﻿/**
  * Investiga ADEs una por una y guarda evidencia en research/ades/<slug>/.
  * Solo usa el nombre y la URL oficial de research/ades/names.json.
- * No importa rankings, scores ni notas de la página de referencia.
+ * No importa rankings, scores ni notas de la pÃ¡gina de referencia.
  *
  * Uso:
  *   node scripts/research-ades.mjs
@@ -150,19 +150,19 @@ function dossier(p) {
   const featureLines = Object.entries(p.scores).map(([k, v]) => `- **${k}**: ${v}/100`).join('\n')
   const evidence = Object.entries(p.evidence).map(([k, arr]) => {
     if (!arr.length) return `### ${k}\n- Sin cita directa en la web/README revisada.`
-    return `### ${k}\n${arr.map(e => `- “${e.text}” — ${e.source}`).join('\n')}`
+    return `### ${k}\n${arr.map(e => `- â€œ${e.text}â€ â€” ${e.source}`).join('\n')}`
   }).join('\n\n')
-  const sources = p.sources.map(s => `- [${s.label}](${s.url}) · consultado ${s.accessedAt}`).join('\n')
-  return `# ${p.name} — dossier ADE
+  const sources = p.sources.map(s => `- [${s.label}](${s.url}) Â· consultado ${s.accessedAt}`).join('\n')
+  return `# ${p.name} â€” dossier ADE
 
 - **Web oficial**: ${p.website}
-- **Repo**: ${p.repo || '—'}
+- **Repo**: ${p.repo || 'â€”'}
 - **Licencia**: ${p.license || 'No verificada'}
-- **Categoría**: ${p.category}
+- **CategorÃ­a**: ${p.category}
 - **Revisado**: ${p.judged_day}
-- **ADE Score**: ${p.total} · Tier ${p.tier}
+- **ADE Score**: ${p.total} Â· Tier ${p.tier}
 
-## Qué es
+## QuÃ© es
 
 ${p.summary}
 
@@ -180,13 +180,13 @@ ${sources}
 
 ---
 
-_Investigación documental de la web oficial y el repositorio. No se instaló ni se probó el ADE en una tarea real._
+_InvestigaciÃ³n documental de la web oficial y el repositorio. No se instalÃ³ ni se probÃ³ el ADE en una tarea real._
 `
 }
 
 async function research(name) {
   const item = byName.get(name.toLowerCase())
-  if (!item) { console.warn(`SKIP ${name}: no está en names.json`); return null }
+  if (!item) { console.warn(`SKIP ${name}: no estÃ¡ en names.json`); return null }
   const slug = slugify(name)
   const dir = join(dirRoot, slug)
   if (!refresh && existsSync(join(dir, 'dossier.md'))) {
@@ -194,7 +194,7 @@ async function research(name) {
     return readExisting(slug, item)
   }
 
-  console.log(`→ ${name}`)
+  console.log(`â†’ ${name}`)
   let repo = githubRepo(item.url)
   const home = await getText(item.url)
   const html = home.text || ''
@@ -224,7 +224,7 @@ async function research(name) {
   const features = {
     parallel: /parallel|worktree|concurrent/.test(text),
     orchestration: /orchestrat|delegate|multi-agent|multi agent|teammates|team of agents/.test(text),
-    review: /diff review|code review|pull request|\bprs?\b|review changes/.test(text),
+    review: /diff review|code review|pull request|\bprs?\b|review changes|diffs/.test(text),
     remote: /ssh|remote host|remote server|cloud|self-hosted server/.test(text),
     mobile: /ios|iphone|ipad|android|mobile app|phone/.test(text),
     extensions: /\bmcp\b|skills|plugins|context management/.test(text),
@@ -240,7 +240,7 @@ async function research(name) {
     harnesses: pick(rawText, harnessNames, [], 3).map(s => ({ text: s, source: repo ? `https://github.com/${repo}#readme` : item.url })),
     paralelo: pick(rawText, ['parallel', 'worktree', 'concurrent'], [], 3).map(s => ({ text: s, source: repo ? `https://github.com/${repo}#readme` : item.url })),
     orquestacion: pick(rawText, ['orchestrat', 'delegate', 'multi-agent', 'teammates'], [], 3).map(s => ({ text: s, source: repo ? `https://github.com/${repo}#readme` : item.url })),
-    revision: pick(rawText, ['diff review', 'code review', 'pull request', 'review changes'], [], 3).map(s => ({ text: s, source: repo ? `https://github.com/${repo}#readme` : item.url })),
+    revision: pick(rawText, ['diff review', 'code review', 'pull request', 'review changes', 'diffs'], [], 3).map(s => ({ text: s, source: repo ? `https://github.com/${repo}#readme` : item.url })),
     remoto: pick(rawText, ['ssh', 'remote', 'cloud', 'self-hosted'], [], 3).map(s => ({ text: s, source: repo ? `https://github.com/${repo}#readme` : item.url })),
     movil: pick(rawText, ['ios', 'iphone', 'android', 'mobile app'], [], 3).map(s => ({ text: s, source: repo ? `https://github.com/${repo}#readme` : item.url })),
     extensiones: pick(rawText, ['mcp', 'skills', 'plugins', 'context management'], [], 3).map(s => ({ text: s, source: repo ? `https://github.com/${repo}#readme` : item.url })),
@@ -269,7 +269,7 @@ async function research(name) {
   if (readme) writeFile(join(dir, 'readme.md'), readme.slice(0, 40000))
   writeFile(join(dir, 'sources.json'), JSON.stringify(sources, null, 2) + '\n')
   writeFile(join(dir, 'dossier.md'), dossier(project))
-  console.log(`  ✓ ${slug} · ${total} · ${tier}`)
+  console.log(`  âœ“ ${slug} Â· ${total} Â· ${tier}`)
   return project
 }
 
@@ -302,4 +302,5 @@ for (const p of projects) merged.set(p.slug, p)
 const queue = names.filter(n => !merged.has(slugify(n.name))).map(n => ({ name: n.name, url: n.url }))
 const out = { generated_at: now, count: merged.size, projects: [...merged.values()].sort((a, b) => b.total - a.total), queue }
 writeFile(indexFile, JSON.stringify(out, null, 2) + '\n')
-console.log(`\nOK ${out.count} ADEs investigados · ${queue.length} en cola`)
+console.log(`\nOK ${out.count} ADEs investigados Â· ${queue.length} en cola`)
+

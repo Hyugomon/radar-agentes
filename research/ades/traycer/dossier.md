@@ -2,7 +2,7 @@
 
 - **Web oficial**: https://traycer.ai/
 - **Repo**: https://github.com/traycerai/traycer
-- **Licencia**: MIT
+- **Licencia**: Comercial
 - **Categoría**: planning
 - **Revisado**: 2026-11-13
 - **ADE Score**: 78.42 · Tier A
