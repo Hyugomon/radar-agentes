@@ -18,6 +18,7 @@
               <th>Dimensión</th>
               <th class="num">{{ shortName(a.full_name) }}</th>
               <th class="num">{{ shortName(b.full_name) }}</th>
+              <th>Ataque</th>
               <th>Ventaja</th>
             </tr>
           </thead>
@@ -26,6 +27,7 @@
               <td class="dim-name">{{ d.label }}</td>
               <td class="num" :class="{ win: value(a, d.key) > value(b, d.key) }">{{ value(a, d.key) }}</td>
               <td class="num" :class="{ win: value(b, d.key) > value(a, d.key) }">{{ value(b, d.key) }}</td>
+              <td><span class="tag" :class="`tag--atk-${attackType(d.key)}`">{{ attackLabel(attackType(d.key)) }}</span></td>
               <td>
                 <span class="tag" :class="{ 'tag--open': value(a, d.key) > value(b, d.key) }">
                   {{ dimWinner(d.key) }}
@@ -36,6 +38,7 @@
               <td>Total</td>
               <td class="num">{{ a.total.toFixed(1) }}</td>
               <td class="num">{{ b.total.toFixed(1) }}</td>
+              <td />
               <td class="tiny">{{ a.tier }} vs {{ b.tier }}</td>
             </tr>
           </tbody>
@@ -66,6 +69,7 @@ const props = defineProps<{
   winner: 'a' | 'b'
   margin: number
   dimsWon: number
+  events?: any[]
 }>()
 
 const winnerName = computed(() => props.winner === 'a' ? props.a.full_name : props.b.full_name)
@@ -82,5 +86,20 @@ function dimWinner(key: string) {
   const bv = value(props.b, key)
   if (av === bv) return 'Empate'
   return av > bv ? shortName(props.a.full_name) : shortName(props.b.full_name)
+}
+function attackType(key: string) {
+  return props.events?.find(e => e.key === key)?.type || 'normal'
+}
+function attackLabel(type: string) {
+  return {
+    normal: 'Directo',
+    heavy: 'Pesado',
+    breaker: 'Rompe defensa',
+    special: 'Especial',
+    fatal: 'Fatal',
+    ace: 'As bajo la manga',
+    finisher: 'Remate',
+    clash: 'Choque'
+  }[type] || type
 }
 </script>
