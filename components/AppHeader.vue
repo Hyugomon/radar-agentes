@@ -12,6 +12,7 @@
       <nav class="nav">
         <NuxtLink to="/" :class="{ active: route.path === '/' }">Ranking</NuxtLink>
         <NuxtLink to="/versus" :class="{ active: route.path.startsWith('/versus') }">Versus</NuxtLink>
+        <NuxtLink to="/ades" :class="{ active: route.path.startsWith('/ades') }">ADEs</NuxtLink>
         <NuxtLink to="/metodologia" :class="{ active: route.path.startsWith('/metodologia') }">Metodología</NuxtLink>
       </nav>
 

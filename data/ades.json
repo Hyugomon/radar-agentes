@@ -1,0 +1,3422 @@
+{
+  "generated_at": "2026-11-13 09:00",
+  "generated_iso": "2026-11-13T14:00:00Z",
+  "meta": {
+    "dimensions": [
+      {
+        "key": "harnesses",
+        "label": "Harnesses",
+        "hint": "Cuántos agentes/CLIs distintos puede manejar: Claude Code, Codex, Gemini, OpenCode…",
+        "weight": 0.15
+      },
+      {
+        "key": "paralelo",
+        "label": "Paralelismo",
+        "hint": "Sesiones simultáneas, worktrees y trabajo concurrente sin pisarse.",
+        "weight": 0.15
+      },
+      {
+        "key": "orquestacion",
+        "label": "Orquestación",
+        "hint": "Repartir tareas entre agentes, delegar, handoffs y equipos.",
+        "weight": 0.12
+      },
+      {
+        "key": "revision",
+        "label": "Revisión",
+        "hint": "Diffs, code review, pull requests y entrega de cambios.",
+        "weight": 0.12
+      },
+      {
+        "key": "remoto",
+        "label": "Remoto / cloud",
+        "hint": "SSH, hosts remotos, servidores propios o ejecución cloud.",
+        "weight": 0.1
+      },
+      {
+        "key": "movil",
+        "label": "Móvil",
+        "hint": "Acceso desde iPhone, Android o web móvil.",
+        "weight": 0.06
+      },
+      {
+        "key": "extensiones",
+        "label": "Extensiones",
+        "hint": "MCP, skills, plugins y gestión de contexto.",
+        "weight": 0.1
+      },
+      {
+        "key": "control",
+        "label": "Control",
+        "hint": "Aprobaciones, permisos, sandbox y políticas.",
+        "weight": 0.08
+      },
+      {
+        "key": "abierto",
+        "label": "Apertura",
+        "hint": "Código abierto, licencia publicada y posibilidad de autoalojar.",
+        "weight": 0.06
+      },
+      {
+        "key": "producto",
+        "label": "Producto",
+        "hint": "Madurez, documentación, comunidad, precio y experiencia de uso.",
+        "weight": 0.06
+      }
+    ],
+    "tiers": [
+      {
+        "name": "SS",
+        "floor": 90
+      },
+      {
+        "name": "S",
+        "floor": 82
+      },
+      {
+        "name": "A",
+        "floor": 72
+      },
+      {
+        "name": "B",
+        "floor": 62
+      },
+      {
+        "name": "C",
+        "floor": 52
+      },
+      {
+        "name": "D",
+        "floor": 42
+      },
+      {
+        "name": "E",
+        "floor": 32
+      },
+      {
+        "name": "F",
+        "floor": 0
+      }
+    ],
+    "calibration": [
+      {
+        "band": "90-100",
+        "verdict": "estado del arte",
+        "text": "ADE completo: multi-harness, paralelo, orquestación, revisión y remoto bien resueltos."
+      },
+      {
+        "band": "82-89",
+        "verdict": "excelente",
+        "text": "Muy completo; le falta una pieza o algo de madurez para ser el estándar."
+      },
+      {
+        "band": "72-81",
+        "verdict": "bueno",
+        "text": "Hace bien lo importante, con carencias claras en remoto, móvil o extensibilidad."
+      },
+      {
+        "band": "62-71",
+        "verdict": "limitado",
+        "text": "Workspace útil pero acotado: no cubre el ciclo completo de agentes."
+      },
+      {
+        "band": "0-61",
+        "verdict": "flojo",
+        "text": "Multiplexor o herramienta parcial; no es un ADE completo."
+      }
+    ],
+    "limits": [
+      "Solo se puntúan ADEs investigados. El resto queda en la cola, sin nota inventada.",
+      "La puntuación es editorial y se basa en la web oficial, README, docs y releases; no es una prueba práctica de cada flujo.",
+      "Un ADE no es un agente ni un framework: es el workspace donde orquestas agentes de código.",
+      "Precios, licencias y funciones cambian; confirma en la web oficial antes de decidir.",
+      "La cola de investigación no es un ranking: son nombres pendientes de revisar uno por uno."
+    ],
+    "ranking_rule": "Orden: ADE Score (0-100) de mayor a menor. Solo ADEs investigados; la cola no tiene nota.",
+    "included": "Workspaces, IDEs, terminales y orquestadores para desarrollar con agentes de código.",
+    "excluded": [
+      "Frameworks de agentes",
+      "SDKs",
+      "Harnesses sueltos",
+      "CLIs sin workspace"
+    ]
+  },
+  "counts": {
+    "researched": 24,
+    "queue": 49,
+    "open": 18,
+    "closed": 4,
+    "unverified": 2
+  },
+  "queue": [
+    {
+      "name": "Agentastic",
+      "url": "https://agentastic.dev/"
+    },
+    {
+      "name": "Clor",
+      "url": "https://clor.com/"
+    },
+    {
+      "name": "CodexHost",
+      "url": "https://github.com/BytePioneer-AI/codex-host"
+    },
+    {
+      "name": "MonoCode",
+      "url": "https://github.com/hardbeat920/monocode"
+    },
+    {
+      "name": "Omnigent",
+      "url": "https://omnigent.ai/"
+    },
+    {
+      "name": "OpenCodeX",
+      "url": "https://opencodex.me/"
+    },
+    {
+      "name": "Reliant",
+      "url": "https://reliantlabs.io/"
+    },
+    {
+      "name": "Silo",
+      "url": "https://getsilo.dev/"
+    },
+    {
+      "name": "super.engineering",
+      "url": "https://super.engineering/"
+    },
+    {
+      "name": "AgentGrid",
+      "url": "https://agentgrid.sh/"
+    },
+    {
+      "name": "Agentlas Desktop",
+      "url": "https://agentlas.cloud/desktop"
+    },
+    {
+      "name": "Alan",
+      "url": "https://tryalan.ai/"
+    },
+    {
+      "name": "Antigravity IDE",
+      "url": "https://antigravity.google/product/antigravity-ide"
+    },
+    {
+      "name": "Bentomux",
+      "url": "https://bentomux.takora.dev/"
+    },
+    {
+      "name": "Capy AI",
+      "url": "https://capy.ai/"
+    },
+    {
+      "name": "Cindy",
+      "url": "https://www.cindy.app/"
+    },
+    {
+      "name": "CloudCLI",
+      "url": "https://cloudcli.ai/"
+    },
+    {
+      "name": "Cursor",
+      "url": "https://cursor.com/"
+    },
+    {
+      "name": "Devin Cloud",
+      "url": "https://docs.devin.ai/"
+    },
+    {
+      "name": "Diri",
+      "url": "https://diri.sh/"
+    },
+    {
+      "name": "Elyra",
+      "url": "https://elyra.sh/"
+    },
+    {
+      "name": "Happier",
+      "url": "https://happier.dev/"
+    },
+    {
+      "name": "Intent",
+      "url": "https://intentapp.dev/"
+    },
+    {
+      "name": "Intentic",
+      "url": "https://intentic.dev/"
+    },
+    {
+      "name": "Kanary",
+      "url": "https://kanary.to/agents"
+    },
+    {
+      "name": "Kiro IDE",
+      "url": "https://kiro.dev/ide/"
+    },
+    {
+      "name": "Kuvo Code",
+      "url": "https://www.kuvo.run/code/"
+    },
+    {
+      "name": "Maestro",
+      "url": "https://runmaestro.ai/"
+    },
+    {
+      "name": "MeshPilot · MeshConsole",
+      "url": "https://meshpilot.in/"
+    },
+    {
+      "name": "Multica",
+      "url": "https://multica.ai/"
+    },
+    {
+      "name": "Nimbalyst",
+      "url": "https://www.nimbalyst.com/"
+    },
+    {
+      "name": "Niteshift",
+      "url": "https://niteshift.dev/"
+    },
+    {
+      "name": "o8",
+      "url": "https://o8.run/"
+    },
+    {
+      "name": "Octo",
+      "url": "https://octo.marujo.dev/"
+    },
+    {
+      "name": "Paperclip",
+      "url": "https://paperclip.ing/"
+    },
+    {
+      "name": "Parallel Code",
+      "url": "https://parallelcode.app/"
+    },
+    {
+      "name": "Podium",
+      "url": "https://podium.do/"
+    },
+    {
+      "name": "rNexa",
+      "url": "https://rnexa.dev/"
+    },
+    {
+      "name": "Supacode",
+      "url": "https://supacode.sh/"
+    },
+    {
+      "name": "Tembo",
+      "url": "https://www.tembo.io/"
+    },
+    {
+      "name": "Tern",
+      "url": "https://tern.build/"
+    },
+    {
+      "name": "Timon",
+      "url": "https://timon-ai.com/"
+    },
+    {
+      "name": "Volt",
+      "url": "https://volt.leularia.com/"
+    },
+    {
+      "name": "Warp",
+      "url": "https://www.warp.dev/"
+    },
+    {
+      "name": "Wink",
+      "url": "https://getwink.dev/"
+    },
+    {
+      "name": "Zed",
+      "url": "https://zed.dev/"
+    },
+    {
+      "name": "Zeron",
+      "url": "https://zeron.sh/"
+    },
+    {
+      "name": "Zerus",
+      "url": "https://zerus.dev/"
+    },
+    {
+      "name": "Zuse",
+      "url": "https://www.zuse.sh/"
+    }
+  ],
+  "groups": {
+    "ready": [
+      {
+        "id": "orca",
+        "slug": "orca",
+        "name": "Orca",
+        "repo": "https://github.com/stablyai/orca",
+        "website": "https://www.onorca.dev/",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/orca",
+        "category": "ide",
+        "catLabel": "IDE",
+        "license": "MIT",
+        "licenseType": "Open source",
+        "tagline": "El IDE de agentes con worktrees y móvil.",
+        "summary": "Workspace para correr Claude Code, Codex y otros harnesses en paralelo, con worktrees aislados, revisión de cambios y companion móvil.",
+        "scores": {
+          "harnesses": 95,
+          "paralelo": 94,
+          "orquestacion": 88,
+          "revision": 90,
+          "remoto": 88,
+          "movil": 86,
+          "extensiones": 88,
+          "control": 80,
+          "abierto": 95,
+          "producto": 94
+        },
+        "total": 90.21,
+        "tier": "SS",
+        "next_tier": null,
+        "delta_next": null,
+        "strengths": [
+          "Soporta muchos harnesses sin encerrarte en uno",
+          "Worktrees y sesiones paralelas de primera clase",
+          "Open source y con app móvil"
+        ],
+        "weaknesses": [
+          "La orquestación avanzada requiere configurarla",
+          "No es un runtime de agentes propio: depende de los CLIs",
+          "La curva de configuración crece con el equipo"
+        ],
+        "pricing": "free",
+        "priceNote": "Código abierto + tus modelos",
+        "execution": "Local · SSH",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux",
+          "iOS",
+          "Android"
+        ],
+        "harnesses": [
+          "claude code",
+          "codex",
+          "gemini",
+          "opencode",
+          "cursor",
+          "amp",
+          "devin",
+          "copilot",
+          "grok",
+          "qwen"
+        ],
+        "features": [
+          {
+            "key": "harnesses",
+            "label": "Múltiples harnesses",
+            "on": true
+          },
+          {
+            "key": "paralelo",
+            "label": "Sesiones en paralelo",
+            "on": true
+          },
+          {
+            "key": "orquestacion",
+            "label": "Orquestación de agentes",
+            "on": true
+          },
+          {
+            "key": "revision",
+            "label": "Revisión / PRs",
+            "on": true
+          },
+          {
+            "key": "remoto",
+            "label": "SSH / remoto / cloud",
+            "on": true
+          },
+          {
+            "key": "movil",
+            "label": "Acceso móvil",
+            "on": true
+          },
+          {
+            "key": "extensiones",
+            "label": "MCP / skills / plugins",
+            "on": true
+          },
+          {
+            "key": "control",
+            "label": "Aprobaciones / control",
+            "on": true
+          },
+          {
+            "key": "abierto",
+            "label": "Open source / autoalojable",
+            "on": true
+          }
+        ],
+        "sources": [
+          {
+            "label": "Web oficial",
+            "url": "https://www.onorca.dev/",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/stablyai/orca",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/stablyai/orca#readme",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/orca",
+            "accessedAt": "2026-11-13"
+          }
+        ],
+        "judged_day": "2026-11-13",
+        "rank": 1
+      },
+      {
+        "id": "t3-code",
+        "slug": "t3-code",
+        "name": "T3 Code",
+        "repo": "https://github.com/pingdotgg/t3code",
+        "website": "https://t3.codes/",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/t3-code",
+        "category": "ide",
+        "catLabel": "IDE",
+        "license": "MIT",
+        "licenseType": "Open source",
+        "tagline": "El control plane open source para agentes.",
+        "summary": "Workspace open source para manejar varios agentes de código, sesiones remotas y worktrees desde escritorio y móvil.",
+        "scores": {
+          "harnesses": 95,
+          "paralelo": 92,
+          "orquestacion": 86,
+          "revision": 86,
+          "remoto": 88,
+          "movil": 84,
+          "extensiones": 82,
+          "control": 72,
+          "abierto": 95,
+          "producto": 90
+        },
+        "total": 87.59,
+        "tier": "S",
+        "next_tier": "SS",
+        "delta_next": 2.41,
+        "strengths": [
+          "Open source con mucha adopción",
+          "Acceso remoto y móvil",
+          "Multi-harness y worktrees"
+        ],
+        "weaknesses": [
+          "Cambios frecuentes entre Nightly y Stable",
+          "No trae modelo propio",
+          "La revisión es más de workspace que de code review profundo"
+        ],
+        "pricing": "free",
+        "priceNote": "Código abierto + tus modelos",
+        "execution": "Local · SSH · Self-hosted",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux",
+          "iOS",
+          "Android"
+        ],
+        "harnesses": [
+          "claude code",
+          "codex",
+          "opencode",
+          "cursor",
+          "amp",
+          "grok"
+        ],
+        "features": [
+          {
+            "key": "harnesses",
+            "label": "Múltiples harnesses",
+            "on": true
+          },
+          {
+            "key": "paralelo",
+            "label": "Sesiones en paralelo",
+            "on": true
+          },
+          {
+            "key": "orquestacion",
+            "label": "Orquestación de agentes",
+            "on": true
+          },
+          {
+            "key": "revision",
+            "label": "Revisión / PRs",
+            "on": true
+          },
+          {
+            "key": "remoto",
+            "label": "SSH / remoto / cloud",
+            "on": true
+          },
+          {
+            "key": "movil",
+            "label": "Acceso móvil",
+            "on": true
+          },
+          {
+            "key": "extensiones",
+            "label": "MCP / skills / plugins",
+            "on": true
+          },
+          {
+            "key": "control",
+            "label": "Aprobaciones / control",
+            "on": true
+          },
+          {
+            "key": "abierto",
+            "label": "Open source / autoalojable",
+            "on": true
+          }
+        ],
+        "sources": [
+          {
+            "label": "Web oficial",
+            "url": "https://t3.codes/",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/pingdotgg/t3code",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/pingdotgg/t3code#readme",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/t3-code",
+            "accessedAt": "2026-11-13"
+          }
+        ],
+        "judged_day": "2026-11-13",
+        "rank": 2
+      },
+      {
+        "id": "paradev",
+        "slug": "paradev",
+        "name": "Paradev",
+        "repo": "https://github.com/paradevai/paradev",
+        "website": "https://paradev.com/",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/paradev",
+        "category": "workspace",
+        "catLabel": "Workspace",
+        "license": "MIT",
+        "licenseType": "Open source",
+        "tagline": "Un ejército de agentes en paralelo.",
+        "summary": "Workspace open source para correr agentes de código en paralelo, con CLI, MCP, móvil, automatizaciones y workspaces cloud opcionales.",
+        "scores": {
+          "harnesses": 92,
+          "paralelo": 90,
+          "orquestacion": 84,
+          "revision": 82,
+          "remoto": 88,
+          "movil": 82,
+          "extensiones": 80,
+          "control": 72,
+          "abierto": 95,
+          "producto": 86
+        },
+        "total": 85.56,
+        "tier": "S",
+        "next_tier": "SS",
+        "delta_next": 4.44,
+        "strengths": [
+          "Paralelismo y worktrees muy trabajados",
+          "CLI + escritorio + móvil",
+          "Open source con plan free local"
+        ],
+        "weaknesses": [
+          "Móvil y automatizaciones requieren plan de pago",
+          "Cloud en beta",
+          "Depende de los harnesses que conectes"
+        ],
+        "pricing": "freemium",
+        "priceNote": "Free local; Pro US$20/mes",
+        "execution": "Local · SSH · Cloud beta",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux",
+          "iOS",
+          "Android",
+          "Web"
+        ],
+        "harnesses": [
+          "claude code",
+          "codex",
+          "gemini",
+          "opencode",
+          "cursor",
+          "amp",
+          "devin",
+          "copilot",
+          "grok"
+        ],
+        "features": [
+          {
+            "key": "harnesses",
+            "label": "Múltiples harnesses",
+            "on": true
+          },
+          {
+            "key": "paralelo",
+            "label": "Sesiones en paralelo",
+            "on": true
+          },
+          {
+            "key": "orquestacion",
+            "label": "Orquestación de agentes",
+            "on": true
+          },
+          {
+            "key": "revision",
+            "label": "Revisión / PRs",
+            "on": true
+          },
+          {
+            "key": "remoto",
+            "label": "SSH / remoto / cloud",
+            "on": true
+          },
+          {
+            "key": "movil",
+            "label": "Acceso móvil",
+            "on": true
+          },
+          {
+            "key": "extensiones",
+            "label": "MCP / skills / plugins",
+            "on": true
+          },
+          {
+            "key": "control",
+            "label": "Aprobaciones / control",
+            "on": true
+          },
+          {
+            "key": "abierto",
+            "label": "Open source / autoalojable",
+            "on": true
+          }
+        ],
+        "sources": [
+          {
+            "label": "Web oficial",
+            "url": "https://paradev.com/",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/paradevai/paradev",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/paradevai/paradev#readme",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/paradev",
+            "accessedAt": "2026-11-13"
+          }
+        ],
+        "judged_day": "2026-11-13",
+        "rank": 3
+      },
+      {
+        "id": "agent-orchestrator",
+        "slug": "agent-orchestrator",
+        "name": "Agent Orchestrator",
+        "repo": "https://github.com/OrchestratorInc/agent-orchestrator",
+        "website": "https://orchestrator.inc/",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/agent-orchestrator",
+        "category": "orchestrator",
+        "catLabel": "Orquestador",
+        "license": "Apache-2.0",
+        "licenseType": "Open source",
+        "tagline": "Supervisión de agentes de punta a punta.",
+        "summary": "Orquestador open source para repartir tareas entre agentes, aislar trabajo, revisar cambios y abrir pull requests.",
+        "scores": {
+          "harnesses": 90,
+          "paralelo": 90,
+          "orquestacion": 90,
+          "revision": 84,
+          "remoto": 84,
+          "movil": 78,
+          "extensiones": 70,
+          "control": 70,
+          "abierto": 95,
+          "producto": 82
+        },
+        "total": 84.18,
+        "tier": "S",
+        "next_tier": "SS",
+        "delta_next": 5.82,
+        "strengths": [
+          "Orquestación y paralelismo nativos",
+          "Revisión y PRs dentro del flujo",
+          "Open source y self-hosted"
+        ],
+        "weaknesses": [
+          "Menos foco en la experiencia de IDE",
+          "Extensiones y MCP no son el centro",
+          "Requiere configurar los agentes conectados"
+        ],
+        "pricing": "free",
+        "priceNote": "Código abierto + tus modelos",
+        "execution": "Local · Self-hosted",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux",
+          "Web"
+        ],
+        "harnesses": [
+          "claude code",
+          "codex",
+          "gemini",
+          "opencode",
+          "cursor",
+          "amp",
+          "devin",
+          "aider",
+          "copilot",
+          "grok",
+          "qwen"
+        ],
+        "features": [
+          {
+            "key": "harnesses",
+            "label": "Múltiples harnesses",
+            "on": true
+          },
+          {
+            "key": "paralelo",
+            "label": "Sesiones en paralelo",
+            "on": true
+          },
+          {
+            "key": "orquestacion",
+            "label": "Orquestación de agentes",
+            "on": true
+          },
+          {
+            "key": "revision",
+            "label": "Revisión / PRs",
+            "on": true
+          },
+          {
+            "key": "remoto",
+            "label": "SSH / remoto / cloud",
+            "on": true
+          },
+          {
+            "key": "movil",
+            "label": "Acceso móvil",
+            "on": true
+          },
+          {
+            "key": "extensiones",
+            "label": "MCP / skills / plugins",
+            "on": true
+          },
+          {
+            "key": "control",
+            "label": "Aprobaciones / control",
+            "on": true
+          },
+          {
+            "key": "abierto",
+            "label": "Open source / autoalojable",
+            "on": true
+          }
+        ],
+        "sources": [
+          {
+            "label": "Web oficial",
+            "url": "https://orchestrator.inc/",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/OrchestratorInc/agent-orchestrator",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/OrchestratorInc/agent-orchestrator#readme",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/agent-orchestrator",
+            "accessedAt": "2026-11-13"
+          }
+        ],
+        "judged_day": "2026-11-13",
+        "rank": 4
+      },
+      {
+        "id": "kandev",
+        "slug": "kandev",
+        "name": "Kandev",
+        "repo": "https://github.com/kdlbs/kandev",
+        "website": "https://github.com/kdlbs/kandev",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/kandev",
+        "category": "orchestrator",
+        "catLabel": "Orquestador",
+        "license": "AGPL-3.0",
+        "licenseType": "Open source",
+        "tagline": "Kanban para orquestar agentes.",
+        "summary": "Entorno self-hostable con tablero Kanban, pipelines de agentes, revisión de cambios y pull requests. Multi-proveedor y sin telemetría.",
+        "scores": {
+          "harnesses": 90,
+          "paralelo": 88,
+          "orquestacion": 90,
+          "revision": 86,
+          "remoto": 85,
+          "movil": 70,
+          "extensiones": 72,
+          "control": 70,
+          "abierto": 95,
+          "producto": 80
+        },
+        "total": 83.82,
+        "tier": "S",
+        "next_tier": "SS",
+        "delta_next": 6.18,
+        "strengths": [
+          "Tablero Kanban muy claro para trabajo multi-agente",
+          "Revisión y PRs integrados",
+          "Self-hosted y multi-proveedor"
+        ],
+        "weaknesses": [
+          "Más orquestador que IDE de código",
+          "Móvil limitado al navegador",
+          "Setup self-hosted"
+        ],
+        "pricing": "free",
+        "priceNote": "Código abierto + tus modelos",
+        "execution": "Local · SSH · Self-hosted",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux",
+          "Web"
+        ],
+        "harnesses": [
+          "claude code",
+          "codex",
+          "gemini",
+          "opencode",
+          "cursor",
+          "amp",
+          "devin",
+          "copilot",
+          "grok",
+          "qwen"
+        ],
+        "features": [
+          {
+            "key": "harnesses",
+            "label": "Múltiples harnesses",
+            "on": true
+          },
+          {
+            "key": "paralelo",
+            "label": "Sesiones en paralelo",
+            "on": true
+          },
+          {
+            "key": "orquestacion",
+            "label": "Orquestación de agentes",
+            "on": true
+          },
+          {
+            "key": "revision",
+            "label": "Revisión / PRs",
+            "on": true
+          },
+          {
+            "key": "remoto",
+            "label": "SSH / remoto / cloud",
+            "on": true
+          },
+          {
+            "key": "movil",
+            "label": "Acceso móvil",
+            "on": true
+          },
+          {
+            "key": "extensiones",
+            "label": "MCP / skills / plugins",
+            "on": true
+          },
+          {
+            "key": "control",
+            "label": "Aprobaciones / control",
+            "on": true
+          },
+          {
+            "key": "abierto",
+            "label": "Open source / autoalojable",
+            "on": true
+          }
+        ],
+        "sources": [
+          {
+            "label": "Web oficial",
+            "url": "https://github.com/kdlbs/kandev",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/kdlbs/kandev",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/kdlbs/kandev#readme",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/kandev",
+            "accessedAt": "2026-11-13"
+          }
+        ],
+        "judged_day": "2026-11-13",
+        "rank": 5
+      },
+      {
+        "id": "synara",
+        "slug": "synara",
+        "name": "Synara",
+        "repo": "https://github.com/Emanuele-web04/synara",
+        "website": "https://www.trysynara.com/",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/synara",
+        "category": "workspace",
+        "catLabel": "Workspace",
+        "license": "MIT",
+        "licenseType": "Open source",
+        "tagline": "Control plane local-first para agentes.",
+        "summary": "Workspace local-first para tareas de agentes, worktrees, handoffs y revisión, con MCP y soporte de varios harnesses.",
+        "scores": {
+          "harnesses": 90,
+          "paralelo": 88,
+          "orquestacion": 90,
+          "revision": 86,
+          "remoto": 82,
+          "movil": 70,
+          "extensiones": 72,
+          "control": 70,
+          "abierto": 95,
+          "producto": 82
+        },
+        "total": 83.64,
+        "tier": "S",
+        "next_tier": "SS",
+        "delta_next": 6.36,
+        "strengths": [
+          "Handoffs y orquestación de agentes",
+          "Worktrees y revisión de PRs",
+          "Open source y local-first"
+        ],
+        "weaknesses": [
+          "Sin app móvil nativa",
+          "No tiene runtime propio",
+          "Ecosistema joven"
+        ],
+        "pricing": "free",
+        "priceNote": "Código abierto + tus modelos",
+        "execution": "Local · Self-hosted",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux",
+          "Web"
+        ],
+        "harnesses": [
+          "claude code",
+          "codex",
+          "opencode",
+          "cursor",
+          "devin",
+          "grok"
+        ],
+        "features": [
+          {
+            "key": "harnesses",
+            "label": "Múltiples harnesses",
+            "on": true
+          },
+          {
+            "key": "paralelo",
+            "label": "Sesiones en paralelo",
+            "on": true
+          },
+          {
+            "key": "orquestacion",
+            "label": "Orquestación de agentes",
+            "on": true
+          },
+          {
+            "key": "revision",
+            "label": "Revisión / PRs",
+            "on": true
+          },
+          {
+            "key": "remoto",
+            "label": "SSH / remoto / cloud",
+            "on": true
+          },
+          {
+            "key": "movil",
+            "label": "Acceso móvil",
+            "on": true
+          },
+          {
+            "key": "extensiones",
+            "label": "MCP / skills / plugins",
+            "on": true
+          },
+          {
+            "key": "control",
+            "label": "Aprobaciones / control",
+            "on": true
+          },
+          {
+            "key": "abierto",
+            "label": "Open source / autoalojable",
+            "on": true
+          }
+        ],
+        "sources": [
+          {
+            "label": "Web oficial",
+            "url": "https://www.trysynara.com/",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/Emanuele-web04/synara",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/Emanuele-web04/synara#readme",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/synara",
+            "accessedAt": "2026-11-13"
+          }
+        ],
+        "judged_day": "2026-11-13",
+        "rank": 6
+      },
+      {
+        "id": "bb",
+        "slug": "bb",
+        "name": "bb",
+        "repo": "https://github.com/get-bb/bb",
+        "website": "https://getbb.app/",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/bb",
+        "category": "ide",
+        "catLabel": "IDE",
+        "license": "MIT",
+        "licenseType": "Open source",
+        "tagline": "El IDE agéntico que se construye solo.",
+        "summary": "Workspace extensible con plugins, orquestación de agentes, tareas programadas y ejecución remota en tus propios hosts.",
+        "scores": {
+          "harnesses": 88,
+          "paralelo": 86,
+          "orquestacion": 84,
+          "revision": 80,
+          "remoto": 84,
+          "movil": 70,
+          "extensiones": 85,
+          "control": 70,
+          "abierto": 95,
+          "producto": 82
+        },
+        "total": 83.1,
+        "tier": "S",
+        "next_tier": "SS",
+        "delta_next": 6.9,
+        "strengths": [
+          "Plugins y marketplace propios",
+          "Orquestación y schedule",
+          "Open source y remote dev servers"
+        ],
+        "weaknesses": [
+          "Revisión de cambios menos profunda",
+          "Sin app móvil nativa",
+          "El modelo de plugins añade complejidad"
+        ],
+        "pricing": "free",
+        "priceNote": "Código abierto + tus modelos",
+        "execution": "Local · SSH · Self-hosted",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux",
+          "Web"
+        ],
+        "harnesses": [
+          "claude code",
+          "codex",
+          "gemini",
+          "opencode",
+          "cursor",
+          "amp",
+          "copilot",
+          "grok"
+        ],
+        "features": [
+          {
+            "key": "harnesses",
+            "label": "Múltiples harnesses",
+            "on": true
+          },
+          {
+            "key": "paralelo",
+            "label": "Sesiones en paralelo",
+            "on": true
+          },
+          {
+            "key": "orquestacion",
+            "label": "Orquestación de agentes",
+            "on": true
+          },
+          {
+            "key": "revision",
+            "label": "Revisión / PRs",
+            "on": true
+          },
+          {
+            "key": "remoto",
+            "label": "SSH / remoto / cloud",
+            "on": true
+          },
+          {
+            "key": "movil",
+            "label": "Acceso móvil",
+            "on": true
+          },
+          {
+            "key": "extensiones",
+            "label": "MCP / skills / plugins",
+            "on": true
+          },
+          {
+            "key": "control",
+            "label": "Aprobaciones / control",
+            "on": true
+          },
+          {
+            "key": "abierto",
+            "label": "Open source / autoalojable",
+            "on": true
+          }
+        ],
+        "sources": [
+          {
+            "label": "Web oficial",
+            "url": "https://getbb.app/",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/get-bb/bb",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/get-bb/bb#readme",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/bb",
+            "accessedAt": "2026-11-13"
+          }
+        ],
+        "judged_day": "2026-11-13",
+        "rank": 7
+      },
+      {
+        "id": "emdash",
+        "slug": "emdash",
+        "name": "Emdash",
+        "repo": "https://github.com/generalaction/emdash",
+        "website": "https://emdash.com/",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/emdash",
+        "category": "workspace",
+        "catLabel": "Workspace",
+        "license": "Apache-2.0",
+        "licenseType": "Open source",
+        "tagline": "Agentes para todo el equipo, en la nube.",
+        "summary": "Workspace open source con worktrees, tareas programadas, SSH y revisión integrada para que un equipo corra agentes de código.",
+        "scores": {
+          "harnesses": 88,
+          "paralelo": 88,
+          "orquestacion": 82,
+          "revision": 86,
+          "remoto": 86,
+          "movil": 70,
+          "extensiones": 70,
+          "control": 68,
+          "abierto": 95,
+          "producto": 82
+        },
+        "total": 82.42,
+        "tier": "S",
+        "next_tier": "SS",
+        "delta_next": 7.58,
+        "strengths": [
+          "Worktrees, SSH y tareas programadas",
+          "Revisión y PRs integrados",
+          "Open source"
+        ],
+        "weaknesses": [
+          "Sin app móvil",
+          "Orquestación menos profunda",
+          "Cloud todavía en acceso anticipado"
+        ],
+        "pricing": "free",
+        "priceNote": "Código abierto + tus modelos",
+        "execution": "Local · SSH · Cloud",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux",
+          "Web"
+        ],
+        "harnesses": [
+          "claude code",
+          "codex",
+          "opencode",
+          "cursor",
+          "amp",
+          "devin",
+          "copilot",
+          "qwen"
+        ],
+        "features": [
+          {
+            "key": "harnesses",
+            "label": "Múltiples harnesses",
+            "on": true
+          },
+          {
+            "key": "paralelo",
+            "label": "Sesiones en paralelo",
+            "on": true
+          },
+          {
+            "key": "orquestacion",
+            "label": "Orquestación de agentes",
+            "on": true
+          },
+          {
+            "key": "revision",
+            "label": "Revisión / PRs",
+            "on": true
+          },
+          {
+            "key": "remoto",
+            "label": "SSH / remoto / cloud",
+            "on": true
+          },
+          {
+            "key": "movil",
+            "label": "Acceso móvil",
+            "on": true
+          },
+          {
+            "key": "extensiones",
+            "label": "MCP / skills / plugins",
+            "on": true
+          },
+          {
+            "key": "control",
+            "label": "Aprobaciones / control",
+            "on": false
+          },
+          {
+            "key": "abierto",
+            "label": "Open source / autoalojable",
+            "on": true
+          }
+        ],
+        "sources": [
+          {
+            "label": "Web oficial",
+            "url": "https://emdash.com/",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/generalaction/emdash",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/generalaction/emdash#readme",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/emdash",
+            "accessedAt": "2026-11-13"
+          }
+        ],
+        "judged_day": "2026-11-13",
+        "rank": 8
+      },
+      {
+        "id": "conductor",
+        "slug": "conductor",
+        "name": "Conductor",
+        "repo": null,
+        "website": "https://www.conductor.build/",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/conductor",
+        "category": "workspace",
+        "catLabel": "Workspace",
+        "license": null,
+        "licenseType": "Comercial",
+        "tagline": "Un equipo de agentes en la nube.",
+        "summary": "Workspace para correr agentes de código en paralelo, con ejecución local o cloud gestionada, app móvil y revisión de cambios.",
+        "scores": {
+          "harnesses": 90,
+          "paralelo": 86,
+          "orquestacion": 78,
+          "revision": 86,
+          "remoto": 92,
+          "movil": 88,
+          "extensiones": 60,
+          "control": 75,
+          "abierto": 40,
+          "producto": 90
+        },
+        "total": 80.36,
+        "tier": "A",
+        "next_tier": "S",
+        "delta_next": 1.64,
+        "strengths": [
+          "Cloud gestionado y móvil",
+          "Revisión de cambios integrada",
+          "Experiencia muy pulida"
+        ],
+        "weaknesses": [
+          "Cerrado",
+          "Extensiones/MCP no son el foco",
+          "El cloud exige plan de pago"
+        ],
+        "pricing": "freemium",
+        "priceNote": "Free local; Pro US$50/mes",
+        "execution": "Local · Cloud",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "iOS",
+          "Android",
+          "Web"
+        ],
+        "harnesses": [
+          "claude code",
+          "codex",
+          "opencode",
+          "cursor"
+        ],
+        "features": [
+          {
+            "key": "harnesses",
+            "label": "Múltiples harnesses",
+            "on": true
+          },
+          {
+            "key": "paralelo",
+            "label": "Sesiones en paralelo",
+            "on": true
+          },
+          {
+            "key": "orquestacion",
+            "label": "Orquestación de agentes",
+            "on": true
+          },
+          {
+            "key": "revision",
+            "label": "Revisión / PRs",
+            "on": true
+          },
+          {
+            "key": "remoto",
+            "label": "SSH / remoto / cloud",
+            "on": true
+          },
+          {
+            "key": "movil",
+            "label": "Acceso móvil",
+            "on": true
+          },
+          {
+            "key": "extensiones",
+            "label": "MCP / skills / plugins",
+            "on": false
+          },
+          {
+            "key": "control",
+            "label": "Aprobaciones / control",
+            "on": true
+          },
+          {
+            "key": "abierto",
+            "label": "Open source / autoalojable",
+            "on": false
+          }
+        ],
+        "sources": [
+          {
+            "label": "Web oficial",
+            "url": "https://www.conductor.build/",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/conductor",
+            "accessedAt": "2026-11-13"
+          }
+        ],
+        "judged_day": "2026-11-13",
+        "rank": 9
+      },
+      {
+        "id": "ghostex",
+        "slug": "ghostex",
+        "name": "Ghostex",
+        "repo": "https://github.com/maddada/Ghostex",
+        "website": "https://ghostex.dev/",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/ghostex",
+        "category": "workspace",
+        "catLabel": "Workspace",
+        "license": "MIT",
+        "licenseType": "Open source",
+        "tagline": "Workspace nativo con chat, código y navegador.",
+        "summary": "Workspace de escritorio con chats de agentes, editor de código, navegador por agente, automatizaciones y app móvil.",
+        "scores": {
+          "harnesses": 86,
+          "paralelo": 84,
+          "orquestacion": 82,
+          "revision": 78,
+          "remoto": 80,
+          "movil": 82,
+          "extensiones": 75,
+          "control": 62,
+          "abierto": 90,
+          "producto": 78
+        },
+        "total": 80.16,
+        "tier": "A",
+        "next_tier": "S",
+        "delta_next": 1.84,
+        "strengths": [
+          "Todo-en-uno: chat, editor, browser",
+          "Orquestación multi-agente",
+          "Open source y móvil"
+        ],
+        "weaknesses": [
+          "Aprobaciones/control poco documentados",
+          "Revisión no es el foco",
+          "Proyecto joven"
+        ],
+        "pricing": "free",
+        "priceNote": "Código abierto + tus modelos",
+        "execution": "Local · SSH",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux",
+          "iOS",
+          "Android"
+        ],
+        "harnesses": [
+          "claude code",
+          "codex",
+          "gemini",
+          "opencode",
+          "cursor",
+          "amp",
+          "copilot",
+          "grok"
+        ],
+        "features": [
+          {
+            "key": "harnesses",
+            "label": "Múltiples harnesses",
+            "on": true
+          },
+          {
+            "key": "paralelo",
+            "label": "Sesiones en paralelo",
+            "on": true
+          },
+          {
+            "key": "orquestacion",
+            "label": "Orquestación de agentes",
+            "on": true
+          },
+          {
+            "key": "revision",
+            "label": "Revisión / PRs",
+            "on": true
+          },
+          {
+            "key": "remoto",
+            "label": "SSH / remoto / cloud",
+            "on": true
+          },
+          {
+            "key": "movil",
+            "label": "Acceso móvil",
+            "on": true
+          },
+          {
+            "key": "extensiones",
+            "label": "MCP / skills / plugins",
+            "on": true
+          },
+          {
+            "key": "control",
+            "label": "Aprobaciones / control",
+            "on": false
+          },
+          {
+            "key": "abierto",
+            "label": "Open source / autoalojable",
+            "on": true
+          }
+        ],
+        "sources": [
+          {
+            "label": "Web oficial",
+            "url": "https://ghostex.dev/",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/maddada/Ghostex",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/maddada/Ghostex#readme",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/ghostex",
+            "accessedAt": "2026-11-13"
+          }
+        ],
+        "judged_day": "2026-11-13",
+        "rank": 10
+      },
+      {
+        "id": "paseo",
+        "slug": "paseo",
+        "name": "Paseo",
+        "repo": "https://github.com/getpaseo/paseo",
+        "website": "https://paseo.sh/",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/paseo",
+        "category": "workspace",
+        "catLabel": "Workspace",
+        "license": null,
+        "licenseType": "No verificada",
+        "tagline": "Tus sesiones de agentes, desde cualquier sitio.",
+        "summary": "Workspace para acceder a sesiones de agentes de código desde distintos dispositivos, con worktrees, plugins y orquestación.",
+        "scores": {
+          "harnesses": 88,
+          "paralelo": 86,
+          "orquestacion": 82,
+          "revision": 76,
+          "remoto": 84,
+          "movil": 88,
+          "extensiones": 80,
+          "control": 65,
+          "abierto": 50,
+          "producto": 80
+        },
+        "total": 79.74,
+        "tier": "A",
+        "next_tier": "S",
+        "delta_next": 2.26,
+        "strengths": [
+          "Móvil y acceso entre dispositivos",
+          "Plugins y worktrees",
+          "Open source"
+        ],
+        "weaknesses": [
+          "Revisión y PRs no son el foco",
+          "SSH no verificado",
+          "Orquestación más de sesiones que de tareas"
+        ],
+        "pricing": "free",
+        "priceNote": "Código abierto + tus modelos",
+        "execution": "Local · Self-hosted",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux",
+          "Web",
+          "iOS",
+          "Android"
+        ],
+        "harnesses": [
+          "claude code",
+          "codex",
+          "opencode",
+          "cursor",
+          "amp",
+          "copilot"
+        ],
+        "features": [
+          {
+            "key": "harnesses",
+            "label": "Múltiples harnesses",
+            "on": true
+          },
+          {
+            "key": "paralelo",
+            "label": "Sesiones en paralelo",
+            "on": true
+          },
+          {
+            "key": "orquestacion",
+            "label": "Orquestación de agentes",
+            "on": true
+          },
+          {
+            "key": "revision",
+            "label": "Revisión / PRs",
+            "on": true
+          },
+          {
+            "key": "remoto",
+            "label": "SSH / remoto / cloud",
+            "on": true
+          },
+          {
+            "key": "movil",
+            "label": "Acceso móvil",
+            "on": true
+          },
+          {
+            "key": "extensiones",
+            "label": "MCP / skills / plugins",
+            "on": true
+          },
+          {
+            "key": "control",
+            "label": "Aprobaciones / control",
+            "on": false
+          },
+          {
+            "key": "abierto",
+            "label": "Open source / autoalojable",
+            "on": false
+          }
+        ],
+        "sources": [
+          {
+            "label": "Web oficial",
+            "url": "https://paseo.sh/",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/getpaseo/paseo",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/getpaseo/paseo#readme",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/paseo",
+            "accessedAt": "2026-11-13"
+          }
+        ],
+        "judged_day": "2026-11-13",
+        "rank": 11
+      },
+      {
+        "id": "jean",
+        "slug": "jean",
+        "name": "Jean",
+        "repo": "https://github.com/coollabsio/jean",
+        "website": "https://jean.build/",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/jean",
+        "category": "workspace",
+        "catLabel": "Workspace",
+        "license": "Apache-2.0",
+        "licenseType": "Open source",
+        "tagline": "Un entorno de agentes local o self-hosted.",
+        "summary": "Workspace open source para agentes de código, worktrees, MCP y entrega con GitHub, con acceso local, SSH o servidor propio.",
+        "scores": {
+          "harnesses": 86,
+          "paralelo": 84,
+          "orquestacion": 78,
+          "revision": 80,
+          "remoto": 84,
+          "movil": 80,
+          "extensiones": 65,
+          "control": 65,
+          "abierto": 90,
+          "producto": 78
+        },
+        "total": 79.44,
+        "tier": "A",
+        "next_tier": "S",
+        "delta_next": 2.56,
+        "strengths": [
+          "Local, SSH o self-hosted",
+          "Worktrees y PRs",
+          "Open source"
+        ],
+        "weaknesses": [
+          "Sin foco en orquestación multi-agente",
+          "Extensiones limitadas",
+          "Menos adopción"
+        ],
+        "pricing": "free",
+        "priceNote": "Código abierto + tus modelos",
+        "execution": "Local · SSH · Self-hosted",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux",
+          "Web"
+        ],
+        "harnesses": [
+          "claude code",
+          "codex",
+          "opencode",
+          "cursor",
+          "grok"
+        ],
+        "features": [
+          {
+            "key": "harnesses",
+            "label": "Múltiples harnesses",
+            "on": true
+          },
+          {
+            "key": "paralelo",
+            "label": "Sesiones en paralelo",
+            "on": true
+          },
+          {
+            "key": "orquestacion",
+            "label": "Orquestación de agentes",
+            "on": true
+          },
+          {
+            "key": "revision",
+            "label": "Revisión / PRs",
+            "on": true
+          },
+          {
+            "key": "remoto",
+            "label": "SSH / remoto / cloud",
+            "on": true
+          },
+          {
+            "key": "movil",
+            "label": "Acceso móvil",
+            "on": true
+          },
+          {
+            "key": "extensiones",
+            "label": "MCP / skills / plugins",
+            "on": false
+          },
+          {
+            "key": "control",
+            "label": "Aprobaciones / control",
+            "on": false
+          },
+          {
+            "key": "abierto",
+            "label": "Open source / autoalojable",
+            "on": true
+          }
+        ],
+        "sources": [
+          {
+            "label": "Web oficial",
+            "url": "https://jean.build/",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/coollabsio/jean",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/coollabsio/jean#readme",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/jean",
+            "accessedAt": "2026-11-13"
+          }
+        ],
+        "judged_day": "2026-11-13",
+        "rank": 12
+      },
+      {
+        "id": "openchamber",
+        "slug": "openchamber",
+        "name": "OpenChamber",
+        "repo": "https://github.com/openchamber/openchamber",
+        "website": "https://openchamber.dev/",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/openchamber",
+        "category": "workspace",
+        "catLabel": "Workspace",
+        "license": "MIT",
+        "licenseType": "Open source",
+        "tagline": "ADE open source para agentes de código.",
+        "summary": "Entorno de desarrollo agéntico open source con sesiones, extensiones, revisión y acceso remoto para varios agentes.",
+        "scores": {
+          "harnesses": 84,
+          "paralelo": 82,
+          "orquestacion": 72,
+          "revision": 76,
+          "remoto": 80,
+          "movil": 80,
+          "extensiones": 78,
+          "control": 65,
+          "abierto": 90,
+          "producto": 76
+        },
+        "total": 78.42,
+        "tier": "A",
+        "next_tier": "S",
+        "delta_next": 3.58,
+        "strengths": [
+          "Open source y multiplataforma",
+          "Extensiones y acceso remoto",
+          "Buena adopción"
+        ],
+        "weaknesses": [
+          "Orquestación menos profunda",
+          "Control/aprobaciones básicos",
+          "Ecosistema joven"
+        ],
+        "pricing": "free",
+        "priceNote": "Código abierto + tus modelos",
+        "execution": "Local · Remote",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux",
+          "Web",
+          "iOS",
+          "Android"
+        ],
+        "harnesses": [
+          "codex",
+          "gemini",
+          "opencode",
+          "amp",
+          "grok"
+        ],
+        "features": [
+          {
+            "key": "harnesses",
+            "label": "Múltiples harnesses",
+            "on": true
+          },
+          {
+            "key": "paralelo",
+            "label": "Sesiones en paralelo",
+            "on": true
+          },
+          {
+            "key": "orquestacion",
+            "label": "Orquestación de agentes",
+            "on": true
+          },
+          {
+            "key": "revision",
+            "label": "Revisión / PRs",
+            "on": true
+          },
+          {
+            "key": "remoto",
+            "label": "SSH / remoto / cloud",
+            "on": true
+          },
+          {
+            "key": "movil",
+            "label": "Acceso móvil",
+            "on": true
+          },
+          {
+            "key": "extensiones",
+            "label": "MCP / skills / plugins",
+            "on": true
+          },
+          {
+            "key": "control",
+            "label": "Aprobaciones / control",
+            "on": false
+          },
+          {
+            "key": "abierto",
+            "label": "Open source / autoalojable",
+            "on": true
+          }
+        ],
+        "sources": [
+          {
+            "label": "Web oficial",
+            "url": "https://openchamber.dev/",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/openchamber/openchamber",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/openchamber/openchamber#readme",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/openchamber",
+            "accessedAt": "2026-11-13"
+          }
+        ],
+        "judged_day": "2026-11-13",
+        "rank": 13
+      },
+      {
+        "id": "traycer",
+        "slug": "traycer",
+        "name": "Traycer",
+        "repo": "https://github.com/traycerai/traycer",
+        "website": "https://traycer.ai/",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/traycer",
+        "category": "planning",
+        "catLabel": "Planificación",
+        "license": "MIT",
+        "licenseType": "Open source",
+        "tagline": "Planifica, delega y revisa con agentes.",
+        "summary": "Workspace de planificación y revisión: convierte una tarea en un plan, lo reparte entre agentes y revisa los cambios y PRs.",
+        "scores": {
+          "harnesses": 88,
+          "paralelo": 86,
+          "orquestacion": 90,
+          "revision": 88,
+          "remoto": 60,
+          "movil": 70,
+          "extensiones": 75,
+          "control": 72,
+          "abierto": 40,
+          "producto": 85
+        },
+        "total": 78.42,
+        "tier": "A",
+        "next_tier": "S",
+        "delta_next": 3.58,
+        "strengths": [
+          "Planificación y delegación muy fuertes",
+          "Revisión y PRs",
+          "Multi-harness"
+        ],
+        "weaknesses": [
+          "Cerrado",
+          "No es un entorno de ejecución remota",
+          "El plan free es limitado"
+        ],
+        "pricing": "freemium",
+        "priceNote": "Free BYOA; Sync US$20/mes",
+        "execution": "Local",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux",
+          "Web",
+          "iOS",
+          "Android"
+        ],
+        "harnesses": [
+          "claude code",
+          "codex",
+          "gemini",
+          "opencode",
+          "cursor",
+          "amp",
+          "devin",
+          "windsurf",
+          "copilot",
+          "grok",
+          "qwen"
+        ],
+        "features": [
+          {
+            "key": "harnesses",
+            "label": "Múltiples harnesses",
+            "on": true
+          },
+          {
+            "key": "paralelo",
+            "label": "Sesiones en paralelo",
+            "on": true
+          },
+          {
+            "key": "orquestacion",
+            "label": "Orquestación de agentes",
+            "on": true
+          },
+          {
+            "key": "revision",
+            "label": "Revisión / PRs",
+            "on": true
+          },
+          {
+            "key": "remoto",
+            "label": "SSH / remoto / cloud",
+            "on": false
+          },
+          {
+            "key": "movil",
+            "label": "Acceso móvil",
+            "on": true
+          },
+          {
+            "key": "extensiones",
+            "label": "MCP / skills / plugins",
+            "on": true
+          },
+          {
+            "key": "control",
+            "label": "Aprobaciones / control",
+            "on": true
+          },
+          {
+            "key": "abierto",
+            "label": "Open source / autoalojable",
+            "on": false
+          }
+        ],
+        "sources": [
+          {
+            "label": "Web oficial",
+            "url": "https://traycer.ai/",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/traycerai/traycer",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/traycerai/traycer#readme",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/traycer",
+            "accessedAt": "2026-11-13"
+          }
+        ],
+        "judged_day": "2026-11-13",
+        "rank": 14
+      },
+      {
+        "id": "cmux",
+        "slug": "cmux",
+        "name": "cmux",
+        "repo": "https://github.com/manaflow-ai/cmux",
+        "website": "https://cmux.com/",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/cmux",
+        "category": "terminal",
+        "catLabel": "Terminal",
+        "license": null,
+        "licenseType": "No verificada",
+        "tagline": "La terminal para multitasking con agentes.",
+        "summary": "Terminal nativa para correr varios agentes y sesiones en paralelo, con worktrees, notificaciones y acceso desde el móvil.",
+        "scores": {
+          "harnesses": 85,
+          "paralelo": 84,
+          "orquestacion": 78,
+          "revision": 70,
+          "remoto": 80,
+          "movil": 84,
+          "extensiones": 72,
+          "control": 65,
+          "abierto": 80,
+          "producto": 82
+        },
+        "total": 78.27,
+        "tier": "A",
+        "next_tier": "S",
+        "delta_next": 3.73,
+        "strengths": [
+          "Multitasking de terminal muy pulido",
+          "Móvil y notificaciones",
+          "Muchos harnesses"
+        ],
+        "weaknesses": [
+          "Licencia no verificada",
+          "Revisión y PRs no son el foco",
+          "Más terminal que IDE"
+        ],
+        "pricing": "freemium",
+        "priceNote": "Plan free; precio Pro no verificado",
+        "execution": "Local · Remote",
+        "platforms": [
+          "macOS",
+          "iOS",
+          "Android"
+        ],
+        "harnesses": [
+          "claude code",
+          "codex",
+          "gemini",
+          "opencode",
+          "cursor",
+          "amp",
+          "aider",
+          "copilot",
+          "grok"
+        ],
+        "features": [
+          {
+            "key": "harnesses",
+            "label": "Múltiples harnesses",
+            "on": true
+          },
+          {
+            "key": "paralelo",
+            "label": "Sesiones en paralelo",
+            "on": true
+          },
+          {
+            "key": "orquestacion",
+            "label": "Orquestación de agentes",
+            "on": true
+          },
+          {
+            "key": "revision",
+            "label": "Revisión / PRs",
+            "on": true
+          },
+          {
+            "key": "remoto",
+            "label": "SSH / remoto / cloud",
+            "on": true
+          },
+          {
+            "key": "movil",
+            "label": "Acceso móvil",
+            "on": true
+          },
+          {
+            "key": "extensiones",
+            "label": "MCP / skills / plugins",
+            "on": true
+          },
+          {
+            "key": "control",
+            "label": "Aprobaciones / control",
+            "on": false
+          },
+          {
+            "key": "abierto",
+            "label": "Open source / autoalojable",
+            "on": true
+          }
+        ],
+        "sources": [
+          {
+            "label": "Web oficial",
+            "url": "https://cmux.com/",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/manaflow-ai/cmux",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/manaflow-ai/cmux#readme",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/cmux",
+            "accessedAt": "2026-11-13"
+          }
+        ],
+        "judged_day": "2026-11-13",
+        "rank": 15
+      },
+      {
+        "id": "cloudroom",
+        "slug": "cloudroom",
+        "name": "Cloudroom",
+        "repo": "https://github.com/davidondrej/cloudroom",
+        "website": "https://www.cloudroom.dev/",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/cloudroom",
+        "category": "workspace",
+        "catLabel": "Workspace",
+        "license": "Apache-2.0",
+        "licenseType": "Open source",
+        "tagline": "Agentes cloud open source.",
+        "summary": "Workspace open source para correr agentes de código en la nube, con revisión de cambios y ejecución remota.",
+        "scores": {
+          "harnesses": 86,
+          "paralelo": 80,
+          "orquestacion": 70,
+          "revision": 78,
+          "remoto": 88,
+          "movil": 60,
+          "extensiones": 70,
+          "control": 70,
+          "abierto": 90,
+          "producto": 75
+        },
+        "total": 77.56,
+        "tier": "A",
+        "next_tier": "S",
+        "delta_next": 4.44,
+        "strengths": [
+          "Cloud open source",
+          "Revisión de cambios",
+          "Multi-harness"
+        ],
+        "weaknesses": [
+          "Sin móvil",
+          "Orquestación limitada",
+          "Menos maduro"
+        ],
+        "pricing": "free",
+        "priceNote": "Código abierto + tus modelos",
+        "execution": "Local · Cloud",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux",
+          "Web"
+        ],
+        "harnesses": [
+          "claude code",
+          "codex",
+          "gemini",
+          "opencode",
+          "cursor",
+          "amp",
+          "devin",
+          "copilot",
+          "grok"
+        ],
+        "features": [
+          {
+            "key": "harnesses",
+            "label": "Múltiples harnesses",
+            "on": true
+          },
+          {
+            "key": "paralelo",
+            "label": "Sesiones en paralelo",
+            "on": true
+          },
+          {
+            "key": "orquestacion",
+            "label": "Orquestación de agentes",
+            "on": true
+          },
+          {
+            "key": "revision",
+            "label": "Revisión / PRs",
+            "on": true
+          },
+          {
+            "key": "remoto",
+            "label": "SSH / remoto / cloud",
+            "on": true
+          },
+          {
+            "key": "movil",
+            "label": "Acceso móvil",
+            "on": false
+          },
+          {
+            "key": "extensiones",
+            "label": "MCP / skills / plugins",
+            "on": true
+          },
+          {
+            "key": "control",
+            "label": "Aprobaciones / control",
+            "on": true
+          },
+          {
+            "key": "abierto",
+            "label": "Open source / autoalojable",
+            "on": true
+          }
+        ],
+        "sources": [
+          {
+            "label": "Web oficial",
+            "url": "https://www.cloudroom.dev/",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/davidondrej/cloudroom",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/davidondrej/cloudroom#readme",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/cloudroom",
+            "accessedAt": "2026-11-13"
+          }
+        ],
+        "judged_day": "2026-11-13",
+        "rank": 16
+      },
+      {
+        "id": "codex-app",
+        "slug": "codex-app",
+        "name": "Codex app",
+        "repo": "https://github.com/openai/openai-cookbook",
+        "website": "https://developers.openai.com/codex/app/",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/codex-app",
+        "category": "ide",
+        "catLabel": "IDE",
+        "license": null,
+        "licenseType": "Comercial",
+        "tagline": "La app de Codex para trabajar con agentes.",
+        "summary": "App de escritorio de OpenAI para trabajar con Codex, sesiones y revisión de cambios. Está atada al ecosistema Codex/OpenAI.",
+        "scores": {
+          "harnesses": 55,
+          "paralelo": 82,
+          "orquestacion": 80,
+          "revision": 86,
+          "remoto": 86,
+          "movil": 82,
+          "extensiones": 78,
+          "control": 80,
+          "abierto": 40,
+          "producto": 92
+        },
+        "total": 76.11,
+        "tier": "A",
+        "next_tier": "S",
+        "delta_next": 5.89,
+        "strengths": [
+          "Integración profunda con Codex",
+          "Revisión y sesiones cuidadas",
+          "App de escritorio y móvil"
+        ],
+        "weaknesses": [
+          "Cerrada y atada a OpenAI",
+          "Poco multi-harness real",
+          "No es self-hosted"
+        ],
+        "pricing": "paid",
+        "priceNote": "Incluida en planes de ChatGPT/Codex",
+        "execution": "Local · Cloud",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "iOS",
+          "Android"
+        ],
+        "harnesses": [
+          "Codex"
+        ],
+        "features": [
+          {
+            "key": "harnesses",
+            "label": "Múltiples harnesses",
+            "on": false
+          },
+          {
+            "key": "paralelo",
+            "label": "Sesiones en paralelo",
+            "on": true
+          },
+          {
+            "key": "orquestacion",
+            "label": "Orquestación de agentes",
+            "on": true
+          },
+          {
+            "key": "revision",
+            "label": "Revisión / PRs",
+            "on": true
+          },
+          {
+            "key": "remoto",
+            "label": "SSH / remoto / cloud",
+            "on": true
+          },
+          {
+            "key": "movil",
+            "label": "Acceso móvil",
+            "on": true
+          },
+          {
+            "key": "extensiones",
+            "label": "MCP / skills / plugins",
+            "on": true
+          },
+          {
+            "key": "control",
+            "label": "Aprobaciones / control",
+            "on": true
+          },
+          {
+            "key": "abierto",
+            "label": "Open source / autoalojable",
+            "on": false
+          }
+        ],
+        "sources": [
+          {
+            "label": "Web oficial",
+            "url": "https://developers.openai.com/codex/app/",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/openai/openai-cookbook",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/openai/openai-cookbook#readme",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/codex-app",
+            "accessedAt": "2026-11-13"
+          }
+        ],
+        "judged_day": "2026-11-13",
+        "rank": 17
+      },
+      {
+        "id": "tortie",
+        "slug": "tortie",
+        "name": "Tortie",
+        "repo": "https://github.com/gregce/tortie",
+        "website": "https://tortie.sh/",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/tortie",
+        "category": "workspace",
+        "catLabel": "Workspace",
+        "license": "Apache-2.0",
+        "licenseType": "Open source",
+        "tagline": "Una ventana para todos tus agentes.",
+        "summary": "Workspace con múltiples agentes, multiplexación de sesiones, skills y companion para iPhone.",
+        "scores": {
+          "harnesses": 80,
+          "paralelo": 70,
+          "orquestacion": 80,
+          "revision": 65,
+          "remoto": 78,
+          "movil": 82,
+          "extensiones": 65,
+          "control": 62,
+          "abierto": 90,
+          "producto": 70
+        },
+        "total": 73.68,
+        "tier": "A",
+        "next_tier": "S",
+        "delta_next": 8.32,
+        "strengths": [
+          "Companion iPhone",
+          "Skills y contexto",
+          "Open source"
+        ],
+        "weaknesses": [
+          "Sin paralelismo/worktrees fuerte",
+          "Revisión y PRs limitados",
+          "Proyecto pequeño"
+        ],
+        "pricing": "free",
+        "priceNote": "Código abierto + tus modelos",
+        "execution": "Local · SSH",
+        "platforms": [
+          "macOS",
+          "iOS"
+        ],
+        "harnesses": [
+          "claude code",
+          "codex",
+          "gemini",
+          "opencode",
+          "cursor",
+          "grok",
+          "qwen"
+        ],
+        "features": [
+          {
+            "key": "harnesses",
+            "label": "Múltiples harnesses",
+            "on": true
+          },
+          {
+            "key": "paralelo",
+            "label": "Sesiones en paralelo",
+            "on": true
+          },
+          {
+            "key": "orquestacion",
+            "label": "Orquestación de agentes",
+            "on": true
+          },
+          {
+            "key": "revision",
+            "label": "Revisión / PRs",
+            "on": false
+          },
+          {
+            "key": "remoto",
+            "label": "SSH / remoto / cloud",
+            "on": true
+          },
+          {
+            "key": "movil",
+            "label": "Acceso móvil",
+            "on": true
+          },
+          {
+            "key": "extensiones",
+            "label": "MCP / skills / plugins",
+            "on": false
+          },
+          {
+            "key": "control",
+            "label": "Aprobaciones / control",
+            "on": false
+          },
+          {
+            "key": "abierto",
+            "label": "Open source / autoalojable",
+            "on": true
+          }
+        ],
+        "sources": [
+          {
+            "label": "Web oficial",
+            "url": "https://tortie.sh/",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/gregce/tortie",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/gregce/tortie#readme",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/tortie",
+            "accessedAt": "2026-11-13"
+          }
+        ],
+        "judged_day": "2026-11-13",
+        "rank": 18
+      },
+      {
+        "id": "sidecar",
+        "slug": "sidecar",
+        "name": "Sidecar",
+        "repo": "https://github.com/marcus/sidecar",
+        "website": "https://sidecar.haplab.com/",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/sidecar",
+        "category": "terminal",
+        "catLabel": "Terminal",
+        "license": "MIT",
+        "licenseType": "Open source",
+        "tagline": "Workspace de terminal para agentes.",
+        "summary": "Terminal workspace para sesiones de agentes, hosts remotos y entrega con Git; broadcasting de agentes detrás de un flag.",
+        "scores": {
+          "harnesses": 82,
+          "paralelo": 80,
+          "orquestacion": 65,
+          "revision": 72,
+          "remoto": 84,
+          "movil": 50,
+          "extensiones": 60,
+          "control": 60,
+          "abierto": 90,
+          "producto": 68
+        },
+        "total": 72.42,
+        "tier": "A",
+        "next_tier": "S",
+        "delta_next": 9.58,
+        "strengths": [
+          "SSH y hosts remotos",
+          "Worktrees y Git",
+          "Open source"
+        ],
+        "weaknesses": [
+          "Sin móvil",
+          "Orquestación experimental",
+          "Poca extensibilidad"
+        ],
+        "pricing": "free",
+        "priceNote": "Código abierto + tus modelos",
+        "execution": "Local · SSH",
+        "platforms": [
+          "macOS",
+          "Linux"
+        ],
+        "harnesses": [
+          "claude code",
+          "codex",
+          "gemini",
+          "opencode",
+          "cursor",
+          "amp",
+          "copilot",
+          "grok"
+        ],
+        "features": [
+          {
+            "key": "harnesses",
+            "label": "Múltiples harnesses",
+            "on": true
+          },
+          {
+            "key": "paralelo",
+            "label": "Sesiones en paralelo",
+            "on": true
+          },
+          {
+            "key": "orquestacion",
+            "label": "Orquestación de agentes",
+            "on": false
+          },
+          {
+            "key": "revision",
+            "label": "Revisión / PRs",
+            "on": true
+          },
+          {
+            "key": "remoto",
+            "label": "SSH / remoto / cloud",
+            "on": true
+          },
+          {
+            "key": "movil",
+            "label": "Acceso móvil",
+            "on": false
+          },
+          {
+            "key": "extensiones",
+            "label": "MCP / skills / plugins",
+            "on": false
+          },
+          {
+            "key": "control",
+            "label": "Aprobaciones / control",
+            "on": false
+          },
+          {
+            "key": "abierto",
+            "label": "Open source / autoalojable",
+            "on": true
+          }
+        ],
+        "sources": [
+          {
+            "label": "Web oficial",
+            "url": "https://sidecar.haplab.com/",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/marcus/sidecar",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/marcus/sidecar#readme",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/sidecar",
+            "accessedAt": "2026-11-13"
+          }
+        ],
+        "judged_day": "2026-11-13",
+        "rank": 19
+      },
+      {
+        "id": "herdr",
+        "slug": "herdr",
+        "name": "Herdr",
+        "repo": "https://github.com/herdrdev/herdr-app",
+        "website": "https://herdr.dev/",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/herdr",
+        "category": "terminal",
+        "catLabel": "Terminal",
+        "license": "Apache-2.0",
+        "licenseType": "Open source",
+        "tagline": "Terminales de agentes que sobreviven.",
+        "summary": "ADE de terminal para mantener agentes de código juntos en local y SSH; las terminales sobreviven desconexiones y restauran layout.",
+        "scores": {
+          "harnesses": 78,
+          "paralelo": 76,
+          "orquestacion": 68,
+          "revision": 65,
+          "remoto": 82,
+          "movil": 78,
+          "extensiones": 60,
+          "control": 60,
+          "abierto": 90,
+          "producto": 68
+        },
+        "total": 72.22,
+        "tier": "A",
+        "next_tier": "S",
+        "delta_next": 9.78,
+        "strengths": [
+          "Terminales persistentes",
+          "SSH y acceso móvil",
+          "Open source"
+        ],
+        "weaknesses": [
+          "Menos harnesses",
+          "Sin revisión/PRs",
+          "Más multiplexor que orquestador"
+        ],
+        "pricing": "free",
+        "priceNote": "Código abierto + tus modelos",
+        "execution": "Local · SSH",
+        "platforms": [
+          "macOS",
+          "Linux",
+          "Web"
+        ],
+        "harnesses": [
+          "codex",
+          "amp"
+        ],
+        "features": [
+          {
+            "key": "harnesses",
+            "label": "Múltiples harnesses",
+            "on": true
+          },
+          {
+            "key": "paralelo",
+            "label": "Sesiones en paralelo",
+            "on": true
+          },
+          {
+            "key": "orquestacion",
+            "label": "Orquestación de agentes",
+            "on": false
+          },
+          {
+            "key": "revision",
+            "label": "Revisión / PRs",
+            "on": false
+          },
+          {
+            "key": "remoto",
+            "label": "SSH / remoto / cloud",
+            "on": true
+          },
+          {
+            "key": "movil",
+            "label": "Acceso móvil",
+            "on": true
+          },
+          {
+            "key": "extensiones",
+            "label": "MCP / skills / plugins",
+            "on": false
+          },
+          {
+            "key": "control",
+            "label": "Aprobaciones / control",
+            "on": false
+          },
+          {
+            "key": "abierto",
+            "label": "Open source / autoalojable",
+            "on": true
+          }
+        ],
+        "sources": [
+          {
+            "label": "Web oficial",
+            "url": "https://herdr.dev/",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/herdrdev/herdr-app",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/herdrdev/herdr-app#readme",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/herdr",
+            "accessedAt": "2026-11-13"
+          }
+        ],
+        "judged_day": "2026-11-13",
+        "rank": 20
+      },
+      {
+        "id": "solo",
+        "slug": "solo",
+        "name": "Solo",
+        "repo": null,
+        "website": "https://soloterm.com/",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/solo",
+        "category": "orchestrator",
+        "catLabel": "Orquestador",
+        "license": null,
+        "licenseType": "Comercial",
+        "tagline": "El meta-harness sobre tus agentes.",
+        "summary": "Workspace programable para coordinar agentes existentes, terminales y tareas, con MCP, subagentes y automatizaciones por CLI.",
+        "scores": {
+          "harnesses": 82,
+          "paralelo": 78,
+          "orquestacion": 86,
+          "revision": 70,
+          "remoto": 60,
+          "movil": 50,
+          "extensiones": 82,
+          "control": 65,
+          "abierto": 40,
+          "producto": 78
+        },
+        "total": 72.2,
+        "tier": "A",
+        "next_tier": "S",
+        "delta_next": 9.8,
+        "strengths": [
+          "Meta-harness muy flexible",
+          "MCP, subagentes y terminales",
+          "Buen control de procesos"
+        ],
+        "weaknesses": [
+          "Cerrado",
+          "Sin móvil",
+          "Revisión y PRs fuera del foco"
+        ],
+        "pricing": "freemium",
+        "priceNote": "Free limitado; Pro US$99/año",
+        "execution": "Local",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux"
+        ],
+        "harnesses": [
+          "claude code",
+          "codex",
+          "gemini",
+          "opencode",
+          "cursor",
+          "amp",
+          "devin",
+          "copilot"
+        ],
+        "features": [
+          {
+            "key": "harnesses",
+            "label": "Múltiples harnesses",
+            "on": true
+          },
+          {
+            "key": "paralelo",
+            "label": "Sesiones en paralelo",
+            "on": true
+          },
+          {
+            "key": "orquestacion",
+            "label": "Orquestación de agentes",
+            "on": true
+          },
+          {
+            "key": "revision",
+            "label": "Revisión / PRs",
+            "on": true
+          },
+          {
+            "key": "remoto",
+            "label": "SSH / remoto / cloud",
+            "on": false
+          },
+          {
+            "key": "movil",
+            "label": "Acceso móvil",
+            "on": false
+          },
+          {
+            "key": "extensiones",
+            "label": "MCP / skills / plugins",
+            "on": true
+          },
+          {
+            "key": "control",
+            "label": "Aprobaciones / control",
+            "on": false
+          },
+          {
+            "key": "abierto",
+            "label": "Open source / autoalojable",
+            "on": false
+          }
+        ],
+        "sources": [
+          {
+            "label": "Web oficial",
+            "url": "https://soloterm.com/",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/solo",
+            "accessedAt": "2026-11-13"
+          }
+        ],
+        "judged_day": "2026-11-13",
+        "rank": 21
+      },
+      {
+        "id": "agent-teams-ai",
+        "slug": "agent-teams-ai",
+        "name": "Agent Teams AI",
+        "repo": "https://github.com/777genius/agent-teams-ai",
+        "website": "https://agentteams.live/",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/agent-teams-ai",
+        "category": "orchestrator",
+        "catLabel": "Orquestador",
+        "license": "AGPL-3.0",
+        "licenseType": "Open source",
+        "tagline": "Tus agentes, como un equipo con roles.",
+        "summary": "App de escritorio para correr agentes como equipo alrededor de un tablero: un líder delega, los agentes se mensajean y tú revisas.",
+        "scores": {
+          "harnesses": 80,
+          "paralelo": 80,
+          "orquestacion": 88,
+          "revision": 72,
+          "remoto": 65,
+          "movil": 50,
+          "extensiones": 55,
+          "control": 55,
+          "abierto": 90,
+          "producto": 65
+        },
+        "total": 71.9,
+        "tier": "B",
+        "next_tier": "A",
+        "delta_next": 0.1,
+        "strengths": [
+          "Tablero y roles de equipo",
+          "Delegación y mensajes entre agentes",
+          "Open source"
+        ],
+        "weaknesses": [
+          "Sin móvil",
+          "SSH todavía es una idea",
+          "Extensiones y control básicos"
+        ],
+        "pricing": "free",
+        "priceNote": "Código abierto + tus modelos",
+        "execution": "Local",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux"
+        ],
+        "harnesses": [
+          "claude code",
+          "codex",
+          "gemini",
+          "opencode",
+          "cursor",
+          "amp",
+          "copilot",
+          "grok"
+        ],
+        "features": [
+          {
+            "key": "harnesses",
+            "label": "Múltiples harnesses",
+            "on": true
+          },
+          {
+            "key": "paralelo",
+            "label": "Sesiones en paralelo",
+            "on": true
+          },
+          {
+            "key": "orquestacion",
+            "label": "Orquestación de agentes",
+            "on": true
+          },
+          {
+            "key": "revision",
+            "label": "Revisión / PRs",
+            "on": true
+          },
+          {
+            "key": "remoto",
+            "label": "SSH / remoto / cloud",
+            "on": false
+          },
+          {
+            "key": "movil",
+            "label": "Acceso móvil",
+            "on": false
+          },
+          {
+            "key": "extensiones",
+            "label": "MCP / skills / plugins",
+            "on": false
+          },
+          {
+            "key": "control",
+            "label": "Aprobaciones / control",
+            "on": false
+          },
+          {
+            "key": "abierto",
+            "label": "Open source / autoalojable",
+            "on": true
+          }
+        ],
+        "sources": [
+          {
+            "label": "Web oficial",
+            "url": "https://agentteams.live/",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/777genius/agent-teams-ai",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/777genius/agent-teams-ai#readme",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/agent-teams-ai",
+            "accessedAt": "2026-11-13"
+          }
+        ],
+        "judged_day": "2026-11-13",
+        "rank": 22
+      },
+      {
+        "id": "maestri",
+        "slug": "maestri",
+        "name": "Maestri",
+        "repo": null,
+        "website": "https://themaestri.app/",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/maestri",
+        "category": "orchestrator",
+        "catLabel": "Orquestador",
+        "license": null,
+        "licenseType": "Comercial",
+        "tagline": "Un lienzo infinito para orquestar agentes.",
+        "summary": "Canvas visual donde cada agente tiene rol, terminal y contexto; pensado para diseñar y seguir flujos multi-agente.",
+        "scores": {
+          "harnesses": 82,
+          "paralelo": 80,
+          "orquestacion": 84,
+          "revision": 75,
+          "remoto": 65,
+          "movil": 78,
+          "extensiones": 55,
+          "control": 55,
+          "abierto": 40,
+          "producto": 72
+        },
+        "total": 71.18,
+        "tier": "B",
+        "next_tier": "A",
+        "delta_next": 0.82,
+        "strengths": [
+          "Canvas visual muy claro",
+          "Roles y flujos de agentes",
+          "App móvil en beta"
+        ],
+        "weaknesses": [
+          "Cerrado",
+          "Extensiones/MCP limitados",
+          "Control y aprobaciones básicos"
+        ],
+        "pricing": "freemium",
+        "priceNote": "Free 1 workspace; Pro US$18",
+        "execution": "Local · SSH · Self-hosted",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux",
+          "iOS",
+          "Android"
+        ],
+        "harnesses": [
+          "claude code",
+          "codex",
+          "opencode",
+          "cursor"
+        ],
+        "features": [
+          {
+            "key": "harnesses",
+            "label": "Múltiples harnesses",
+            "on": true
+          },
+          {
+            "key": "paralelo",
+            "label": "Sesiones en paralelo",
+            "on": true
+          },
+          {
+            "key": "orquestacion",
+            "label": "Orquestación de agentes",
+            "on": true
+          },
+          {
+            "key": "revision",
+            "label": "Revisión / PRs",
+            "on": true
+          },
+          {
+            "key": "remoto",
+            "label": "SSH / remoto / cloud",
+            "on": false
+          },
+          {
+            "key": "movil",
+            "label": "Acceso móvil",
+            "on": true
+          },
+          {
+            "key": "extensiones",
+            "label": "MCP / skills / plugins",
+            "on": false
+          },
+          {
+            "key": "control",
+            "label": "Aprobaciones / control",
+            "on": false
+          },
+          {
+            "key": "abierto",
+            "label": "Open source / autoalojable",
+            "on": false
+          }
+        ],
+        "sources": [
+          {
+            "label": "Web oficial",
+            "url": "https://themaestri.app/",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/maestri",
+            "accessedAt": "2026-11-13"
+          }
+        ],
+        "judged_day": "2026-11-13",
+        "rank": 23
+      },
+      {
+        "id": "waku",
+        "slug": "waku",
+        "name": "Waku",
+        "repo": "https://github.com/egoist/waku",
+        "website": "https://waku.sh/",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/waku",
+        "category": "workspace",
+        "catLabel": "Workspace",
+        "license": "GPL-3.0",
+        "licenseType": "Open source",
+        "tagline": "Una app nativa para todos tus agentes.",
+        "summary": "App nativa para manejar sesiones de agentes de código, contexto, skills y aprobaciones desde macOS.",
+        "scores": {
+          "harnesses": 80,
+          "paralelo": 70,
+          "orquestacion": 65,
+          "revision": 70,
+          "remoto": 70,
+          "movil": 50,
+          "extensiones": 75,
+          "control": 65,
+          "abierto": 90,
+          "producto": 68
+        },
+        "total": 70.88,
+        "tier": "B",
+        "next_tier": "A",
+        "delta_next": 1.12,
+        "strengths": [
+          "App nativa cuidada",
+          "Skills y contexto",
+          "Open source"
+        ],
+        "weaknesses": [
+          "Sin móvil",
+          "Orquestación limitada",
+          "Menos adopción"
+        ],
+        "pricing": "free",
+        "priceNote": "Código abierto + tus modelos",
+        "execution": "Local · Remote",
+        "platforms": [
+          "macOS"
+        ],
+        "harnesses": [
+          "claude code",
+          "codex",
+          "opencode",
+          "cursor",
+          "amp",
+          "grok"
+        ],
+        "features": [
+          {
+            "key": "harnesses",
+            "label": "Múltiples harnesses",
+            "on": true
+          },
+          {
+            "key": "paralelo",
+            "label": "Sesiones en paralelo",
+            "on": true
+          },
+          {
+            "key": "orquestacion",
+            "label": "Orquestación de agentes",
+            "on": false
+          },
+          {
+            "key": "revision",
+            "label": "Revisión / PRs",
+            "on": true
+          },
+          {
+            "key": "remoto",
+            "label": "SSH / remoto / cloud",
+            "on": true
+          },
+          {
+            "key": "movil",
+            "label": "Acceso móvil",
+            "on": false
+          },
+          {
+            "key": "extensiones",
+            "label": "MCP / skills / plugins",
+            "on": true
+          },
+          {
+            "key": "control",
+            "label": "Aprobaciones / control",
+            "on": false
+          },
+          {
+            "key": "abierto",
+            "label": "Open source / autoalojable",
+            "on": true
+          }
+        ],
+        "sources": [
+          {
+            "label": "Web oficial",
+            "url": "https://waku.sh/",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/egoist/waku",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/egoist/waku#readme",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/waku",
+            "accessedAt": "2026-11-13"
+          }
+        ],
+        "judged_day": "2026-11-13",
+        "rank": 24
+      }
+    ]
+  }
+}

@@ -9,7 +9,11 @@
     "postinstall": "nuxt prepare",
     "snapshot": "python -X utf8 ../scripts/export_web.py",
     "catalog": "node scripts/build-products.mjs",
-    "sync": "node scripts/sync-insforge.mjs"
+    "sync": "node scripts/sync-insforge.mjs",
+    "ades:research": "node scripts/research-ades.mjs",
+    "ades:rebuild": "node scripts/rebuild-ades-research.mjs",
+    "ades:build": "node scripts/build-ades.mjs",
+    "ades:sync": "node scripts/sync-ades.mjs"
   },
   "dependencies": {
     "animejs": "^4.5.0",

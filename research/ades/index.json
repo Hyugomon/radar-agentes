@@ -1,0 +1,3937 @@
+{
+  "generated_at": "2026-11-13",
+  "count": 24,
+  "projects": [
+    {
+      "slug": "orca",
+      "name": "Orca",
+      "repo": "https://github.com/stablyai/orca",
+      "website": "https://www.onorca.dev/",
+      "license": "MIT",
+      "category": "ide",
+      "summary": "Workspace para correr Claude Code, Codex y otros harnesses en paralelo, con worktrees aislados, revisión de cambios y companion móvil.",
+      "features": {
+        "parallel": true,
+        "orchestration": true,
+        "review": true,
+        "remote": true,
+        "mobile": true,
+        "extensions": true,
+        "control": true,
+        "openSource": true,
+        "mature": true
+      },
+      "scores": {
+        "harnesses": 95,
+        "paralelo": 94,
+        "orquestacion": 88,
+        "revision": 90,
+        "remoto": 88,
+        "movil": 86,
+        "extensiones": 88,
+        "control": 80,
+        "abierto": 95,
+        "producto": 94
+      },
+      "total": 90.21,
+      "tier": "SS",
+      "harnesses": [
+        "claude code",
+        "codex",
+        "gemini",
+        "opencode",
+        "cursor",
+        "amp",
+        "devin",
+        "copilot",
+        "grok",
+        "qwen"
+      ],
+      "evidence": {
+        "harnesses": [
+          {
+            "text": "Claude Code Codex Grok Gemini Cursor GitHub Copilot OpenCode Amp OpenClaude Antigravity Pi oh-my-pi Hermes Agent Goose Auggie Charm Cline Codebuff Command Code Continue Droid Kilocode Kimi Kiro Mistral Vibe Qwen Code Rovo Dev Any other CLI agent Keep agents moving from your phone.",
+            "source": "https://github.com/stablyai/orca#readme"
+          },
+          {
+            "text": "Ask anything, @ to mention files, / for commands Full access Opus 5.5 Bring your own agent / subscription Works with Claude Code, Codex, OpenCode, Grok, and any other agent CLI.",
+            "source": "https://github.com/stablyai/orca#readme"
+          },
+          {
+            "text": "Orca — The agent development environment Orca Docs Changelog Enterprise 123.8k Plugins Download Backed by Ship 100x with the agent IDE Run Claude Code, Codex, and any other coding agent in parallel, each in its own worktree.",
+            "source": "https://github.com/stablyai/orca#readme"
+          }
+        ],
+        "paralelo": [
+          {
+            "text": "Orca — The agent development environment Orca Docs Changelog Enterprise 123.8k Plugins Download Backed by Ship 100x with the agent IDE Run Claude Code, Codex, and any other coding agent in parallel, each in its own worktree.",
+            "source": "https://github.com/stablyai/orca#readme"
+          },
+          {
+            "text": "It manages the worktrees, so parallel agents ship on the same repo without stepping on each other.",
+            "source": "https://github.com/stablyai/orca#readme"
+          },
+          {
+            "text": "Run Claude Code, Codex, and any other coding agent in parallel.",
+            "source": "https://github.com/stablyai/orca#readme"
+          }
+        ],
+        "orquestacion": [
+          {
+            "text": "Workspaces Orchestration Chat or terminal Remote Browser Terminal Tasks Editor Notes Git integration Workspaces Quickly split tasks into isolated environments, so multiple agents can work side by side without interfering with each other.",
+            "source": "https://github.com/stablyai/orca#readme"
+          }
+        ],
+        "revision": [],
+        "remoto": [
+          {
+            "text": "Can I run agents on a remote machine or in the cloud?",
+            "source": "https://github.com/stablyai/orca#readme"
+          },
+          {
+            "text": "Chat or terminal, on your laptop or in the cloud, with diffs, a browser, and a CLI in one app.",
+            "source": "https://github.com/stablyai/orca#readme"
+          },
+          {
+            "text": "Workspaces Orchestration Chat or terminal Remote Browser Terminal Tasks Editor Notes Git integration Workspaces Quickly split tasks into isolated environments, so multiple agents can work side by side without interfering with each other.",
+            "source": "https://github.com/stablyai/orca#readme"
+          }
+        ],
+        "movil": [
+          {
+            "text": "Get the mobile companion for iOS or Android.",
+            "source": "https://github.com/stablyai/orca#readme"
+          },
+          {
+            "text": "Sign in Back Check your inbox We sent a link to [email protected] Open Mail 9:41 Mobile Emulator Click to inspect Run an iOS Simulator or Android emulator beside your agent, and let it tap, type, and check its own work.",
+            "source": "https://github.com/stablyai/orca#readme"
+          },
+          {
+            "text": "- **[Mobile Emulator](https://orca.dev/docs/cli/overview#mobile-emulator)**: run an iOS Simulator or Android emulator beside your agent, and let it tap, type, and check its own work.",
+            "source": "https://github.com/stablyai/orca#readme"
+          }
+        ],
+        "extensiones": [
+          {
+            "text": "Orca — The agent development environment Orca Docs Changelog Enterprise 123.8k Plugins Download Backed by Ship 100x with the agent IDE Run Claude Code, Codex, and any other coding agent in parallel, each in its own worktree.",
+            "source": "https://github.com/stablyai/orca#readme"
+          },
+          {
+            "text": "All Installed 1 Not installed Search plugins Orca Midnight stablyai A quiet dark theme tuned for long coding sessions.",
+            "source": "https://github.com/stablyai/orca#readme"
+          },
+          {
+            "text": "Plugins Click to inspect Themes, editors, languages, and panels from the community, installed in a click.",
+            "source": "https://github.com/stablyai/orca#readme"
+          }
+        ],
+        "control": []
+      },
+      "sources": [
+        {
+          "label": "Web oficial",
+          "url": "https://www.onorca.dev/",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/stablyai/orca",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/stablyai/orca#readme",
+          "accessedAt": "2026-11-13"
+        }
+      ],
+      "judged_day": "2026-11-13",
+      "tagline": "El IDE de agentes con worktrees y móvil.",
+      "pricing": "free",
+      "priceNote": "Código abierto + tus modelos",
+      "execution": "Local · SSH",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "iOS",
+        "Android"
+      ],
+      "strengths": [
+        "Soporta muchos harnesses sin encerrarte en uno",
+        "Worktrees y sesiones paralelas de primera clase",
+        "Open source y con app móvil"
+      ],
+      "weaknesses": [
+        "La orquestación avanzada requiere configurarla",
+        "No es un runtime de agentes propio: depende de los CLIs",
+        "La curva de configuración crece con el equipo"
+      ],
+      "licenseType": "Open source"
+    },
+    {
+      "slug": "t3-code",
+      "name": "T3 Code",
+      "repo": "https://github.com/pingdotgg/t3code",
+      "website": "https://t3.codes/",
+      "license": "MIT",
+      "category": "ide",
+      "summary": "Workspace open source para manejar varios agentes de código, sesiones remotas y worktrees desde escritorio y móvil.",
+      "features": {
+        "parallel": true,
+        "orchestration": true,
+        "review": true,
+        "remote": false,
+        "mobile": true,
+        "extensions": true,
+        "control": true,
+        "openSource": true,
+        "mature": true
+      },
+      "scores": {
+        "harnesses": 95,
+        "paralelo": 92,
+        "orquestacion": 86,
+        "revision": 86,
+        "remoto": 88,
+        "movil": 84,
+        "extensiones": 82,
+        "control": 72,
+        "abierto": 95,
+        "producto": 90
+      },
+      "total": 87.59,
+      "tier": "S",
+      "harnesses": [
+        "claude code",
+        "codex",
+        "opencode",
+        "cursor",
+        "amp",
+        "grok"
+      ],
+      "evidence": {
+        "harnesses": [
+          {
+            "text": "Orchestrate Claude Code, Codex, Antigravity, OpenCode, Cursor, and Grok from one surface.",
+            "source": "https://github.com/pingdotgg/t3code#readme"
+          },
+          {
+            "text": "Plug in Claude Code, Codex, Antigravity, OpenCode, Cursor, or Grok with the credentials you already have.",
+            "source": "https://github.com/pingdotgg/t3code#readme"
+          },
+          {
+            "text": "Claude Code claude auth login Codex CLI codex login OpenCode opencode auth Cursor @cursor/sdk Grok CLI grok login Antigravity Google sign-in No keys resold.",
+            "source": "https://github.com/pingdotgg/t3code#readme"
+          }
+        ],
+        "paralelo": [
+          {
+            "text": "- **Git built in.** Each thread can work in its own worktree.",
+            "source": "https://github.com/pingdotgg/t3code#readme"
+          }
+        ],
+        "orquestacion": [
+          {
+            "text": "Orchestrate Claude Code, Codex, Antigravity, OpenCode, Cursor, and Grok from one surface.",
+            "source": "https://github.com/pingdotgg/t3code#readme"
+          }
+        ],
+        "revision": [
+          {
+            "text": "Add marketing hero animation Ready feat/marketing-hero → main +142 −38 3 commits apps/marketing/src/pages/index.astro +14 −2 apps/marketing/src/layouts/Layout.astro +8 −0 apps/marketing/public/hero.css +120 −36 View diff Open pull request Commit & push ⌘⏎ One button to commit, push, and make a PR.",
+            "source": "https://github.com/pingdotgg/t3code#readme"
+          },
+          {
+            "text": "Auto-generated PR titles & bodies Inline diff review before you push Draft PRs, stack PRs, amend PRs Works with your existing GitHub auth If you don't like something, fork it.",
+            "source": "https://github.com/pingdotgg/t3code#readme"
+          },
+          {
+            "text": "Review the diff, then commit, push, and open a pull request with one button.",
+            "source": "https://github.com/pingdotgg/t3code#readme"
+          }
+        ],
+        "remoto": [
+          {
+            "text": "@DavidKPiano It's like Claude Code if they didn't vibe-code the entire thing @RhysSullivan It takes what I liked so much about codex’s remote setup and improves upon it @AtharvaIngle7 T3 Code is miles ahead of anything else i've tried @linuz90 ...gym app misses some exercises.",
+            "source": "https://github.com/pingdotgg/t3code#readme"
+          },
+          {
+            "text": "@DavidKPiano It's like Claude Code if they didn't vibe-code the entire thing @RhysSullivan It takes what I liked so much about codex’s remote setup and improves upon it @AtharvaIngle7 T3 Code is miles ahead of anything else i've tried @linuz90 ...gym app misses some exercises.",
+            "source": "https://github.com/pingdotgg/t3code#readme"
+          },
+          {
+            "text": "- **Remote ready.** Run agents on any machine.",
+            "source": "https://github.com/pingdotgg/t3code#readme"
+          }
+        ],
+        "movil": [
+          {
+            "text": "Download for macOS Steal our code (legally) Also on your phone: iOS · Android Tolerated by over 500,000 devs Some of them even tweeted about it.",
+            "source": "https://github.com/pingdotgg/t3code#readme"
+          },
+          {
+            "text": "@JoshuaRileyDev I was 2,000 miles away on holiday and able to do iOS development from just my phone @serhiyhvala If you tried it once and bounced, give it a second chance.",
+            "source": "https://github.com/pingdotgg/t3code#readme"
+          },
+          {
+            "text": "@JoshuaRileyDev I was 2,000 miles away on holiday and able to do iOS development from just my phone @serhiyhvala If you tried it once and bounced, give it a second chance.",
+            "source": "https://github.com/pingdotgg/t3code#readme"
+          }
+        ],
+        "extensiones": [
+          {
+            "text": "## Documentation - [Install and first run](./docs/user/install.md) - [Remote access from a phone or another machine](./docs/user/remote-access.md) - [Permission modes](./docs/user/permission-modes.md) - [Source control](./docs/user/source-control.md) - [Connect outside agents over MCP](./docs/user/outside-agents.md) - [FAQ](./docs/user/faq.md) [All docs](./docs/README.md) has the full list.",
+            "source": "https://github.com/pingdotgg/t3code#readme"
+          }
+        ],
+        "control": [
+          {
+            "text": "## Documentation - [Install and first run](./docs/user/install.md) - [Remote access from a phone or another machine](./docs/user/remote-access.md) - [Permission modes](./docs/user/permission-modes.md) - [Source control](./docs/user/source-control.md) - [Connect outside agents over MCP](./docs/user/outside-agents.md) - [FAQ](./docs/user/faq.md) [All docs](./docs/README.md) has the full list.",
+            "source": "https://github.com/pingdotgg/t3code#readme"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "Web oficial",
+          "url": "https://t3.codes/",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/pingdotgg/t3code",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/pingdotgg/t3code#readme",
+          "accessedAt": "2026-11-13"
+        }
+      ],
+      "judged_day": "2026-11-13",
+      "tagline": "El control plane open source para agentes.",
+      "pricing": "free",
+      "priceNote": "Código abierto + tus modelos",
+      "execution": "Local · SSH · Self-hosted",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "iOS",
+        "Android"
+      ],
+      "strengths": [
+        "Open source con mucha adopción",
+        "Acceso remoto y móvil",
+        "Multi-harness y worktrees"
+      ],
+      "weaknesses": [
+        "Cambios frecuentes entre Nightly y Stable",
+        "No trae modelo propio",
+        "La revisión es más de workspace que de code review profundo"
+      ],
+      "licenseType": "Open source"
+    },
+    {
+      "slug": "paradev",
+      "name": "Paradev",
+      "repo": "https://github.com/paradevai/paradev",
+      "website": "https://paradev.com/",
+      "license": "MIT",
+      "category": "workspace",
+      "summary": "Workspace open source para correr agentes de código en paralelo, con CLI, MCP, móvil, automatizaciones y workspaces cloud opcionales.",
+      "features": {
+        "parallel": true,
+        "orchestration": true,
+        "review": true,
+        "remote": true,
+        "mobile": true,
+        "extensions": true,
+        "control": true,
+        "openSource": true,
+        "mature": true
+      },
+      "scores": {
+        "harnesses": 92,
+        "paralelo": 90,
+        "orquestacion": 84,
+        "revision": 82,
+        "remoto": 88,
+        "movil": 82,
+        "extensiones": 80,
+        "control": 72,
+        "abierto": 95,
+        "producto": 86
+      },
+      "total": 85.56,
+      "tier": "S",
+      "harnesses": [
+        "claude code",
+        "codex",
+        "gemini",
+        "opencode",
+        "cursor",
+        "amp",
+        "devin",
+        "copilot",
+        "grok"
+      ],
+      "evidence": {
+        "harnesses": [
+          {
+            "text": "new terminal New Terminal Claude OpenCode Codex Gemini Cursor Agent Mistral Vibe Kimi Code Grok CLI Hermes Muse Code Devin fx Antigravity Kiro Terminals (3) Parallel Execution Scale to 100+ agents Run parallel coding agents on features, fixes, and refactors.",
+            "source": "https://github.com/paradevai/paradev#readme"
+          },
+          {
+            "text": "Each task gets its own Git worktree, branch, and terminals, so Claude Code, Codex, OpenCode, Gemini CLI, Cursor Agent, or any other CLI agent can work on several tasks in one repository at the same time.",
+            "source": "https://github.com/paradevai/paradev#readme"
+          },
+          {
+            "text": "Use Claude Code, Codex, OpenCode, Cursor Agent, or another CLI coding agent.",
+            "source": "https://github.com/paradevai/paradev#readme"
+          }
+        ],
+        "paralelo": [
+          {
+            "text": "new terminal New Terminal Claude OpenCode Codex Gemini Cursor Agent Mistral Vibe Kimi Code Grok CLI Hermes Muse Code Devin fx Antigravity Kiro Terminals (3) Parallel Execution Scale to 100+ agents Run parallel coding agents on features, fixes, and refactors.",
+            "source": "https://github.com/paradevai/paradev#readme"
+          },
+          {
+            "text": "Each task gets its own Git worktree and branch, so ten agents can work on ten branches simultaneously while you monitor, review, and merge from one place.",
+            "source": "https://github.com/paradevai/paradev#readme"
+          },
+          {
+            "text": "Every agent runs in its own Git worktree and branch, keeping working files separate.",
+            "source": "https://github.com/paradevai/paradev#readme"
+          }
+        ],
+        "orquestacion": [
+          {
+            "text": "Your agents stay independent; Paradev is the orchestration layer around them.",
+            "source": "https://github.com/paradevai/paradev#readme"
+          },
+          {
+            "text": "Teammates pin comments, and a watching agent can revise it at the same link.",
+            "source": "https://github.com/paradevai/paradev#readme"
+          }
+        ],
+        "revision": [
+          {
+            "text": "The code is public on GitHub, and anyone can file issues, open pull requests, or fork it.",
+            "source": "https://github.com/paradevai/paradev#readme"
+          },
+          {
+            "text": "Each task gets its own Git worktree and branch, persistent sessions, diff review, and automations that run on events or a schedule, without tying the workflow to one provider.",
+            "source": "https://github.com/paradevai/paradev#readme"
+          },
+          {
+            "text": "English Security Terms Privacy MIT License Download for macOS Download Download for macOS Download <div align=\"center\"> <img src=\"apps/desktop/src/resources/build/icons/icon.png\" alt=\"Paradev app icon\" width=\"96\" height=\"96\" /> ### Paradev (formerly Superset) Run Claude Code, Codex, or another CLI agent with terminals, code review, and browser previews in one workspace.",
+            "source": "https://github.com/paradevai/paradev#readme"
+          }
+        ],
+        "remoto": [
+          {
+            "text": "Each one works on its own branch, locally or in the cloud.",
+            "source": "https://github.com/paradevai/paradev#readme"
+          },
+          {
+            "text": "Use cloud workspaces without keeping your own computer connected.",
+            "source": "https://github.com/paradevai/paradev#readme"
+          },
+          {
+            "text": "To reach workspaces on your own computer, enable **Remote Access** and keep that host awake and online.",
+            "source": "https://github.com/paradevai/paradev#readme"
+          }
+        ],
+        "movil": [
+          {
+            "text": "Mobile supports **iPhone and iPad** and requires **Paradev Pro** and **iOS 26 or iPadOS 26 or later**.",
+            "source": "https://github.com/paradevai/paradev#readme"
+          },
+          {
+            "text": "An app for iPhone and iPad on the App Store lets you check on agents and review their diffs away from your desk.",
+            "source": "https://github.com/paradevai/paradev#readme"
+          },
+          {
+            "text": "Pick up the same workspaces and terminal sessions, send follow-up prompts, review diffs, and merge PRs from your iPhone or iPad.",
+            "source": "https://github.com/paradevai/paradev#readme"
+          }
+        ],
+        "extensiones": [
+          {
+            "text": "superset-mcp ✓ connected config: .mcp.json claude finished · worked for 7s Pushed and opened a draft PR.",
+            "source": "https://github.com/paradevai/paradev#readme"
+          },
+          {
+            "text": "automations Name Trigger Last run daily-triage daily 9:00 ⠋ running changelog-draft sun 11:00 ✓ 2h ago dep-upgrades weekly ✓ 1d ago pr-review on review request ✓ 12m ago daily-triage → triaging 12 new issues… → drafted 3 support replies → opened PR #841 for review CLI & SDK Drive it from the terminal Create workspaces and start agents from the CLI, the SDK, or over MCP.",
+            "source": "https://github.com/paradevai/paradev#readme"
+          },
+          {
+            "text": "Beyond the desktop app there's a CLI, a TypeScript SDK, and an MCP server, so you can drive Paradev from scripts, terminals, and other agents.",
+            "source": "https://github.com/paradevai/paradev#readme"
+          }
+        ],
+        "control": [
+          {
+            "text": "Worktrees separate working files; they do not sandbox processes or prevent merge conflicts.",
+            "source": "https://github.com/paradevai/paradev#readme"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "Web oficial",
+          "url": "https://paradev.com/",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/paradevai/paradev",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/paradevai/paradev#readme",
+          "accessedAt": "2026-11-13"
+        }
+      ],
+      "judged_day": "2026-11-13",
+      "tagline": "Un ejército de agentes en paralelo.",
+      "pricing": "freemium",
+      "priceNote": "Free local; Pro US$20/mes",
+      "execution": "Local · SSH · Cloud beta",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "strengths": [
+        "Paralelismo y worktrees muy trabajados",
+        "CLI + escritorio + móvil",
+        "Open source con plan free local"
+      ],
+      "weaknesses": [
+        "Móvil y automatizaciones requieren plan de pago",
+        "Cloud en beta",
+        "Depende de los harnesses que conectes"
+      ],
+      "licenseType": "Open source"
+    },
+    {
+      "slug": "agent-orchestrator",
+      "name": "Agent Orchestrator",
+      "repo": "https://github.com/OrchestratorInc/agent-orchestrator",
+      "website": "https://orchestrator.inc/",
+      "license": "Apache-2.0",
+      "category": "orchestrator",
+      "summary": "Orquestador open source para repartir tareas entre agentes, aislar trabajo, revisar cambios y abrir pull requests.",
+      "features": {
+        "parallel": true,
+        "orchestration": true,
+        "review": true,
+        "remote": true,
+        "mobile": true,
+        "extensions": true,
+        "control": true,
+        "openSource": true,
+        "mature": true
+      },
+      "scores": {
+        "harnesses": 90,
+        "paralelo": 90,
+        "orquestacion": 90,
+        "revision": 84,
+        "remoto": 84,
+        "movil": 78,
+        "extensiones": 70,
+        "control": 70,
+        "abierto": 95,
+        "producto": 82
+      },
+      "total": 84.18,
+      "tier": "S",
+      "harnesses": [
+        "claude code",
+        "codex",
+        "gemini",
+        "opencode",
+        "cursor",
+        "amp",
+        "devin",
+        "aider",
+        "copilot",
+        "grok",
+        "qwen"
+      ],
+      "evidence": {
+        "harnesses": [
+          {
+            "text": "I started a worker for each: Started 3 workers Each in its own worktree Meter API calls per workspace metering-api Claude Code Working Chart usage on the billing page usage-chart Codex Working Email a monthly invoice invoice-email Cursor Working I'll review each pull request as it opens and send CI failures back to the worker that owns it.",
+            "source": "https://github.com/OrchestratorInc/agent-orchestrator#readme"
+          },
+          {
+            "text": "$0 /month What's included Unlimited local agents on your machine Any supported coding agent, including Claude Code, Codex and Cursor Orchestrator, workers and PR reviews 2 devices logged in at once Connect on the same network, or from anywhere with Tailscale or the HTTPS tunnel Download Now Starter Recommended For one developer whose agents keep going after the laptop closes.",
+            "source": "https://github.com/OrchestratorInc/agent-orchestrator#readme"
+          },
+          {
+            "text": "I can just work in peace without ever worrying about running grok, omp, or opencode CLI separately.",
+            "source": "https://github.com/OrchestratorInc/agent-orchestrator#readme"
+          }
+        ],
+        "paralelo": [
+          {
+            "text": "Run Coding Agents in Parallel | Orchestrator Orchestrator.inc Demo Pricing Docs Changelog Sign in Download Sign in Download Works with +33 more Stop babysitting agents.",
+            "source": "https://github.com/OrchestratorInc/agent-orchestrator#readme"
+          },
+          {
+            "text": "Tell it what you want built and it plans the work, starts a worker for each piece in its own worktree, and comes back only when something needs you.",
+            "source": "https://github.com/OrchestratorInc/agent-orchestrator#readme"
+          },
+          {
+            "text": "I started a worker for each: Started 3 workers Each in its own worktree Meter API calls per workspace metering-api Claude Code Working Chart usage on the billing page usage-chart Codex Working Email a monthly invoice invoice-email Cursor Working I'll review each pull request as it opens and send CI failures back to the worker that owns it.",
+            "source": "https://github.com/OrchestratorInc/agent-orchestrator#readme"
+          }
+        ],
+        "orquestacion": [
+          {
+            "text": "Run Coding Agents in Parallel | Orchestrator Orchestrator.inc Demo Pricing Docs Changelog Sign in Download Sign in Download Works with +33 more Stop babysitting agents.",
+            "source": "https://github.com/OrchestratorInc/agent-orchestrator#readme"
+          },
+          {
+            "text": "feedback loop CI fails, the right agent fixes it review comments go back to the session that wrote the code Orchestrator watches every pull request it opens.",
+            "source": "https://github.com/OrchestratorInc/agent-orchestrator#readme"
+          },
+          {
+            "text": "cloud run in the cloud from anywhere Run your orchestrator and workers in hosted sandboxes from the desktop app, and control them from your phone.",
+            "source": "https://github.com/OrchestratorInc/agent-orchestrator#readme"
+          }
+        ],
+        "revision": [
+          {
+            "text": "I started a worker for each: Started 3 workers Each in its own worktree Meter API calls per workspace metering-api Claude Code Working Chart usage on the billing page usage-chart Codex Working Email a monthly invoice invoice-email Cursor Working I'll review each pull request as it opens and send CI failures back to the worker that owns it.",
+            "source": "https://github.com/OrchestratorInc/agent-orchestrator#readme"
+          },
+          {
+            "text": "board the whole fleet, at a glance every session sorted by what it needs from you Sessions place themselves from live facts: what the agent is doing, its pull request, CI, and reviews.",
+            "source": "https://github.com/OrchestratorInc/agent-orchestrator#readme"
+          },
+          {
+            "text": "one card per session Task, agent, branch, and pull request together.",
+            "source": "https://github.com/OrchestratorInc/agent-orchestrator#readme"
+          }
+        ],
+        "remoto": [
+          {
+            "text": "How pairing and remote access work 9:41 Email a monthly invoice billing-service · Cursor Postmark or SES for the invoice email?",
+            "source": "https://github.com/OrchestratorInc/agent-orchestrator#readme"
+          },
+          {
+            "text": "cloud run in the cloud from anywhere Run your orchestrator and workers in hosted sandboxes from the desktop app, and control them from your phone.",
+            "source": "https://github.com/OrchestratorInc/agent-orchestrator#readme"
+          },
+          {
+            "text": "$20 /month 15 agents at once 5 cloud projects What's included Everything in Free Agents keep working when your computer sleeps Pull requests, CI fixes and reviews in the cloud Cloud relay for seamless connectivity across devices Unlimited devices, including mobile (bring your own) Get Started with Cloud Pro For a bigger fleet of cloud agents and projects.",
+            "source": "https://github.com/OrchestratorInc/agent-orchestrator#readme"
+          }
+        ],
+        "movil": [
+          {
+            "text": "mobile your fleet goes where you go answer an agent from your phone, while agents run on your machine Pair the free iPhone, iPad and Android app with your desktop by QR code.",
+            "source": "https://github.com/OrchestratorInc/agent-orchestrator#readme"
+          },
+          {
+            "text": "Free on the App Store for iPhone and iPad and on Google Play for Android.",
+            "source": "https://github.com/OrchestratorInc/agent-orchestrator#readme"
+          },
+          {
+            "text": "The phone reaches it on the same network, through the managed HTTPS tunnel, or over Tailscale on Android (iPhone and iPad can't use Tailscale).",
+            "source": "https://github.com/OrchestratorInc/agent-orchestrator#readme"
+          }
+        ],
+        "extensiones": [
+          {
+            "text": "#### Supported agents Worker, Chat, and reviewer support differ by agent; the [agent setup guides](https://docs.orchestrator.inc/plugins/agents) have the current matrix.",
+            "source": "https://github.com/OrchestratorInc/agent-orchestrator#readme"
+          },
+          {
+            "text": "A local coding agent can help gather evidence with the [bug-triage skill](.agents/skills/bug-triage/SKILL.md); keep its logs and notes in attachments, and review the draft before submitting it yourself.",
+            "source": "https://github.com/OrchestratorInc/agent-orchestrator#readme"
+          }
+        ],
+        "control": [
+          {
+            "text": "structured chat Plans, commands, and file edits in one readable timeline, with approvals right where you need them.",
+            "source": "https://github.com/OrchestratorInc/agent-orchestrator#readme"
+          },
+          {
+            "text": "cloud run in the cloud from anywhere Run your orchestrator and workers in hosted sandboxes from the desktop app, and control them from your phone.",
+            "source": "https://github.com/OrchestratorInc/agent-orchestrator#readme"
+          },
+          {
+            "text": "- **Get alerts.** A push notification tells you when an agent has a question or needs approval.",
+            "source": "https://github.com/OrchestratorInc/agent-orchestrator#readme"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "Web oficial",
+          "url": "https://orchestrator.inc/",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/OrchestratorInc/agent-orchestrator",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/OrchestratorInc/agent-orchestrator#readme",
+          "accessedAt": "2026-11-13"
+        }
+      ],
+      "judged_day": "2026-11-13",
+      "tagline": "Supervisión de agentes de punta a punta.",
+      "pricing": "free",
+      "priceNote": "Código abierto + tus modelos",
+      "execution": "Local · Self-hosted",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "strengths": [
+        "Orquestación y paralelismo nativos",
+        "Revisión y PRs dentro del flujo",
+        "Open source y self-hosted"
+      ],
+      "weaknesses": [
+        "Menos foco en la experiencia de IDE",
+        "Extensiones y MCP no son el centro",
+        "Requiere configurar los agentes conectados"
+      ],
+      "licenseType": "Open source"
+    },
+    {
+      "slug": "kandev",
+      "name": "Kandev",
+      "repo": "https://github.com/kdlbs/kandev",
+      "website": "https://github.com/kdlbs/kandev",
+      "license": "AGPL-3.0",
+      "category": "orchestrator",
+      "summary": "Entorno self-hostable con tablero Kanban, pipelines de agentes, revisión de cambios y pull requests. Multi-proveedor y sin telemetría.",
+      "features": {
+        "parallel": true,
+        "orchestration": true,
+        "review": true,
+        "remote": true,
+        "mobile": true,
+        "extensions": true,
+        "control": true,
+        "openSource": true,
+        "mature": true
+      },
+      "scores": {
+        "harnesses": 90,
+        "paralelo": 88,
+        "orquestacion": 90,
+        "revision": 86,
+        "remoto": 85,
+        "movil": 70,
+        "extensiones": 72,
+        "control": 70,
+        "abierto": 95,
+        "producto": 80
+      },
+      "total": 83.82,
+      "tier": "S",
+      "harnesses": [
+        "claude code",
+        "codex",
+        "gemini",
+        "opencode",
+        "cursor",
+        "amp",
+        "devin",
+        "copilot",
+        "grok",
+        "qwen"
+      ],
+      "evidence": {
+        "harnesses": [
+          {
+            "text": "Multi-provider - Use Claude Code, Codex, Copilot, Gemini, Amp, Auggie, OpenCode, Cursor, Devin, Qwen, Droid, iFlow, Kilocode, Pi, Kimi, Kiro, Qoder, Trae, Oh My Pi, Grok, Hermes, and Antigravity side by side.",
+            "source": "https://github.com/kdlbs/kandev#readme"
+          },
+          {
+            "text": "- **Multi-provider** - Use Claude Code, Codex, Copilot, Gemini, Amp, Auggie, OpenCode, Cursor, Devin, Qwen, Droid, iFlow, Kilocode, Pi, Kimi, Kiro, Qoder, Trae, Oh My Pi, Grok, Hermes, and Antigravity side by side.",
+            "source": "https://github.com/kdlbs/kandev#readme"
+          },
+          {
+            "text": "Codex app-server is a separate experimental native integration.",
+            "source": "https://github.com/kdlbs/kandev#readme"
+          }
+        ],
+        "paralelo": [
+          {
+            "text": "Organize work across kanban and pipeline views with opinionated workflows and execute multiple tasks in parallel.",
+            "source": "https://github.com/kdlbs/kandev#readme"
+          },
+          {
+            "text": "CLI passthrough keeps the agent's native terminal UX available while still giving Kandev task tracking, worktrees, review, and session management.",
+            "source": "https://github.com/kdlbs/kandev#readme"
+          },
+          {
+            "text": "Worktree-based tasks can also attach multiple repositories or multiple branches from the same repository, which lets one task produce several PRs when the work needs it.",
+            "source": "https://github.com/kdlbs/kandev#readme"
+          }
+        ],
+        "orquestacion": [
+          {
+            "text": "Orchestrate multiple agents, review changes, open PRs.",
+            "source": "https://github.com/kdlbs/kandev#readme"
+          },
+          {
+            "text": "Orchestrate multiple agents, review changes, open PRs.",
+            "source": "https://github.com/kdlbs/kandev#readme"
+          },
+          {
+            "text": "The goal is a single control plane: offload execution to servers, orchestrate from anywhere, including your phone.",
+            "source": "https://github.com/kdlbs/kandev#readme"
+          }
+        ],
+        "revision": [
+          {
+            "text": "Orchestrate multiple agents, review changes, open PRs.",
+            "source": "https://github.com/kdlbs/kandev#readme"
+          },
+          {
+            "text": "Dismiss alert {{ message }} kdlbs kandev Repository navigation Code Issues 152 ( 152 ) Pull requests 138 ( 138 ) Discussions Actions Projects Security and quality Insights More items kandev Public Notifications You must be signed in to change notification settings Fork 186 ( 186 ) Star 1.1k ( 1.1k ) You must be signed in to star a repository About AI Kanban & Development Environment.",
+            "source": "https://github.com/kdlbs/kandev#readme"
+          },
+          {
+            "text": "Orchestrate multiple agents, review changes, open PRs.",
+            "source": "https://github.com/kdlbs/kandev#readme"
+          }
+        ],
+        "remoto": [
+          {
+            "text": "Remote runtimes - Run agents on remote servers via SSH, Docker hosts, and cloud environments, not just your local machine.",
+            "source": "https://github.com/kdlbs/kandev#readme"
+          },
+          {
+            "text": "- **Remote runtimes** - Run agents on remote servers via SSH, Docker hosts, and cloud environments, not just your local machine.",
+            "source": "https://github.com/kdlbs/kandev#readme"
+          },
+          {
+            "text": "Use the mobile remote-access guide to connect through Tailscale, Cloudflare Tunnel, or another private VPN.",
+            "source": "https://github.com/kdlbs/kandev#readme"
+          }
+        ],
+        "movil": [],
+        "extensiones": [
+          {
+            "text": "It includes agent roles and permissions, dashboards, inbox/approvals, routines, task delegation, skills, memory, cost tracking, budgets, and workspace config sync.",
+            "source": "https://github.com/kdlbs/kandev#readme"
+          },
+          {
+            "text": "Choose [native tool packages](docs/public/builtin-mcp-packages.md), including explicit Configuration access for a task.",
+            "source": "https://github.com/kdlbs/kandev#readme"
+          },
+          {
+            "text": "It includes agent roles and permissions, dashboards, inbox/approvals, routines, task delegation, skills, memory, cost tracking, budgets, and workspace config sync.",
+            "source": "https://github.com/kdlbs/kandev#readme"
+          }
+        ],
+        "control": [
+          {
+            "text": "It includes agent roles and permissions, dashboards, inbox/approvals, routines, task delegation, skills, memory, cost tracking, budgets, and workspace config sync.",
+            "source": "https://github.com/kdlbs/kandev#readme"
+          },
+          {
+            "text": "It includes agent roles and permissions, dashboards, inbox/approvals, routines, task delegation, skills, memory, cost tracking, budgets, and workspace config sync.",
+            "source": "https://github.com/kdlbs/kandev#readme"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "Web oficial",
+          "url": "https://github.com/kdlbs/kandev",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/kdlbs/kandev",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/kdlbs/kandev#readme",
+          "accessedAt": "2026-11-13"
+        }
+      ],
+      "judged_day": "2026-11-13",
+      "tagline": "Kanban para orquestar agentes.",
+      "pricing": "free",
+      "priceNote": "Código abierto + tus modelos",
+      "execution": "Local · SSH · Self-hosted",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "strengths": [
+        "Tablero Kanban muy claro para trabajo multi-agente",
+        "Revisión y PRs integrados",
+        "Self-hosted y multi-proveedor"
+      ],
+      "weaknesses": [
+        "Más orquestador que IDE de código",
+        "Móvil limitado al navegador",
+        "Setup self-hosted"
+      ],
+      "licenseType": "Open source"
+    },
+    {
+      "slug": "synara",
+      "name": "Synara",
+      "repo": "https://github.com/Emanuele-web04/synara",
+      "website": "https://www.trysynara.com/",
+      "license": "MIT",
+      "category": "workspace",
+      "summary": "Workspace local-first para tareas de agentes, worktrees, handoffs y revisión, con MCP y soporte de varios harnesses.",
+      "features": {
+        "parallel": true,
+        "orchestration": true,
+        "review": true,
+        "remote": true,
+        "mobile": true,
+        "extensions": true,
+        "control": true,
+        "openSource": true,
+        "mature": true
+      },
+      "scores": {
+        "harnesses": 90,
+        "paralelo": 88,
+        "orquestacion": 90,
+        "revision": 86,
+        "remoto": 82,
+        "movil": 70,
+        "extensiones": 72,
+        "control": 70,
+        "abierto": 95,
+        "producto": 82
+      },
+      "total": 83.64,
+      "tier": "S",
+      "harnesses": [
+        "claude code",
+        "codex",
+        "opencode",
+        "cursor",
+        "devin",
+        "grok"
+      ],
+      "evidence": {
+        "harnesses": [
+          {
+            "text": "See all supported agents › Claude Code CLI + account Codex CLI + account Cursor Agent CLI OpenCode Configured models Antigravity agy CLI Grok Build grok CLI Devin CLI ACP + account Pi Model registry Oh My Pi omp CLI Factory Droid droid CLI From first prompt to merged PR.",
+            "source": "https://github.com/Emanuele-web04/synara#readme"
+          },
+          {
+            "text": "Run Claude Code, Codex, OpenCode, Cursor, Antigravity, Grok Build, Devin CLI, Pi, Oh My Pi, and Factory Droid across separate tasks with terminals, browser verification, diffs, Git worktrees, handoffs, and pull-request delivery in one desktop app.",
+            "source": "https://github.com/Emanuele-web04/synara#readme"
+          },
+          {
+            "text": "Continue in this thread Claude Codex Cursor Grok Continue in a new thread OpenCode Pi 04 Review the diff, verify in the browser, open the PR Inspect every change, check the running app in the built-in browser, then commit, push and open the pull request from the same task.",
+            "source": "https://github.com/Emanuele-web04/synara#readme"
+          }
+        ],
+        "paralelo": [
+          {
+            "text": "How tasks work › Today Browser sign-in and sharing Soccer ball physics demo Editor search bar Fix broken chat dragging Redesign split chats Yesterday Hide empty threads Swap search icons to Lucide Do anything in Synara Full access GPT-6.1 Sol High 02 Parallel coding agents, isolated with Git worktrees Give every agent its own worktree, branch and terminal.",
+            "source": "https://github.com/Emanuele-web04/synara#readme"
+          },
+          {
+            "text": "Create separate tasks and use isolated Git worktrees when agents may edit concurrently.",
+            "source": "https://github.com/Emanuele-web04/synara#readme"
+          },
+          {
+            "text": "Isolated parallel work Managed worktrees provide a boundary for parallel changes.",
+            "source": "https://github.com/Emanuele-web04/synara#readme"
+          }
+        ],
+        "orquestacion": [
+          {
+            "text": "I wasn't aware of the Orchestrator feature.",
+            "source": "https://github.com/Emanuele-web04/synara#readme"
+          },
+          {
+            "text": ";o I was just looking for ways today to orchestrate with Astra and execute with SWE2 or 3 likes Andi @ andilosing i’m just using synara 1 likes Sensei @ razzykenn Yes.",
+            "source": "https://github.com/Emanuele-web04/synara#readme"
+          },
+          {
+            "text": "| | **Orchestration** | Provider handoffs, automations, and scoped external MCP.",
+            "source": "https://github.com/Emanuele-web04/synara#readme"
+          }
+        ],
+        "revision": [
+          {
+            "text": "Continue in this thread Claude Codex Cursor Grok Continue in a new thread OpenCode Pi 04 Review the diff, verify in the browser, open the PR Inspect every change, check the running app in the built-in browser, then commit, push and open the pull request from the same task.",
+            "source": "https://github.com/Emanuele-web04/synara#readme"
+          },
+          {
+            "text": "Use a normal branch or an isolated worktree, inspect the resulting diff, run the required checks, commit the intended changes, push the branch, and open or review the pull request from the same task workflow.",
+            "source": "https://github.com/Emanuele-web04/synara#readme"
+          },
+          {
+            "text": "| | **Git** | Work with branches, commits, pushes, and pull requests.",
+            "source": "https://github.com/Emanuele-web04/synara#readme"
+          }
+        ],
+        "remoto": [
+          {
+            "text": "Remote Connections run only between computers you pair and approve, through the configured relay or a managed Cloudflare tunnel.",
+            "source": "https://github.com/Emanuele-web04/synara#readme"
+          },
+          {
+            "text": "With Remote Connections, traffic between computers you have paired and approved goes through the configured relay or a managed Cloudflare tunnel.",
+            "source": "https://github.com/Emanuele-web04/synara#readme"
+          },
+          {
+            "text": "bun run test --filter split-pane Deny Approve Supported by Your product here Sponsor Synara New in Synara 1.5 Remote Connections.",
+            "source": "https://github.com/Emanuele-web04/synara#readme"
+          }
+        ],
+        "movil": [
+          {
+            "text": "4 likes Keios Starqua @ TaLaTaQuangKhoi @trySynara 's way of working with agents is exactly what I need.",
+            "source": "https://github.com/Emanuele-web04/synara#readme"
+          },
+          {
+            "text": "Remote Connections are included with Synara Alto; the iPhone and iPad app is coming soon.",
+            "source": "https://github.com/Emanuele-web04/synara#readme"
+          },
+          {
+            "text": "<p align=\"center\"> <img src=\"./assets/prod/readme-split-view-dark.png\" width=\"900\" alt=\"Synara split view with an agent thread and iOS simulator preview\"> </p> ### 4.",
+            "source": "https://github.com/Emanuele-web04/synara#readme"
+          }
+        ],
+        "extensiones": [
+          {
+            "text": "| | **Browser** | Keep local previews next to the thread and let agents use semantic or page-declared WebMCP tools.",
+            "source": "https://github.com/Emanuele-web04/synara#readme"
+          },
+          {
+            "text": "Automations and external MCP Automations support recurring agent runs and keep their outcomes attached to projects and threads.",
+            "source": "https://github.com/Emanuele-web04/synara#readme"
+          },
+          {
+            "text": "External MCP integrations provide scoped, user-approved access for other local clients.",
+            "source": "https://github.com/Emanuele-web04/synara#readme"
+          }
+        ],
+        "control": [
+          {
+            "text": "Download Synara Star on GitHub Already downloaded by 25,460 people Controlling Studio from MacBook Air Approval needed Studio Codex wants to run a command in your worktree.",
+            "source": "https://github.com/Emanuele-web04/synara#readme"
+          },
+          {
+            "text": "Open the chats, workspaces and approvals of the computer running your agents from any other.",
+            "source": "https://github.com/Emanuele-web04/synara#readme"
+          },
+          {
+            "text": "Pair a second computer running Synara Desktop on macOS, Windows or Linux, signed in to the same Synara account, then open the source computer's workspaces, chats and approvals while it is online.",
+            "source": "https://github.com/Emanuele-web04/synara#readme"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "Web oficial",
+          "url": "https://www.trysynara.com/",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/Emanuele-web04/synara",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/Emanuele-web04/synara#readme",
+          "accessedAt": "2026-11-13"
+        }
+      ],
+      "judged_day": "2026-11-13",
+      "tagline": "Control plane local-first para agentes.",
+      "pricing": "free",
+      "priceNote": "Código abierto + tus modelos",
+      "execution": "Local · Self-hosted",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "strengths": [
+        "Handoffs y orquestación de agentes",
+        "Worktrees y revisión de PRs",
+        "Open source y local-first"
+      ],
+      "weaknesses": [
+        "Sin app móvil nativa",
+        "No tiene runtime propio",
+        "Ecosistema joven"
+      ],
+      "licenseType": "Open source"
+    },
+    {
+      "slug": "bb",
+      "name": "bb",
+      "repo": "https://github.com/get-bb/bb",
+      "website": "https://getbb.app/",
+      "license": "MIT",
+      "category": "ide",
+      "summary": "Workspace extensible con plugins, orquestación de agentes, tareas programadas y ejecución remota en tus propios hosts.",
+      "features": {
+        "parallel": true,
+        "orchestration": true,
+        "review": true,
+        "remote": false,
+        "mobile": false,
+        "extensions": true,
+        "control": true,
+        "openSource": true,
+        "mature": true
+      },
+      "scores": {
+        "harnesses": 88,
+        "paralelo": 86,
+        "orquestacion": 84,
+        "revision": 80,
+        "remoto": 84,
+        "movil": 70,
+        "extensiones": 85,
+        "control": 70,
+        "abierto": 95,
+        "producto": 82
+      },
+      "total": 83.1,
+      "tier": "S",
+      "harnesses": [
+        "claude code",
+        "codex",
+        "gemini",
+        "opencode",
+        "cursor",
+        "amp",
+        "copilot",
+        "grok"
+      ],
+      "evidence": {
+        "harnesses": [
+          {
+            "text": "bb spawn \"fix CI on main\" Worker thread spawning running Fix CI on main bb/fix-ci-on-main Message The gang's all here Claude Code, Codex, Cursor, Pi, OpenCode, Grok, omp, and Hermes all live in bb.",
+            "source": "https://github.com/get-bb/bb#readme"
+          },
+          {
+            "text": "Claude OpenAI Cursor Pi opencode Grok Build oh-my-pi Hermes Agent + 5 more Threads 5 active Claude Claude Code Ship the release managing done OpenAI Codex Port module to TS running done Cursor Cursor Refactor the auth flow running done Pi Pi Write release notes running done opencode OpenCode Add integration tests running done Fork it.",
+            "source": "https://github.com/get-bb/bb#readme"
+          },
+          {
+            "text": "Bring my Linear issues to bb OpenAI Codex bb/linear-plugin Linear Plugin APP-1 Fix the login redirect loop high APP-2 Rate-limit file uploads medium APP-3 Add filters to search low APP-4 Draft the release notes medium APP-5 Triage flaky checkout tests high APP-6 Port the billing page low APP-7 Document the public API medium Anything can kick off work.",
+            "source": "https://github.com/get-bb/bb#readme"
+          }
+        ],
+        "paralelo": [
+          {
+            "text": "Development runs (`pnpm dev`, `pnpm start:worktree`) never send.",
+            "source": "https://github.com/get-bb/bb#readme"
+          },
+          {
+            "text": "Separate worktrees can run alongside each other and the packaged `npx bb-app@latest` instance.",
+            "source": "https://github.com/get-bb/bb#readme"
+          },
+          {
+            "text": "To test the production bundle and serving path without switching to production data or ports, use: ```bash pnpm start:worktree ``` This builds the same optimized frontend and runtime artifacts as `pnpm start`, then serves the app from the BB server on the checkout-specific dev server port.",
+            "source": "https://github.com/get-bb/bb#readme"
+          }
+        ],
+        "orquestacion": [
+          {
+            "text": "bb: agentic IDE · The IDE that builds itself Plugins Marketplace Building plugins Guides Orchestrate agents Automate Schedule agents Test web apps Automate browser tasks Remote & mobile Run dev servers Work from anywhere Blog Changelog Sign in 5.5k Download New A more reliable bb The IDE that builds itself Run all your coding agents in one programmable workspace.",
+            "source": "https://github.com/get-bb/bb#readme"
+          },
+          {
+            "text": "Subscribe Product Download Plugins Building plugins Changelog Sign in Guides Orchestrate agents Schedule agents Test web apps Automate browser tasks Run dev servers Work from anywhere Compare bb vs Conductor bb vs Cursor bb vs Superset bb vs T3 Code bb vs Vibe Kanban Community Blog GitHub Discord Legal Privacy Brand assets Software License © 2026 Terragon Labs, Inc.",
+            "source": "https://github.com/get-bb/bb#readme"
+          }
+        ],
+        "revision": [],
+        "remoto": [
+          {
+            "text": "bb: agentic IDE · The IDE that builds itself Plugins Marketplace Building plugins Guides Orchestrate agents Automate Schedule agents Test web apps Automate browser tasks Remote & mobile Run dev servers Work from anywhere Blog Changelog Sign in 5.5k Download New A more reliable bb The IDE that builds itself Run all your coding agents in one programmable workspace.",
+            "source": "https://github.com/get-bb/bb#readme"
+          },
+          {
+            "text": "The GitHub integration, agent memory, scheduled jobs, and even remote access are all plugins.",
+            "source": "https://github.com/get-bb/bb#readme"
+          },
+          {
+            "text": "Telemetry never includes Git commit hashes or remote URLs.",
+            "source": "https://github.com/get-bb/bb#readme"
+          }
+        ],
+        "movil": [],
+        "extensiones": [
+          {
+            "text": "bb: agentic IDE · The IDE that builds itself Plugins Marketplace Building plugins Guides Orchestrate agents Automate Schedule agents Test web apps Automate browser tasks Remote & mobile Run dev servers Work from anywhere Blog Changelog Sign in 5.5k Download New A more reliable bb The IDE that builds itself Run all your coding agents in one programmable workspace.",
+            "source": "https://github.com/get-bb/bb#readme"
+          },
+          {
+            "text": "The GitHub integration, agent memory, scheduled jobs, and even remote access are all plugins.",
+            "source": "https://github.com/get-bb/bb#readme"
+          },
+          {
+            "text": "Subscribe Product Download Plugins Building plugins Changelog Sign in Guides Orchestrate agents Schedule agents Test web apps Automate browser tasks Run dev servers Work from anywhere Compare bb vs Conductor bb vs Cursor bb vs Superset bb vs T3 Code bb vs Vibe Kanban Community Blog GitHub Discord Legal Privacy Brand assets Software License © 2026 Terragon Labs, Inc.",
+            "source": "https://github.com/get-bb/bb#readme"
+          }
+        ],
+        "control": []
+      },
+      "sources": [
+        {
+          "label": "Web oficial",
+          "url": "https://getbb.app/",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/get-bb/bb",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/get-bb/bb#readme",
+          "accessedAt": "2026-11-13"
+        }
+      ],
+      "judged_day": "2026-11-13",
+      "tagline": "El IDE agéntico que se construye solo.",
+      "pricing": "free",
+      "priceNote": "Código abierto + tus modelos",
+      "execution": "Local · SSH · Self-hosted",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "strengths": [
+        "Plugins y marketplace propios",
+        "Orquestación y schedule",
+        "Open source y remote dev servers"
+      ],
+      "weaknesses": [
+        "Revisión de cambios menos profunda",
+        "Sin app móvil nativa",
+        "El modelo de plugins añade complejidad"
+      ],
+      "licenseType": "Open source"
+    },
+    {
+      "slug": "emdash",
+      "name": "Emdash",
+      "repo": "https://github.com/generalaction/emdash",
+      "website": "https://emdash.com/",
+      "license": "Apache-2.0",
+      "category": "workspace",
+      "summary": "Workspace open source con worktrees, tareas programadas, SSH y revisión integrada para que un equipo corra agentes de código.",
+      "features": {
+        "parallel": true,
+        "orchestration": true,
+        "review": true,
+        "remote": true,
+        "mobile": true,
+        "extensions": true,
+        "control": true,
+        "openSource": true,
+        "mature": true
+      },
+      "scores": {
+        "harnesses": 88,
+        "paralelo": 88,
+        "orquestacion": 82,
+        "revision": 86,
+        "remoto": 86,
+        "movil": 70,
+        "extensiones": 70,
+        "control": 68,
+        "abierto": 95,
+        "producto": 82
+      },
+      "total": 82.42,
+      "tier": "S",
+      "harnesses": [
+        "claude code",
+        "codex",
+        "opencode",
+        "cursor",
+        "amp",
+        "devin",
+        "copilot",
+        "qwen"
+      ],
+      "evidence": {
+        "harnesses": [
+          {
+            "text": "It supports agents like Claude Code, Codex, Cursor, OpenCode, Amp, Devin, Qwen Code, Droid, and GitHub Copilot.",
+            "source": "https://github.com/generalaction/emdash#readme"
+          },
+          {
+            "text": "All your coding agents in one place Use Claude Code, Codex, Cursor, OpenCode or your own agents through ACP, with any model.",
+            "source": "https://github.com/generalaction/emdash#readme"
+          },
+          {
+            "text": "Bring the CLI agents you already use: Claude Code, Codex, OpenCode, Amp, and more.",
+            "source": "https://github.com/generalaction/emdash#readme"
+          }
+        ],
+        "paralelo": [
+          {
+            "text": "Run agents in parallel, automate recurring work, and let them test applications, fix CI failures and open PRs with visual evidence.",
+            "source": "https://github.com/generalaction/emdash#readme"
+          },
+          {
+            "text": "Each task runs in its own Git worktree, so you can explore multiple fixes or features at once, review the diffs, and merge what works.",
+            "source": "https://github.com/generalaction/emdash#readme"
+          },
+          {
+            "text": "- Keep every agent isolated in its own Git worktree and branch.",
+            "source": "https://github.com/generalaction/emdash#readme"
+          }
+        ],
+        "orquestacion": [
+          {
+            "text": "Get Emdash Classic Delegate work from anywhere Start tasks from Emdash, Slack, Linear or GitHub.",
+            "source": "https://github.com/generalaction/emdash#readme"
+          }
+        ],
+        "revision": [
+          {
+            "text": "- Review diffs, create pull requests, inspect CI checks, and merge from one place.",
+            "source": "https://github.com/generalaction/emdash#readme"
+          }
+        ],
+        "remoto": [
+          {
+            "text": "It works with local projects and remote machines over SSH.",
+            "source": "https://github.com/generalaction/emdash#readme"
+          },
+          {
+            "text": "- Work locally or on your own remote machines over SSH/SFTP.",
+            "source": "https://github.com/generalaction/emdash#readme"
+          },
+          {
+            "text": "## Remote Projects Connect to remote machines with SSH/SFTP and run the same parallel workflow on remote codebases.",
+            "source": "https://github.com/generalaction/emdash#readme"
+          }
+        ],
+        "movil": [],
+        "extensiones": [
+          {
+            "text": "Set up once, across every agent Share development environments, skills, MCP servers and secrets across your team.",
+            "source": "https://github.com/generalaction/emdash#readme"
+          }
+        ],
+        "control": []
+      },
+      "sources": [
+        {
+          "label": "Web oficial",
+          "url": "https://emdash.com/",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/generalaction/emdash",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/generalaction/emdash#readme",
+          "accessedAt": "2026-11-13"
+        }
+      ],
+      "judged_day": "2026-11-13",
+      "tagline": "Agentes para todo el equipo, en la nube.",
+      "pricing": "free",
+      "priceNote": "Código abierto + tus modelos",
+      "execution": "Local · SSH · Cloud",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "strengths": [
+        "Worktrees, SSH y tareas programadas",
+        "Revisión y PRs integrados",
+        "Open source"
+      ],
+      "weaknesses": [
+        "Sin app móvil",
+        "Orquestación menos profunda",
+        "Cloud todavía en acceso anticipado"
+      ],
+      "licenseType": "Open source"
+    },
+    {
+      "slug": "conductor",
+      "name": "Conductor",
+      "repo": null,
+      "website": "https://www.conductor.build/",
+      "license": null,
+      "category": "workspace",
+      "summary": "Workspace para correr agentes de código en paralelo, con ejecución local o cloud gestionada, app móvil y revisión de cambios.",
+      "features": {
+        "parallel": false,
+        "orchestration": true,
+        "review": true,
+        "remote": true,
+        "mobile": true,
+        "extensions": false,
+        "control": true,
+        "openSource": false,
+        "mature": true
+      },
+      "scores": {
+        "harnesses": 90,
+        "paralelo": 86,
+        "orquestacion": 78,
+        "revision": 86,
+        "remoto": 92,
+        "movil": 88,
+        "extensiones": 60,
+        "control": 75,
+        "abierto": 40,
+        "producto": 90
+      },
+      "total": 80.36,
+      "tier": "A",
+      "harnesses": [
+        "claude code",
+        "codex",
+        "opencode",
+        "cursor"
+      ],
+      "evidence": {
+        "harnesses": [
+          {
+            "text": "Conductor runs the first-party Claude Code, Codex, Cursor, and OpenCode agents under the hood.",
+            "source": "https://www.conductor.build/"
+          }
+        ],
+        "paralelo": [],
+        "orquestacion": [
+          {
+            "text": "Share a workspace link (⌘⇧C) with teammates, see who is active, follow work you care about, and prompt agents together in real-time.",
+            "source": "https://www.conductor.build/"
+          }
+        ],
+        "revision": [],
+        "remoto": [
+          {
+            "text": "Conductor - Run a team of coding agents in the cloud Conductor is joining Meta Changelog Docs Sign in Download Run a team of coding agents in the cloud.",
+            "source": "https://www.conductor.build/"
+          },
+          {
+            "text": "Ludwig Wolfgang Clara Johann Frédéric A cloud sandbox for every agent.",
+            "source": "https://www.conductor.build/"
+          },
+          {
+            "text": "Conductor Cloud runs on isolated microVMs with your repos and dependencies pre-installed.",
+            "source": "https://www.conductor.build/"
+          }
+        ],
+        "movil": [
+          {
+            "text": "macOS iOS API Changelog “The speed and fury with which the Conductor team ships is magnificent to behold.” 0.94.0 November 9, 2026 Claude Fable 5.2 0.93.0 November 4, 2026 Conductor is joining Meta 0.92.0 October 23, 2026 Remote control View all Be like this guy.",
+            "source": "https://www.conductor.build/"
+          }
+        ],
+        "extensiones": [],
+        "control": [
+          {
+            "text": "Ludwig Wolfgang Clara Johann Frédéric A cloud sandbox for every agent.",
+            "source": "https://www.conductor.build/"
+          },
+          {
+            "text": "Sandboxes spin up in seconds so your agents can run for hours.",
+            "source": "https://www.conductor.build/"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "Web oficial",
+          "url": "https://www.conductor.build/",
+          "accessedAt": "2026-11-13"
+        }
+      ],
+      "judged_day": "2026-11-13",
+      "tagline": "Un equipo de agentes en la nube.",
+      "pricing": "freemium",
+      "priceNote": "Free local; Pro US$50/mes",
+      "execution": "Local · Cloud",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "strengths": [
+        "Cloud gestionado y móvil",
+        "Revisión de cambios integrada",
+        "Experiencia muy pulida"
+      ],
+      "weaknesses": [
+        "Cerrado",
+        "Extensiones/MCP no son el foco",
+        "El cloud exige plan de pago"
+      ],
+      "licenseType": "Comercial"
+    },
+    {
+      "slug": "ghostex",
+      "name": "Ghostex",
+      "repo": "https://github.com/maddada/Ghostex",
+      "website": "https://ghostex.dev/",
+      "license": "MIT",
+      "category": "workspace",
+      "summary": "Workspace de escritorio con chats de agentes, editor de código, navegador por agente, automatizaciones y app móvil.",
+      "features": {
+        "parallel": true,
+        "orchestration": true,
+        "review": false,
+        "remote": true,
+        "mobile": true,
+        "extensions": true,
+        "control": false,
+        "openSource": true,
+        "mature": true
+      },
+      "scores": {
+        "harnesses": 86,
+        "paralelo": 84,
+        "orquestacion": 82,
+        "revision": 78,
+        "remoto": 80,
+        "movil": 82,
+        "extensiones": 75,
+        "control": 62,
+        "abierto": 90,
+        "producto": 78
+      },
+      "total": 80.16,
+      "tier": "A",
+      "harnesses": [
+        "claude code",
+        "codex",
+        "gemini",
+        "opencode",
+        "cursor",
+        "amp",
+        "copilot",
+        "grok"
+      ],
+      "evidence": {
+        "harnesses": [
+          {
+            "text": "If you ever need the raw CLI, it is one hotkey away.</p> <p align=\"center\"><img src=\"media/readme/gx-diff.png\" alt=\"A chat showing the agent's code change as a diff\" width=\"70%\" /></p> <br/> <h3 align=\"center\">🔀 Any agent, swap on&nbsp;the&nbsp;fly</h3> <p align=\"center\">Claude Code, Codex, OpenCode, Pi, Gemini, Grok, Cursor, and more.",
+            "source": "https://github.com/maddada/Ghostex#readme"
+          },
+          {
+            "text": "Cursor zsh · ~/acme ~/acme ❯ claude ✻ Claude Code > fix the flaky checkout test ● Bash(npm test checkout) ⎿ 12 passed ~/acme ❯ codex › Working (14s) Claude New chat Pricing page copy Onboarding emails Q3 roadmap notes Refactor ideas Hiring plan Write the pricing page copy Reply to Claude… Way too many apps open...",
+            "source": "https://github.com/maddada/Ghostex#readme"
+          },
+          {
+            "text": "Codex Claude Gemini Cursor The whole conversation comes along.",
+            "source": "https://github.com/maddada/Ghostex#readme"
+          }
+        ],
+        "paralelo": [
+          {
+            "text": "Spaces Remote machines Groups Worktrees Local 1 Remote 2 Atlas API +214 −38 Frontend 3 Design system tokens 4m Marketing site copy 20m Sessions feat/new-onboarding 1h Rate limiter for /v2 2h Instantly find any chat with smart search.",
+            "source": "https://github.com/maddada/Ghostex#readme"
+          },
+          {
+            "text": "- **Worktrees, splits, and spaces**: a worktree per task, split panes, Arc-style spaces.",
+            "source": "https://github.com/maddada/Ghostex#readme"
+          }
+        ],
+        "orquestacion": [],
+        "revision": [],
+        "remoto": [
+          {
+            "text": "- **Remote machines**: connect another computer with an Easy Connect code or SSH and it shows up in the sidebar.",
+            "source": "https://github.com/maddada/Ghostex#readme"
+          },
+          {
+            "text": "2 Local Remote A acme-web + 214 − 37 Pinned Dark mode tokens Sessions Checkout page redesign 1 2m Checkout test run Fix flaky login test Audit color contrast 1h Parked 1 Upgrade to React 20 2d S api-server + 48 − 12 Sessions Rate limiter for /v2 Postgres index audit 1h Commands ⌘⇧P acme-web / Checkout page redesign Start Open Commit Redesign the checkout page so it fits on one screen on mobile.",
+            "source": "https://github.com/maddada/Ghostex#readme"
+          },
+          {
+            "text": "New chat ⌘N Search ⌘P Sessions Checkout cleanup Retry backoff Pricing page copy Docs: remote setup Login redirect fix Checkout cleanup Why does checkout drop the cart?",
+            "source": "https://github.com/maddada/Ghostex#readme"
+          }
+        ],
+        "movil": [
+          {
+            "text": "Download Ghostex Star on GitHub Watch the video macOS Windows Linux Android iOS checkout.tsx · VS Code import { cart } from \"./cart\" ; export function checkout () { const total = cart.",
+            "source": "https://github.com/maddada/Ghostex#readme"
+          },
+          {
+            "text": "Move Ghostex to its own desktop or workspace so only the wallpaper sits behind it.</sub></p> ## Features <h3 align=\"center\">📱 iOS and Android apps with Easy Connect&nbsp;or&nbsp;Tailscale</h3> <p align=\"center\">Your agents in your pocket.",
+            "source": "https://github.com/maddada/Ghostex#readme"
+          }
+        ],
+        "extensiones": [
+          {
+            "text": "Use @ to mention a file and $ for using skills.",
+            "source": "https://github.com/maddada/Ghostex#readme"
+          },
+          {
+            "text": "Use @ to mention a file and $ for using skills.",
+            "source": "https://github.com/maddada/Ghostex#readme"
+          },
+          {
+            "text": "Opus 5.5 Hover to expand the sessions Hover to expand the chat Tons of powerful plugins.",
+            "source": "https://github.com/maddada/Ghostex#readme"
+          }
+        ],
+        "control": []
+      },
+      "sources": [
+        {
+          "label": "Web oficial",
+          "url": "https://ghostex.dev/",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/maddada/Ghostex",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/maddada/Ghostex#readme",
+          "accessedAt": "2026-11-13"
+        }
+      ],
+      "judged_day": "2026-11-13",
+      "tagline": "Workspace nativo con chat, código y navegador.",
+      "pricing": "free",
+      "priceNote": "Código abierto + tus modelos",
+      "execution": "Local · SSH",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "iOS",
+        "Android"
+      ],
+      "strengths": [
+        "Todo-en-uno: chat, editor, browser",
+        "Orquestación multi-agente",
+        "Open source y móvil"
+      ],
+      "weaknesses": [
+        "Aprobaciones/control poco documentados",
+        "Revisión no es el foco",
+        "Proyecto joven"
+      ],
+      "licenseType": "Open source"
+    },
+    {
+      "slug": "paseo",
+      "name": "Paseo",
+      "repo": "https://github.com/getpaseo/paseo",
+      "website": "https://paseo.sh/",
+      "license": null,
+      "category": "workspace",
+      "summary": "Workspace para acceder a sesiones de agentes de código desde distintos dispositivos, con worktrees, plugins y orquestación.",
+      "features": {
+        "parallel": true,
+        "orchestration": true,
+        "review": true,
+        "remote": true,
+        "mobile": true,
+        "extensions": true,
+        "control": true,
+        "openSource": false,
+        "mature": true
+      },
+      "scores": {
+        "harnesses": 88,
+        "paralelo": 86,
+        "orquestacion": 82,
+        "revision": 76,
+        "remoto": 84,
+        "movil": 88,
+        "extensiones": 80,
+        "control": 65,
+        "abierto": 50,
+        "producto": 80
+      },
+      "total": 79.74,
+      "tier": "A",
+      "harnesses": [
+        "claude code",
+        "codex",
+        "opencode",
+        "cursor",
+        "amp",
+        "copilot"
+      ],
+      "evidence": {
+        "harnesses": [
+          {
+            "text": "Paseo – Run Claude Code, Codex, Copilot, OpenCode from anywhere Paseo Plugins Blog Docs Changelog Download Sponsor EN 23.9k The agentic development environment Run many coding agents at once, on any machine.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          },
+          {
+            "text": "- **Multi-provider:** Claude Code, Codex, Copilot, OpenCode, Pi, Antigravity, and Muse Code through the same interface.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          },
+          {
+            "text": "@jasontorres Can interchange between Codex, Claude Code, Opencode, Pi.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          }
+        ],
+        "paralelo": [
+          {
+            "text": "- **Parallel agents:** Run many agents at once, each in its own worktree.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          },
+          {
+            "text": "[Run parallel tasks in Paseo](https://paseo.sh/docs/parallel-development): start agents in separate worktrees, review their diffs, run each app, and check it in the built-in browser.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          },
+          {
+            "text": "Fork the repo Built for automation Use MCP, the CLI, or the TypeScript SDK to automate Paseo MCP docs CLI docs SDK docs MCP From another agent CLI From the terminal SDK From code Take the open GitHub issues labeled ready and fan them out to separate worktree agents.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          }
+        ],
+        "orquestacion": [
+          {
+            "text": "one simple change transformed my health while INCREASING productivity @amankumarjagdev I have tried 100s of agent orchestrator, cli and gui.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          },
+          {
+            "text": "@ceeebeeebeee without a doubt the most slept on orchestrator right now.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          },
+          {
+            "text": "one simple change transformed my health while INCREASING productivity @amankumarjagdev I have tried 100s of agent orchestrator, cli and gui.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          }
+        ],
+        "revision": [
+          {
+            "text": "Open the desktop app and work: agents, editor, terminals, diffs, pull requests, and a browser in one window.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          },
+          {
+            "text": "- **Complete development workflow:** Edit files, review diffs, open pull requests, and run terminals, in split panes you arrange how you want.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          }
+        ],
+        "remoto": [
+          {
+            "text": "Sponsors Cloud coding agents Become a sponsor Sponsor Paseo Paseo is an independent project used by tens of thousands of developers daily.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          },
+          {
+            "text": "Voice is local-first by default and can optionally use cloud speech providers if you configure them.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          },
+          {
+            "text": "For remote access, you can use the optional end-to-end encrypted relay , connect directly over your local network, or use your own tunnel.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          }
+        ],
+        "movil": [
+          {
+            "text": "The mobile app is the full app, native on iOS and Android.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          },
+          {
+            "text": "- **Cross-device:** iOS, Android, desktop, web, and CLI.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          },
+          {
+            "text": "The native mobile app has full feature parity with desktop.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          }
+        ],
+        "extensiones": [
+          {
+            "text": "Paseo – Run Claude Code, Codex, Copilot, OpenCode from anywhere Paseo Plugins Blog Docs Changelog Download Sponsor EN 23.9k The agentic development environment Run many coding agents at once, on any machine.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          },
+          {
+            "text": "Review queue 3 Retry flaky relay handshake #418 · ana · 12m Group schedules by project #415 · kenji · 1h Add Gruvbox theme #409 · lea · 3h 400+ community plugins Built by developers on the same plugin API your agents use Browse plugins Plugin docs Themes Sidebar Workspaces Providers Orchestration Git Paseo is Apache 2.0.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          },
+          {
+            "text": "Fork the repo Built for automation Use MCP, the CLI, or the TypeScript SDK to automate Paseo MCP docs CLI docs SDK docs MCP From another agent CLI From the terminal SDK From code Take the open GitHub issues labeled ready and fan them out to separate worktree agents.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          }
+        ],
+        "control": [
+          {
+            "text": "- **Agent lifecycle:** change configuration, environment, and MCP servers, answer permissions, follow up when a turn ends.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "Web oficial",
+          "url": "https://paseo.sh/",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/getpaseo/paseo",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/getpaseo/paseo#readme",
+          "accessedAt": "2026-11-13"
+        }
+      ],
+      "judged_day": "2026-11-13",
+      "tagline": "Tus sesiones de agentes, desde cualquier sitio.",
+      "pricing": "free",
+      "priceNote": "Código abierto + tus modelos",
+      "execution": "Local · Self-hosted",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "strengths": [
+        "Móvil y acceso entre dispositivos",
+        "Plugins y worktrees",
+        "Open source"
+      ],
+      "weaknesses": [
+        "Revisión y PRs no son el foco",
+        "SSH no verificado",
+        "Orquestación más de sesiones que de tareas"
+      ],
+      "licenseType": "No verificada"
+    },
+    {
+      "slug": "jean",
+      "name": "Jean",
+      "repo": "https://github.com/coollabsio/jean",
+      "website": "https://jean.build/",
+      "license": "Apache-2.0",
+      "category": "workspace",
+      "summary": "Workspace open source para agentes de código, worktrees, MCP y entrega con GitHub, con acceso local, SSH o servidor propio.",
+      "features": {
+        "parallel": true,
+        "orchestration": true,
+        "review": true,
+        "remote": true,
+        "mobile": true,
+        "extensions": true,
+        "control": true,
+        "openSource": true,
+        "mature": true
+      },
+      "scores": {
+        "harnesses": 86,
+        "paralelo": 84,
+        "orquestacion": 78,
+        "revision": 80,
+        "remoto": 84,
+        "movil": 80,
+        "extensiones": 65,
+        "control": 65,
+        "abierto": 90,
+        "producto": 78
+      },
+      "total": 79.44,
+      "tier": "A",
+      "harnesses": [
+        "claude code",
+        "codex",
+        "opencode",
+        "cursor",
+        "grok"
+      ],
+      "evidence": {
+        "harnesses": [
+          {
+            "text": "issue #1234 or a prompt Jean pick any backend Claude Codex OpenCode Cursor Pi Command Code Grok Kimi Code Local · Remote · Web Local and remote, in one sidebar .",
+            "source": "https://github.com/coollabsio/jean#readme"
+          },
+          {
+            "text": "Jean is an open-source AI assistant that helps you manage multiple projects, worktrees, and sessions with Claude CLI, Codex CLI, OpenCode, Cursor, Pi, Command Code, Grok, and Kimi Code.",
+            "source": "https://github.com/coollabsio/jean#readme"
+          },
+          {
+            "text": "Jean supports Claude CLI, Codex CLI, OpenCode, Cursor, Pi, Command Code, Grok, and Kimi Code.",
+            "source": "https://github.com/coollabsio/jean#readme"
+          }
+        ],
+        "paralelo": [
+          {
+            "text": "Run Claude, Codex, Cursor, OpenCode, Pi, Command Code, Grok, Kimi Code, Antigravity, and Muse in parallel - each in its own git worktree - on your laptop or your own server.",
+            "source": "https://github.com/coollabsio/jean#readme"
+          },
+          {
+            "text": "It has strong opinions about how AI-assisted development should work: every task gets its own git worktree, agents run in parallel, and git work, reviews, terminals, and GitHub, Linear, and Sentry integrations live in one cohesive workflow.",
+            "source": "https://github.com/coollabsio/jean#readme"
+          },
+          {
+            "text": "Git worktrees, chat sessions, terminals, and GitHub & Linear integrations in one cohesive workflow.",
+            "source": "https://github.com/coollabsio/jean#readme"
+          }
+        ],
+        "orquestacion": [],
+        "revision": [
+          {
+            "text": "One project, many isolated worktrees: issues, pull requests and manual tasks, with diff size, PR status and your own labels.",
+            "source": "https://github.com/coollabsio/jean#readme"
+          }
+        ],
+        "remoto": [
+          {
+            "text": "Many servers - add as many remotes as you want, or install one over SSH from the app.",
+            "source": "https://github.com/coollabsio/jean#readme"
+          },
+          {
+            "text": "Add it in the desktop app under Connections → Add remote (or let Jean install it over SSH): its projects appear in the same sidebar as your local ones, grouped by server.",
+            "source": "https://github.com/coollabsio/jean#readme"
+          },
+          {
+            "text": "Click **Add remote** and either: - **Install via SSH** - enter SSH user, host/IP, and ports; Jean installs `jean-server` on that machine for you, or - **Existing URL** - paste the Web Access URL and access token 3.",
+            "source": "https://github.com/coollabsio/jean#readme"
+          }
+        ],
+        "movil": [],
+        "extensiones": [],
+        "control": []
+      },
+      "sources": [
+        {
+          "label": "Web oficial",
+          "url": "https://jean.build/",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/coollabsio/jean",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/coollabsio/jean#readme",
+          "accessedAt": "2026-11-13"
+        }
+      ],
+      "judged_day": "2026-11-13",
+      "tagline": "Un entorno de agentes local o self-hosted.",
+      "pricing": "free",
+      "priceNote": "Código abierto + tus modelos",
+      "execution": "Local · SSH · Self-hosted",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "strengths": [
+        "Local, SSH o self-hosted",
+        "Worktrees y PRs",
+        "Open source"
+      ],
+      "weaknesses": [
+        "Sin foco en orquestación multi-agente",
+        "Extensiones limitadas",
+        "Menos adopción"
+      ],
+      "licenseType": "Open source"
+    },
+    {
+      "slug": "openchamber",
+      "name": "OpenChamber",
+      "repo": "https://github.com/openchamber/openchamber",
+      "website": "https://openchamber.dev/",
+      "license": "MIT",
+      "category": "workspace",
+      "summary": "Entorno de desarrollo agéntico open source con sesiones, extensiones, revisión y acceso remoto para varios agentes.",
+      "features": {
+        "parallel": true,
+        "orchestration": false,
+        "review": true,
+        "remote": true,
+        "mobile": true,
+        "extensions": true,
+        "control": true,
+        "openSource": true,
+        "mature": true
+      },
+      "scores": {
+        "harnesses": 84,
+        "paralelo": 82,
+        "orquestacion": 72,
+        "revision": 76,
+        "remoto": 80,
+        "movil": 80,
+        "extensiones": 78,
+        "control": 65,
+        "abierto": 90,
+        "producto": 76
+      },
+      "total": 78.42,
+      "tier": "A",
+      "harnesses": [
+        "codex",
+        "gemini",
+        "opencode",
+        "amp",
+        "grok"
+      ],
+      "evidence": {
+        "harnesses": [
+          {
+            "text": "Local Current Local • Default Local Local Current Connected · 7ms ping http://127.0.0.1:63418/ exe.dev Current Connected · 809ms ping · Relay via OpenChamber Relay DevChamber Current Auth required https://devchamber.example.com/ Add instance Sidebar sections New section Pages Chats Pinned Also in projects In work Also in projects Projects Drag to reorder.",
+            "source": "https://github.com/openchamber/openchamber#readme"
+          },
+          {
+            "text": "Gemini 4 Argon · Build · 2m 31s Add the new install command to the docs.",
+            "source": "https://github.com/openchamber/openchamber#readme"
+          },
+          {
+            "text": "Gemini 4 Argon · Build · 58s What are we working on in uploader ?",
+            "source": "https://github.com/openchamber/openchamber#readme"
+          }
+        ],
+        "paralelo": [
+          {
+            "text": "push (...chunks); 13 void drain (); 14 } 15 16 async function drain () { 17 while (running < MAX_PARALLEL && queue.length > 0 ) { 18 const chunk = queue.",
+            "source": "https://github.com/openchamber/openchamber#readme"
+          },
+          {
+            "text": "### Compare and combine runs Use **Multi-run** to give the same task to up to five models, each in its own session and optionally its own worktree.",
+            "source": "https://github.com/openchamber/openchamber#readme"
+          }
+        ],
+        "orquestacion": [],
+        "revision": [
+          {
+            "text": "Kimi K3.1 Pro · Build · 3m 18s Review the login pull request.",
+            "source": "https://github.com/openchamber/openchamber#readme"
+          },
+          {
+            "text": "The fixes you chose are in, each with a test, and anything you put off stays as a comment on the pull request.",
+            "source": "https://github.com/openchamber/openchamber#readme"
+          },
+          {
+            "text": "Nothing changed, and the findings stay as comments on the pull request.",
+            "source": "https://github.com/openchamber/openchamber#readme"
+          }
+        ],
+        "remoto": [
+          {
+            "text": "Direct connections, LAN/VPN access, Cloudflare/Ngrok tunnels, and SSH are also supported.",
+            "source": "https://github.com/openchamber/openchamber#readme"
+          },
+          {
+            "text": "### Private remote access Pair a device with a one-time QR code and connect through **Private Relay** without opening ports or exposing a public server.",
+            "source": "https://github.com/openchamber/openchamber#readme"
+          }
+        ],
+        "movil": [
+          {
+            "text": "### Continue on another device Open the same projects and sessions from Desktop, Web/PWA, VS Code, iOS, or Android.",
+            "source": "https://github.com/openchamber/openchamber#readme"
+          },
+          {
+            "text": "### iOS and Android Join the iOS beta on [TestFlight](https://testflight.apple.com/join/5ek6GU1E).",
+            "source": "https://github.com/openchamber/openchamber#readme"
+          },
+          {
+            "text": "For Android, download the `.apk` from the [Canary release](https://github.com/openchamber/openchamber/releases/tag/canary).",
+            "source": "https://github.com/openchamber/openchamber#readme"
+          }
+        ],
+        "extensiones": [],
+        "control": [
+          {
+            "text": "Permission required bash Run a command bun run migrate:settings Deny Always allow Allow once uploader main No projects found.",
+            "source": "https://github.com/openchamber/openchamber#readme"
+          },
+          {
+            "text": "### Track work across projects See which sessions are working, waiting, finished, or failed, along with approvals, scheduled tasks, provider limits, token use, and costs.",
+            "source": "https://github.com/openchamber/openchamber#readme"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "Web oficial",
+          "url": "https://openchamber.dev/",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/openchamber/openchamber",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/openchamber/openchamber#readme",
+          "accessedAt": "2026-11-13"
+        }
+      ],
+      "judged_day": "2026-11-13",
+      "tagline": "ADE open source para agentes de código.",
+      "pricing": "free",
+      "priceNote": "Código abierto + tus modelos",
+      "execution": "Local · Remote",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "strengths": [
+        "Open source y multiplataforma",
+        "Extensiones y acceso remoto",
+        "Buena adopción"
+      ],
+      "weaknesses": [
+        "Orquestación menos profunda",
+        "Control/aprobaciones básicos",
+        "Ecosistema joven"
+      ],
+      "licenseType": "Open source"
+    },
+    {
+      "slug": "traycer",
+      "name": "Traycer",
+      "repo": "https://github.com/traycerai/traycer",
+      "website": "https://traycer.ai/",
+      "license": "MIT",
+      "category": "planning",
+      "summary": "Workspace de planificación y revisión: convierte una tarea en un plan, lo reparte entre agentes y revisa los cambios y PRs.",
+      "features": {
+        "parallel": true,
+        "orchestration": true,
+        "review": false,
+        "remote": true,
+        "mobile": true,
+        "extensions": true,
+        "control": true,
+        "openSource": true,
+        "mature": true
+      },
+      "scores": {
+        "harnesses": 88,
+        "paralelo": 86,
+        "orquestacion": 90,
+        "revision": 88,
+        "remoto": 60,
+        "movil": 70,
+        "extensiones": 75,
+        "control": 72,
+        "abierto": 40,
+        "producto": 85
+      },
+      "total": 78.42,
+      "tier": "A",
+      "harnesses": [
+        "claude code",
+        "codex",
+        "gemini",
+        "opencode",
+        "cursor",
+        "amp",
+        "devin",
+        "windsurf",
+        "copilot",
+        "grok",
+        "qwen"
+      ],
+      "evidence": {
+        "harnesses": [
+          {
+            "text": "Coding agents: Claude Code, Codex, OpenCode, Cursor, Grok, Qwen Code, Kiro, Droid, Kimi, Copilot, Kilo Code, Amp, Devin, Pi, Hermes Agent, Oh My Pi, Reasonix, Antigravity, and Command Code.",
+            "source": "https://github.com/traycerai/traycer#readme"
+          },
+          {
+            "text": "Traycer: Run Claude Code, Codex & Cursor in Parallel Software Factory Enterprise Pricing Roadmap Resources Download Documentation Blog Compare About 1.4k Login Download The software factory is coming Join the waitlist Gemini Carbon Launch · $ 100 : 2 days.",
+            "source": "https://github.com/traycerai/traycer#readme"
+          },
+          {
+            "text": "Claude code, Augment code, Cursor, Windsurf, Cline, Codex CLI, and a few more other tools!",
+            "source": "https://github.com/traycerai/traycer#readme"
+          }
+        ],
+        "paralelo": [
+          {
+            "text": "Traycer: Run Claude Code, Codex & Cursor in Parallel Software Factory Enterprise Pricing Roadmap Resources Download Documentation Blog Compare About 1.4k Login Download The software factory is coming Join the waitlist Gemini Carbon Launch · $ 100 : 2 days.",
+            "source": "https://github.com/traycerai/traycer#readme"
+          },
+          {
+            "text": "Agents worktrees protocol Continuity Shared Context , Any Model Every Task has its own shared filesystem, artifacts, history, and working context.",
+            "source": "https://github.com/traycerai/traycer#readme"
+          },
+          {
+            "text": "It is a shared workspace where coding agents run side by side, each in its own worktree, with shared specs and tickets, and agents that message each other.",
+            "source": "https://github.com/traycerai/traycer#readme"
+          }
+        ],
+        "orquestacion": [
+          {
+            "text": "Claude Codex Gemini Local runtimes + custom Orchestration Agent- 2 -Agent communication Agents can talk to each other like they have walkie-talkies: ask questions, request reviews, and hand off work across separate chats.",
+            "source": "https://github.com/traycerai/traycer#readme"
+          },
+          {
+            "text": "Teammates can inspect tasks, comment on artifacts, and steer work without rebuilding context.",
+            "source": "https://github.com/traycerai/traycer#readme"
+          },
+          {
+            "text": "Switch models instantly within the same agent, orchestrate agent-to-agent communication, and collaborate in real time.",
+            "source": "https://github.com/traycerai/traycer#readme"
+          }
+        ],
+        "revision": [],
+        "remoto": [
+          {
+            "text": "Traycer is free for individuals, including cloud sync and switching devices.",
+            "source": "https://github.com/traycerai/traycer#readme"
+          },
+          {
+            "text": "Running models through Traycer is paid with Traycer Credits, billed by use, and cloud sandboxes cost extra.",
+            "source": "https://github.com/traycerai/traycer#readme"
+          },
+          {
+            "text": "Individuals stay on Free, including cloud sync and device switching.",
+            "source": "https://github.com/traycerai/traycer#readme"
+          }
+        ],
+        "movil": [
+          {
+            "text": "Download Download for macOS Download for Windows Download for Linux Get the mobile app Download Download for macOS Download for Windows Download for Linux Get the mobile app Play the demo (loads YouTube) TRUSTED BY ENGINEERS AT Flexibility Bring your own Subscription Use the coding agents you already pay for.",
+            "source": "https://github.com/traycerai/traycer#readme"
+          },
+          {
+            "text": "Download Download for macOS Download for Windows Download for Linux Get the mobile app Download Download for macOS Download for Windows Download for Linux Get the mobile app Open-source agent development environment for Claude Code, Codex, Cursor and more.",
+            "source": "https://github.com/traycerai/traycer#readme"
+          }
+        ],
+        "extensiones": [
+          {
+            "text": "Decision history Specs Memory Workflow Built-In Skills Traycer ships with reusable workflows for planning, debugging, reviewing, debating, documenting, and breaking work into tickets.",
+            "source": "https://github.com/traycerai/traycer#readme"
+          }
+        ],
+        "control": [
+          {
+            "text": "\" Sathwikkuncham , Senior Engineer \" Traycer delivers a practical solution for AI-driven coding challenges by breaking down high-level intents into manageable tasks and implementing structured guardrails for quality control.",
+            "source": "https://github.com/traycerai/traycer#readme"
+          },
+          {
+            "text": "\" Christoph CEO of Athlea \" Traycer delivers a practical solution for AI-driven coding challenges by breaking down high-level intents into manageable tasks and implementing structured guardrails for quality control.",
+            "source": "https://github.com/traycerai/traycer#readme"
+          },
+          {
+            "text": "\" Christoph CEO of Athlea \" Traycer delivers a practical solution for AI-driven coding challenges by breaking down high-level intents into manageable tasks and implementing structured guardrails for quality control.",
+            "source": "https://github.com/traycerai/traycer#readme"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "Web oficial",
+          "url": "https://traycer.ai/",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/traycerai/traycer",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/traycerai/traycer#readme",
+          "accessedAt": "2026-11-13"
+        }
+      ],
+      "judged_day": "2026-11-13",
+      "tagline": "Planifica, delega y revisa con agentes.",
+      "pricing": "freemium",
+      "priceNote": "Free BYOA; Sync US$20/mes",
+      "execution": "Local",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "strengths": [
+        "Planificación y delegación muy fuertes",
+        "Revisión y PRs",
+        "Multi-harness"
+      ],
+      "weaknesses": [
+        "Cerrado",
+        "No es un entorno de ejecución remota",
+        "El plan free es limitado"
+      ],
+      "licenseType": "Open source"
+    },
+    {
+      "slug": "cmux",
+      "name": "cmux",
+      "repo": "https://github.com/manaflow-ai/cmux",
+      "website": "https://cmux.com/",
+      "license": null,
+      "category": "terminal",
+      "summary": "Terminal nativa para correr varios agentes y sesiones en paralelo, con worktrees, notificaciones y acceso desde el móvil.",
+      "features": {
+        "parallel": true,
+        "orchestration": true,
+        "review": true,
+        "remote": true,
+        "mobile": true,
+        "extensions": true,
+        "control": true,
+        "openSource": false,
+        "mature": true
+      },
+      "scores": {
+        "harnesses": 85,
+        "paralelo": 84,
+        "orquestacion": 78,
+        "revision": 70,
+        "remoto": 80,
+        "movil": 84,
+        "extensiones": 72,
+        "control": 65,
+        "abierto": 80,
+        "producto": 82
+      },
+      "total": 78.27,
+      "tier": "A",
+      "harnesses": [
+        "claude code",
+        "codex",
+        "gemini",
+        "opencode",
+        "cursor",
+        "amp",
+        "aider",
+        "copilot",
+        "grok"
+      ],
+      "evidence": {
+        "harnesses": [
+          {
+            "text": "Supported resume integrations include Claude Code, Codex, Grok, OpenCode, Pi, Amp, Cursor CLI, Gemini, Rovo Dev, Copilot, CodeBuddy, Factory, and Qoder.",
+            "source": "https://github.com/manaflow-ai/cmux#readme"
+          },
+          {
+            "text": "cmux is a terminal, so any agent that runs in a terminal works out of the box: Claude Code, Codex, OpenCode, Gemini CLI, Kiro, Aider, Goose, Amp, Cline, Cursor Agent, and anything else you can launch from the command line.",
+            "source": "https://github.com/manaflow-ai/cmux#readme"
+          },
+          {
+            "text": "cmux is a terminal, so any agent that runs in a terminal works out of the box: Claude Code, Codex, OpenCode, Gemini CLI, Kiro, Aider, Goose, Amp, Cline, Cursor Agent, and anything else you can launch from the command line.",
+            "source": "https://github.com/manaflow-ai/cmux#readme"
+          }
+        ],
+        "paralelo": [
+          {
+            "text": "\" — dchu17 \" I like it, ran it in the past day on three parallel projects each with several worktrees.",
+            "source": "https://github.com/manaflow-ai/cmux#readme"
+          },
+          {
+            "text": "The notifications, workspaces, and shortcuts improve efficiency when running multiple jobs in parallel.",
+            "source": "https://github.com/manaflow-ai/cmux#readme"
+          },
+          {
+            "text": "I run a lot of Claude Code and Codex sessions in parallel.",
+            "source": "https://github.com/manaflow-ai/cmux#readme"
+          }
+        ],
+        "orquestacion": [
+          {
+            "text": "Can cmux orchestrate multiple agents and subagents?",
+            "source": "https://github.com/manaflow-ai/cmux#readme"
+          },
+          {
+            "text": "When an agent spawns subagents or teammates, cmux turns them into native panes and splits instead of hidden background processes.",
+            "source": "https://github.com/manaflow-ai/cmux#readme"
+          },
+          {
+            "text": "It supports Claude Code teams and oh-my-opencode multi-model orchestration, so every agent in a run is visible and controllable.",
+            "source": "https://github.com/manaflow-ai/cmux#readme"
+          }
+        ],
+        "revision": [
+          {
+            "text": "Open an issue or pull request on GitHub, or email us .",
+            "source": "https://github.com/manaflow-ai/cmux#readme"
+          },
+          {
+            "text": "Open an [issue](https://github.com/manaflow-ai/cmux/issues) or [pull request](https://github.com/manaflow-ai/cmux/pulls) on GitHub, or [email us](mailto:founders@cmux.com?subject=cmux%20feature%20request).",
+            "source": "https://github.com/manaflow-ai/cmux#readme"
+          },
+          {
+            "text": "[Start here](docs/start-here.md) is the short path from \"I want to change something\" to a merged pull request, including what you can fix without a Mac.",
+            "source": "https://github.com/manaflow-ai/cmux#readme"
+          }
+        ],
+        "remoto": [
+          {
+            "text": "Open workspaces over SSH and attach to remote tmux sessions, so agents can run on a remote host while you drive them from cmux.",
+            "source": "https://github.com/manaflow-ai/cmux#readme"
+          },
+          {
+            "text": "That said, lots of people happily run cmux with SSH and tmux together, and cmux can attach to your remote tmux sessions natively ( beta ).",
+            "source": "https://github.com/manaflow-ai/cmux#readme"
+          },
+          {
+            "text": "</td> <td width=\"60%\"> <img src=\"./docs/assets/vertical-horizontal-tabs-and-splits.png\" alt=\"Vertical tabs and split panes\" width=\"100%\" /> </td> </tr> <tr> <td width=\"40%\" valign=\"middle\"> <h3>SSH</h3> <code>cmux ssh user@remote</code> creates a workspace for a remote machine.",
+            "source": "https://github.com/manaflow-ai/cmux#readme"
+          }
+        ],
+        "movil": [
+          {
+            "text": "Pair your iPhone with your Mac from the Mobile Connect window and attach to your terminals from your phone, with optional forwarding of terminal notifications.",
+            "source": "https://github.com/manaflow-ai/cmux#readme"
+          },
+          {
+            "text": "If you want to back development and get early access to what's next, including cmux AI, the iOS app, and Cloud VMs, check out cmux Pro .",
+            "source": "https://github.com/manaflow-ai/cmux#readme"
+          },
+          {
+            "text": "Pair your iPhone with your Mac from the Mobile Connect window and attach to your terminals from your phone, with optional forwarding of terminal notifications.",
+            "source": "https://github.com/manaflow-ai/cmux#readme"
+          }
+        ],
+        "extensiones": [
+          {
+            "text": "Skills are reusable workflows you can give any agent running in cmux, for things like CLI control, workspace automation, settings, and browser surfaces.",
+            "source": "https://github.com/manaflow-ai/cmux#readme"
+          },
+          {
+            "text": "Browse the open collection at cmux-skills , or read the skills docs .",
+            "source": "https://github.com/manaflow-ai/cmux#readme"
+          },
+          {
+            "text": "Mix that with skills to have Claude watch CI recursively, etc.",
+            "source": "https://github.com/manaflow-ai/cmux#readme"
+          }
+        ],
+        "control": [
+          {
+            "text": "Review or edit approvals in **Settings > Terminal > Resume Commands**.",
+            "source": "https://github.com/manaflow-ai/cmux#readme"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "Web oficial",
+          "url": "https://cmux.com/",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/manaflow-ai/cmux",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/manaflow-ai/cmux#readme",
+          "accessedAt": "2026-11-13"
+        }
+      ],
+      "judged_day": "2026-11-13",
+      "tagline": "La terminal para multitasking con agentes.",
+      "pricing": "freemium",
+      "priceNote": "Plan free; precio Pro no verificado",
+      "execution": "Local · Remote",
+      "platforms": [
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "strengths": [
+        "Multitasking de terminal muy pulido",
+        "Móvil y notificaciones",
+        "Muchos harnesses"
+      ],
+      "weaknesses": [
+        "Licencia no verificada",
+        "Revisión y PRs no son el foco",
+        "Más terminal que IDE"
+      ],
+      "licenseType": "No verificada"
+    },
+    {
+      "slug": "cloudroom",
+      "name": "Cloudroom",
+      "repo": "https://github.com/davidondrej/cloudroom",
+      "website": "https://www.cloudroom.dev/",
+      "license": "Apache-2.0",
+      "category": "workspace",
+      "summary": "Workspace open source para correr agentes de código en la nube, con revisión de cambios y ejecución remota.",
+      "features": {
+        "parallel": false,
+        "orchestration": false,
+        "review": true,
+        "remote": true,
+        "mobile": false,
+        "extensions": true,
+        "control": true,
+        "openSource": true,
+        "mature": true
+      },
+      "scores": {
+        "harnesses": 86,
+        "paralelo": 80,
+        "orquestacion": 70,
+        "revision": 78,
+        "remoto": 88,
+        "movil": 60,
+        "extensiones": 70,
+        "control": 70,
+        "abierto": 90,
+        "producto": 75
+      },
+      "total": 77.56,
+      "tier": "A",
+      "harnesses": [
+        "claude code",
+        "codex",
+        "gemini",
+        "opencode",
+        "cursor",
+        "amp",
+        "devin",
+        "copilot",
+        "grok"
+      ],
+      "evidence": {
+        "harnesses": [
+          {
+            "text": "Local threads run Claude Code, Codex, Pi Agent, and any ACP agent, such as Cursor, OpenCode, Grok, Hermes, Devin, and Droid.",
+            "source": "https://github.com/davidondrej/cloudroom#readme"
+          },
+          {
+            "text": "Cloud threads run 10: Claude Code, Codex, Pi Agent, Cursor, OpenCode, fx, Hermes, Devin, Droid, and OpenClaw.",
+            "source": "https://github.com/davidondrej/cloudroom#readme"
+          },
+          {
+            "text": "Runs Claude Code, Codex, Cursor and OpenCode, in the cloud on Pro ($50/mo).",
+            "source": "https://github.com/davidondrej/cloudroom#readme"
+          }
+        ],
+        "paralelo": [],
+        "orquestacion": [],
+        "revision": [
+          {
+            "text": "## Contributing Issues and pull requests are welcome.",
+            "source": "https://github.com/davidondrej/cloudroom#readme"
+          }
+        ],
+        "remoto": [
+          {
+            "text": "Remote work uses your own server over SSH.",
+            "source": "https://github.com/davidondrej/cloudroom#readme"
+          },
+          {
+            "text": "Remote work needs your own server over SSH.",
+            "source": "https://github.com/davidondrej/cloudroom#readme"
+          },
+          {
+            "text": "Remote work needs your own server over SSH.",
+            "source": "https://github.com/davidondrej/cloudroom#readme"
+          }
+        ],
+        "movil": [],
+        "extensiones": [
+          {
+            "text": "- [`skills/`](skills/): the skills every Cloudroom agent ships with.",
+            "source": "https://github.com/davidondrej/cloudroom#readme"
+          }
+        ],
+        "control": [
+          {
+            "text": "Every agent runs in its own isolated sandbox.",
+            "source": "https://github.com/davidondrej/cloudroom#readme"
+          },
+          {
+            "text": "Cloudroom is a platform for running AI coding agents in the cloud, each in its own sandbox.",
+            "source": "https://github.com/davidondrej/cloudroom#readme"
+          },
+          {
+            "text": "Each agent runs in its own isolated sandbox.",
+            "source": "https://github.com/davidondrej/cloudroom#readme"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "Web oficial",
+          "url": "https://www.cloudroom.dev/",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/davidondrej/cloudroom",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/davidondrej/cloudroom#readme",
+          "accessedAt": "2026-11-13"
+        }
+      ],
+      "judged_day": "2026-11-13",
+      "tagline": "Agentes cloud open source.",
+      "pricing": "free",
+      "priceNote": "Código abierto + tus modelos",
+      "execution": "Local · Cloud",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "strengths": [
+        "Cloud open source",
+        "Revisión de cambios",
+        "Multi-harness"
+      ],
+      "weaknesses": [
+        "Sin móvil",
+        "Orquestación limitada",
+        "Menos maduro"
+      ],
+      "licenseType": "Open source"
+    },
+    {
+      "slug": "codex-app",
+      "name": "Codex app",
+      "repo": "https://github.com/openai/openai-cookbook",
+      "website": "https://developers.openai.com/codex/app/",
+      "license": null,
+      "category": "ide",
+      "summary": "App de escritorio de OpenAI para trabajar con Codex, sesiones y revisión de cambios. Está atada al ecosistema Codex/OpenAI.",
+      "features": {
+        "parallel": true,
+        "orchestration": true,
+        "review": true,
+        "remote": true,
+        "mobile": true,
+        "extensions": true,
+        "control": true,
+        "openSource": true,
+        "mature": true
+      },
+      "scores": {
+        "harnesses": 55,
+        "paralelo": 82,
+        "orquestacion": 80,
+        "revision": 86,
+        "remoto": 86,
+        "movil": 82,
+        "extensiones": 78,
+        "control": 80,
+        "abierto": 40,
+        "producto": 92
+      },
+      "total": 76.11,
+      "tier": "A",
+      "harnesses": [
+        "Codex"
+      ],
+      "evidence": {
+        "harnesses": [
+          {
+            "text": "Learn about chats and projects 4 Send your first message Choose ChatGPT or Codex.",
+            "source": "https://github.com/openai/openai-cookbook#readme"
+          },
+          {
+            "text": "Other ChatGPT and Codex surfaces ChatGPT web Research, analyze, and create from your browser.",
+            "source": "https://github.com/openai/openai-cookbook#readme"
+          },
+          {
+            "text": "Codex CLI Inspect, edit, and automate from the terminal.",
+            "source": "https://github.com/openai/openai-cookbook#readme"
+          }
+        ],
+        "paralelo": [
+          {
+            "text": "Video quality Auto 1080p 720p 480p Use the ChatGPT desktop app when… Coordinate several projects Keep parallel work visible and move between chats quickly.",
+            "source": "https://github.com/openai/openai-cookbook#readme"
+          },
+          {
+            "text": "Codex Cloud Run coding tasks in parallel cloud environments.",
+            "source": "https://github.com/openai/openai-cookbook#readme"
+          }
+        ],
+        "orquestacion": [],
+        "revision": [],
+        "remoto": [
+          {
+            "text": "Codex Cloud Run coding tasks in parallel cloud environments.",
+            "source": "https://github.com/openai/openai-cookbook#readme"
+          }
+        ],
+        "movil": [],
+        "extensiones": [
+          {
+            "text": "03 Work across your tools Use the browser, desktop apps, and plugins, or schedule a task inside a chat.",
+            "source": "https://github.com/openai/openai-cookbook#readme"
+          }
+        ],
+        "control": []
+      },
+      "sources": [
+        {
+          "label": "Web oficial",
+          "url": "https://developers.openai.com/codex/app/",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/openai/openai-cookbook",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/openai/openai-cookbook#readme",
+          "accessedAt": "2026-11-13"
+        }
+      ],
+      "judged_day": "2026-11-13",
+      "tagline": "La app de Codex para trabajar con agentes.",
+      "pricing": "paid",
+      "priceNote": "Incluida en planes de ChatGPT/Codex",
+      "execution": "Local · Cloud",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "iOS",
+        "Android"
+      ],
+      "strengths": [
+        "Integración profunda con Codex",
+        "Revisión y sesiones cuidadas",
+        "App de escritorio y móvil"
+      ],
+      "weaknesses": [
+        "Cerrada y atada a OpenAI",
+        "Poco multi-harness real",
+        "No es self-hosted"
+      ],
+      "licenseType": "Comercial"
+    },
+    {
+      "slug": "tortie",
+      "name": "Tortie",
+      "repo": "https://github.com/gregce/tortie",
+      "website": "https://tortie.sh/",
+      "license": "Apache-2.0",
+      "category": "workspace",
+      "summary": "Workspace con múltiples agentes, multiplexación de sesiones, skills y companion para iPhone.",
+      "features": {
+        "parallel": false,
+        "orchestration": true,
+        "review": false,
+        "remote": true,
+        "mobile": true,
+        "extensions": true,
+        "control": true,
+        "openSource": true,
+        "mature": true
+      },
+      "scores": {
+        "harnesses": 80,
+        "paralelo": 70,
+        "orquestacion": 80,
+        "revision": 65,
+        "remoto": 78,
+        "movil": 82,
+        "extensiones": 65,
+        "control": 62,
+        "abierto": 90,
+        "producto": 70
+      },
+      "total": 73.68,
+      "tier": "A",
+      "harnesses": [
+        "claude code",
+        "codex",
+        "gemini",
+        "opencode",
+        "cursor",
+        "grok",
+        "qwen"
+      ],
+      "evidence": {
+        "harnesses": [
+          {
+            "text": "- **Answer with a tap.** A numbered question from Claude Code or Codex gets one button per answer, and you can send an idle session a message as if you had typed it at your Mac.",
+            "source": "https://github.com/gregce/tortie#readme"
+          }
+        ],
+        "paralelo": [],
+        "orquestacion": [
+          {
+            "text": "Several at once Usually one ← Back ↻ Start over Tortie Agent multiplexer Code IDE Editor-first workflow Agent orchestrator Delegate and review Each result is a link.",
+            "source": "https://github.com/gregce/tortie#readme"
+          }
+        ],
+        "revision": [],
+        "remoto": [
+          {
+            "text": "The machine needs ssh, and on a Mac, Remote Login turned on.",
+            "source": "https://github.com/gregce/tortie#readme"
+          },
+          {
+            "text": "### Remote machines - **Open a folder on another computer as a project tab.** Pick the machine from your tailnet or type its address in Settings, and Tortie signs in, finds tmux and sets the machine up with one Add.",
+            "source": "https://github.com/gregce/tortie#readme"
+          },
+          {
+            "text": "Tortie never writes in a home folder itself or inside `.git` or `.ssh`.",
+            "source": "https://github.com/gregce/tortie#readme"
+          }
+        ],
+        "movil": [
+          {
+            "text": "You need an Apple silicon Mac running Tortie 0.111.1 or later, awake with Tortie open, with [Tailscale](https://tailscale.com) signed in, and an iPhone on iOS 18.1 or later.",
+            "source": "https://github.com/gregce/tortie#readme"
+          },
+          {
+            "text": "Download for macOS macOS 15.7.9 or later · Apple silicon Get the iPhone beta Click to try it.",
+            "source": "https://github.com/gregce/tortie#readme"
+          },
+          {
+            "text": "## Tortie for iPhone (beta) Your sessions keep running on your Mac.",
+            "source": "https://github.com/gregce/tortie#readme"
+          }
+        ],
+        "extensiones": [
+          {
+            "text": "- **Context for every agent.** See each agent's skills, MCP servers, hooks, plugins and instruction files, and install skills through Skills.sh.",
+            "source": "https://github.com/gregce/tortie#readme"
+          },
+          {
+            "text": "- [skills.sh](https://skills.sh) installs and manages the skills behind the Context view.",
+            "source": "https://github.com/gregce/tortie#readme"
+          }
+        ],
+        "control": [
+          {
+            "text": "Untrusted pages open in a sandboxed frame with no scripts and no network.",
+            "source": "https://github.com/gregce/tortie#readme"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "Web oficial",
+          "url": "https://tortie.sh/",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/gregce/tortie",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/gregce/tortie#readme",
+          "accessedAt": "2026-11-13"
+        }
+      ],
+      "judged_day": "2026-11-13",
+      "tagline": "Una ventana para todos tus agentes.",
+      "pricing": "free",
+      "priceNote": "Código abierto + tus modelos",
+      "execution": "Local · SSH",
+      "platforms": [
+        "macOS",
+        "iOS"
+      ],
+      "strengths": [
+        "Companion iPhone",
+        "Skills y contexto",
+        "Open source"
+      ],
+      "weaknesses": [
+        "Sin paralelismo/worktrees fuerte",
+        "Revisión y PRs limitados",
+        "Proyecto pequeño"
+      ],
+      "licenseType": "Open source"
+    },
+    {
+      "slug": "sidecar",
+      "name": "Sidecar",
+      "repo": "https://github.com/marcus/sidecar",
+      "website": "https://sidecar.haplab.com/",
+      "license": "MIT",
+      "category": "terminal",
+      "summary": "Terminal workspace para sesiones de agentes, hosts remotos y entrega con Git; broadcasting de agentes detrás de un flag.",
+      "features": {
+        "parallel": true,
+        "orchestration": true,
+        "review": true,
+        "remote": true,
+        "mobile": false,
+        "extensions": true,
+        "control": true,
+        "openSource": true,
+        "mature": true
+      },
+      "scores": {
+        "harnesses": 82,
+        "paralelo": 80,
+        "orquestacion": 65,
+        "revision": 72,
+        "remoto": 84,
+        "movil": 50,
+        "extensiones": 60,
+        "control": 60,
+        "abierto": 90,
+        "producto": 68
+      },
+      "total": 72.42,
+      "tier": "A",
+      "harnesses": [
+        "claude code",
+        "codex",
+        "gemini",
+        "opencode",
+        "cursor",
+        "amp",
+        "copilot",
+        "grok"
+      ],
+      "evidence": {
+        "harnesses": [
+          {
+            "text": "Active tabs, cursor position, and scrollback are remembered per project.",
+            "source": "https://github.com/marcus/sidecar#readme"
+          },
+          {
+            "text": "State (active plugin, cursor positions) is remembered per project.",
+            "source": "https://github.com/marcus/sidecar#readme"
+          }
+        ],
+        "paralelo": [
+          {
+            "text": "worktrees Parallel feature development with isolated git worktrees Develop multiple features simultaneously with complete isolation.",
+            "source": "https://github.com/marcus/sidecar#readme"
+          },
+          {
+            "text": "Merge Each feature develops in an isolated git worktree.",
+            "source": "https://github.com/marcus/sidecar#readme"
+          },
+          {
+            "text": "It gathers agent shells, git worktrees, and project status across all your repositories in one place, sorted by recent activity so you always know what is running, what is complete, and what needs your attention.",
+            "source": "https://github.com/marcus/sidecar#readme"
+          }
+        ],
+        "orquestacion": [
+          {
+            "text": "compatibility Works in the terminal you already use Sidecar brings rich multi-pane workspaces, agent orchestration, and task management directly into your favorite terminal emulator on macOS, Linux, and Windows.",
+            "source": "https://github.com/marcus/sidecar#readme"
+          }
+        ],
+        "revision": [],
+        "remoto": [
+          {
+            "text": "Configuration & setup , Visual settings for appearance, projects, workspaces, agents, remote hosts, and integrations.",
+            "source": "https://github.com/marcus/sidecar#readme"
+          }
+        ],
+        "movil": [],
+        "extensiones": [
+          {
+            "text": "## Core Features & Plugins ### Workspaces & Split Panes Run agent shells and manage git worktrees in an integrated workspace.",
+            "source": "https://github.com/marcus/sidecar#readme"
+          },
+          {
+            "text": "Select with `j/k` or click, press `Enter` to switch All plugins reinitialize with the new project context.",
+            "source": "https://github.com/marcus/sidecar#readme"
+          },
+          {
+            "text": "To instead enter the selected worktree's scope, set: ```json { \"plugins\": { \"workspace\": { \"overviewWorktreeScope\": \"worktree\" } } } ``` ## Themes Press `#` to open the theme switcher or navigate to **Appearance** in Configuration.",
+            "source": "https://github.com/marcus/sidecar#readme"
+          }
+        ],
+        "control": []
+      },
+      "sources": [
+        {
+          "label": "Web oficial",
+          "url": "https://sidecar.haplab.com/",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/marcus/sidecar",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/marcus/sidecar#readme",
+          "accessedAt": "2026-11-13"
+        }
+      ],
+      "judged_day": "2026-11-13",
+      "tagline": "Workspace de terminal para agentes.",
+      "pricing": "free",
+      "priceNote": "Código abierto + tus modelos",
+      "execution": "Local · SSH",
+      "platforms": [
+        "macOS",
+        "Linux"
+      ],
+      "strengths": [
+        "SSH y hosts remotos",
+        "Worktrees y Git",
+        "Open source"
+      ],
+      "weaknesses": [
+        "Sin móvil",
+        "Orquestación experimental",
+        "Poca extensibilidad"
+      ],
+      "licenseType": "Open source"
+    },
+    {
+      "slug": "herdr",
+      "name": "Herdr",
+      "repo": "https://github.com/herdrdev/herdr-app",
+      "website": "https://herdr.dev/",
+      "license": "Apache-2.0",
+      "category": "terminal",
+      "summary": "ADE de terminal para mantener agentes de código juntos en local y SSH; las terminales sobreviven desconexiones y restauran layout.",
+      "features": {
+        "parallel": false,
+        "orchestration": false,
+        "review": false,
+        "remote": true,
+        "mobile": true,
+        "extensions": false,
+        "control": true,
+        "openSource": true,
+        "mature": true
+      },
+      "scores": {
+        "harnesses": 78,
+        "paralelo": 76,
+        "orquestacion": 68,
+        "revision": 65,
+        "remoto": 82,
+        "movil": 78,
+        "extensiones": 60,
+        "control": 60,
+        "abierto": 90,
+        "producto": 68
+      },
+      "total": 72.22,
+      "tier": "A",
+      "harnesses": [
+        "codex",
+        "amp"
+      ],
+      "evidence": {
+        "harnesses": [
+          {
+            "text": "It starts helpers hc run --bg codex \"review my diff.",
+            "source": "https://github.com/herdrdev/herdr-app#readme"
+          },
+          {
+            "text": "Done: hc send t1\" Any agent can start another, like Claude, Codex or a test script, and tell it where to report.",
+            "source": "https://github.com/herdrdev/herdr-app#readme"
+          },
+          {
+            "text": "Documentation checks also need [Bun](https://bun.sh): `just docs-check` checks generated pages and CLI examples; `just docs-generate` refreshes the reference pages.",
+            "source": "https://github.com/herdrdev/herdr-app#readme"
+          }
+        ],
+        "paralelo": [],
+        "orquestacion": [],
+        "revision": [],
+        "remoto": [
+          {
+            "text": "More about herdr-core → ## Every machine in one sidebar Add any machine you can reach over SSH, like a server, a VM or a cloud sandbox.",
+            "source": "https://github.com/herdrdev/herdr-app#readme"
+          },
+          {
+            "text": "Herdr connects over SSH, and Tailscale works too.",
+            "source": "https://github.com/herdrdev/herdr-app#readme"
+          },
+          {
+            "text": "Every machine Add your server, a VM or a cloud sandbox.",
+            "source": "https://github.com/herdrdev/herdr-app#readme"
+          }
+        ],
+        "movil": [
+          {
+            "text": "On your phone: iPhone, iPad and Android, from the App Store and Google Play.",
+            "source": "https://github.com/herdrdev/herdr-app#readme"
+          }
+        ],
+        "extensiones": [],
+        "control": [
+          {
+            "text": "Every machine Add your server, a VM or a cloud sandbox.",
+            "source": "https://github.com/herdrdev/herdr-app#readme"
+          },
+          {
+            "text": "More about herdr-core → ## Every machine in one sidebar Add any machine you can reach over SSH, like a server, a VM or a cloud sandbox.",
+            "source": "https://github.com/herdrdev/herdr-app#readme"
+          },
+          {
+            "text": "Mods are trusted code, not sandboxed extensions.",
+            "source": "https://github.com/herdrdev/herdr-app#readme"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "Web oficial",
+          "url": "https://herdr.dev/",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/herdrdev/herdr-app",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/herdrdev/herdr-app#readme",
+          "accessedAt": "2026-11-13"
+        }
+      ],
+      "judged_day": "2026-11-13",
+      "tagline": "Terminales de agentes que sobreviven.",
+      "pricing": "free",
+      "priceNote": "Código abierto + tus modelos",
+      "execution": "Local · SSH",
+      "platforms": [
+        "macOS",
+        "Linux",
+        "Web"
+      ],
+      "strengths": [
+        "Terminales persistentes",
+        "SSH y acceso móvil",
+        "Open source"
+      ],
+      "weaknesses": [
+        "Menos harnesses",
+        "Sin revisión/PRs",
+        "Más multiplexor que orquestador"
+      ],
+      "licenseType": "Open source"
+    },
+    {
+      "slug": "solo",
+      "name": "Solo",
+      "repo": null,
+      "website": "https://soloterm.com/",
+      "license": null,
+      "category": "orchestrator",
+      "summary": "Workspace programable para coordinar agentes existentes, terminales y tareas, con MCP, subagentes y automatizaciones por CLI.",
+      "features": {
+        "parallel": true,
+        "orchestration": true,
+        "review": false,
+        "remote": true,
+        "mobile": true,
+        "extensions": true,
+        "control": true,
+        "openSource": false,
+        "mature": true
+      },
+      "scores": {
+        "harnesses": 82,
+        "paralelo": 78,
+        "orquestacion": 86,
+        "revision": 70,
+        "remoto": 60,
+        "movil": 50,
+        "extensiones": 82,
+        "control": 65,
+        "abierto": 40,
+        "producto": 78
+      },
+      "total": 72.2,
+      "tier": "A",
+      "harnesses": [
+        "claude code",
+        "codex",
+        "gemini",
+        "opencode",
+        "cursor",
+        "amp",
+        "devin",
+        "copilot"
+      ],
+      "evidence": {
+        "harnesses": [
+          {
+            "text": "Solo has built-in support for Claude Code, Codex, Amp, Gemini CLI, OpenCode, GitHub Copilot CLI, Kimi CLI, and Antigravity.",
+            "source": "https://soloterm.com/"
+          },
+          {
+            "text": "Claude Code Codex OpenCode Pi Gemini CLI Custom agent No compatibility waiting room When a harness ships a new feature or a provider releases a new model, you get it directly through that harness without waiting for Solo to rebuild or approve it.",
+            "source": "https://soloterm.com/"
+          },
+          {
+            "text": "A concrete example Ask Codex to spawn Claude and OpenCode, assign each one part of the work, then synthesize what they return.",
+            "source": "https://soloterm.com/"
+          }
+        ],
+        "paralelo": [
+          {
+            "text": "When you link related checkouts in Solo, their worktrees or clones share todos, scratchpads, and prompt templates while their commands, terminals, and agents keep running in the correct checkout.",
+            "source": "https://soloterm.com/"
+          }
+        ],
+        "orquestacion": [
+          {
+            "text": "The meta-harness for coding agents - Solo How it works Orchestration Pricing Compare Agents Blog Docs Login Download Solo A layer above the harnesses you already use The meta-harness for coding agents A programmable control plane where Claude, Codex, OpenCode, Pi, custom agents, and your dev stack work together.",
+            "source": "https://soloterm.com/"
+          },
+          {
+            "text": "When you are ready Everything becomes programmable Agents can spawn, control, and orchestrate those same terminals, commands, and shared context through MCP, HTTP, or the Solo CLI.",
+            "source": "https://soloterm.com/"
+          },
+          {
+            "text": "The terminals stay real and visible while your agents orchestrate through a shared, programmable workspace instead of a mysterious model loop.",
+            "source": "https://soloterm.com/"
+          }
+        ],
+        "revision": [],
+        "remoto": [
+          {
+            "text": "Solo does not currently provide remote-host or headless session management, so keep using SSH or a tool such as tmux for work that must survive on another machine.",
+            "source": "https://soloterm.com/"
+          },
+          {
+            "text": "solo.yml shared project manifest Dev server npm run dev shared & running Application logs tail -f storage/logs/app.log shared & running Queue php artisan queue:work shared & running Stripe webhooks stripe listen --forward-to … ready · 04 Cloudflare tunnel cloudflared tunnel run ready · 05 Run one stack without duplicate ports or mystery processes.",
+            "source": "https://soloterm.com/"
+          },
+          {
+            "text": "Warp is a terminal-centered development platform with its own agent, editor, and cloud workflows.",
+            "source": "https://soloterm.com/"
+          }
+        ],
+        "movil": [
+          {
+            "text": "Comparisons All comparisons Solo terminal vs xterm.js Solo vs Cursor Solo vs Devin Desktop Solo vs Warp Alternatives All alternatives Cursor alternatives Warp alternatives VS Code Alternative Claude Code alternatives Solo © 2026 Try Hard Studios, LLC Website designed by Quick14",
+            "source": "https://soloterm.com/"
+          }
+        ],
+        "extensiones": [
+          {
+            "text": "When you are ready Everything becomes programmable Agents can spawn, control, and orchestrate those same terminals, commands, and shared context through MCP, HTTP, or the Solo CLI.",
+            "source": "https://soloterm.com/"
+          },
+          {
+            "text": "Feels good.” Jeremy Nikolic · @jeremy__nikolic “The Solo MCP server is genius.",
+            "source": "https://soloterm.com/"
+          },
+          {
+            "text": "MCP, HTTP, and CLI are equally capable control surfaces over the same local projects and processes, so you can choose whichever interface fits the agent, integration, script, or moment.",
+            "source": "https://soloterm.com/"
+          }
+        ],
+        "control": [
+          {
+            "text": "Solo wraps the actual CLI binaries already installed on your machine, leaving each tool’s models, authentication, permissions, configuration, and release cadence intact.",
+            "source": "https://soloterm.com/"
+          },
+          {
+            "text": "” Cameron Gose @cgose001 Customer story 04 “ Solo is busy creating to-dos, spinning up agents, creating sandboxes and running my dev stack.",
+            "source": "https://soloterm.com/"
+          },
+          {
+            "text": "Solo shows whether an agent appears to be working, idle, waiting for permission, or blocked by an error.",
+            "source": "https://soloterm.com/"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "Web oficial",
+          "url": "https://soloterm.com/",
+          "accessedAt": "2026-11-13"
+        }
+      ],
+      "judged_day": "2026-11-13",
+      "tagline": "El meta-harness sobre tus agentes.",
+      "pricing": "freemium",
+      "priceNote": "Free limitado; Pro US$99/año",
+      "execution": "Local",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "strengths": [
+        "Meta-harness muy flexible",
+        "MCP, subagentes y terminales",
+        "Buen control de procesos"
+      ],
+      "weaknesses": [
+        "Cerrado",
+        "Sin móvil",
+        "Revisión y PRs fuera del foco"
+      ],
+      "licenseType": "Comercial"
+    },
+    {
+      "slug": "agent-teams-ai",
+      "name": "Agent Teams AI",
+      "repo": "https://github.com/777genius/agent-teams-ai",
+      "website": "https://agentteams.live/",
+      "license": "AGPL-3.0",
+      "category": "orchestrator",
+      "summary": "App de escritorio para correr agentes como equipo alrededor de un tablero: un líder delega, los agentes se mensajean y tú revisas.",
+      "features": {
+        "parallel": true,
+        "orchestration": true,
+        "review": true,
+        "remote": true,
+        "mobile": true,
+        "extensions": true,
+        "control": true,
+        "openSource": true,
+        "mature": true
+      },
+      "scores": {
+        "harnesses": 80,
+        "paralelo": 80,
+        "orquestacion": 88,
+        "revision": 72,
+        "remoto": 65,
+        "movil": 50,
+        "extensiones": 55,
+        "control": 55,
+        "abierto": 90,
+        "producto": 65
+      },
+      "total": 71.9,
+      "tier": "B",
+      "harnesses": [
+        "claude code",
+        "codex",
+        "gemini",
+        "opencode",
+        "cursor",
+        "amp",
+        "copilot",
+        "grok"
+      ],
+      "evidence": {
+        "harnesses": [
+          {
+            "text": "03 Bring Your AI Stack Mix Claude Code, Codex, OpenCode, Cursor, SuperGrok, Copilot, Z.AI, MiniMax, and Kiro teammates.",
+            "source": "https://github.com/777genius/agent-teams-ai#readme"
+          },
+          {
+            "text": "Connect Claude Code, Codex, OpenCode/OpenRouter, Cursor, SuperGrok, GitHub Copilot, Z.AI, MiniMax, or Kiro only when you want more models.",
+            "source": "https://github.com/777genius/agent-teams-ai#readme"
+          },
+          {
+            "text": "Free model with no auth included Free model with no auth for first runs No account or provider login required to try Optional access to Claude Code, Codex, OpenCode, Cursor, SuperGrok, GitHub Copilot, Z.AI, MiniMax, and Kiro Unlimited agent teams Kanban board with real-time updates Code review with diff view Cross-team communication Solo & team modes Download Now Agent Teams has no paid tier.",
+            "source": "https://github.com/777genius/agent-teams-ai#readme"
+          }
+        ],
+        "paralelo": [
+          {
+            "text": "Give agents distinct roles, let them work autonomously in parallel, and coordinate across team boundaries.",
+            "source": "https://github.com/777genius/agent-teams-ai#readme"
+          },
+          {
+            "text": "- **Built-in code editor** — edit project files with Git support without leaving the app - **Branch strategy** - choose per teammate at launch: use the main checkout or run selected agents in their own git worktree.",
+            "source": "https://github.com/777genius/agent-teams-ai#readme"
+          },
+          {
+            "text": "To avoid Git conflicts, enable git worktree isolation for selected teammates when launching the team, and use the provisioning prompt for any extra branch or merge rules.",
+            "source": "https://github.com/777genius/agent-teams-ai#readme"
+          }
+        ],
+        "orquestacion": [
+          {
+            "text": "03 Bring Your AI Stack Mix Claude Code, Codex, OpenCode, Cursor, SuperGrok, Copilot, Z.AI, MiniMax, and Kiro teammates.",
+            "source": "https://github.com/777genius/agent-teams-ai#readme"
+          },
+          {
+            "text": "For coding and broader project work.</sub> <sub>Check also: - [universal-agent-plugins](https://universal-agent-plugins.com) - Multi-agent CLI to install, update, repair, and remove Agent Plugins 1.0 and Agent Skills across Codex/ChatGPT, Claude, Cursor, Gemini, Copilot, Qoder, Pi, OpenCode, and more.",
+            "source": "https://github.com/777genius/agent-teams-ai#readme"
+          },
+          {
+            "text": "And when you have a lot of teammates, you need a good way to organize and manage them.",
+            "source": "https://github.com/777genius/agent-teams-ai#readme"
+          }
+        ],
+        "revision": [
+          {
+            "text": "See it in action Real screenshots from the app — kanban board, code review, agent teams, and more.",
+            "source": "https://github.com/777genius/agent-teams-ai#readme"
+          },
+          {
+            "text": "Free model with no auth included Free model with no auth for first runs No account or provider login required to try Optional access to Claude Code, Codex, OpenCode, Cursor, SuperGrok, GitHub Copilot, Z.AI, MiniMax, and Kiro Unlimited agent teams Kanban board with real-time updates Code review with diff view Cross-team communication Solo & team modes Download Now Agent Teams has no paid tier.",
+            "source": "https://github.com/777genius/agent-teams-ai#readme"
+          },
+          {
+            "text": "Powerfull AI code review that runs inside your CI/CD (privacy) using your Claude/Codex/other subscription accounts (pool)/API.",
+            "source": "https://github.com/777genius/agent-teams-ai#readme"
+          }
+        ],
+        "remoto": [
+          {
+            "text": "There is no Agent Teams cloud backend for storing your code.",
+            "source": "https://github.com/777genius/agent-teams-ai#readme"
+          },
+          {
+            "text": "</details> <details> <summary><strong>What if the Linux app freezes or shows a blank window over RDP?</strong></summary> <br /> Some RDP (Remote Desktop Protocol) sessions expose virtual GPU drivers that can break Electron rendering.",
+            "source": "https://github.com/777genius/agent-teams-ai#readme"
+          }
+        ],
+        "movil": [],
+        "extensiones": [
+          {
+            "text": "Users should be free to organize teams however they prefer and continue using their existing plugins, skills, MCP servers, rules, and agent settings.",
+            "source": "https://github.com/777genius/agent-teams-ai#readme"
+          },
+          {
+            "text": "For coding and broader project work.</sub> <sub>Check also: - [universal-agent-plugins](https://universal-agent-plugins.com) - Multi-agent CLI to install, update, repair, and remove Agent Plugins 1.0 and Agent Skills across Codex/ChatGPT, Claude, Cursor, Gemini, Copilot, Qoder, Pi, OpenCode, and more.",
+            "source": "https://github.com/777genius/agent-teams-ai#readme"
+          },
+          {
+            "text": "SDK for universal plugins (hooks, detect, install/manage) - [review-router-ai](https://github.com/777genius/review-router-ai) - Free, open source CodeRabbit.",
+            "source": "https://github.com/777genius/agent-teams-ai#readme"
+          }
+        ],
+        "control": [
+          {
+            "text": "04 Stay in the Loop Jump in with comments, approvals, direct messages, or quick actions.",
+            "source": "https://github.com/777genius/agent-teams-ai#readme"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "Web oficial",
+          "url": "https://agentteams.live/",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/777genius/agent-teams-ai",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/777genius/agent-teams-ai#readme",
+          "accessedAt": "2026-11-13"
+        }
+      ],
+      "judged_day": "2026-11-13",
+      "tagline": "Tus agentes, como un equipo con roles.",
+      "pricing": "free",
+      "priceNote": "Código abierto + tus modelos",
+      "execution": "Local",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "strengths": [
+        "Tablero y roles de equipo",
+        "Delegación y mensajes entre agentes",
+        "Open source"
+      ],
+      "weaknesses": [
+        "Sin móvil",
+        "SSH todavía es una idea",
+        "Extensiones y control básicos"
+      ],
+      "licenseType": "Open source"
+    },
+    {
+      "slug": "maestri",
+      "name": "Maestri",
+      "repo": null,
+      "website": "https://themaestri.app/",
+      "license": null,
+      "category": "orchestrator",
+      "summary": "Canvas visual donde cada agente tiene rol, terminal y contexto; pensado para diseñar y seguir flujos multi-agente.",
+      "features": {
+        "parallel": false,
+        "orchestration": true,
+        "review": true,
+        "remote": false,
+        "mobile": true,
+        "extensions": false,
+        "control": false,
+        "openSource": false,
+        "mature": true
+      },
+      "scores": {
+        "harnesses": 82,
+        "paralelo": 80,
+        "orquestacion": 84,
+        "revision": 75,
+        "remoto": 65,
+        "movil": 78,
+        "extensiones": 55,
+        "control": 55,
+        "abierto": 40,
+        "producto": 72
+      },
+      "total": 71.18,
+      "tier": "B",
+      "harnesses": [
+        "claude code",
+        "codex",
+        "opencode",
+        "cursor"
+      ],
+      "evidence": {
+        "harnesses": [
+          {
+            "text": "Each one runs its own agent: Claude Code, Codex, OpenCode, or just a plain shell.",
+            "source": "https://themaestri.app/"
+          },
+          {
+            "text": "Coding agents like Claude Code, Codex, and others have their own privacy policies and may send data to their respective providers.",
+            "source": "https://themaestri.app/"
+          },
+          {
+            "text": "Every agent has a cursor with its name, several can work at once, and when only your real pointer and keyboard will do, an agent can ask to take over while you're away.",
+            "source": "https://themaestri.app/"
+          }
+        ],
+        "paralelo": [],
+        "orquestacion": [
+          {
+            "text": "Maestri · The infinite canvas for orchestrating AI agents Now you're conducting.",
+            "source": "https://themaestri.app/"
+          },
+          {
+            "text": "Meet Maestri, the first infinite canvas made for orchestrating agents.",
+            "source": "https://themaestri.app/"
+          },
+          {
+            "text": "Maestri unlocks so much potential for multi agent orchestration!",
+            "source": "https://themaestri.app/"
+          }
+        ],
+        "revision": [],
+        "remoto": [
+          {
+            "text": "Each agent asks before it uses an app, and you can answer on your computer or from Maestri Remote.",
+            "source": "https://themaestri.app/"
+          },
+          {
+            "text": "Platforms Mac Windows Linux Maestri Remote Product Docs Changelog License Manager Recover License Support Contact Discord Twitter Português Privacy Terms Refund",
+            "source": "https://themaestri.app/"
+          }
+        ],
+        "movil": [
+          {
+            "text": "A website, an iOS Simulator, an Android emulator, or a real phone plugged into your Mac.",
+            "source": "https://themaestri.app/"
+          }
+        ],
+        "extensiones": [],
+        "control": []
+      },
+      "sources": [
+        {
+          "label": "Web oficial",
+          "url": "https://themaestri.app/",
+          "accessedAt": "2026-11-13"
+        }
+      ],
+      "judged_day": "2026-11-13",
+      "tagline": "Un lienzo infinito para orquestar agentes.",
+      "pricing": "freemium",
+      "priceNote": "Free 1 workspace; Pro US$18",
+      "execution": "Local · SSH · Self-hosted",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "iOS",
+        "Android"
+      ],
+      "strengths": [
+        "Canvas visual muy claro",
+        "Roles y flujos de agentes",
+        "App móvil en beta"
+      ],
+      "weaknesses": [
+        "Cerrado",
+        "Extensiones/MCP limitados",
+        "Control y aprobaciones básicos"
+      ],
+      "licenseType": "Comercial"
+    },
+    {
+      "slug": "waku",
+      "name": "Waku",
+      "repo": "https://github.com/egoist/waku",
+      "website": "https://waku.sh/",
+      "license": "GPL-3.0",
+      "category": "workspace",
+      "summary": "App nativa para manejar sesiones de agentes de código, contexto, skills y aprobaciones desde macOS.",
+      "features": {
+        "parallel": false,
+        "orchestration": false,
+        "review": false,
+        "remote": true,
+        "mobile": false,
+        "extensions": true,
+        "control": false,
+        "openSource": true,
+        "mature": true
+      },
+      "scores": {
+        "harnesses": 80,
+        "paralelo": 70,
+        "orquestacion": 65,
+        "revision": 70,
+        "remoto": 70,
+        "movil": 50,
+        "extensiones": 75,
+        "control": 65,
+        "abierto": 90,
+        "producto": 68
+      },
+      "total": 70.88,
+      "tier": "B",
+      "harnesses": [
+        "claude code",
+        "codex",
+        "opencode",
+        "cursor",
+        "amp",
+        "grok"
+      ],
+      "evidence": {
+        "harnesses": [
+          {
+            "text": "## Supported agents Waku works with: - [Amp](https://ampcode.com/) - Claude Code - Codex CLI - Cursor CLI - [Fx](https://fx.sh/) - Grok Build - Kimi Code - OpenCode - Pi Install and authenticate at least one supported agent CLI before starting Waku.",
+            "source": "https://github.com/egoist/waku#readme"
+          },
+          {
+            "text": "Its checked-in types are generated directly from the Rust protocol, while its WebSocket client implements the same handshake, request IDs, subscriptions, sequence deduplication, and replay cursors as the Rust client.",
+            "source": "https://github.com/egoist/waku#readme"
+          }
+        ],
+        "paralelo": [],
+        "orquestacion": [],
+        "revision": [],
+        "remoto": [
+          {
+            "text": "No account, no telemetry, no Waku cloud between you and your agents.",
+            "source": "https://github.com/egoist/waku#readme"
+          },
+          {
+            "text": "- Store app state locally, with no Waku account or remote service required.",
+            "source": "https://github.com/egoist/waku#readme"
+          }
+        ],
+        "movil": [],
+        "extensiones": [
+          {
+            "text": "The local folder picker and PTY are therefore unavailable until the protocol gains daemon-host picker and terminal-stream endpoints; files, diffs, Git, skills, usage, task state, and attachments already use daemon RPC.",
+            "source": "https://github.com/egoist/waku#readme"
+          },
+          {
+            "text": "Agent sessions, projects, transcripts, skills, usage, diffs, file editing, and the terminal run natively on Linux and Windows.",
+            "source": "https://github.com/egoist/waku#readme"
+          }
+        ],
+        "control": []
+      },
+      "sources": [
+        {
+          "label": "Web oficial",
+          "url": "https://waku.sh/",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/egoist/waku",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/egoist/waku#readme",
+          "accessedAt": "2026-11-13"
+        }
+      ],
+      "judged_day": "2026-11-13",
+      "tagline": "Una app nativa para todos tus agentes.",
+      "pricing": "free",
+      "priceNote": "Código abierto + tus modelos",
+      "execution": "Local · Remote",
+      "platforms": [
+        "macOS"
+      ],
+      "strengths": [
+        "App nativa cuidada",
+        "Skills y contexto",
+        "Open source"
+      ],
+      "weaknesses": [
+        "Sin móvil",
+        "Orquestación limitada",
+        "Menos adopción"
+      ],
+      "licenseType": "Open source"
+    }
+  ],
+  "queue": [
+    {
+      "name": "Agentastic",
+      "url": "https://agentastic.dev/"
+    },
+    {
+      "name": "Clor",
+      "url": "https://clor.com/"
+    },
+    {
+      "name": "CodexHost",
+      "url": "https://github.com/BytePioneer-AI/codex-host"
+    },
+    {
+      "name": "MonoCode",
+      "url": "https://github.com/hardbeat920/monocode"
+    },
+    {
+      "name": "Omnigent",
+      "url": "https://omnigent.ai/"
+    },
+    {
+      "name": "OpenCodeX",
+      "url": "https://opencodex.me/"
+    },
+    {
+      "name": "Reliant",
+      "url": "https://reliantlabs.io/"
+    },
+    {
+      "name": "Silo",
+      "url": "https://getsilo.dev/"
+    },
+    {
+      "name": "super.engineering",
+      "url": "https://super.engineering/"
+    },
+    {
+      "name": "AgentGrid",
+      "url": "https://agentgrid.sh/"
+    },
+    {
+      "name": "Agentlas Desktop",
+      "url": "https://agentlas.cloud/desktop"
+    },
+    {
+      "name": "Alan",
+      "url": "https://tryalan.ai/"
+    },
+    {
+      "name": "Antigravity IDE",
+      "url": "https://antigravity.google/product/antigravity-ide"
+    },
+    {
+      "name": "Bentomux",
+      "url": "https://bentomux.takora.dev/"
+    },
+    {
+      "name": "Capy AI",
+      "url": "https://capy.ai/"
+    },
+    {
+      "name": "Cindy",
+      "url": "https://www.cindy.app/"
+    },
+    {
+      "name": "CloudCLI",
+      "url": "https://cloudcli.ai/"
+    },
+    {
+      "name": "Cursor",
+      "url": "https://cursor.com/"
+    },
+    {
+      "name": "Devin Cloud",
+      "url": "https://docs.devin.ai/"
+    },
+    {
+      "name": "Diri",
+      "url": "https://diri.sh/"
+    },
+    {
+      "name": "Elyra",
+      "url": "https://elyra.sh/"
+    },
+    {
+      "name": "Happier",
+      "url": "https://happier.dev/"
+    },
+    {
+      "name": "Intent",
+      "url": "https://intentapp.dev/"
+    },
+    {
+      "name": "Intentic",
+      "url": "https://intentic.dev/"
+    },
+    {
+      "name": "Kanary",
+      "url": "https://kanary.to/agents"
+    },
+    {
+      "name": "Kiro IDE",
+      "url": "https://kiro.dev/ide/"
+    },
+    {
+      "name": "Kuvo Code",
+      "url": "https://www.kuvo.run/code/"
+    },
+    {
+      "name": "Maestro",
+      "url": "https://runmaestro.ai/"
+    },
+    {
+      "name": "MeshPilot · MeshConsole",
+      "url": "https://meshpilot.in/"
+    },
+    {
+      "name": "Multica",
+      "url": "https://multica.ai/"
+    },
+    {
+      "name": "Nimbalyst",
+      "url": "https://www.nimbalyst.com/"
+    },
+    {
+      "name": "Niteshift",
+      "url": "https://niteshift.dev/"
+    },
+    {
+      "name": "o8",
+      "url": "https://o8.run/"
+    },
+    {
+      "name": "Octo",
+      "url": "https://octo.marujo.dev/"
+    },
+    {
+      "name": "Paperclip",
+      "url": "https://paperclip.ing/"
+    },
+    {
+      "name": "Parallel Code",
+      "url": "https://parallelcode.app/"
+    },
+    {
+      "name": "Podium",
+      "url": "https://podium.do/"
+    },
+    {
+      "name": "rNexa",
+      "url": "https://rnexa.dev/"
+    },
+    {
+      "name": "Supacode",
+      "url": "https://supacode.sh/"
+    },
+    {
+      "name": "Tembo",
+      "url": "https://www.tembo.io/"
+    },
+    {
+      "name": "Tern",
+      "url": "https://tern.build/"
+    },
+    {
+      "name": "Timon",
+      "url": "https://timon-ai.com/"
+    },
+    {
+      "name": "Volt",
+      "url": "https://volt.leularia.com/"
+    },
+    {
+      "name": "Warp",
+      "url": "https://www.warp.dev/"
+    },
+    {
+      "name": "Wink",
+      "url": "https://getwink.dev/"
+    },
+    {
+      "name": "Zed",
+      "url": "https://zed.dev/"
+    },
+    {
+      "name": "Zeron",
+      "url": "https://zeron.sh/"
+    },
+    {
+      "name": "Zerus",
+      "url": "https://zerus.dev/"
+    },
+    {
+      "name": "Zuse",
+      "url": "https://www.zuse.sh/"
+    }
+  ]
+}

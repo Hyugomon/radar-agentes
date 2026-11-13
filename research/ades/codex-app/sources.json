@@ -1,0 +1,17 @@
+[
+  {
+    "label": "Web oficial",
+    "url": "https://developers.openai.com/codex/app/",
+    "accessedAt": "2026-11-13"
+  },
+  {
+    "label": "Repositorio GitHub",
+    "url": "https://github.com/openai/openai-cookbook",
+    "accessedAt": "2026-11-13"
+  },
+  {
+    "label": "README",
+    "url": "https://github.com/openai/openai-cookbook#readme",
+    "accessedAt": "2026-11-13"
+  }
+]

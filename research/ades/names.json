@@ -1,0 +1,367 @@
+[
+  {
+    "name": "Agent Orchestrator",
+    "category": "",
+    "url": "https://orchestrator.inc/"
+  },
+  {
+    "name": "Agentastic",
+    "category": "",
+    "url": "https://agentastic.dev/"
+  },
+  {
+    "name": "bb",
+    "category": "",
+    "url": "https://getbb.app/"
+  },
+  {
+    "name": "Clor",
+    "category": "",
+    "url": "https://clor.com/"
+  },
+  {
+    "name": "CodexHost",
+    "category": "",
+    "url": "https://github.com/BytePioneer-AI/codex-host"
+  },
+  {
+    "name": "Conductor",
+    "category": "",
+    "url": "https://www.conductor.build/"
+  },
+  {
+    "name": "Emdash",
+    "category": "",
+    "url": "https://emdash.com/"
+  },
+  {
+    "name": "Ghostex",
+    "category": "",
+    "url": "https://ghostex.dev/"
+  },
+  {
+    "name": "Herdr",
+    "category": "",
+    "url": "https://herdr.dev/"
+  },
+  {
+    "name": "Jean",
+    "category": "",
+    "url": "https://jean.build/"
+  },
+  {
+    "name": "Kandev",
+    "category": "",
+    "url": "https://github.com/kdlbs/kandev"
+  },
+  {
+    "name": "Maestri",
+    "category": "",
+    "url": "https://themaestri.app/"
+  },
+  {
+    "name": "MonoCode",
+    "category": "",
+    "url": "https://github.com/hardbeat920/monocode"
+  },
+  {
+    "name": "Omnigent",
+    "category": "",
+    "url": "https://omnigent.ai/"
+  },
+  {
+    "name": "OpenCodeX",
+    "category": "",
+    "url": "https://opencodex.me/"
+  },
+  {
+    "name": "Orca",
+    "category": "",
+    "url": "https://www.onorca.dev/"
+  },
+  {
+    "name": "Paradev",
+    "category": "",
+    "url": "https://paradev.com/"
+  },
+  {
+    "name": "Paseo",
+    "category": "",
+    "url": "https://paseo.sh/"
+  },
+  {
+    "name": "Reliant",
+    "category": "",
+    "url": "https://reliantlabs.io/"
+  },
+  {
+    "name": "Sidecar",
+    "category": "",
+    "url": "https://sidecar.haplab.com/"
+  },
+  {
+    "name": "Silo",
+    "category": "",
+    "url": "https://getsilo.dev/"
+  },
+  {
+    "name": "Solo",
+    "category": "",
+    "url": "https://soloterm.com/"
+  },
+  {
+    "name": "super.engineering",
+    "category": "",
+    "url": "https://super.engineering/"
+  },
+  {
+    "name": "Synara",
+    "category": "",
+    "url": "https://www.trysynara.com/"
+  },
+  {
+    "name": "T3 Code",
+    "category": "",
+    "url": "https://t3.codes/"
+  },
+  {
+    "name": "Tortie",
+    "category": "",
+    "url": "https://tortie.sh/"
+  },
+  {
+    "name": "Traycer",
+    "category": "",
+    "url": "https://traycer.ai/"
+  },
+  {
+    "name": "Waku",
+    "category": "",
+    "url": "https://waku.sh/"
+  },
+  {
+    "name": "Agent Teams AI",
+    "category": "",
+    "url": "https://agentteams.live/"
+  },
+  {
+    "name": "AgentGrid",
+    "category": "",
+    "url": "https://agentgrid.sh/"
+  },
+  {
+    "name": "Agentlas Desktop",
+    "category": "",
+    "url": "https://agentlas.cloud/desktop"
+  },
+  {
+    "name": "Alan",
+    "category": "",
+    "url": "https://tryalan.ai/"
+  },
+  {
+    "name": "Antigravity IDE",
+    "category": "",
+    "url": "https://antigravity.google/product/antigravity-ide"
+  },
+  {
+    "name": "Bentomux",
+    "category": "",
+    "url": "https://bentomux.takora.dev/"
+  },
+  {
+    "name": "Capy AI",
+    "category": "",
+    "url": "https://capy.ai/"
+  },
+  {
+    "name": "Cindy",
+    "category": "",
+    "url": "https://www.cindy.app/"
+  },
+  {
+    "name": "CloudCLI",
+    "category": "",
+    "url": "https://cloudcli.ai/"
+  },
+  {
+    "name": "Cloudroom",
+    "category": "",
+    "url": "https://www.cloudroom.dev/"
+  },
+  {
+    "name": "cmux",
+    "category": "",
+    "url": "https://cmux.com/"
+  },
+  {
+    "name": "Codex app",
+    "category": "",
+    "url": "https://developers.openai.com/codex/app/"
+  },
+  {
+    "name": "Cursor",
+    "category": "",
+    "url": "https://cursor.com/"
+  },
+  {
+    "name": "Devin Cloud",
+    "category": "",
+    "url": "https://docs.devin.ai/"
+  },
+  {
+    "name": "Diri",
+    "category": "",
+    "url": "https://diri.sh/"
+  },
+  {
+    "name": "Elyra",
+    "category": "",
+    "url": "https://elyra.sh/"
+  },
+  {
+    "name": "Happier",
+    "category": "",
+    "url": "https://happier.dev/"
+  },
+  {
+    "name": "Intent",
+    "category": "",
+    "url": "https://intentapp.dev/"
+  },
+  {
+    "name": "Intentic",
+    "category": "",
+    "url": "https://intentic.dev/"
+  },
+  {
+    "name": "Kanary",
+    "category": "",
+    "url": "https://kanary.to/agents"
+  },
+  {
+    "name": "Kiro IDE",
+    "category": "",
+    "url": "https://kiro.dev/ide/"
+  },
+  {
+    "name": "Kuvo Code",
+    "category": "",
+    "url": "https://www.kuvo.run/code/"
+  },
+  {
+    "name": "Maestro",
+    "category": "",
+    "url": "https://runmaestro.ai/"
+  },
+  {
+    "name": "MeshPilot · MeshConsole",
+    "category": "",
+    "url": "https://meshpilot.in/"
+  },
+  {
+    "name": "Multica",
+    "category": "",
+    "url": "https://multica.ai/"
+  },
+  {
+    "name": "Nimbalyst",
+    "category": "",
+    "url": "https://www.nimbalyst.com/"
+  },
+  {
+    "name": "Niteshift",
+    "category": "",
+    "url": "https://niteshift.dev/"
+  },
+  {
+    "name": "o8",
+    "category": "",
+    "url": "https://o8.run/"
+  },
+  {
+    "name": "Octo",
+    "category": "",
+    "url": "https://octo.marujo.dev/"
+  },
+  {
+    "name": "OpenChamber",
+    "category": "",
+    "url": "https://openchamber.dev/"
+  },
+  {
+    "name": "Paperclip",
+    "category": "",
+    "url": "https://paperclip.ing/"
+  },
+  {
+    "name": "Parallel Code",
+    "category": "",
+    "url": "https://parallelcode.app/"
+  },
+  {
+    "name": "Podium",
+    "category": "",
+    "url": "https://podium.do/"
+  },
+  {
+    "name": "rNexa",
+    "category": "",
+    "url": "https://rnexa.dev/"
+  },
+  {
+    "name": "Supacode",
+    "category": "",
+    "url": "https://supacode.sh/"
+  },
+  {
+    "name": "Tembo",
+    "category": "",
+    "url": "https://www.tembo.io/"
+  },
+  {
+    "name": "Tern",
+    "category": "",
+    "url": "https://tern.build/"
+  },
+  {
+    "name": "Timon",
+    "category": "",
+    "url": "https://timon-ai.com/"
+  },
+  {
+    "name": "Volt",
+    "category": "",
+    "url": "https://volt.leularia.com/"
+  },
+  {
+    "name": "Warp",
+    "category": "",
+    "url": "https://www.warp.dev/"
+  },
+  {
+    "name": "Wink",
+    "category": "",
+    "url": "https://getwink.dev/"
+  },
+  {
+    "name": "Zed",
+    "category": "",
+    "url": "https://zed.dev/"
+  },
+  {
+    "name": "Zeron",
+    "category": "",
+    "url": "https://zeron.sh/"
+  },
+  {
+    "name": "Zerus",
+    "category": "",
+    "url": "https://zerus.dev/"
+  },
+  {
+    "name": "Zuse",
+    "category": "",
+    "url": "https://www.zuse.sh/"
+  }
+]

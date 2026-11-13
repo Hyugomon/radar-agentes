@@ -1,7 +1,7 @@
 <template>
   <footer class="site-footer">
     <div class="container">
-      <span><b>Radar de Agentes IA</b> · ranking de repos open source medidos contra Grok Bot</span>
+      <span><b>Radar de Agentes IA</b> · agentes open source y ADEs investigados uno por uno</span>
       <span style="margin-left:auto">
         Datos: dossiers de investigación · {{ generated }}
       </span>

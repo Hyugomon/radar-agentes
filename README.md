@@ -12,6 +12,8 @@ coordinación y aprobaciones. Grok Bot **no compite** en el ranking; se usa como
 | `/` | Ranking open source, shortlist, filtros y ficha lateral |
 | `/agente/[slug]` | Ficha completa (SSR, indexable) con fuentes y dossier |
 | `/versus` | Selector con buscador + batalla animada + tarjeta PNG |
+| `/ades` | Ranking ADE con investigación uno por uno y cola de pendientes |
+| `/ades/[slug]` | Ficha ADE con dimensiones, checklist, fuentes y dossier |
 | `/metodologia` | Rúbrica, ADN Grok Bot, tiers, límites y qué queda fuera |
 | `/sitemap.xml`, `/robots.txt` | SEO |
 
@@ -51,6 +53,48 @@ INSFORGE_URL=https://insforge.amaqon.cloud \
 INSFORGE_API_KEY=ik_... \
 node scripts/sync-insforge.mjs
 ```
+
+## ADEs (Agent Development Environments)
+
+`/ades` es una sección aparte: un ADE es el workspace donde orquestas agentes de código, no un agente
+ni un framework. La lista inicial de nombres sale de una referencia externa, pero **no se importa su
+ranking, scores ni notas**. Cada ADE se investiga con su web oficial, repo y README.
+
+Primer lote: 24 ADEs investigados. El resto queda en `queue` (49 nombres) y se muestra en la web como
+cola sin nota, para no inventar datos.
+
+Carpetas:
+
+```text
+research/ades/<slug>/
+  meta.json        → datos del repo si existe
+  homepage.txt     → texto de la web oficial
+  readme.md        → README si es open source
+  sources.json     → URLs y fecha
+  dossier.md       → evidencia, dimensiones, score y carencias
+research/ades/names.json     → nombres + web oficial
+research/ades/overrides.json → scores y metadatos editoriales
+research/ades/index.json     → consolidado
+data/ades.json               → snapshot que consume la web
+```
+
+Scripts:
+
+```bash
+node scripts/research-ades.mjs
+node scripts/research-ades.mjs --refresh
+node scripts/research-ades.mjs --only=orca
+node scripts/rebuild-ades-research.mjs
+node scripts/build-ades.mjs
+
+# Persistir ADEs en InsForge
+INSFORGE_URL=https://insforge.amaqon.cloud \
+INSFORGE_API_KEY=ik_... \
+node scripts/sync-ades.mjs
+```
+
+La web usa `data/ades.json` como snapshot y `radar_ades` en InsForge queda como espejo consultable.
+La cola de 49 pendientes vive en `research/ades/names.json` y en `data/ades.json` (`queue`), sin nota.
 
 ## Esquema de datos (InsForge)
 
