@@ -96,6 +96,16 @@ node scripts/sync-ades.mjs
 La web usa `data/ades.json` como snapshot y `radar_ades` en InsForge queda como espejo consultable.
 La cola de 49 pendientes vive en `research/ades/names.json` y en `data/ades.json` (`queue`), sin nota.
 
+## Versus
+
+La batalla se genera desde los datos, no es una animación genérica:
+
+- Cada dimensión produce un ataque: directo, pesado, rompe defensa, especial, fatal o choque.
+- Si el defensor tiene una puntuación buena (≥65), su escudo absorbe parte del daño; si es débil o el ataque es fatal, el escudo se rompe.
+- Si el atacante tiene una capacidad que el rival no tiene, se dispara un ataque especial; el cierre puede ser un “as bajo la manga”.
+- La vida y el escudo se actualizan por evento; el resultado final siempre coincide con el ganador del score.
+- Skins por proyecto en `composables/useFighter.ts`: color de marca, tipo de ojos, manos y personalidad.
+
 ## Esquema de datos (InsForge)
 
 La tabla antigua `radar_agents` (un JSON por repositorio) queda como legado y **no se usa** en este
