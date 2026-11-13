@@ -9,67 +9,89 @@
       <button class="btn btn--sm" @click="$emit('close')">Cerrar ✕</button>
     </header>
 
-    <div ref="stage" class="a2-stage" :class="[angleClass, { shake: shaking, sparking, speed: speedLines }]">
-      <div class="a2-grid" />
-      <div class="a2-spotlight" />
-      <div class="a2-floor" />
-      <div class="a2-speedlines" />
+    <div ref="stage" class="a2-stage" :class="[angleClass, { shake: shaking, sparking, speed: speedLines, cinematic }]">
+      <div ref="camera" class="a2-camera">
+        <div class="a2-grid" />
+        <div class="a2-spotlight" />
+        <div class="a2-floor" />
+        <div class="a2-speedlines" />
+        <div class="a2-debris" :class="{ active: sparking }">
+          <i v-for="n in 12" :key="n" :style="{ '--a': `${n * 30}deg`, '--d': `${60 + (n % 4) * 18}px` }" />
+        </div>
+        <div ref="beam" class="a2-beam" :class="beamSide ? `a2-beam--${beamSide}` : ''" :style="{ '--beam-color': beamSide === 'b' ? skinB.color : skinA.color }" />
+
+        <div class="a2-half a2-half--a" />
+        <div class="a2-half a2-half--b" />
+
+        <div
+          ref="orbA"
+          class="a2-orb a2-orb--a"
+          :class="orbClass('a')"
+          :style="styleA"
+        >
+          <div class="a2-aura" />
+          <div class="a2-face">
+            <div class="a2-brows" :class="{ angry: attackingSide === 'a', hurt: hitSide === 'a' }">
+              <i /><i />
+            </div>
+            <div class="a2-eyes" :class="[`eyes--${skinA.eyes}`, { angry: attackingSide === 'a', hurt: hitSide === 'a', ko: done && winner !== 'a' }]">
+              <span class="anime-eye"><i class="iris"><b class="pupil" /><em class="glint" /></i></span>
+              <span class="anime-eye"><i class="iris"><b class="pupil" /><em class="glint" /></i></span>
+            </div>
+            <div class="a2-mouth" :class="mouthClass('a')" />
+          </div>
+          <span class="a2-mono">{{ initials(a.full_name) }}</span>
+          <span class="a2-hand a2-hand--l" :class="`hands--${skinA.hands}`">
+            <i class="finger f1" /><i class="finger f2" /><i class="finger f3" /><i class="finger thumb" />
+          </span>
+          <span class="a2-hand a2-hand--r a2-hand--front" :class="`hands--${skinA.hands}`">
+            <i class="finger f1" /><i class="finger f2" /><i class="finger f3" /><i class="finger thumb" />
+          </span>
+          <span class="a2-shield" :class="{ on: shieldA > 0, broken: shieldBreakSide === 'a' }" />
+          <span v-if="done && winner === 'a'" class="a2-crown">👑</span>
+        </div>
+
+        <div
+          ref="orbB"
+          class="a2-orb a2-orb--b"
+          :class="orbClass('b')"
+          :style="styleB"
+        >
+          <div class="a2-aura" />
+          <div class="a2-face">
+            <div class="a2-brows" :class="{ angry: attackingSide === 'b', hurt: hitSide === 'b' }">
+              <i /><i />
+            </div>
+            <div class="a2-eyes" :class="[`eyes--${skinB.eyes}`, { angry: attackingSide === 'b', hurt: hitSide === 'b', ko: done && winner !== 'b' }]">
+              <span class="anime-eye"><i class="iris"><b class="pupil" /><em class="glint" /></i></span>
+              <span class="anime-eye"><i class="iris"><b class="pupil" /><em class="glint" /></i></span>
+            </div>
+            <div class="a2-mouth" :class="mouthClass('b')" />
+          </div>
+          <span class="a2-mono">{{ initials(b.full_name) }}</span>
+          <span class="a2-hand a2-hand--l a2-hand--front" :class="`hands--${skinB.hands}`">
+            <i class="finger f1" /><i class="finger f2" /><i class="finger f3" /><i class="finger thumb" />
+          </span>
+          <span class="a2-hand a2-hand--r" :class="`hands--${skinB.hands}`">
+            <i class="finger f1" /><i class="finger f2" /><i class="finger f3" /><i class="finger thumb" />
+          </span>
+          <span class="a2-shield" :class="{ on: shieldB > 0, broken: shieldBreakSide === 'b' }" />
+          <span v-if="done && winner === 'b'" class="a2-crown">👑</span>
+        </div>
+
+        <div ref="impact" class="a2-impact">
+          <svg viewBox="0 0 120 120" aria-hidden="true">
+            <polygon points="60,2 70,38 104,24 82,54 118,60 82,66 104,96 70,82 60,118 50,82 16,96 38,66 2,60 38,54 16,24 50,38" />
+          </svg>
+        </div>
+        <div ref="shock" class="a2-shock" />
+
+        <div ref="slash" class="a2-slash" />
+        <div ref="dmg" class="a2-dmg">−0</div>
+      </div>
+
+      <div class="a2-letterbox"><i class="a2-bar-top" /><i class="a2-bar-bottom" /></div>
       <div ref="flash" class="a2-flash" />
-      <div ref="beam" class="a2-beam" :class="beamSide ? `a2-beam--${beamSide}` : ''" :style="{ '--beam-color': beamSide === 'b' ? skinB.color : skinA.color }" />
-
-      <div class="a2-half a2-half--a" />
-      <div class="a2-half a2-half--b" />
-
-      <div
-        ref="orbA"
-        class="a2-orb a2-orb--a"
-        :class="orbClass('a')"
-        :style="styleA"
-      >
-        <div class="a2-aura" />
-        <div class="a2-face">
-          <div class="a2-eyes" :class="[`eyes--${skinA.eyes}`, { angry: attackingSide === 'a', hurt: hitSide === 'a' }]">
-            <i class="eye eye--l"><b /></i>
-            <i class="eye eye--r"><b /></i>
-          </div>
-          <div class="a2-mouth" />
-        </div>
-        <span class="a2-mono">{{ initials(a.full_name) }}</span>
-        <span class="a2-hand a2-hand--l" :class="`hands--${skinA.hands}`" />
-        <span class="a2-hand a2-hand--r a2-hand--front" :class="`hands--${skinA.hands}`" />
-        <span class="a2-shield" :class="{ on: shieldA > 0, broken: shieldBreakSide === 'a' }" />
-        <span v-if="done && winner === 'a'" class="a2-crown">👑</span>
-      </div>
-
-      <div
-        ref="orbB"
-        class="a2-orb a2-orb--b"
-        :class="orbClass('b')"
-        :style="styleB"
-      >
-        <div class="a2-aura" />
-        <div class="a2-face">
-          <div class="a2-eyes" :class="[`eyes--${skinB.eyes}`, { angry: attackingSide === 'b', hurt: hitSide === 'b' }]">
-            <i class="eye eye--l"><b /></i>
-            <i class="eye eye--r"><b /></i>
-          </div>
-          <div class="a2-mouth" />
-        </div>
-        <span class="a2-mono">{{ initials(b.full_name) }}</span>
-        <span class="a2-hand a2-hand--l a2-hand--front" :class="`hands--${skinB.hands}`" />
-        <span class="a2-hand a2-hand--r" :class="`hands--${skinB.hands}`" />
-        <span class="a2-shield" :class="{ on: shieldB > 0, broken: shieldBreakSide === 'b' }" />
-        <span v-if="done && winner === 'b'" class="a2-crown">👑</span>
-      </div>
-
-      <div ref="impact" class="a2-impact">
-        <svg viewBox="0 0 120 120" aria-hidden="true">
-          <polygon points="60,2 70,38 104,24 82,54 118,60 82,66 104,96 70,82 60,118 50,82 16,96 38,66 2,60 38,54 16,24 50,38" />
-        </svg>
-      </div>
-
-      <div ref="slash" class="a2-slash" />
-      <div ref="dmg" class="a2-dmg">−0</div>
       <div v-if="eventText" class="a2-event" :class="`a2-event--${eventTone}`">{{ eventText }}</div>
 
       <canvas ref="confetti" class="a2-confetti" />
@@ -105,7 +127,7 @@
 import { useFighter } from '~/composables/useFighter'
 
 const props = defineProps<{ a: any; b: any; meta: any }>()
-const emit = defineEmits<{ close: []; rematch: []; download: [] }>()
+const emit = defineEmits<{ close: []; rematch: []; download: []; done: [] }>()
 
 const { skinFor, styleFor } = useFighter()
 const skinA = computed(() => skinFor(props.a))
@@ -114,9 +136,11 @@ const styleA = computed(() => styleFor(props.a))
 const styleB = computed(() => styleFor(props.b))
 
 const stage = ref<HTMLElement | null>(null)
+const camera = ref<HTMLElement | null>(null)
 const orbA = ref<HTMLElement | null>(null)
 const orbB = ref<HTMLElement | null>(null)
 const impact = ref<HTMLElement | null>(null)
+const shock = ref<HTMLElement | null>(null)
 const slash = ref<HTMLElement | null>(null)
 const dmg = ref<HTMLElement | null>(null)
 const flash = ref<HTMLElement | null>(null)
@@ -140,6 +164,7 @@ const defendingSide = ref<'' | 'a' | 'b'>('')
 const shieldBreakSide = ref<'' | 'a' | 'b'>('')
 const beamSide = ref<'' | 'a' | 'b'>('')
 const angleClass = ref('')
+const cinematic = ref(false)
 const eventText = ref('')
 const eventTone = ref('normal')
 const currentEvent = ref<any>(null)
@@ -195,6 +220,17 @@ function orbClass(side: 'a' | 'b') {
     ko: done.value && winner.value !== side,
     champion: done.value && winner.value === side
   }
+}
+
+function mouthClass(side: 'a' | 'b') {
+  if (done.value && winner.value !== side) return 'mouth--ko'
+  if (hitSide.value === side) return 'mouth--scared'
+  if (attackingSide.value === side) {
+    return ['special', 'fatal', 'ace'].includes(eventTone.value) ? 'mouth--open' : 'mouth--smirk'
+  }
+  if (done.value && winner.value === side) return 'mouth--grin'
+  const skin = side === 'a' ? skinA.value : skinB.value
+  return ['fierce', 'strategic', 'stoic'].includes(skin.eyes) ? 'mouth--smirk' : 'mouth--smile'
 }
 
 function featuresOf(side: 'a' | 'b') {
@@ -330,6 +366,7 @@ async function performEvent(event: any, index: number) {
       fx(orbB.value, { translateX: 0, duration: 350, ease: 'outElastic(1, .5)' })
     }, 240)
     fx(impact.value, { scale: [0, 1.5], opacity: [1, 0], duration: 380, ease: 'outQuad' })
+    fx(shock.value, { scale: [0.2, 1.9], opacity: [0.85, 0], duration: 480, ease: 'outQuad' })
     shaking.value = true
     setTimeout(() => { shaking.value = false }, 260)
     await sleep(620)
@@ -342,6 +379,25 @@ async function performEvent(event: any, index: number) {
   beamSide.value = event.type === 'special' || event.type === 'ace' ? event.attacker : ''
   sparking.value = true
   speedLines.value = event.type === 'special' || event.type === 'ace' || event.type === 'fatal'
+
+  const isCinematic = ['special', 'ace', 'fatal', 'breaker'].includes(event.type)
+  if (isCinematic) {
+    cinematic.value = true
+    fx(camera.value, {
+      scale: event.type === 'fatal' || event.type === 'ace' ? 1.22 : 1.14,
+      translateX: event.attacker === 'a' ? -46 : 46,
+      rotate: event.attacker === 'a' ? -2 : 2,
+      duration: 420,
+      ease: 'outQuad'
+    })
+  } else {
+    fx(camera.value, {
+      scale: 1.035,
+      translateX: event.attacker === 'a' ? -10 : 10,
+      duration: 220,
+      ease: 'outQuad'
+    })
+  }
 
   if (event.type === 'fatal' || event.type === 'ace') {
     fx(flash.value, { opacity: [0.75, 0], duration: 450, ease: 'outQuad' })
@@ -369,6 +425,7 @@ async function performEvent(event: any, index: number) {
   setTimeout(() => { hitSide.value = '' }, 430)
 
   fx(impact.value, { scale: [0, 1.6], opacity: [1, 0], rotate: [Math.random() * 90, Math.random() * 90 + 40], duration: 380, ease: 'outQuad' })
+  fx(shock.value, { scale: [0.2, 2.1], opacity: [0.85, 0], duration: 500, ease: 'outQuad' })
   fx(slash.value, { opacity: [0.9, 0], scaleX: [0.2, 1.5], duration: 340, ease: 'outQuad' })
 
   if (dmg.value) {
@@ -397,6 +454,8 @@ async function performEvent(event: any, index: number) {
   beamSide.value = ''
   sparking.value = false
   speedLines.value = false
+  cinematic.value = false
+  fx(camera.value, { scale: 1, translateX: 0, rotate: 0, duration: 420, ease: 'outQuad' })
 }
 
 function knockout() {
@@ -417,8 +476,10 @@ async function run() {
   shieldB.value = 100
   roundIndex.value = -1
   done.value = false
+  cinematic.value = false
   currentEvent.value = null
   eventText.value = ''
+  fx(camera.value, { scale: 1, translateX: 0, rotate: 0, duration: 0 })
   battleEvents.value = buildBattleEvents()
 
   fx(orbA.value, { translateX: [-130, 0], opacity: [0, 1], duration: 520, ease: 'outQuad' })
@@ -438,7 +499,7 @@ async function run() {
   })
   if (my !== token) return
 
-  fx(stage.value, { scale: [0.985, 1], duration: 420, ease: 'outQuad' })
+  fx(camera.value, { scale: [0.985, 1], duration: 420, ease: 'outQuad' })
   await sleep(300)
   if (my !== token) return
 
@@ -452,6 +513,7 @@ async function run() {
   eventText.value = `🏆 ${winner.value === 'a' ? props.a.full_name : props.b.full_name} gana`
   eventTone.value = 'ace'
   knockout()
+  emit('done')
   await sleep(400)
 }
 
@@ -470,7 +532,10 @@ function skip() {
   eventTone.value = last.type
   eventText.value = last.type === 'clash' ? last.label : `${typeLabel(last.type)} · ${last.label}`
   done.value = true
+  cinematic.value = false
+  fx(camera.value, { scale: 1, translateX: 0, rotate: 0, duration: 0 })
   knockout()
+  emit('done')
 }
 
 function fireConfetti() {
