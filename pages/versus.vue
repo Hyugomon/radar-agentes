@@ -3,15 +3,27 @@
     <span class="eyebrow">⚔️ Modo versus</span>
     <h1 style="font-size: clamp(32px, 4vw, 46px); margin: 16px 0 10px">Ponlos cara a cara</h1>
     <p class="muted" style="font-size: 16px; max-width: 720px">
-      Elige dos repos open source y deja que se peleen dimensión por dimensión. Gana el que más Grok Score
-      tiene; si empatan, decide el ADN y luego la dimensión de producto. Todo con los números reales del veredicto.
+      {{ mode === 'agents'
+        ? 'Elige dos repos open source y deja que se peleen dimensión por dimensión. Gana el que más Grok Score tiene; si empatan, decide el ADN y luego la dimensión de producto.'
+        : 'Elige dos ADEs y compara sus dimensiones: harnesses, paralelismo, orquestación, revisión, remoto y móvil. Nada de mezclar agentes con ADEs.' }}
     </p>
+
+    <div class="vs-modes">
+      <button class="vs-mode" :class="{ 'is-active': mode === 'agents' }" @click="setMode('agents')">
+        🤖 Agentes open source
+        <small>{{ agentItems.length }}</small>
+      </button>
+      <button class="vs-mode" :class="{ 'is-active': mode === 'ades' }" @click="setMode('ades')">
+        🧰 ADEs
+        <small>{{ adeItems.length }}</small>
+      </button>
+    </div>
 
     <div class="panel" style="padding: 22px; margin-top: 22px">
       <div class="picker-grid">
-        <AgentPicker v-model="slugA" :agents="agents" label="Retador A" />
+        <AgentPicker v-model="slugA" :agents="catalog" label="Retador A" />
         <div class="vs-middle"><div class="vs-badge">VS</div></div>
-        <AgentPicker v-model="slugB" :agents="agents" label="Retador B" />
+        <AgentPicker v-model="slugB" :agents="catalog" label="Retador B" />
       </div>
 
       <div class="vs-start">
@@ -19,9 +31,11 @@
           ▶ Iniciar versus
         </button>
         <button class="btn" @click="randomize">🎲 Aleatorio</button>
-        <button v-if="a && b" class="btn" @click="downloadCard">📸 Tarjeta</button>
+        <button v-if="a && b && mode === 'agents'" class="btn" @click="downloadCard">📸 Tarjeta</button>
       </div>
-      <p v-if="!canStart" class="tiny" style="text-align: center">Elige dos agentes distintos para comenzar.</p>
+      <p v-if="!canStart" class="tiny" style="text-align: center">
+        Elige dos {{ mode === 'agents' ? 'agentes' : 'ADEs' }} distintos para comenzar.
+      </p>
     </div>
 
     <div v-if="a && b && !battleOpen" class="panel" style="padding: 16px 20px; margin-top: 18px">
@@ -55,34 +69,74 @@
 </template>
 
 <script setup lang="ts">
-const { data } = await useFetch('/api/agents')
-const radar = data.value as any
-const agents = radar.groups.ready as any[]
-const meta = radar.meta
+const { data: agentsData } = await useFetch('/api/agents')
+const { data: adesData } = await useFetch('/api/ades')
+if (!agentsData.value || !adesData.value) throw createError({ statusCode: 502, statusMessage: 'Sin datos' })
+
 const route = useRoute()
 const router = useRouter()
 const { download } = usePoster()
 
+const agentMeta = (agentsData.value as any).meta
+const adeMeta = (adesData.value as any).meta
+
+const agentItems = ((agentsData.value as any).groups.ready || []).map((a: any) => ({
+  ...a,
+  dimensions: a.dimensions,
+  features: agentMeta.pillars.map((p: any) => ({ key: p.key, label: p.label, on: !!a.pillars?.[p.key] })),
+  subLabel: `ADN ${Math.round(a.agency)}`,
+  profileUrl: `/agente/${a.slug}`,
+  kind: 'agent'
+}))
+
+const adeItems = ((adesData.value as any).groups.ready || []).map((a: any) => ({
+  ...a,
+  full_name: a.name,
+  dimensions: a.scores,
+  features: a.features || [],
+  subLabel: `${a.features.filter((f: any) => f.on).length}/${a.features.length} capacidades`,
+  profileUrl: `/ades/${a.slug}`,
+  agency: 0,
+  confidence: 0,
+  stars: 0,
+  language: '',
+  kind: 'ade'
+}))
+
+const mode = ref<'agents' | 'ades'>('agents')
 const slugA = ref('')
 const slugB = ref('')
 const battleOpen = ref(false)
 const battleKey = ref(0)
 const arenaSlot = ref<HTMLElement | null>(null)
 
-const a = computed(() => agents.find(x => x.slug === slugA.value))
-const b = computed(() => agents.find(x => x.slug === slugB.value))
+const catalog = computed(() => mode.value === 'agents' ? agentItems : adeItems)
+const meta = computed(() => mode.value === 'agents' ? agentMeta : adeMeta)
+const a = computed(() => catalog.value.find((x: any) => x.slug === slugA.value))
+const b = computed(() => catalog.value.find((x: any) => x.slug === slugB.value))
 const canStart = computed(() => !!a.value && !!b.value && slugA.value !== slugB.value)
-
-const stamp = computed(() => String(radar.generated_at || '').slice(0, 10))
+const stamp = computed(() => String((mode.value === 'agents' ? agentsData.value : adesData.value)?.generated_at || '').slice(0, 10))
 
 function pickRandom(pool: any[]) {
   return pool[Math.floor(Math.random() * pool.length)]
 }
 
+function setMode(next: 'agents' | 'ades') {
+  if (mode.value === next) return
+  mode.value = next
+  battleOpen.value = false
+  const list = next === 'agents' ? agentItems : adeItems
+  slugA.value = list[0]?.slug || ''
+  slugB.value = list[1]?.slug || ''
+  router.replace({ query: { mode: next } })
+}
+
 function randomize() {
-  const first = pickRandom(agents)
-  const same = agents.filter(x => x.slug !== first.slug && x.generation === first.generation)
-  const others = agents.filter(x => x.slug !== first.slug)
+  const list = catalog.value
+  if (list.length < 2) return
+  const first = pickRandom(list)
+  const same = list.filter(x => x.slug !== first.slug && x.generation === first.generation)
+  const others = list.filter(x => x.slug !== first.slug)
   const second = pickRandom(same.length && Math.random() < 0.65 ? same : others)
   slugA.value = first.slug
   slugB.value = second.slug
@@ -92,7 +146,7 @@ function startBattle() {
   if (!canStart.value) return
   battleKey.value++
   battleOpen.value = true
-  router.replace({ query: { a: slugA.value, b: slugB.value } })
+  router.replace({ query: { mode: mode.value, a: slugA.value, b: slugB.value } })
   nextTick(() => arenaSlot.value?.scrollIntoView({ behavior: 'smooth', block: 'start' }))
 }
 
@@ -103,41 +157,35 @@ function rematch() {
 }
 
 function downloadCard() {
-  if (!a.value || !b.value) return
-  download(a.value, b.value, meta.dimensions, stamp.value)
-}
-
-function initials(name: string) {
-  const part = (name.split('/')[1] || name).replace(/[^a-zA-Z0-9]/g, '')
-  return part.slice(0, 2).toUpperCase()
-}
-function avatarBg(name: string) {
-  let h = 0
-  for (let i = 0; i < name.length; i++) h = (h * 31 + name.charCodeAt(i)) % 360
-  return `linear-gradient(135deg, hsl(${h} 68% 50%), hsl(${(h + 40) % 360} 68% 42%))`
+  if (mode.value !== 'agents' || !a.value || !b.value) return
+  download(a.value, b.value, meta.value.dimensions, stamp.value)
 }
 
 onMounted(() => {
-  const module_ = route.query.a as string | undefined
+  const queryMode = route.query.mode === 'ades' ? 'ades' : 'agents'
+  mode.value = queryMode
+  const list = queryMode === 'agents' ? agentItems : adeItems
+  const queryA = route.query.a as string | undefined
   const queryB = route.query.b as string | undefined
   const retador = route.query.retador as string | undefined
 
-  if (module_ && agents.some(x => x.slug === module_)) slugA.value = module_
-  if (queryB && agents.some(x => x.slug === queryB)) slugB.value = queryB
+  if (queryA && list.some(x => x.slug === queryA)) slugA.value = queryA
+  if (queryB && list.some(x => x.slug === queryB)) slugB.value = queryB
 
-  if (retador && agents.some(x => x.slug === retador)) {
+  if (retador && agentItems.some(x => x.slug === retador)) {
+    mode.value = 'agents'
     slugA.value = retador
     if (!slugB.value) {
-      const same = agents.filter(x => x.slug !== retador && x.generation === (agents.find(y => y.slug === retador)?.generation))
-      const pool = same.length ? same : agents.filter(x => x.slug !== retador)
+      const same = agentItems.filter(x => x.slug !== retador && x.generation === agentItems.find(y => y.slug === retador)?.generation)
+      const pool = same.length ? same : agentItems.filter(x => x.slug !== retador)
       slugB.value = pickRandom(pool).slug
     }
   }
 
-  if (!slugA.value) slugA.value = agents[0]?.slug || ''
-  if (!slugB.value) slugB.value = agents[1]?.slug || ''
+  if (!slugA.value) slugA.value = list[0]?.slug || ''
+  if (!slugB.value) slugB.value = list[1]?.slug || ''
   if (slugB.value === slugA.value) {
-    const other = agents.find(x => x.slug !== slugA.value)
+    const other = list.find(x => x.slug !== slugA.value)
     if (other) slugB.value = other.slug
   }
 
@@ -145,7 +193,7 @@ onMounted(() => {
 })
 
 useHead({
-  title: 'Versus: compara dos agentes open source cara a cara',
-  meta: [{ name: 'description', content: 'Duelo animado entre dos repos open source: 8 dimensiones, ADN Grok Bot y tarjeta para compartir. Con los números reales del radar.' }]
+  title: 'Versus: compara agentes open source y ADEs cara a cara',
+  meta: [{ name: 'description', content: 'Duelo animado entre agentes open source o entre ADEs, con dimensiones, desglose completo y tarjeta para compartir. Sin mezclar tipos.' }]
 })
 </script>

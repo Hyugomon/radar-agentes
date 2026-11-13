@@ -40,7 +40,7 @@
         <div class="a2-name">{{ a.full_name }}</div>
         <div class="a2-score">{{ displayA.toFixed(1) }}<span>pts</span></div>
         <div class="a2-hp"><i :style="{ width: hpA + '%' }" /></div>
-        <div class="a2-sub">#{{ a.rank }} · Tier {{ a.tier }} · ADN {{ Math.round(a.agency) }}</div>
+        <div class="a2-sub">#{{ a.rank }} · Tier {{ a.tier }} · {{ a.subLabel || `ADN ${Math.round(a.agency)}` }}</div>
       </div>
 
       <div class="a2-vs"><span>VS</span></div>
@@ -49,17 +49,11 @@
         <div class="a2-name">{{ b.full_name }}</div>
         <div class="a2-score">{{ displayB.toFixed(1) }}<span>pts</span></div>
         <div class="a2-hp"><i :style="{ width: hpB + '%' }" /></div>
-        <div class="a2-sub">#{{ b.rank }} · Tier {{ b.tier }} · ADN {{ Math.round(b.agency) }}</div>
+        <div class="a2-sub">#{{ b.rank }} · Tier {{ b.tier }} · {{ b.subLabel || `ADN ${Math.round(b.agency)}` }}</div>
       </div>
     </div>
 
-    <div class="a2-result" :class="{ on: done }">
-      <b v-if="done">👑 Gana {{ winnerName }} · Tier {{ winnerTier }}</b>
-      <span v-if="done">
-        por {{ margin.toFixed(1) }} pts · {{ dimsWon }} de {{ rounds.length }} dimensiones ·
-        ADN {{ Math.round(a.agency) }} vs {{ Math.round(b.agency) }}
-      </span>
-    </div>
+    <BattleBreakdown v-if="done" :a="a" :b="b" :meta="meta" :winner="winner" :margin="margin" :dims-won="dimsWon" />
   </section>
 </template>
 

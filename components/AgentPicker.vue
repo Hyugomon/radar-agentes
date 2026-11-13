@@ -26,10 +26,6 @@
       <button v-if="selected" class="btn btn--sm btn--ghost" style="padding: 3px 7px" @click.stop="clear">✕</button>
     </div>
 
-    <div v-if="selected && !open" class="tiny" style="margin-top: 6px">
-      #{{ selected.rank }} · Tier {{ selected.tier }} · {{ selected.total.toFixed(1) }} pts · ADN {{ Math.round(selected.agency) }}
-    </div>
-
     <div v-if="open" class="picker__list">
       <div v-if="!filtered.length" class="picker__empty">Sin resultados para “{{ query }}”.</div>
       <div

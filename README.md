@@ -11,7 +11,7 @@ coordinación y aprobaciones. Grok Bot **no compite** en el ranking; se usa como
 |---|---|
 | `/` | Ranking open source, shortlist, filtros y ficha lateral |
 | `/agente/[slug]` | Ficha completa (SSR, indexable) con fuentes y dossier |
-| `/versus` | Selector con buscador + batalla animada + tarjeta PNG |
+| `/versus` | Duelo entre agentes open source o entre ADEs, con desglose de dimensiones y características |
 | `/ades` | Ranking ADE con investigación uno por uno y cola de pendientes |
 | `/ades/[slug]` | Ficha ADE con dimensiones, checklist, fuentes y dossier |
 | `/metodologia` | Rúbrica, ADN Grok Bot, tiers, límites y qué queda fuera |

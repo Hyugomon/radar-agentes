@@ -462,6 +462,18 @@ blockquote {
 
 /* ---------- versus setup ---------- */
 .vs-hero { padding: 40px 0 8px; }
+.vs-modes { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 18px; }
+.vs-mode {
+  display: inline-flex; align-items: center; gap: 8px;
+  border: 1px solid var(--line); background: var(--panel); color: var(--ink-2);
+  border-radius: 12px; padding: 10px 14px; font-size: 13px; font-weight: 800; cursor: pointer;
+}
+.vs-mode small {
+  font-size: 10px; font-weight: 800; color: var(--ink-3);
+  background: var(--panel-2); border: 1px solid var(--line-2); border-radius: 999px; padding: 1px 6px;
+}
+.vs-mode.is-active { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.vs-mode.is-active small { color: var(--bg); background: rgba(255, 255, 255, .12); border-color: rgba(255, 255, 255, .18); }
 .picker-grid { display: grid; grid-template-columns: 1fr 84px 1fr; gap: 14px; align-items: start; }
 .picker { position: relative; }
 .picker__label {
@@ -631,6 +643,29 @@ blockquote {
 .a2-result b { display: block; font-size: 15px; }
 .a2-result span { font-size: 12px; color: var(--ink-2); }
 
+.a2-breakdown {
+  margin: 0 16px 16px; padding: 16px;
+  background: var(--panel); border: 1px solid var(--line); border-radius: 16px;
+}
+.a2-breakdown__head {
+  display: flex; justify-content: space-between; align-items: flex-end; gap: 12px;
+  flex-wrap: wrap; margin-bottom: 12px;
+}
+.a2-breakdown__head h3 { font-size: 20px; margin-top: 6px; }
+.a2-breakdown__grid { display: grid; grid-template-columns: 1.25fr .75fr; gap: 18px; }
+.vs-breakdown th, .vs-breakdown td { font-size: 11.5px; padding: 5px 6px; }
+.vs-breakdown .win { color: var(--good); font-weight: 900; }
+.vs-features { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.vs-feature-col {
+  background: var(--panel-2); border: 1px solid var(--line-2); border-radius: 12px;
+  padding: 10px; min-width: 0;
+}
+.vs-feature-head { display: flex; flex-direction: column; gap: 2px; margin-bottom: 8px; }
+.vs-feature { display: flex; gap: 6px; font-size: 11.5px; color: var(--ink-3); padding: 2px 0; line-height: 1.35; }
+.vs-feature.on { color: var(--ink-2); }
+.vs-feature > span { font-weight: 900; color: var(--bad); width: 12px; flex: 0 0 12px; }
+.vs-feature.on > span { color: var(--good); }
+
 @media (max-width: 720px) {
   .a2-stage { height: 240px; }
   .a2-hud { grid-template-columns: 1fr; }
@@ -664,6 +699,7 @@ blockquote {
   .shortlist__grid { grid-template-columns: repeat(2, 1fr); }
   .manifesto, .explainer { align-items: flex-start; flex-direction: column; }
   .manifesto__badges { justify-content: flex-start; max-width: none; }
+  .a2-breakdown__grid { grid-template-columns: 1fr; }
 }
 @media (max-width: 900px) {
   table.ranking thead th:nth-child(5), table.ranking tbody td:nth-child(5),
@@ -674,6 +710,7 @@ blockquote {
   .nav { display: none; }
   .header-actions { margin-left: auto; }
   .shortlist__grid { grid-template-columns: 1fr; }
+  .vs-features { grid-template-columns: 1fr; }
   table.ranking tbody td:nth-child(6) .tiny { display: none; }
   .datagrid { grid-template-columns: 1fr; }
 }
