@@ -1,27 +1,87 @@
-[
-  {
-    "tag": "v0.30.0",
-    "date": "2026-11-12",
-    "url": "https://github.com/microclaw/microclaw/releases/tag/v0.30.0"
-  },
-  {
-    "tag": "v0.29.1",
-    "date": "2026-11-11",
-    "url": "https://github.com/microclaw/microclaw/releases/tag/v0.29.1"
-  },
-  {
-    "tag": "v0.29.0",
-    "date": "2026-11-10",
-    "url": "https://github.com/microclaw/microclaw/releases/tag/v0.29.0"
-  },
-  {
-    "tag": "v0.28.0",
-    "date": "2026-11-09",
-    "url": "https://github.com/microclaw/microclaw/releases/tag/v0.28.0"
-  },
-  {
-    "tag": "v0.27.1",
-    "date": "2026-11-09",
-    "url": "https://github.com/microclaw/microclaw/releases/tag/v0.27.1"
-  }
-]
+{
+  "repo": "microclaw/microclaw",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "v0.31.0",
+      "title": "v0.31.0",
+      "date": "2026-11-13",
+      "url": "https://github.com/microclaw/microclaw/releases/tag/v0.31.0",
+      "pre": false,
+      "note": "MicroClaw Code 0.31: private project memory, Claude Code plugins and idle compaction ( docs/roadmap/mccode-competitive-plan-2026-11-cn.md , N5–N7). Added Private project memory. Besides the shared .microclaw/memory.md (in the repository), trusted projects now have a private memory in ~/.mccode/projects/ - /memory.md for your preferences and this machine's setup. Both are in the prompt of every turn; the agent is told which kind of fact goes where (a stated preference never goes to the shared file), and writing the private file does not ask for the outside-the-project approval. Worktrees share the main checkout's private memory. /memory opens both files in $EDITOR ( shared , private , show ). mccode import claude adds Claude Code's auto memory of the same repository, mccode import codex the items of Codex's memories. Plugins in the Claude Code layout. mccode plugin add [--plugin ] [--proj"
+    },
+    {
+      "tag": "v0.30.2",
+      "title": "v0.30.2",
+      "date": "2026-11-12",
+      "url": "https://github.com/microclaw/microclaw/releases/tag/v0.30.2",
+      "pre": false,
+      "note": "Full Changelog : v0.30.1...v0.30.2"
+    },
+    {
+      "tag": "v0.30.1",
+      "title": "v0.30.1",
+      "date": "2026-11-12",
+      "url": "https://github.com/microclaw/microclaw/releases/tag/v0.30.1",
+      "pre": false,
+      "note": "Prepare MicroClaw 0.30.1 AtomSprout identity release"
+    },
+    {
+      "tag": "v0.30.0",
+      "title": "v0.30.0",
+      "date": "2026-11-12",
+      "url": "https://github.com/microclaw/microclaw/releases/tag/v0.30.0",
+      "pre": false,
+      "note": "MicroClaw Code closes four everyday gaps found by comparing it with Claude Code, Codex CLI and OpenCode ( docs/roadmap/mccode-competitive-plan-2026-11-cn.md , N1–N4). Added Ctrl+B moves a running shell command to the background. The agent's bash call returns at once with the process id and the agent carries on; it reads the output later with bash_output and stops it with bash_kill . /jobs (terminal and Zed) lists background commands and sub-agent runs, /jobs shows the latest output and /jobs kill stops one, also while a turn runs. Foreground commands in a workspace now run through the process registry for this (stdout and stderr arrive interleaved, as in a terminal); a cancelled run still stops its command. SDK: MicroClaw::background_running_commands , background_jobs , background_job_output , kill_background_job . /rewind also rewinds the conversation. Going back to before a turn restor"
+    },
+    {
+      "tag": "v0.29.1",
+      "title": "v0.29.1",
+      "date": "2026-11-11",
+      "url": "https://github.com/microclaw/microclaw/releases/tag/v0.29.1",
+      "pre": false,
+      "note": "Fixed openai-codex no longer stops working when its OAuth token expires. The token from ~/.codex/auth.json was read and refreshed only when the provider was created at startup, so a long-running Server or mccode session kept sending an expired token and every request failed with HTTP 401 until a restart. The auth file is now read before every request, the token is refreshed (and written back) five minutes before it expires, and a 401 triggers one refresh and retry. Concurrent refreshes are serialised, so a rotated refresh token is never used twice. The startup refresh also used a blocking HTTP client inside the async runtime, which could panic when the token had already expired."
+    },
+    {
+      "tag": "v0.29.0",
+      "title": "v0.29.0",
+      "date": "2026-11-10",
+      "url": "https://github.com/microclaw/microclaw/releases/tag/v0.29.0",
+      "pre": false,
+      "note": "/goal works everywhere MicroClaw Code runs: the terminal, Zed and mccode -p . Zed also gains the common terminal commands. Added /goal in Zed and in mccode -p , sharing one loop with the terminal UI ( microclaw-code-core::goal ). --until makes a command the judge: the goal is reached only when it succeeds, it runs after every round, and its failing output goes into the next round. --rounds N sets the limit (default 8). In Zed one prompt runs every round and the stop button ends the goal; mccode -p \"/goal …\" exits 1 when the goal was not reached, and --json adds a goal object to the result. MicroClaw Code in Zed gains /btw , /check , /diff , /rewind [N] , /status , /export and /init , so the common terminal commands work there too. Trust stays a terminal decision ( mccode trust ). Changed /goal is stricter: GOAL COMPLETE counts only as the reply's last line, a reply ending in GOAL BLOCKED"
+    },
+    {
+      "tag": "v0.28.0",
+      "title": "v0.28.0",
+      "date": "2026-11-09",
+      "url": "https://github.com/microclaw/microclaw/releases/tag/v0.28.0",
+      "pre": false,
+      "note": "The Matrix channel is removed, and security advisories are fixed. Matrix went because its SDK pinned a vulnerable SQLite for every product built from this repository, and nothing showed that anyone used it. Removed The Matrix channel ( channel-matrix ), the full Cargo feature and the microclaw-full release archives, Homebrew formula, install.sh --full and install.ps1 -Full variant. The full variant differed from the default build only by Matrix. A channels.matrix block in an existing config is ignored with a warning. In the Homebrew tap, microclaw-full now renames to microclaw , so brew update moves existing installs over. --full and -Full are still accepted by the install scripts and only print a notice. Security rusqlite 0.41 (from 0.40), which bundles SQLite 3.54.1 through libsqlite3-sys 0.39.1, for RUSTSEC-2026-0459 ( CVE-2026-119375 ): SQLite before 3.54.0 could return uninitialized"
+    },
+    {
+      "tag": "v0.27.1",
+      "title": "v0.27.1",
+      "date": "2026-11-09",
+      "url": "https://github.com/microclaw/microclaw/releases/tag/v0.27.1",
+      "pre": false,
+      "note": "Fixes found by testing MicroClaw Code 0.27.0 in Zed and in the terminal with Anthropic's claude-opus-5 , including image prompts. Fixed Anthropic usage left out prompt-cache tokens (all products). Anthropic's input_tokens excludes cache reads and writes, so with prompt caching a request counted only a few input tokens. Token counts and costs were too low, /context and the context meter showed 0%, and mid-turn context-pressure compaction measured the wrong number. Cache reads and writes now count as input, streamed and not, as they already did for OpenAI-compatible providers. A final message_delta that carries only output_tokens no longer drops the input count. MicroClaw Code's model pickers (Zed's model selector and the TUI /model list) offered preset family names such as claude-sonnet , claude-opus and claude-1m . These are not model names, and choosing one failed with not_found_error ."
+    },
+    {
+      "tag": "v0.27.0",
+      "title": "v0.27.0",
+      "date": "2026-11-08",
+      "url": "https://github.com/microclaw/microclaw/releases/tag/v0.27.0",
+      "pre": false,
+      "note": "MicroClaw Code becomes a first-class agent in Zed ( mccode acp ), and the website and docs now recommend Zed as the main way to use it, with the terminal interface as the alternative. Added MicroClaw Code in Zed ( mccode acp ) now speaks ACP protocol v1 with schema 1.15: mode and model selectors (session config options), slash commands ( /review , /compact , /undo , /cost , /context , /help and custom commands), the context and cost indicator, real file diffs with old and new text, absolute paths so Zed can follow the agent, project checks as their own tool cards, thread titles and history ( session/list , resume, close), notices and compaction updates, and a sign-in prompt that runs mccode setup in a terminal when no model is configured. scripts/acp_registry_entry.py writes the ACP Registry entry for a release ( packaging/acp-registry/ ). Fixed mccode acp and mccode mcp-server use model"
+    },
+    {
+      "tag": "v0.26.0",
+      "title": "v0.26.0",
+      "date": "2026-11-07",
+      "url": "https://github.com/microclaw/microclaw/releases/tag/v0.26.0",
+      "pre": false,
+      "note": "MicroClaw Code becomes a fully separate product from the MicroClaw Server. After upgrading, run mccode setup (or add a model profile to ~/.mccode/settings.yaml ); an old ~/.microclaw/code is not read. Changed MicroClaw Code is fully separate from the MicroClaw Server. Its home moves from ~/.microclaw/code to ~/.mccode (nothing is migrated: move the old directory by hand to keep settings and sessions). Code no longer borrows model credentials from MICROCLAW_CONFIG or ~/.microclaw/microclaw.config.yaml : it uses --config , MCCODE_CONFIG , ~/.mccode/config.yaml or a settings profile. Its variables are MCCODE_HOME , MCCODE_CONFIG , MCCODE_SANDBOX , MCCODE_MANAGED , MCCODE_LOCAL_SANDBOX , MCCODE_PATH_ALLOWLIST and MCCODE_REPO (the old MICROCLAW_CODE_* names are no longer read), and Server variables such as MICROCLAW_CONFIG , MICROCLAW_SKILLS_DIR and MICROCLAW_LOCAL_SANDBOX no longer affect it"
+    }
+  ]
+}

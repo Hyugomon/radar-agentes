@@ -1,27 +1,87 @@
-[
-  {
-    "tag": "OpenBitFun 1.0.10",
-    "date": "2026-11-09",
-    "url": "https://github.com/openBitFun/OpenBitFun/releases/tag/v1.0.10"
-  },
-  {
-    "tag": "nightly: Merge pull request #3848 from kev1n77/fmy/bugfix",
-    "date": "2026-11-09",
-    "url": "https://github.com/openBitFun/OpenBitFun/releases/tag/nightly"
-  },
-  {
-    "tag": "OpenBitFun 1.0.9",
-    "date": "2026-11-06",
-    "url": "https://github.com/openBitFun/OpenBitFun/releases/tag/v1.0.9"
-  },
-  {
-    "tag": "OpenBitFun 1.0.8",
-    "date": "2026-10-29",
-    "url": "https://github.com/openBitFun/OpenBitFun/releases/tag/v1.0.8"
-  },
-  {
-    "tag": "OpenBitFun 1.0.7",
-    "date": "2026-10-22",
-    "url": "https://github.com/openBitFun/OpenBitFun/releases/tag/v1.0.7"
-  }
-]
+{
+  "repo": "openBitFun/OpenBitFun",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "v1.0.11",
+      "title": "v1.0.11: Merge pull request #3917 from openBitFun/gcwing/release-1.0.11",
+      "date": "2026-11-14",
+      "url": "https://github.com/openBitFun/OpenBitFun/releases/tag/v1.0.11",
+      "pre": false,
+      "note": "chore(release): prepare 1.0.11 stable release"
+    },
+    {
+      "tag": "v1.0.10",
+      "title": "OpenBitFun 1.0.10",
+      "date": "2026-11-09",
+      "url": "https://github.com/openBitFun/OpenBitFun/releases/tag/v1.0.10",
+      "pre": false,
+      "note": "OpenBitFun 1.0.10 桌面端更新 Office 文档生成：新增 Word、Excel、PowerPoint 文档的增量创建与编辑，支持 Excel 图表、Word 公式、多语言内容和字体继承，并完善文件导出与错误恢复。 消息队列：待发送消息以输入框托盘呈现，支持预览、编辑和排序；移动端提供原生排序操作，CLI 提供键盘管理，队列顺序由执行宿主统一维护。 多设备工作台：支持本地管理设备排序与侧边栏可见性，改进设备预览、切换动画和会话预热；修复 Peer Device 会话附件、控制端文件选择和主题设置的归属问题。 Generative UI 与 Agent：不完整的交互界面可自动修复，减少修复过程中的额外消息；完善 MiniApp 会话恢复、BTW 权限继承和 Claw 用户问题处理，并新增 BTW 关闭确认偏好。 搜索与链接：新增 Keenable Search 搜索服务，可为会话链接选择默认浏览器，并在多个窗口间同步浏览器偏好。 会话与快捷键：改进回滚后的历史恢复与空状态、工具组宽度和长错误文本展示，修复标签关闭、画布导航及快捷键录制的焦点与冲突处理。 性能与稳定性：降低长轮次流式投影、滚动和工作台常驻渲染开销，改进终端生命周期；修复禁用代理和 Windows 代理绕过规则，并在系统托盘新增重启入口。 远程控制：Relay 链接改用版本查询参数并兼容旧版入口与已保存凭据，机器人模型菜单显示实际模型名称，移动端 Web 使用轮次完成时间标记回复。"
+    },
+    {
+      "tag": "nightly",
+      "title": "nightly: Merge pull request #3848 from kev1n77/fmy/bugfix",
+      "date": "2026-11-09",
+      "url": "https://github.com/openBitFun/OpenBitFun/releases/tag/nightly",
+      "pre": true,
+      "note": "fix(ci): reuse Bun executable caches without PR writes"
+    },
+    {
+      "tag": "v1.0.9",
+      "title": "OpenBitFun 1.0.9",
+      "date": "2026-11-06",
+      "url": "https://github.com/openBitFun/OpenBitFun/releases/tag/v1.0.9",
+      "pre": false,
+      "note": "更新演示 / What’s New 中文 OpenBitFun-1.0.9-demo-cn.mp4 English OpenBitFun-1.0.9-demo-en.mp4 OpenBitFun 1.0.9 桌面端更新 多设备工作台：可在侧边栏、会话标签和 Agent companion 中浏览其他设备的工作区与会话，支持跨设备打开项目、创建项目、重命名设备和管理会话。 远程工作区与控制：SSH 支持 ProxyCommand 与预认证隧道，改进 SFTP 恢复、远程搜索和终端链接；CLI 可提供文件、Git、会话用量及远程控制能力，并支持向其他设备派发任务。 移动端控制：新增设备模型角色设置、命令面板、会话用量查看和子 Agent 实时任务卡片；支持一键发送下一轮建议，并改进会话与设备切换体验。 Generative UI：集成 OpenUI Lang 流式交互界面，提供组件库、HTML 渲染、交互状态与能力调用，跟随 OpenBitFun 明暗主题和语义颜色，并改进渲染失败后的修复体验。 Agent 与扩展：项目 Hooks 可在远程工作区运行，Python 程序化工具调用可用，Claw 与 Cowork 默认支持 Generative UI，并扩展 Pages 管理能力。 图片生成与 ACP：ChatGPT 订阅使用独立图片请求；外部 ACP 会话创建时显示启动进度，失败时提供错误提示与重试，减少初始化元数据的重复读取。 桌面与会话体验：新增 Windows 桌面卡片固定，改进模型设置、项目默认模型与模式、上下文浏览、全局搜索、历史加载和流式会话恢复。 输入与消息：改进输入框撤销、重做及中文输入分组，大段粘贴发送后可查看、复制和重新编辑完整内容，修复展开消息被外部点击意外收起的问题。 长会话性能：按 Markdown 语义分段和内容块限制渲染开销，优化代码高亮、流式前缀复用与历史滚动，保留搜索、摘录、书签及阅读位置。 远程传输性能：支持协商 Zstd 消息压缩，兼容旧版设备；复用会话预热、并行连接准备和历史读取，减少打开会话、发送消息及空闲状态查询的等待。 稳定性"
+    },
+    {
+      "tag": "v1.0.8",
+      "title": "OpenBitFun 1.0.8",
+      "date": "2026-10-29",
+      "url": "https://github.com/openBitFun/OpenBitFun/releases/tag/v1.0.8",
+      "pre": false,
+      "note": "What's Changed feat: add threshold-based model selection (default 0.7) by @xuanaozhang1-coder in #2884 feat(router): align token-aware context compression by @xuanaozhang1-coder in #2945 fix: improve DeepSeek Harness history imports by @kev1n77 in #3501 docs: refresh README media and community links by @GCWing in #3510 revert(web-ui): remove the navigation bar October 24 accent by @bobleer in #3511 fix(web-ui): remember the session right pane open state per session by @kev1n77 in #3506 fix(process,hooks): restore login-shell PATH on linux and stop timed-out hook process groups by @kev1n77 in #3512 fix(desktop): restore pet navigation with embedded browser views by @bobleer in #3513 fix(remote-ssh): strip WSL host diagnostics from streamed stderr by @kev1n77 in #3514 fix(remote-ssh): stop reporting a delivered kill as a missing process by @kev1n77 in #3515 fix(desktop): isolate developmen"
+    },
+    {
+      "tag": "v1.0.7",
+      "title": "OpenBitFun 1.0.7",
+      "date": "2026-10-22",
+      "url": "https://github.com/openBitFun/OpenBitFun/releases/tag/v1.0.7",
+      "pre": false,
+      "note": "下载 / Downloads 桌面端 / Desktop Windows x64 : 安装包 macOS : Apple Silicon | Intel Linux AppImage : x64 | ARM64 Linux DEB (Debian/Ubuntu) : x64 | ARM64 Linux RPM (Fedora/RHEL) : x64 | ARM64 手机端 Beta / Mobile Beta Android（1.0.0 Beta） : APK iOS（1.0.0 TestFlight Beta） : 公开测试链接 HarmonyOS（1.0.0 Beta） : 联系 wgq0617@gmail.com 加入测试组 What's Changed fix(release): preserve icon source bytes on Windows by @wgqqqqq in #3403 fix(remote): keep official and LAN relay connections independent by @bobleer in #3405 feat(data-tools): Add offline session recovery by @wsp1911 in #3387 ci(release): publish ready Windows and Linux assets independently by @wgqqqqq in #3410 ci(release): disable pnpm cache setup in standalone publisher by @wgqqqqq in #3412 fix(release): retry transient Apple ticket connection failures by @wgqqqqq in #3409 ci(desktop): recover signed Mac packages and finalize existing artifacts by @wgqqqqq"
+    },
+    {
+      "tag": "v1.0.6",
+      "title": "OpenBitFun 1.0.6",
+      "date": "2026-10-15",
+      "url": "https://github.com/openBitFun/OpenBitFun/releases/tag/v1.0.6",
+      "pre": false,
+      "note": "下载 / Downloads 桌面端 / Desktop Windows x64 : 安装包 macOS : Apple Silicon | Intel Linux AppImage : x64 | ARM64 Linux DEB (Debian/Ubuntu) : x64 | ARM64 Linux RPM (Fedora/RHEL) : x64 | ARM64 手机端 Beta / Mobile Beta Android（1.0.0 Beta） : APK iOS（1.0.0 TestFlight Beta） : 公开测试链接 HarmonyOS（1.0.0 Beta） : 联系 wgq0617@gmail.com 加入测试组 What's Changed Fix legacy session migration and add confirmed data reset by @wsp1911 in #3326 fix(mobile): keep the settings pull-down in the body, not the sheet by @wgqqqqq in #3324 fix(migration): Stabilize assistant workspace paths by @wsp1911 in #3328 fix(settings): stabilize loading and reuse device-scoped snapshots by @GCWing in #3329 fix(desktop): preserve macOS fullscreen window chrome by @GCWing in #3330 fix(settings): simplify model pool empty state copy by @GCWing in #3331 fix(flow-chat): accept directories from the context picker on Enter and click by @kev1n77 i"
+    },
+    {
+      "tag": "mobile-v1.0.0",
+      "title": "OpenBitFun Mobile 1.0.0 (debug signing)",
+      "date": "2026-10-10",
+      "url": "https://github.com/openBitFun/OpenBitFun/releases/tag/mobile-v1.0.0",
+      "pre": false,
+      "note": "What's Changed Fix legacy session migration and add confirmed data reset by @wsp1911 in #3326 fix(mobile): keep the settings pull-down in the body, not the sheet by @wgqqqqq in #3324 Full Changelog : v1.0.5...mobile-v1.0.0"
+    },
+    {
+      "tag": "data-migrator-v0.1.2",
+      "title": "OpenBitFun Data Migrator data-migrator-v0.1.2",
+      "date": "2026-10-10",
+      "url": "https://github.com/openBitFun/OpenBitFun/releases/tag/data-migrator-v0.1.2",
+      "pre": false,
+      "note": "BitFun → OpenBitFun Data Migrator 将旧版 BitFun 的配置、会话、工作区及其他受支持数据迁移到 OpenBitFun。迁移器保留旧版数据，不会自动删除 BitFun 的数据目录。 Migrate settings, sessions, workspaces, and other supported data from BitFun to OpenBitFun. The migrator preserves the original BitFun data and does not automatically delete its data directories. 最新版本与使用指南： 中文 · Latest release and guide: English v0.1.2 中文 修复助理工作区与会话迁移后的关联问题，解决部分会话无法继续对话的问题。 将旧版 Auto 模型选择迁移为主力模型，并兼容已迁移的历史会话。 新增 重置 OpenBitFun 数据 功能，可确认清空目标数据后重新迁移，保留旧 BitFun 来源数据。 English Fixed workspace and session references so migrated assistant conversations can continue normally. Converted legacy Auto model selections to the primary model, with compatibility for previously migrated sessions. Added Reset OpenBitFun Data to clear destination data after confirmation and start a fresh migration, preserving the original BitFun source."
+    },
+    {
+      "tag": "v1.0.5",
+      "title": "OpenBitFun 1.0.5",
+      "date": "2026-10-09",
+      "url": "https://github.com/openBitFun/OpenBitFun/releases/tag/v1.0.5",
+      "pre": false,
+      "note": "下载 / Downloads 桌面端 / Desktop Windows x64 : 安装包 macOS : Apple Silicon | Intel Linux AppImage : x64 | ARM64 Linux DEB (Debian/Ubuntu) : x64 | ARM64 Linux RPM (Fedora/RHEL) : x64 | ARM64 手机端 Beta / Mobile Beta Android（1.0.0 Beta） : APK iOS（1.0.0 TestFlight Beta） : 公开测试链接 HarmonyOS（1.0.0 Beta） : 联系 wgq0617@gmail.com 加入测试组 What's Changed fix(updater): restore proactive reminders with lower-frequency checks by @GCWing in #3267 fix: repair build cache preflight and hide companion bubbles on focus by @GCWing in #3272 refactor(settings): reorganize pages and fix interaction and Gemini regressions by @GCWing in #3276 fix(btw): discard temporary side threads and save durable forks by @GCWing in #3277 Standardize agent collaboration and prompt contracts, and fix Windows image paths by @wsp1911 in #3280 feat(ai): simplify model selection and add turn usage metrics by @GCWing in #3281 fix(tool-call-js"
+    }
+  ]
+}

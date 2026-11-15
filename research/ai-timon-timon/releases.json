@@ -1,7 +1,15 @@
-[
-  {
-    "tag": "Timon 0.1.7",
-    "date": "2026-11-06",
-    "url": "https://github.com/ai-timon/timon/releases/tag/v0.1.7"
-  }
-]
+{
+  "repo": "ai-timon/timon",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "v0.1.7",
+      "title": "Timon 0.1.7",
+      "date": "2026-11-06",
+      "url": "https://github.com/ai-timon/timon/releases/tag/v0.1.7",
+      "pre": false,
+      "note": "Added Plugins can draw their menu entry with the product's own ( NavLink from @timon/ui ), so it folds with the side menu instead of squeezing its label into it. When accounts beyond the first superadmin are suspended (no pro licence, or no Multi-user plugin), the superadmin gets a card saying why; their data are kept. Signed plugins can now manage a team's accounts: add accounts and open their sessions ( accounts:provision ), say which rights each account holds ( accounts:permissions-source ), and serve pages without a session such as an invitation ( http:public ). The account provider also reads and updates the accounts it serves, writes the audit log, and reads the catalogue of rights a role can grant. Plugins can keep their data in a SQLite database of their own ( ctx.sql , permission storage:sql ), with migrations declared in their manifest and applied when they start. The Git widge"
+    }
+  ]
+}

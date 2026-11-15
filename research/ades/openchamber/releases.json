@@ -1,0 +1,87 @@
+{
+  "repo": "openchamber/openchamber",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "v2.7.2",
+      "title": "OpenChamber v2.7.2: Share pages with your teammates",
+      "date": "2026-11-15",
+      "url": "https://github.com/openchamber/openchamber/releases/tag/v2.7.2",
+      "pre": false,
+      "note": "New Share pages: an agent can ask your teammates. When an answer has to come from someone else, the agent sends them a page , and the chat shows a link and PIN for each person. Their answers come back into the session with a notification. Share pages: a shared link pasted into the composer opens the page in your own OpenChamber, so your agent sees it too. Pages on the rail lists every page you received, and Add to chat attaches one to your message. Browser: dictate into annotation comments and mark up PDFs. The comment field takes your voice and shows the microphone level, and a PDF in the panel takes Region and Draw marks. Browser: the agent clicks, types, drags and uploads files in the panel the way a person does, also inside embedded frames. It answers page dialogs itself and browses in a profile of its own unless you share yours. Chat: pick the chat width in Settings > Chat > Reading"
+    },
+    {
+      "tag": "canary",
+      "title": "OpenChamber Canary",
+      "date": "2026-11-15",
+      "url": "https://github.com/openchamber/openchamber/releases/tag/canary",
+      "pre": true,
+      "note": "OpenChamber Canary 2.7.3-canary.20261115.21, built from aa1031f . The nightly build of main. In the desktop app, or in the browser page of a server installed from npm (@openchamber/web@canary), Settings → About → Updates: pick Canary to update into it, Stable to go back. Expect rough edges. Downloads System File macOS, Apple Silicon .dmg macOS, Intel .dmg Windows, x64 .exe Windows, ARM .exe Linux, x64 .AppImage , .deb , .rpm Linux, ARM .AppImage , .deb , .rpm Android .apk"
+    },
+    {
+      "tag": "v2.7.1",
+      "title": "OpenChamber v2.7.1: Extensions in your pocket",
+      "date": "2026-11-12",
+      "url": "https://github.com/openchamber/openchamber/releases/tag/v2.7.1",
+      "pre": false,
+      "note": "New Mobile: extensions work on the phone. Their blocks in the chat, Work status sections, popovers and file editors show on the phone and in the mobile app, and an extension that supports it gets its own workspace tab. Search: one search for conversations in the sidebar, Archive and the command palette. It finds titles and message text as you type, a menu in the field picks where to look, archived conversations come in their own group, and message search is on by default (thanks to @mattv8 ). Memory: Organize memory tidies what agents remember. While no session runs, it merges duplicates and removes finished or outdated entries, the Memory panel shows what the last pass changed with Undo, and Move puts project rules into AGENTS.md or a skill. Turn it on in Settings > General > OpenChamber Tools. Worktrees: a project can create its worktrees with its own command, such as a copy-on-write c"
+    },
+    {
+      "tag": "v2.7.0",
+      "title": "OpenChamber v2.7.0: Build your own extensions with /new-extension",
+      "date": "2026-11-08",
+      "url": "https://github.com/openchamber/openchamber/releases/tag/v2.7.0",
+      "pre": false,
+      "note": "New Extensions: build your own with /new-extension. Describe what you want, the agent writes and builds the extension, and an Install button shows up right in the chat. Extensions can now draw in the chat, answer the agent's questions, act on sessions on their own, add actions and @ rows, and offer updates. Files: work on spreadsheets and documents without leaving the app. Word, PowerPoint, Excel and OpenDocument files open in the viewer. Tables sort, filter, resize and edit with formulas and undo, selected cells or text go to the composer as a quote, and cells the agent changed stay marked. Chat: run a command from the agent's reply. Shell code blocks in a finished reply have a Run button. The output shows in the block, and the agent carries on when the command ends. Files: SQLite, Parquet, zip and Jupyter files open read-only, Office files compare in Changes, commits and pull requests,"
+    },
+    {
+      "tag": "asr-models",
+      "title": "Speech models",
+      "date": "2026-11-08",
+      "url": "https://github.com/openchamber/openchamber/releases/tag/asr-models",
+      "pre": false,
+      "note": "Local speech-to-text models OpenChamber downloads on demand. Parakeet Ultra: int8 sherpa-onnx export of moondream/parakeet-ultra (CC BY 4.0), see README inside the archive."
+    },
+    {
+      "tag": "v2.6.1",
+      "title": "OpenChamber v2.6.1: Less CPU for doing nothing",
+      "date": "2026-11-04",
+      "url": "https://github.com/openchamber/openchamber/releases/tag/v2.6.1",
+      "pre": false,
+      "note": "New Code review: review a pull request right in its diff. Comment on lines, ranges and whole files, suggest changes, and read open threads under their lines, then press Review to send it with a verdict. Works with GitHub, GitLab, Gerrit, Gitea and Forgejo, and a draft follows you to your other devices. Git: a GitHub PR with checks still running merges itself when it's ready. The PR actions show In merge queue with its position, or Auto-merge on with Cancel. A notification comes when it merges, closes or fails, even with every window closed as long as OpenChamber is running; Settings > Notifications turns that off. The repository needs auto-merge allowed on GitHub. Sessions: Move session... in the session and header menus moves any session to another folder. A session whose folder was renamed or deleted offers it above the composer and keeps what you typed (thanks to @yulia-ivashko ). Lin"
+    },
+    {
+      "tag": "v2.6.0",
+      "title": "OpenChamber v2.6.0: Sidebar redesign, now by you",
+      "date": "2026-11-02",
+      "url": "https://github.com/openchamber/openchamber/releases/tag/v2.6.0",
+      "pre": false,
+      "note": "New Chat: agents draw tables, charts, steps and forms in their replies. They use the app's own look whatever model wrote them, and a form collects your choices and sends them back as one answer. Sidebar: arrange its sections and build your own. Reorder Chats, Pinned, In work and Projects, and add sections that filter by state, type, linked PR or issue, title or project, or group several projects under one caption. Open it from the display menu with Customize sections. Canary builds: pick Stable or Canary updates in Settings > About. Canary is built from main every night, shows what changed, and carries the Android and iOS apps (thanks to @yulia-ivashko ). Memory: agents can keep what they learn across sessions . Turn on Agent memory tool in Settings > General > OpenChamber Tools; the entries show on the Memory tab of Project knowledge. Workflows: an agent can run a multi-step job with a "
+    },
+    {
+      "tag": "v2.5.3",
+      "title": "OpenChamber v2.5.3: Agents ship the icons too",
+      "date": "2026-10-28",
+      "url": "https://github.com/openchamber/openchamber/releases/tag/v2.5.3",
+      "pre": false,
+      "note": "New Snippets: save a message, a piece of selected text or your draft as a snippet from its menu or the # picker. In Settings you can rename a snippet, move it between project and global, and preview what it expands to. Images: agents can generate images with an image model you pick in Settings > General > OpenChamber Tools. The pictures show in the chat with a download button. Off by default. Auto-review: the review loop keeps going when you close the tab or lock the phone. It stops after five rounds, notifies you once when it ends, and a disputed result shows both positions in place. Header tabs: a new option keeps separate tabs for each project and worktree, and shows the tabs of the place you are in. Agents: an agent can wait on its pull request and wakes up when a check fails or passes, someone comments, or it is merged. The composer shows the pull request with Stop watching. Sidebar"
+    },
+    {
+      "tag": "v2.5.2",
+      "title": "OpenChamber v2.5.2: Our monthly sidebar redesign",
+      "date": "2026-10-26",
+      "url": "https://github.com/openchamber/openchamber/releases/tag/v2.5.2",
+      "pre": false,
+      "note": "New Sidebar: the sidebar lists works. A work is a worktree with all its sessions, or a session in the main checkout with its forks, reviews and subagents, shown as one row with the task name, PR or issue and live state. Done finishes a work and closes its tabs. Worktree archive: archiving a worktree removes its folder, so it takes no disk space, and keeps its branch, sessions and even uncommitted changes. Restore on the Archive page brings it all back, and cleanup after a merged PR archives the same way. Folder trust: before OpenCode runs a folder's plugins, MCP servers or other commands from its configuration, the app shows what would run and asks you to trust it. It asks again when that configuration changes; projects already in your list are trusted. GitHub Discussions: discussions sit beside issues and pull requests on the board, in the attach menu and in New worktree. You can read a"
+    },
+    {
+      "tag": "v2.5.1",
+      "title": "OpenChamber v2.5.1: Tea time for git",
+      "date": "2026-10-23",
+      "url": "https://github.com/openchamber/openchamber/releases/tag/v2.5.1",
+      "pre": false,
+      "note": "New Git hosts: Gitea, Forgejo and Gerrit join GitHub and GitLab. Connect one in Settings and the board, PR badges, Changes, reviews and merges work with it; Codeberg is ready on the Forgejo card, and Gerrit changes show their patchsets and votes. Stacked pull requests: a PR's preview shows the stack it sits in, New branch on top starts a worktree on top of a PR, a PR opened on another PR's branch joins its stack on GitHub, and merging a stacked PR works. Usage limits: when a provider's limit stops a session, the app can switch to the provider's next account or move the session to a fallback model and carry on. Both are off until you turn them on, per provider in Providers and in Settings › Sessions › Usage limits. GitHub Enterprise: pull requests on your company's GitHub server work in the app, connected with a personal access token (thanks to @ss38230119 ). External tunnel: Tailscale Se"
+    }
+  ]
+}

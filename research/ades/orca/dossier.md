@@ -11,6 +11,15 @@
 
 Workspace para correr Claude Code, Codex y otros harnesses en paralelo, con worktrees aislados, revisión de cambios y companion móvil.
 
+## Release revisada
+
+- **Tag**: [mobile-android-v0.0.65](https://github.com/stablyai/orca/releases/tag/mobile-android-v0.0.65)
+- **Fecha**: 2026-11-15 (hace 0 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> This is the last update for this app Orca for Android has moved to a new app, dev.orca.app . It's on Google Play , and as an APK on GitHub for phones without Play. This app ( com.stably.orca.mobile ) won't get any more updates after this one, including security fixes. The new app is separate, so it can't update this one in place. You need to install it once, and from then on it updates itself. What this update does When you open Orca, it shows you how to move to the new app. Its name on your home screen is now Orca (old) , so you can tell the two apart. Switching to the new app Install the new app from Google Play. If your phone doesn't have Play, download the APK from the new app's release 
+
 ## Evidencia
 
 ### harnesses

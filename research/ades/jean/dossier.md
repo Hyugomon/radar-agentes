@@ -5,18 +5,29 @@
 - **Licencia**: Comercial
 - **Categoría**: workspace
 - **Revisado**: 2026-11-13
-- **ADE Score**: 79.44 · Tier A
+- **ADE Score**: 80.36 · Tier A
 
 ## Qué es
 
-Workspace open source para agentes de código, worktrees, MCP y entrega con GitHub, con acceso local, SSH o servidor propio.
+Workspace open source para agentes de código, worktrees, MCP y entrega con GitHub, con acceso local, SSH o servidor propio y más proveedores como QwenCloud y CLIProxyAPI.
+
+## Release revisada
+
+- **Tag**: [v1.0.15](https://github.com/coollabsio/jean/releases/tag/v1.0.15)
+- **Fecha**: 2026-11-12 (hace 3 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+**Qué trae**: 1.0.15: QwenCloud, Claude Fable 5.2 y CLIProxyAPI como proveedor para todos los backends.
+
+**Impacto en la ficha**: Tier A (+0.92): Harnesses 86→88, Extensiones 65→70 y Producto 78→80.
+
+> Features Added QwenCloud provider presets with region and billing mode selection and automatic model fetching ( #898 ) Added Claude Fable 5.2 to the model list Added CLIProxyAPI as a provider for every backend, with an option to pick it as the default provider Added per-account CLIProxyAPI usage in the usage cards and the quick menu, with guidance for Claude terms errors Added account login buttons for CLIProxyAPI on the collapsed row and in the backend CLI sections Read Claude models from CLIProxyAPI and showed API retries Grouped the CLIProxyAPI usage steps into sections and made the commands copyable Showed only the latest model per family in the model picker, with a toggle to show older 
 
 ## Evidencia
 
 ### harnesses
-- “issue #1234 or a prompt Jean pick any backend Claude Codex OpenCode Cursor Pi Command Code Grok Kimi Code Local · Remote · Web Local and remote, in one sidebar .” — https://github.com/coollabsio/jean#readme
-- “Jean is an open-source AI assistant that helps you manage multiple projects, worktrees, and sessions with Claude CLI, Codex CLI, OpenCode, Cursor, Pi, Command Code, Grok, and Kimi Code.” — https://github.com/coollabsio/jean#readme
-- “Jean supports Claude CLI, Codex CLI, OpenCode, Cursor, Pi, Command Code, Grok, and Kimi Code.” — https://github.com/coollabsio/jean#readme
+- “Added QwenCloud provider presets with region and billing mode selection and automatic model fetching. Added CLIProxyAPI as a provider for every backend, with an option to pick it as the default provider.” — https://github.com/coollabsio/jean/releases/tag/v1.0.15
 
 ### paralelo
 - “Run Claude, Codex, Cursor, OpenCode, Pi, Command Code, Grok, Kimi Code, Antigravity, and Muse in parallel - each in its own git worktree - on your laptop or your own server.” — https://github.com/coollabsio/jean#readme
@@ -46,21 +57,22 @@ Workspace open source para agentes de código, worktrees, MCP y entrega con GitH
 
 ## Dimensiones
 
-- **Harnesses**: 86/100
+- **Harnesses**: 88/100
 - **Paralelismo**: 84/100
 - **Orquestación**: 78/100
 - **Revisión**: 80/100
 - **Remoto / cloud**: 84/100
 - **Móvil**: 80/100
-- **Extensiones**: 65/100
+- **Extensiones**: 70/100
 - **Control**: 65/100
 - **Apertura**: 90/100
-- **Producto**: 78/100
+- **Producto**: 80/100
 
 ## Fortalezas
 
 - Local, SSH o self-hosted
 - Worktrees y PRs
+- QwenCloud, Claude Fable 5.2 y CLIProxyAPI
 - Open source
 
 ## Carencias

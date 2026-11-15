@@ -5,7 +5,7 @@
 - **Licencia**: Apache-2.0
 - **Lenguaje**: Rust
 - **Estrellas**: 2052 · **Forks**: 208
-- **Último push**: 2026-11-12T07:07:19Z · **Última release**: 2026-11-11
+- **Último push**: 2026-11-12T07:07:19Z · **Última release**: 2026-11-14
 - **Revisado**: 2026-11-12 · **Confianza**: 62/100
 - **Tipo**: bot · **Categoría**: teams
 
@@ -18,6 +18,15 @@ Codync es una app de escritorio y iOS, escrita en Rust y autoalojada, que convie
 ## Nota de verificación
 
 README: bots persistentes con nombre, memoria por bot, group chats, aprobaciones y herramienta de computadora. No encontré scheduler/rutinas en el README, así que rutinas queda en falso. Los agentes corren en tu computadora.
+
+## Release revisada
+
+- **Tag**: [v2.47.0](https://github.com/leepokai/Codync/releases/tag/v2.47.0)
+- **Fecha**: 2026-11-14 (hace 1 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> Codync 2.47.0 Login profiles : an agent can have more than one login on a computer. Add another account (Claude Code, Codex, OpenCode, Pi, Google Antigravity and more) or an API key for any agent, name each one, and pick which a bot uses under Agent in its settings. Key values stay on the computer; variables from your login shell reach an agent only when you import them. A fallback can be the same agent on another login profile: when one runs out of usage, the bot carries on with the next. Usage limits per login : an agent with several signed-in accounts shows each account's own limits (Claude Code, Codex). The menu bar, notch island and widgets show the one nearest its limit. Share to a bot
 
 ## Evidencia de la investigación
 

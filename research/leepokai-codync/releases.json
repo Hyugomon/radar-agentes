@@ -1,27 +1,87 @@
-[
-  {
-    "tag": "v2.44.1",
-    "date": "2026-11-11",
-    "url": "https://github.com/leepokai/Codync/releases/tag/v2.44.1"
-  },
-  {
-    "tag": "v2.43.2",
-    "date": "2026-11-10",
-    "url": "https://github.com/leepokai/Codync/releases/tag/v2.43.2"
-  },
-  {
-    "tag": "v2.43.1",
-    "date": "2026-11-09",
-    "url": "https://github.com/leepokai/Codync/releases/tag/v2.43.1"
-  },
-  {
-    "tag": "v2.42.2",
-    "date": "2026-11-09",
-    "url": "https://github.com/leepokai/Codync/releases/tag/v2.42.2"
-  },
-  {
-    "tag": "v2.42.1",
-    "date": "2026-11-08",
-    "url": "https://github.com/leepokai/Codync/releases/tag/v2.42.1"
-  }
-]
+{
+  "repo": "leepokai/Codync",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "v2.47.0",
+      "title": "v2.47.0",
+      "date": "2026-11-14",
+      "url": "https://github.com/leepokai/Codync/releases/tag/v2.47.0",
+      "pre": false,
+      "note": "Codync 2.47.0 Login profiles : an agent can have more than one login on a computer. Add another account (Claude Code, Codex, OpenCode, Pi, Google Antigravity and more) or an API key for any agent, name each one, and pick which a bot uses under Agent in its settings. Key values stay on the computer; variables from your login shell reach an agent only when you import them. A fallback can be the same agent on another login profile: when one runs out of usage, the bot carries on with the next. Usage limits per login : an agent with several signed-in accounts shows each account's own limits (Claude Code, Codex). The menu bar, notch island and widgets show the one nearest its limit. Share to a bot : choose Codync in any app's share sheet on iPhone or Android to send text, links, photos or files, with a message if you like. Choice cards show numbered options, and the last row takes your own typ"
+    },
+    {
+      "tag": "v2.46.1",
+      "title": "v2.46.1",
+      "date": "2026-11-13",
+      "url": "https://github.com/leepokai/Codync/releases/tag/v2.46.1",
+      "pre": false,
+      "note": "Codync 2.46.1 The Computer tab in bot details starts its screen picture when you tap it, instead of connecting as soon as it opens. A computer's remote screen pauses after 5 minutes without you touching the app, to save data. Tap to continue; your Take over or Hand back to bots choice stays. Approval and connection request cards follow the app's language on iPhone, Android, desktop and the terminal UI ( #407 ). A host installed with codync-host install --bind 127.0.0.1 keeps that listen address through updates, and status shows it ( #424 ). Connectors whose sign-in server only accepts the loopback redirect address now sign in ( #441 , thanks @fukuazr-svg ). What's Changed fix(apps): approval cards follow the app language by @fukuazr-svg in #407 fix(host): sign in to servers that only accept the loopback redirect URI by @fukuazr-svg in #441 release: 2.46.1 by @leepokai in #442 Full Change"
+    },
+    {
+      "tag": "v2.46.0",
+      "title": "v2.46.0",
+      "date": "2026-11-12",
+      "url": "https://github.com/leepokai/Codync/releases/tag/v2.46.0",
+      "pre": false,
+      "note": "Codync 2.46.0. Bot details A new Computer tab on the desktop app, iPhone and Android shows the computer a bot runs on, whether it's connected, and a small live picture of its screen, so you can watch the bot work. Clicking or tapping the picture opens the full screen: you watch first if that bot is using the computer, and Take over gives you control. A cloud computer that's asleep wakes when you look, and the picture says \"Waking the computer…\" until it's ready. Use the computer moved from the Details tab to the Computer tab. The terminal UI gets a Computer page too (press O on a bot). Linux and cloud computers Fixed the whole desktop of a Linux computer without a sharing dialog (such as a cloud computer) freezing when its screen was open in more than one place, or while a bot took screenshots during a session: every viewer now shares one screen capture. A device that takes over the scre"
+    },
+    {
+      "tag": "v2.45.1",
+      "title": "v2.45.1",
+      "date": "2026-11-12",
+      "url": "https://github.com/leepokai/Codync/releases/tag/v2.45.1",
+      "pre": false,
+      "note": "Codync 2.45.1. Chat Find in a conversation on desktop, iPhone, Android and the terminal: a match count, arrows between matches, and the current message highlighted ( #341 ). Bots can ask you to choose on a card: tap an option and the answer continues the current work; answered or expired cards can't send again ( #416 ). Bots send voice notes, and sound files (MP3, M4A, WAV, AAC, up to 20 MB) play right in the chat with a seekable progress bar ( #364 ). The image viewer zooms (pinch, double-tap), copies the picture itself, and downloads pictures bots share ( #344 ). After an update of the app or of Codync on your computer, a chat keeps its messages on screen while they refresh. Routine lines in the chat are centered on iPhone and Android. Bots New \"Move active bots to the top\" setting per computer; switching it on one device updates every connected device. The handoff to a fallback agent "
+    },
+    {
+      "tag": "v2.44.1",
+      "title": "v2.44.1",
+      "date": "2026-11-11",
+      "url": "https://github.com/leepokai/Codync/releases/tag/v2.44.1",
+      "pre": false,
+      "note": "A What's new window after important updates. When a release is marked important, the iPhone, Android and desktop apps and the terminal UI show its highlights once, the first time they open on that version. New installs and ordinary updates show nothing. Android: large accounts no longer close right after opening. With many bots or very long chats, the app could run out of memory a few seconds after launch. Each chat now loads only its newest messages (the open chat and the 5 opened last keep more), and older ones load as you scroll back, first from the phone, then from the computer. Thanks @co26qdayvdync ( #397 ). Routines no longer pile up MCP servers. When a routine run ends on an agent that can't close its session (Cursor), or whose close fails, the bot's agent stops once nothing is running or waiting, even with the main chat open, and the chat picks up where it left off on its next m"
+    },
+    {
+      "tag": "v2.43.2",
+      "title": "v2.43.2",
+      "date": "2026-11-10",
+      "url": "https://github.com/leepokai/Codync/releases/tag/v2.43.2",
+      "pre": false,
+      "note": "Bot avatars in larger dots. On iPhone, Android, the desktop app and codync.dev, every bot avatar is now drawn as a 9 × 9 grid of large dots with clear gaps between them, whatever its size. Large avatars no longer switch to a fine grid. Tiny ones (widgets, the faces in a group) keep their 7 × 7 grid, and the working bot in the iPhone's Dynamic Island matches. Desktop app: the three bots on the empty chat screen (\"Pick a bot…\") stand apart instead of overlapping, and in Settings → Computers an empty \"can use\" list sits in the same gray card as \"can be used by\". A new codync.dev homepage. A \"New\" link at the top leads to free cloud computers. The real desktop app runs live in the page, now with bots on a MacBook Pro and a Mac mini. Below it come the bring-your-own cards (sandbox, agent, subscription, Codync Cloud), a step-by-step \"How it works\", what bots do while you're away, a privacy dia"
+    },
+    {
+      "tag": "v2.43.1",
+      "title": "v2.43.1",
+      "date": "2026-11-09",
+      "url": "https://github.com/leepokai/Codync/releases/tag/v2.43.1",
+      "pre": false,
+      "note": "Codync Cloud (beta). Signed in to a Codync account, start a cloud computer on your own Boat (EU) or InstaBox (US) account, so your bots keep working while your computer is off. Codync charges nothing for it; the provider bills your account under its own plan. It sleeps while idle and wakes when you message one of its bots, a routine is due or a webhook arrives. Up to three per account, each with its own name. Start one from Manage computers on the phone or Settings → Computers on the desktop. InstaBox's free plan includes one machine: Get a free sandbox on its key sheet opens it. See Codync Cloud . OpenCode bots no longer hang on \"Thinking…\". OpenCode older than 2 retries a refused model call forever (for example, when the free model's limit is used up). Codync now runs the registry's newer OpenCode instead, which reports the error at once, and falls back to the installed one if that bui"
+    },
+    {
+      "tag": "v2.42.2",
+      "title": "v2.42.2",
+      "date": "2026-11-09",
+      "url": "https://github.com/leepokai/Codync/releases/tag/v2.42.2",
+      "pre": false,
+      "note": "New Android users can sign up with Google, GitHub or Apple. On Android, a first sign-in with a provider came back to the welcome screen and no account was made: the sign-in library (Clerk Android 1.1.11) took Clerk's callback for a new account as a cancelled sign-in. Clerk Android 1.4.1 continues that callback into sign-up. People who already had an account were not affected and keep signing in as before. Leaving the Android sign-in page partway is quiet. Closing the browser returns to the welcome screen without \"Error occurred with unknown message.\"; a sign-in that really fails asks to check the connection and try again. Versions: 2.42.2. codync-mem and codync-network are unchanged. No cloud or relay change, so no deploy. No protocol change, so minApp stays. The iPhone app is unchanged, so Submit iOS skips this release. What's Changed build: release 2.42.2 (new Android users can sign up"
+    },
+    {
+      "tag": "v2.42.1",
+      "title": "v2.42.1",
+      "date": "2026-11-08",
+      "url": "https://github.com/leepokai/Codync/releases/tag/v2.42.1",
+      "pre": false,
+      "note": "Long chats are left to the agent by default. Summarize long chats now starts on Auto : Claude Code or Codex summarizes a chat on its own once it fills up. Codync summarizes sooner only when you pick Early , Near the limit or a size. This applies on iPhone, Android, desktop and the terminal UI. Auto replaces Only when full and comes first in the menu. Bots already set to Early keep it. Other agents (OpenCode, Gemini and the rest) follow the same default: Codync no longer starts fresh conversations for them. Versions: 2.42.1, and codync-mem 0.5.0 (its default changed), which publishes on merge. codync-network is unchanged. No cloud change, so no deploy. The wire values are unchanged ( \"off\" is Auto), so 2.42.0 apps keep working and minApp stays. What's Changed build: release 2.42.1 (leave long chats to the agent by default) by @leepokai in #370 Full Changelog : v2.42.0...v2.42.1"
+    },
+    {
+      "tag": "v2.42.0",
+      "title": "v2.42.0",
+      "date": "2026-11-08",
+      "url": "https://github.com/leepokai/Codync/releases/tag/v2.42.0",
+      "pre": false,
+      "note": "Choose when a bot's long chats are summarized. Claude Code and Codex bots have a new Summarize long chats setting in their Agent section, under the agent and its fallbacks, on iPhone, Android, desktop and the terminal UI: Early (the default, as before). Near the limit . Only when full : the agent's own auto-compaction is all there is. A size : 100K, 200K and so on up to what the model holds, or Custom size… to type your own in thousands of tokens (from 50K, rounded to 10K). Sizes appear after the bot's first reply , once its agent has said how much its model holds. Until then the three choices show. Other agents don't show the setting. They take no compact command from Codync and keep summarizing on their own. iPhone dialogs: VoiceOver now reads the whole dialog, not only its Cancel button. Terminal UI: a field's help wraps to a second row instead of being cut off. Versions: 2.42.0, and "
+    }
+  ]
+}

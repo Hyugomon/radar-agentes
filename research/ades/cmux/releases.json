@@ -1,0 +1,87 @@
+{
+  "repo": "manaflow-ai/cmux",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "nightly-next",
+      "title": "Nightly (cmux-next)",
+      "date": "2026-11-15",
+      "url": "https://github.com/manaflow-ai/cmux/releases/tag/nightly-next",
+      "pre": true,
+      "note": "Automated nightly build for 69b946e from nightly-next . Published commit: 69b946eb435d02aed3f5ee6181056833fa0c7ec0 . Built at the commit whose cmux-tui tree is published (app and daemon from one commit); branch tip 69b946eb435d02aed3f5ee6181056833fa0c7ec0 , 0 commits and 0 h behind it. cmux NIGHTLY ships for Apple silicon only (bundle ID com.cmuxterm.app.nightly ): Apple silicon: cmux-nightly-next-macos-arm64.dmg , feed appcast-arm64.xml PRs in this build #43466 ci: bound every upload-artifact step to 7 days, 60 of them were 14 to 90 #43409 carrier: the app's bundled cmux finds the tunnel hub its app's link serves #43432 Toggle Terminal and Chat: the chat face of a shown terminal never freezes or reloads #43435 cmux-tui-core: the terminal port watch worker lets a dropped mux go, so restart tests reopen their session #43449 Updated popover: release-notes look, real area symbols, plain-lan"
+    },
+    {
+      "tag": "cmux-app-ffi-556776e92abcaa32112348edd37fa95afc009487",
+      "title": "cmux-app-ffi-556776e92abcaa32112348edd37fa95afc009487",
+      "date": "2026-11-15",
+      "url": "https://github.com/manaflow-ai/cmux/releases/tag/cmux-app-ffi-556776e92abcaa32112348edd37fa95afc009487",
+      "pre": false,
+      "note": "The cmux app FFI (remote desktop core + sidebar layout reducer) as CCmuxAppFFI.xcframework (one static library, universal macOS arm64/x86_64). Source 556776e . SwiftPM binaryTarget checksum (SHA-256 of the zip): 300003a115d1364787ad02d3f3b6f22866c40f2347e43a20bb5aeb7669d27d41"
+    },
+    {
+      "tag": "cmux-app-ffi-3953bc3d2564e88b68c93aa94bd2b6a3bf636fff",
+      "title": "cmux-app-ffi-3953bc3d2564e88b68c93aa94bd2b6a3bf636fff",
+      "date": "2026-11-15",
+      "url": "https://github.com/manaflow-ai/cmux/releases/tag/cmux-app-ffi-3953bc3d2564e88b68c93aa94bd2b6a3bf636fff",
+      "pre": false,
+      "note": "The cmux app FFI (remote desktop core + sidebar layout reducer) as CCmuxAppFFI.xcframework (one static library, universal macOS arm64/x86_64). Source 3953bc3 . SwiftPM binaryTarget checksum (SHA-256 of the zip): 53bec24ff41dc0994edcd7531d17ed970b4744feb8eedfb9f0ab36cd5c498eab"
+    },
+    {
+      "tag": "cmux-app-ffi-220a9b00491ea80d81b3b62391b27d0020883eb3",
+      "title": "cmux-app-ffi-220a9b00491ea80d81b3b62391b27d0020883eb3",
+      "date": "2026-11-15",
+      "url": "https://github.com/manaflow-ai/cmux/releases/tag/cmux-app-ffi-220a9b00491ea80d81b3b62391b27d0020883eb3",
+      "pre": false,
+      "note": "The cmux app FFI (remote desktop core + sidebar layout reducer) as CCmuxAppFFI.xcframework (one static library, universal macOS arm64/x86_64). Source 220a9b0 . SwiftPM binaryTarget checksum (SHA-256 of the zip): ab72e9d6aa156d51b25adc316bebb1044e08a3bd9f05d49e53135a79e1b7b094"
+    },
+    {
+      "tag": "cmux-app-ffi-8d0524328b3c091835083b02c757aa0775af53cd",
+      "title": "cmux-app-ffi-8d0524328b3c091835083b02c757aa0775af53cd",
+      "date": "2026-11-15",
+      "url": "https://github.com/manaflow-ai/cmux/releases/tag/cmux-app-ffi-8d0524328b3c091835083b02c757aa0775af53cd",
+      "pre": false,
+      "note": "The cmux app FFI (remote desktop core + sidebar layout reducer) as CCmuxAppFFI.xcframework (one static library, universal macOS arm64/x86_64). Source 8d05243 . SwiftPM binaryTarget checksum (SHA-256 of the zip): 1242c42405de63f29317c6caf3b7b5410ef5a9026ec1a5a003c2b7e7b4963e07"
+    },
+    {
+      "tag": "cmux-app-ffi-6ed77417c9a68a8f4835abea6f2812b61ee5305f",
+      "title": "cmux-app-ffi-6ed77417c9a68a8f4835abea6f2812b61ee5305f",
+      "date": "2026-11-15",
+      "url": "https://github.com/manaflow-ai/cmux/releases/tag/cmux-app-ffi-6ed77417c9a68a8f4835abea6f2812b61ee5305f",
+      "pre": false,
+      "note": "The cmux app FFI (remote desktop core + sidebar layout reducer) as CCmuxAppFFI.xcframework (one static library, universal macOS arm64/x86_64). Source 6ed7741 . SwiftPM binaryTarget checksum (SHA-256 of the zip): 0ed409bb8521a1d7eca6ade046ddaa57340e783351872a279cd08c64ff1b896b"
+    },
+    {
+      "tag": "cmux-app-ffi-2d7bfe48c026a2382c834b04007492dd92c88e3b",
+      "title": "cmux-app-ffi-2d7bfe48c026a2382c834b04007492dd92c88e3b",
+      "date": "2026-11-15",
+      "url": "https://github.com/manaflow-ai/cmux/releases/tag/cmux-app-ffi-2d7bfe48c026a2382c834b04007492dd92c88e3b",
+      "pre": false,
+      "note": "The cmux app FFI (remote desktop core + sidebar layout reducer) as CCmuxAppFFI.xcframework (one static library, universal macOS arm64/x86_64). Source 2d7bfe4 . SwiftPM binaryTarget checksum (SHA-256 of the zip): dcf95305f39d4d355528331479fb6bb85fcf0bf83ee13ede9630443abe820d90"
+    },
+    {
+      "tag": "nightly",
+      "title": "cmux nightly 4362405288201",
+      "date": "2026-11-15",
+      "url": "https://github.com/manaflow-ai/cmux/releases/tag/nightly",
+      "pre": true,
+      "note": "What changed No product PRs merged since the previous published build. Infrastructure: 3 Compare published builds Downloads Apple silicon: cmux-nightly-macos-arm64.dmg , feed appcast-arm64.xml Intel: cmux-nightly-macos-x86_64.dmg , feed appcast-x86_64.xml Universal: cmux-nightly-macos.dmg , feed appcast.xml"
+    },
+    {
+      "tag": "cmux-app-ffi-ff3fc9c79521faa8542f0bb0c649ed33fad6ee9f",
+      "title": "cmux-app-ffi-ff3fc9c79521faa8542f0bb0c649ed33fad6ee9f",
+      "date": "2026-11-14",
+      "url": "https://github.com/manaflow-ai/cmux/releases/tag/cmux-app-ffi-ff3fc9c79521faa8542f0bb0c649ed33fad6ee9f",
+      "pre": false,
+      "note": "The cmux app FFI (remote desktop core + sidebar layout reducer) as CCmuxAppFFI.xcframework (one static library, universal macOS arm64/x86_64). Source ff3fc9c . SwiftPM binaryTarget checksum (SHA-256 of the zip): 75b10b7eba9c4291691ce022c55558c21ee238cbf82b413cb2695cf4ae0c76b0"
+    },
+    {
+      "tag": "cmux-app-ffi-efa5fe40ce2aa123314062ef054ccdabcab40982",
+      "title": "cmux-app-ffi-efa5fe40ce2aa123314062ef054ccdabcab40982",
+      "date": "2026-11-14",
+      "url": "https://github.com/manaflow-ai/cmux/releases/tag/cmux-app-ffi-efa5fe40ce2aa123314062ef054ccdabcab40982",
+      "pre": false,
+      "note": "The cmux app FFI (remote desktop core + sidebar layout reducer) as CCmuxAppFFI.xcframework (one static library, universal macOS arm64/x86_64). Source efa5fe4 . SwiftPM binaryTarget checksum (SHA-256 of the zip): 308a73996042871b4b8f3c318644c83588088728e6a166f75b56883ed43c6eed"
+    }
+  ]
+}

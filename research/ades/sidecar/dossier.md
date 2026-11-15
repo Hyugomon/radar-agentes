@@ -11,6 +11,15 @@
 
 Terminal workspace para sesiones de agentes, hosts remotos y entrega con Git; broadcasting de agentes detrás de un flag.
 
+## Release revisada
+
+- **Tag**: [v1.17.1](https://github.com/marcus/sidecar/releases/tag/v1.17.1)
+- **Fecha**: 2026-10-08 (hace 38 días)
+- **Estado**: estable · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> Changelog e25b0c9 fix(api): keep Tailnet access across service reinstalls with api.tailnet (td-accec4) cbac413 fix(api): service install waits for the started job before reporting (td-accec4) 2a2978a release: prepare v1.17.1
+
 ## Evidencia
 
 ### harnesses

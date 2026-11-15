@@ -1,0 +1,87 @@
+{
+  "repo": "coollabsio/jean",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "v1.0.15",
+      "title": "v1.0.15",
+      "date": "2026-11-12",
+      "url": "https://github.com/coollabsio/jean/releases/tag/v1.0.15",
+      "pre": false,
+      "note": "Features Added QwenCloud provider presets with region and billing mode selection and automatic model fetching ( #898 ) Added Claude Fable 5.2 to the model list Added CLIProxyAPI as a provider for every backend, with an option to pick it as the default provider Added per-account CLIProxyAPI usage in the usage cards and the quick menu, with guidance for Claude terms errors Added account login buttons for CLIProxyAPI on the collapsed row and in the backend CLI sections Read Claude models from CLIProxyAPI and showed API retries Grouped the CLIProxyAPI usage steps into sections and made the commands copyable Showed only the latest model per family in the model picker, with a toggle to show older models Showed short Claude names for provider model aliases and labeled the default Codex provider as OpenAI Let \"Apply to all prompts\" in Magic Prompts use a custom Claude provider Added favorites fo"
+    },
+    {
+      "tag": "v1.0.14",
+      "title": "v1.0.14",
+      "date": "2026-11-06",
+      "url": "https://github.com/coollabsio/jean/releases/tag/v1.0.14",
+      "pre": false,
+      "note": "Features Added remote MCP endpoints that work across all harnesses, with browser-free token authentication. Added a Remove action for user-scope MCP servers in Settings, and showed MCP servers as plugin-style rows with defaults on top. Added secret requests through Jean MCP, including multi-line secrets with an example. Saved secrets are scoped to their project or agent and are reused by new sessions and scheduled tasks. Enabled Agent Browser by default. It now auto-updates to verified releases, prunes old Chrome builds, and saves screenshots to app data. Added opt-in SSH agent forwarding for servers. Sessions that delegate work through Jean MCP now get the result back automatically, and chats show session updates and a \"Started by\" link. Grouped sub-sessions under their lead session and showed them in a side panel. A lead can hide its sub-sessions after they finish. Jean review now runs"
+    },
+    {
+      "tag": "v1.0.13",
+      "title": "v1.0.13",
+      "date": "2026-10-28",
+      "url": "https://github.com/coollabsio/jean/releases/tag/v1.0.13",
+      "pre": false,
+      "note": "Features Chat Added mid-turn steering for running Claude turns through a detached host ( #806 ). Added automatic continuation after usage limits reset ( #788 ). Added rendering of diagrams in chat messages ( #789 ). Made Plan mode opt-in and first-class: new sessions start in an implement permission, and you enter Plan only when you choose it ( #853 ). Kept chat history visible and pinned the current prompt while a turn runs. Added clickable option buttons for inline numbered questions and recap questions. Added possible regressions to turn recaps for functional changes, and kept links in recaps. Rendered screenshot blocks as an image gallery. Showed the local receive time and cancellation status next to message timing ( #829 ). Showed full file paths in mention badges and added a spellcheck toggle ( #827 ). Added a modifier key to skip the close confirmation ( #791 ). Added a chat:backe"
+    },
+    {
+      "tag": "v1.0.12",
+      "title": "v1.0.12",
+      "date": "2026-10-17",
+      "url": "https://github.com/coollabsio/jean/releases/tag/v1.0.12",
+      "pre": false,
+      "note": "Features Added checkboxes to the context mention popover. You can now investigate several issues and PRs together in one new session, or in a separate new session for each item. The context link badge now opens the linked session or worktree. pstack now installs as a native Claude and Codex plugin. Fixes Jean now asks you to confirm before it closes a session that has unsent draft text. Review sessions now show as unread only after the review finishes. Web access now uploads large attachments (up to 50 MB) over HTTP. Before, they could close the WebSocket connection. Fixed mobile sidebar issues: long-press context menus, drag-and-drop on touch devices, the sidebar did not close when a new session started, and the New Agent dialog showed behind the sidebar. On Windows, Jean now finds the default fnm Node.js when node is not on PATH ( #797 ). Fixed a React update loop at startup during onb"
+    },
+    {
+      "tag": "v1.0.11",
+      "title": "v1.0.11",
+      "date": "2026-10-14",
+      "url": "https://github.com/coollabsio/jean/releases/tag/v1.0.11",
+      "pre": false,
+      "note": "Features Added labels, authors, and opened times to worktree issue and PR lists, with clickable label filters. The new worktree modal opened fullscreen, and draft PRs got a muted icon. Fixes Fixed plan approval with \"Clear context\" or a new worktree deleting the original planning session. The session was archived instead, so its history stayed restorable ( #795 ). Fixed MCP send_chat_message and get_session_status failing with \"Unknown sessionId\" right after create_session or for reopened sessions ( #794 , closes #793 ). Fixed OpenCode permission updates failing on resumed sessions when the response had no permission field ( #792 ). Fixed Codex sessions losing Codex's native system prompt. Jean's context was sent as developer instructions instead of base instructions ( #755 ). Fixed running code review jobs not showing as \"reviewing\". Improvements Renamed the preference to \"Archive origi"
+    },
+    {
+      "tag": "v1.0.10",
+      "title": "v1.0.10",
+      "date": "2026-10-13",
+      "url": "https://github.com/coollabsio/jean/releases/tag/v1.0.10",
+      "pre": false,
+      "note": "Features Added experimental Agents, disabled by default, with a coordinator, custom workers, persistent memory, schedules, task tracking, notifications, and approval controls across local and remote servers. Added unified CLI setup with parallel installation, guided sign-in, SSH host discovery, connection checks, and remote installation progress. Added SSH identity key selection for server connections. Added Commit in Session and optional closing references for linked GitHub issues. Added video file previews and New Worktree actions in worktree menus. Added Claude Haiku 5.5 to model choices. Fixes Cleared stale running indicators after remote reconnects without interrupting active runs or queued prompts. Restored workspace navigation when opening recent or unread sessions. Applied the default execution mode to first worktree sessions and preserved it for background investigations. Includ"
+    },
+    {
+      "tag": "v1.0.9",
+      "title": "v1.0.9",
+      "date": "2026-10-07",
+      "url": "https://github.com/coollabsio/jean/releases/tag/v1.0.9",
+      "pre": false,
+      "note": "yeah v1.0.8 missed, intentionally. Features Added local and SSH server sessions, SSH key selection, remote user setup, custom system prompts, and server search and navigation. Added live tool approvals for Claude, Grok, and Kimi, including Web Access. Added in-app sign-in for Claude and Codex MCP servers and discovery of connectors, plugins, and app-provided MCP servers. Added GPT 6.1 Sol and its fast variant. Added pinned chat tables, keyboard row navigation, and table rows that could be added to prompts. Added a pre-release review Magic command and bulk settings for all Magic Prompts. Added a Claude and Codex subagent panel, with live token, tool, and elapsed-time totals for Claude. Added Mr. Robot scan previews, manual scans, activity history, and pause/resume controls. Enabled project avatar uploads from desktop, remote, and web clients. Fixes Fixed remote folder commands, pasted-tex"
+    },
+    {
+      "tag": "v1.0.7",
+      "title": "v1.0.7",
+      "date": "2026-09-29",
+      "url": "https://github.com/coollabsio/jean/releases/tag/v1.0.7",
+      "pre": false,
+      "note": "Features Added /goal support for Claude sessions, with a goal badge on the /goal message. Added the Claude Sonnet 5.5 model option, sorted Claude models by version (newest first), and changed the default Claude model to Opus 5.5. Added a Mr. Robot status panel for auto-fix that showed scan status and failed issues. Auto-fix stopped after 3 failed attempts and waited when GitHub rate limits applied. Added Mod+Shift+1-9 shortcuts to open recent worktrees. Synced Recent session pins with the server that owns the session, so Web Access clients saw the same pins. Made Recent session rows more compact with a corner pin button, and moved the \"Show more\" actions into the sidebar footer. Made file paths in messages open in the file viewer on click, and added \"Open file\" and \"Download file\" actions for file paths. Marked failed tool calls in the chat. Added Write, MultiEdit, and NotebookEdit chang"
+    },
+    {
+      "tag": "v1.0.6",
+      "title": "v1.0.6",
+      "date": "2026-09-24",
+      "url": "https://github.com/coollabsio/jean/releases/tag/v1.0.6",
+      "pre": false,
+      "note": "Fixes Kept pinned sessions visible in recent worktrees and newly finished sessions visible in unread notifications. Restored the last active session when a session window opened. Detected stale Web Access connections after a browser woke and reloaded to restore the session. Improvements Used an issue icon for the Issue investigation action. Full Changelog : v1.0.5...v1.0.6"
+    },
+    {
+      "tag": "v1.0.5",
+      "title": "v1.0.5",
+      "date": "2026-09-23",
+      "url": "https://github.com/coollabsio/jean/releases/tag/v1.0.5",
+      "pre": false,
+      "note": "Features Added actions in the # picker to attach an issue or pull request, or start an investigation in a new session. Added a Comment &amp; Close Issue action that asked the assistant to post the latest commit SHA and close linked GitHub issues. Added counts to collapsed folders, projects, and worktrees, and made the Folders section collapsible. Added folder creation to the project sidebar menu. Improvements Added separate Load more controls for issues and pull requests, plus a Refresh action for the current project's context results. Kept folders visible during sidebar search. Fixes Fixed WSL terminal launches so CLI arguments and Windows context paths were passed correctly. ( #758 ) Kept linked issue and pull request context in the selected session. Worktree context was used only when the session had no link. Moved queued prompt handling to the backend so saved prompts continued when "
+    }
+  ]
+}

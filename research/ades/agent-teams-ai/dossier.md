@@ -11,6 +11,15 @@
 
 App de escritorio para correr agentes como equipo alrededor de un tablero: un líder delega, los agentes se mensajean y tú revisas.
 
+## Release revisada
+
+- **Tag**: [v2.18.7](https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.7)
+- **Fecha**: 2026-11-11 (hace 4 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> Simplified the Dashboard and improved team creation and launch. Added a tasks table, built-in Git, improved schedules, and fixed OpenCode teammates sometimes not replying. Customize local fonts, text size, app scaling, and portable JSON themes. Simplified the Team screen. What's New Create teams from the Teams page; confirm templates before replacing an edited setup. Sort tasks in a live table with selectable, resizable columns. Schedule one agent or a whole team, with optional linked board tasks and avatar-based member selection. Built-in Git handles app diffs, worktrees, and cloning without a separate Git installation. Use OpenCode 2.x on Intel Macs. Choose local UI fonts, text size, whole
+
 ## Evidencia
 
 ### harnesses

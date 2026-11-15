@@ -1,27 +1,87 @@
-[
-  {
-    "tag": "Meldwork V1.0.9 Preview",
-    "date": "2026-11-02",
-    "url": "https://github.com/Ryder-Sun/Meldwork/releases/tag/Meldwork-V1.0.9"
-  },
-  {
-    "tag": "Meldwork V1.0.8",
-    "date": "2026-10-27",
-    "url": "https://github.com/Ryder-Sun/Meldwork/releases/tag/Meldwork-V1.0.8"
-  },
-  {
-    "tag": "Meldwork V1.0.7",
-    "date": "2026-10-27",
-    "url": "https://github.com/Ryder-Sun/Meldwork/releases/tag/Meldwork-V1.0.7"
-  },
-  {
-    "tag": "Meldwork V1.0.6",
-    "date": "2026-10-18",
-    "url": "https://github.com/Ryder-Sun/Meldwork/releases/tag/Meldwork-V1.0.6"
-  },
-  {
-    "tag": "Meldwork V1.0.5 — General Agent workspace prerelease",
-    "date": "2026-09-17",
-    "url": "https://github.com/Ryder-Sun/Meldwork/releases/tag/Meldwork-V1.0.5"
-  }
-]
+{
+  "repo": "Ryder-Sun/Meldwork",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "Meldwork-V1.0.9",
+      "title": "Meldwork V1.0.9 Preview",
+      "date": "2026-11-02",
+      "url": "https://github.com/Ryder-Sun/Meldwork/releases/tag/Meldwork-V1.0.9",
+      "pre": true,
+      "note": "Meldwork V1.0.9 预览版 本版本适用于 Apple 芯片 macOS。安装包使用 ad-hoc 临时签名，尚未使用 Apple Developer ID 签名或公证；首次打开时，macOS 可能需要在“系统设置 → 隐私与安全性”中选择“仍要打开”。 更新 自动讨论根据原生 Agent 的明确完成信号结束发言，所有参与者须认可同一版交付物后才结束。 改进本地 Agent 认证状态，正确识别 CLI 仅在标准错误中报告的认证失败；修复知识库图标资源，并精简启动页面文案。 真实六 Agent 无限轮讨论在九轮后完成，六方认可同一候选交付物，文件哈希一致。此次版本验证包括 1,700 项桌面测试、379 项前端测试、13 项官网测试、构建与安装包完整性检查。 已知限制 安装 CLI 不代表模型连接已验证。OpenClaw 的隔离环境可能无法使用现有原生配置；WorkBuddy CLI 可能需要单独登录；Zcode 需要有效的原生提供方凭据。 ZGCI smart-router-v2 已通过 Zcode 临时配置实测，但本版本不会自动写入或部署该提供方配置。 下载 DMG 安装，或下载 ZIP 解压； SHA256SUMS.txt 可用于校验文件完整性。 English Apple silicon macOS preview. The artifacts are ad-hoc signed and are not Apple Developer ID signed or notarized. On first launch, macOS may require Open Anyway in System Settings → Privacy &amp; Security . Unlimited Auto Discussion completes native turns on explicit completion and requires all participants to approve the same delivery version. A real "
+    },
+    {
+      "tag": "Meldwork-V1.0.8",
+      "title": "Meldwork V1.0.8",
+      "date": "2026-10-27",
+      "url": "https://github.com/Ryder-Sun/Meldwork/releases/tag/Meldwork-V1.0.8",
+      "pre": false,
+      "note": "Meldwork V1.0.8 修复原生问答、流式收尾与 Auto Discussion 模式保持。此为 Apple silicon macOS 预发布版。 修复 / Fixes Kimi 只读 query 使用手动权限模式，避免强制制定计划；拒绝计划时选择“拒绝并退出”，避免没有修改意见却反复修订。写入请求仍受权限限制。 MiMo 保留同一消息在终止 RPC 之后紧接着到达的末尾文本，拒绝其他会话或消息的迟到输出。 正确传递原生 CLI 配置变量，避免桌面启动环境丢失本机配置。 OpenCode、MiMo、Hermes 原生调用内持续重复时取消调用，明确报错并保留已输出内容，不伪造成功或自动重试。 Auto Discussion 在发送和成员刷新后保持选中，不再自动回到 Sequential Discussion。 保留 Zcode 官方标志及 Pi Agent 前的位置；WorkBuddy 继续支持用户选择桌面已配置模型。 Keeps Kimi read-only queries out of mandatory planning, preserves MiMo tail chunks, forwards supported native configuration, cancels repetitive native output while retaining partial replies, and preserves the selected Auto Discussion mode. 验证 / Verification 桌面测试 1,655/1,655；前端测试 370/370；官网及双语版本/商用许可一致性测试 12/12。 对全部 13 个已安装 CLI 进行了真实调用，而非仅检查安装或使用模拟回复。 独立 Magpie 热修网关中，Hermes、WorkBuddy、Pi、MiMo、Kimi 的无限轮讨论自然结束，14 次原生调用全部完成。 Electron 实机界面另完成一轮五 Agent 无限轮讨论：19 次原生调用全部成功，无失败或自动重试，用时"
+    },
+    {
+      "tag": "Meldwork-V1.0.7",
+      "title": "Meldwork V1.0.7",
+      "date": "2026-10-27",
+      "url": "https://github.com/Ryder-Sun/Meldwork/releases/tag/Meldwork-V1.0.7",
+      "pre": false,
+      "note": "Meldwork V1.0.7 improves local Agent discussion reliability and adds Zcode. 更新 / Changes 修复自动讨论停止后已输出回复丢失，并保留重载后的内容；处理 ACP 会话边界，避免其他会话的事件混入当前输出。 适配 Hermes 原生 stream JSON；避免 MiMo 无界面运行等待交互式计划提示。 新增 Zcode，采用官方图标、排列在 Pi Agent 前，并沿用原生默认配置。 WorkBuddy 可复用桌面已配置模型；Meldwork 仅保存模型标识，密钥留在主进程和原生配置中。 修复中文斜杠分隔文本被误判为路径的脱敏问题。 更新双语 README、官网、下载链接及支持矩阵，应用和安装包版本统一为 1.0.7。 Preserves interrupted streamed replies, improves Hermes/MiMo headless handling and ACP session isolation, adds native Zcode support with its official logo, and lets WorkBuddy reuse a selected configured desktop model. 许可 / License Meldwork 原创代码、README、文档与官网采用 Apache-2.0，允许商用 ，无需额外商业授权或许可费。再分发须遵循 LICENSE 与 NOTICE；第三方字体、依赖及 Agent 标志保留各自条款。Apache-2.0 不授予商标权。 Meldwork's original source, documentation, README files, and website use Apache-2.0 . Commercial use is permitted without separate authorization or license fees. Preserve applicable lice"
+    },
+    {
+      "tag": "Meldwork-V1.0.6",
+      "title": "Meldwork V1.0.6",
+      "date": "2026-10-18",
+      "url": "https://github.com/Ryder-Sun/Meldwork/releases/tag/Meldwork-V1.0.6",
+      "pre": false,
+      "note": "Meldwork V1.0.6 Meldwork V1.0.6 makes everyday multi-Agent work sturdier: group discussions keep going through single failures, long-lived Agents survive stops and restarts, and the interface shows what needs your attention. Improvements Keeps long-lived ACP Agents (Hermes, Kimi, MiMo, OpenCode) usable across stops, restarts, and hangs, and no longer kills Agents that are still thinking or building. Classifies authentication failures by tier and retries transient provider errors, so one proxy 403 or an expired sign-in does not remove an Agent from a group. Keeps natural discussions going instead of ending on one slip, shows group replies in the order Agents were dispatched, and lets a group continue when one member is not ready. Delivers attachments and knowledge bases to group Agents and sends Hermes image attachments over ACP. Lets conversations run independently, even in the same fold"
+    },
+    {
+      "tag": "Meldwork-V1.0.5",
+      "title": "Meldwork V1.0.5 — General Agent workspace prerelease",
+      "date": "2026-09-17",
+      "url": "https://github.com/Ryder-Sun/Meldwork/releases/tag/Meldwork-V1.0.5",
+      "pre": false,
+      "note": "Meldwork V1.0.5 Meldwork V1.0.5 makes the local General Agent workspace more reliable across readiness checks, group execution, recovery, and result adoption. Improvements Keeps installed Agents visible when a credential or capability probe fails, while isolating the failed probe and refreshing readiness safely. Preserves native shell, proxy, CA, Provider, and model-region settings during detection and refresh. Routes peer requests through explicit Agent decisions instead of treating prose mentions or media words as hidden commands. Separates task completion from individual invocation success and human adoption, so one healthy result remains usable when another participant fails. Resumes clarification gates after restart, rejects conflicting replies, and prevents duplicate responses from replaying calls. Serializes workspace writers, recovers interrupted writes through bound approvals, r"
+    },
+    {
+      "tag": "Meldwork-V1.0.4",
+      "title": "Meldwork V1.0.4",
+      "date": "2026-09-01",
+      "url": "https://github.com/Ryder-Sun/Meldwork/releases/tag/Meldwork-V1.0.4",
+      "pre": false,
+      "note": "This prerelease refactors group conversations around natural Agent discussion and task-scoped native session continuity. Improvements Sequential discussion mode runs one Agent at a time in configured CLI order and records every round. Auto Discussion starts with concurrent proposals, then routes later turns from exact final-line @agent mentions. One mention runs one Agent; multiple mentions run concurrently. Natural discussion prompts let Agents exchange views before work and review instead of forcing every turn into a review-only role. Native Agent sessions are reused across rounds and restarts within one group task. Reliability Durable checkpoints recover completed turns without duplicate reruns. Stale operation and snapshot bindings are rejected before late results can be committed. Verification Frontend tests: 320/320 passed. Desktop workspace tests: 515/515 passed. Frontend Web and "
+    },
+    {
+      "tag": "Meldwork-V1.0.3",
+      "title": "Meldwork V1.0.3",
+      "date": "2026-08-18",
+      "url": "https://github.com/Ryder-Sun/Meldwork/releases/tag/Meldwork-V1.0.3",
+      "pre": false,
+      "note": "Meldwork V1.0.3 This prerelease makes concurrent group conversations more predictable and keeps useful Agent work durable when a run is stopped. Improvements Reply with the whole group by default : In Concurrent Responses, sending without an explicit Agent selection now invokes every Agent in the group. Scheduler limits may queue members, but no selected group member is removed from the batch. Cleaner conversation composition : Agent, Skill, and knowledge mentions now flow inline with the message, user metadata and Agent logos are easier to scan, Markdown formatting is rendered consistently, and mention menus follow the active selection while scrolling. Reliable conversation positioning : New messages return to the active Agent loading state, while the animated return-to-bottom control remains available when reading older content. Quieter unlimited mode : No round limit now uses the norm"
+    },
+    {
+      "tag": "Meldwork-V1.0.2",
+      "title": "Meldwork V1.0.2",
+      "date": "2026-08-17",
+      "url": "https://github.com/Ryder-Sun/Meldwork/releases/tag/Meldwork-V1.0.2",
+      "pre": false,
+      "note": "Meldwork V1.0.2 This prerelease upgrades Meldwork from sequential group review into a concurrent, Agent-negotiated collaboration system and completes the related desktop interaction work. Highlights Concurrent Responses freezes one shared task snapshot for every selected Agent, isolates same-batch replies, preserves all selected members, and commits results in stable order. Auto Discussion now begins with independent parallel proposals. Agents then challenge one another, negotiate responsibilities, execute distinct work packages, synthesize the result, and independently verify the current candidate. Harness V4 adds strict structured receipts, bounded Artifact and Evidence references, delivery watermarks, phase-and-slot operation IDs, serialized Human Gates, and idempotent crash recovery. Supported local Agent runtimes now share sanitized streaming answer, plan, status, warning, and tool-"
+    },
+    {
+      "tag": "Meldwork-V1.0.1",
+      "title": "Meldwork V1.0.1",
+      "date": "2026-08-12",
+      "url": "https://github.com/Ryder-Sun/Meldwork/releases/tag/Meldwork-V1.0.1",
+      "pre": false,
+      "note": "Meldwork V1.0.1 这是一版面向 Apple 芯片 macOS 的预览发行版，重点改善长时间 Agent 任务、群聊复核和中断恢复体验。 这次更新带来了什么 长时间任务更可靠 ：Agent 只要仍在产生可观察的有效进展，就不会仅因运行时间较长而被误判为超时。 无限轮次更严格 ：选择 unlimited 模式后，参与讨论的 Agents 会主动质疑缺少依据的结论，并在验收阶段严格复核自己和其他 Agents 的工作。 群聊过程更容易理解 ：执行过程、工具活动和结论会保持有序，重要信息可以继续追溯，同时避免把所有过程细节无限塞进上下文。 会话操作更清晰 ：加载状态、会话操作和执行详情更容易扫描，用户可以更快判断当前状态和下一步动作。 中断后更容易恢复 ：已有进展会被保留，任务不会因为一次中断就丢失整个工作脉络。 下载与校验 Meldwork-0.1.1-arm64.dmg ：macOS Apple 芯片安装包 Meldwork-0.1.1-arm64.zip ：macOS Apple 芯片压缩包 SHA256SUMS.txt ：安装包校验值 当前构建未使用 Developer ID 签名，也未经过 Apple 公证。首次启动若被 macOS 拦截，请按 README 中的“仍要打开 / Open Anyway”步骤操作。 验证记录 前端测试：263 项通过 前端生产构建：通过 桌面前端构建：通过 桌面测试：993 项中 991 项通过；2 项 CLI 取消测试受本机测试辅助进程环境影响，未涉及本次发布改动。 DMG 与 ZIP SHA256：已通过本地复核"
+    },
+    {
+      "tag": "Release-V1.0.0",
+      "title": "Meldwork First Version",
+      "date": "2026-08-11",
+      "url": "https://github.com/Ryder-Sun/Meldwork/releases/tag/Release-V1.0.0",
+      "pre": false,
+      "note": "This release packages the latest Meldwork runtime, local Agent readiness, conversation isolation, and chat UX fixes for Apple silicon macOS. Highlights Isolated direct and group conversation send/run state so one active conversation no longer blocks another. Improved local Agent readiness detection from login-shell Provider variables and known native config locations, including OpenRouter/custom Provider cases, without exposing credentials. Refined completion UX: per-conversation notifications, right-aligned completion indicators, hover-scoped message actions, and stacked multimodal/document attachments. Reorganized desktop main-process modules by domain while preserving narrow renderer IPC boundaries. Updated README installation guidance for unsigned macOS preview builds. Verification Frontend tests: 31 files / 259 tests passed. Desktop tests: 989 tests passed. Deterministic Eval Harnes"
+    }
+  ]
+}

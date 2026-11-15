@@ -5,7 +5,7 @@
 - **Licencia**: Apache-2.0
 - **Lenguaje**: Python
 - **Estrellas**: 5796 · **Forks**: 629
-- **Último push**: 2026-11-12T03:57:33Z · **Última release**: 2026-11-11
+- **Último push**: 2026-11-12T03:57:33Z · **Última release**: 2026-11-12
 - **Revisado**: 2026-11-12 · **Confianza**: 76/100
 - **Tipo**: agent · **Categoría**: teams
 
@@ -18,6 +18,15 @@ Equipo ejecutivo virtual de código abierto: una persona coherente respaldada po
 ## Nota de verificación
 
 Revisión previa + README: una persona coherente respaldada por ocho agentes ejecutivos; coordinación y aprobaciones. Sin evidencia de computadora propia.
+
+## Release revisada
+
+- **Tag**: [v0.7.3](https://github.com/ForeactLabs/OpenExecutive/releases/tag/v0.7.3)
+- **Fecha**: 2026-11-12 (hace 3 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> 0.7.3 (2026-11-12) Added integrations: add Approve and Skip buttons to Google Chat cards ( #806 ) ( 9f0c9dc ) ui: give email cards one set of buttons and answer questions on them ( #811 ) ( 33073d0 ) Fixed delegation: reply in the thread to whoever they ask, on the waiting card when there is one ( #810 ) ( 5df30ac ) integrations: check a Google Chat tap before its buttons come off ( #808 ) ( 6639fd5 ) integrations: move Google Workspace MCP to 2.4.2 ( #812 ) ( 95ebc8e )
 
 ## Evidencia de la investigación
 

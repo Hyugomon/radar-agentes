@@ -5,7 +5,7 @@
 - **Licencia**: MIT
 - **Lenguaje**: TypeScript
 - **Estrellas**: 897 · **Forks**: 68
-- **Último push**: 2026-11-12T07:44:42Z · **Última release**: 2026-11-11
+- **Último push**: 2026-11-12T07:44:42Z · **Última release**: 2026-11-15
 - **Revisado**: 2026-11-12 · **Confianza**: 62/100
 - **Tipo**: agent · **Categoría**: general
 
@@ -18,6 +18,15 @@ Rome es un agente personal de código abierto (agent OS) que vive en un entorno 
 ## Nota de verificación
 
 Revisión previa + README: agente personal que vive en un entorno persistente, con memoria y ejecución. Sin evidencia de trabajo desatendido.
+
+## Release revisada
+
+- **Tag**: [v1.1.197](https://github.com/rome-os/rome/releases/tag/v1.1.197)
+- **Fecha**: 2026-11-15 (hace 0 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> The Rome runtime image yunfanye/rome:1.1.197 , built from 02e2b81 . Rome Cloud offers it to instances on its own. To run it yourself, pull yunfanye/rome:1.1.197 . Changes since v1.1.196 No changes to what the image runs. Full changelog: v1.1.196...v1.1.197
 
 ## Evidencia de la investigación
 

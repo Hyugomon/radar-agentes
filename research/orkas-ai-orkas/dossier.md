@@ -19,6 +19,15 @@ App de escritorio local-first que convierte un objetivo en un proyecto con memor
 
 README: proyectos con memoria, 16 especialistas, un Commander que delega y automatizaciones programadas. Es local-first; no hay evidencia de operar apps GUI ni aprobaciones formales.
 
+## Release revisada
+
+- **Tag**: [v2026.11.4](https://github.com/Orkas-AI/Orkas/releases/tag/v2026.11.4)
+- **Fecha**: 2026-11-04 (hace 11 días)
+- **Estado**: reciente · **Releases en 90 días**: 8
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> v2026.11.4 Download Download Orkas Highlights Use GPT-6.1 Terra in supported provider and model settings. Choose multiple weekdays or month dates for recurring automations and review clearer schedule summaries. Capture product pages and recover video compositions with clearer preview and delivery checks. Fixes Recover queued messages, selected attachments and interrupted conversations without treating downloaded files as new drafts. Keep search results complete through cache rebuilds, file changes, deletion and restoration. Preserve both recoverable copies when Library moves encounter concurrent edits or partial deletion. Keep desktop background work, shutdown and provider failures consisten
+
 ## Evidencia de la investigación
 
 ### ✅ Identidad

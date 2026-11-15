@@ -11,6 +11,15 @@
 
 ADE de terminal para mantener agentes de código juntos en local y SSH; las terminales sobreviven desconexiones y restauran layout.
 
+## Release revisada
+
+- **Tag**: [v0.1.15](https://github.com/herdrdev/herdr-app/releases/tag/v0.1.15)
+- **Fecha**: 2026-11-10 (hace 5 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> chore: release 0.1.15
+
 ## Evidencia
 
 ### harnesses

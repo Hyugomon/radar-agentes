@@ -1,0 +1,87 @@
+{
+  "repo": "traycerai/traycer",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "host-v1.5.4",
+      "title": "Traycer Host 1.5.4",
+      "date": "2026-11-14",
+      "url": "https://github.com/traycerai/traycer/releases/tag/host-v1.5.4",
+      "pre": false,
+      "note": "Traycer Host 1.5.4. Fixed Memory and stability - the host no longer runs out of memory or stalls while a large batch of files is published, and closed tasks are released from memory. Resource use - fewer file scans, lighter usage tracking and fewer chat history writes, and a credential-check loop that could spike CPU is fixed. Large tasks - tasks with thousands of artifact versions load their versions again, and documents with many attachments can be compacted. File and artifact sync - files rewritten in place are picked up, hand-edited canvases are kept, a failed sync can be retried, and a sync that keeps failing stops retrying. Agents - Codex turns end properly when steered messages are waiting, queues paused by a host crash resume on restart, and a failed Copilot start is handled cleanly. Windows - child processes are cleaned up more reliably when the host stops, and installed coding "
+    },
+    {
+      "tag": "desktop-v1.5.4",
+      "title": "Traycer Desktop 1.5.4",
+      "date": "2026-11-14",
+      "url": "https://github.com/traycerai/traycer/releases/tag/desktop-v1.5.4",
+      "pre": false,
+      "note": "Fixed Memory and stability - the host no longer runs out of memory or stalls while a large batch of files is published, and closed tasks are released from memory. Resource use - fewer file scans, lighter usage tracking and fewer chat history writes, and a credential-check loop that could spike CPU is fixed. Large tasks - tasks with thousands of artifact versions load their versions again, and documents with many attachments can be compacted. File and artifact sync - files rewritten in place are picked up, hand-edited canvases are kept, a failed sync can be retried, and a sync that keeps failing stops retrying. Agents - Codex turns end properly when steered messages are waiting, queues paused by a host crash resume on restart, and a failed Copilot start is handled cleanly. Windows - child processes are cleaned up more reliably when the host stops, and installed coding agents are found rel"
+    },
+    {
+      "tag": "cli-v1.5.4",
+      "title": "Traycer CLI 1.5.4",
+      "date": "2026-11-13",
+      "url": "https://github.com/traycerai/traycer/releases/tag/cli-v1.5.4",
+      "pre": false,
+      "note": "What's Changed Pick #3502 into release-v1.5.2 for the next 1.5.x patch ( #3575 ) ( a00c1bf ) fix(sentry): redact client fingerprints and event grouping text (pick of #3735 ) ( #3737 ) ( 55caab6 ) test(protocol): the release line validates each registry once, with a 20 s test timeout (picks of #3308 and part of #3317 ) ( #3741 ) ( b4959f6 ) Traycer CLI 1.5.4."
+    },
+    {
+      "tag": "host-v1.5.4-rc.1",
+      "title": "Traycer Host 1.5.4-rc.1",
+      "date": "2026-11-12",
+      "url": "https://github.com/traycerai/traycer/releases/tag/host-v1.5.4-rc.1",
+      "pre": true,
+      "note": "Traycer Host 1.5.4-rc.1."
+    },
+    {
+      "tag": "desktop-v1.5.4-rc.1",
+      "title": "Traycer Desktop 1.5.4-rc.1",
+      "date": "2026-11-12",
+      "url": "https://github.com/traycerai/traycer/releases/tag/desktop-v1.5.4-rc.1",
+      "pre": true,
+      "note": "What's Changed Pick #3502 into release-v1.5.2 for the next 1.5.x patch ( #3575 ) ( a00c1bf ) fix(gui-app): turning HTML artifact comments on or off keeps the page loaded, and the page still scrolls (pick of #3464 ) ( #3734 ) ( 177e3d6 ) fix(sentry): redact client fingerprints and event grouping text (pick of #3735 ) ( #3737 ) ( 55caab6 ) test(protocol): the release line validates each registry once, with a 20 s test timeout (picks of #3308 and part of #3317 ) ( #3741 ) ( b4959f6 ) Pick #3745 into release-v1.5.2: HTML comment bridge review notes ( #3747 ) ( b7a5f5c ) Traycer Desktop 1.5.4-rc.1."
+    },
+    {
+      "tag": "cli-v1.5.4-rc.1",
+      "title": "Traycer CLI 1.5.4-rc.1",
+      "date": "2026-11-12",
+      "url": "https://github.com/traycerai/traycer/releases/tag/cli-v1.5.4-rc.1",
+      "pre": true,
+      "note": "What's Changed Pick #3502 into release-v1.5.2 for the next 1.5.x patch ( #3575 ) ( a00c1bf ) fix(sentry): redact client fingerprints and event grouping text (pick of #3735 ) ( #3737 ) ( 55caab6 ) test(protocol): the release line validates each registry once, with a 20 s test timeout (picks of #3308 and part of #3317 ) ( #3741 ) ( b4959f6 ) Traycer CLI 1.5.4-rc.1."
+    },
+    {
+      "tag": "host-v1.5.3",
+      "title": "Traycer Host 1.5.3",
+      "date": "2026-11-03",
+      "url": "https://github.com/traycerai/traycer/releases/tag/host-v1.5.3",
+      "pre": false,
+      "note": "Traycer Host 1.5.3."
+    },
+    {
+      "tag": "host-v1.5.3-rc.1",
+      "title": "Traycer Host 1.5.3-rc.1",
+      "date": "2026-11-03",
+      "url": "https://github.com/traycerai/traycer/releases/tag/host-v1.5.3-rc.1",
+      "pre": true,
+      "note": "Traycer Host 1.5.3-rc.1."
+    },
+    {
+      "tag": "desktop-v1.5.3",
+      "title": "Traycer Desktop 1.5.3",
+      "date": "2026-11-03",
+      "url": "https://github.com/traycerai/traycer/releases/tag/desktop-v1.5.3",
+      "pre": false,
+      "note": "What's Changed fix(gui-app): a reading position saved inside a turn survives the steer that splits it ( #3262 ) ( 6fc31b4 ) fix(gui-app,desktop): mod+w in a sandboxed page closes its tile, not the task tab ( #3263 ) ( 757d0eb ) fix(gui-app): a steer-split restore saves its resolved slice at mount, not only after it validates ( #3276 ) ( 81807ff ) fix(gui-app): the usage popover's selected provider tab is visible on dark presets ( #3267 ) ( 1f72e83 ) perf(gui): expand a sidebar branch without re-rendering every row ( #3275 ) ( f79760d ) fix(gui-app): a press inside a sandboxed artifact page closes the status-bar popovers ( #3277 ) ( 63b8dfa ) fix(gui-app): the epic-create seed hold reads the opening's delivery state ( #3278 ) ( 2b81f0b ) fix(gui-app): preserve board iframe focus during relayed presses ( #3290 ) ( 1b89af3 ) fix(gui-app): skip the notification indicator read for a dead host"
+    },
+    {
+      "tag": "desktop-v1.5.3-rc.1",
+      "title": "Traycer Desktop 1.5.3-rc.1",
+      "date": "2026-11-03",
+      "url": "https://github.com/traycerai/traycer/releases/tag/desktop-v1.5.3-rc.1",
+      "pre": true,
+      "note": "What's Changed fix(gui-app): a reading position saved inside a turn survives the steer that splits it ( #3262 ) ( 6fc31b4 ) fix(gui-app,desktop): mod+w in a sandboxed page closes its tile, not the task tab ( #3263 ) ( 757d0eb ) fix(gui-app): a steer-split restore saves its resolved slice at mount, not only after it validates ( #3276 ) ( 81807ff ) fix(gui-app): the usage popover's selected provider tab is visible on dark presets ( #3267 ) ( 1f72e83 ) perf(gui): expand a sidebar branch without re-rendering every row ( #3275 ) ( f79760d ) fix(gui-app): a press inside a sandboxed artifact page closes the status-bar popovers ( #3277 ) ( 63b8dfa ) fix(gui-app): the epic-create seed hold reads the opening's delivery state ( #3278 ) ( 2b81f0b ) fix(gui-app): preserve board iframe focus during relayed presses ( #3290 ) ( 1b89af3 ) fix(gui-app): skip the notification indicator read for a dead host"
+    }
+  ]
+}

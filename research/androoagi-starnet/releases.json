@@ -1,27 +1,87 @@
-[
-  {
-    "tag": "StarNet v0.15.0",
-    "date": "2026-11-07",
-    "url": "https://github.com/androoAGI/starnet/releases/tag/v0.15.0"
-  },
-  {
-    "tag": "StarNet v0.14.2",
-    "date": "2026-10-31",
-    "url": "https://github.com/androoAGI/starnet/releases/tag/v0.14.2"
-  },
-  {
-    "tag": "StarNet v0.14.1",
-    "date": "2026-10-26",
-    "url": "https://github.com/androoAGI/starnet/releases/tag/v0.14.1"
-  },
-  {
-    "tag": "StarNet v0.14.0",
-    "date": "2026-10-25",
-    "url": "https://github.com/androoAGI/starnet/releases/tag/v0.14.0"
-  },
-  {
-    "tag": "StarNet v0.13.5",
-    "date": "2026-10-16",
-    "url": "https://github.com/androoAGI/starnet/releases/tag/v0.13.5"
-  }
-]
+{
+  "repo": "androoAGI/starnet",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "v0.15.0",
+      "title": "StarNet v0.15.0",
+      "date": "2026-11-07",
+      "url": "https://github.com/androoAGI/starnet/releases/tag/v0.15.0",
+      "pre": false,
+      "note": "Download Platform Installer Windows (x64) StarNet_0.15.0_x64-setup.exe macOS (Apple Silicon) StarNet_0.15.0_aarch64.dmg macOS (Intel) StarNet_0.15.0_x64.dmg These downloads are mirrored byte-for-byte from the validated StarNet distribution release. Already running StarNet? Update from inside the app; your crew, sessions, keys, and station remain in place. StarNet v0.15.0 This update improves StarNet's reliability, privacy, security and spending controls. Jobs now wait for your decision when a reviewer blocks them, deleting a chat clears far more of what the station kept from it, images of unknown cost are capped, and save files are much smaller for stations with a lot of chat history. It also adds steering an agent mid-task from COMMS, a recovery bundle for backing up your station, and a station designer with seven new floor plans. Upgrading, and going back The first save moves your stat"
+    },
+    {
+      "tag": "v0.14.2",
+      "title": "StarNet v0.14.2",
+      "date": "2026-10-31",
+      "url": "https://github.com/androoAGI/starnet/releases/tag/v0.14.2",
+      "pre": false,
+      "note": "Download Platform Installer Windows (x64) StarNet_0.14.2_x64-setup.exe macOS (Apple Silicon) StarNet_0.14.2_aarch64.dmg macOS (Intel) StarNet_0.14.2_x64.dmg These downloads are mirrored byte-for-byte from the validated StarNet distribution release. Already running StarNet? Update from inside the app; your crew, sessions, keys, and station remain in place. StarNet v0.14.2 Stations without a voice key speak again: Microsoft's free voice had been refusing StarNet since mid-October. A key you pasted into a chat is no longer sent to your AI service from other chats and background work. YOUR FIRST TASK no longer covers the message box, Gmail goes straight to app-password setup, and skills keep their files; approving one sticks. The terminal gains /connect, FLOOR and /split. StarNet's send and upload tools now take files only from an agent's workspace or project folder. Voice is back Stations w"
+    },
+    {
+      "tag": "v0.14.1",
+      "title": "StarNet v0.14.1",
+      "date": "2026-10-26",
+      "url": "https://github.com/androoAGI/starnet/releases/tag/v0.14.1",
+      "pre": false,
+      "note": "Download Platform Installer Windows (x64) StarNet_0.14.1_x64-setup.exe macOS (Apple Silicon) StarNet_0.14.1_aarch64.dmg macOS (Intel) StarNet_0.14.1_x64.dmg These downloads are mirrored byte-for-byte from the validated StarNet distribution release. Already running StarNet? Update from inside the app; your crew, sessions, keys, and station remain in place. StarNet v0.14.1 The stability update. It fixes the bugs you reported most since 0.14.0, starting with stations that stopped saving, and it makes StarNet quicker to open and easier to find your way around. Your station saves again Stations stop disappearing. If StarNet closed unexpectedly between two saves (a crash, a killed app, a Windows restart), the reopened window could have every later save refused, so the station file stopped updating while the app kept working, and a restart brought back an old station. The station now records wh"
+    },
+    {
+      "tag": "v0.14.0",
+      "title": "StarNet v0.14.0",
+      "date": "2026-10-25",
+      "url": "https://github.com/androoAGI/starnet/releases/tag/v0.14.0",
+      "pre": false,
+      "note": "Download Platform Installer Windows (x64) StarNet_0.14.0_x64-setup.exe macOS (Apple Silicon) StarNet_0.14.0_aarch64.dmg macOS (Intel) StarNet_0.14.0_x64.dmg These downloads are mirrored byte-for-byte from the validated StarNet distribution release. Already running StarNet? Update from inside the app; your crew, sessions, keys, and station remain in place. StarNet v0.14.0 Before you update: save a station backup first (SETTINGS › APP &amp; BACKUP › STATION BACKUP keeps your agents, settings and connectors; your conversations stay in your station folder, which the installer keeps). If agents are working when you install, choose WAIT FOR AGENTS. If the save notice says \"Another window saved newer station changes\", the in-app update will keep saying \"try again in a moment\". Press Download this window's save (not Reload current station), close StarNet, install 0.14.0 with the installer from s"
+    },
+    {
+      "tag": "v0.13.5",
+      "title": "StarNet v0.13.5",
+      "date": "2026-10-16",
+      "url": "https://github.com/androoAGI/starnet/releases/tag/v0.13.5",
+      "pre": false,
+      "note": "Download Platform Installer Windows (x64) StarNet_0.13.5_x64-setup.exe macOS (Apple Silicon) StarNet_0.13.5_aarch64.dmg macOS (Intel) StarNet_0.13.5_x64.dmg These downloads are mirrored byte-for-byte from the validated StarNet distribution release. Already running StarNet? Update from inside the app; your crew, sessions, keys, and station remain in place. StarNet v0.13.5 Before you update: if you might ever go back to 0.13.3 or older, save a station backup first (SETTINGS › APP &amp; BACKUP › STATION BACKUP). Older versions don't know SEND TO or SPLIT THE JOB and delete those settings the next time they save your station. If agents are working when you install, choose WAIT FOR AGENTS. The big one. 0.13.3 was security only; this is the feature update that was promised with it, polished end to end. Your agents can bring crew into a chat and hand work to each other, conveyor lines can hand "
+    },
+    {
+      "tag": "v0.13.3",
+      "title": "StarNet v0.13.3",
+      "date": "2026-10-13",
+      "url": "https://github.com/androoAGI/starnet/releases/tag/v0.13.3",
+      "pre": false,
+      "note": "Download Platform Installer Windows (x64) StarNet_0.13.3_x64-setup.exe macOS (Apple Silicon) StarNet_0.13.3_aarch64.dmg macOS (Intel) StarNet_0.13.3_x64.dmg These downloads are mirrored byte-for-byte from the validated StarNet distribution release. Already running StarNet? Update from inside the app; your crew, sessions, keys, and station remain in place. StarNet v0.13.3 A security update. Everything else stays exactly as it is in 0.13.2. The big feature update (SEND TO between lines, drag-and-drop building, memory and long-chat fixes, clearer stops, local model fixes) is coming next as its own release. Security This release tightens StarNet's local security: Local access checks are stricter. The station only hands its access key to the app running under your own account, and checks every request. Outside content stays contained. A run that has read outside content, such as a web page, a"
+    },
+    {
+      "tag": "v0.13.2",
+      "title": "StarNet v0.13.2",
+      "date": "2026-10-09",
+      "url": "https://github.com/androoAGI/starnet/releases/tag/v0.13.2",
+      "pre": false,
+      "note": "Download Platform Installer Windows (x64) StarNet_0.13.2_x64-setup.exe macOS (Apple Silicon) StarNet_0.13.2_aarch64.dmg macOS (Intel) StarNet_0.13.2_x64.dmg These downloads are mirrored byte-for-byte from the validated StarNet distribution release. Already running StarNet? Update from inside the app; your crew, sessions, keys, and station remain in place. StarNet v0.13.2 Before you update: if the in-app update from 0.13.1 stops with \"Update paused - no verified recovery point was created\", download the full installer from the releases page and run it over the top (your station is kept). If agents are working, choose WAIT FOR AGENTS, not INSTALL ANYWAY. macOS 10.15 Catalina is no longer supported: StarNet needs macOS 11+ with Safari 16.4+. A large repair update: credits and spending tell the truth, in-app updates are safer, routines get their keys and tools back, the station runs lighter,"
+    },
+    {
+      "tag": "v0.13.1",
+      "title": "StarNet v0.13.1",
+      "date": "2026-10-04",
+      "url": "https://github.com/androoAGI/starnet/releases/tag/v0.13.1",
+      "pre": false,
+      "note": "Download Platform Installer Windows (x64) StarNet_0.13.1_x64-setup.exe macOS (Apple Silicon) StarNet_0.13.1_aarch64.dmg macOS (Intel) StarNet_0.13.1_x64.dmg These downloads are mirrored byte-for-byte from the validated StarNet distribution release. Already running StarNet? Update from inside the app; your crew, sessions, keys, and station remain in place. StarNet v0.13.1 A repair update: web requests work again, group chats save and show who is in them, COMMS reads like a conversation, crew no longer freeze in the halls, each floor OUTBOX shows only its own line's work, schedules let you pick who they run as, and spending limits hold during retries. Fixed Web requests web_request and web_fetch work again. Since 0.12.5, every web request an agent made could fail with \"fetch failed\", even for sites like google.com. Requests now connect normally, and on networks without IPv6 they fall back "
+    },
+    {
+      "tag": "v0.13.0",
+      "title": "StarNet v0.13.0",
+      "date": "2026-10-03",
+      "url": "https://github.com/androoAGI/starnet/releases/tag/v0.13.0",
+      "pre": false,
+      "note": "Download Platform Installer Windows (x64) StarNet_0.13.0_x64-setup.exe macOS (Apple Silicon) StarNet_0.13.0_aarch64.dmg macOS (Intel) StarNet_0.13.0_x64.dmg These downloads are mirrored byte-for-byte from the validated StarNet distribution release. Already running StarNet? Update from inside the app; your crew, sessions, keys, and station remain in place. StarNet v0.13.0 A simpler dock, a new glass look, apps your crew builds, StarNet Remote for your phone, Claude Code as a provider, and a lead that builds rooms and changes settings from chat. Heads-up: stations that never set autonomy now start at SUGGEST, routines stop after 90 minutes, a StarNet-credits run stops at $2 unless you set a per-run limit, old notifications are cleared, and going back to 0.12.5 drops made props and plugin terminals. See Heads-up below. Highlights One dock, fewer doors. The dock keeps its four menus (CREW, W"
+    },
+    {
+      "tag": "v0.12.5",
+      "title": "StarNet v0.12.5",
+      "date": "2026-09-28",
+      "url": "https://github.com/androoAGI/starnet/releases/tag/v0.12.5",
+      "pre": false,
+      "note": "Download Platform Installer Windows (x64) StarNet_0.12.5_x64-setup.exe macOS (Apple Silicon) StarNet_0.12.5_aarch64.dmg macOS (Intel) StarNet_0.12.5_x64.dmg These downloads are mirrored byte-for-byte from the validated StarNet distribution release. Already running StarNet? Update from inside the app; your crew, sessions, keys, and station remain in place. StarNet v0.12.5 Workflow lines you can step-test and start from a folder or webhook, Google Workspace early access, steadier long runs, and a large security update. Heads-up: metered runs now stop once spend in the last 24 hours reaches $25, until you press RESUME in Budget (editable; 0 turns it off). Some plugins, chat-channel bots and code.run ask for approval or pairing again. The heads-up items at the end list what to check. Highlights Workflow studio. Each line gets one docked Workflow panel. You can step-test a line one stage at a"
+    }
+  ]
+}

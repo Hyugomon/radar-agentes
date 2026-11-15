@@ -11,6 +11,15 @@
 
 Workspace con múltiples agentes, multiplexación de sesiones, skills y companion para iPhone.
 
+## Release revisada
+
+- **Tag**: [v0.114.1](https://github.com/gregce/tortie/releases/tag/v0.114.1)
+- **Fecha**: 2026-11-06 (hace 9 días)
+- **Estado**: reciente · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> This release fixes an error 0.114.0 could show again and again when Tortie's session list stopped reading correctly while it ran. Tortie now says so once and offers a restart, and your sessions keep running. Fixed If Tortie's session list stops reading correctly while it runs, Tortie says so once and offers a restart, instead of an error every few seconds and a crash when you quit; your sessions keep running either way ( 5a6097ac )
+
 ## Evidencia
 
 ### harnesses

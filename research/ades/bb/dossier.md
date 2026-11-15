@@ -11,6 +11,15 @@
 
 Workspace extensible con plugins, orquestación de agentes, tareas programadas y ejecución remota en tus propios hosts.
 
+## Release revisada
+
+- **Tag**: [desktop-nightly](https://github.com/get-bb/bb/releases/tag/desktop-nightly)
+- **Fecha**: 2026-11-12 (hace 3 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> Latest automated bb Nightly build from main. Nightly builds may be unstable.
+
 ## Evidencia
 
 ### harnesses

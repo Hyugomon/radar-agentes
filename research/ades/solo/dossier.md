@@ -11,6 +11,15 @@
 
 Workspace programable para coordinar agentes existentes, terminales y tareas, con MCP, subagentes y automatizaciones por CLI.
 
+## Release revisada
+
+- **Tag**: [v0.12.4](https://soloterm.com/changelog)
+- **Fecha**: 2026-10-31 (hace 15 días)
+- **Estado**: reciente · **Releases en 90 días**: —
+- **Revisado**: 2026-11-15 · **Fuente**: changelog
+
+> v0.12.4 Released on October 31, 2026 TL;DR Stopping a command now lets it shut down cleanly. On macOS and Linux, Solo asks it to exit the way Ctrl+C would and escalates only if it keeps running. On Windows, Solo sends Ctrl+C and force-stops only after about 3 seconds. Child processes are stopped too, and a project whose folder is missing at startup is kept instead of removed. Timer and MCP messages to agents are much more dependable. They no longer get stuck unsubmitted in a prompt, never answer a permission prompt or question for you, and typing into an agent mid-delivery no longer locks its terminal. Resume also follows Claude Code's /clear and /resume , and Codex's -C . MCP gives you cont
+
 ## Evidencia
 
 ### harnesses

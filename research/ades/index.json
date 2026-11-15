@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13",
+  "generated_at": "2026-11-15",
   "count": 24,
   "projects": [
     {
@@ -179,7 +179,58 @@
         "No es un runtime de agentes propio: depende de los CLIs",
         "La curva de configuración crece con el equipo"
       ],
-      "licenseType": "Comercial"
+      "licenseType": "Comercial",
+      "last_release": "2026-11-15",
+      "last_release_tag": "mobile-android-v0.0.65",
+      "last_release_url": "https://github.com/stablyai/orca/releases/tag/mobile-android-v0.0.65",
+      "last_release_days": 0,
+      "releases_90": 10,
+      "releases_recent": [
+        {
+          "tag": "mobile-android-v0.0.65",
+          "date": "2026-11-15",
+          "pre": true,
+          "url": "https://github.com/stablyai/orca/releases/tag/mobile-android-v0.0.65"
+        },
+        {
+          "tag": "android-v0.0.65",
+          "date": "2026-11-15",
+          "pre": true,
+          "url": "https://github.com/stablyai/orca/releases/tag/android-v0.0.65"
+        },
+        {
+          "tag": "v1.4.259",
+          "date": "2026-11-14",
+          "pre": false,
+          "url": "https://github.com/stablyai/orca/releases/tag/v1.4.259"
+        },
+        {
+          "tag": "v1.4.258",
+          "date": "2026-11-13",
+          "pre": false,
+          "url": "https://github.com/stablyai/orca/releases/tag/v1.4.258"
+        },
+        {
+          "tag": "v1.4.257",
+          "date": "2026-11-12",
+          "pre": false,
+          "url": "https://github.com/stablyai/orca/releases/tag/v1.4.257"
+        },
+        {
+          "tag": "v1.4.256",
+          "date": "2026-11-11",
+          "pre": false,
+          "url": "https://github.com/stablyai/orca/releases/tag/v1.4.256"
+        }
+      ],
+      "release_note": "This is the last update for this app Orca for Android has moved to a new app, dev.orca.app . It's on Google Play , and as an APK on GitHub for phones without Play. This app ( com.stably.orca.mobile ) won't get any more updates after this one, including security fixes. The new app is separate, so it can't update this one in place. You need to install it once, and from then on it updates itself. What this update does When you open Orca, it shows you how to move to the new app. Its name on your home screen is now Orca (old) , so you can tell the two apart. Switching to the new app Install the new app from Google Play. If your phone doesn't have Play, download the APK from the new app's release . It installs next to this one. Pair it: in Orca on your computer, go to Settings → Mobile and scan the code. Delete Orca (old) once your agents show up in the new app. Your agents, chats and workspac",
+      "release_status": "activo",
+      "release_source": "releases.atom",
+      "release_checked_at": "2026-11-15",
+      "release_http": 200,
+      "changelog_url": null,
+      "release_highlight": "",
+      "release_impact": ""
     },
     {
       "slug": "t3-code",
@@ -204,15 +255,15 @@
         "harnesses": 95,
         "paralelo": 92,
         "orquestacion": 86,
-        "revision": 86,
+        "revision": 89,
         "remoto": 88,
         "movil": 84,
         "extensiones": 82,
-        "control": 72,
+        "control": 74,
         "abierto": 95,
-        "producto": 90
+        "producto": 91
       },
-      "total": 87.59,
+      "total": 88.17,
       "tier": "S",
       "harnesses": [
         "claude code",
@@ -251,16 +302,8 @@
         ],
         "revision": [
           {
-            "text": "Add marketing hero animation Ready feat/marketing-hero → main +142 −38 3 commits apps/marketing/src/pages/index.astro +14 −2 apps/marketing/src/layouts/Layout.astro +8 −0 apps/marketing/public/hero.css +120 −36 View diff Open pull request Commit & push ⌘⏎ One button to commit, push, and make a PR.",
-            "source": "https://github.com/pingdotgg/t3code#readme"
-          },
-          {
-            "text": "Auto-generated PR titles & bodies Inline diff review before you push Draft PRs, stack PRs, amend PRs Works with your existing GitHub auth If you don't like something, fork it.",
-            "source": "https://github.com/pingdotgg/t3code#readme"
-          },
-          {
-            "text": "Review the diff, then commit, push, and open a pull request with one button.",
-            "source": "https://github.com/pingdotgg/t3code#readme"
+            "text": "Resume a stopped Cursor turn from its latest checkpoint without sending a new message. Load a pull request file diff on demand when it is too large to show automatically.",
+            "source": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.10-nightly.20261115.4723"
           }
         ],
         "remoto": [
@@ -336,14 +379,66 @@
       "strengths": [
         "Open source con mucha adopción",
         "Acceso remoto y móvil",
-        "Multi-harness y worktrees"
+        "Multi-harness y worktrees",
+        "Revisión de PRs grandes y reanudación de Cursor"
       ],
       "weaknesses": [
         "Cambios frecuentes entre Nightly y Stable",
         "No trae modelo propio",
         "La revisión es más de workspace que de code review profundo"
       ],
-      "licenseType": "Comercial"
+      "licenseType": "Comercial",
+      "last_release": "2026-11-15",
+      "last_release_tag": "v0.1.10-nightly.20261115.4723",
+      "last_release_url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.10-nightly.20261115.4723",
+      "last_release_days": 0,
+      "releases_90": 10,
+      "releases_recent": [
+        {
+          "tag": "v0.1.10-nightly.20261115.4723",
+          "date": "2026-11-15",
+          "pre": true,
+          "url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.10-nightly.20261115.4723"
+        },
+        {
+          "tag": "mobile-android-preview-build/4d8f7b0a47340c0caa8ab2ff11ffeea71183938b",
+          "date": "2026-11-15",
+          "pre": true,
+          "url": "https://github.com/pingdotgg/t3code/releases/tag/mobile-android-preview-build%2F4d8f7b0a47340c0caa8ab2ff11ffeea71183938b"
+        },
+        {
+          "tag": "mobile-android-build/2.3.0/81e495fe123dcf91e6e607b56e62b8e788e624dd",
+          "date": "2026-11-15",
+          "pre": false,
+          "url": "https://github.com/pingdotgg/t3code/releases/tag/mobile-android-build%2F2.3.0%2F81e495fe123dcf91e6e607b56e62b8e788e624dd"
+        },
+        {
+          "tag": "v0.1.10-nightly.20261114.4709",
+          "date": "2026-11-14",
+          "pre": true,
+          "url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.10-nightly.20261114.4709"
+        },
+        {
+          "tag": "v0.1.10-nightly.20261114.4695",
+          "date": "2026-11-14",
+          "pre": true,
+          "url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.10-nightly.20261114.4695"
+        },
+        {
+          "tag": "v0.1.10-nightly.20261114.4682",
+          "date": "2026-11-14",
+          "pre": true,
+          "url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.10-nightly.20261114.4682"
+        }
+      ],
+      "release_note": "v0.1.10-nightly.20261115.4723 · 221 changes from 92 contributors Resume Cursor turns. Resume a stopped Cursor turn from its latest checkpoint without sending a new message. Cursor compaction. Manually compact Cursor conversations from the slash menu or context meter. Large pull request diffs. Load a pull request file’s diff on demand when it is too large to show automatically. Faster pull request actions. Pull request actions, title edits, and labels now update immediately across all supported hosts. Faster delegated tasks. Delegated tasks start and finish faster in long threads. Prompt recovery. Prompts awaiting provider acceptance are preserved if the server restarts. Scratch thread protection. Agents can no longer delete the built-in No project workspace and its threads. Plus 205 more bug fixes and performance improvements. Full changelog What's Changed perf(server): text-only browser",
+      "release_status": "activo",
+      "release_source": "releases.atom",
+      "release_checked_at": "2026-11-15",
+      "release_http": 200,
+      "changelog_url": null,
+      "release_highlight": "Nightly 2026-11-15: reanudar turnos de Cursor, compactar contexto y cargar diffs grandes de PR.",
+      "release_impact": "Tier S (+0.58): Revisión 86→89, Control 72→74 y Producto 90→91."
     },
     {
       "slug": "paradev",
@@ -531,7 +626,58 @@
         "Cloud en beta",
         "Depende de los harnesses que conectes"
       ],
-      "licenseType": "Comercial"
+      "licenseType": "Comercial",
+      "last_release": "2026-11-15",
+      "last_release_tag": "desktop-canary",
+      "last_release_url": "https://github.com/ParadevAI/Paradev/releases/tag/desktop-canary",
+      "last_release_days": 0,
+      "releases_90": 10,
+      "releases_recent": [
+        {
+          "tag": "desktop-canary",
+          "date": "2026-11-15",
+          "pre": true,
+          "url": "https://github.com/ParadevAI/Paradev/releases/tag/desktop-canary"
+        },
+        {
+          "tag": "desktop-v2.0.9",
+          "date": "2026-11-12",
+          "pre": false,
+          "url": "https://github.com/ParadevAI/Paradev/releases/tag/desktop-v2.0.9"
+        },
+        {
+          "tag": "ahrefs@1.0.0",
+          "date": "2026-11-12",
+          "pre": false,
+          "url": "https://github.com/ParadevAI/Paradev/releases/tag/ahrefs%401.0.0"
+        },
+        {
+          "tag": "desktop-v2.0.8",
+          "date": "2026-11-10",
+          "pre": true,
+          "url": "https://github.com/ParadevAI/Paradev/releases/tag/desktop-v2.0.8"
+        },
+        {
+          "tag": "cli-v2.0.8",
+          "date": "2026-11-10",
+          "pre": true,
+          "url": "https://github.com/ParadevAI/Paradev/releases/tag/cli-v2.0.8"
+        },
+        {
+          "tag": "cli-latest",
+          "date": "2026-11-10",
+          "pre": true,
+          "url": "https://github.com/ParadevAI/Paradev/releases/tag/cli-latest"
+        }
+      ],
+      "release_note": "Internal Testing Build This is an automated canary build from main branch. Commit: 7ae3dc9 Short SHA: 7ae3dc9 Built: 2026-11-15T02:32:51Z ⚠️ This build is for internal testing only and may be unstable.",
+      "release_status": "activo",
+      "release_source": "releases.atom",
+      "release_checked_at": "2026-11-15",
+      "release_http": 200,
+      "changelog_url": null,
+      "release_highlight": "",
+      "release_impact": ""
     },
     {
       "slug": "agent-orchestrator",
@@ -727,7 +873,58 @@
         "Extensiones y MCP no son el centro",
         "Requiere configurar los agentes conectados"
       ],
-      "licenseType": "Comercial"
+      "licenseType": "Comercial",
+      "last_release": "2026-11-14",
+      "last_release_tag": "v0.15.2-nightly.202611142232",
+      "last_release_url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.2-nightly.202611142232",
+      "last_release_days": 1,
+      "releases_90": 10,
+      "releases_recent": [
+        {
+          "tag": "v0.15.2-nightly.202611142232",
+          "date": "2026-11-14",
+          "pre": true,
+          "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.2-nightly.202611142232"
+        },
+        {
+          "tag": "v0.15.2-nightly.202611141846",
+          "date": "2026-11-14",
+          "pre": true,
+          "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.2-nightly.202611141846"
+        },
+        {
+          "tag": "v0.15.1",
+          "date": "2026-11-14",
+          "pre": false,
+          "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.1"
+        },
+        {
+          "tag": "v0.15.1-nightly.202611140850",
+          "date": "2026-11-14",
+          "pre": true,
+          "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.1-nightly.202611140850"
+        },
+        {
+          "tag": "v0.15.1-nightly.202611132033",
+          "date": "2026-11-13",
+          "pre": true,
+          "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.1-nightly.202611132033"
+        },
+        {
+          "tag": "v0.15.0",
+          "date": "2026-11-13",
+          "pre": false,
+          "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.0"
+        }
+      ],
+      "release_note": "Changes in this nightly Browser and side chat tabs use the session strip's tab frame by @ronishrohan in #8296 Steer queued messages into the running turn, durably by @mohakchakraborty2004 in #8343 UI-only Cloud parity quick wins (archive, restore, shells, file tabs, automations, notifications, PR conflicts, i18n, delete wording) by @mohakchakraborty2004 in #8341 Drop the workspace row, share the project from the orchestrator and board cards; remove the Cloud GitHub PAT UI by @mohakchakraborty2004 in #8307 Draw Resolve conflicts and Update from base clicks as the user's action by @illegalcall in #8404 Make side chat closing and recovery reliable by @Vansh-Singhal in #8242 Acknowledge reports inside Claude paste wrappers by @Rishet11 in #6387 Log launch timestamps in one line by @illegalcall in #8254 5 more linked changes are included in the full comparison . Build details Commit: c023bdb ",
+      "release_status": "activo",
+      "release_source": "releases.atom",
+      "release_checked_at": "2026-11-15",
+      "release_http": 200,
+      "changelog_url": null,
+      "release_highlight": "",
+      "release_impact": ""
     },
     {
       "slug": "kandev",
@@ -909,7 +1106,58 @@
         "Móvil limitado al navegador",
         "Setup self-hosted"
       ],
-      "licenseType": "Comercial"
+      "licenseType": "Comercial",
+      "last_release": "2026-11-11",
+      "last_release_tag": "v0.101.0",
+      "last_release_url": "https://github.com/kdlbs/kandev/releases/tag/v0.101.0",
+      "last_release_days": 4,
+      "releases_90": 10,
+      "releases_recent": [
+        {
+          "tag": "v0.101.0",
+          "date": "2026-11-11",
+          "pre": false,
+          "url": "https://github.com/kdlbs/kandev/releases/tag/v0.101.0"
+        },
+        {
+          "tag": "pluginsdk/v0.2.1",
+          "date": "2026-11-11",
+          "pre": false,
+          "url": "https://github.com/kdlbs/kandev/releases/tag/pluginsdk%2Fv0.2.1"
+        },
+        {
+          "tag": "v0.100.0",
+          "date": "2026-11-09",
+          "pre": false,
+          "url": "https://github.com/kdlbs/kandev/releases/tag/v0.100.0"
+        },
+        {
+          "tag": "pluginsdk/v0.2.0",
+          "date": "2026-11-09",
+          "pre": false,
+          "url": "https://github.com/kdlbs/kandev/releases/tag/pluginsdk%2Fv0.2.0"
+        },
+        {
+          "tag": "v0.99.1",
+          "date": "2026-11-06",
+          "pre": false,
+          "url": "https://github.com/kdlbs/kandev/releases/tag/v0.99.1"
+        },
+        {
+          "tag": "v0.99.0",
+          "date": "2026-11-05",
+          "pre": false,
+          "url": "https://github.com/kdlbs/kandev/releases/tag/v0.99.0"
+        }
+      ],
+      "release_note": "Warning macOS, Windows desktop installers in this release are unsigned development builds. They may require manual OS security bypasses and are not trusted downloads. If macOS blocks Kandev after you verify the checksum, run: xattr -d com.apple.quarantine /Applications/Kandev.app 0.101.0 - 2026-11-11 Features select built-in packages and workspace MCPs ( #5106 ) clarify change workflow selector fields ( #5249 ) comment on extracts of task thread comments ( #5233 ) by @jcoatelen-ledger review question images in a large A/B view ( #5239 ) by @point-source cancel running chat turn with escape ( #5241 ) by @ZenitK show CI bubbles on PR status icons ( #5244 ) preview HTML files from review diffs ( #5243 ) remote credentials and config bundle for Pi ( #4767 ) by @naerymdan add Telegram plugin to the registry ( #4756 ) by @scottof move the task graph action into composer actions ( #5232 ) show ",
+      "release_status": "activo",
+      "release_source": "releases.atom",
+      "release_checked_at": "2026-11-15",
+      "release_http": 200,
+      "changelog_url": null,
+      "release_highlight": "",
+      "release_impact": ""
     },
     {
       "slug": "synara",
@@ -1104,7 +1352,58 @@
         "No tiene runtime propio",
         "Ecosistema joven"
       ],
-      "licenseType": "Comercial"
+      "licenseType": "Comercial",
+      "last_release": "2026-11-14",
+      "last_release_tag": "v1.5.4",
+      "last_release_url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.5.4",
+      "last_release_days": 1,
+      "releases_90": 10,
+      "releases_recent": [
+        {
+          "tag": "v1.5.4",
+          "date": "2026-11-14",
+          "pre": false,
+          "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.5.4"
+        },
+        {
+          "tag": "v1.5.3",
+          "date": "2026-11-12",
+          "pre": false,
+          "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.5.3"
+        },
+        {
+          "tag": "v1.5.2",
+          "date": "2026-11-11",
+          "pre": false,
+          "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.5.2"
+        },
+        {
+          "tag": "v1.5.1",
+          "date": "2026-11-10",
+          "pre": false,
+          "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.5.1"
+        },
+        {
+          "tag": "v1.5.0",
+          "date": "2026-11-10",
+          "pre": false,
+          "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.5.0"
+        },
+        {
+          "tag": "v1.0.6-remote.44",
+          "date": "2026-11-10",
+          "pre": false,
+          "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.0.6-remote.44"
+        }
+      ],
+      "release_note": "What's Changed Frame project logos with a plain border instead of a shadow halo by @Emanuele-web04 in #2134 Retry Cloudflare-blocked Claude turns and log turn failure categories by @Emanuele-web04 in #2138 fix(hosts): keep remote folder browsing usable after errors by @Emanuele-web04 in #2129 fix(skills): deliver typed and shared skills to Claude and Codex reliably by @Emanuele-web04 in #2142 Fix stuck background status and merge replies woken by background tasks by @Emanuele-web04 in #2149 Move background tasks out of the transcript into the Environment panel by @Emanuele-web04 in #2150 Leave merged and checked-out history out of turn diffs and Undo by @Emanuele-web04 in #2130 Reconnect remote computers automatically and from the picker by @Emanuele-web04 in #2133 Show Claude's turn plan again through a Synara update_plan tool by @Emanuele-web04 in #2140 Put chat images that share a par",
+      "release_status": "activo",
+      "release_source": "releases.atom",
+      "release_checked_at": "2026-11-15",
+      "release_http": 200,
+      "changelog_url": null,
+      "release_highlight": "",
+      "release_impact": ""
     },
     {
       "slug": "bb",
@@ -1267,7 +1566,58 @@
         "Sin app móvil nativa",
         "El modelo de plugins añade complejidad"
       ],
-      "licenseType": "Comercial"
+      "licenseType": "Comercial",
+      "last_release": "2026-11-12",
+      "last_release_tag": "desktop-nightly",
+      "last_release_url": "https://github.com/get-bb/bb/releases/tag/desktop-nightly",
+      "last_release_days": 3,
+      "releases_90": 10,
+      "releases_recent": [
+        {
+          "tag": "desktop-nightly",
+          "date": "2026-11-12",
+          "pre": true,
+          "url": "https://github.com/get-bb/bb/releases/tag/desktop-nightly"
+        },
+        {
+          "tag": "desktop-v0.49.0",
+          "date": "2026-11-06",
+          "pre": false,
+          "url": "https://github.com/get-bb/bb/releases/tag/desktop-v0.49.0"
+        },
+        {
+          "tag": "desktop-latest",
+          "date": "2026-11-06",
+          "pre": true,
+          "url": "https://github.com/get-bb/bb/releases/tag/desktop-latest"
+        },
+        {
+          "tag": "desktop-v0.48.1",
+          "date": "2026-10-30",
+          "pre": false,
+          "url": "https://github.com/get-bb/bb/releases/tag/desktop-v0.48.1"
+        },
+        {
+          "tag": "desktop-v0.48.0",
+          "date": "2026-10-28",
+          "pre": false,
+          "url": "https://github.com/get-bb/bb/releases/tag/desktop-v0.48.0"
+        },
+        {
+          "tag": "desktop-v0.47.1",
+          "date": "2026-10-24",
+          "pre": false,
+          "url": "https://github.com/get-bb/bb/releases/tag/desktop-v0.47.1"
+        }
+      ],
+      "release_note": "Latest automated bb Nightly build from main. Nightly builds may be unstable.",
+      "release_status": "activo",
+      "release_source": "releases.atom",
+      "release_checked_at": "2026-11-15",
+      "release_http": 200,
+      "changelog_url": null,
+      "release_highlight": "",
+      "release_impact": ""
     },
     {
       "slug": "emdash",
@@ -1418,7 +1768,291 @@
         "Orquestación menos profunda",
         "Cloud todavía en acceso anticipado"
       ],
-      "licenseType": "Comercial"
+      "licenseType": "Comercial",
+      "last_release": "2026-11-06",
+      "last_release_tag": "v1.2.11",
+      "last_release_url": "https://github.com/generalaction/emdash/releases/tag/v1.2.11",
+      "last_release_days": 9,
+      "releases_90": 10,
+      "releases_recent": [
+        {
+          "tag": "v1.2.11",
+          "date": "2026-11-06",
+          "pre": false,
+          "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.11"
+        },
+        {
+          "tag": "v1.2.10",
+          "date": "2026-10-30",
+          "pre": false,
+          "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.10"
+        },
+        {
+          "tag": "v1.2.10-canary.102",
+          "date": "2026-10-26",
+          "pre": true,
+          "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.10-canary.102"
+        },
+        {
+          "tag": "v1.2.9",
+          "date": "2026-10-23",
+          "pre": false,
+          "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.9"
+        },
+        {
+          "tag": "v1.2.8",
+          "date": "2026-10-10",
+          "pre": false,
+          "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.8"
+        },
+        {
+          "tag": "v1.2.8-canary.101",
+          "date": "2026-10-10",
+          "pre": true,
+          "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.8-canary.101"
+        }
+      ],
+      "release_note": "This release improves Git authentication, Windows compatibility, and SSH responsiveness. It also reduces background fetch overhead, fixes pane shortcuts after switching tasks, and adds an in-app signup for Emdash 2.0 early access. Highlights The project's Git credentials setting now applies to Emdash's own local Git operations, including push, pull, and fetch. Choosing System uses the machine's credentials, while an account explicitly selected for an operation still takes precedence. Join the Emdash 2.0 waitlist directly from the sidebar, with your email and an optional note about your team or workflow. The card can be dismissed for the current release. Fixes Commit &amp; Push and other Git network operations on Windows authenticate correctly through the connected account, fixing failures where pushing from a terminal worked but pushing from Emdash did not. Agent hooks on Windows run cor",
+      "release_status": "reciente",
+      "release_source": "releases.atom",
+      "release_checked_at": "2026-11-15",
+      "release_http": 200,
+      "changelog_url": null,
+      "release_highlight": "",
+      "release_impact": ""
+    },
+    {
+      "slug": "paseo",
+      "name": "Paseo",
+      "repo": "https://github.com/getpaseo/paseo",
+      "website": "https://paseo.sh/",
+      "license": null,
+      "category": "workspace",
+      "summary": "Workspace para acceder a sesiones de agentes de código desde distintos dispositivos, con worktrees, plugins, tareas en segundo plano y orquestación.",
+      "features": {
+        "parallel": true,
+        "orchestration": true,
+        "review": true,
+        "remote": true,
+        "mobile": true,
+        "extensions": true,
+        "control": true,
+        "openSource": false,
+        "mature": true
+      },
+      "scores": {
+        "harnesses": 88,
+        "paralelo": 86,
+        "orquestacion": 84,
+        "revision": 76,
+        "remoto": 84,
+        "movil": 88,
+        "extensiones": 84,
+        "control": 70,
+        "abierto": 50,
+        "producto": 82
+      },
+      "total": 80.9,
+      "tier": "A",
+      "harnesses": [
+        "claude code",
+        "codex",
+        "opencode",
+        "cursor",
+        "amp",
+        "copilot"
+      ],
+      "evidence": {
+        "harnesses": [
+          {
+            "text": "Paseo – Run Claude Code, Codex, Copilot, OpenCode from anywhere Paseo Plugins Blog Docs Changelog Download Sponsor EN 23.9k The agentic development environment Run many coding agents at once, on any machine.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          },
+          {
+            "text": "- **Multi-provider:** Claude Code, Codex, Copilot, OpenCode, Pi, Antigravity, and Muse Code through the same interface.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          },
+          {
+            "text": "@jasontorres Can interchange between Codex, Claude Code, Opencode, Pi.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          }
+        ],
+        "paralelo": [
+          {
+            "text": "- **Parallel agents:** Run many agents at once, each in its own worktree.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          },
+          {
+            "text": "[Run parallel tasks in Paseo](https://paseo.sh/docs/parallel-development): start agents in separate worktrees, review their diffs, run each app, and check it in the built-in browser.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          },
+          {
+            "text": "Fork the repo Built for automation Use MCP, the CLI, or the TypeScript SDK to automate Paseo MCP docs CLI docs SDK docs MCP From another agent CLI From the terminal SDK From code Take the open GitHub issues labeled ready and fan them out to separate worktree agents.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          }
+        ],
+        "orquestacion": [
+          {
+            "text": "one simple change transformed my health while INCREASING productivity @amankumarjagdev I have tried 100s of agent orchestrator, cli and gui.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          },
+          {
+            "text": "@ceeebeeebeee without a doubt the most slept on orchestrator right now.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          },
+          {
+            "text": "one simple change transformed my health while INCREASING productivity @amankumarjagdev I have tried 100s of agent orchestrator, cli and gui.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          }
+        ],
+        "revision": [
+          {
+            "text": "Open the desktop app and work: agents, editor, terminals, diffs, pull requests, and a browser in one window.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          },
+          {
+            "text": "- **Complete development workflow:** Edit files, review diffs, open pull requests, and run terminals, in split panes you arrange how you want.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          },
+          {
+            "text": "[Run parallel tasks in Paseo](https://paseo.sh/docs/parallel-development): start agents in separate worktrees, review their diffs, run each app, and check it in the built-in browser.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          }
+        ],
+        "remoto": [
+          {
+            "text": "Sponsors Cloud coding agents Become a sponsor Sponsor Paseo Paseo is an independent project used by tens of thousands of developers daily.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          },
+          {
+            "text": "Voice is local-first by default and can optionally use cloud speech providers if you configure them.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          },
+          {
+            "text": "For remote access, you can use the optional end-to-end encrypted relay , connect directly over your local network, or use your own tunnel.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          }
+        ],
+        "movil": [
+          {
+            "text": "The mobile app is the full app, native on iOS and Android.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          },
+          {
+            "text": "- **Cross-device:** iOS, Android, desktop, web, and CLI.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          },
+          {
+            "text": "The native mobile app has full feature parity with desktop.",
+            "source": "https://github.com/getpaseo/paseo#readme"
+          }
+        ],
+        "extensiones": [
+          {
+            "text": "Plugin sidebar views: A plugin can replace the sidebar content with its own layout of workspaces, agents, projects and terminals across every connected host.",
+            "source": "https://github.com/getpaseo/paseo/releases/tag/v0.16.0-beta.2"
+          }
+        ],
+        "control": [
+          {
+            "text": "Background tasks: Paseo now shows the background tasks an agent is running, such as shells and monitors, above the composer, with a Stop button for each.",
+            "source": "https://github.com/getpaseo/paseo/releases/tag/v0.16.0-beta.2"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "Web oficial",
+          "url": "https://paseo.sh/",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/getpaseo/paseo",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/getpaseo/paseo#readme",
+          "accessedAt": "2026-11-13"
+        }
+      ],
+      "judged_day": "2026-11-13",
+      "tagline": "Tus sesiones de agentes, desde cualquier sitio.",
+      "pricing": "free",
+      "priceNote": "Código abierto + tus modelos",
+      "execution": "Local · Self-hosted",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "strengths": [
+        "Móvil y acceso entre dispositivos",
+        "Plugins y worktrees",
+        "Tareas en segundo plano con Stop por tarea",
+        "Open source"
+      ],
+      "weaknesses": [
+        "Revisión y PRs no son el foco",
+        "SSH no verificado",
+        "Orquestación más de sesiones que de tareas"
+      ],
+      "licenseType": "No verificada",
+      "last_release": "2026-11-11",
+      "last_release_tag": "v0.16.0-beta.2",
+      "last_release_url": "https://github.com/getpaseo/paseo/releases/tag/v0.16.0-beta.2",
+      "last_release_days": 4,
+      "releases_90": 10,
+      "releases_recent": [
+        {
+          "tag": "v0.16.0-beta.2",
+          "date": "2026-11-11",
+          "pre": true,
+          "url": "https://github.com/getpaseo/paseo/releases/tag/v0.16.0-beta.2"
+        },
+        {
+          "tag": "v0.16.0-beta.1",
+          "date": "2026-11-11",
+          "pre": true,
+          "url": "https://github.com/getpaseo/paseo/releases/tag/v0.16.0-beta.1"
+        },
+        {
+          "tag": "v0.15.4",
+          "date": "2026-11-10",
+          "pre": false,
+          "url": "https://github.com/getpaseo/paseo/releases/tag/v0.15.4"
+        },
+        {
+          "tag": "v0.15.3",
+          "date": "2026-11-06",
+          "pre": false,
+          "url": "https://github.com/getpaseo/paseo/releases/tag/v0.15.3"
+        },
+        {
+          "tag": "v0.15.2",
+          "date": "2026-11-05",
+          "pre": false,
+          "url": "https://github.com/getpaseo/paseo/releases/tag/v0.15.2"
+        },
+        {
+          "tag": "v0.15.1",
+          "date": "2026-11-05",
+          "pre": false,
+          "url": "https://github.com/getpaseo/paseo/releases/tag/v0.15.1"
+        }
+      ],
+      "release_note": "0.16.0-beta.2 - 2026-11-11 Background tasks: Paseo now shows the background tasks an agent is running, such as shells and monitors, above the composer, with a Stop button for each. Works with Claude Code, Codex and OpenCode v2. ( #6220 , #9162 by @fxlelouarn ) Plugin sidebar views: A plugin can replace the sidebar's content with its own layout of workspaces, agents, projects and terminals across every connected host. Pick the view per device under Settings → Sidebar; Paseo's sidebar header and footer stay in place. ( #8906 ) Plugin composer controls: Plugins can add their own controls to the composer, and read and set its prompt, attachments, provider, model, mode and thinking. They can also put the cursor in any agent's composer, add items to New workspace, and store their own metadata on agents and workspaces. ( #8744 , #9209 , #9207 ) Faster diff loading: Opening Changes shows the fil",
+      "release_status": "activo",
+      "release_source": "releases.atom",
+      "release_checked_at": "2026-11-15",
+      "release_http": 200,
+      "changelog_url": null,
+      "release_highlight": "0.16.0-beta.2: tareas en segundo plano con Stop, plugins con vistas de sidebar y controles de composer.",
+      "release_impact": "Tier A (+1.16): Control 65→70, Extensiones 80→84 y Producto 80→82."
     },
     {
       "slug": "conductor",
@@ -1535,7 +2169,401 @@
         "Extensiones/MCP no son el foco",
         "El cloud exige plan de pago"
       ],
-      "licenseType": "Comercial"
+      "licenseType": "Comercial",
+      "last_release": "2026-11-13",
+      "last_release_tag": "0.94.2",
+      "last_release_url": "https://www.conductor.build/changelog/rss.xml",
+      "last_release_days": 2,
+      "releases_90": null,
+      "releases_recent": [],
+      "release_note": "Fri, 13 Nov 2026 00:00:00 GMT Conductor 0.94.2: Conductor is back https://www.conductor.build/changelog/0.94.2-conductor-is-back https://www.conductor.build/changelog/0.94.2-conductor-is-back Fri, 13 Nov 2026 00:00:00 GMT Conductor isn't shutting down. It's back, and we're building again. Thank you for sticking with us! If you need anything, email support@conductor.build. Conductor 0.94.0: Claude Fable 5.2 https://www.conductor.build/changelog/0.94.0-claude-fable-5-2 https://www.conductor.build/changelog/0.94.0-claude-fable-5-2 Mon, 09 Nov 2026 00:00:00 GMT Claude Fable 5.2 Claude Fable 5.2, Anthropic's upgraded model for the most demanding technical work, is now available in Conductor. Improvements Checking for updates is more reliable. Fixes Fixed follow-up messages sometimes failing when sent while a Codex chat was starting. Fixed your local messages sometimes appearing to come from \"User\". Fixed long log and Markdown previews in the Artifacts tab spilling over neighboring tiles. The \"Read the announcement\" link in the Conductor Cloud shutdown banner now opens the announcement instead of the homepage. Misc Updated the bundled Claude Code to 2.1.321 and Codex to 0.166.0. New in 0",
+      "release_status": "activo",
+      "release_source": "changelog",
+      "release_checked_at": "2026-11-15",
+      "release_http": null,
+      "changelog_url": "https://www.conductor.build/changelog/rss.xml",
+      "release_highlight": "",
+      "release_impact": ""
+    },
+    {
+      "slug": "jean",
+      "name": "Jean",
+      "repo": "https://github.com/coollabsio/jean",
+      "website": "https://jean.build/",
+      "license": null,
+      "category": "workspace",
+      "summary": "Workspace open source para agentes de código, worktrees, MCP y entrega con GitHub, con acceso local, SSH o servidor propio y más proveedores como QwenCloud y CLIProxyAPI.",
+      "features": {
+        "parallel": true,
+        "orchestration": true,
+        "review": true,
+        "remote": true,
+        "mobile": true,
+        "extensions": true,
+        "control": true,
+        "openSource": false,
+        "mature": true
+      },
+      "scores": {
+        "harnesses": 88,
+        "paralelo": 84,
+        "orquestacion": 78,
+        "revision": 80,
+        "remoto": 84,
+        "movil": 80,
+        "extensiones": 70,
+        "control": 65,
+        "abierto": 90,
+        "producto": 80
+      },
+      "total": 80.36,
+      "tier": "A",
+      "harnesses": [
+        "claude code",
+        "codex",
+        "opencode",
+        "cursor",
+        "grok"
+      ],
+      "evidence": {
+        "harnesses": [
+          {
+            "text": "Added QwenCloud provider presets with region and billing mode selection and automatic model fetching. Added CLIProxyAPI as a provider for every backend, with an option to pick it as the default provider.",
+            "source": "https://github.com/coollabsio/jean/releases/tag/v1.0.15"
+          }
+        ],
+        "paralelo": [
+          {
+            "text": "Run Claude, Codex, Cursor, OpenCode, Pi, Command Code, Grok, Kimi Code, Antigravity, and Muse in parallel - each in its own git worktree - on your laptop or your own server.",
+            "source": "https://github.com/coollabsio/jean#readme"
+          },
+          {
+            "text": "It has strong opinions about how AI-assisted development should work: every task gets its own git worktree, agents run in parallel, and git work, reviews, terminals, and GitHub, Linear, and Sentry integrations live in one cohesive workflow.",
+            "source": "https://github.com/coollabsio/jean#readme"
+          },
+          {
+            "text": "Git worktrees, chat sessions, terminals, and GitHub & Linear integrations in one cohesive workflow.",
+            "source": "https://github.com/coollabsio/jean#readme"
+          }
+        ],
+        "orquestacion": [],
+        "revision": [
+          {
+            "text": "One project, many isolated worktrees: issues, pull requests and manual tasks, with diff size, PR status and your own labels.",
+            "source": "https://github.com/coollabsio/jean#readme"
+          },
+          {
+            "text": "Tauri v2 · React 19 · Rust · TypeScript · Tailwind CSS v4 · shadcn/ui v4 · Zustand v5 · TanStack Query · Pierre Diffs · xterm.js </div> ## About the Project Jean is an opinionated AI agent workspace.",
+            "source": "https://github.com/coollabsio/jean#readme"
+          }
+        ],
+        "remoto": [
+          {
+            "text": "Many servers - add as many remotes as you want, or install one over SSH from the app.",
+            "source": "https://github.com/coollabsio/jean#readme"
+          },
+          {
+            "text": "Add it in the desktop app under Connections → Add remote (or let Jean install it over SSH): its projects appear in the same sidebar as your local ones, grouped by server.",
+            "source": "https://github.com/coollabsio/jean#readme"
+          },
+          {
+            "text": "Click **Add remote** and either: - **Install via SSH** - enter SSH user, host/IP, and ports; Jean installs `jean-server` on that machine for you, or - **Existing URL** - paste the Web Access URL and access token 3.",
+            "source": "https://github.com/coollabsio/jean#readme"
+          }
+        ],
+        "movil": [],
+        "extensiones": [],
+        "control": []
+      },
+      "sources": [
+        {
+          "label": "Web oficial",
+          "url": "https://jean.build/",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/coollabsio/jean",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/coollabsio/jean#readme",
+          "accessedAt": "2026-11-13"
+        }
+      ],
+      "judged_day": "2026-11-13",
+      "tagline": "Un entorno de agentes local o self-hosted.",
+      "pricing": "free",
+      "priceNote": "Código abierto + tus modelos",
+      "execution": "Local · SSH · Self-hosted",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "strengths": [
+        "Local, SSH o self-hosted",
+        "Worktrees y PRs",
+        "QwenCloud, Claude Fable 5.2 y CLIProxyAPI",
+        "Open source"
+      ],
+      "weaknesses": [
+        "Sin foco en orquestación multi-agente",
+        "Extensiones limitadas",
+        "Menos adopción"
+      ],
+      "licenseType": "Comercial",
+      "last_release": "2026-11-12",
+      "last_release_tag": "v1.0.15",
+      "last_release_url": "https://github.com/coollabsio/jean/releases/tag/v1.0.15",
+      "last_release_days": 3,
+      "releases_90": 10,
+      "releases_recent": [
+        {
+          "tag": "v1.0.15",
+          "date": "2026-11-12",
+          "pre": false,
+          "url": "https://github.com/coollabsio/jean/releases/tag/v1.0.15"
+        },
+        {
+          "tag": "v1.0.14",
+          "date": "2026-11-06",
+          "pre": false,
+          "url": "https://github.com/coollabsio/jean/releases/tag/v1.0.14"
+        },
+        {
+          "tag": "v1.0.13",
+          "date": "2026-10-28",
+          "pre": false,
+          "url": "https://github.com/coollabsio/jean/releases/tag/v1.0.13"
+        },
+        {
+          "tag": "v1.0.12",
+          "date": "2026-10-17",
+          "pre": false,
+          "url": "https://github.com/coollabsio/jean/releases/tag/v1.0.12"
+        },
+        {
+          "tag": "v1.0.11",
+          "date": "2026-10-14",
+          "pre": false,
+          "url": "https://github.com/coollabsio/jean/releases/tag/v1.0.11"
+        },
+        {
+          "tag": "v1.0.10",
+          "date": "2026-10-13",
+          "pre": false,
+          "url": "https://github.com/coollabsio/jean/releases/tag/v1.0.10"
+        }
+      ],
+      "release_note": "Features Added QwenCloud provider presets with region and billing mode selection and automatic model fetching ( #898 ) Added Claude Fable 5.2 to the model list Added CLIProxyAPI as a provider for every backend, with an option to pick it as the default provider Added per-account CLIProxyAPI usage in the usage cards and the quick menu, with guidance for Claude terms errors Added account login buttons for CLIProxyAPI on the collapsed row and in the backend CLI sections Read Claude models from CLIProxyAPI and showed API retries Grouped the CLIProxyAPI usage steps into sections and made the commands copyable Showed only the latest model per family in the model picker, with a toggle to show older models Showed short Claude names for provider model aliases and labeled the default Codex provider as OpenAI Let \"Apply to all prompts\" in Magic Prompts use a custom Claude provider Added favorites fo",
+      "release_status": "activo",
+      "release_source": "releases.atom",
+      "release_checked_at": "2026-11-15",
+      "release_http": 200,
+      "changelog_url": null,
+      "release_highlight": "1.0.15: QwenCloud, Claude Fable 5.2 y CLIProxyAPI como proveedor para todos los backends.",
+      "release_impact": "Tier A (+0.92): Harnesses 86→88, Extensiones 65→70 y Producto 78→80."
+    },
+    {
+      "slug": "openchamber",
+      "name": "OpenChamber",
+      "repo": "https://github.com/openchamber/openchamber",
+      "website": "https://openchamber.dev/",
+      "license": "MIT",
+      "category": "workspace",
+      "summary": "Entorno de desarrollo agéntico open source con sesiones, extensiones, revisión, share pages para pedir ayuda a personas y un navegador que actúa como humano.",
+      "features": {
+        "parallel": true,
+        "orchestration": false,
+        "review": true,
+        "remote": true,
+        "mobile": true,
+        "extensions": true,
+        "control": true,
+        "openSource": false,
+        "mature": true
+      },
+      "scores": {
+        "harnesses": 84,
+        "paralelo": 82,
+        "orquestacion": 75,
+        "revision": 80,
+        "remoto": 84,
+        "movil": 82,
+        "extensiones": 78,
+        "control": 68,
+        "abierto": 90,
+        "producto": 79
+      },
+      "total": 80.2,
+      "tier": "A",
+      "harnesses": [
+        "codex",
+        "gemini",
+        "opencode",
+        "amp",
+        "grok"
+      ],
+      "evidence": {
+        "harnesses": [
+          {
+            "text": "Local Current Local • Default Local Local Current Connected · 7ms ping http://127.0.0.1:63418/ exe.dev Current Connected · 809ms ping · Relay via OpenChamber Relay DevChamber Current Auth required https://devchamber.example.com/ Add instance Sidebar sections New section Pages Chats Pinned Also in projects In work Also in projects Projects Drag to reorder.",
+            "source": "https://github.com/openchamber/openchamber#readme"
+          },
+          {
+            "text": "Gemini 4 Argon · Build · 2m 31s Add the new install command to the docs.",
+            "source": "https://github.com/openchamber/openchamber#readme"
+          },
+          {
+            "text": "Gemini 4 Argon · Build · 58s What are we working on in uploader ?",
+            "source": "https://github.com/openchamber/openchamber#readme"
+          }
+        ],
+        "paralelo": [
+          {
+            "text": "push (...chunks); 13 void drain (); 14 } 15 16 async function drain () { 17 while (running < MAX_PARALLEL && queue.length > 0 ) { 18 const chunk = queue.",
+            "source": "https://github.com/openchamber/openchamber#readme"
+          },
+          {
+            "text": "### Compare and combine runs Use **Multi-run** to give the same task to up to five models, each in its own session and optionally its own worktree.",
+            "source": "https://github.com/openchamber/openchamber#readme"
+          }
+        ],
+        "orquestacion": [],
+        "revision": [
+          {
+            "text": "New Share pages: an agent can ask your teammates. When an answer has to come from someone else, the agent sends them a page, and the chat shows a link and PIN for each person.",
+            "source": "https://github.com/openchamber/openchamber/releases/tag/v2.7.2"
+          }
+        ],
+        "remoto": [
+          {
+            "text": "Share pages: a shared link pasted into the composer opens the page in your own OpenChamber, so your agent sees it too.",
+            "source": "https://github.com/openchamber/openchamber/releases/tag/v2.7.2"
+          }
+        ],
+        "movil": [
+          {
+            "text": "### Continue on another device Open the same projects and sessions from Desktop, Web/PWA, VS Code, iOS, or Android.",
+            "source": "https://github.com/openchamber/openchamber#readme"
+          },
+          {
+            "text": "### iOS and Android Join the iOS beta on [TestFlight](https://testflight.apple.com/join/5ek6GU1E).",
+            "source": "https://github.com/openchamber/openchamber#readme"
+          },
+          {
+            "text": "For Android, download the `.apk` from the [Canary release](https://github.com/openchamber/openchamber/releases/tag/canary).",
+            "source": "https://github.com/openchamber/openchamber#readme"
+          }
+        ],
+        "extensiones": [],
+        "control": [
+          {
+            "text": "Permission required bash Run a command bun run migrate:settings Deny Always allow Allow once uploader main No projects found.",
+            "source": "https://github.com/openchamber/openchamber#readme"
+          },
+          {
+            "text": "### Track work across projects See which sessions are working, waiting, finished, or failed, along with approvals, scheduled tasks, provider limits, token use, and costs.",
+            "source": "https://github.com/openchamber/openchamber#readme"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "Web oficial",
+          "url": "https://openchamber.dev/",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/openchamber/openchamber",
+          "accessedAt": "2026-11-13"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/openchamber/openchamber#readme",
+          "accessedAt": "2026-11-13"
+        }
+      ],
+      "judged_day": "2026-11-13",
+      "tagline": "ADE open source para agentes de código.",
+      "pricing": "free",
+      "priceNote": "Código abierto + tus modelos",
+      "execution": "Local · Remote",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "strengths": [
+        "Open source y multiplataforma",
+        "Share pages para colaborar con personas",
+        "Navegador controlado y PDF anotado",
+        "Buena adopción"
+      ],
+      "weaknesses": [
+        "Orquestación menos profunda",
+        "Aprobaciones todavía básicas",
+        "Ecosistema joven"
+      ],
+      "licenseType": "Open source",
+      "last_release": "2026-11-15",
+      "last_release_tag": "v2.7.2",
+      "last_release_url": "https://github.com/openchamber/openchamber/releases/tag/v2.7.2",
+      "last_release_days": 0,
+      "releases_90": 10,
+      "releases_recent": [
+        {
+          "tag": "v2.7.2",
+          "date": "2026-11-15",
+          "pre": false,
+          "url": "https://github.com/openchamber/openchamber/releases/tag/v2.7.2"
+        },
+        {
+          "tag": "canary",
+          "date": "2026-11-15",
+          "pre": true,
+          "url": "https://github.com/openchamber/openchamber/releases/tag/canary"
+        },
+        {
+          "tag": "v2.7.1",
+          "date": "2026-11-12",
+          "pre": false,
+          "url": "https://github.com/openchamber/openchamber/releases/tag/v2.7.1"
+        },
+        {
+          "tag": "v2.7.0",
+          "date": "2026-11-08",
+          "pre": false,
+          "url": "https://github.com/openchamber/openchamber/releases/tag/v2.7.0"
+        },
+        {
+          "tag": "asr-models",
+          "date": "2026-11-08",
+          "pre": false,
+          "url": "https://github.com/openchamber/openchamber/releases/tag/asr-models"
+        },
+        {
+          "tag": "v2.6.1",
+          "date": "2026-11-04",
+          "pre": false,
+          "url": "https://github.com/openchamber/openchamber/releases/tag/v2.6.1"
+        }
+      ],
+      "release_note": "New Share pages: an agent can ask your teammates. When an answer has to come from someone else, the agent sends them a page , and the chat shows a link and PIN for each person. Their answers come back into the session with a notification. Share pages: a shared link pasted into the composer opens the page in your own OpenChamber, so your agent sees it too. Pages on the rail lists every page you received, and Add to chat attaches one to your message. Browser: dictate into annotation comments and mark up PDFs. The comment field takes your voice and shows the microphone level, and a PDF in the panel takes Region and Draw marks. Browser: the agent clicks, types, drags and uploads files in the panel the way a person does, also inside embedded frames. It answers page dialogs itself and browses in a profile of its own unless you share yours. Chat: pick the chat width in Settings > Chat > Reading",
+      "release_status": "activo",
+      "release_source": "releases.atom",
+      "release_checked_at": "2026-11-15",
+      "release_http": 200,
+      "changelog_url": null,
+      "release_highlight": "v2.7.2: share pages con PIN, PDF anotado y navegador que actúa como humano.",
+      "release_impact": "Tier A (+1.78): Revisión 76→80, Orquestación 72→75, Remoto 80→84 y Producto 76→79."
     },
     {
       "slug": "ghostex",
@@ -1686,492 +2714,58 @@
         "Revisión no es el foco",
         "Proyecto joven"
       ],
-      "licenseType": "Comercial"
-    },
-    {
-      "slug": "paseo",
-      "name": "Paseo",
-      "repo": "https://github.com/getpaseo/paseo",
-      "website": "https://paseo.sh/",
-      "license": null,
-      "category": "workspace",
-      "summary": "Workspace para acceder a sesiones de agentes de código desde distintos dispositivos, con worktrees, plugins y orquestación.",
-      "features": {
-        "parallel": true,
-        "orchestration": true,
-        "review": true,
-        "remote": true,
-        "mobile": true,
-        "extensions": true,
-        "control": true,
-        "openSource": false,
-        "mature": true
-      },
-      "scores": {
-        "harnesses": 88,
-        "paralelo": 86,
-        "orquestacion": 82,
-        "revision": 76,
-        "remoto": 84,
-        "movil": 88,
-        "extensiones": 80,
-        "control": 65,
-        "abierto": 50,
-        "producto": 80
-      },
-      "total": 79.74,
-      "tier": "A",
-      "harnesses": [
-        "claude code",
-        "codex",
-        "opencode",
-        "cursor",
-        "amp",
-        "copilot"
-      ],
-      "evidence": {
-        "harnesses": [
-          {
-            "text": "Paseo – Run Claude Code, Codex, Copilot, OpenCode from anywhere Paseo Plugins Blog Docs Changelog Download Sponsor EN 23.9k The agentic development environment Run many coding agents at once, on any machine.",
-            "source": "https://github.com/getpaseo/paseo#readme"
-          },
-          {
-            "text": "- **Multi-provider:** Claude Code, Codex, Copilot, OpenCode, Pi, Antigravity, and Muse Code through the same interface.",
-            "source": "https://github.com/getpaseo/paseo#readme"
-          },
-          {
-            "text": "@jasontorres Can interchange between Codex, Claude Code, Opencode, Pi.",
-            "source": "https://github.com/getpaseo/paseo#readme"
-          }
-        ],
-        "paralelo": [
-          {
-            "text": "- **Parallel agents:** Run many agents at once, each in its own worktree.",
-            "source": "https://github.com/getpaseo/paseo#readme"
-          },
-          {
-            "text": "[Run parallel tasks in Paseo](https://paseo.sh/docs/parallel-development): start agents in separate worktrees, review their diffs, run each app, and check it in the built-in browser.",
-            "source": "https://github.com/getpaseo/paseo#readme"
-          },
-          {
-            "text": "Fork the repo Built for automation Use MCP, the CLI, or the TypeScript SDK to automate Paseo MCP docs CLI docs SDK docs MCP From another agent CLI From the terminal SDK From code Take the open GitHub issues labeled ready and fan them out to separate worktree agents.",
-            "source": "https://github.com/getpaseo/paseo#readme"
-          }
-        ],
-        "orquestacion": [
-          {
-            "text": "one simple change transformed my health while INCREASING productivity @amankumarjagdev I have tried 100s of agent orchestrator, cli and gui.",
-            "source": "https://github.com/getpaseo/paseo#readme"
-          },
-          {
-            "text": "@ceeebeeebeee without a doubt the most slept on orchestrator right now.",
-            "source": "https://github.com/getpaseo/paseo#readme"
-          },
-          {
-            "text": "one simple change transformed my health while INCREASING productivity @amankumarjagdev I have tried 100s of agent orchestrator, cli and gui.",
-            "source": "https://github.com/getpaseo/paseo#readme"
-          }
-        ],
-        "revision": [
-          {
-            "text": "Open the desktop app and work: agents, editor, terminals, diffs, pull requests, and a browser in one window.",
-            "source": "https://github.com/getpaseo/paseo#readme"
-          },
-          {
-            "text": "- **Complete development workflow:** Edit files, review diffs, open pull requests, and run terminals, in split panes you arrange how you want.",
-            "source": "https://github.com/getpaseo/paseo#readme"
-          },
-          {
-            "text": "[Run parallel tasks in Paseo](https://paseo.sh/docs/parallel-development): start agents in separate worktrees, review their diffs, run each app, and check it in the built-in browser.",
-            "source": "https://github.com/getpaseo/paseo#readme"
-          }
-        ],
-        "remoto": [
-          {
-            "text": "Sponsors Cloud coding agents Become a sponsor Sponsor Paseo Paseo is an independent project used by tens of thousands of developers daily.",
-            "source": "https://github.com/getpaseo/paseo#readme"
-          },
-          {
-            "text": "Voice is local-first by default and can optionally use cloud speech providers if you configure them.",
-            "source": "https://github.com/getpaseo/paseo#readme"
-          },
-          {
-            "text": "For remote access, you can use the optional end-to-end encrypted relay , connect directly over your local network, or use your own tunnel.",
-            "source": "https://github.com/getpaseo/paseo#readme"
-          }
-        ],
-        "movil": [
-          {
-            "text": "The mobile app is the full app, native on iOS and Android.",
-            "source": "https://github.com/getpaseo/paseo#readme"
-          },
-          {
-            "text": "- **Cross-device:** iOS, Android, desktop, web, and CLI.",
-            "source": "https://github.com/getpaseo/paseo#readme"
-          },
-          {
-            "text": "The native mobile app has full feature parity with desktop.",
-            "source": "https://github.com/getpaseo/paseo#readme"
-          }
-        ],
-        "extensiones": [
-          {
-            "text": "Paseo – Run Claude Code, Codex, Copilot, OpenCode from anywhere Paseo Plugins Blog Docs Changelog Download Sponsor EN 23.9k The agentic development environment Run many coding agents at once, on any machine.",
-            "source": "https://github.com/getpaseo/paseo#readme"
-          },
-          {
-            "text": "Review queue 3 Retry flaky relay handshake #418 · ana · 12m Group schedules by project #415 · kenji · 1h Add Gruvbox theme #409 · lea · 3h 400+ community plugins Built by developers on the same plugin API your agents use Browse plugins Plugin docs Themes Sidebar Workspaces Providers Orchestration Git Paseo is Apache 2.0.",
-            "source": "https://github.com/getpaseo/paseo#readme"
-          },
-          {
-            "text": "Fork the repo Built for automation Use MCP, the CLI, or the TypeScript SDK to automate Paseo MCP docs CLI docs SDK docs MCP From another agent CLI From the terminal SDK From code Take the open GitHub issues labeled ready and fan them out to separate worktree agents.",
-            "source": "https://github.com/getpaseo/paseo#readme"
-          }
-        ],
-        "control": [
-          {
-            "text": "- **Agent lifecycle:** change configuration, environment, and MCP servers, answer permissions, follow up when a turn ends.",
-            "source": "https://github.com/getpaseo/paseo#readme"
-          }
-        ]
-      },
-      "sources": [
+      "licenseType": "Comercial",
+      "last_release": "2026-11-15",
+      "last_release_tag": "v11.7.1",
+      "last_release_url": "https://github.com/maddada/Ghostex/releases/tag/v11.7.1",
+      "last_release_days": 0,
+      "releases_90": 10,
+      "releases_recent": [
         {
-          "label": "Web oficial",
-          "url": "https://paseo.sh/",
-          "accessedAt": "2026-11-13"
+          "tag": "v11.7.1",
+          "date": "2026-11-15",
+          "pre": false,
+          "url": "https://github.com/maddada/Ghostex/releases/tag/v11.7.1"
         },
         {
-          "label": "Repositorio GitHub",
-          "url": "https://github.com/getpaseo/paseo",
-          "accessedAt": "2026-11-13"
+          "tag": "v11.7.0",
+          "date": "2026-11-14",
+          "pre": false,
+          "url": "https://github.com/maddada/Ghostex/releases/tag/v11.7.0"
         },
         {
-          "label": "README",
-          "url": "https://github.com/getpaseo/paseo#readme",
-          "accessedAt": "2026-11-13"
+          "tag": "v11.6.1",
+          "date": "2026-11-13",
+          "pre": false,
+          "url": "https://github.com/maddada/Ghostex/releases/tag/v11.6.1"
+        },
+        {
+          "tag": "v11.6.0",
+          "date": "2026-11-13",
+          "pre": false,
+          "url": "https://github.com/maddada/Ghostex/releases/tag/v11.6.0"
+        },
+        {
+          "tag": "v11.5.0",
+          "date": "2026-11-12",
+          "pre": false,
+          "url": "https://github.com/maddada/Ghostex/releases/tag/v11.5.0"
+        },
+        {
+          "tag": "v11.4.0",
+          "date": "2026-11-11",
+          "pre": false,
+          "url": "https://github.com/maddada/Ghostex/releases/tag/v11.4.0"
         }
       ],
-      "judged_day": "2026-11-13",
-      "tagline": "Tus sesiones de agentes, desde cualquier sitio.",
-      "pricing": "free",
-      "priceNote": "Código abierto + tus modelos",
-      "execution": "Local · Self-hosted",
-      "platforms": [
-        "macOS",
-        "Windows",
-        "Linux",
-        "Web",
-        "iOS",
-        "Android"
-      ],
-      "strengths": [
-        "Móvil y acceso entre dispositivos",
-        "Plugins y worktrees",
-        "Open source"
-      ],
-      "weaknesses": [
-        "Revisión y PRs no son el foco",
-        "SSH no verificado",
-        "Orquestación más de sesiones que de tareas"
-      ],
-      "licenseType": "No verificada"
-    },
-    {
-      "slug": "jean",
-      "name": "Jean",
-      "repo": "https://github.com/coollabsio/jean",
-      "website": "https://jean.build/",
-      "license": null,
-      "category": "workspace",
-      "summary": "Workspace open source para agentes de código, worktrees, MCP y entrega con GitHub, con acceso local, SSH o servidor propio.",
-      "features": {
-        "parallel": true,
-        "orchestration": true,
-        "review": true,
-        "remote": true,
-        "mobile": true,
-        "extensions": true,
-        "control": true,
-        "openSource": false,
-        "mature": true
-      },
-      "scores": {
-        "harnesses": 86,
-        "paralelo": 84,
-        "orquestacion": 78,
-        "revision": 80,
-        "remoto": 84,
-        "movil": 80,
-        "extensiones": 65,
-        "control": 65,
-        "abierto": 90,
-        "producto": 78
-      },
-      "total": 79.44,
-      "tier": "A",
-      "harnesses": [
-        "claude code",
-        "codex",
-        "opencode",
-        "cursor",
-        "grok"
-      ],
-      "evidence": {
-        "harnesses": [
-          {
-            "text": "issue #1234 or a prompt Jean pick any backend Claude Codex OpenCode Cursor Pi Command Code Grok Kimi Code Local · Remote · Web Local and remote, in one sidebar .",
-            "source": "https://github.com/coollabsio/jean#readme"
-          },
-          {
-            "text": "Jean is an open-source AI assistant that helps you manage multiple projects, worktrees, and sessions with Claude CLI, Codex CLI, OpenCode, Cursor, Pi, Command Code, Grok, and Kimi Code.",
-            "source": "https://github.com/coollabsio/jean#readme"
-          },
-          {
-            "text": "Jean supports Claude CLI, Codex CLI, OpenCode, Cursor, Pi, Command Code, Grok, and Kimi Code.",
-            "source": "https://github.com/coollabsio/jean#readme"
-          }
-        ],
-        "paralelo": [
-          {
-            "text": "Run Claude, Codex, Cursor, OpenCode, Pi, Command Code, Grok, Kimi Code, Antigravity, and Muse in parallel - each in its own git worktree - on your laptop or your own server.",
-            "source": "https://github.com/coollabsio/jean#readme"
-          },
-          {
-            "text": "It has strong opinions about how AI-assisted development should work: every task gets its own git worktree, agents run in parallel, and git work, reviews, terminals, and GitHub, Linear, and Sentry integrations live in one cohesive workflow.",
-            "source": "https://github.com/coollabsio/jean#readme"
-          },
-          {
-            "text": "Git worktrees, chat sessions, terminals, and GitHub & Linear integrations in one cohesive workflow.",
-            "source": "https://github.com/coollabsio/jean#readme"
-          }
-        ],
-        "orquestacion": [],
-        "revision": [
-          {
-            "text": "One project, many isolated worktrees: issues, pull requests and manual tasks, with diff size, PR status and your own labels.",
-            "source": "https://github.com/coollabsio/jean#readme"
-          },
-          {
-            "text": "Tauri v2 · React 19 · Rust · TypeScript · Tailwind CSS v4 · shadcn/ui v4 · Zustand v5 · TanStack Query · Pierre Diffs · xterm.js </div> ## About the Project Jean is an opinionated AI agent workspace.",
-            "source": "https://github.com/coollabsio/jean#readme"
-          }
-        ],
-        "remoto": [
-          {
-            "text": "Many servers - add as many remotes as you want, or install one over SSH from the app.",
-            "source": "https://github.com/coollabsio/jean#readme"
-          },
-          {
-            "text": "Add it in the desktop app under Connections → Add remote (or let Jean install it over SSH): its projects appear in the same sidebar as your local ones, grouped by server.",
-            "source": "https://github.com/coollabsio/jean#readme"
-          },
-          {
-            "text": "Click **Add remote** and either: - **Install via SSH** - enter SSH user, host/IP, and ports; Jean installs `jean-server` on that machine for you, or - **Existing URL** - paste the Web Access URL and access token 3.",
-            "source": "https://github.com/coollabsio/jean#readme"
-          }
-        ],
-        "movil": [],
-        "extensiones": [],
-        "control": []
-      },
-      "sources": [
-        {
-          "label": "Web oficial",
-          "url": "https://jean.build/",
-          "accessedAt": "2026-11-13"
-        },
-        {
-          "label": "Repositorio GitHub",
-          "url": "https://github.com/coollabsio/jean",
-          "accessedAt": "2026-11-13"
-        },
-        {
-          "label": "README",
-          "url": "https://github.com/coollabsio/jean#readme",
-          "accessedAt": "2026-11-13"
-        }
-      ],
-      "judged_day": "2026-11-13",
-      "tagline": "Un entorno de agentes local o self-hosted.",
-      "pricing": "free",
-      "priceNote": "Código abierto + tus modelos",
-      "execution": "Local · SSH · Self-hosted",
-      "platforms": [
-        "macOS",
-        "Windows",
-        "Linux",
-        "Web"
-      ],
-      "strengths": [
-        "Local, SSH o self-hosted",
-        "Worktrees y PRs",
-        "Open source"
-      ],
-      "weaknesses": [
-        "Sin foco en orquestación multi-agente",
-        "Extensiones limitadas",
-        "Menos adopción"
-      ],
-      "licenseType": "Comercial"
-    },
-    {
-      "slug": "openchamber",
-      "name": "OpenChamber",
-      "repo": "https://github.com/openchamber/openchamber",
-      "website": "https://openchamber.dev/",
-      "license": "MIT",
-      "category": "workspace",
-      "summary": "Entorno de desarrollo agéntico open source con sesiones, extensiones, revisión y acceso remoto para varios agentes.",
-      "features": {
-        "parallel": true,
-        "orchestration": false,
-        "review": true,
-        "remote": true,
-        "mobile": true,
-        "extensions": true,
-        "control": true,
-        "openSource": false,
-        "mature": true
-      },
-      "scores": {
-        "harnesses": 84,
-        "paralelo": 82,
-        "orquestacion": 72,
-        "revision": 76,
-        "remoto": 80,
-        "movil": 80,
-        "extensiones": 78,
-        "control": 65,
-        "abierto": 90,
-        "producto": 76
-      },
-      "total": 78.42,
-      "tier": "A",
-      "harnesses": [
-        "codex",
-        "gemini",
-        "opencode",
-        "amp",
-        "grok"
-      ],
-      "evidence": {
-        "harnesses": [
-          {
-            "text": "Local Current Local • Default Local Local Current Connected · 7ms ping http://127.0.0.1:63418/ exe.dev Current Connected · 809ms ping · Relay via OpenChamber Relay DevChamber Current Auth required https://devchamber.example.com/ Add instance Sidebar sections New section Pages Chats Pinned Also in projects In work Also in projects Projects Drag to reorder.",
-            "source": "https://github.com/openchamber/openchamber#readme"
-          },
-          {
-            "text": "Gemini 4 Argon · Build · 2m 31s Add the new install command to the docs.",
-            "source": "https://github.com/openchamber/openchamber#readme"
-          },
-          {
-            "text": "Gemini 4 Argon · Build · 58s What are we working on in uploader ?",
-            "source": "https://github.com/openchamber/openchamber#readme"
-          }
-        ],
-        "paralelo": [
-          {
-            "text": "push (...chunks); 13 void drain (); 14 } 15 16 async function drain () { 17 while (running < MAX_PARALLEL && queue.length > 0 ) { 18 const chunk = queue.",
-            "source": "https://github.com/openchamber/openchamber#readme"
-          },
-          {
-            "text": "### Compare and combine runs Use **Multi-run** to give the same task to up to five models, each in its own session and optionally its own worktree.",
-            "source": "https://github.com/openchamber/openchamber#readme"
-          }
-        ],
-        "orquestacion": [],
-        "revision": [
-          {
-            "text": "Kimi K3.1 Pro · Build · 3m 18s Review the login pull request.",
-            "source": "https://github.com/openchamber/openchamber#readme"
-          },
-          {
-            "text": "The fixes you chose are in, each with a test, and anything you put off stays as a comment on the pull request.",
-            "source": "https://github.com/openchamber/openchamber#readme"
-          },
-          {
-            "text": "Nothing changed, and the findings stay as comments on the pull request.",
-            "source": "https://github.com/openchamber/openchamber#readme"
-          }
-        ],
-        "remoto": [
-          {
-            "text": "Direct connections, LAN/VPN access, Cloudflare/Ngrok tunnels, and SSH are also supported.",
-            "source": "https://github.com/openchamber/openchamber#readme"
-          },
-          {
-            "text": "### Private remote access Pair a device with a one-time QR code and connect through **Private Relay** without opening ports or exposing a public server.",
-            "source": "https://github.com/openchamber/openchamber#readme"
-          }
-        ],
-        "movil": [
-          {
-            "text": "### Continue on another device Open the same projects and sessions from Desktop, Web/PWA, VS Code, iOS, or Android.",
-            "source": "https://github.com/openchamber/openchamber#readme"
-          },
-          {
-            "text": "### iOS and Android Join the iOS beta on [TestFlight](https://testflight.apple.com/join/5ek6GU1E).",
-            "source": "https://github.com/openchamber/openchamber#readme"
-          },
-          {
-            "text": "For Android, download the `.apk` from the [Canary release](https://github.com/openchamber/openchamber/releases/tag/canary).",
-            "source": "https://github.com/openchamber/openchamber#readme"
-          }
-        ],
-        "extensiones": [],
-        "control": [
-          {
-            "text": "Permission required bash Run a command bun run migrate:settings Deny Always allow Allow once uploader main No projects found.",
-            "source": "https://github.com/openchamber/openchamber#readme"
-          },
-          {
-            "text": "### Track work across projects See which sessions are working, waiting, finished, or failed, along with approvals, scheduled tasks, provider limits, token use, and costs.",
-            "source": "https://github.com/openchamber/openchamber#readme"
-          }
-        ]
-      },
-      "sources": [
-        {
-          "label": "Web oficial",
-          "url": "https://openchamber.dev/",
-          "accessedAt": "2026-11-13"
-        },
-        {
-          "label": "Repositorio GitHub",
-          "url": "https://github.com/openchamber/openchamber",
-          "accessedAt": "2026-11-13"
-        },
-        {
-          "label": "README",
-          "url": "https://github.com/openchamber/openchamber#readme",
-          "accessedAt": "2026-11-13"
-        }
-      ],
-      "judged_day": "2026-11-13",
-      "tagline": "ADE open source para agentes de código.",
-      "pricing": "free",
-      "priceNote": "Código abierto + tus modelos",
-      "execution": "Local · Remote",
-      "platforms": [
-        "macOS",
-        "Windows",
-        "Linux",
-        "Web",
-        "iOS",
-        "Android"
-      ],
-      "strengths": [
-        "Open source y multiplataforma",
-        "Extensiones y acceso remoto",
-        "Buena adopción"
-      ],
-      "weaknesses": [
-        "Orquestación menos profunda",
-        "Control/aprobaciones básicos",
-        "Ecosistema joven"
-      ],
-      "licenseType": "Open source"
+      "release_note": "macOS: Apple Silicon DMG · Windows: x64 installer · ARM64 installer Linux x64: .deb · .rpm · tarball (mise/ubi) · AppImage · AUR (ghostex-bin) · Linux ARM64: .deb · .rpm · tarball · AppImage Android: APK · iOS: App Store 11.7.1 - 2026-11-15 Ghostex 11.7.1 is out. Sessions no longer wake up and spend your usage on their own after a usage limit or a restart, long chats are compacted before they carry on, workers under a coordinator stop sending you notifications, the project picker and the browser bar show each computer's own logo, sidebar extensions arrive, and Settings search finds only real matches. 🔋 Usage after a limit or a restart Sessions stay put after a usage limit: with Switch accounts and no saved account, a session at its limit stays stopped and nothing is typed into it. After a restart, a limit wait asks \"Continue after the limit reset?\" with Continue and Not now, and while i",
+      "release_status": "activo",
+      "release_source": "releases.atom",
+      "release_checked_at": "2026-11-15",
+      "release_http": 200,
+      "changelog_url": null,
+      "release_highlight": "",
+      "release_impact": ""
     },
     {
       "slug": "traycer",
@@ -2348,7 +2942,58 @@
         "No es un entorno de ejecución remota",
         "El plan free es limitado"
       ],
-      "licenseType": "Comercial"
+      "licenseType": "Comercial",
+      "last_release": "2026-11-14",
+      "last_release_tag": "host-v1.5.4",
+      "last_release_url": "https://github.com/traycerai/traycer/releases/tag/host-v1.5.4",
+      "last_release_days": 1,
+      "releases_90": 10,
+      "releases_recent": [
+        {
+          "tag": "host-v1.5.4",
+          "date": "2026-11-14",
+          "pre": false,
+          "url": "https://github.com/traycerai/traycer/releases/tag/host-v1.5.4"
+        },
+        {
+          "tag": "desktop-v1.5.4",
+          "date": "2026-11-14",
+          "pre": false,
+          "url": "https://github.com/traycerai/traycer/releases/tag/desktop-v1.5.4"
+        },
+        {
+          "tag": "cli-v1.5.4",
+          "date": "2026-11-13",
+          "pre": false,
+          "url": "https://github.com/traycerai/traycer/releases/tag/cli-v1.5.4"
+        },
+        {
+          "tag": "host-v1.5.4-rc.1",
+          "date": "2026-11-12",
+          "pre": true,
+          "url": "https://github.com/traycerai/traycer/releases/tag/host-v1.5.4-rc.1"
+        },
+        {
+          "tag": "desktop-v1.5.4-rc.1",
+          "date": "2026-11-12",
+          "pre": true,
+          "url": "https://github.com/traycerai/traycer/releases/tag/desktop-v1.5.4-rc.1"
+        },
+        {
+          "tag": "cli-v1.5.4-rc.1",
+          "date": "2026-11-12",
+          "pre": true,
+          "url": "https://github.com/traycerai/traycer/releases/tag/cli-v1.5.4-rc.1"
+        }
+      ],
+      "release_note": "Traycer Host 1.5.4. Fixed Memory and stability - the host no longer runs out of memory or stalls while a large batch of files is published, and closed tasks are released from memory. Resource use - fewer file scans, lighter usage tracking and fewer chat history writes, and a credential-check loop that could spike CPU is fixed. Large tasks - tasks with thousands of artifact versions load their versions again, and documents with many attachments can be compacted. File and artifact sync - files rewritten in place are picked up, hand-edited canvases are kept, a failed sync can be retried, and a sync that keeps failing stops retrying. Agents - Codex turns end properly when steered messages are waiting, queues paused by a host crash resume on restart, and a failed Copilot start is handled cleanly. Windows - child processes are cleaned up more reliably when the host stops, and installed coding ",
+      "release_status": "activo",
+      "release_source": "releases.atom",
+      "release_checked_at": "2026-11-15",
+      "release_http": 200,
+      "changelog_url": null,
+      "release_highlight": "",
+      "release_impact": ""
     },
     {
       "slug": "cmux",
@@ -2537,7 +3182,58 @@
         "Revisión y PRs no son el foco",
         "Más terminal que IDE"
       ],
-      "licenseType": "No verificada"
+      "licenseType": "No verificada",
+      "last_release": "2026-11-15",
+      "last_release_tag": "nightly-next",
+      "last_release_url": "https://github.com/manaflow-ai/cmux/releases/tag/nightly-next",
+      "last_release_days": 0,
+      "releases_90": 10,
+      "releases_recent": [
+        {
+          "tag": "nightly-next",
+          "date": "2026-11-15",
+          "pre": true,
+          "url": "https://github.com/manaflow-ai/cmux/releases/tag/nightly-next"
+        },
+        {
+          "tag": "cmux-app-ffi-556776e92abcaa32112348edd37fa95afc009487",
+          "date": "2026-11-15",
+          "pre": false,
+          "url": "https://github.com/manaflow-ai/cmux/releases/tag/cmux-app-ffi-556776e92abcaa32112348edd37fa95afc009487"
+        },
+        {
+          "tag": "cmux-app-ffi-3953bc3d2564e88b68c93aa94bd2b6a3bf636fff",
+          "date": "2026-11-15",
+          "pre": false,
+          "url": "https://github.com/manaflow-ai/cmux/releases/tag/cmux-app-ffi-3953bc3d2564e88b68c93aa94bd2b6a3bf636fff"
+        },
+        {
+          "tag": "cmux-app-ffi-220a9b00491ea80d81b3b62391b27d0020883eb3",
+          "date": "2026-11-15",
+          "pre": false,
+          "url": "https://github.com/manaflow-ai/cmux/releases/tag/cmux-app-ffi-220a9b00491ea80d81b3b62391b27d0020883eb3"
+        },
+        {
+          "tag": "cmux-app-ffi-8d0524328b3c091835083b02c757aa0775af53cd",
+          "date": "2026-11-15",
+          "pre": false,
+          "url": "https://github.com/manaflow-ai/cmux/releases/tag/cmux-app-ffi-8d0524328b3c091835083b02c757aa0775af53cd"
+        },
+        {
+          "tag": "cmux-app-ffi-6ed77417c9a68a8f4835abea6f2812b61ee5305f",
+          "date": "2026-11-15",
+          "pre": false,
+          "url": "https://github.com/manaflow-ai/cmux/releases/tag/cmux-app-ffi-6ed77417c9a68a8f4835abea6f2812b61ee5305f"
+        }
+      ],
+      "release_note": "Automated nightly build for 69b946e from nightly-next . Published commit: 69b946eb435d02aed3f5ee6181056833fa0c7ec0 . Built at the commit whose cmux-tui tree is published (app and daemon from one commit); branch tip 69b946eb435d02aed3f5ee6181056833fa0c7ec0 , 0 commits and 0 h behind it. cmux NIGHTLY ships for Apple silicon only (bundle ID com.cmuxterm.app.nightly ): Apple silicon: cmux-nightly-next-macos-arm64.dmg , feed appcast-arm64.xml PRs in this build #43466 ci: bound every upload-artifact step to 7 days, 60 of them were 14 to 90 #43409 carrier: the app's bundled cmux finds the tunnel hub its app's link serves #43432 Toggle Terminal and Chat: the chat face of a shown terminal never freezes or reloads #43435 cmux-tui-core: the terminal port watch worker lets a dropped mux go, so restart tests reopen their session #43449 Updated popover: release-notes look, real area symbols, plain-lan",
+      "release_status": "activo",
+      "release_source": "releases.atom",
+      "release_checked_at": "2026-11-15",
+      "release_http": 200,
+      "changelog_url": null,
+      "release_highlight": "",
+      "release_impact": ""
     },
     {
       "slug": "cloudroom",
@@ -2680,12 +3376,63 @@
         "Orquestación limitada",
         "Menos maduro"
       ],
-      "licenseType": "Comercial"
+      "licenseType": "Comercial",
+      "last_release": "2026-11-15",
+      "last_release_tag": "gui-v154",
+      "last_release_url": "https://github.com/davidondrej/cloudroom/releases/tag/gui-v154",
+      "last_release_days": 0,
+      "releases_90": 10,
+      "releases_recent": [
+        {
+          "tag": "gui-v154",
+          "date": "2026-11-15",
+          "pre": false,
+          "url": "https://github.com/davidondrej/cloudroom/releases/tag/gui-v154"
+        },
+        {
+          "tag": "core-v0.1.111",
+          "date": "2026-11-15",
+          "pre": false,
+          "url": "https://github.com/davidondrej/cloudroom/releases/tag/core-v0.1.111"
+        },
+        {
+          "tag": "gui-v153",
+          "date": "2026-11-13",
+          "pre": false,
+          "url": "https://github.com/davidondrej/cloudroom/releases/tag/gui-v153"
+        },
+        {
+          "tag": "gui-v152",
+          "date": "2026-11-13",
+          "pre": false,
+          "url": "https://github.com/davidondrej/cloudroom/releases/tag/gui-v152"
+        },
+        {
+          "tag": "core-v0.1.110",
+          "date": "2026-11-13",
+          "pre": false,
+          "url": "https://github.com/davidondrej/cloudroom/releases/tag/core-v0.1.110"
+        },
+        {
+          "tag": "core-v0.1.109",
+          "date": "2026-11-13",
+          "pre": false,
+          "url": "https://github.com/davidondrej/cloudroom/releases/tag/core-v0.1.109"
+        }
+      ],
+      "release_note": "Cloudroom v154 Archived threads restore cleanly. For Apple Silicon Macs on macOS 13 or later, Linux x64, and Windows x64. Changes The Archived threads page shows a Restored toast with an Open button, real totals, and a Retry when loading fails. Restoring a thread can bring back its subagent threads too. Self-hosters can connect their own Core right from setup, with no Cloudroom account. Keep Awake has three levels and is on by default, only while agents work. Thread notes now say what each thread is for, then where it stands. With two Macs, Cloud threads follow the Mac you are using. Selecting text in a draft shows a simple Copy button below it. Install or update macOS: Quit Cloudroom, download the DMG, open it, and drag Cloudroom into Applications. Your data is kept. Signed and notarized by Apple. Linux x64: For Ubuntu 24.04+ and current Arch Linux. chmod +x Cloudroom-v154-x86_64.AppIma",
+      "release_status": "activo",
+      "release_source": "releases.atom",
+      "release_checked_at": "2026-11-15",
+      "release_http": 200,
+      "changelog_url": null,
+      "release_highlight": "",
+      "release_impact": ""
     },
     {
       "slug": "codex-app",
       "name": "Codex app",
-      "repo": "https://github.com/openai/openai-cookbook",
+      "repo": null,
       "website": "https://developers.openai.com/codex/app/",
       "license": null,
       "category": "ide",
@@ -2798,7 +3545,21 @@
         "Poco multi-harness real",
         "No es self-hosted"
       ],
-      "licenseType": "Comercial"
+      "licenseType": "Comercial",
+      "last_release": null,
+      "last_release_tag": null,
+      "last_release_url": "https://developers.openai.com/codex/app/",
+      "last_release_days": null,
+      "releases_90": 0,
+      "releases_recent": [],
+      "release_note": "App cerrada de OpenAI. No tiene repositorio de releases propio; el changelog general de OpenAI no se usa como release del ADE.",
+      "release_status": "app cerrada",
+      "release_source": "changelog",
+      "release_checked_at": "2026-11-15",
+      "release_http": null,
+      "changelog_url": "https://developers.openai.com/codex/app/",
+      "release_highlight": "",
+      "release_impact": ""
     },
     {
       "slug": "tortie",
@@ -2951,7 +3712,194 @@
         "Revisión y PRs limitados",
         "Proyecto pequeño"
       ],
-      "licenseType": "Comercial"
+      "licenseType": "Comercial",
+      "last_release": "2026-11-06",
+      "last_release_tag": "v0.114.1",
+      "last_release_url": "https://github.com/gregce/tortie/releases/tag/v0.114.1",
+      "last_release_days": 9,
+      "releases_90": 10,
+      "releases_recent": [
+        {
+          "tag": "v0.114.1",
+          "date": "2026-11-06",
+          "pre": false,
+          "url": "https://github.com/gregce/tortie/releases/tag/v0.114.1"
+        },
+        {
+          "tag": "v0.114.0",
+          "date": "2026-11-05",
+          "pre": false,
+          "url": "https://github.com/gregce/tortie/releases/tag/v0.114.0"
+        },
+        {
+          "tag": "v0.113.0",
+          "date": "2026-10-21",
+          "pre": false,
+          "url": "https://github.com/gregce/tortie/releases/tag/v0.113.0"
+        },
+        {
+          "tag": "v0.112.0",
+          "date": "2026-10-17",
+          "pre": false,
+          "url": "https://github.com/gregce/tortie/releases/tag/v0.112.0"
+        },
+        {
+          "tag": "v0.111.2",
+          "date": "2026-10-13",
+          "pre": false,
+          "url": "https://github.com/gregce/tortie/releases/tag/v0.111.2"
+        },
+        {
+          "tag": "v0.111.1",
+          "date": "2026-10-12",
+          "pre": false,
+          "url": "https://github.com/gregce/tortie/releases/tag/v0.111.1"
+        }
+      ],
+      "release_note": "This release fixes an error 0.114.0 could show again and again when Tortie's session list stopped reading correctly while it ran. Tortie now says so once and offers a restart, and your sessions keep running. Fixed If Tortie's session list stops reading correctly while it runs, Tortie says so once and offers a restart, instead of an error every few seconds and a crash when you quit; your sessions keep running either way ( 5a6097ac )",
+      "release_status": "reciente",
+      "release_source": "releases.atom",
+      "release_checked_at": "2026-11-15",
+      "release_http": 200,
+      "changelog_url": null,
+      "release_highlight": "",
+      "release_impact": ""
+    },
+    {
+      "slug": "maestri",
+      "name": "Maestri",
+      "repo": null,
+      "website": "https://themaestri.app/",
+      "license": null,
+      "category": "orchestrator",
+      "summary": "Canvas visual donde cada agente tiene rol, terminal y contexto; ahora con Computer Use que pide permiso por app y control remoto mientras estás fuera.",
+      "features": {
+        "parallel": false,
+        "orchestration": true,
+        "review": true,
+        "remote": false,
+        "mobile": true,
+        "extensions": false,
+        "control": false,
+        "openSource": false,
+        "mature": true
+      },
+      "scores": {
+        "harnesses": 84,
+        "paralelo": 80,
+        "orquestacion": 84,
+        "revision": 75,
+        "remoto": 70,
+        "movil": 78,
+        "extensiones": 55,
+        "control": 70,
+        "abierto": 40,
+        "producto": 74
+      },
+      "total": 73.3,
+      "tier": "A",
+      "harnesses": [
+        "claude code",
+        "codex",
+        "opencode",
+        "cursor"
+      ],
+      "evidence": {
+        "harnesses": [
+          {
+            "text": "Each one runs its own agent: Claude Code, Codex, OpenCode, or just a plain shell.",
+            "source": "https://themaestri.app/"
+          },
+          {
+            "text": "Coding agents like Claude Code, Codex, and others have their own privacy policies and may send data to their respective providers.",
+            "source": "https://themaestri.app/"
+          },
+          {
+            "text": "Every agent has a cursor with its name, several can work at once, and when only your real pointer and keyboard will do, an agent can ask to take over while you're away.",
+            "source": "https://themaestri.app/"
+          }
+        ],
+        "paralelo": [],
+        "orquestacion": [
+          {
+            "text": "Maestri · The infinite canvas for orchestrating AI agents Now you're conducting.",
+            "source": "https://themaestri.app/"
+          },
+          {
+            "text": "Meet Maestri, the first infinite canvas made for orchestrating agents.",
+            "source": "https://themaestri.app/"
+          },
+          {
+            "text": "Maestri unlocks so much potential for multi agent orchestration!",
+            "source": "https://themaestri.app/"
+          }
+        ],
+        "revision": [],
+        "remoto": [
+          {
+            "text": "An agent can also ask to control the whole computer with your pointer and keyboard while you are away.",
+            "source": "https://themaestri.app/en/changelog"
+          }
+        ],
+        "movil": [
+          {
+            "text": "A website, an iOS Simulator, an Android emulator, or a real phone plugged into your Mac.",
+            "source": "https://themaestri.app/"
+          }
+        ],
+        "extensiones": [],
+        "control": [
+          {
+            "text": "They ask before using each app, and you can answer on your computer or from Maestri Remote.",
+            "source": "https://themaestri.app/en/changelog"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "Web oficial",
+          "url": "https://themaestri.app/",
+          "accessedAt": "2026-11-13"
+        }
+      ],
+      "judged_day": "2026-11-13",
+      "tagline": "Un lienzo infinito para orquestar agentes.",
+      "pricing": "freemium",
+      "priceNote": "Free 1 workspace; Pro US$18",
+      "execution": "Local · SSH · Self-hosted",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "iOS",
+        "Android"
+      ],
+      "strengths": [
+        "Canvas visual muy claro",
+        "Computer Use con aprobación por app",
+        "Control remoto desde Maestri Remote",
+        "Roles y flujos de agentes"
+      ],
+      "weaknesses": [
+        "Cerrado",
+        "Extensiones/MCP limitados",
+        "Computer Use depende de permisos y app por app"
+      ],
+      "licenseType": "Comercial",
+      "last_release": "2026-11-03",
+      "last_release_tag": "0.59.0",
+      "last_release_url": "https://themaestri.app/en/changelog",
+      "last_release_days": 12,
+      "releases_90": null,
+      "releases_recent": [],
+      "release_note": "0.59.0 November 3, 2026 New Computer Use: agents can read and use other apps on your computer in the background, without moving your pointer or taking your keyboard. They ask before using each app, and you can answer on your computer or from Maestri Remote. An agent can also ask to control the whole computer with your pointer and keyboard while you're away. Turn it on in Settings → Agents → Control. Updated Links in chat and notes use the surrounding text color with an underline, so they're easier to read. Bug Fixes Fixed jumping to a terminal or workspace with 1–9 on keyboard layouts whose number row doesn't type digits. Fixed F2 opening rename instead of reaching the program in a focused terminal. Point Releases 0.59.1 — November 4, 2026 Bug Fixes Fixed an issue where sometimes the chat would not respond to scroll while the terminal is lifted. 0.59.2 — November 5, 2026 Bug Fixes Fixed picking a terminal from the list not bringing it up while another terminal is lifted. Fixed clicking below a chat's last message deselecting the terminal. 0.59.3 — November 6, 2026 Touch support on the canvas, optimized for the new MacBook Pro with PROLED display. Chat terminals have a Clear Chat Hi",
+      "release_status": "reciente",
+      "release_source": "changelog",
+      "release_checked_at": "2026-11-15",
+      "release_http": null,
+      "changelog_url": "https://themaestri.app/en/changelog",
+      "release_highlight": "0.59.0: Computer Use con aprobación por app y control remoto desde Maestri Remote.",
+      "release_impact": "Tier A (+2.12): Control 55→70 y Remoto 65→70; Computer Use y Remote lo justifican."
     },
     {
       "slug": "sidecar",
@@ -3100,7 +4048,58 @@
         "Orquestación experimental",
         "Poca extensibilidad"
       ],
-      "licenseType": "Comercial"
+      "licenseType": "Comercial",
+      "last_release": "2026-10-08",
+      "last_release_tag": "v1.17.1",
+      "last_release_url": "https://github.com/marcus/sidecar/releases/tag/v1.17.1",
+      "last_release_days": 38,
+      "releases_90": 10,
+      "releases_recent": [
+        {
+          "tag": "v1.17.1",
+          "date": "2026-10-08",
+          "pre": false,
+          "url": "https://github.com/marcus/sidecar/releases/tag/v1.17.1"
+        },
+        {
+          "tag": "v1.17.0",
+          "date": "2026-10-08",
+          "pre": false,
+          "url": "https://github.com/marcus/sidecar/releases/tag/v1.17.0"
+        },
+        {
+          "tag": "v1.16.0",
+          "date": "2026-10-05",
+          "pre": false,
+          "url": "https://github.com/marcus/sidecar/releases/tag/v1.16.0"
+        },
+        {
+          "tag": "v1.15.1",
+          "date": "2026-10-01",
+          "pre": false,
+          "url": "https://github.com/marcus/sidecar/releases/tag/v1.15.1"
+        },
+        {
+          "tag": "v1.15.0",
+          "date": "2026-10-01",
+          "pre": false,
+          "url": "https://github.com/marcus/sidecar/releases/tag/v1.15.0"
+        },
+        {
+          "tag": "v1.14.0",
+          "date": "2026-09-05",
+          "pre": false,
+          "url": "https://github.com/marcus/sidecar/releases/tag/v1.14.0"
+        }
+      ],
+      "release_note": "Changelog e25b0c9 fix(api): keep Tailnet access across service reinstalls with api.tailnet (td-accec4) cbac413 fix(api): service install waits for the started job before reporting (td-accec4) 2a2978a release: prepare v1.17.1",
+      "release_status": "estable",
+      "release_source": "releases.atom",
+      "release_checked_at": "2026-11-15",
+      "release_http": 200,
+      "changelog_url": null,
+      "release_highlight": "",
+      "release_impact": ""
     },
     {
       "slug": "herdr",
@@ -3230,7 +4229,58 @@
         "Sin revisión/PRs",
         "Más multiplexor que orquestador"
       ],
-      "licenseType": "Comercial"
+      "licenseType": "Comercial",
+      "last_release": "2026-11-10",
+      "last_release_tag": "v0.1.15",
+      "last_release_url": "https://github.com/herdrdev/herdr-app/releases/tag/v0.1.15",
+      "last_release_days": 5,
+      "releases_90": 10,
+      "releases_recent": [
+        {
+          "tag": "v0.1.15",
+          "date": "2026-11-10",
+          "pre": false,
+          "url": "https://github.com/herdrdev/herdr-app/releases/tag/v0.1.15"
+        },
+        {
+          "tag": "v0.1.14",
+          "date": "2026-11-08",
+          "pre": false,
+          "url": "https://github.com/herdrdev/herdr-app/releases/tag/v0.1.14"
+        },
+        {
+          "tag": "v0.1.13",
+          "date": "2026-11-04",
+          "pre": false,
+          "url": "https://github.com/herdrdev/herdr-app/releases/tag/v0.1.13"
+        },
+        {
+          "tag": "v0.1.12",
+          "date": "2026-11-02",
+          "pre": false,
+          "url": "https://github.com/herdrdev/herdr-app/releases/tag/v0.1.12"
+        },
+        {
+          "tag": "v0.1.11",
+          "date": "2026-10-31",
+          "pre": false,
+          "url": "https://github.com/herdrdev/herdr-app/releases/tag/v0.1.11"
+        },
+        {
+          "tag": "v0.1.10",
+          "date": "2026-10-30",
+          "pre": false,
+          "url": "https://github.com/herdrdev/herdr-app/releases/tag/v0.1.10"
+        }
+      ],
+      "release_note": "chore: release 0.1.15",
+      "release_status": "activo",
+      "release_source": "releases.atom",
+      "release_checked_at": "2026-11-15",
+      "release_http": 200,
+      "changelog_url": null,
+      "release_highlight": "",
+      "release_impact": ""
     },
     {
       "slug": "solo",
@@ -3387,7 +4437,21 @@
         "Sin móvil",
         "Revisión y PRs fuera del foco"
       ],
-      "licenseType": "Comercial"
+      "licenseType": "Comercial",
+      "last_release": "2026-10-31",
+      "last_release_tag": "v0.12.4",
+      "last_release_url": "https://soloterm.com/changelog",
+      "last_release_days": 15,
+      "releases_90": null,
+      "releases_recent": [],
+      "release_note": "v0.12.4 Released on October 31, 2026 TL;DR Stopping a command now lets it shut down cleanly. On macOS and Linux, Solo asks it to exit the way Ctrl+C would and escalates only if it keeps running. On Windows, Solo sends Ctrl+C and force-stops only after about 3 seconds. Child processes are stopped too, and a project whose folder is missing at startup is kept instead of removed. Timer and MCP messages to agents are much more dependable. They no longer get stuck unsubmitted in a prompt, never answer a permission prompt or question for you, and typing into an agent mid-delivery no longer locks its terminal. Resume also follows Claude Code's /clear and /resume , and Codex's -C . MCP gives you control over who can type into a process. Each process has an \"Incoming MCP input\" setting and keeps a log of the input it received, and agents can tell MCP input from your typing. spawn_agent also takes a working directory and a first prompt. A project's name now stays in sync with its solo.yml , and adding a git worktree of a project you already have links it to that project instead of creating a new one. Shortcuts changed: Cmd/Ctrl+1–9 switch between sessions across the whole workspace. On new in",
+      "release_status": "reciente",
+      "release_source": "changelog",
+      "release_checked_at": "2026-11-15",
+      "release_http": null,
+      "changelog_url": "https://soloterm.com/changelog",
+      "release_highlight": "",
+      "release_impact": ""
     },
     {
       "slug": "agent-teams-ai",
@@ -3558,127 +4622,58 @@
         "SSH todavía es una idea",
         "Extensiones y control básicos"
       ],
-      "licenseType": "Comercial"
-    },
-    {
-      "slug": "maestri",
-      "name": "Maestri",
-      "repo": null,
-      "website": "https://themaestri.app/",
-      "license": null,
-      "category": "orchestrator",
-      "summary": "Canvas visual donde cada agente tiene rol, terminal y contexto; pensado para diseñar y seguir flujos multi-agente.",
-      "features": {
-        "parallel": false,
-        "orchestration": true,
-        "review": true,
-        "remote": false,
-        "mobile": true,
-        "extensions": false,
-        "control": false,
-        "openSource": false,
-        "mature": true
-      },
-      "scores": {
-        "harnesses": 82,
-        "paralelo": 80,
-        "orquestacion": 84,
-        "revision": 75,
-        "remoto": 65,
-        "movil": 78,
-        "extensiones": 55,
-        "control": 55,
-        "abierto": 40,
-        "producto": 72
-      },
-      "total": 71.18,
-      "tier": "B",
-      "harnesses": [
-        "claude code",
-        "codex",
-        "opencode",
-        "cursor"
-      ],
-      "evidence": {
-        "harnesses": [
-          {
-            "text": "Each one runs its own agent: Claude Code, Codex, OpenCode, or just a plain shell.",
-            "source": "https://themaestri.app/"
-          },
-          {
-            "text": "Coding agents like Claude Code, Codex, and others have their own privacy policies and may send data to their respective providers.",
-            "source": "https://themaestri.app/"
-          },
-          {
-            "text": "Every agent has a cursor with its name, several can work at once, and when only your real pointer and keyboard will do, an agent can ask to take over while you're away.",
-            "source": "https://themaestri.app/"
-          }
-        ],
-        "paralelo": [],
-        "orquestacion": [
-          {
-            "text": "Maestri · The infinite canvas for orchestrating AI agents Now you're conducting.",
-            "source": "https://themaestri.app/"
-          },
-          {
-            "text": "Meet Maestri, the first infinite canvas made for orchestrating agents.",
-            "source": "https://themaestri.app/"
-          },
-          {
-            "text": "Maestri unlocks so much potential for multi agent orchestration!",
-            "source": "https://themaestri.app/"
-          }
-        ],
-        "revision": [],
-        "remoto": [
-          {
-            "text": "Each agent asks before it uses an app, and you can answer on your computer or from Maestri Remote.",
-            "source": "https://themaestri.app/"
-          },
-          {
-            "text": "Platforms Mac Windows Linux Maestri Remote Product Docs Changelog License Manager Recover License Support Contact Discord Twitter Português Privacy Terms Refund",
-            "source": "https://themaestri.app/"
-          }
-        ],
-        "movil": [
-          {
-            "text": "A website, an iOS Simulator, an Android emulator, or a real phone plugged into your Mac.",
-            "source": "https://themaestri.app/"
-          }
-        ],
-        "extensiones": [],
-        "control": []
-      },
-      "sources": [
+      "licenseType": "Comercial",
+      "last_release": "2026-11-11",
+      "last_release_tag": "v2.18.7",
+      "last_release_url": "https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.7",
+      "last_release_days": 4,
+      "releases_90": 10,
+      "releases_recent": [
         {
-          "label": "Web oficial",
-          "url": "https://themaestri.app/",
-          "accessedAt": "2026-11-13"
+          "tag": "v2.18.7",
+          "date": "2026-11-11",
+          "pre": false,
+          "url": "https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.7"
+        },
+        {
+          "tag": "v2.18.6",
+          "date": "2026-11-05",
+          "pre": false,
+          "url": "https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.6"
+        },
+        {
+          "tag": "v2.18.5",
+          "date": "2026-11-04",
+          "pre": false,
+          "url": "https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.5"
+        },
+        {
+          "tag": "v2.18.4",
+          "date": "2026-10-27",
+          "pre": false,
+          "url": "https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.4"
+        },
+        {
+          "tag": "v2.18.3",
+          "date": "2026-10-26",
+          "pre": false,
+          "url": "https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.3"
+        },
+        {
+          "tag": "v2.18.2",
+          "date": "2026-10-25",
+          "pre": false,
+          "url": "https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.2"
         }
       ],
-      "judged_day": "2026-11-13",
-      "tagline": "Un lienzo infinito para orquestar agentes.",
-      "pricing": "freemium",
-      "priceNote": "Free 1 workspace; Pro US$18",
-      "execution": "Local · SSH · Self-hosted",
-      "platforms": [
-        "macOS",
-        "Windows",
-        "Linux",
-        "iOS",
-        "Android"
-      ],
-      "strengths": [
-        "Canvas visual muy claro",
-        "Roles y flujos de agentes",
-        "App móvil en beta"
-      ],
-      "weaknesses": [
-        "Cerrado",
-        "Extensiones/MCP limitados",
-        "Control y aprobaciones básicos"
-      ],
-      "licenseType": "Comercial"
+      "release_note": "Simplified the Dashboard and improved team creation and launch. Added a tasks table, built-in Git, improved schedules, and fixed OpenCode teammates sometimes not replying. Customize local fonts, text size, app scaling, and portable JSON themes. Simplified the Team screen. What's New Create teams from the Teams page; confirm templates before replacing an edited setup. Sort tasks in a live table with selectable, resizable columns. Schedule one agent or a whole team, with optional linked board tasks and avatar-based member selection. Built-in Git handles app diffs, worktrees, and cloning without a separate Git installation. Use OpenCode 2.x on Intel Macs. Choose local UI fonts, text size, whole-app scaling, and portable JSON themes. Improvements Manage providers in Settings and refresh their models directly from the model selector. Search time zones, preview scheduled runs, and open linked ",
+      "release_status": "activo",
+      "release_source": "releases.atom",
+      "release_checked_at": "2026-11-15",
+      "release_http": 200,
+      "changelog_url": null,
+      "release_highlight": "",
+      "release_impact": ""
     },
     {
       "slug": "waku",
@@ -3802,7 +4797,58 @@
         "Orquestación limitada",
         "Menos adopción"
       ],
-      "licenseType": "Comercial"
+      "licenseType": "Comercial",
+      "last_release": "2026-10-02",
+      "last_release_tag": "v0.1.20",
+      "last_release_url": "https://github.com/egoist/waku/releases/tag/v0.1.20",
+      "last_release_days": 44,
+      "releases_90": 10,
+      "releases_recent": [
+        {
+          "tag": "v0.1.20",
+          "date": "2026-10-02",
+          "pre": false,
+          "url": "https://github.com/egoist/waku/releases/tag/v0.1.20"
+        },
+        {
+          "tag": "v0.1.19",
+          "date": "2026-09-10",
+          "pre": false,
+          "url": "https://github.com/egoist/waku/releases/tag/v0.1.19"
+        },
+        {
+          "tag": "v0.1.18",
+          "date": "2026-09-07",
+          "pre": false,
+          "url": "https://github.com/egoist/waku/releases/tag/v0.1.18"
+        },
+        {
+          "tag": "v0.1.17",
+          "date": "2026-09-02",
+          "pre": false,
+          "url": "https://github.com/egoist/waku/releases/tag/v0.1.17"
+        },
+        {
+          "tag": "v0.1.16",
+          "date": "2026-08-30",
+          "pre": false,
+          "url": "https://github.com/egoist/waku/releases/tag/v0.1.16"
+        },
+        {
+          "tag": "v0.1.15",
+          "date": "2026-08-24",
+          "pre": false,
+          "url": "https://github.com/egoist/waku/releases/tag/v0.1.15"
+        }
+      ],
+      "release_note": "Support the OpenCode 2.0 release, which now installs as opencode : OpenCode runs on its shared background service, OpenCode 2 beta and OpenCode 1 tasks continue as OpenCode tasks, and OpenCode's free models work in Waku tasks Fix rewinding or branching an OpenCode task after steering it mid-turn, which forked OpenCode's conversation at the wrong turn Fix OpenCode tasks going silent when the OpenCode service restarts; a turn it interrupted now continues in place once the service is back Fix Cursor model discovery and options so the pickers list every model the Cursor CLI advertises, with its reasoning effort, fast mode, and context window Show the release version in Claude model names, such as Opus 4.6 (1M context), in the model picker and composer Make the project picker searchable and scrollable, keeping long project lists reachable with the new-project and no-project actions pinned bel",
+      "release_status": "estable",
+      "release_source": "releases.atom",
+      "release_checked_at": "2026-11-15",
+      "release_http": 200,
+      "changelog_url": null,
+      "release_highlight": "",
+      "release_impact": ""
     }
   ],
   "queue": [

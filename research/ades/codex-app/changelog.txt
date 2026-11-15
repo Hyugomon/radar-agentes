@@ -1,0 +1,1 @@
+App cerrada de OpenAI. No tiene repositorio de releases propio; el changelog general de OpenAI no se usa como release del ADE.

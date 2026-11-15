@@ -1,0 +1,87 @@
+{
+  "repo": "getpaseo/paseo",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "v0.16.0-beta.2",
+      "title": "Paseo v0.16.0-beta.2",
+      "date": "2026-11-11",
+      "url": "https://github.com/getpaseo/paseo/releases/tag/v0.16.0-beta.2",
+      "pre": true,
+      "note": "0.16.0-beta.2 - 2026-11-11 Background tasks: Paseo now shows the background tasks an agent is running, such as shells and monitors, above the composer, with a Stop button for each. Works with Claude Code, Codex and OpenCode v2. ( #6220 , #9162 by @fxlelouarn ) Plugin sidebar views: A plugin can replace the sidebar's content with its own layout of workspaces, agents, projects and terminals across every connected host. Pick the view per device under Settings → Sidebar; Paseo's sidebar header and footer stay in place. ( #8906 ) Plugin composer controls: Plugins can add their own controls to the composer, and read and set its prompt, attachments, provider, model, mode and thinking. They can also put the cursor in any agent's composer, add items to New workspace, and store their own metadata on agents and workspaces. ( #8744 , #9209 , #9207 ) Faster diff loading: Opening Changes shows the fil"
+    },
+    {
+      "tag": "v0.16.0-beta.1",
+      "title": "Paseo v0.16.0-beta.1",
+      "date": "2026-11-11",
+      "url": "https://github.com/getpaseo/paseo/releases/tag/v0.16.0-beta.1",
+      "pre": true,
+      "note": "0.16.0-beta.1 - 2026-11-10 Background tasks: Paseo now shows the background tasks an agent is running, such as shells and monitors, above the composer, with a Stop button for each. Works with Claude Code, Codex and OpenCode v2. ( #6220 , #9162 by @fxlelouarn ) Plugin sidebar views: A plugin can replace the sidebar's content with its own layout of workspaces, agents, projects and terminals across every connected host. Pick the view per device under Settings → Sidebar; Paseo's sidebar header and footer stay in place. ( #8906 ) Plugin composer controls: Plugins can add their own controls to the composer, and read and set its prompt, attachments, provider, model, mode and thinking. They can also put the cursor in any agent's composer, add items to New workspace, and store their own metadata on agents and workspaces. ( #8744 , #9209 , #9207 ) Faster diff loading: Opening Changes shows the fil"
+    },
+    {
+      "tag": "v0.15.4",
+      "title": "Paseo v0.15.4",
+      "date": "2026-11-10",
+      "url": "https://github.com/getpaseo/paseo/releases/tag/v0.15.4",
+      "pre": false,
+      "note": "0.15.4 - 2026-11-10 Added Added Claude Fable 5.2 and Mythos 5.2 with medium default effort ( #9233 by @gengjiawen , @gudcks ) Notes Both models require Claude Code 2.1.321 or newer; Mythos 5.2 appears only when Claude Code advertises access"
+    },
+    {
+      "tag": "v0.15.3",
+      "title": "Paseo v0.15.3",
+      "date": "2026-11-06",
+      "url": "https://github.com/getpaseo/paseo/releases/tag/v0.15.3",
+      "pre": false,
+      "note": "0.15.3 - 2026-11-06 Fixed Fixed conversation text becoming blurred when opening or dismissing the keyboard on iOS 26+ ( #8918 by @dgreensp )"
+    },
+    {
+      "tag": "v0.15.2",
+      "title": "Paseo v0.15.2",
+      "date": "2026-11-05",
+      "url": "https://github.com/getpaseo/paseo/releases/tag/v0.15.2",
+      "pre": false,
+      "note": "0.15.2 - 2026-11-05 Added Added a first-run setup on Paseo Desktop and web that walks new users through theme, providers, projects, agent orchestration and the mobile app, with Settings → General → Show setup again to reopen it ( #8363 ) Added project suggestions from the folders where you ran Claude Code, Codex, OpenCode or Pi, shown in the setup Projects step ( #8363 ) Improved Changed the theme picker to a grid of tiles with a preview of each theme ( #8363 ) Replaced the \"Loading…\" text in Providers settings with skeleton rows ( #8363 ) Changed controls to two sizes: default controls are 32px tall on desktop and 44px on phones, and compact controls are 28px ( #8363 ) Changed first launch to go from the loading screen straight into setup instead of showing the empty home first ( #8824 ) Changed dialogs on desktop and web to fade in over about 160ms ( #8824 ) Changed modal and sheet bac"
+    },
+    {
+      "tag": "v0.15.1",
+      "title": "Paseo v0.15.1",
+      "date": "2026-11-05",
+      "url": "https://github.com/getpaseo/paseo/releases/tag/v0.15.1",
+      "pre": false,
+      "note": "0.15.1 - 2026-11-05 Fixed Fixed the daemon failing to start when the terminal worker cannot read its own process identity, which left Paseo Desktop without a daemon on Windows machines where Windows PowerShell 5.1 cannot run Get-CimInstance ( #8810 )"
+    },
+    {
+      "tag": "v0.15.0",
+      "title": "Paseo v0.15.0",
+      "date": "2026-11-03",
+      "url": "https://github.com/getpaseo/paseo/releases/tag/v0.15.0",
+      "pre": false,
+      "note": "0.15.0 - 2026-11-03 Daemon restarts now keep terminal programs running. Interrupted agents can resume in their existing conversations when you turn on agent recovery. Mobile terminals have native rendering and draggable text-selection handles. Reconnecting restores up to 10,000 lines of terminal history. Worktree setup can copy ignored files and use plugin-defined locations before agents start. Added Insert known agent commands from replies into the Composer draft ( #8371 ) Reuse running OpenCode v2 services ( #7435 by @mcowger ) Kept terminal programs running across daemon restarts, crashes and supported updates ( #7644 , #8155 by @sebastianarena ) Added an opt-in setting to resume interrupted agents in their existing conversations after a host restart ( #8127 , #8619 by @coolwindX , @suntianc ) Added draggable terminal text-selection handles on iOS and Android ( #8348 ) Let phones and "
+    },
+    {
+      "tag": "v0.15.0-beta.1",
+      "title": "Paseo v0.15.0-beta.1",
+      "date": "2026-11-01",
+      "url": "https://github.com/getpaseo/paseo/releases/tag/v0.15.0-beta.1",
+      "pre": true,
+      "note": "0.15.0-beta.1 - 2026-11-01 Daemon restarts now keep terminal programs running and automatically resume interrupted agents in their existing conversations. Mobile terminals have native rendering and draggable text-selection handles. Reconnecting restores up to 10,000 lines of terminal history. Worktree setup can copy ignored files and use plugin-defined locations before agents start. Added Insert known agent commands from replies into the Composer draft ( #8371 ) Reuse running OpenCode v2 services ( #7435 by @mcowger ) Kept terminal programs running across daemon restarts, crashes and supported updates ( #7644 , #8155 by @sebastianarena ) Automatically resume interrupted agents in their existing conversations after a host restart ( #8127 by @coolwindX , @suntianc ) Added draggable terminal text-selection handles on iOS and Android ( #8348 ) Let phones and tablets rotate with the system or"
+    },
+    {
+      "tag": "v0.14.0",
+      "title": "Paseo v0.14.0",
+      "date": "2026-10-29",
+      "url": "https://github.com/getpaseo/paseo/releases/tag/v0.14.0",
+      "pre": false,
+      "note": "0.14.0 - 2026-10-29 Plugins can now add tools to individual agents and configure their MCP servers when sessions open. Completed conversation turns can be collapsed into summaries and expanded to read the full exchange. Voice settings now let you configure speech providers and download local models with one tap, including SenseVoice and Whisper for Chinese dictation. Voice mode is now opt-in. Added Let plugins give tools to specific agents ( #7938 ) Added Chat display settings that group tool calls or collapse completed conversation turns ( #7785 , #7990 , #8026 , #8042 , #8109 by @akaready , @Dey11 , @Sebeb , @Waishnav ) Let plugins add MCP servers whenever an agent session opens ( #7983 ) Added downloadable local speech models in Voice settings, including SenseVoice and Whisper for Chinese dictation ( #7295 ) Added a choice of Enter or ⌘/Ctrl+Enter to send messages ( #5503 by @lukelabo"
+    },
+    {
+      "tag": "v0.14.0-beta.2",
+      "title": "Paseo v0.14.0-beta.2",
+      "date": "2026-10-28",
+      "url": "https://github.com/getpaseo/paseo/releases/tag/v0.14.0-beta.2",
+      "pre": true,
+      "note": "0.14.0-beta.2 - 2026-10-28 Plugins can now add tools to individual agents and configure their MCP servers when sessions open. Completed conversation turns can be collapsed into summaries and expanded to read the full exchange. Voice settings now let you configure speech providers and download local models with one tap, including SenseVoice and Whisper for Chinese dictation. Voice mode is now opt-in. Added Let plugins give tools to specific agents ( #7938 ) Added Chat display settings that group tool calls or collapse completed conversation turns ( #7785 , #7990 , #8026 , #8042 , #8109 by @akaready , @Dey11 , @Sebeb , @Waishnav ) Let plugins add MCP servers whenever an agent session opens ( #7983 ) Added downloadable local speech models in Voice settings, including SenseVoice and Whisper for Chinese dictation ( #7295 ) Added a choice of Enter or ⌘/Ctrl+Enter to send messages ( #5503 by @l"
+    }
+  ]
+}

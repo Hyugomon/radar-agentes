@@ -105,6 +105,19 @@ const rows = (index.projects || []).map(p => {
     harnesses: harnessList,
     features,
     sources,
+    last_release: p.last_release || null,
+    last_release_tag: p.last_release_tag || null,
+    last_release_url: p.last_release_url || p.repo || p.website || null,
+    last_release_days: p.last_release_days ?? null,
+    releases_90: p.releases_90 ?? null,
+    releases_recent: p.releases_recent || [],
+    release_status: p.release_status || '',
+    release_source: p.release_source || '',
+    release_note: p.release_note || '',
+    release_highlight: p.release_highlight || '',
+    release_impact: p.release_impact || '',
+    release_checked_at: p.release_checked_at || null,
+    changelog_url: p.changelog_url || null,
     judged_day: p.judged_day
   }
 })
@@ -114,9 +127,10 @@ rows.forEach((row, i) => { row.rank = i + 1 })
 
 const queue = (index.queue || []).map(q => ({ name: q.name, url: q.url }))
 
+const generatedIso = new Date().toISOString()
 const payload = {
-  generated_at: '2026-11-13 09:00',
-  generated_iso: '2026-11-13T14:00:00Z',
+  generated_at: generatedIso.slice(0, 16).replace('T', ' '),
+  generated_iso: generatedIso,
   meta: {
     dimensions: DIMENSIONS,
     tiers: TIERS,

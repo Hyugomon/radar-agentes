@@ -1,0 +1,87 @@
+{
+  "repo": "get-bb/bb",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "desktop-nightly",
+      "title": "bb Nightly",
+      "date": "2026-11-12",
+      "url": "https://github.com/get-bb/bb/releases/tag/desktop-nightly",
+      "pre": true,
+      "note": "Latest automated bb Nightly build from main. Nightly builds may be unstable."
+    },
+    {
+      "tag": "desktop-v0.49.0",
+      "title": "bb desktop 0.49.0",
+      "date": "2026-11-06",
+      "url": "https://github.com/get-bb/bb/releases/tag/desktop-v0.49.0",
+      "pre": false,
+      "note": "bb desktop 0.49.0"
+    },
+    {
+      "tag": "desktop-latest",
+      "title": "bb desktop latest",
+      "date": "2026-11-06",
+      "url": "https://github.com/get-bb/bb/releases/tag/desktop-latest",
+      "pre": true,
+      "note": "Latest stable bb desktop release metadata."
+    },
+    {
+      "tag": "desktop-v0.48.1",
+      "title": "bb desktop 0.48.1",
+      "date": "2026-10-30",
+      "url": "https://github.com/get-bb/bb/releases/tag/desktop-v0.48.1",
+      "pre": false,
+      "note": "bb desktop 0.48.1"
+    },
+    {
+      "tag": "desktop-v0.48.0",
+      "title": "bb desktop 0.48.0",
+      "date": "2026-10-28",
+      "url": "https://github.com/get-bb/bb/releases/tag/desktop-v0.48.0",
+      "pre": false,
+      "note": "bb desktop 0.48.0"
+    },
+    {
+      "tag": "desktop-v0.47.1",
+      "title": "bb desktop 0.47.1",
+      "date": "2026-10-24",
+      "url": "https://github.com/get-bb/bb/releases/tag/desktop-v0.47.1",
+      "pre": false,
+      "note": "bb desktop 0.47.1"
+    },
+    {
+      "tag": "desktop-v0.47.0",
+      "title": "bb desktop 0.47.0",
+      "date": "2026-10-23",
+      "url": "https://github.com/get-bb/bb/releases/tag/desktop-v0.47.0",
+      "pre": false,
+      "note": "bb desktop 0.47.0"
+    },
+    {
+      "tag": "desktop-v0.46.1",
+      "title": "bb desktop 0.46.1",
+      "date": "2026-10-15",
+      "url": "https://github.com/get-bb/bb/releases/tag/desktop-v0.46.1",
+      "pre": false,
+      "note": "bb desktop 0.46.1"
+    },
+    {
+      "tag": "desktop-v0.46.0",
+      "title": "bb desktop 0.46.0",
+      "date": "2026-10-09",
+      "url": "https://github.com/get-bb/bb/releases/tag/desktop-v0.46.0",
+      "pre": false,
+      "note": "bb desktop 0.46.0"
+    },
+    {
+      "tag": "desktop-v0.45.0",
+      "title": "bb desktop 0.45.0",
+      "date": "2026-10-02",
+      "url": "https://github.com/get-bb/bb/releases/tag/desktop-v0.45.0",
+      "pre": false,
+      "note": "bb desktop 0.45.0"
+    }
+  ]
+}

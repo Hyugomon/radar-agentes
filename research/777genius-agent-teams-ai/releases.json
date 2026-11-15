@@ -1,27 +1,87 @@
-[
-  {
-    "tag": "v2.18.7",
-    "date": "2026-11-11",
-    "url": "https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.7"
-  },
-  {
-    "tag": "v2.18.6",
-    "date": "2026-11-05",
-    "url": "https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.6"
-  },
-  {
-    "tag": "v2.18.5",
-    "date": "2026-11-04",
-    "url": "https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.5"
-  },
-  {
-    "tag": "v2.18.4",
-    "date": "2026-10-27",
-    "url": "https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.4"
-  },
-  {
-    "tag": "v2.18.3",
-    "date": "2026-10-26",
-    "url": "https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.3"
-  }
-]
+{
+  "repo": "777genius/agent-teams-ai",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "v2.18.7",
+      "title": "v2.18.7",
+      "date": "2026-11-11",
+      "url": "https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.7",
+      "pre": false,
+      "note": "Simplified the Dashboard and improved team creation and launch. Added a tasks table, built-in Git, improved schedules, and fixed OpenCode teammates sometimes not replying. Customize local fonts, text size, app scaling, and portable JSON themes. Simplified the Team screen. What's New Create teams from the Teams page; confirm templates before replacing an edited setup. Sort tasks in a live table with selectable, resizable columns. Schedule one agent or a whole team, with optional linked board tasks and avatar-based member selection. Built-in Git handles app diffs, worktrees, and cloning without a separate Git installation. Use OpenCode 2.x on Intel Macs. Choose local UI fonts, text size, whole-app scaling, and portable JSON themes. Improvements Manage providers in Settings and refresh their models directly from the model selector. Search time zones, preview scheduled runs, and open linked "
+    },
+    {
+      "tag": "v2.18.6",
+      "title": "v2.18.6",
+      "date": "2026-11-05",
+      "url": "https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.6",
+      "pre": false,
+      "note": "Improved teams stability and performance. Major fixes for Codex agents. Fixed bugs and improved the experience with OpenCode V2. What's New See which group-chat recipient has an unconfirmed message delivery. See loading placeholders while team cards load. See a cost warning before OpenRouter tests retry once on a paid model. Track OpenCode V2 download progress and reinstall when recovery is needed. Find free models with provider badges and clearer compatibility labels. Fixes Major fixes for Codex agents Prevent repeated history scans and oversized chat visualizations from overloading the app. Refresh OpenCode provider lists after connecting or removing credentials. Prevent silent OpenCode group notifications from blocking later messages. Give slow OpenCode startups more time and recover interrupted setup. Include Electron and bundled dependency security fixes. OpenCode V2 is available on"
+    },
+    {
+      "tag": "v2.18.5",
+      "title": "v2.18.5",
+      "date": "2026-11-04",
+      "url": "https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.5",
+      "pre": false,
+      "note": "v2.18.5"
+    },
+    {
+      "tag": "v2.18.4",
+      "title": "v2.18.4",
+      "date": "2026-10-27",
+      "url": "https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.4",
+      "pre": false,
+      "note": "This release adds group chats, OpenUI in chats, better attachment support across agents (images/videos/files if supported), and support for OpenCode 2.x alongside 1.x. What's New Create named group chats with selected teammates, or ask an agent to create one. View OpenUI charts and tables, plus Mermaid diagrams, directly in chats. Link tasks to group chats and open their tasks on the board. Open tasks in separate tabs, with edits and drafts shared across views. Organize tasks in folders with drag-and-drop. Create and edit team drafts through installed Claude Code or Codex. Improvements Use OpenCode 2.x or keep using 1.x; install V2 from the app when OpenCode is missing. Choose from eight team templates, including sales, support, operations, and learning. Queue messages with Cmd or Ctrl+Enter, then edit, send, or remove them. Choose an Anthropic subscription, API key, or compatible endpoi"
+    },
+    {
+      "tag": "v2.18.3",
+      "title": "v2.18.3",
+      "date": "2026-10-26",
+      "url": "https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.3",
+      "pre": false,
+      "note": "chore(release): pin verified runtime 0.0.140 ( #1023 )"
+    },
+    {
+      "tag": "v2.18.2",
+      "title": "v2.18.2",
+      "date": "2026-10-25",
+      "url": "https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.2",
+      "pre": false,
+      "note": "docs(release): prepare v2.18.2 with OpenCode probe storm fix ( #1010 )"
+    },
+    {
+      "tag": "v2.18.1",
+      "title": "v2.18.1: Merge pull request #1006 from 777genius/chore/runtime-0139-lock",
+      "date": "2026-10-25",
+      "url": "https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.1",
+      "pre": false,
+      "note": "chore(runtime): pin runtime 0.0.139"
+    },
+    {
+      "tag": "v2.18.0",
+      "title": "v2.18.0",
+      "date": "2026-10-24",
+      "url": "https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.0",
+      "pre": false,
+      "note": "Merge pull request #991 from 777genius/fix/provider-grid-refresh-afte…"
+    },
+    {
+      "tag": "release-tooling-v2.17.10-windows-resume-ota",
+      "title": "release-tooling-v2.17.10-windows-resume-ota",
+      "date": "2026-10-09",
+      "url": "https://github.com/777genius/agent-teams-ai/releases/tag/release-tooling-v2.17.10-windows-resume-ota",
+      "pre": false,
+      "note": "fix(release): resume qualified Windows OTA without repeating fresh in…"
+    },
+    {
+      "tag": "release-tooling-v2.17.10-windows-remaining-lint",
+      "title": "release-tooling-v2.17.10-windows-remaining-lint",
+      "date": "2026-10-09",
+      "url": "https://github.com/777genius/agent-teams-ai/releases/tag/release-tooling-v2.17.10-windows-remaining-lint",
+      "pre": false,
+      "note": "fix(release): preserve installer allowance outside scenario orchestra…"
+    }
+  ]
+}

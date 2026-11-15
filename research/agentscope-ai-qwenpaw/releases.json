@@ -1,27 +1,87 @@
-[
-  {
-    "tag": "v2.3.0",
-    "date": "2026-11-11",
-    "url": "https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.3.0"
-  },
-  {
-    "tag": "v2.3.0-beta.4",
-    "date": "2026-11-10",
-    "url": "https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.3.0-beta.4"
-  },
-  {
-    "tag": "v2.3.0-beta.3",
-    "date": "2026-11-09",
-    "url": "https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.3.0-beta.3"
-  },
-  {
-    "tag": "v2.3.0-beta.2",
-    "date": "2026-11-02",
-    "url": "https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.3.0-beta.2"
-  },
-  {
-    "tag": "v2.3.0-beta.1",
-    "date": "2026-10-27",
-    "url": "https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.3.0-beta.1"
-  }
-]
+{
+  "repo": "agentscope-ai/QwenPaw",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "v2.3.0",
+      "title": "v2.3.0",
+      "date": "2026-11-11",
+      "url": "https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.3.0",
+      "pre": false,
+      "note": "What's Changed ✨ Added Piccolo Local Decision Models Add Piccolo 4B, 9B, and 27B as local decision models for tool review and context compaction, with BF16 and Q8_0 recommendations, runtime installation and updates, and Hugging Face or ModelScope downloads. Review and compaction remain opt-in; the local runtime serves one model at a time ( #8463 , #8573 ) QwenPaw Community Browse, sort, and comment on QwenPaw Community posts from the Console, draft resource-linked issue reports with model assistance, and open the community editor. Connect an account to sync selected message categories to the Inbox and desktop notifications ( #7903 ) Console &amp; Desktop Add the optional OpenUI plugin to display interactive forms and components within replies, preserve their state during streaming, and submit actions to the originating conversation ( #8239 , #8248 ) Add an unread-only filter to Inbox pus"
+    },
+    {
+      "tag": "v2.3.0-beta.4",
+      "title": "v2.3.0-beta.4",
+      "date": "2026-11-10",
+      "url": "https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.3.0-beta.4",
+      "pre": true,
+      "note": "What's Changed fix(channels): preserve plugin dependencies across updates and fix channel startup by @Luohh5 in #8653 fix(plugins): recover interrupted additive dependency installations by @Luohh5 in #8659 chore: bump the version to 2.3.0b4 by @lalaliat in #8665 feat(community): support remote password login with saved credentials by @Osier-Yi in #8664 Full Changelog : v2.3.0-beta.3...v2.3.0-beta.4"
+    },
+    {
+      "tag": "v2.3.0-beta.3",
+      "title": "v2.3.0-beta.3",
+      "date": "2026-11-09",
+      "url": "https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.3.0-beta.3",
+      "pre": true,
+      "note": "What's Changed docs(memory): add separate bilingual blogs for multimodal memory and Memory Tags by @wang-qisen in #8506 fix(channels): resolve desktop plugin installation and repair failures by @Luohh5 in #8509 fix(agents): drop empty media blocks before formatting requests by @BeiMu-new in #8066 fix(creator): release 2.0.4 with media and probe hardening by @xuanrui-L in #8529 chore: bump the version to 2.3.0b3 by @cuiyuebing in #8546 fix(console): persist market install provenance so 'Update All' covers third-party plugins ( #8176 ) by @RerankerGuo in #8231 feat(tools): use AnySearch as the default web search provider by @rayrayraykk in #8536 fix(sqlite): skip completed startup migrations and snapshot live backups by @rayrayraykk in #8541 fix(console): repair settings search navigation and indexing by @zhaozhuang521 in #8545 fix(skill): avoid scanner false positive in make-skill validat"
+    },
+    {
+      "tag": "v2.3.0-beta.2",
+      "title": "v2.3.0-beta.2",
+      "date": "2026-11-02",
+      "url": "https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.3.0-beta.2",
+      "pre": true,
+      "note": "What's Changed fix(console): limit agent skill selection to creation by @zhaozhuang521 in #8448 fix(console): compact media preview error cards by @zhaozhuang521 in #8451 Fix/console browser usability by @zhaozhuang521 in #8452 fix(providers): honor declared thinking disable wire by @wuwenbo0626 in #8436 fix(plugins): remove SDK-specific dependency checks and simplify tests by @lalaliat in #8462 docs: remove duplicated pip install section from quickstart by @Heipa1 in #8454 fix(mail): do not append domain when account name is already a full address by @Frank-zhu2000 in #8438 fix(creator): keep review decisions publishable on long Windows paths by @JasonBuildAI in #8167 fix(creator): close project logging before directory delete by @Li-john1021 in #8210 fix(creator): tolerate Windows liveness probe errors by @axelray-dev in #8196 fix(skill): use native skills CLI for validation and publis"
+    },
+    {
+      "tag": "v2.3.0-beta.1",
+      "title": "v2.3.0-beta.1",
+      "date": "2026-10-27",
+      "url": "https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.3.0-beta.1",
+      "pre": true,
+      "note": "What's Changed fix(console): restore interactive HTML previews by @zhaozhuang521 in #8245 feat(tools): optional Tavily API key via credential store ( #8174 ) by @Li-john1021 in #8204 fix(plugin): align hub plugin catalog and installed state by @Leirunlin in #8261 fix(console): clear chat input on submission by @zhaozhuang521 in #8272 refactor(console): polish web search config guards and error icon by @rayrayraykk in #8271 feat(chat): support inline UI plugins and scoped message submission by @Leirunlin in #8239 fix(console): unblock config editors and polish chat controls by @zhaozhuang521 in #8263 fix(console): update chat dependency for navigation by @zhijianma in #8273 feat(models): add TypeSafe decision model configuration by @jinglinpeng in #8205 fix(console): keep repetition thresholds visible and editable by @zhaozhuang521 in #8282 fix(chat): truncate oversized tool outputs when "
+    },
+    {
+      "tag": "v2.2.2.post1",
+      "title": "v2.2.2.post1",
+      "date": "2026-10-22",
+      "url": "https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.2.2.post1",
+      "pre": false,
+      "note": "What's Changed chore: bump the version to v2.2.2post1 by @cuiyuebing in #8369 fix(security): remediate emSign CA trust across dependencies, installers, and builds by @qbc2016 in #8370 fix(security): update Node.js to 22.23.4 by @zhaozhuang521 in #8371 Full Changelog : v2.2.2...v2.2.2.post1"
+    },
+    {
+      "tag": "v2.2.2",
+      "title": "v2.2.2",
+      "date": "2026-10-15",
+      "url": "https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.2.2",
+      "pre": false,
+      "note": "What's Changed ✨ Added Console &amp; Workspaces Add six theme palettes and custom colors and corner radii, with live preview and saved preferences ( #7741 ) Add an authenticated, multi-tab terminal inside Chat, with a working directory for each conversation ( #7861 ) Allow Console font size to be adjusted from 12 to 20 pixels across chat and settings ( #8005 ) Save multi-folder workspaces as an Agent’s default for future tasks ( #7789 ) Show files delivered by the Agent directly below its reply for easier preview and download ( #7750 ) QwenPaw-Flash Recommend QwenPaw-Flash 9B, 27B, and 35B-A3B locally: update the 9B recommendation and add 27B and 35B-A3B options ( #8155 ) PawPort Add PawPort to import supported conversations, memory, Skills, plugins, MCP settings, projects, and scheduled tasks from Codex and Qoder, with compatibility checks and selective retries ( #6960 ) QwenPaw Creator"
+    },
+    {
+      "tag": "v2.2.2-beta.6",
+      "title": "v2.2.2-beta.6",
+      "date": "2026-10-14",
+      "url": "https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.2.2-beta.6",
+      "pre": true,
+      "note": "What's Changed fix(e2e): align selectors with current console ui by @zhijianma in #8247 fix(history): support external database paths and portable backups by @rayrayraykk in #8246 chore: bump the version to 2.2.2b6 by @cuiyuebing in #8250 Full Changelog : v2.2.2-beta.5...v2.2.2-beta.6"
+    },
+    {
+      "tag": "v2.2.2-beta.5",
+      "title": "v2.2.2-beta.5",
+      "date": "2026-10-14",
+      "url": "https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.2.2-beta.5",
+      "pre": true,
+      "note": "What's Changed fix(console): preserve drafts when pasting long text ( #7948 ) by @zhaozhuang521 in #8119 fix(providers): recognize newer GPT token limit parameters by @iluv7 in #8090 fix(console): refine desktop settings UI by @zhaozhuang521 in #8127 fix(chats): resolve a DST-aware process timezone for transcript timestamps by @BeiMu-new in #8050 fix(console): support terminal UUIDs on HTTP origins by @zhaozhuang521 in #8144 feat(tools): add view_audio tool for audio understanding by @shuziP in #8083 fix(console): support terminal UUIDs on HTTP origins by @zhaozhuang521 in #8146 fix(qwenpaw-data): keep UI host types package-local by @cyruszhang in #8141 fix(providers): carry the session header on connection checks by @wananing in #7869 fix(console): keep only the page title in settings headers by @zhaozhuang521 in #8130 fix(agents): recover from media payload rejections instead of failin"
+    },
+    {
+      "tag": "v2.2.2-beta.4",
+      "title": "v2.2.2-beta.4",
+      "date": "2026-09-30",
+      "url": "https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.2.2-beta.4",
+      "pre": true,
+      "note": "What's Changed feat: add reranker UI config panel to ReMeLightMemoryCard by @lecheng2018 in #6399 chore: bump the version to 2.2.2b4 by @cuiyuebing in #7892 perf(console): split chat dependencies and lazy-load locales by @zhaozhuang521 in #7829 fix(console): improve session project directory picker by @zhaozhuang521 in #7897 Fix/tool card stuck calling after stop by @zhaozhuang521 in #7345 test(console): raise frontend statement coverage by +1027 statements (+543 cases, tests only) by @yutai78786 in #7894 ci(release): unfreeze merges as soon as the release finishes instead of waiting for cron by @yutai78786 in #7901 fix(agents): handle unknown input_audio rejections by @axelray-dev in #7886 fix(console): refresh cached file tabs on activation by @zhaozhuang521 in #7902 fix(console): render LaTeX math with KaTeX by @zhaozhuang521 in #7909 feat: improve session list details and grouping by"
+    }
+  ]
+}

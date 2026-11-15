@@ -5,7 +5,7 @@
 - **Licencia**: MIT
 - **Lenguaje**: Rust
 - **Estrellas**: 757 · **Forks**: 143
-- **Último push**: 2026-11-12T07:00:58Z · **Última release**: 2026-11-12
+- **Último push**: 2026-11-12T07:00:58Z · **Última release**: 2026-11-13
 - **Revisado**: 2026-11-12 · **Confianza**: 63/100
 - **Tipo**: bot · **Categoría**: personal
 
@@ -18,6 +18,15 @@ MicroClaw es un asistente agéntico self-hosted escrito en Rust que vive en tus 
 ## Nota de verificación
 
 README: asistente self-hosted que vive en canales de chat, con memoria, rutinas y trabajo en segundo plano. No opera apps GUI.
+
+## Release revisada
+
+- **Tag**: [v0.31.0](https://github.com/microclaw/microclaw/releases/tag/v0.31.0)
+- **Fecha**: 2026-11-13 (hace 2 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> MicroClaw Code 0.31: private project memory, Claude Code plugins and idle compaction ( docs/roadmap/mccode-competitive-plan-2026-11-cn.md , N5–N7). Added Private project memory. Besides the shared .microclaw/memory.md (in the repository), trusted projects now have a private memory in ~/.mccode/projects/ - /memory.md for your preferences and this machine's setup. Both are in the prompt of every turn; the agent is told which kind of fact goes where (a stated preference never goes to the shared file), and writing the private file does not ask for the outside-the-project approval. Worktrees share the main checkout's private memory. /memory opens both files in $EDITOR ( shared , private , show ).
 
 ## Evidencia de la investigación
 

@@ -1,0 +1,87 @@
+{
+  "repo": "gregce/tortie",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "v0.114.1",
+      "title": "Tortie 0.114.1",
+      "date": "2026-11-06",
+      "url": "https://github.com/gregce/tortie/releases/tag/v0.114.1",
+      "pre": false,
+      "note": "This release fixes an error 0.114.0 could show again and again when Tortie's session list stopped reading correctly while it ran. Tortie now says so once and offers a restart, and your sessions keep running. Fixed If Tortie's session list stops reading correctly while it runs, Tortie says so once and offers a restart, instead of an error every few seconds and a crash when you quit; your sessions keep running either way ( 5a6097ac )"
+    },
+    {
+      "tag": "v0.114.0",
+      "title": "Tortie 0.114.0",
+      "date": "2026-11-05",
+      "url": "https://github.com/gregce/tortie/releases/tag/v0.114.0",
+      "pre": false,
+      "note": "This release is about your iPhone, which gets build 13 of Tortie for iPhone on TestFlight. From your iPhone you can now rename a session or name a new one, scroll back through pi as you do Claude Code, and page through any agent that fills the screen. Your Mac asks you once, in Settings then Phone, to allow renaming. Added Rename a session from your iPhone, from the Terminal's ⋯ or by holding the session in a list. A session on another machine can be renamed while it runs, and your Mac asks you to allow renaming once, in Settings then Phone ( 57a7bbc2 ) New session on your iPhone takes a name. Left empty, your Mac names the session as before ( 57a7bbc2 ) On your Mac, renaming a session to a name that starts with a slash, a dot or a dash now works, and a name with # in it, or one ending in ;, keeps exactly what you typed ( 57a7bbc2 ) Tortie now starts pi on this Mac with its conversation "
+    },
+    {
+      "tag": "v0.113.0",
+      "title": "Tortie 0.113.0",
+      "date": "2026-10-21",
+      "url": "https://github.com/gregce/tortie/releases/tag/v0.113.0",
+      "pre": false,
+      "note": "This release is about your iPhone, which gets build 12 of Tortie for iPhone on TestFlight. From your iPhone you can now remove a session you ended and paste into a session's terminal, and its title bars and Settings look like the iPhone's own. Your Mac asks you once, in Settings then Phone, to allow the two new things. Added After you pair your iPhone with a Mac, it opens on that Mac's Sessions. Each launch after that still opens on Needs input ( b944aa20 ) Remove a session you ended from your iPhone, with the question your Mac asks, and it moves to Past Sessions on your Mac, where you can restore it. Your Mac asks you to allow this once, in Settings then Phone ( b944aa20 ) Settings on your iPhone is grouped like the iPhone's own Settings, with the same rows in the same order ( b944aa20 ) The iPhone's lists end with the time they were read, and no longer with a note about how waits are t"
+    },
+    {
+      "tag": "v0.112.0",
+      "title": "Tortie 0.112.0",
+      "date": "2026-10-17",
+      "url": "https://github.com/gregce/tortie/releases/tag/v0.112.0",
+      "pre": false,
+      "note": "This release is mostly about your iPhone, which gets build 11 of Tortie for iPhone on TestFlight and can now start a session on your Mac. A Tortie update no longer switches your iPhone off: what you allowed keeps working, and starting a session waits for Allow in Settings then Phone. On your Mac, a full file path that an agent breaks across lines now opens as one link. Added Tortie for iPhone now has See a sample, on its first screen and in Settings: made-up Claude Code and Codex sessions you can open, scroll back, type into, answer and end before you pair a Mac, with every page marked Sample and nothing leaving the phone. What you type there only appears on the sample's own prompt, and Leave sample takes you back ( ad317f86 ) Your iPhone can now pair with up to four Macs, from Pair another Mac in Settings, and each Mac is its own space with its own Needs input, Sessions and Settings: a "
+    },
+    {
+      "tag": "v0.111.2",
+      "title": "Tortie 0.111.2",
+      "date": "2026-10-13",
+      "url": "https://github.com/gregce/tortie/releases/tag/v0.111.2",
+      "pre": false,
+      "note": "This release fixes two things John Berryman reported. ⌘C no longer clears what you typed at an agent's prompt, and a file open in an ignored folder now updates while you watch it. Fixed ⌘C in a session now only copies: with nothing selected it does nothing, where it used to send the interrupt that Claude Code, Codex and pi read as clearing what you had typed at their prompt; ⌃C still interrupts, and Settings then Keyboard now lists it. Reported by John Berryman in #41 ( 1c00cbc0 ) A file open in the editor now shows an agent's changes while you watch it, even in a folder your repository ignores, where it used to update only when you looked away and back; what you are typing is never replaced. Reported by John Berryman in #33 ( 1c00cbc0 )"
+    },
+    {
+      "tag": "v0.111.1",
+      "title": "Tortie 0.111.1",
+      "date": "2026-10-12",
+      "url": "https://github.com/gregce/tortie/releases/tag/v0.111.1",
+      "pre": false,
+      "note": "This release fixes setting up the iPhone app from Tortie for Mac. Tortie opened from the Dock or Finder could not read Tailscale, so 0.111.0 could not publish your Mac for your phone, and Settings then Machines could not list your tailnet's machines. Fixed Settings then Phone now reads Tailscale and publishes your Mac for your iPhone when Tortie is opened from the Dock or Finder, where 0.111.0 said it could not read what Tailscale answered and published nothing; Settings then Machines now lists your tailnet's machines there too ( 3cece73e )"
+    },
+    {
+      "tag": "v0.111.0",
+      "title": "Tortie 0.111.0",
+      "date": "2026-10-12",
+      "url": "https://github.com/gregce/tortie/releases/tag/v0.111.0",
+      "pre": false,
+      "note": "This release brings Tortie to your iPhone and to more of your machines. Tortie for iPhone, in public beta through TestFlight, lists your sessions with the ones waiting on you first, opens each one's terminal, answers its questions and ends it, through the Tailscale already on your Mac. Sessions on another machine now scroll back, save and commit as they do on your Mac, and Ubuntu and Debian machines can be added with the tmux they already have. Added Catch Me Up now shows the choices themselves under a session that is waiting on one, in the agent's own words and with the agent's own numbers, and the question the agent asked appears above them and in the ⌘J list of sessions waiting on you, so you can see what is being asked without opening the session. They are there to read rather than to press, so you still answer in the session, and an agent that draws its menu without numbering the op"
+    },
+    {
+      "tag": "v0.110.0",
+      "title": "Tortie 0.110.0",
+      "date": "2026-09-21",
+      "url": "https://github.com/gregce/tortie/releases/tag/v0.110.0",
+      "pre": false,
+      "note": "This release is about the sign ins Tortie keeps for you and the sheet that lists your sessions. A Codex account you sign out of can be offered back for the first time, choosing one of your other sign ins can no longer destroy the one you were using, and the Manage Sessions sheet says whether a session is alive or over without opening anything and stops searching every project folder each time you open it. The first time you open the sheet after this release, each session is read again from the beginning, which takes a moment on a long one. Added The Manage Sessions sheet now says whether a session is alive or over without opening anything: All, Active and Ended sit before the State dropdown, and State refines inside the one you pick, so every option it had is still there. A session Tortie cannot reach counts as Active, since it cannot be restored, and one whose process has just ended can"
+    },
+    {
+      "tag": "v0.109.0",
+      "title": "Tortie 0.109.0",
+      "date": "2026-09-21",
+      "url": "https://github.com/gregce/tortie/releases/tag/v0.109.0",
+      "pre": false,
+      "note": "This release is about managing every session from one place. Session > Manage Sessions… opens a sheet over every session Tortie is running, across every project and machine, and it is built at the same density as the rest of the app. Alongside it, scrolling back in a session stays where you put it, and typing in one file can no longer overwrite another. Added Session > Manage Sessions… shows every session Tortie manages in one sheet, across every project and machine and including projects whose tab is closed, with each one's state, when it was created, how many messages its conversation holds and how long ago the last one was. You can end a session or restore an ended one from there, or tick several and end them together after one confirmation that names each, and Past Sessions… opens the same sheet on its second tab; a session on another machine shows a dash for its messages ( f6c11f57 "
+    },
+    {
+      "tag": "v0.108.0",
+      "title": "Tortie 0.108.0",
+      "date": "2026-09-18",
+      "url": "https://github.com/gregce/tortie/releases/tag/v0.108.0",
+      "pre": false,
+      "note": "This release is about the keyboard ending up where you are. Entering session focus, closing Catch Me Up and coming back from the editor could each leave it on nothing until you clicked, and in a split it went to the first pane rather than the one that is outlined; it now stays with you, and the session focus chord no longer sends Enter to your agent on the way. Alongside that, a save or a rewind no longer loses what you typed at the wrong moment, the Redline chords move on to the next change by themselves, the window goes quiet around a single outline, and the Claude usage meter stops telling you to sign in when you already are. Changed In the Redline view, ⌥↩ and ⌥⌫ move to the next change after the one you pressed, so approving or rejecting a run of changes is one chord pressed over and over instead of alternating with ⌥↓. ⌥↓ and ⌥↑ loop at the ends: past the last change they come roun"
+    }
+  ]
+}

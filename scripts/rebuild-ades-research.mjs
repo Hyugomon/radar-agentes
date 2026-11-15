@@ -45,6 +45,14 @@ function dossier(p) {
   const sources = (p.sources || []).map(s => `- [${s.label}](${s.url}) · consultado ${s.accessedAt}`).join('\n')
   const strengths = (p.strengths || []).map(s => `- ${s}`).join('\n')
   const weaknesses = (p.weaknesses || []).map(s => `- ${s}`).join('\n')
+  const releaseNote = p.release_note ? `\n> ${String(p.release_note).slice(0, 700)}\n` : ''
+  const release = `## Release revisada
+
+- **Tag**: ${p.last_release_tag ? `[${p.last_release_tag}](${p.last_release_url})` : '—'}
+- **Fecha**: ${p.last_release || '—'}${p.last_release_days != null ? ` (hace ${p.last_release_days} días)` : ''}
+- **Estado**: ${p.release_status || '—'} · **Releases en 90 días**: ${p.releases_90 ?? '—'}
+- **Revisado**: ${p.release_checked_at || '—'} · **Fuente**: ${p.release_source || '—'}
+${p.release_highlight ? `\n**Qué trae**: ${p.release_highlight}\n` : ''}${p.release_impact ? `\n**Impacto en la ficha**: ${p.release_impact}\n` : ''}${releaseNote}`
   return `# ${p.name} — dossier ADE
 
 - **Web oficial**: ${p.website}
@@ -58,6 +66,7 @@ function dossier(p) {
 
 ${p.summary}
 
+${release}
 ## Evidencia
 
 ${ev}
@@ -92,6 +101,9 @@ for (const p of index.projects) {
   p.tier = tierFor(p.total)
   p.summary = o.summary || p.summary
   p.tagline = o.tagline || p.tagline
+  p.release_highlight = o.release_highlight || p.release_highlight || ''
+  p.release_impact = o.release_impact || p.release_impact || ''
+  if (o.evidence) p.evidence = { ...(p.evidence || {}), ...o.evidence }
   p.category = o.category || p.category || 'workspace'
   p.pricing = o.pricing || p.pricing || 'unknown'
   p.priceNote = o.priceNote || p.priceNote || ''

@@ -11,6 +11,15 @@
 
 Orquestador open source para repartir tareas entre agentes, aislar trabajo, revisar cambios y abrir pull requests.
 
+## Release revisada
+
+- **Tag**: [v0.15.2-nightly.202611142232](https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.2-nightly.202611142232)
+- **Fecha**: 2026-11-14 (hace 1 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> Changes in this nightly Browser and side chat tabs use the session strip's tab frame by @ronishrohan in #8296 Steer queued messages into the running turn, durably by @mohakchakraborty2004 in #8343 UI-only Cloud parity quick wins (archive, restore, shells, file tabs, automations, notifications, PR conflicts, i18n, delete wording) by @mohakchakraborty2004 in #8341 Drop the workspace row, share the project from the orchestrator and board cards; remove the Cloud GitHub PAT UI by @mohakchakraborty2004 in #8307 Draw Resolve conflicts and Update from base clicks as the user's action by @illegalcall in #8404 Make side chat closing and recovery reliable by @Vansh-Singhal in #8242 Acknowledge reports 
+
 ## Evidencia
 
 ### harnesses

@@ -5,7 +5,7 @@
 - **Licencia**: Apache-2.0
 - **Lenguaje**: JavaScript
 - **Estrellas**: 7073 · **Forks**: 663
-- **Último push**: 2026-11-12T07:41:49Z · **Última release**: 2026-11-11
+- **Último push**: 2026-11-12T07:41:49Z · **Última release**: 2026-11-12
 - **Revisado**: 2026-11-12 · **Confianza**: 58/100
 - **Tipo**: bot · **Categoría**: personal
 
@@ -18,6 +18,15 @@ Instalador y cliente de bots de larga vida sobre DeepSeek Harness: bots principa
 ## Nota de verificación
 
 Revisión previa + README: instalador y cliente de bots de larga vida sobre DeepSeek Harness. Sin evidencia de apps GUI o rutinas.
+
+## Release revisada
+
+- **Tag**: [v0.3.6](https://github.com/Fei2411/DS-Bot/releases/tag/v0.3.6)
+- **Fecha**: 2026-11-12 (hace 3 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> Download / 下载 System / 系统 Download / 下载 Size / 大小 Windows 10/11 (64-bit / 64 位) Double-click to install / 双击安装 DS-Bot-0.3.6-win-x64.exe 291 MB macOS, Apple chip / Apple 芯片 DS-Bot-0.3.6-mac-arm64.zip 369 MB macOS, Intel DS-Bot-0.3.6-mac-x64.zip 384 MB Linux, AppImage DS-Bot-0.3.6-linux-x86_64.AppImage 371 MB Linux, deb (Debian, Ubuntu) DS-Bot-0.3.6-linux-amd64.deb 291 MB Android (phone app / 手机 App) DS-Bot-0.3.6-android.apk 117 MB The .blockmap , latest*.yml and ds-bot-*.tgz files and the source code archives are for updates and the plugin: you do not need to download them. .blockmap 、 latest*.yml 、 ds-bot-*.tgz 和源代码是给自动更新和插件用的，不用下载。 To check a download, compare its SHA-256 with SHA256SUMS.tx
 
 ## Evidencia de la investigación
 

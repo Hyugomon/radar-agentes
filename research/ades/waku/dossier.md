@@ -11,6 +11,15 @@
 
 App nativa para manejar sesiones de agentes de código, contexto, skills y aprobaciones desde macOS.
 
+## Release revisada
+
+- **Tag**: [v0.1.20](https://github.com/egoist/waku/releases/tag/v0.1.20)
+- **Fecha**: 2026-10-02 (hace 44 días)
+- **Estado**: estable · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> Support the OpenCode 2.0 release, which now installs as opencode : OpenCode runs on its shared background service, OpenCode 2 beta and OpenCode 1 tasks continue as OpenCode tasks, and OpenCode's free models work in Waku tasks Fix rewinding or branching an OpenCode task after steering it mid-turn, which forked OpenCode's conversation at the wrong turn Fix OpenCode tasks going silent when the OpenCode service restarts; a turn it interrupted now continues in place once the service is back Fix Cursor model discovery and options so the pickers list every model the Cursor CLI advertises, with its reasoning effort, fast mode, and context window Show the release version in Claude model names, such a
+
 ## Evidencia
 
 ### harnesses

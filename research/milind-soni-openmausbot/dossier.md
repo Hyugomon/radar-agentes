@@ -5,7 +5,7 @@
 - **Licencia**: Apache-2.0
 - **Lenguaje**: TypeScript
 - **Estrellas**: 21414 · **Forks**: 2989
-- **Último push**: 2026-11-12T07:08:53Z · **Última release**: 2026-11-12
+- **Último push**: 2026-11-12T07:08:53Z · **Última release**: 2026-11-14
 - **Revisado**: 2026-11-12 · **Confianza**: 62/100
 - **Tipo**: agent · **Categoría**: teams
 
@@ -18,6 +18,15 @@ Alternativa open source a Grok Bot: un equipo de bots con nombre en una app de c
 ## Nota de verificación
 
 README: cada bot tiene personalidad, modelo, computadora y apps; memoria y rutinas por bot; equipos y group chats; aprobaciones. Corre en tu máquina, así que no es 24/7 salvo que lo pongas en un VPS.
+
+## Release revisada
+
+- **Tag**: [v0.1.158](https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.158)
+- **Fecha**: 2026-11-14 (hace 1 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> What's new in 0.1.158 Bots can change app settings for you Ask a bot to change a setting and it does it, with an Undo in the chat. You can make MausBot a regular bot if you don't want it as your helper. Rooms and teams Point at a member's page from inside a room. Set up many bots at once: a Chief can edit up to 40 bots in one go and add a rule to each. A Chief in charge of every department gets new departments automatically. Fork a conversation from any message to try a different direction without losing the original. Voice Listen with your ElevenLabs key, and speak Thai through Eleven v3. Phone A pairing link says when it only works on the same Wi-Fi. Phones without admin rights can read a 
 
 ## Evidencia de la investigación
 

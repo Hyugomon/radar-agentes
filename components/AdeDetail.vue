@@ -15,6 +15,39 @@
       </div>
     </div>
 
+    <div v-if="ade.last_release || ade.release_note" class="block">
+      <h3>Última release revisada</h3>
+      <div class="datagrid">
+        <div>
+          <span>Versión</span>
+          <b>
+            <a v-if="ade.last_release_url" :href="ade.last_release_url" target="_blank" rel="noopener">
+              {{ ade.last_release_tag || 'ver releases' }}
+            </a>
+            <template v-else>{{ ade.last_release_tag || '—' }}</template>
+          </b>
+        </div>
+        <div>
+          <span>Fecha</span>
+          <b>{{ ade.last_release || '—' }}<span v-if="ade.last_release_days != null" class="tiny"> · hace {{ ade.last_release_days }} d</span></b>
+        </div>
+        <div>
+          <span>Estado</span>
+          <b><span class="tag" :class="statusClass(ade.release_status)">{{ ade.release_status || '—' }}</span></b>
+        </div>
+        <div><span>Releases 90 d</span><b>{{ ade.releases_90 ?? '—' }}</b></div>
+      </div>
+      <div v-if="ade.release_highlight" class="callout" style="margin-top: 10px">
+        <b>Qué trae:</b> {{ ade.release_highlight }}
+      </div>
+      <p v-if="ade.release_impact" class="lede" style="margin-top: 8px"><b>Impacto en la ficha:</b> {{ ade.release_impact }}</p>
+      <p v-else-if="ade.release_note" class="lede" style="margin-top: 8px">{{ ade.release_note.slice(0, 360) }}{{ ade.release_note.length > 360 ? '…' : '' }}</p>
+      <p class="tiny" style="margin-top: 8px">
+        Revisado {{ ade.release_checked_at || ade.judged_day }} ·
+        Fuente: {{ ade.release_source || 'repositorio' }} · No se usa la API de GitHub para esta revisión.
+      </p>
+    </div>
+
     <div class="block">
       <h3>Cómo sale la puntuación</h3>
       <p class="lede">Nota × peso de cada dimensión. La suma es exactamente el ADE Score guardado; nada se estima en el navegador.</p>
@@ -101,6 +134,12 @@
 <script setup lang="ts">
 const props = defineProps<{ ade: any; meta: any }>()
 function dimColor(v: number) { return v >= 80 ? 'var(--good)' : v >= 65 ? 'var(--accent)' : v >= 45 ? 'var(--t-D)' : 'var(--bad)' }
+function statusClass(status: string) {
+  if (status === 'activo') return 'tag--open'
+  if (status === 'reciente') return 'tag--gold'
+  if (status === 'parado' || status === 'app cerrada') return 'tag--warn'
+  return ''
+}
 function host(url: string) {
   try { return new URL(url).hostname.replace(/^www\./, '') } catch { return url }
 }

@@ -11,6 +11,15 @@
 
 Workspace para correr agentes de código en paralelo, con ejecución local o cloud gestionada, app móvil y revisión de cambios.
 
+## Release revisada
+
+- **Tag**: [0.94.2](https://www.conductor.build/changelog/rss.xml)
+- **Fecha**: 2026-11-13 (hace 2 días)
+- **Estado**: activo · **Releases en 90 días**: —
+- **Revisado**: 2026-11-15 · **Fuente**: changelog
+
+> Fri, 13 Nov 2026 00:00:00 GMT Conductor 0.94.2: Conductor is back https://www.conductor.build/changelog/0.94.2-conductor-is-back https://www.conductor.build/changelog/0.94.2-conductor-is-back Fri, 13 Nov 2026 00:00:00 GMT Conductor isn't shutting down. It's back, and we're building again. Thank you for sticking with us! If you need anything, email support@conductor.build. Conductor 0.94.0: Claude Fable 5.2 https://www.conductor.build/changelog/0.94.0-claude-fable-5-2 https://www.conductor.build/changelog/0.94.0-claude-fable-5-2 Mon, 09 Nov 2026 00:00:00 GMT Claude Fable 5.2 Claude Fable 5.2, Anthropic's upgraded model for the most demanding technical work, is now available in Conductor. Impr
+
 ## Evidencia
 
 ### harnesses

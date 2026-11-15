@@ -1,27 +1,87 @@
-[
-  {
-    "tag": "nanoMuse 1.0.9 · Tiller",
-    "date": "2026-10-30",
-    "url": "https://github.com/nano-muse/nanoMuse/releases/tag/v1.0.9"
-  },
-  {
-    "tag": "nanoMuse 1.0.8 · Crew",
-    "date": "2026-10-29",
-    "url": "https://github.com/nano-muse/nanoMuse/releases/tag/v1.0.8"
-  },
-  {
-    "tag": "nanoMuse 1.0.7 · Logbook",
-    "date": "2026-10-25",
-    "url": "https://github.com/nano-muse/nanoMuse/releases/tag/v1.0.7"
-  },
-  {
-    "tag": "nanoMuse 1.0.6 · Beacon",
-    "date": "2026-10-24",
-    "url": "https://github.com/nano-muse/nanoMuse/releases/tag/v1.0.6"
-  },
-  {
-    "tag": "nanoMuse 1.0.5 · Lookout",
-    "date": "2026-10-13",
-    "url": "https://github.com/nano-muse/nanoMuse/releases/tag/v1.0.5"
-  }
-]
+{
+  "repo": "nano-muse/nanoMuse",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "v1.0.9",
+      "title": "nanoMuse 1.0.9 · Tiller",
+      "date": "2026-10-30",
+      "url": "https://github.com/nano-muse/nanoMuse/releases/tag/v1.0.9",
+      "pre": false,
+      "note": "nanoMuse 1.0.9 · Tiller 🐉 nanoMuse 1.0.9 “Tiller” : a fix release the same day as Crew. The desktop starts again when you are signed in, the relay's console loads on a large record, and the runtime takes a budget for a task and recalls from the whole memory store. 1.0.8 went out this morning, and its desktop did not start for anyone who was signed in. The plugin pointed the nanoMuse Cloud provider row at the loopback door it opens for the relay and waited for that settings write while the plugins were still starting; the write waits for the plugins, so the Host never announced its address and the window sat on Starting… for good, with nanoMuse is still starting every ten minutes ( #701 , fixed in #703 ). A fresh install was never affected, which is why the release check passed; everyone who had used 1.0.7 or signed in was. The same day the hosted relay's console stopped loading: the Usa"
+    },
+    {
+      "tag": "v1.0.8",
+      "title": "nanoMuse 1.0.8 · Crew",
+      "date": "2026-10-29",
+      "url": "https://github.com/nano-muse/nanoMuse/releases/tag/v1.0.8",
+      "pre": false,
+      "note": "nanoMuse 1.0.8 · Crew 🐉 nanoMuse 1.0.8 “Crew” : four days after Logbook, your devices keep each other posted. A scheduled task on the computer that needs a yes asks on your phone; every device reads the step another is on and says when it is waiting for you; the wait before a first token is spoken of, with your place in the queue; a thumb on a reply or the reason for a Stop goes to the account's record as one word, and the operator reads the record question by question. The phone no longer crashes when you stop talking, the iPhone no longer stops your music, the desktop's Library takes documents of your own, and the runtime behaves on Windows. 1.0.7 went out on 2026-10-25. Since then seventy-two pull requests were merged, and this version is the fifth look at the whole project, with one change at its centre: the devices keep each other posted . Until now a task that ran on one device wa"
+    },
+    {
+      "tag": "v1.0.7",
+      "title": "nanoMuse 1.0.7 · Logbook",
+      "date": "2026-10-25",
+      "url": "https://github.com/nano-muse/nanoMuse/releases/tag/v1.0.7",
+      "pre": false,
+      "note": "nanoMuse 1.0.7 · Logbook 🐉 nanoMuse 1.0.7 “Logbook” : two days after Beacon, the relay keeps the record of every conversation with the account's models, screenshots included, and the apps add the turns they ran on a key of your own, so your devices share one history whichever of them, and whichever key, answered; the drawn face's clips travel between devices; nanoMuse Cloud answers the nanoMuse apps only; the operator's console is rebuilt around what the model endpoint is doing; and Data controls on every app says what is held and deletes it with one tap. 1.0.6 went out on 2026-10-23. Since then twenty-seven pull requests were merged, and this version is the fourth look at the whole project, with one change at its centre: the record . From relay 0.29 nanoMuse Cloud keeps each chat turn it answered, in full: the request as it sent it to the model (the system prompt with your memory and S"
+    },
+    {
+      "tag": "v1.0.6",
+      "title": "nanoMuse 1.0.6 · Beacon",
+      "date": "2026-10-24",
+      "url": "https://github.com/nano-muse/nanoMuse/releases/tag/v1.0.6",
+      "pre": false,
+      "note": "nanoMuse 1.0.6 · Beacon 🐉 nanoMuse 1.0.6 “Beacon” : nine days after Lookout, a third look at the whole project with the forty-eight pull requests that arrived in between; nanoMuse Cloud serves one multimodal model and leaves pictures and clips to a provider of your own, the relay's sign-in gives nothing away, the runtime finishes what a restart interrupted, the desktop asks before a restart, and the phone reads the Feed posts you liked. 1.0.5 went out on 2026-10-14. Since then forty-eight pull requests were merged, more than in any week before, and this version reads the project through once more with them in: the relay, the Python runtime, the web console, the desktop, the Android and iPhone apps, the docs and the workflows, area by area. The largest change is to the account: nanoMuse Cloud now serves one model, Qwen/Qwen3.6-27B-FP8 , which reads text and pictures and does both the cha"
+    },
+    {
+      "tag": "v1.0.5",
+      "title": "nanoMuse 1.0.5 · Lookout",
+      "date": "2026-10-13",
+      "url": "https://github.com/nano-muse/nanoMuse/releases/tag/v1.0.5",
+      "pre": false,
+      "note": "nanoMuse 1.0.5 · Lookout 🐉 nanoMuse 1.0.5 “Lookout” : the day after Compass, a second look at the whole project together with the day's reports; the daily feed is written out of sight, the Android approval card fits the screen, the desktop's dead buttons work and a quit protects the work in progress, the Windows release can update itself, and the relay's console finds anything. 1.0.4 went out on 2026-10-13. The same day we read nanoMuse through once more, this time with the reports and pull requests that arrived while Compass was being built, and nine passes again went over the relay, the Python runtime, the web console, the desktop, the Android and iPhone apps, the hosted showcase, the documentation and the workflows ( #444 to #455 ). What they found fills this version. Some of it you will see at once: the chat the daily feed is written in no longer sits in your chat list on any device"
+    },
+    {
+      "tag": "v1.0.4",
+      "title": "nanoMuse 1.0.4 · Compass",
+      "date": "2026-10-12",
+      "url": "https://github.com/nano-muse/nanoMuse/releases/tag/v1.0.4",
+      "pre": false,
+      "note": "nanoMuse 1.0.4 · Compass 🐉 nanoMuse 1.0.4 “Compass” : a health check of the whole project, a day after Helm; what nine passes over the relay, the runtime, the five clients, the showcase, the docs and the CI found is fixed here, and DeepSeek Harness joins the coding agents. 1.0.3 went out on 2026-10-12. The same day we read every part of nanoMuse against every other part and against what the apps do on a phone, an iPad and a computer: the relay, the Python runtime, the web console, the desktop, the Android and iPhone apps, the hosted showcase, the documentation in both languages and the workflows that build all of it. The findings fill this version. Some you will see at once: an iPad's chat is one centred column under a frosted pill bar instead of three different widths; a rename or a new face made on one device reaches the others without a restart; a step another device's Muse asks abou"
+    },
+    {
+      "tag": "v1.0.3",
+      "title": "nanoMuse 1.0.3 · Helm",
+      "date": "2026-10-11",
+      "url": "https://github.com/nano-muse/nanoMuse/releases/tag/v1.0.3",
+      "pre": false,
+      "note": "nanoMuse 1.0.3 · Helm 🐉 nanoMuse 1.0.3 “Helm” : the chat looks the same on every device now, a video of your own can be the face, several custom endpoints work side by side, and a day of reports from one careful tester is answered. 1.0.2 went out on 2026-10-11. The same day @Ichiro786 finished a redesign of the Android app in three pull requests: the bottom bar became a floating frosted-glass pill, the chats drawer and the chat itself moved onto the theme's own canvas with black and white pills instead of blue, and the header became a soft scrim the conversation slides under ( #329 , #330 , #331 ). We took that look as the reference and brought it to the iPhone, the web console and the desktop, so the five clients read as one app. @Mola-maker read the Android code and the tests and filed ten reports in an afternoon, from an own Anthropic key that could not send to a debug log that held "
+    },
+    {
+      "tag": "v1.0.2",
+      "title": "nanoMuse 1.0.2 · Trim",
+      "date": "2026-10-11",
+      "url": "https://github.com/nano-muse/nanoMuse/releases/tag/v1.0.2",
+      "pre": false,
+      "note": "nanoMuse 1.0.2 · Trim 🐉 nanoMuse 1.0.2 “Trim” : a pass over every part of the project after the first two days of 1.0, with the reports and pull requests that came in. 1.0.1 went out on 2026-10-10. Within a day two pull requests arrived: one found a gap in the Sentinel's policy, a tool on the always-ask list could be waved through in auto mode after a private read ( #291 ); the other found that the desktop's permission card no longer came up when the runtime refused a step of the hands ( #292 ). Reports came in beside them: the Android app died on start on a phone that also has OpenMinis ( #271 , #288 ), the Linux desktop ended on the first picture it read ( #274 ), Windows drew its caption buttons over the buttons of several pages ( #272 ), and the memory tidy-up approved an invented fact in Russian ( #270 ). This version fixes all of them. Then we went through the whole project oursel"
+    },
+    {
+      "tag": "v1.0.1",
+      "title": "nanoMuse 1.0.1 · Ballast",
+      "date": "2026-10-09",
+      "url": "https://github.com/nano-muse/nanoMuse/releases/tag/v1.0.1",
+      "pre": false,
+      "note": "nanoMuse 1.0.1 · Ballast 🐉 nanoMuse 1.0.1 “Ballast” : the first day of 1.0 in people's hands, read back; what broke for them is fixed, and what two apps on one phone fought over is settled. 1.0.0 went out on 2026-10-09. Within a day the reports came in: a phone with OpenMinis installed asked which app should open every link, because both apps answered to the same minis:// ; a desktop chat filled by the phone's conversation could not be scrolled to its start ( #261 ); the relay's Health page said the model provider needed a look when all that had happened was one long conversation that the provider's content check kept declining. This version fixes those three and a handful of things we found ourselves while using it: the glow around the screen that went dark between two steps of the hands, the small dragon that stood still on Windows, a switch that followed one rule on the phone and ano"
+    },
+    {
+      "tag": "v1.0.0",
+      "title": "nanoMuse 1.0.0 · Keel",
+      "date": "2026-10-08",
+      "url": "https://github.com/nano-muse/nanoMuse/releases/tag/v1.0.0",
+      "pre": false,
+      "note": "nanoMuse 1.0.0 · Keel 🐉 nanoMuse 1.0.0 “Keel” : the first stable version, one personal agent for every device you own, and nothing in it that we would not run ourselves. Since 2026-09-25 every version has been a preview. Forty of them later the set is complete: a phone app for Android and for the iPhone, a desktop app for the Mac, Windows and Linux, the web console, and the open-source relay, nanoMuse Cloud, that signs people in and lets their devices talk. One account across all of them, so the phone, the desktop and the browser show the same conversation. Hands on the phone and on the computer, which look at the screen and act for you, with an approval between the agent and anything you could not undo. A key of your own for any of eighteen providers, or the free allowance that comes with the account. Everything in one repository, GPL-3.0-or-later, non-profit. 1.0 means this: what is h"
+    }
+  ]
+}

@@ -5,7 +5,7 @@
 - **Licencia**: MIT
 - **Lenguaje**: TypeScript
 - **Estrellas**: 38 · **Forks**: 6
-- **Último push**: 2026-11-11T13:08:21Z · **Última release**: 2026-11-11
+- **Último push**: 2026-11-11T13:08:21Z · **Última release**: 2026-11-14
 - **Revisado**: 2026-11-12 · **Confianza**: 72/100
 - **Tipo**: assistant · **Categoría**: personal
 
@@ -18,6 +18,15 @@ Agentes personales que convierten un hilo de T3 Code en un bot con nombre, memor
 ## Nota de verificación
 
 README: bot con memoria Markdown, rutinas, subagentes, navegador de T3 con control y aprobaciones. Depende de T3 Code y corre en tu máquina.
+
+## Release revisada
+
+- **Tag**: [v0.1.8](https://github.com/RokaSwK/threebot/releases/tag/v0.1.8)
+- **Fecha**: 2026-11-14 (hace 1 días)
+- **Estado**: activo · **Releases en 90 días**: 9
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> v0.1.8 · 2 changes from 2 contributors Quieter rooms. A room's notifications are held back on the device that has that room open, and still reach your other devices. Plus 1 more change. Full changelog What's Changed Hold a room push back while that room is on screen by @cristianbdev in #61 Release 0.1.8 by @RokaSwK in #62 Full Changelog : v0.1.7...v0.1.8
 
 ## Evidencia de la investigación
 

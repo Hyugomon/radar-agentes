@@ -1,27 +1,87 @@
-[
-  {
-    "tag": "LobsterAI 2026.11.6",
-    "date": "2026-11-06",
-    "url": "https://github.com/netease-youdao/LobsterAI/releases/tag/2026.11.6"
-  },
-  {
-    "tag": "LobsterAI 2026.10.30",
-    "date": "2026-10-31",
-    "url": "https://github.com/netease-youdao/LobsterAI/releases/tag/2026.10.30"
-  },
-  {
-    "tag": "LobsterAI 2026.10.23",
-    "date": "2026-10-23",
-    "url": "https://github.com/netease-youdao/LobsterAI/releases/tag/2026.10.23"
-  },
-  {
-    "tag": "LobsterAI 2026.10.16",
-    "date": "2026-10-16",
-    "url": "https://github.com/netease-youdao/LobsterAI/releases/tag/2026.10.16"
-  },
-  {
-    "tag": "LobsterAI 2026.10.13",
-    "date": "2026-10-14",
-    "url": "https://github.com/netease-youdao/LobsterAI/releases/tag/2026.10.13"
-  }
-]
+{
+  "repo": "netease-youdao/LobsterAI",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "2026.11.6",
+      "title": "LobsterAI 2026.11.6",
+      "date": "2026-11-06",
+      "url": "https://github.com/netease-youdao/LobsterAI/releases/tag/2026.11.6",
+      "pre": false,
+      "note": "2026.11.2 A release focused on reliability: chat streams now survive mid-reply drops, oversized contexts recover with visible compaction progress, the image pipeline is cheaper and less chatty, and installers ship a lot less dead weight. Highlights Model streams reconnect automatically when they drop mid-reply instead of leaving the message truncated ( #2974 ). Oversized conversations now recover instead of failing, with compaction progress surfaced in the UI ( #2982 , #3014 , #2988 ). One image confirmation can now approve the rest of a turn's images, and delivery recovery is more robust ( #2995 , #2980 , #2994 ). Installer and runtime bundles are significantly slimmer: no source maps, no tsc output, no debug-only files ( #2976 , #2985 , #2996 ). DeepSeek Harness runtime moved to 0.2.2-rc.1 with cleaner shutdown and leftover reclamation ( #2989 , #3007 , #3008 ). New Features Desktop co"
+    },
+    {
+      "tag": "2026.10.30",
+      "title": "LobsterAI 2026.10.30",
+      "date": "2026-10-31",
+      "url": "https://github.com/netease-youdao/LobsterAI/releases/tag/2026.10.30",
+      "pre": false,
+      "note": "2026.10.30 Highlights Image Studio lands — a new image creation surface with close-up erase-and-blend, per-conversation media model selection, and a fixed sharing path for generated images Conversation polish — large pastes collapse into cards, and history keeps loading until the viewport is full Account &amp; settings — one saved API key per decision-model provider; redesigned IM settings with WeChat DMs always admitted Faster startup — startup migrations no longer rerun on every launch, and state databases are prewarmed ✨ New Features media : Image Studio and a reworked conversation media workflow ( #2952 ) @fisherdaddy media : erase from a close-up and blend the result back into the source image ( #2954 ) @fisherdaddy cowork : collapse large pastes into pasted-text cards ( #2946 ) @fisherdaddy settings : keep a saved API key per decision-model provider ( #2943 ) @fisherdaddy im : rede"
+    },
+    {
+      "tag": "2026.10.23",
+      "title": "LobsterAI 2026.10.23",
+      "date": "2026-10-23",
+      "url": "https://github.com/netease-youdao/LobsterAI/releases/tag/2026.10.23",
+      "pre": false,
+      "note": "This release brings image editing into your conversations, makes remote tools easier to connect, and gives you clearer visibility into usage. It also improves startup reliability, browser tasks, and account recovery. ✨ Highlights Edit images without leaving your conversation Annotate images with drawings, arrows, shapes, and text, or select an area and describe what you want to change. With a compatible image model, you can remove backgrounds, erase objects, and expand images to a new aspect ratio. Save annotated copies or send your edits to AI. Conversation snapshots preserve the source image, selections, and annotations so you can revisit your instructions. #2907 Connect remote tools with less setup Install remote MCP connectors from the marketplace and connect through browser-based OAuth or guided credential forms. Supporting services can now be authorized without manually copying API"
+    },
+    {
+      "tag": "2026.10.16",
+      "title": "LobsterAI 2026.10.16",
+      "date": "2026-10-16",
+      "url": "https://github.com/netease-youdao/LobsterAI/releases/tag/2026.10.16",
+      "pre": false,
+      "note": "2026.10.16 ✨ Highlights This release is headlined by the Desktop Companion — a new always-on assistant surface with translation, read-aloud, quick input, capture, and task follow-up — alongside a reworked model selector with presets and a configurable Expert Plaza . 🚀 Features Desktop Companion Add the desktop companion surface ( #2860 , #2865 ) Add translation and read-aloud cards ( #2816 ) Add deskstop companion composer ( #2847 ) Improve capture, task follow-up, and quick input ( #2870 ) Improve translation request handling and login guidance ( #2873 ) Add usage analytics ( #2881 ) Models &amp; Routing Add model presets and conversation usage ( #2879 ) Distinguish custom models in the selector ( #2869 ) Unify virtual preset routing and preserve conversation usage ( #2887 ) Experts &amp; Navigation Add a configurable Expert Plaza with first-run deliverables ( #2849 ) Add sidebar capab"
+    },
+    {
+      "tag": "2026.10.13",
+      "title": "LobsterAI 2026.10.13",
+      "date": "2026-10-14",
+      "url": "https://github.com/netease-youdao/LobsterAI/releases/tag/2026.10.13",
+      "pre": false,
+      "note": "What’s Changed This release introduces Office document editing, Computer Use support for macOS, and improved MCP tool management. It also brings a refreshed interface, a smoother task experience, and significant improvements to OpenClaw stability and reliability. ✨ Highlights Office Document Editing — Create and edit Word, Excel, and PowerPoint documents directly in LobsterAI, with support for manual editing, AI-assisted updates, and automatic saving. Computer Use for Mac — AI can now interact with desktop applications on both Apple Silicon and Intel Macs. MCP Tool Picker — Search, browse, and select which MCP tools to enable, with estimated token usage for better context management. Refreshed UI — Updated colors, layouts, agent views, and task interactions for a cleaner and more consistent experience. Improved Agent Reliability — More robust OpenClaw gateway startup, configuration recov"
+    },
+    {
+      "tag": "2026.9.23",
+      "title": "LobsterAI 2026.9.23",
+      "date": "2026-09-23",
+      "url": "https://github.com/netease-youdao/LobsterAI/releases/tag/2026.9.23",
+      "pre": false,
+      "note": "What’s Changed feat(decision-model): add experimental Jev decision model tool by @fisherdaddy in #2753 feat(cowork): stream live per-step turn progress and diff stats by @fisherdaddy in #2749 feat(cowork): unify activity step rendering with turn timing by @fisherdaddy in #2756 feat: cowork turn progress polish by @fisherdaddy in #2750 feat: update dsh runtime to 0.1.5 rc.3 by @fisherdaddy in #2752 fix(openclaw): raise Kimi K3 maxTokens and localize stream wrapper by @fisherdaddy in #2748 fix(openclaw): degrade gracefully on plugin errors while preserving basic chat functionality by @btc69m979y-dotcom in #2754 feat(subscription-trial): broaden campaign visibility by @Mind-Hand in #2751 Release/2026.9.23 by @liuzhq1986 in #2757 Full Changelog: https://github.com/netease-youdao/LobsterAI/compare/2026.9.22…2026.9.23"
+    },
+    {
+      "tag": "2026.9.22",
+      "title": "LobsterAI 2026.9.22",
+      "date": "2026-09-22",
+      "url": "https://github.com/netease-youdao/LobsterAI/releases/tag/2026.9.22",
+      "pre": false,
+      "note": "What's Changed fix(im): restore native scheduled tasks and Feishu delivery by @btc69m979y-dotcom in #2737 fix(openclaw): recover Windows gateway exits and repair startup by @btc69m979y-dotcom in #2729 fix(openclaw): avoid startup failure on legacy identity conflicts by @btc69m979y-dotcom in #2735 fix(openclaw): migrate legacy weixin allowFrom files blocking gateway startup by @fisherdaddy in #2734 fix(openclaw): recover invalid generated model policies on upgrade by @btc69m979y-dotcom in #2745 fix(openclaw): stabilize skill config sync and timeout recovery by @btc69m979y-dotcom in #2742 fix(openclaw): backport native koffi Windows private directory patch by @fisherdaddy in #2743 fix: openclaw sqlite readonly result file by @fisherdaddy in #2728 feat(browserCredentials): request OS secure storage access explicitly by @fisherdaddy in #2736 fix(theme): restore CJK body weight to 400 to keep"
+    },
+    {
+      "tag": "2026.9.20",
+      "title": "LobsterAI 2026.9.20",
+      "date": "2026-09-20",
+      "url": "https://github.com/netease-youdao/LobsterAI/releases/tag/2026.9.20",
+      "pre": false,
+      "note": "What’s Changed feat: subagent session visibility by @fisherdaddy in #2703 feat(browser): add passkey/WebAuthn support for the in-app agent browser by @fisherdaddy in #2723 feat: scheduled task weixin delivery receipt by @fisherdaddy in #2717 fix(scheduled-task): preserve Weixin target casing and explain resend rejection by @fisherdaddy in #2722 fix: weixin qq qr login channel routing by @fisherdaddy in #2718 fix: openclaw workspace setup recovery by @fisherdaddy in #2702 fix(openclaw): harden startup recovery and Feishu secret routing by @btc69m979y-dotcom in #2701 fix(openclaw): initialize legacy v1 state schema before repair verification by @fisherdaddy in #2700 feat(subscription): add one-cent trial and low-credit purchase offers by @Mind-Hand in #2720 refactor(cowork): remove background jobs feature by @fisherdaddy in #2724 Release/2026.9.18 by @liuzhq1986 in #2715 Release/2026.9.18 "
+    },
+    {
+      "tag": "2026.9.17",
+      "title": "LobsterAI 2026.9.17",
+      "date": "2026-09-20",
+      "url": "https://github.com/netease-youdao/LobsterAI/releases/tag/2026.9.17",
+      "pre": false,
+      "note": "What’s Changed feat(openclaw): migrate shared state schema before startup repair by @fisherdaddy in #2689 feat(openclaw): add repair snapshot rollback and agent media migration handling by @fisherdaddy in #2690 fix(openclaw): safely recover stale gateway lock owners by @btc69m979y-dotcom in #2698 fix(openclaw): guard IM workloads and observe config recovery by @btc69m979y-dotcom in #2694 fix(openclaw): prevent browser DNS failures from restarting gateway by @btc69m979y-dotcom in #2695 fix(openclaw): restore native Feishu plugin loading by @btc69m979y-dotcom in #2691 fix(main): make app quit hide windows immediately and stop skill services faster by @fisherdaddy in #2693 fix(auth): bypass LobsterAI proxy credential cooldowns by @Mind-Hand in #2688 Pr 2692 by @fisherdaddy in #2697 Release/2026.9.16 by @liuzhq1986 in #2699 Full Changelog: https://github.com/netease-youdao/LobsterAI/compare/"
+    },
+    {
+      "tag": "2026.9.15",
+      "title": "LobsterAI 2026.9.15",
+      "date": "2026-09-20",
+      "url": "https://github.com/netease-youdao/LobsterAI/releases/tag/2026.9.15",
+      "pre": false,
+      "note": "What’s Changed feat: openclaw compatibility repair by @fisherdaddy in #2683 feat(openclaw): migrate xAI auth credentials to canonical SQLite store by @fisherdaddy in #2675 fix(openclaw): recover scoped gateway startup compatibility failures by @btc69m979y-dotcom in #2676 fix(openclaw): recover invalid legacy dreaming state at startup by @btc69m979y-dotcom in #2681 fix(openclaw): preserve patched workspace runtime dependencies by @btc69m979y-dotcom in #2685 fix(openclaw): resolve plan-mode safety recovery race conditions by @fisherdaddy in #2674 fix(openclaw): prevent heuristic output budget starvation by @btc69m979y-dotcom in #2684 fix(openclaw): preserve compaction summary format and audit facts by @btc69m979y-dotcom in #2678 fix(openclaw): validate historical transcript replay by @btc69m979y-dotcom in #2682 fix(openclaw): avoid POPO SDK loading races by @btc69m979y-dotcom in #2664 feat"
+    }
+  ]
+}

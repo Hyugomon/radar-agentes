@@ -11,6 +11,15 @@
 
 Workspace open source con worktrees, tareas programadas, SSH y revisión integrada para que un equipo corra agentes de código.
 
+## Release revisada
+
+- **Tag**: [v1.2.11](https://github.com/generalaction/emdash/releases/tag/v1.2.11)
+- **Fecha**: 2026-11-06 (hace 9 días)
+- **Estado**: reciente · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> This release improves Git authentication, Windows compatibility, and SSH responsiveness. It also reduces background fetch overhead, fixes pane shortcuts after switching tasks, and adds an in-app signup for Emdash 2.0 early access. Highlights The project's Git credentials setting now applies to Emdash's own local Git operations, including push, pull, and fetch. Choosing System uses the machine's credentials, while an account explicitly selected for an operation still takes precedence. Join the Emdash 2.0 waitlist directly from the sidebar, with your email and an optional note about your team or workflow. The card can be dismissed for the current release. Fixes Commit &amp; Push and other Git 
+
 ## Evidencia
 
 ### harnesses

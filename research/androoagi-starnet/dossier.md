@@ -19,6 +19,15 @@ StarNet es una app de escritorio local-first donde creas una tripulación de age
 
 Revisión previa + README: app de escritorio local-first para crear una tripulación de agentes con identidad, memoria y coordinación.
 
+## Release revisada
+
+- **Tag**: [v0.15.0](https://github.com/androoAGI/starnet/releases/tag/v0.15.0)
+- **Fecha**: 2026-11-07 (hace 8 días)
+- **Estado**: reciente · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> Download Platform Installer Windows (x64) StarNet_0.15.0_x64-setup.exe macOS (Apple Silicon) StarNet_0.15.0_aarch64.dmg macOS (Intel) StarNet_0.15.0_x64.dmg These downloads are mirrored byte-for-byte from the validated StarNet distribution release. Already running StarNet? Update from inside the app; your crew, sessions, keys, and station remain in place. StarNet v0.15.0 This update improves StarNet's reliability, privacy, security and spending controls. Jobs now wait for your decision when a reviewer blocks them, deleting a chat clears far more of what the station kept from it, images of unknown cost are capped, and save files are much smaller for stations with a lot of chat history. It als
+
 ## Evidencia de la investigación
 
 ### ✅ Identidad

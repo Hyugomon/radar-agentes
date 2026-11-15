@@ -1,27 +1,87 @@
-[
-  {
-    "tag": "v0.3.8",
-    "date": "2026-11-12",
-    "url": "https://github.com/agentvivekkumar/dontbemichael/releases/tag/v0.3.8"
-  },
-  {
-    "tag": "v0.3.7",
-    "date": "2026-11-09",
-    "url": "https://github.com/agentvivekkumar/dontbemichael/releases/tag/v0.3.7"
-  },
-  {
-    "tag": "v0.3.6",
-    "date": "2026-11-06",
-    "url": "https://github.com/agentvivekkumar/dontbemichael/releases/tag/v0.3.6"
-  },
-  {
-    "tag": "v0.3.5",
-    "date": "2026-11-04",
-    "url": "https://github.com/agentvivekkumar/dontbemichael/releases/tag/v0.3.5"
-  },
-  {
-    "tag": "v0.3.4",
-    "date": "2026-11-01",
-    "url": "https://github.com/agentvivekkumar/dontbemichael/releases/tag/v0.3.4"
-  }
-]
+{
+  "repo": "agentvivekkumar/dontbemichael",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "v0.4.1",
+      "title": "v0.4.1",
+      "date": "2026-11-14",
+      "url": "https://github.com/agentvivekkumar/dontbemichael/releases/tag/v0.4.1",
+      "pre": false,
+      "note": "Don't Be Michael v0.4.1 An AI office for your small business. Pick your kind of business, pick your team, and Michael, your office manager, runs the floor while you run the business. What's new in 0.4.1 Job changes work in every office. A job change, such as a better job description offered for a team member, failed every time in an office whose folder Claude Code had never been opened in. These checks now run in a folder of their own that Claude never stops on. Every feature, release by release: docs/FEATURES.md Download Platform Download Mac (Apple Silicon and Intel) Dont-Be-Michael-0.4.1-mac-universal.dmg Windows 11 (x64): Dont-Be-Michael-0.4.1-win-x64-setup.exe . ARM PCs aren't supported. This build is not yet signed with a Microsoft certificate: when Windows says Windows protected your PC , click More info , then Run anyway . Linux will follow. Source code (zip) · Source code (tar.g"
+    },
+    {
+      "tag": "v0.4.0",
+      "title": "v0.4.0",
+      "date": "2026-11-13",
+      "url": "https://github.com/agentvivekkumar/dontbemichael/releases/tag/v0.4.0",
+      "pre": false,
+      "note": "Don't Be Michael v0.4.0 An AI office for your small business. Pick your kind of business, pick your team, and Michael, your office manager, runs the floor while you run the business. What's new in 0.4.0 Job changes and team checks work on every Mac. On some Macs a job change, such as a better job description offered for a team member, failed every time. Claude Code's startup warning now never stops them. Every feature, release by release: docs/FEATURES.md Download Platform Download Mac (Apple Silicon and Intel) Dont-Be-Michael-0.4.0-mac-universal.dmg Windows 11 (x64): Dont-Be-Michael-0.4.0-win-x64-setup.exe . ARM PCs aren't supported. This build is not yet signed with a Microsoft certificate: when Windows says Windows protected your PC , click More info , then Run anyway . Linux will follow. Source code (zip) · Source code (tar.gz) Installing on your Mac Open the downloaded .dmg and drag"
+    },
+    {
+      "tag": "v0.3.9",
+      "title": "v0.3.9",
+      "date": "2026-11-13",
+      "url": "https://github.com/agentvivekkumar/dontbemichael/releases/tag/v0.3.9",
+      "pre": false,
+      "note": "Don't Be Michael v0.3.9 An AI office for your small business. Pick your kind of business, pick your team, and Michael, your office manager, runs the floor while you run the business. What's new in 0.3.9 Pulse can change a job's set times for you. For a job that runs at set times or on chosen days, Run less and Run more offer its own times thinned or filled in, ready to apply with Undo. No more stuck loading screen after sleep. A window left on the loading screen when the Mac wakes is noticed and loaded again. Links to files with spaces in their names open, in a tab, instead of showing the raw path. A job change that cannot work says why, instead of asking you to try again for something a retry cannot fix. Every feature, release by release: docs/FEATURES.md Download Platform Download Mac (Apple Silicon and Intel) Dont-Be-Michael-0.3.9-mac-universal.dmg Windows 11 (x64): Dont-Be-Michael-0."
+    },
+    {
+      "tag": "v0.3.8",
+      "title": "v0.3.8",
+      "date": "2026-11-12",
+      "url": "https://github.com/agentvivekkumar/dontbemichael/releases/tag/v0.3.8",
+      "pre": false,
+      "note": "Don't Be Michael v0.3.8 An AI office for your small business. Pick your kind of business, pick your team, and Michael, your office manager, runs the floor while you run the business. What's new in 0.3.8 A lighter app. Features owners never used are gone: voice, webhooks, Slack, the History tab, languages other than English and every AI engine but Claude Code, Codex and Gemini. All clear has something to say. With every question answered, Michael offers one tip from your office, a saving or an unused connector, or shows what the team did today. Pulse shows each change you applied, on its own line, with what it saves or costs and its own Undo. More private. The prompts you type to team members are no longer saved, and the ones an older version saved are deleted. Every feature, release by release: docs/FEATURES.md Download Platform Download Mac (Apple Silicon and Intel) Dont-Be-Michael-0.3."
+    },
+    {
+      "tag": "v0.3.7",
+      "title": "v0.3.7",
+      "date": "2026-11-09",
+      "url": "https://github.com/agentvivekkumar/dontbemichael/releases/tag/v0.3.7",
+      "pre": false,
+      "note": "Don't Be Michael v0.3.7 An AI office for your small business. Pick your kind of business, pick your team, and Michael, your office manager, runs the floor while you run the business. What's new in 0.3.7 Cards show what they rest on. The pages, records, emails and files behind an Ask me card sit as chips under its question, and a card that says nothing was found shows where the team looked. Focus on one department, with a row of chips on Ask me, and answer a question with a file: paste a screenshot, drop a file or use the paperclip. A job update is worked into the member's own job, and its card shows exactly which lines it adds, changes and removes. Each team member works within its role. It asks the teammates who could know before Michael, and records such as the customer list live with the role that keeps them. A safer office. Team members save files only in their own folders, a member "
+    },
+    {
+      "tag": "v0.3.6",
+      "title": "v0.3.6",
+      "date": "2026-11-06",
+      "url": "https://github.com/agentvivekkumar/dontbemichael/releases/tag/v0.3.6",
+      "pre": false,
+      "note": "Don't Be Michael v0.3.6 An AI office for your small business. Pick your kind of business, pick your team, and Michael, your office manager, runs the floor while you run the business. What's new in 0.3.6 Anything your team finds for you reaches Needs you. Things only you can do wait on a card until you press Done, and notices with real stakes, such as money or a deadline, wait until you clear them. Routine email stays with the team. A question you leave open is never just dropped. The team member who asked decides whether to drop it, settle it or ask again, now or later. Open the original. A document links the file and email it came from, and an email attachment opens read only in its own app. Word documents keep their headings, lists and tables, and cards are short summaries that link their email. A new version and a ready case study arrive as Michael's cards, and the Needs you column mi"
+    },
+    {
+      "tag": "v0.3.5",
+      "title": "v0.3.5",
+      "date": "2026-11-04",
+      "url": "https://github.com/agentvivekkumar/dontbemichael/releases/tag/v0.3.5",
+      "pre": false,
+      "note": "Don't Be Michael v0.3.5 An AI office for your small business. Pick your kind of business, pick your team, and Michael, your office manager, runs the floor while you run the business. What's new in 0.3.5 Get featured: a case study of your office. Pulse builds a customer story page in your own brand, with how your office is set up and the hours the team worked while you were away. Every number comes from Pulse, and you send it to us from your own mailbox. A custom REST connection can hold a saved call. Team members send only their words; the fixed parts stay fixed. Foundation lists stay open until you say that's all, and what your team's work sees waits for you to decide. A first click on an email opens it, and a sleeping Mac no longer holds a team member back. Every feature, release by release: docs/FEATURES.md Download Platform Download Mac (Apple Silicon and Intel) Dont-Be-Michael-0.3.5"
+    },
+    {
+      "tag": "v0.3.4",
+      "title": "v0.3.4",
+      "date": "2026-11-01",
+      "url": "https://github.com/agentvivekkumar/dontbemichael/releases/tag/v0.3.4",
+      "pre": false,
+      "note": "Don't Be Michael v0.3.4 An AI office for your small business. Pick your kind of business, pick your team, and Michael, your office manager, runs the floor while you run the business. What's new in 0.3.4 Give one team member access to one outside service. Custom integrations reach only the members you name, at Read only or Can change, and taking access away holds on the next call. Team members save email attachments. They go to the member's own folder, ready to read. Teammates hand files over by asking. The app carries the file across, so nobody opens another member's folder. Word, Excel, PowerPoint and PDF files open in an office tab, and a card that names a folder opens that folder. The dock stays calm. Older messages fold behind the latest exchange, and the unread count sits on the up arrow. About twenty fixes from contributors, including safer task board saves and terminal shortcuts o"
+    },
+    {
+      "tag": "v0.3.3",
+      "title": "v0.3.3",
+      "date": "2026-10-30",
+      "url": "https://github.com/agentvivekkumar/dontbemichael/releases/tag/v0.3.3",
+      "pre": false,
+      "note": "Don't Be Michael v0.3.3 An AI office for your small business. Pick your kind of business, pick your team, and Michael, your office manager, runs the floor while you run the business. What's new in 0.3.3 Michael starts on an older Claude Code. The app wrote a setting that versions before 2.1.118 do not know, which stopped him at a Settings Error or Settings Warning. It now writes only what your Claude Code can read. Every feature, release by release: docs/FEATURES.md Download Platform Download Mac (Apple Silicon and Intel) Dont-Be-Michael-0.3.3-mac-universal.dmg Windows 11 (x64): Dont-Be-Michael-0.3.3-win-x64-setup.exe . ARM PCs aren't supported. This build is not yet signed with a Microsoft certificate: when Windows says Windows protected your PC , click More info , then Run anyway . Linux will follow. Source code (zip) · Source code (tar.gz) Installing on your Mac Open the downloaded .d"
+    },
+    {
+      "tag": "v0.3.2",
+      "title": "v0.3.2",
+      "date": "2026-10-30",
+      "url": "https://github.com/agentvivekkumar/dontbemichael/releases/tag/v0.3.2",
+      "pre": false,
+      "note": "Don't Be Michael v0.3.2 An AI office for your small business. Pick your kind of business, pick your team, and Michael, your office manager, runs the floor while you run the business. What's new in 0.3.2 Clocking in says what is going on. A clock and the slowest team member show on the card, and the floor and Ask me wait until everyone is in, at most 70 seconds. Pulse shows what the office really used, not your whole Claude plan, so your other Claude use is never charged to the office. Email connects only through the app's mailboxes. Mail on your Claude account no longer shows as a connector. If your team used it, connect a mailbox. A clearer choice when you give a team member a mailbox, and a new mailbox starts on Send on approval. A shorter setup, with desktop notifications on. If Michael stops, the office says why and offers Start again. Every feature, release by release: docs/FEATURES"
+    }
+  ]
+}

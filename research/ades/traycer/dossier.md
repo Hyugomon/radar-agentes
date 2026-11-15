@@ -11,6 +11,15 @@
 
 Workspace de planificación y revisión: convierte una tarea en un plan, lo reparte entre agentes y revisa los cambios y PRs.
 
+## Release revisada
+
+- **Tag**: [host-v1.5.4](https://github.com/traycerai/traycer/releases/tag/host-v1.5.4)
+- **Fecha**: 2026-11-14 (hace 1 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> Traycer Host 1.5.4. Fixed Memory and stability - the host no longer runs out of memory or stalls while a large batch of files is published, and closed tasks are released from memory. Resource use - fewer file scans, lighter usage tracking and fewer chat history writes, and a credential-check loop that could spike CPU is fixed. Large tasks - tasks with thousands of artifact versions load their versions again, and documents with many attachments can be compacted. File and artifact sync - files rewritten in place are picked up, hand-edited canvases are kept, a failed sync can be retried, and a sync that keeps failing stops retrying. Agents - Codex turns end properly when steered messages are wa
+
 ## Evidencia
 
 ### harnesses

@@ -1,0 +1,87 @@
+{
+  "repo": "marcus/sidecar",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "v1.17.1",
+      "title": "v1.17.1",
+      "date": "2026-10-08",
+      "url": "https://github.com/marcus/sidecar/releases/tag/v1.17.1",
+      "pre": false,
+      "note": "Changelog e25b0c9 fix(api): keep Tailnet access across service reinstalls with api.tailnet (td-accec4) cbac413 fix(api): service install waits for the started job before reporting (td-accec4) 2a2978a release: prepare v1.17.1"
+    },
+    {
+      "tag": "v1.17.0",
+      "title": "v1.17.0",
+      "date": "2026-10-08",
+      "url": "https://github.com/marcus/sidecar/releases/tag/v1.17.0",
+      "pre": false,
+      "note": "Changelog 5f08bf9 Allow a dedicated HTTPS port for the tailnet UI API 2ecd579 Authenticate reverse-proxied browser UI with paired sessions 51c4f49 Default Codex launches and resumes to inline scrollback 1a904ad Document mobile scrolling without cursor-key fallback 1e64922 feat(app): approve a waiting browser from its notification (td-ba7a17) 430ce84 feat(cli): sidecar api requests, approve, deny and devices (td-ba7a17) 9d52b93 feat(cli,app): say so when several browsers are waiting (td-ba7a17) c0492de feat(filefind): expose shared project finder API and CLI (td-de0865) 688998a feat(notifications): batch read and dismiss as one store change (td-e33667) 9ec2d4a feat(uiapi): approve a new browser by code from a trusted surface (td-ba7a17) 947d5e5 feat(uiapi): describe notification settings for forms 92712cc feat(uiapi): direct Tailnet listener with per-connection Tailscale identity (td-acce"
+    },
+    {
+      "tag": "v1.16.0",
+      "title": "v1.16.0",
+      "date": "2026-10-05",
+      "url": "https://github.com/marcus/sidecar/releases/tag/v1.16.0",
+      "pre": false,
+      "note": "Changelog fbc93f4 Add project content, live invalidations and conditional viewer layouts 9db8a36 Bound content watch registrations per credential across streams 83f3e22 Clarify persisted session revocation and service state e3c0812 Clear stale HTTP test connections before API restart e733ee8 Decide API path containment only through os.Root 6c65ac5 Document workspace SDK and element consumer semantics 79c69ae Expire obsolete proof fixture timers deterministically 335af64 Expose owning content workspace selectors and preserve alias-root shell state a4ed64d Fix project alias identity found during U4-c review 1152bf1 Persist browser sessions and refresh rebuilt UI roots 046fcad Preserve config recovery and privacy in UI service setup 00bc85e Preserve opaque viewer attachments and disambiguate origin panes ac3bbcf Preserve tree directory errors and distinguish layout storage failures a7bfa97 "
+    },
+    {
+      "tag": "v1.15.1",
+      "title": "v1.15.1",
+      "date": "2026-10-01",
+      "url": "https://github.com/marcus/sidecar/releases/tag/v1.15.1",
+      "pre": false,
+      "note": "Changelog f0f83fd release: prepare v1.15.1 4180e6b test(gitstatus): disable auto-maintenance in fixture repos"
+    },
+    {
+      "tag": "v1.15.0",
+      "title": "v1.15.0",
+      "date": "2026-10-01",
+      "url": "https://github.com/marcus/sidecar/releases/tag/v1.15.0",
+      "pre": false,
+      "note": "Release v1.15.0"
+    },
+    {
+      "tag": "v1.14.0",
+      "title": "v1.14.0",
+      "date": "2026-09-05",
+      "url": "https://github.com/marcus/sidecar/releases/tag/v1.14.0",
+      "pre": false,
+      "note": "Changelog 5285edc app: host a protocol plugin's tab through the generalized global host d485b31 app: project protocol descriptors and describe plugins.external on the latch 3c8d417 chore(agentintegration): drop the Python bytecode left in the hermes asset tree (td-73c4ff) 702c51d cli: add sidecar plugin list 2577cca cli: add the sidecar plugin verbs 4bbff3d cli: implement agent-facing project commands (current, list, add, switch, set, remove) d684348 cli: open a plugin collection, and tell Sidecar a plugin changed 6104844 cli: size the placements column to its widest value a10538e config: add plugins.external and the plugin_protocol flag 047564c configui: make Panels one loop over plugin descriptors e14e510 feat(agentcatalog): the launch catalog is TOML, every recognised agent is launchable, and pickers offer what you have (td-0ee28f) 4f5e9a6 feat(agentintegration): port Herdr's antigrav"
+    },
+    {
+      "tag": "v1.13.0",
+      "title": "v1.13.0",
+      "date": "2026-09-02",
+      "url": "https://github.com/marcus/sidecar/releases/tag/v1.13.0",
+      "pre": false,
+      "note": "Changelog 3085db8 feat(agentactivity): score the process tree past generic runtimes 0ea916e feat(agentintegration): port Herdr's Pi integration, Sidecar-native 68f5c92 feat(agentlifecycle): trace a live Pi and raise its tier to advisory 2e61413 fix(agentactivity): keep argv[0] when a process rewrites its own title b352f5e fix(agentactivity): make the SIDECAR_AGENT hint reach the panes it exists for 56a914e fix(agentintegration): stop the Pi asset sending a sequence at all f88099e fix(agentintegration): stop the Pi extension's sequence restarting on reload c1eee1d fix(herdr): retract the Pi tier and the Pi official source eb55006 release: prepare v1.13.0"
+    },
+    {
+      "tag": "v1.12.0",
+      "title": "v1.12.0",
+      "date": "2026-09-02",
+      "url": "https://github.com/marcus/sidecar/releases/tag/v1.12.0",
+      "pre": false,
+      "note": "Changelog 0f111ff chore(deps): pin tasks v1.17.0 8bdced7 chore(herdr): sync detection manifests to preview-2026-08-31-b1ff4582e968 b10c015 ci(herdr): weekly manifest sync with a review, a Herdr oracle, and a staleness gate 066d89e feat(agentactivity): cut Claude Code and Codex over to the Herdr manifest engine 96aac6e feat(agentactivity): cut every provider over to the Herdr manifest engine and delete the Go rule lane 1dad7a6 feat(agentactivity): execute Herdr manifests with an engine, explain --file, and shadow mode (Phase 1) 7f54577 feat(agentactivity): load a local manifest override, and say so in explain 1dcc22b feat(agentactivity): opt-in runtime catalog fetch, off by default 54331a6 feat(agentactivity): vendor Herdr detection manifests and add the sync tool (Phase 0) c2954f7 feat(agentcatalog): ten detection-only families, so Herdr's whole screen roster gets a badge f7e37f3 feat(he"
+    },
+    {
+      "tag": "v1.11.2",
+      "title": "v1.11.2",
+      "date": "2026-08-31",
+      "url": "https://github.com/marcus/sidecar/releases/tag/v1.11.2",
+      "pre": false,
+      "note": "[v1.11.2] - 2026-08-31 Bug Fixes The read-only worktree planning proof now ignores Git's transient bookkeeping wherever the fixture repository sits beneath its snapshot root. Background maintenance can create or remove lock files without Sidecar doing anything; the proof continues to compare every path Sidecar owns while no longer treating Git's internal locks as product mutations. [v1.11.1] - 2026-08-31 Bug Fixes Release verification no longer intermittently loses its private tmux server between agent-control integration tests. The suite now keeps one inert session alive for the package lifetime, so one test cleaning up its last working session cannot race the next test's server startup. The package still uses its own socket and tears down only that isolated server. The remote-host reconnect test now observes a stable recovered connection instead of a transient state. Its successful fak"
+    },
+    {
+      "tag": "v1.11.1",
+      "title": "v1.11.1",
+      "date": "2026-08-31",
+      "url": "https://github.com/marcus/sidecar/releases/tag/v1.11.1",
+      "pre": false,
+      "note": "Release v1.11.1"
+    }
+  ]
+}

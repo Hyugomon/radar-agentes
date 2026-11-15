@@ -5,7 +5,7 @@
 - **Licencia**: MIT
 - **Lenguaje**: Rust
 - **Estrellas**: 1029 · **Forks**: 108
-- **Último push**: 2026-11-12T03:59:17Z · **Última release**: 2026-10-27
+- **Último push**: 2026-11-12T03:59:17Z · **Última release**: 2026-11-15
 - **Revisado**: 2026-11-12 · **Confianza**: 62/100
 - **Tipo**: agent · **Categoría**: general
 
@@ -18,6 +18,15 @@ Agente autónomo de autoalojamiento escrito en Rust que, en un único binario co
 ## Nota de verificación
 
 Revisión previa + README: identidad, runtime persistente, rutinas y trabajo desatendido en Rust. Sin evidencia de apps GUI, memoria acumulada ni coordinación de equipo.
+
+## Release revisada
+
+- **Tag**: [v0.6.0](https://github.com/opencrabs/opencrabs/releases/tag/v0.6.0)
+- **Fecha**: 2026-11-15 (hace 0 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> 925 commits since v0.5.15, 6 contributors. 654 files changed, +127,903 / -5,765 lines. ✨ Features 79facf2a5 The theme modal picks the window's font ( ctrl+shift+t or /theme ) : the card that chooses the four themes now carries a Font row under them, listing the families the machine actually has installed with System (default) at the top. A click applies to the whole window and saves at once to [gui] font , the same way a theme card does, and esc closes the list before it closes the modal. Nothing is bundled: no font bytes, no licence files. The window paints in the family you name and the system supplies the glyphs it does not have, so every script the platform font covers still renders, and
 
 ## Evidencia de la investigación
 

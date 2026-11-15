@@ -11,6 +11,15 @@
 
 Workspace open source para correr agentes de código en la nube, con revisión de cambios y ejecución remota.
 
+## Release revisada
+
+- **Tag**: [gui-v154](https://github.com/davidondrej/cloudroom/releases/tag/gui-v154)
+- **Fecha**: 2026-11-15 (hace 0 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> Cloudroom v154 Archived threads restore cleanly. For Apple Silicon Macs on macOS 13 or later, Linux x64, and Windows x64. Changes The Archived threads page shows a Restored toast with an Open button, real totals, and a Retry when loading fails. Restoring a thread can bring back its subagent threads too. Self-hosters can connect their own Core right from setup, with no Cloudroom account. Keep Awake has three levels and is on by default, only while agents work. Thread notes now say what each thread is for, then where it stands. With two Macs, Cloud threads follow the Mac you are using. Selecting text in a draft shows a simple Copy button below it. Install or update macOS: Quit Cloudroom, downl
+
 ## Evidencia
 
 ### harnesses

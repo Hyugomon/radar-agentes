@@ -1,0 +1,87 @@
+{
+  "repo": "egoist/waku",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "v0.1.20",
+      "title": "v0.1.20",
+      "date": "2026-10-02",
+      "url": "https://github.com/egoist/waku/releases/tag/v0.1.20",
+      "pre": false,
+      "note": "Support the OpenCode 2.0 release, which now installs as opencode : OpenCode runs on its shared background service, OpenCode 2 beta and OpenCode 1 tasks continue as OpenCode tasks, and OpenCode's free models work in Waku tasks Fix rewinding or branching an OpenCode task after steering it mid-turn, which forked OpenCode's conversation at the wrong turn Fix OpenCode tasks going silent when the OpenCode service restarts; a turn it interrupted now continues in place once the service is back Fix Cursor model discovery and options so the pickers list every model the Cursor CLI advertises, with its reasoning effort, fast mode, and context window Show the release version in Claude model names, such as Opus 4.6 (1M context), in the model picker and composer Make the project picker searchable and scrollable, keeping long project lists reachable with the new-project and no-project actions pinned bel"
+    },
+    {
+      "tag": "v0.1.19",
+      "title": "v0.1.19",
+      "date": "2026-09-10",
+      "url": "https://github.com/egoist/waku/releases/tag/v0.1.19",
+      "pre": false,
+      "note": "Render inline and block LaTeX math in Markdown, with a Copy Expression action and a setting to show the source Fix OpenCode 2 context usage to reflect the latest request instead of cumulative session totals, and cap the meter at 100% Clear model search when selecting a provider or Favorites tab Make loading spinners smoother with animations at up to 60 FPS"
+    },
+    {
+      "tag": "v0.1.18",
+      "title": "v0.1.18",
+      "date": "2026-09-07",
+      "url": "https://github.com/egoist/waku/releases/tag/v0.1.18",
+      "pre": false,
+      "note": "Fix Codex session forking Add OpenCode 2 support, add reasoning effort option for both OpenCode and OpenCode 2 Fix memory usage for long-running sessions"
+    },
+    {
+      "tag": "v0.1.17",
+      "title": "v0.1.17",
+      "date": "2026-09-02",
+      "url": "https://github.com/egoist/waku/releases/tag/v0.1.17",
+      "pre": false,
+      "note": "Fix the OpenCode Resume list showing only sessions started outside a git checkout; it now lists sessions from every project Hold Claude's turn open while it waits on background work"
+    },
+    {
+      "tag": "v0.1.16",
+      "title": "v0.1.16",
+      "date": "2026-08-30",
+      "url": "https://github.com/egoist/waku/releases/tag/v0.1.16",
+      "pre": false,
+      "note": "Import and continue conversations started in agent CLIs with /resume or the command palette across every provider, in both Waku and Waku Web Linux: add signed in-app updates with clean relaunch and automatic rollback Copy Waku task IDs and agent CLI thread IDs from task info or the command palette Keep each response's actions and changed-file summary after its final tool activity Keep the selected task visible when navigating the sidebar Let nested transcript and command-output scrollers hand wheel gestures to the page only at their boundaries Keep multiline background-work titles on one line in summaries and panel headers"
+    },
+    {
+      "tag": "v0.1.15",
+      "title": "v0.1.15",
+      "date": "2026-08-24",
+      "url": "https://github.com/egoist/waku/releases/tag/v0.1.15",
+      "pre": false,
+      "note": "Codex thread goals: type /goal to set a persistent objective the task keeps pursuing — before or after the first message — with its autonomous pursuit streaming into the transcript, a status chip showing live budget or elapsed time, and a dialog to edit, pause, resume, or clear the goal (also in Waku Web) Discover provider-native slash commands and skills from installed agent CLIs, including multiline YAML descriptions Add reasoning effort selection for Grok Reconnect remote daemon sessions automatically after connection interruptions Fix Command/Ctrl+Enter steering after a provider response starts streaming Fix transcript file links on Windows Fix OpenCode dropping the first streamed event and hanging during cancellation on Windows"
+    },
+    {
+      "tag": "v0.1.14",
+      "title": "v0.1.14",
+      "date": "2026-08-23",
+      "url": "https://github.com/egoist/waku/releases/tag/v0.1.14",
+      "pre": false,
+      "note": "Group sidebar tasks by project or update date, order them newest or oldest first, and collapse sections Find in page: Search the full transcript by keywords using cmd-f or ctrl-f Switch between recent tasks with Ctrl+Tab and Ctrl+Shift+Tab Carry the current access mode into new tasks and remember it between launches Fix OpenCode access-mode permissions and restore pending permission prompts when resuming sessions Show Codex file reads, listings, and searches as file activity instead of raw commands Keep long panel and background-work titles on one truncated line Increase the minimum UI text size for better legibility"
+    },
+    {
+      "tag": "v0.1.13",
+      "title": "v0.1.13",
+      "date": "2026-08-22",
+      "url": "https://github.com/egoist/waku/releases/tag/v0.1.13",
+      "pre": false,
+      "note": "Add Vercel Fx support Support DeepSeek Harness 0.1.1 without opening its web UI Collapse earlier activity groups when a running turn moves on to newer transcript output"
+    },
+    {
+      "tag": "v0.1.12",
+      "title": "v0.1.12",
+      "date": "2026-08-21",
+      "url": "https://github.com/egoist/waku/releases/tag/v0.1.12",
+      "pre": false,
+      "note": "Invoke Codex, Pi, and Oh My Pi skills with their native syntax Stream live output from Claude background tasks Steer the oldest queued follow-up with Command/Ctrl+Enter in an empty composer Fix model and reasoning option selection for Cursor Fix npm-installed provider detection on Windows Fix daemon terminal sessions hanging during shutdown Exclude copied history from forked Codex sessions from usage totals Keep separate Codex reasoning sections on separate lines"
+    },
+    {
+      "tag": "v0.1.11",
+      "title": "v0.1.11",
+      "date": "2026-08-20",
+      "url": "https://github.com/egoist/waku/releases/tag/v0.1.11",
+      "pre": false,
+      "note": "Highlight Markdown in the file editor, and toggle between source and a rendered preview Add UI and code font size settings macOS: Add \"Open in..\" button to open project folder in selected application"
+    }
+  ]
+}

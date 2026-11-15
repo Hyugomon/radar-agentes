@@ -60,6 +60,14 @@ function dossierFor(p) {
   const strengths = (p.strengths || []).map(s => `- ${s}`).join('\n')
   const weaknesses = (p.weaknesses || []).map(s => `- ${s}`).join('\n')
   const note = p.verificationNote ? `\n## Nota de verificación\n\n${p.verificationNote}\n` : ''
+  const releaseNote = p.release_note ? `\n> ${String(p.release_note).slice(0, 700)}\n` : ''
+  const release = `## Release revisada
+
+- **Tag**: ${p.last_release_tag ? `[${p.last_release_tag}](${p.last_release_url})` : '—'}
+- **Fecha**: ${p.last_release || '—'}${p.last_release_days != null ? ` (hace ${p.last_release_days} días)` : ''}
+- **Estado**: ${p.release_status || '—'} · **Releases en 90 días**: ${p.releases_90 ?? '—'}
+- **Revisado**: ${p.release_checked_at || '—'} · **Fuente**: ${p.release_source || '—'}
+${p.release_highlight ? `\n**Qué trae**: ${p.release_highlight}\n` : ''}${p.release_impact ? `\n**Impacto en la ficha**: ${p.release_impact}\n` : ''}${releaseNote}`
 
   return `# ${p.name} — dossier de investigación
 
@@ -78,6 +86,7 @@ ${p.summary || p.description || '—'}
 
 > ${p.tagline || ''}
 ${note}
+${release}
 ## Evidencia de la investigación
 
 ${featureLines}
@@ -115,6 +124,12 @@ for (const p of index.projects) {
   p.pillars = { ...(p.pillars || {}), ...(o.pillars || {}) }
   p.category = o.category || p.category || (p.pillars.coordinacion ? 'teams' : 'personal')
   p.tagline = o.tagline || p.tagline
+  p.summary = o.summary || p.summary
+  p.strengths = o.strengths || p.strengths
+  p.weaknesses = o.weaknesses || p.weaknesses
+  p.comparison = o.comparison || p.comparison
+  p.release_highlight = o.release_highlight || p.release_highlight || ''
+  p.release_impact = o.release_impact || p.release_impact || ''
   p.setup = o.setup || p.setup || 'moderate'
   p.platforms = o.platforms || p.platforms || ['Desktop']
   p.channels = o.channels || p.channels || ['Chat']

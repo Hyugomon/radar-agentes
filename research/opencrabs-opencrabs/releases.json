@@ -1,27 +1,87 @@
-[
-  {
-    "tag": "v0.5.15",
-    "date": "2026-10-27",
-    "url": "https://github.com/opencrabs/opencrabs/releases/tag/v0.5.15"
-  },
-  {
-    "tag": "v0.5.14",
-    "date": "2026-10-25",
-    "url": "https://github.com/opencrabs/opencrabs/releases/tag/v0.5.14"
-  },
-  {
-    "tag": "v0.5.13",
-    "date": "2026-10-24",
-    "url": "https://github.com/opencrabs/opencrabs/releases/tag/v0.5.13"
-  },
-  {
-    "tag": "v0.5.12",
-    "date": "2026-10-21",
-    "url": "https://github.com/opencrabs/opencrabs/releases/tag/v0.5.12"
-  },
-  {
-    "tag": "v0.5.11",
-    "date": "2026-10-16",
-    "url": "https://github.com/opencrabs/opencrabs/releases/tag/v0.5.11"
-  }
-]
+{
+  "repo": "opencrabs/opencrabs",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "v0.6.0",
+      "title": "v0.6.0",
+      "date": "2026-11-15",
+      "url": "https://github.com/opencrabs/opencrabs/releases/tag/v0.6.0",
+      "pre": false,
+      "note": "925 commits since v0.5.15, 6 contributors. 654 files changed, +127,903 / -5,765 lines. ✨ Features 79facf2a5 The theme modal picks the window's font ( ctrl+shift+t or /theme ) : the card that chooses the four themes now carries a Font row under them, listing the families the machine actually has installed with System (default) at the top. A click applies to the whole window and saves at once to [gui] font , the same way a theme card does, and esc closes the list before it closes the modal. Nothing is bundled: no font bytes, no licence files. The window paints in the family you name and the system supplies the glyphs it does not have, so every script the platform font covers still renders, and the catalog is read once on the first paint because all_font_names walks CoreText on macOS with no cache of its own. Code blocks get their own key, [gui] mono_font , which walks a candidate list and "
+    },
+    {
+      "tag": "v0.5.15",
+      "title": "v0.5.15",
+      "date": "2026-10-27",
+      "url": "https://github.com/opencrabs/opencrabs/releases/tag/v0.5.15",
+      "pre": false,
+      "note": "16 commits since v0.5.14. 41 files changed, +2,821 / -572 lines. 🔧 Fixes 83c8eea81 Queue row softened to a gray hierarchy : every span now sits under the thinking line's luma instead of above it; the amber is gone and a rendered test pins the colours, so a brightness regression fails CI instead of shipping ( #2244 ) 3f3cff3fa A turn halted by suggest_options no longer renders intermediate narration as its answer ( #2240 ) f8ef89d3a Dropped the in-flight border title from the input box : the row claimed attention the queue row was built for ( #2243 ) 59ea0421e History marker and splash tip now name PageUp : both said Ctrl+O, which folds the newest turn instead of paging ( #2242 ) 12ae04bde Ctrl+O no longer throws the viewport when the turn header is off screen : the anchor captured a saturated row 0, so expanding a long answer jumped you to the top of the turn ( #2241 ) cc63d8296 A caugh"
+    },
+    {
+      "tag": "v0.5.14",
+      "title": "v0.5.14",
+      "date": "2026-10-25",
+      "url": "https://github.com/opencrabs/opencrabs/releases/tag/v0.5.14",
+      "pre": false,
+      "note": "26 commits since v0.5.13, 5 contributors. 64 files changed, +7,493 / -365 lines. This release reaches more people and breaks fewer files. Two new language packs land next to the existing ones, Arabic and Chinese, each with its own script detection, and the non-English packs now carry intent phrases at the same order of magnitude as English instead of a third of it. European Portuguese continuous narration is detected. Four edit-tool defects are fixed: the line operations in edit_file no longer drop the final newline or turn a CRLF file into LF, hashline_edit joins its output with the file's own line ending, the fuzzy fallback keeps the file's line endings, and a retry is no longer blocked after the missing file appears. CI gained a lint that fails the build when a new byte slice can panic, and the workflow actions, the Rust toolchain and the Linux build image are now pinned to immutable "
+    },
+    {
+      "tag": "v0.5.13",
+      "title": "v0.5.13",
+      "date": "2026-10-24",
+      "url": "https://github.com/opencrabs/opencrabs/releases/tag/v0.5.13",
+      "pre": false,
+      "note": "61 commits since v0.5.12, 5 contributors. 188 files changed, +14,367 / -1,600 lines. The channels carried most of this release, and the theme is one task, one place. A detached task now updates its own row instead of posting a second message on Telegram, Slack, Discord and WhatsApp, and a Telegram turn ends with its answer in one bubble rather than two. Discord interactions were hardened end to end: they obey the session turn slot, the turn group lock is no longer held across a governor sleep, reactions get the same identity check as messages, pending approvals drop on every exit from the wait, the pending select and form maps are capped, the compaction pinger stops when the turn ends, and a menu says so when it was cut to the button cap. WhatsApp folds LID-keyed sessions into their phone-number twin, queues a mid-turn message instead of killing the live turn, drops inbound status posts "
+    },
+    {
+      "tag": "v0.5.12",
+      "title": "v0.5.12",
+      "date": "2026-10-21",
+      "url": "https://github.com/opencrabs/opencrabs/releases/tag/v0.5.12",
+      "pre": false,
+      "note": "78 commits since v0.5.11, 6 contributors. 180 files changed, +14,993 / -3,285 lines. Telegram guest queries went from a narrow reply path to a full surface. A tag in a chat the bot was never invited to now gets the same tools as a normal turn, the same live status block, the same rich rendering, one cancellable turn per guest session with rate limiting, and a tool set capped at what a stranger should reach. Two answer-duplication bugs went with it: a guest reply no longer carries the answer twice, and a reply with no tool calls is the answer alone. Separately, the agent now has to stop and write a plan once a turn crosses a threshold of tool calls, browser_act gained an upload action that attaches local files without putting their bytes in the context, and bash refuses sleep while a detached task is running and names the task it is waiting on. The TUI keeps the transcript visible across "
+    },
+    {
+      "tag": "v0.5.11",
+      "title": "v0.5.11",
+      "date": "2026-10-16",
+      "url": "https://github.com/opencrabs/opencrabs/releases/tag/v0.5.11",
+      "pre": false,
+      "note": "4 commits since v0.5.10, 2 contributors. 19 files changed, +1,361 / -349 lines. Four fixes, each one closing a hole that a shipped release exposed. A first run lands in the chat with the built-in provider already live and the agent greeting the user, instead of on a \"New Chat · none / none\" screen with no provider, no config.toml and no keys.toml ( #2079 ). The agent's worker threads get a 16 MiB stack, so the first turn can no longer abort the process with a stack overflow on the default 2 MiB one ( #2080 ). The release workflow reads the conclusion of the commit's own CI run before it publishes anything, so a red main can never ship a tag again the way v0.5.10 did ( #2078 ). And the scheduled evolve restart no longer hands systemctl restart the discovery glob opencrabs*.service : that glob also matched the transient unit the restart runs inside, so systemd stopped its own executor 16 m"
+    },
+    {
+      "tag": "v0.5.10",
+      "title": "v0.5.10",
+      "date": "2026-10-16",
+      "url": "https://github.com/opencrabs/opencrabs/releases/tag/v0.5.10",
+      "pre": false,
+      "note": "99 commits since v0.5.5, 5 contributors. 213 files changed, +17,230 / -1,738 lines. The release that works the second you install it. OpenCrabs now ships its own provider inside the binary: no account, no API key, no sign-up. It serves DeepSeek v4.1 Flash, a 200k-context multimodal model, so text and attached images both work on the first run. Onboarding was rebuilt around that first run: a quick-start welcome interviews the user, asks only for what is missing, names the session's provider and model, and offers next steps, and the built-in provider is wired into both the quick-start and the advanced path with vision and image generation on by default. Its context window is pinned at 200k and held by host, and install tokens are redacted from logs and kept out of Debug output. The provider chain got sturdier: a 429 that declares a long wait parks that provider and routes around it instead"
+    },
+    {
+      "tag": "v0.5.5",
+      "title": "v0.5.5",
+      "date": "2026-10-16",
+      "url": "https://github.com/opencrabs/opencrabs/releases/tag/v0.5.5",
+      "pre": false,
+      "note": "283 commits since v0.5.4, 9 contributors. 471 files changed, +51,885 / -4,903 lines. A channel-native window. Discord became a first-class surface: native polls via send_poll ( #1848 ), TTS replies delivered as voice messages ( #1849 ), commands.toml projected onto native slash commands ( #1850 ), a flow group that opens at turn start with a live clock covering thinking and activity text leading the flow line ( #1841 , #1843 , #1844 , #1845 ), a persistent plan card riding one shared outbound write governor with 429 park ( #1910 , #1912 ), per-channel respond_to and open modes with a /respond_to command ( #2014 ), and /cowork opening a channel or thread to its members ( #2015 ). Slack matched the pass: throttled flow ticker ( #1807 ), flow group opening at turn start with live activity text ( #1808 , #1809 ), and an outbound write governor with 429 observability ( #2012 ). Telegram got o"
+    },
+    {
+      "tag": "v0.5.4",
+      "title": "v0.5.4",
+      "date": "2026-10-16",
+      "url": "https://github.com/opencrabs/opencrabs/releases/tag/v0.5.4",
+      "pre": false,
+      "note": "104 commits since v0.5.3, 7 contributors. 225 files changed, +18,619 / -1,429 lines. An agent-experience window. ACP sessions became first-class: the context meter is restored on session load, session/load replays the transcript and restores the per-session model, set_model persists across processes, session/set_mode applies the approval policy server-side, session/compact pushes, and session/new offers a live model catalog. Full-screen editors (!vi, !nano) now get the real terminal through a handoff and return to the chat on exit ( #1744 ). Attachments went universal: paste or drop any file type through one shared router ( #1740 ), with common-type classification ( #1743 ). Three mechanical zero-cost commands landed compiled: /architecture, /attach ( #933 ) and an opt-in audit trail with its /audit viewer ( #1705 ). Search gained a serper_search engine (Google SERP) with by-URL dedup ac"
+    },
+    {
+      "tag": "v0.5.3",
+      "title": "v0.5.3",
+      "date": "2026-09-20",
+      "url": "https://github.com/opencrabs/opencrabs/releases/tag/v0.5.3",
+      "pre": false,
+      "note": "121 commits since v0.5.2, 7 contributors. 192 files changed, +12,304 / -1,709 lines. A consolidation window: the TUI theme engine finished its sweep, every widget now resolves its colours through the theme (a suite-level guard fails on any new raw ANSI site) and themes can declare a canvas background ( #1634 ). Windows became a first-class platform: a platform shell pair, BOM/UTF-16-aware reads, tilde and cwd fallbacks, with CI building and gating PRs on it ( #627 ). Cron jobs can be trigger-gated - a pipeline with mechanical pre-flight and goal dispatch ( #233 ) - and a timed-out trigger kills its shell instead of orphaning it. WhatsApp follow-up suggestions past the native button cap render as a poll, and a vote selects the option ( #1616 ). MEMORY.md facts carry confidence and decay ( #1643 ), with a file-level archive pass, config-driven decay and a memory prune CLI ( #1657 ). Telegr"
+    }
+  ]
+}

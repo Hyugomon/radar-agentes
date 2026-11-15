@@ -19,6 +19,15 @@ Agente personal open source con nombre e identidad propia que vive en Android, i
 
 Revisión previa + README: identidad, memoria y computer-use con aprobaciones en móvil, escritorio y web. Sin coordinación de varios bots.
 
+## Release revisada
+
+- **Tag**: [v1.0.9](https://github.com/nano-muse/nanoMuse/releases/tag/v1.0.9)
+- **Fecha**: 2026-10-30 (hace 16 días)
+- **Estado**: reciente · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> nanoMuse 1.0.9 · Tiller 🐉 nanoMuse 1.0.9 “Tiller” : a fix release the same day as Crew. The desktop starts again when you are signed in, the relay's console loads on a large record, and the runtime takes a budget for a task and recalls from the whole memory store. 1.0.8 went out this morning, and its desktop did not start for anyone who was signed in. The plugin pointed the nanoMuse Cloud provider row at the loopback door it opens for the relay and waited for that settings write while the plugins were still starting; the write waits for the plugins, so the Host never announced its address and the window sat on Starting… for good, with nanoMuse is still starting every ten minutes ( #701 , fi
+
 ## Evidencia de la investigación
 
 ### ✅ Identidad

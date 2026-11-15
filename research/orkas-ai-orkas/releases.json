@@ -1,27 +1,87 @@
-[
-  {
-    "tag": "Orkas 2026.11.4",
-    "date": "2026-11-04",
-    "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.11.4"
-  },
-  {
-    "tag": "Orkas 2026.10.27",
-    "date": "2026-10-27",
-    "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.10.27"
-  },
-  {
-    "tag": "Orkas 2026.10.17",
-    "date": "2026-10-21",
-    "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.10.17"
-  },
-  {
-    "tag": "Orkas 2026.10.1",
-    "date": "2026-10-16",
-    "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.10.1"
-  },
-  {
-    "tag": "Orkas 2026.9.22",
-    "date": "2026-09-22",
-    "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.9.22"
-  }
-]
+{
+  "repo": "Orkas-AI/Orkas",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "v2026.11.4",
+      "title": "Orkas 2026.11.4",
+      "date": "2026-11-04",
+      "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.11.4",
+      "pre": false,
+      "note": "v2026.11.4 Download Download Orkas Highlights Use GPT-6.1 Terra in supported provider and model settings. Choose multiple weekdays or month dates for recurring automations and review clearer schedule summaries. Capture product pages and recover video compositions with clearer preview and delivery checks. Fixes Recover queued messages, selected attachments and interrupted conversations without treating downloaded files as new drafts. Keep search results complete through cache rebuilds, file changes, deletion and restoration. Preserve both recoverable copies when Library moves encounter concurrent edits or partial deletion. Keep desktop background work, shutdown and provider failures consistent with the task's actual completion state. Full changelog Compare v2026.10.27...v2026.11.4"
+    },
+    {
+      "tag": "v2026.10.27",
+      "title": "Orkas 2026.10.27",
+      "date": "2026-10-27",
+      "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.10.27",
+      "pre": false,
+      "note": "v2026.10.27 Download Download Orkas Highlights Configure a complete set of public image and video models with your own provider keys, alongside existing Orkas API services. Connect custom models through OpenAI Responses, Chat Completions or Anthropic protocols, with clearer capacity validation and credential recovery. Create, edit and preview local apps while keeping publishing and project invitations clearly separated from local work. Improvements Open saved automations and linked to-dos directly from their cards, with more reliable task history and recovery. Work more reliably with local CLI agents, Library imports, document processing and interrupted operations. Fixes Preserve captured speech and existing drafts through voice-input startup, completion and interruption, with clearer connecting and recording states. Keep model choices, saved credentials and provider-specific image and v"
+    },
+    {
+      "tag": "v2026.10.17",
+      "title": "Orkas 2026.10.17",
+      "date": "2026-10-21",
+      "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.10.17",
+      "pre": false,
+      "note": "v2026.10.17 Download Download Orkas — Free · 500 credits · No API key needed to start. Highlights Pick up unfinished to-dos and unread task results from a clearer Commander home with direct access to connectors. Manage local projects with clearer action menus, reliable navigation, and more consistent task boards. Clean up older tasks with age filters, explicit selection, running-task confirmation, and reversible recovery. Improvements Install from source reliably and work more smoothly with local CLI agents, Skills, documents, browser permissions, and connector discovery. See localized model-cost savings beside the shared API key, with readable settings on narrow windows. Web apps and project invitations explain commercial requirements while local apps remain available. Fixes Keep interrupted CLI process histories and elapsed durations available without replaying completed work. Find not"
+    },
+    {
+      "tag": "v2026.10.1",
+      "title": "Orkas 2026.10.1",
+      "date": "2026-10-16",
+      "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.10.1",
+      "pre": false,
+      "note": "v2026.10.1 Download Download Orkas Highlights Connect more merchant platforms and discover the right tools for product listings, orders, customer support, and store operations. Organize local project tasks, agents, and resources with clearer setup and conversation filing flows. Find project member invitations in both the sidebar and project details, with guidance on the commercial membership required for collaboration. Improvements Work more reliably with background browser tasks, local tools, and document previews. Fixes Open local projects without unnecessary network loading indicators, and use settings tabs immediately with correctly aligned permission options. Preserve valid marketplace categories during concurrent refreshes and failed cache writes. Full changelog Compare v2026.9.22...v2026.10.1"
+    },
+    {
+      "tag": "v2026.9.22",
+      "title": "Orkas 2026.9.22",
+      "date": "2026-09-22",
+      "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.9.22",
+      "pre": false,
+      "note": "v2026.9.22 Download installers macOS Apple Silicon : Orkas-mac-arm64.dmg macOS Intel : Orkas-mac-x64.dmg Windows x64 : Orkas-Setup.exe Highlights Start common research, office, image, video, design, development, growth, and ecommerce work directly from the refreshed home page. Create AI teams and agents, connect local coding assistants such as Claude Code and Codex, and manage skills from the updated entry points. Use the bundled ecommerce agents and skills for marketplace operations, product listings, customer support, advertising, and analytics. Improvements Manage saved apps with clearer cards, correctly positioned actions, and menus that appear only when needed. Run built-in tools across more model providers with portable schemas and stricter action validation. Fixes Keep the open build privacy-focused by removing conversation sampling and nonessential analytics, with synchronization"
+    },
+    {
+      "tag": "v2026.9.11",
+      "title": "Orkas 2026.9.11",
+      "date": "2026-09-11",
+      "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.9.11",
+      "pre": false,
+      "note": "v2026.9.11 Download installers macOS Apple Silicon : Orkas-mac-arm64.dmg macOS Intel : Orkas-mac-x64.dmg Windows x64 : Orkas-Setup.exe Highlights Organize project to-dos and queued work with the task board, updated task details, and clearer sidebar status. Connect more services with guided setup, task-scoped permissions, and API Key access for credit-based connectors. Browse inside Orkas with tabs, persistent sign-ins, and improved browser recovery after restarting. Improvements Respond to local coding-agent questions and cancel pending input without losing the surrounding task. Use updated built-in workflows for Office documents, visual content, and website analysis. Fixes Recover conversation history without duplicate replies, and preserve newer drafts while earlier messages are being sent. Keep search results working after a restart and restore missing download addresses for built-in "
+    },
+    {
+      "tag": "v2026.8.29",
+      "title": "Orkas 2026.8.29",
+      "date": "2026-08-29",
+      "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.8.29",
+      "pre": false,
+      "note": "v2026.8.29 Download installers macOS Apple Silicon : Orkas-mac-arm64.dmg macOS Intel : Orkas-mac-x64.dmg Windows x64 : Orkas-Setup.exe Highlights Improved Commander reliability across app navigation, file handling, project recipients, and built-in Agents and Skills. Added complete Linux source dependency support and hardened source startup across native runtime checks. Made Codex and local CLI execution more resilient to stalled streams, startup differences, parallel tool results, and native file output formats. Fixed chat handoff and history state, sidebar navigation, video cache recovery, and Office and Whisper fallback behavior. Stabilized Windows runtime path handling, bounded UTF-8 reads, subprocess fixtures, and non-model verification. Full changelog Compare v2026.8.25...v2026.8.29"
+    },
+    {
+      "tag": "v2026.8.25",
+      "title": "Orkas 2026.8.25",
+      "date": "2026-08-25",
+      "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.8.25",
+      "pre": false,
+      "note": "v2026.8.25 Download installers macOS Apple Silicon : Orkas-mac-arm64.dmg macOS Intel : Orkas-mac-x64.dmg Windows x64 : Orkas-Setup.exe What's Changed fix(file-tools): keep file revisions alive across model rounds by @CloudTianTian in #26 fix(core-agent): keep retry display attempts monotonic by @CloudTianTian in #21 fix(saved-apps): sort by save time by @CloudTianTian in #22 fix(library): accept IPC status snapshots by @CloudTianTian in #35 fix(tools): align edit freshness recovery guidance by @CloudTianTian in #34 fix(connectors): hash encrypted grant log fingerprints by @IgnoreMeBut in #36 fix(core-agent): preserve recoverable tool stalls by @CloudTianTian in #37 fix(chat): render linked images inline by @IgnoreMeBut in #39 fix(logging): redact structured error paths safely by @CloudTianTian in #41 Sync release 1.6.6 open-source updates by @Orkas-AI in #42 Full Changelog : v2026.8.11.."
+    },
+    {
+      "tag": "v2026.8.11",
+      "title": "Orkas 2026.8.11",
+      "date": "2026-08-16",
+      "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.8.11",
+      "pre": false,
+      "note": "v2026.8.11 Download installers macOS Apple Silicon : Orkas-mac-arm64.dmg macOS Intel : Orkas-mac-x64.dmg Windows x64 : Orkas-Setup.exe Changes since v2026.7.29 v2026.8.11 Merge pull request #25 from BlueSkyID666/codex/sync-release-1.6.5-tests Sync Orkas release 1.6.5"
+    },
+    {
+      "tag": "v2026.7.29",
+      "title": "Orkas 2026.7.29",
+      "date": "2026-08-16",
+      "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.7.29",
+      "pre": false,
+      "note": "v2026.7.29 Download installers macOS Apple Silicon : Orkas-mac-arm64.dmg macOS Intel : Orkas-mac-x64.dmg Windows x64 : Orkas-Setup.exe Changes since v2026.7.21 v2026.7.29 Merge pull request #17 from Orkas-AI/codex/sync-release-1.6.2 Sync release 1.6.2 Track OrkasOpen website referrals"
+    }
+  ]
+}

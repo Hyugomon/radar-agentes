@@ -1,27 +1,87 @@
-[
-  {
-    "tag": "v1.0.9",
-    "date": "2026-11-11",
-    "url": "https://github.com/rowboatlabs/rowboat/releases/tag/v1.0.9"
-  },
-  {
-    "tag": "v1.0.8",
-    "date": "2026-11-11",
-    "url": "https://github.com/rowboatlabs/rowboat/releases/tag/v1.0.8"
-  },
-  {
-    "tag": "v1.0.7",
-    "date": "2026-11-03",
-    "url": "https://github.com/rowboatlabs/rowboat/releases/tag/v1.0.7"
-  },
-  {
-    "tag": "v1.0.6",
-    "date": "2026-11-03",
-    "url": "https://github.com/rowboatlabs/rowboat/releases/tag/v1.0.6"
-  },
-  {
-    "tag": "v1.0.5",
-    "date": "2026-09-30",
-    "url": "https://github.com/rowboatlabs/rowboat/releases/tag/v1.0.5"
-  }
-]
+{
+  "repo": "rowboatlabs/rowboat",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "v1.0.9",
+      "title": "v1.0.9",
+      "date": "2026-11-11",
+      "url": "https://github.com/rowboatlabs/rowboat/releases/tag/v1.0.9",
+      "pre": false,
+      "note": "What's new This release brings together the major changes since v1.0.3 , with a focus on building and working with your own team of AI coworkers. 🤖 Bring your AI teammates into Spaces. Create hosted Hermes, Claude Code, and Codex agents, or connect agents you already run—including Claude Code and Codex on your own computer. Give them roles and personalities, add them to a shared space, and let them work alongside you and each other. Choose who can ask each agent for help, follow its progress, and handle approvals in the conversation. Managed agents gain Composio integrations for connected services, and super agents can create other agents to delegate work to, with permission prompts on by default. 🌐 Spaces on the web and on your phone. Use Spaces in your browser for conversations, agents, shared files, and notifications. The iOS app gains richer messaging, editable notes and files, inl"
+    },
+    {
+      "tag": "v1.0.8",
+      "title": "v1.0.8",
+      "date": "2026-11-11",
+      "url": "https://github.com/rowboatlabs/rowboat/releases/tag/v1.0.8",
+      "pre": false,
+      "note": "Mobile: links open the right screen from a cold start; iOS 1.1.0 ( #1357 ) The phone's link routes from #1354 , tested on the simulator against the one-server production build: - A link that launches the app waited for nothing: sign-in was still loading, so it fell through to Home. It now waits for sign-in and the server record. - The hand-off page's \"Open in the Rowboat app\" (rowboat://open?...) had no route and showed \"Unmatched Route\". It maps onto the same routes as the https links; an invite goes to the join screen. - A message link to a reply used the reply's id as the thread root, so live replies, read marks and sends went nowhere. The thread takes the root the server answers with. - Chats opened by link or push were titled \"Space\" / \"#undefined\". They are named from Home's cached list or the server; a DM for the other person. The thread header names its space the same way. - A ch"
+    },
+    {
+      "tag": "v1.0.7",
+      "title": "v1.0.7",
+      "date": "2026-11-03",
+      "url": "https://github.com/rowboatlabs/rowboat/releases/tag/v1.0.7",
+      "pre": false,
+      "note": "This prerelease carries the Spaces skill refresh instruction into desktop-managed agents: update and read the latest rowboat-spaces skill once per session, with an offline fallback. The shared skill also asks directly connected Hermes agents to check for supported Rowboat plugin updates once per session and defer any gateway restart until active work is finished. It supersedes v1.0.6, whose Linux packaging failed after the GitHub runner changed to Ubuntu 26.04. The Linux release runner is pinned to Ubuntu 24.04 in #1293 . All final-head PR checks passed before merge. The release workflow passed on macOS, Windows and Linux; all installers and ZIP packages are published below. Like v1.0.6, this includes the other main-branch changes since v1.0.5. This is a prerelease, not a promotion to the stable desktop channel. What's Changed Pin Linux release runner to Ubuntu 24.04 for RPM compatibilit"
+    },
+    {
+      "tag": "v1.0.6",
+      "title": "v1.0.6",
+      "date": "2026-11-03",
+      "url": "https://github.com/rowboatlabs/rowboat/releases/tag/v1.0.6",
+      "pre": false,
+      "note": "Superseded by v1.0.7 , which includes the Linux packaging fix and installers for all platforms. This desktop prerelease includes the shared Spaces prompt that refreshes the Rowboat skill once per session, plus the other merged changes since v1.0.5. The skill now also guides standalone Hermes plugin maintenance without interrupting active work. Validation: all checks on PR #1292 passed (Harbor, apps/x tests and typecheck, Electron package smoke test). Platform packages are built and attached by the release workflow. Requested by Ramnique Singh, https://rowboat.spaces.x.rowboatlabs.com/s/01M0HWBJR0KSG04PWM4411N29X/m/01M6B79F0NFDPB6N6RQQXC2ZWD . What's Changed Agent members: the invocation contract and its implementation by @ramnique in #1140 Replicas on the agent contract: agent kinds, connectors Harbor runs, and the Replicas connector by @ramnique in #1142 Agents see mention tokens, and l"
+    },
+    {
+      "tag": "v1.0.5",
+      "title": "v1.0.5",
+      "date": "2026-09-30",
+      "url": "https://github.com/rowboatlabs/rowboat/releases/tag/v1.0.5",
+      "pre": false,
+      "note": "No content."
+    },
+    {
+      "tag": "v1.0.4",
+      "title": "v1.0.4",
+      "date": "2026-09-22",
+      "url": "https://github.com/rowboatlabs/rowboat/releases/tag/v1.0.4",
+      "pre": false,
+      "note": "Add ChatGPT onboarding login and simplify setup ( #1119 ) * Add ChatGPT onboarding login and simplify setup * Fix unnecessary onboarding scroll overflow * Focus onboarding dialog instead of API-key link on startup"
+    },
+    {
+      "tag": "v1.0.3",
+      "title": "v1.0.3",
+      "date": "2026-09-17",
+      "url": "https://github.com/rowboatlabs/rowboat/releases/tag/v1.0.3",
+      "pre": false,
+      "note": "What's new 🌐 Introducing Rowboat Spaces. Every teammate. Their own agent. One Space. Rowboat becomes a multiplayer personal assistant for work. A Space brings your team’s conversations, files, and whiteboards together, and everyone brings their own Rowboat: their own memory, tools, and model keys. Your personal assistant can now work alongside your teammates and their assistants in the same room. 🤖 Ask in the Space. Your Rowboat takes it from there. Type @rowboat what is missing? and your Rowboat picks it up on your machine, draws on your Brain, email, meetings, and notes, and brings the answer back as “You (via Rowboat)” . Your personal knowledge stays on your machine; the Space holds what you and your agent choose to share. The room gets a 👀 while work is underway and a ✅ when it settles. If your Rowboat needs a decision, permission, or a private conversation, it leaves a ❗ and asks"
+    },
+    {
+      "tag": "v1.0.2",
+      "title": "v1.0.2",
+      "date": "2026-09-15",
+      "url": "https://github.com/rowboatlabs/rowboat/releases/tag/v1.0.2",
+      "pre": false,
+      "note": "What's new 🌐 Introducing Rowboat Spaces. Every teammate. Their own agent. One Space. Rowboat becomes a multiplayer personal assistant for work. A Space brings your team’s conversations, files, and whiteboards together, and everyone brings their own Rowboat: their own memory, tools, and model keys. Your personal assistant can now work alongside your teammates and their assistants in the same room. 🤖 Ask in the Space. Your Rowboat takes it from there. Type @rowboat what is missing? and your Rowboat picks it up on your machine, draws on your Brain, email, meetings, and notes, and brings the answer back as “You (via Rowboat)” . Your personal knowledge stays on your machine; the Space holds what you and your agent choose to share. The room gets a 👀 while work is underway and a ✅ when it settles. If your Rowboat needs a decision, permission, or a private conversation, it leaves a ❗ and asks"
+    },
+    {
+      "tag": "v1.0.1",
+      "title": "v1.0.1",
+      "date": "2026-09-15",
+      "url": "https://github.com/rowboatlabs/rowboat/releases/tag/v1.0.1",
+      "pre": false,
+      "note": "What's new 🌐 Introducing Rowboat Spaces. Every teammate. Their own agent. One Space. Rowboat becomes a multiplayer personal assistant for work. A Space brings your team’s conversations, files, and whiteboards together, and everyone brings their own Rowboat: their own memory, tools, and model keys. Your personal assistant can now work alongside your teammates and their assistants in the same room. 🤖 Ask in the Space. Your Rowboat takes it from there. Type @rowboat what is missing? and your Rowboat picks it up on your machine, draws on your Brain, email, meetings, and notes, and brings the answer back as “You (via Rowboat)” . Your personal knowledge stays on your machine; the Space holds what you and your agent choose to share. The room gets a 👀 while work is underway and a ✅ when it settles. If your Rowboat needs a decision, permission, or a private conversation, it leaves a ❗ and asks"
+    },
+    {
+      "tag": "v1.0.0",
+      "title": "v1.0.0",
+      "date": "2026-09-15",
+      "url": "https://github.com/rowboatlabs/rowboat/releases/tag/v1.0.0",
+      "pre": false,
+      "note": "Merge pull request #1083 from rowboatlabs/copy-download feat(spaces): add file copy and download menu actions"
+    }
+  ]
+}

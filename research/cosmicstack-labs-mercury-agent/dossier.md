@@ -5,7 +5,7 @@
 - **Licencia**: MIT
 - **Lenguaje**: TypeScript
 - **Estrellas**: 3898 · **Forks**: 397
-- **Último push**: 2026-11-12T07:21:12Z · **Última release**: 2026-11-03
+- **Último push**: 2026-11-12T07:21:12Z · **Última release**: 2026-11-14
 - **Revisado**: 2026-11-12 · **Confianza**: 74/100
 - **Tipo**: agent · **Categoría**: teams
 
@@ -18,6 +18,15 @@ Agente personal local con herramientas endurecidas por permisos, presupuestos de
 ## Nota de verificación
 
 README: memoria en SQLite, scheduler, bots persistentes con especialistas, aprobaciones, daemon always-on. Opera archivos, shell, git y web; no es una GUI completa.
+
+## Release revisada
+
+- **Tag**: [optimus-v0.5.2](https://github.com/cosmicstack-labs/mercury-agent/releases/tag/optimus-v0.5.2)
+- **Fecha**: 2026-11-14 (hace 1 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> Plugin-only update. Install or update with /plugins update optimus , or Plugins → Optimus → Update in Mercury Desktop. Works with Mercury 1.3.9 and newer; screenshot sizing per model needs Mercury 1.5.2. Screenshots sized for the model in use. Optimus resizes each capture to what the model reads best: Claude and OpenAI 1024×640, Gemini 768×480, open vision models 896×560. Click coordinates stay exact. No screenshot for models that can't see images. Optimus says which window is in front instead of sending a picture the model can't read.
 
 ## Evidencia de la investigación
 

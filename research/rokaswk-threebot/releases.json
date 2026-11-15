@@ -1,27 +1,79 @@
-[
-  {
-    "tag": "Threebot 0.1.6",
-    "date": "2026-11-11",
-    "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.6"
-  },
-  {
-    "tag": "Threebot 0.1.5",
-    "date": "2026-11-07",
-    "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.5"
-  },
-  {
-    "tag": "Threebot 0.1.4",
-    "date": "2026-11-06",
-    "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.4"
-  },
-  {
-    "tag": "Threebot 0.1.3",
-    "date": "2026-11-06",
-    "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.3"
-  },
-  {
-    "tag": "Threebot 0.1.2",
-    "date": "2026-11-06",
-    "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.2"
-  }
-]
+{
+  "repo": "RokaSwK/threebot",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "v0.1.8",
+      "title": "Threebot 0.1.8",
+      "date": "2026-11-14",
+      "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.8",
+      "pre": false,
+      "note": "v0.1.8 · 2 changes from 2 contributors Quieter rooms. A room's notifications are held back on the device that has that room open, and still reach your other devices. Plus 1 more change. Full changelog What's Changed Hold a room push back while that room is on screen by @cristianbdev in #61 Release 0.1.8 by @RokaSwK in #62 Full Changelog : v0.1.7...v0.1.8"
+    },
+    {
+      "tag": "v0.1.7",
+      "title": "Threebot 0.1.7",
+      "date": "2026-11-14",
+      "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.7",
+      "pre": false,
+      "note": "v0.1.7 · 11 changes from 3 contributors Rooms. Put several Bots in one room, talk to them together, and run panels or roundtables where they answer each other. See what's new. Updates now show their release notes in the app, with who made each change. Your other machines. See linked machines, open their threads in Threebot, and get told when one goes offline. Bots from existing projects. Turn a project you already have into a Bot without touching its git. Shape a Bot's role. Give a Bot its role when you create it, and edit its standing instructions later. Better composer. An @ mention menu, and lists that continue when you press Enter. PDFs, Mac app and dictation. View PDFs in chat, a steadier Mac app window and microphone, and OpenAI or Gemini dictation (beta). Plus 1 more change. Full changelog What's Changed Make a Bot from an existing project, without touching its git by @RokaSwK in "
+    },
+    {
+      "tag": "v0.1.6",
+      "title": "Threebot 0.1.6",
+      "date": "2026-11-11",
+      "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.6",
+      "pre": false,
+      "note": "What's Changed Landing: show the GitHub star count by @RokaSwK in #35 Landing: keep the release pill on the latest release by @RokaSwK in #36 Landing: retire the old app's service worker on bot.swk.tools by @RokaSwK in #38 feat: add Web Push notifications by @cristianbdev in #41 feat: add durable Bot memory foundation by @cristianbdev in #39 Show every Library filter and keep Turn off on one line in narrow panels by @RokaSwK in #45 Improve model picker with subProvider badges, favorites, and options panel by @cristianbdev in #44 Mac app: Threebot in a native window by @mertbozkir in #43 Add icons for all built-in T3 Code providers by @cristianbdev in #42 Make memory a Markdown file that the Bot and you both edit by @RokaSwK in #46 Let Bots act on their own and take requests from other Bots by @RokaSwK in #47 Threebot 0.1.6 by @RokaSwK in #48 New Contributors @mertbozkir made their first "
+    },
+    {
+      "tag": "v0.1.5",
+      "title": "Threebot 0.1.5",
+      "date": "2026-11-07",
+      "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.5",
+      "pre": false,
+      "note": "What's Changed Add opt-in anonymous usage stats, off until you say yes by @RokaSwK in #27 Write automatic updates to logs/update.log, like a manual update by @RokaSwK in #29 Show drawn avatar options with their eyes, in the big preview, and as the only selection by @RokaSwK in #30 Let Bots wear any colour, with a custom colour picker that keeps every face readable by @RokaSwK in #31 Send opt-in usage stats to stats.swk.tools by @RokaSwK in #32 Tap any chat image to open it full size, with zoom, swipe and Back to close by @RokaSwK in #33 Threebot 0.1.5 by @RokaSwK in #34 Full Changelog : v0.1.4...v0.1.5"
+    },
+    {
+      "tag": "v0.1.4",
+      "title": "Threebot 0.1.4",
+      "date": "2026-11-06",
+      "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.4",
+      "pre": false,
+      "note": "What's Changed Dictate in Firefox and other browsers without Web Speech by transcribing on T3 Code by @RokaSwK in #19 Make the avatar editor one flat surface, and draw new objects in seconds on a fast model by @RokaSwK in #25 Move the web tests and service worker to TypeScript, and type-check only with tsrs by @RokaSwK in #26 Let Bots start fresh: /clear in chat and fresh-session routines on newer T3 Code by @RokaSwK in #18 Threebot 0.1.4 by @RokaSwK in #28 Full Changelog : v0.1.3...v0.1.4"
+    },
+    {
+      "tag": "v0.1.3",
+      "title": "Threebot 0.1.3",
+      "date": "2026-11-06",
+      "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.3",
+      "pre": false,
+      "note": "What's new Avatars act out what the Bot is doing. They think, search, write, run tools, wait for you or celebrate, using the engine's full set of animations instead of a spinning ring. ( #22 ) New avatar editor. It uses Open Bot Avatar 0.2.0, and drawing a new avatar now happens in the background, with Use, Try again or Discard, instead of in the Bot's chat. ( #16 ) Live PR chips. Each chip shows its PR's real status (Open, Draft, Merged or Closed, plus checks), and merged or closed chips go away. ( #15 ) App logos on connect cards. The cards now show the app's logo, with a check badge once the app is connected. ( #21 ) The server is now TypeScript. Node runs it directly and tsrs type-checks it. ( #23 ) New landing page: dark, with the app drawn live. ( #20 ) Requires Node 22.18 or newer. Existing installs update as usual from Settings → Updates or with threebot update . Full changelog: "
+    },
+    {
+      "tag": "v0.1.2",
+      "title": "Threebot 0.1.2",
+      "date": "2026-11-06",
+      "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.2",
+      "pre": false,
+      "note": "What's new Update button. A button in the sidebar footer appears when a new release is out. Threebot checks every 15 minutes, and Settings → Updates has a \"Check now\" button with the last-checked time. ( #9 ) Update automatically. A new switch in Settings → Updates, off by default. It installs new releases only when no Bot is busy, and rolls back if the new version doesn't start. ( #11 ) Projects is now a beta. Turn it on in Settings → Beta. Installs that already have a board keep it on. ( #12 ) tsrs. The web app is now type-checked with tsrs, the Rust port of TypeScript 7. ( #14 ) Install or update: Settings → Updates, or threebot update . Full changelog: v0.1.1...v0.1.2"
+    },
+    {
+      "tag": "v0.1.1",
+      "title": "Threebot 0.1.1",
+      "date": "2026-11-05",
+      "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.1",
+      "pre": false,
+      "note": "What's Changed Publish the landing page to GitHub Pages, apart from the app by @RokaSwK in #7 Guide for Google sign-in through Cloudflare Access by @RokaSwK in #6 Support configurable voice language and live dictation by @cristianbdev in #2 Keep up with T3 Code 0.1.8: one-time routines, child approvals and Force stop by @RokaSwK in #8 Threebot 0.1.1 by @RokaSwK in #10 Full Changelog : v0.1.0...v0.1.1"
+    },
+    {
+      "tag": "v0.1.0",
+      "title": "Threebot 0.1.0",
+      "date": "2026-11-05",
+      "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.0",
+      "pre": false,
+      "note": "What's Changed Preserve newlines on mobile Enter in the composer by @cristianbdev in #1 Publish what's live: side chats, object avatars, Projects and security fixes by @RokaSwK in #4 One-line install, in-app updates and one-click Tailscale or Cloudflare access by @RokaSwK in #5 New Contributors @cristianbdev made their first contribution in #1 @RokaSwK made their first contribution in #4 Full Changelog : https://github.com/RokaSwK/threebot/commits/v0.1.0"
+    }
+  ]
+}

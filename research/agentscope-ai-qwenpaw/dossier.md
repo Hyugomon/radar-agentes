@@ -19,6 +19,15 @@ Asistente personal open source que se instala en tu máquina o en la nube, se co
 
 Revisión previa + README: asistente personal que se instala en tu máquina o nube y se conecta a varias apps. Sin evidencia de coordinación de equipo.
 
+## Release revisada
+
+- **Tag**: [v2.3.0](https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.3.0)
+- **Fecha**: 2026-11-11 (hace 4 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> What's Changed ✨ Added Piccolo Local Decision Models Add Piccolo 4B, 9B, and 27B as local decision models for tool review and context compaction, with BF16 and Q8_0 recommendations, runtime installation and updates, and Hugging Face or ModelScope downloads. Review and compaction remain opt-in; the local runtime serves one model at a time ( #8463 , #8573 ) QwenPaw Community Browse, sort, and comment on QwenPaw Community posts from the Console, draft resource-linked issue reports with model assistance, and open the community editor. Connect an account to sync selected message categories to the Inbox and desktop notifications ( #7903 ) Console &amp; Desktop Add the optional OpenUI plugin to dis
+
 ## Evidencia de la investigación
 
 ### ✅ Identidad

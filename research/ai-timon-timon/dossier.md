@@ -19,6 +19,15 @@ Equipo de agentes de IA que corre en tu propia máquina, trabaja con las suscrip
 
 Revisión previa + README: equipo de agentes que corre en tu máquina y trabaja con tus suscripciones CLI; aprobaciones y trabajo desatendido.
 
+## Release revisada
+
+- **Tag**: [v0.1.7](https://github.com/ai-timon/timon/releases/tag/v0.1.7)
+- **Fecha**: 2026-11-06 (hace 9 días)
+- **Estado**: reciente · **Releases en 90 días**: 1
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> Added Plugins can draw their menu entry with the product's own ( NavLink from @timon/ui ), so it folds with the side menu instead of squeezing its label into it. When accounts beyond the first superadmin are suspended (no pro licence, or no Multi-user plugin), the superadmin gets a card saying why; their data are kept. Signed plugins can now manage a team's accounts: add accounts and open their sessions ( accounts:provision ), say which rights each account holds ( accounts:permissions-source ), and serve pages without a session such as an invitation ( http:public ). The account provider also reads and updates the accounts it serves, writes the audit log, and reads the catalogue of rights a r
+
 ## Evidencia de la investigación
 
 ### ✅ Identidad

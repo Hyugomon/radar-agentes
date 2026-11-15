@@ -5,7 +5,7 @@
 - **Licencia**: Apache-2.0
 - **Lenguaje**: TypeScript
 - **Estrellas**: 9899 · **Forks**: 1231
-- **Último push**: 2026-11-12T07:34:14Z · **Última release**: 2026-11-11
+- **Último push**: 2026-11-12T07:34:14Z · **Última release**: 2026-11-13
 - **Revisado**: 2026-11-12 · **Confianza**: 60/100
 - **Tipo**: agent · **Categoría**: general
 
@@ -18,6 +18,15 @@ Agente de IA de escritorio y móvil que trabaja en tus propios equipos, mantiene
 ## Nota de verificación
 
 Revisión previa + README: agente que trabaja en tus propios equipos y mantiene la sesión entre dispositivos. Sin evidencia de multi-bot.
+
+## Release revisada
+
+- **Tag**: [v0.1.136](https://github.com/makecindy/cindy/releases/tag/v0.1.136)
+- **Fecha**: 2026-11-13 (hace 2 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> Desktop release 0.1.136 更新说明 🤖 模型组：把多个模型排成一条路线 新增模型组设置：把已连接的模型合成一条路线，按额度、顺序或轮次自动挑选；路线还能跨电脑和共享供应商取用。任务会用一句话说明这次选了哪个来源、为什么。 @zqchris 👥 带项目的伙伴群聊 群可以绑定一个项目，伙伴在群里开出的任务、@ 唤醒与任务卡都落到这里，任务结果也会回到群里。群里的 Cindy 会标明替谁说话；伙伴文案统一为「伙伴」。 @DavidShenXD @nanaco666 @zqchris 🐙 GitHub 事件自动触发任务 连接 GitHub 后，所选仓库的事件可以直接触发自动化任务，关注的 PR 会随事件自动刷新；PR 悬浮卡片支持复制链接，手机任务菜单也能查看关联 PR。 @dashhuang @zqchris 🧩 插件界面更完整 插件现在可以扩展导航、任务菜单、输入补全和统一设置，并处理附件、折叠侧栏与标题栏按钮；MCP Apps 的卡片界面能按账号保存自己的页面状态，插件市场与统计读取也更轻快。 @GaoWeiLiuXD @fmfsaisai 🎨 主题创建器与完整外观包 新增主题创建器，可导入、编辑并分享完整的 v2 外观包，主题默认值与手动覆盖更清楚，切换后能精确恢复。输入框高度、复选框、动效和颜色也按设计规范统一。 @GaoWeiLiuXD @kirozeng 🧭 首次登录开始引导 首次登录或进入本机模式后会显示一次开始引导，串联迁移助理、连接模型与本机导入。设置里的迁移助理入口下移，并新增「开始引导」入口。 @dashhuang 🖥️ 远程
 
 ## Evidencia de la investigación
 

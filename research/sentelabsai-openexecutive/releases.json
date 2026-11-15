@@ -1,27 +1,87 @@
-[
-  {
-    "tag": "v0.7.2",
-    "date": "2026-11-11",
-    "url": "https://github.com/SenteLabsAI/OpenExecutive/releases/tag/v0.7.2"
-  },
-  {
-    "tag": "v0.7.1",
-    "date": "2026-11-10",
-    "url": "https://github.com/SenteLabsAI/OpenExecutive/releases/tag/v0.7.1"
-  },
-  {
-    "tag": "v0.7.0",
-    "date": "2026-11-07",
-    "url": "https://github.com/SenteLabsAI/OpenExecutive/releases/tag/v0.7.0"
-  },
-  {
-    "tag": "v0.6.9",
-    "date": "2026-11-03",
-    "url": "https://github.com/SenteLabsAI/OpenExecutive/releases/tag/v0.6.9"
-  },
-  {
-    "tag": "v0.6.8",
-    "date": "2026-10-30",
-    "url": "https://github.com/SenteLabsAI/OpenExecutive/releases/tag/v0.6.8"
-  }
-]
+{
+  "repo": "SenteLabsAI/OpenExecutive",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "v0.7.3",
+      "title": "v0.7.3",
+      "date": "2026-11-12",
+      "url": "https://github.com/ForeactLabs/OpenExecutive/releases/tag/v0.7.3",
+      "pre": false,
+      "note": "0.7.3 (2026-11-12) Added integrations: add Approve and Skip buttons to Google Chat cards ( #806 ) ( 9f0c9dc ) ui: give email cards one set of buttons and answer questions on them ( #811 ) ( 33073d0 ) Fixed delegation: reply in the thread to whoever they ask, on the waiting card when there is one ( #810 ) ( 5df30ac ) integrations: check a Google Chat tap before its buttons come off ( #808 ) ( 6639fd5 ) integrations: move Google Workspace MCP to 2.4.2 ( #812 ) ( 95ebc8e )"
+    },
+    {
+      "tag": "v0.7.2",
+      "title": "v0.7.2",
+      "date": "2026-11-11",
+      "url": "https://github.com/ForeactLabs/OpenExecutive/releases/tag/v0.7.2",
+      "pre": false,
+      "note": "0.7.2 (2026-11-11) Added integrations: treat a Google Chat sender on People as signed in ( #805 ) ( c2a4e41 ) Fixed chat: log a timed-out suggestion call as a warning ( #798 ) ( e87b0ff ) chat: put held steps on one Approve card and keep draft files ( #803 ) ( 80d3889 ) ui: stop forwarding the browser's accept-encoding to the API ( #804 ) ( 21b6e50 ) ui: stop the chat mic repeating words and sounds on Android ( #800 ) ( 6c75c17 )"
+    },
+    {
+      "tag": "v0.7.1",
+      "title": "v0.7.1",
+      "date": "2026-11-10",
+      "url": "https://github.com/ForeactLabs/OpenExecutive/releases/tag/v0.7.1",
+      "pre": false,
+      "note": "0.7.1 (2026-11-10) Added briefing: say why a document's card is there ( #775 ) ( 29f903d ) briefing: show watch suggestions in Needs you ( #772 ) ( a370704 ) briefing: show what As me did, and what it is watching, on Home ( #779 ) ( 5bcea3c ) delegate: one page with In training above Approvals on both sides ( #756 ) ( 4100002 ) delegation: do what an email asks before its reply card shows ( #762 ) ( ab58090 ) delegation: put the mailbox in How far it goes as you and send only settled replies ( #777 ) ( 5fb9818 ) documents: search documents and share one by link ( #789 ) ( 93d51bb ) goals: add a Done status for finished goals ( #781 ) ( b76cca2 ) knowledge: list the questions no document could answer ( #787 ) ( 1de4802 ) memory: answer every peer-memory use from our own memory ( #751 ) ( 5da5526 ) memory: show what Learning got right, not what fell short ( #748 ) ( 1320984 ) memory: use l"
+    },
+    {
+      "tag": "v0.7.0",
+      "title": "v0.7.0",
+      "date": "2026-11-07",
+      "url": "https://github.com/ForeactLabs/OpenExecutive/releases/tag/v0.7.0",
+      "pre": false,
+      "note": "0.7.0 (2026-11-07) Added alerts: let a card ask for an answer, a pick, an OK, or nothing ( #718 ) ( 12bc909 ) briefing: fold old Needs you cards and group a request's approvals ( #709 ) ( 5f87e70 ) briefing: show Home as Needs you and Done for you, each item once ( #710 ) ( 8194ba5 ) briefing: show Right now as a plain list of what's waiting ( #708 ) ( a0824c3 ) chat: answer Needs you cards by saying yes, no or an answer ( #722 ) ( 9ed0447 ) chat: change an email draft on its chat card in place ( #704 ) ( 16910ca ) memory: keep decisions as standing facts and stop extracting advice ( 5ea6ad5 ) memory: keep the figures it works out, with source and date ( #697 ) ( 49e75c8 ) memory: let lessons learn from what people actually say ( #693 ) ( 9a32ae5 ) memory: let mail chats teach the owner's own memory ( #695 ) ( 71f2d6f ) memory: let people edit or remove what it keeps about them ( #700 ) "
+    },
+    {
+      "tag": "v0.6.9",
+      "title": "v0.6.9",
+      "date": "2026-11-03",
+      "url": "https://github.com/ForeactLabs/OpenExecutive/releases/tag/v0.6.9",
+      "pre": false,
+      "note": "0.6.9 (2026-11-03) Added chat: show a long turn's plan up front ( #680 ) ( a1f81d2 ) chat: show a long turn's steps with Stop and I'll finish it ( #677 ) ( 5168b28 ) chat: show what a long turn is doing and has found, not a step list ( #688 ) ( aa62c5e ) delegation: send tables in Act as me drafts as real HTML tables ( #670 ) ( dad574e ) integrations: ask on a card before saving into a Drive folder shared outside the team ( #672 ) ( c047872 ) people: add search, sort and a Changes tab to the People page ( #674 ) ( 48ab97d ) Fixed briefing: keep Right now points stable and lead with the next step ( #687 ) ( f246fb3 ) chat: drop chips for failed tools and false flags on calendar notices ( #676 ) ( f719147 ) chat: show a content flag only as the reason for a held step ( #682 ) ( f50cca4 ) chat: stop flagging the past-chat search's own words as email instructions ( #671 ) ( 1530e0c ) files: "
+    },
+    {
+      "tag": "v0.6.8",
+      "title": "v0.6.8",
+      "date": "2026-10-30",
+      "url": "https://github.com/ForeactLabs/OpenExecutive/releases/tag/v0.6.8",
+      "pre": false,
+      "note": "0.6.8 (2026-10-30) Added briefing: dismiss a Right now point and drop mail whose sender you wrote to ( #665 ) ( 24e577b ) chat: attach, split and save any file by one handle ( #663 ) ( 6cd7d4c ) chat: search the speaker's own earlier chats before looking things up again ( #660 ) ( 1ff8263 ) delegation: take replaced chat drafts out of the person's Drafts ( #655 ) ( 622211c ) integrations: decide every waiting card from a chat app ( #658 ) ( 49c27bb ) Fixed chat: book on the company clock and stop false holds and flags ( #659 ) ( ac38ef1 ) chat: stop flagging the Executive's own tool notes as email instructions ( #662 ) ( 8261476 ) people: fill contact details from signatures and add the right contacts ( #657 ) ( d89c1b7 ) workflows: send Gemini's reasoning back in action steps and the designer ( #664 ) ( d77a9c0 )"
+    },
+    {
+      "tag": "v0.6.7",
+      "title": "v0.6.7",
+      "date": "2026-10-28",
+      "url": "https://github.com/ForeactLabs/OpenExecutive/releases/tag/v0.6.7",
+      "pre": false,
+      "note": "0.6.7 (2026-10-27) Added briefing: open and reply to Right now's email points from Home ( #651 ) ( ddc4429 ) briefing: show your own inbox in Right now and message you when it changes ( #640 ) ( 428456a ) delegation: open reply cards as a conversation and redraft on newer mail ( #639 ) ( bd293a7 ) orchestrator: answer on a pushback model after the person pushes back ( #653 ) ( 3eb8242 ) ui: warn when the host's user isn't who is signed in, and let hosts read who that is ( #638 ) ( 4c5e154 ) Fixed attunement: raise the open-loop caps ( #642 ) ( fc0ea3c ) briefing: drop answered mail from Right now and show its steps while it updates ( #652 ) ( 297cbe0 ) evals: give MCP scenarios a gateway so they can reach their tools ( #563 ) ( d9c629e ) people: read a contact's signature from their newest signed mail, again on new mail ( #649 ) ( d27ff6e ) people: time the contact keeper's next run from"
+    },
+    {
+      "tag": "v0.6.6",
+      "title": "v0.6.6",
+      "date": "2026-10-26",
+      "url": "https://github.com/ForeactLabs/OpenExecutive/releases/tag/v0.6.6",
+      "pre": false,
+      "note": "0.6.6 (2026-10-26) Added ui: a nonce Content-Security-Policy on every page ( #623 ) ( 85b5945 ) ui: confirm changes inside a frame once the browser reports the question seen ( #635 ) ( 9d9ca16 ) ui: let host origins frame the UI and call a short host list ( #628 ) ( 42b626d ) ui: sum up Home under At a glance with more tiles ( #633 ) ( 6d20d9c ) Fixed briefing: stop first-week nudges for steps already done ( #632 ) ( c04bd42 ) chat: stop the host chat list growing once the mark is stored ( #634 ) ( efe9dd4 ) integrations: save briefs and digests into the chat-app conversation ( #636 ) ( e500883 ) ui: count done optional rows and make adding the team optional ( #631 ) ( f211b96 ) workflows: let chat fix a saved workflow on a card and say whose calendar a step reads ( #629 ) ( 582449d )"
+    },
+    {
+      "tag": "v0.6.5",
+      "title": "v0.6.5",
+      "date": "2026-10-24",
+      "url": "https://github.com/ForeactLabs/OpenExecutive/releases/tag/v0.6.5",
+      "pre": false,
+      "note": "0.6.5 (2026-10-24) Added delegation: let the own-mail hold follow the safety level ( #614 ) ( 297218b ) orchestrator: set the safety level per channel and check all outside content ( #612 ) ( f0ae974 ) ui: explain the safety levels with one worked example ( #618 ) ( fa5fb15 ) Fixed chat: stop false mail flags and the reply's note about them ( #617 ) ( 7475f18 ) delegation: prove the sender on Outlook searches too ( #620 ) ( c0077f6 ) delegation: skip the content check on the Executive's own sent mail ( #619 ) ( 6299964 ) onboarding: suggest a website's team as people and show setup's progress ( #610 ) ( 5ae4da4 ) workflows: send scheduled runs as a short message and never a cut-off brief ( #616 ) ( a1964c8 )"
+    },
+    {
+      "tag": "v0.6.4",
+      "title": "v0.6.4",
+      "date": "2026-10-22",
+      "url": "https://github.com/ForeactLabs/OpenExecutive/releases/tag/v0.6.4",
+      "pre": false,
+      "note": "0.6.4 (2026-10-21) Added briefing: show the replies you're waiting on in Right now ( #606 ) ( 823b230 ) delegation: let a workflow answer an email as Handle it for me would, behind an injection check ( #605 ) ( 653d80e ) delegation: send a chat draft written as you on your tap ( #604 ) ( 211a484 ) departments: let goals stand on their own with an owner ( #594 ) ( 3efcb09 ) onboarding: choose Personal or Team automatically and save goals with owners ( #595 ) ( b1f6a1c ) onboarding: draft setup from the company's website ( #597 ) ( af9f387 ) workflows: let a workflow email as its creator, as a draft or sent ( #600 ) ( 21e14e4 ) workflows: let a workflow read its creator's mail and calendar ( #601 ) ( cf86c89 ) workflows: let a workflow that reads mail send to recipients its creator chose ( #602 ) ( 384a024 ) workflows: let action steps use the Executive's chat tools ( #599 ) ( 18449b7 ) Fi"
+    }
+  ]
+}

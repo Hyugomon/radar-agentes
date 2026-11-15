@@ -1,0 +1,87 @@
+{
+  "repo": "davidondrej/cloudroom",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "gui-v154",
+      "title": "Cloudroom v154 (macOS Apple Silicon, Linux x64, Windows x64)",
+      "date": "2026-11-15",
+      "url": "https://github.com/davidondrej/cloudroom/releases/tag/gui-v154",
+      "pre": false,
+      "note": "Cloudroom v154 Archived threads restore cleanly. For Apple Silicon Macs on macOS 13 or later, Linux x64, and Windows x64. Changes The Archived threads page shows a Restored toast with an Open button, real totals, and a Retry when loading fails. Restoring a thread can bring back its subagent threads too. Self-hosters can connect their own Core right from setup, with no Cloudroom account. Keep Awake has three levels and is on by default, only while agents work. Thread notes now say what each thread is for, then where it stands. With two Macs, Cloud threads follow the Mac you are using. Selecting text in a draft shows a simple Copy button below it. Install or update macOS: Quit Cloudroom, download the DMG, open it, and drag Cloudroom into Applications. Your data is kept. Signed and notarized by Apple. Linux x64: For Ubuntu 24.04+ and current Arch Linux. chmod +x Cloudroom-v154-x86_64.AppIma"
+    },
+    {
+      "tag": "core-v0.1.111",
+      "title": "Core 0.1.111",
+      "date": "2026-11-15",
+      "url": "https://github.com/davidondrej/cloudroom/releases/tag/core-v0.1.111",
+      "pre": false,
+      "note": "With two Macs, a Cloud sandbox follows the Mac you are using, and a sleeping Mac no longer holds it. A subagent's own replies always reach its Cloud parent, and a parent's message restarts a subagent whose agent was killed. Self-hosted Cores work with the app's new connect-from-setup flow. Computer use sessions restart on their own and end after 5 idle minutes. Next.js 15 dev and build workers start in Cloud sandboxes. Linux builds of Cloudroom core at 8cb0a5365636 , tested by CI. VMs verify them by SHA-256. Want hosted Cloudroom instead? Get started ."
+    },
+    {
+      "tag": "gui-v153",
+      "title": "Cloudroom v153 (macOS Apple Silicon, Linux x64, Windows x64)",
+      "date": "2026-11-13",
+      "url": "https://github.com/davidondrej/cloudroom/releases/tag/gui-v153",
+      "pre": false,
+      "note": "Cloudroom v153 See which chats need you. For Apple Silicon Macs on macOS 13 or later, Linux x64, and Windows x64. Changes Chats waiting on you stand out in the sidebar: GPU requests in red with an Approve button, everything else in yellow. GPU approvals are a card in the chat instead of a full-screen pop-up, and one approval covers the thread for 24 hours. New Local worktrees no longer wait on the network, so threads start sooner. Settings reopens the last tab you used in each section. With two Macs, the app stays on the Mac you picked and shows which one you are viewing. Opening a sleeping Cloud thread no longer moves it up the sidebar. Security fixes. Install or update macOS: Quit Cloudroom, download the DMG, open it, and drag Cloudroom into Applications. Your data is kept. Signed and notarized by Apple. Linux x64: For Ubuntu 24.04+ and current Arch Linux. chmod +x Cloudroom-v153-x86_6"
+    },
+    {
+      "tag": "gui-v152",
+      "title": "Cloudroom v152 (macOS Apple Silicon, Linux x64, Windows x64)",
+      "date": "2026-11-13",
+      "url": "https://github.com/davidondrej/cloudroom/releases/tag/gui-v152",
+      "pre": false,
+      "note": "Cloudroom v152 Search deeper from Cmd+K. For Apple Silicon Macs on macOS 13 or later, Linux x64, and Windows x64. Changes Cmd+K has a new \"Not here? Search deeper\" link. An agent finds the chat you mean, archived ones too. Switching Claude models in a Cloud thread is now instant, and the chat keeps its full context. Monthly Wrapped: a shareable Story of your last month in Cloudroom. Rename \"This Mac\" on the Accounts page, and one privacy switch hides emails there and in the usage box. New Local worktrees are ready faster. Cloud subagents report back to a sleeping parent right away instead of getting lost. Security fixes. Install or update macOS: Quit Cloudroom, download the DMG, open it, and drag Cloudroom into Applications. Your data is kept. Signed and notarized by Apple. Linux x64: For Ubuntu 24.04+ and current Arch Linux. chmod +x Cloudroom-v152-x86_64.AppImage ./Cloudroom-v152-x86_6"
+    },
+    {
+      "tag": "core-v0.1.110",
+      "title": "Core 0.1.110",
+      "date": "2026-11-13",
+      "url": "https://github.com/davidondrej/cloudroom/releases/tag/core-v0.1.110",
+      "pre": false,
+      "note": "A Cloud subagent's report reaches its parent exactly once, even when the parent is busy or its agent restarts. Moving a Cloud thread back to Local works again and never gets stuck on \"moving\". Pi says clearly when its model can't read images, instead of dropping them. Your own Claude hooks no longer run during Cloudroom's internal Claude checks. One GPU approval now covers the whole thread for 24 hours. Linux builds of Cloudroom core at e350f78474c4 , tested by CI. VMs verify them by SHA-256. Want hosted Cloudroom instead? Get started ."
+    },
+    {
+      "tag": "core-v0.1.109",
+      "title": "Core 0.1.109",
+      "date": "2026-11-13",
+      "url": "https://github.com/davidondrej/cloudroom/releases/tag/core-v0.1.109",
+      "pre": false,
+      "note": "Switching Claude models in a Cloud thread happens inside the running session, instantly and with full context. Every turn and every wake of a Cloud Claude thread uses the model you picked, including messages from your phone and loops. Cloud subagents keep their parent after a model, agent, or project switch, and their reports show up right away. Cloud threads starting at the same moment no longer lose their setup, and sign-in errors say why and how to fix them. GPU sessions support the RTX 4090 and 5090. Linux builds of Cloudroom core at c391f9de558c , tested by CI. VMs verify them by SHA-256. Want hosted Cloudroom instead? Get started ."
+    },
+    {
+      "tag": "gui-v151",
+      "title": "Cloudroom v151 (macOS Apple Silicon, Linux x64, Windows x64)",
+      "date": "2026-11-12",
+      "url": "https://github.com/davidondrej/cloudroom/releases/tag/gui-v151",
+      "pre": false,
+      "note": "Cloudroom v151 Edit messages with no delay. For Apple Silicon Macs on macOS 13 or later, Linux x64, and Windows x64. Changes Editing a sent message now applies at once, and Cloud edits are seconds faster. Sign in to Codex with one button. Cloudroom installs Codex first if it is missing. The Skills page has a new look, with a Featured shelf and a 3-column grid. Wallpaper: put your own image or GIF behind New thread and your chats. On phones, buttons and suggestions respond to every tap, and new threads open right away. Import chats keeps more of your Codex history and groups a repo's worktrees into one project. Security fixes. Install or update macOS: Quit Cloudroom, download the DMG, open it, and drag Cloudroom into Applications. Your data is kept. Signed and notarized by Apple. Linux x64: For Ubuntu 24.04+ and current Arch Linux. chmod +x Cloudroom-v151-x86_64.AppImage ./Cloudroom-v151-"
+    },
+    {
+      "tag": "core-v0.1.108",
+      "title": "Core 0.1.108",
+      "date": "2026-11-12",
+      "url": "https://github.com/davidondrej/cloudroom/releases/tag/core-v0.1.108",
+      "pre": false,
+      "note": "Messages between agent threads are read in the new tag format as well as the old one. Spawning a Cursor child from a Cloud thread gives clearer errors. A new MCP sign-in reaches running Claude Code threads on their next message. Copying files from your Mac checks sizes correctly and refuses files that change mid-copy. Mac jobs started from a Cloud thread reach the right app. Linux builds of Cloudroom core at bb85223d6f44 , tested by CI. VMs verify them by SHA-256. Want hosted Cloudroom instead? Get started ."
+    },
+    {
+      "tag": "gui-v150",
+      "title": "Cloudroom v150 (macOS Apple Silicon, Linux x64, Windows x64)",
+      "date": "2026-11-11",
+      "url": "https://github.com/davidondrej/cloudroom/releases/tag/gui-v150",
+      "pre": false,
+      "note": "Cloudroom v150 Attach files while agents work. For Apple Silicon Macs on macOS 13 or later, Linux x64, and Windows x64. Changes Files and images you send to a busy Cloud agent now reach it right away, instead of waiting or getting lost. After you switch Claude accounts, a thread that hit a limit carries on with the new account. The \"Limit hit\" mark clears as soon as that account works again. A message sent while a Cloud sandbox sleeps or wakes shows a calm reconnecting state, not a red error. Long voice recordings no longer cut off after 10 seconds. Cursor has an Auto-update switch in Settings, off by default. Security fixes. Install or update macOS: Quit Cloudroom, download the DMG, open it, and drag Cloudroom into Applications. Your data is kept. Signed and notarized by Apple. Linux x64: For Ubuntu 24.04+ and current Arch Linux. chmod +x Cloudroom-v150-x86_64.AppImage ./Cloudroom-v150-"
+    },
+    {
+      "tag": "gui-v149",
+      "title": "Cloudroom v149 (macOS Apple Silicon, Linux x64, Windows x64)",
+      "date": "2026-11-11",
+      "url": "https://github.com/davidondrej/cloudroom/releases/tag/gui-v149",
+      "pre": false,
+      "note": "Cloudroom v149 Rewrite drafts before you send. For Apple Silicon Macs on macOS 13 or later, Linux x64, and Windows x64. Changes Edit an agent's draft right in the chat, and preview a shorter version with tracked changes before you use it. Stop now interrupts Local Claude Code and Codex almost instantly, instead of ending them. Settings → Analytics has new tabs for agent hours, models, tokens, and prompts. Settings → Instructions is now Prompts, with an editable prompt for chat suggestions. The usage panel shows each added Claude account's weekly model limits. A turn that never starts now fails and can be retried, instead of staying on \"starting\". Cloud threads write far less to disk while agents type. Install or update macOS: Quit Cloudroom, download the DMG, open it, and drag Cloudroom into Applications. Your data is kept. Signed and notarized by Apple. Linux x64: For Ubuntu 24.04+ and "
+    }
+  ]
+}

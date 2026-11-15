@@ -1,27 +1,87 @@
-[
-  {
-    "tag": "Rome v1.1.192",
-    "date": "2026-11-11",
-    "url": "https://github.com/rome-os/rome/releases/tag/v1.1.192"
-  },
-  {
-    "tag": "v1.1.191",
-    "date": "2026-11-11",
-    "url": "https://github.com/rome-os/rome/releases/tag/v1.1.191"
-  },
-  {
-    "tag": "ui: v0.3.10",
-    "date": "2026-11-11",
-    "url": "https://github.com/rome-os/rome/releases/tag/ui-v0.3.10"
-  },
-  {
-    "tag": "rome-web-components: v0.1.26",
-    "date": "2026-11-11",
-    "url": "https://github.com/rome-os/rome/releases/tag/rome-web-components-v0.1.26"
-  },
-  {
-    "tag": "node: v0.1.10",
-    "date": "2026-11-11",
-    "url": "https://github.com/rome-os/rome/releases/tag/node-v0.1.10"
-  }
-]
+{
+  "repo": "rome-os/rome",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "v1.1.197",
+      "title": "Rome v1.1.197",
+      "date": "2026-11-15",
+      "url": "https://github.com/rome-os/rome/releases/tag/v1.1.197",
+      "pre": false,
+      "note": "The Rome runtime image yunfanye/rome:1.1.197 , built from 02e2b81 . Rome Cloud offers it to instances on its own. To run it yourself, pull yunfanye/rome:1.1.197 . Changes since v1.1.196 No changes to what the image runs. Full changelog: v1.1.196...v1.1.197"
+    },
+    {
+      "tag": "v1.1.196",
+      "title": "Rome v1.1.196",
+      "date": "2026-11-15",
+      "url": "https://github.com/rome-os/rome/releases/tag/v1.1.196",
+      "pre": false,
+      "note": "The Rome runtime image yunfanye/rome:1.1.196 , built from 02e2b81 . Rome Cloud offers it to instances on its own. To run it yourself, pull yunfanye/rome:1.1.196 . Changes since v1.1.195 New lib: let feature gate rules match on email ( #2213 ) Fixes device connect, location and chat notices after the phone test ( #2210 ) web: open the remembered chat-list mode at the home address ( #2214 ) Full changelog: v1.1.195...v1.1.196"
+    },
+    {
+      "tag": "v1.1.195",
+      "title": "Rome v1.1.195",
+      "date": "2026-11-15",
+      "url": "https://github.com/rome-os/rome/releases/tag/v1.1.195",
+      "pre": false,
+      "note": "The Rome runtime image yunfanye/rome:1.1.195 , built from 4df16fd . Rome Cloud offers it to instances on its own. To run it yourself, pull yunfanye/rome:1.1.195 . Changes since v1.1.194 New personal data, device connections, Health sync and the share-location card ( #2165 ) concierge: replace the derived status reaction with a react tool ( #2191 ) web: open a Concierge chat thread in the side pane ( #2183 ) core: let the envoy pass an app agent citing its own documents ( #2170 ) people: let agents read a person's notes instead of the system prompt ( #2158 ) chats: name who said each message the agent reads ( #2157 ) core: describe question cards stored before cards were data ( #2163 ) inbox: tell envoy which agent wrote a reply ( #2155 ) core: connect_account shows a connect card that core owns ( #2127 ) web: add a Chat / Concierge switch to the chat list ( #2122 ) concierge: ask about f"
+    },
+    {
+      "tag": "ui-v0.3.11",
+      "title": "ui: v0.3.11",
+      "date": "2026-11-15",
+      "url": "https://github.com/rome-os/rome/releases/tag/ui-v0.3.11",
+      "pre": false,
+      "note": "0.3.11 (2026-11-15) Features chat: show pictures inline in chat replies with a download button ( #2015 ) ( e481a8a ) web: open Settings as a dialog over the current page ( #2026 ) ( 033fa18 )"
+    },
+    {
+      "tag": "rome-web-components-v0.1.27",
+      "title": "rome-web-components: v0.1.27",
+      "date": "2026-11-15",
+      "url": "https://github.com/rome-os/rome/releases/tag/rome-web-components-v0.1.27",
+      "pre": false,
+      "note": "0.1.27 (2026-11-15) Dependencies The following workspace dependencies were updated dependencies @rome-os/ui bumped to 0.3.11"
+    },
+    {
+      "tag": "node-v0.1.11",
+      "title": "node: v0.1.11",
+      "date": "2026-11-15",
+      "url": "https://github.com/rome-os/rome/releases/tag/node-v0.1.11",
+      "pre": false,
+      "note": "0.1.11 (2026-11-15) Features personal data, device connections, Health sync and the share-location card ( #2165 ) ( 4df16fd )"
+    },
+    {
+      "tag": "libs-v0.0.4",
+      "title": "libs: v0.0.4",
+      "date": "2026-11-15",
+      "url": "https://github.com/rome-os/rome/releases/tag/libs-v0.0.4",
+      "pre": false,
+      "note": "0.0.4 (2026-11-15) Features lib: let feature gate rules match on email ( #2213 ) ( bee837e )"
+    },
+    {
+      "tag": "app-web-sdk-v0.4.1",
+      "title": "app-web-sdk: v0.4.1",
+      "date": "2026-11-15",
+      "url": "https://github.com/rome-os/rome/releases/tag/app-web-sdk-v0.4.1",
+      "pre": false,
+      "note": "0.4.1 (2026-11-15) Features app-runtime: let an app action show its card in the dashboard chat without waiting ( #2038 ) ( 98bca00 ) Dependencies The following workspace dependencies were updated peerDependencies @rome-os/ui bumped from ^0.3.0 to ^0.3.11"
+    },
+    {
+      "tag": "app-runtime-v0.11.4",
+      "title": "app-runtime: v0.11.4",
+      "date": "2026-11-15",
+      "url": "https://github.com/rome-os/rome/releases/tag/app-runtime-v0.11.4",
+      "pre": false,
+      "note": "0.11.4 (2026-11-15) Features app-runtime: an app's card described as data can wait for an answer ( #2125 ) ( db1fc76 ) app-runtime: describe the ask-user card as data, with inputs and an answer ( #2068 ) ( 4d5c71a ) app-runtime: let an action describe its chat card as data ( #2065 ) ( dd9d29b ) app-runtime: let an app action show its card in the dashboard chat without waiting ( #2038 ) ( 98bca00 ) connections: grant apps bounded Feishu document reads ( #2113 ) ( 8c2f831 )"
+    },
+    {
+      "tag": "v1.1.194",
+      "title": "Rome v1.1.194",
+      "date": "2026-11-13",
+      "url": "https://github.com/rome-os/rome/releases/tag/v1.1.194",
+      "pre": false,
+      "note": "The Rome runtime image yunfanye/rome:1.1.194 , built from 8a71a43 . Rome Cloud offers it to instances on its own. To run it yourself, pull yunfanye/rome:1.1.194 . Changes since v1.1.193 New concierge: list what runs for a Concierge chat in one Tasks panel ( #2108 ) connections: grant apps bounded Feishu document reads ( #2113 ) chat: show several pictures as a grid or a list from a pictures block ( #2110 ) concierge: settle the #2011 follow-ups, and label a reply with where its turn came from ( #2104 ) web: mark where new Concierge messages start ( #2099 ) chat: keep a failed turn's error code in its trace summary ( #2106 ) web: show the Concierge status reaction as an emoji on the bubble's top-left corner ( #2101 ) concierge: carry a handoff across session renewals and bound context growth ( #2076 ) concierge: no automated messages in a Concierge chat, and scheduled tasks ( #2088 ) conc"
+    }
+  ]
+}

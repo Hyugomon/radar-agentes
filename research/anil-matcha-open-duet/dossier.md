@@ -19,6 +19,15 @@ Alternativa open-source y autoalojable a Grok Bot y Claude Duet: agentes con nom
 
 README: agentes con nombre, memoria, rutinas, computadora aislada y aprobaciones; un líder delega en especialistas. El servidor puede quedar corriendo.
 
+## Release revisada
+
+- **Tag**: [v0.8.6](https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.6)
+- **Fecha**: 2026-11-11 (hace 4 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> What's Changed test: fix four stale tests that fail on main by @inderpreet001 in #237 Share a server install with other people: members, roles and permissions by @inderpreet001 in #236 docs: describe members, roles and shared workspaces by @inderpreet001 in #238 feat(mobile): chat-first default screen, sliding sidebar, dynamic model &amp; effort switcher, and server profile integration by @jaiprasad04 in #239 feat(docs): add in-app documentation center, visual workflows guide, and fix Windows Google auth command formatting by @jaiprasad04 in #235 feat: hosted workspace grants, workspace switcher and hosted People screen by @inderpreet001 in #240 Full Changelog : v0.8.5...v0.8.6
+
 ## Evidencia de la investigación
 
 ### ✅ Identidad

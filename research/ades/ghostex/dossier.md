@@ -11,6 +11,15 @@
 
 Workspace de escritorio con chats de agentes, editor de código, navegador por agente, automatizaciones y app móvil.
 
+## Release revisada
+
+- **Tag**: [v11.7.1](https://github.com/maddada/Ghostex/releases/tag/v11.7.1)
+- **Fecha**: 2026-11-15 (hace 0 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> macOS: Apple Silicon DMG · Windows: x64 installer · ARM64 installer Linux x64: .deb · .rpm · tarball (mise/ubi) · AppImage · AUR (ghostex-bin) · Linux ARM64: .deb · .rpm · tarball · AppImage Android: APK · iOS: App Store 11.7.1 - 2026-11-15 Ghostex 11.7.1 is out. Sessions no longer wake up and spend your usage on their own after a usage limit or a restart, long chats are compacted before they carry on, workers under a coordinator stop sending you notifications, the project picker and the browser bar show each computer's own logo, sidebar extensions arrive, and Settings search finds only real matches. 🔋 Usage after a limit or a restart Sessions stay put after a usage limit: with Switch accou
+
 ## Evidencia
 
 ### harnesses

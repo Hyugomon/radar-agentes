@@ -1,0 +1,87 @@
+{
+  "repo": "pingdotgg/t3code",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "v0.1.10-nightly.20261115.4723",
+      "title": "T3 Code Nightly 0.1.10-nightly.20261115.4723 (11c425b4b6b3)",
+      "date": "2026-11-15",
+      "url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.10-nightly.20261115.4723",
+      "pre": true,
+      "note": "v0.1.10-nightly.20261115.4723 · 221 changes from 92 contributors Resume Cursor turns. Resume a stopped Cursor turn from its latest checkpoint without sending a new message. Cursor compaction. Manually compact Cursor conversations from the slash menu or context meter. Large pull request diffs. Load a pull request file’s diff on demand when it is too large to show automatically. Faster pull request actions. Pull request actions, title edits, and labels now update immediately across all supported hosts. Faster delegated tasks. Delegated tasks start and finish faster in long threads. Prompt recovery. Prompts awaiting provider acceptance are preserved if the server restarts. Scratch thread protection. Agents can no longer delete the built-in No project workspace and its threads. Plus 205 more bug fixes and performance improvements. Full changelog What's Changed perf(server): text-only browser"
+    },
+    {
+      "tag": "mobile-android-preview-build/4d8f7b0a47340c0caa8ab2ff11ffeea71183938b",
+      "title": "mobile-android-preview-build/4d8f7b0a47340c0caa8ab2ff11ffeea71183938b",
+      "date": "2026-11-15",
+      "url": "https://github.com/pingdotgg/t3code/releases/tag/mobile-android-preview-build%2F4d8f7b0a47340c0caa8ab2ff11ffeea71183938b",
+      "pre": true,
+      "note": "https://expo.dev/accounts/pingdotgg/projects/t3-code/builds/8b1121c3-…"
+    },
+    {
+      "tag": "mobile-android-build/2.3.0/81e495fe123dcf91e6e607b56e62b8e788e624dd",
+      "title": "mobile-android-build/2.3.0/81e495fe123dcf91e6e607b56e62b8e788e624dd: fix(web): load a too-large PR file's diff on demand (#37007)",
+      "date": "2026-11-15",
+      "url": "https://github.com/pingdotgg/t3code/releases/tag/mobile-android-build%2F2.3.0%2F81e495fe123dcf91e6e607b56e62b8e788e624dd",
+      "pre": false,
+      "note": "Co-authored-by: Claude Opus 5.5 noreply@anthropic.com Co-authored-by: Julius Marminge julius0216@outlook.com"
+    },
+    {
+      "tag": "v0.1.10-nightly.20261114.4709",
+      "title": "T3 Code Nightly 0.1.10-nightly.20261114.4709 (dfd2187ccb0f)",
+      "date": "2026-11-14",
+      "url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.10-nightly.20261114.4709",
+      "pre": true,
+      "note": "v0.1.10-nightly.20261114.4709 · 128 changes from 61 contributors Fuzzy project search. Find folders by substring or fuzzy match when adding a local project. Claude thread names. Rename a T3 Code thread using Claude’s /rename command. Faster Pull. Pull no longer waits for background fetches queued behind other repositories. More responsive servers. Windows and Linux servers stay responsive while launching commands. Scheduled tasks without Git. Scheduled tasks now run in non-Git project folders instead of failing during worktree setup. File editor focus. Continue typing in the file editor after sending a line comment without focus jumping to the composer. Worktree cleanup safety. Cleanup preserves untracked and ignored files when submodule checks prevent worktree removal. Plus 118 more bug fixes and performance improvements. Full changelog What's Changed fix(gitlab): glab mr new links the "
+    },
+    {
+      "tag": "v0.1.10-nightly.20261114.4695",
+      "title": "T3 Code Nightly 0.1.10-nightly.20261114.4695 (5a15495de4c1)",
+      "date": "2026-11-14",
+      "url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.10-nightly.20261114.4695",
+      "pre": true,
+      "note": "v0.1.10-nightly.20261114.4695 · 147 changes from 56 contributors Faster updates. Update everything downloads server updates while provider tools install, reducing the wait. Shared document attachments. Agents can now read documents attached by guests in shared threads. Folder search on macOS. Find folders with accented names when adding or cloning a project. Stashed prompts. Stashed prompts retain pasted images and linked environment mentions when restored. Worktree protection. Deleting a project preserves its worktree cleanup policy, preventing unintended checkout removal. Push deleted branches. Push now republishes a local branch when its remote branch has been deleted. Provider retry timeout. Turns stuck in provider retries now fail after 10 minutes instead of running indefinitely. Plus 137 more bug fixes and performance improvements. Full changelog What's Changed fix(server): subagen"
+    },
+    {
+      "tag": "v0.1.10-nightly.20261114.4682",
+      "title": "T3 Code Nightly 0.1.10-nightly.20261114.4682 (820f620e3d63)",
+      "date": "2026-11-14",
+      "url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.10-nightly.20261114.4682",
+      "pre": true,
+      "note": "v0.1.10-nightly.20261114.4682 · 114 changes from 50 contributors Native thread resume. Resume stopped Claude, Codex, and OpenCode threads without adding a continuation message to the conversation. Faster file reveal. Reveal files in Windows File Explorer without waiting for PowerShell to start. Faster usage summaries. See saved usage totals while history refreshes in the background. File editing safety. The editor now prevents autosave from corrupting files that are not valid UTF-8. Recovered queued edits. Recovered queued edits retain their mentions, context, replies, and attachments. Configured push remote. Pushes now respect your configured remote for tracked branches. GitLab fork merge requests. Create merge requests from GitLab forks successfully. Plus 107 more bug fixes and performance improvements. Full changelog What's Changed fix(web): model settings no longer re-render every ro"
+    },
+    {
+      "tag": "v0.1.10-nightly.20261114.4669",
+      "title": "T3 Code Nightly 0.1.10-nightly.20261114.4669 (db2cc2026427)",
+      "date": "2026-11-14",
+      "url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.10-nightly.20261114.4669",
+      "pre": true,
+      "note": "v0.1.10-nightly.20261114.4669 · 64 changes from 7 contributors Custom themes. Have an agent customize T3 Code’s colors and layout. T3 Connect device approval. Require approval before new T3 Connect devices can access a linked machine. Azure DevOps checks. See build validation checks and let agents watch for their results on Azure DevOps pull requests. Faster new threads. New threads start their first agent turn sooner. Faster Azure DevOps reviews. Changed files load faster in the Azure DevOps pull request Code tab. No project file protection. Storage cleanup now preserves untracked files in No project folders under the default cleanup rule. Azure DevOps checkout. Local checkout of Azure DevOps pull requests now works. Plus 56 more bug fixes and performance improvements. Full changelog What's Changed fix(server): Claude can show the user mid-turn text in full by @juliusmarminge in #36384 "
+    },
+    {
+      "tag": "mobile-android-preview-build/129c3f51229a46191dd87ef93fe96dc5e3700bdb",
+      "title": "mobile-android-preview-build/129c3f51229a46191dd87ef93fe96dc5e3700bdb",
+      "date": "2026-11-14",
+      "url": "https://github.com/pingdotgg/t3code/releases/tag/mobile-android-preview-build%2F129c3f51229a46191dd87ef93fe96dc5e3700bdb",
+      "pre": true,
+      "note": "https://expo.dev/accounts/pingdotgg/projects/t3-code/builds/9c417451-…"
+    },
+    {
+      "tag": "mobile-android-build/2.3.0/436e590add017144eb94f2c4a6105cc113d1a1fa",
+      "title": "mobile-android-build/2.3.0/436e590add017144eb94f2c4a6105cc113d1a1fa",
+      "date": "2026-11-14",
+      "url": "https://github.com/pingdotgg/t3code/releases/tag/mobile-android-build%2F2.3.0%2F436e590add017144eb94f2c4a6105cc113d1a1fa",
+      "pre": false,
+      "note": "fix(cli): npm launcher no longer leaves a runtime running after a sto…"
+    },
+    {
+      "tag": "mobile-android-build/2.3.0/9a741b169f25b073d03616efe91c609a86bda7ad",
+      "title": "mobile-android-build/2.3.0/9a741b169f25b073d03616efe91c609a86bda7ad",
+      "date": "2026-11-14",
+      "url": "https://github.com/pingdotgg/t3code/releases/tag/mobile-android-build%2F2.3.0%2F9a741b169f25b073d03616efe91c609a86bda7ad",
+      "pre": false,
+      "note": "fix(terminal): answer OSC color queries so CLIs pick light colors ( #3 …"
+    }
+  ]
+}

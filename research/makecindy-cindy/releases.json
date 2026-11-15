@@ -1,27 +1,87 @@
-[
-  {
-    "tag": "v0.1.133",
-    "date": "2026-11-11",
-    "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.133"
-  },
-  {
-    "tag": "v0.1.133-beta: test(plugin): 等待列表回归的滚动结束回调",
-    "date": "2026-11-11",
-    "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.133-beta"
-  },
-  {
-    "tag": "v0.1.130",
-    "date": "2026-11-10",
-    "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.130"
-  },
-  {
-    "tag": "v0.1.130-beta: fix(models): preserve native subscription feature flag discovery",
-    "date": "2026-11-09",
-    "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.130-beta"
-  },
-  {
-    "tag": "v0.1.128",
-    "date": "2026-11-06",
-    "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.128"
-  }
-]
+{
+  "repo": "makecindy/cindy",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "v0.1.136",
+      "title": "v0.1.136",
+      "date": "2026-11-13",
+      "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.136",
+      "pre": false,
+      "note": "Desktop release 0.1.136 更新说明 🤖 模型组：把多个模型排成一条路线 新增模型组设置：把已连接的模型合成一条路线，按额度、顺序或轮次自动挑选；路线还能跨电脑和共享供应商取用。任务会用一句话说明这次选了哪个来源、为什么。 @zqchris 👥 带项目的伙伴群聊 群可以绑定一个项目，伙伴在群里开出的任务、@ 唤醒与任务卡都落到这里，任务结果也会回到群里。群里的 Cindy 会标明替谁说话；伙伴文案统一为「伙伴」。 @DavidShenXD @nanaco666 @zqchris 🐙 GitHub 事件自动触发任务 连接 GitHub 后，所选仓库的事件可以直接触发自动化任务，关注的 PR 会随事件自动刷新；PR 悬浮卡片支持复制链接，手机任务菜单也能查看关联 PR。 @dashhuang @zqchris 🧩 插件界面更完整 插件现在可以扩展导航、任务菜单、输入补全和统一设置，并处理附件、折叠侧栏与标题栏按钮；MCP Apps 的卡片界面能按账号保存自己的页面状态，插件市场与统计读取也更轻快。 @GaoWeiLiuXD @fmfsaisai 🎨 主题创建器与完整外观包 新增主题创建器，可导入、编辑并分享完整的 v2 外观包，主题默认值与手动覆盖更清楚，切换后能精确恢复。输入框高度、复选框、动效和颜色也按设计规范统一。 @GaoWeiLiuXD @kirozeng 🧭 首次登录开始引导 首次登录或进入本机模式后会显示一次开始引导，串联迁移助理、连接模型与本机导入。设置里的迁移助理入口下移，并新增「开始引导」入口。 @dashhuang 🖥️ 远程连接与桌面稳定性 Agent-Net 支持在电脑间切换连接方式；断网启动不再等待环境下载，SSH 任务跳过本机环境检查。Windows 侧栏闪烁、休眠后误报崩溃、远程桌面首次查询卡住等问题也已修复。 @DavidShenXD @MagicLizi @dashhuang @xuzini-xzn @zqchris 📱 手机角标与提问卡片 手机图标可按待处理任务数显示角标，后台推送和账号汇总会同步更新"
+    },
+    {
+      "tag": "v0.1.136-beta",
+      "title": "v0.1.136-beta: Merge pull request #10208 from makecindy/cindy/merry-morse",
+      "date": "2026-11-12",
+      "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.136-beta",
+      "pre": true,
+      "note": "fix(permissions): 弱化任务内权限入口并调整图标间距"
+    },
+    {
+      "tag": "v0.1.135",
+      "title": "v0.1.135",
+      "date": "2026-11-12",
+      "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.135",
+      "pre": false,
+      "note": "Desktop release 0.1.135 更新说明 🤝 伙伴全面升级 V2 伙伴升级为普通项目运行，启动时自动迁移，并默认继承官方技能与插件技能。记忆、定时任务跨电脑随行，任务结果能带回对话，自动任务可在设置和手机端管理。 @MagicLizi @dashhuang @yan-xdt @zqchris 🌐 Agent-Net 新版连接（Beta） 远程连接新增 Agent-Net 加密通道：优先直连打洞，网络受限时经 443 中继，换网后自动切换，共享任务与媒体全程加密。远程连接页新增拓扑视图，发起远程控制时目标电脑会先确认。 @MagicLizi @dashhuang @fmfsaisai @zqchris 🧩 插件界面扩展与稳定 插件可以基于 MCP Apps 扩展任务界面，提供更丰富的卡片与侧栏页面；草稿归属、窗口滚动与资源释放更稳定，插件也不会被自动降级。 @GaoWeiLiuXD @dashhuang @fmfsaisai 💳 供应商、额度与模型更准 账号额度在切换电脑时显示更准，失败可重试并自动恢复；供应商组按账号池分配，Copilot 与 Codex 识别更完整。新增 MiniMax 与中转站视频协议，Codex 支持手动压缩上下文。 @DavidShenXD @GaoWeiLiuXD @MagicLizi @dashhuang @fmfsaisai @sakiko-toyokawa @xuzini-xzn @yan-xdt @zqchris 📱 手机端更稳 推送注册失败可重试，锁屏实时活动在重连后能继续；任务可以移动到其他项目，并修复了多类线上闪退。群聊与 IM 的来源标签、附件消息标题也更完整。 @dashhuang @zqchris 💬 飞书与 Discord 机器人 飞书商店机器人支持绑定多个账号，组织与商店机器人可以互相关联；Discord 支持白名单服务器频道与独立话题，并保留频道与话题的真实来源名称。 @fmfsaisai 🖥️ 桌面体验与通知 侧栏跟随桌面透明度与模糊，Windows 窗口模糊跟随 Cindy 深浅色；重"
+    },
+    {
+      "tag": "v0.1.135-beta",
+      "title": "v0.1.135-beta",
+      "date": "2026-11-12",
+      "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.135-beta",
+      "pre": true,
+      "note": "fix(desktop): keep account switch from aborting on Agent-Net shared-t…"
+    },
+    {
+      "tag": "v0.1.133",
+      "title": "v0.1.133",
+      "date": "2026-11-11",
+      "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.133",
+      "pre": false,
+      "note": "Desktop release 0.1.133 更新说明 🤖 模型与推理强度更准 Claude 订阅可选最新 Fable 5.2；Codex 里的 DeepSeek 续聊时，工具历史不再乱序。Subagent 沿用父任务的推理强度并显示实际值；手机分别记住远程模型强度与 Fast。 @BarneyZhaoooo @Br1efx @DavidShenXD @cursoragent @dashhuang 💻 供应商可指定运行电脑 远程供应商可以指定由自己的哪台电脑运行，模型列表里同一供应商只显示一条，新任务会跟随所选电脑。供应商组会分别列出每个订阅账号的用量和登录状态；用量热力图会按使用时长自动切换半年或全年。 @DavidShenXD @MagicLizi @dashhuang @zqchris 🔐 Windows 上 Codex 登录修复 修复 Windows 上 Codex 登录后被弄丢、换账号后串号的问题：Cindy 与本机 Codex 改为各自独立登录，不再共用一个登录文件。 @DavidShenXD @joei4cm ✈️ 飞书长回复完整送达 飞书里过长的回复会按段落分条完整发送并带页码，代码块和表格保持完整，不再被截断或提示去桌面端查看；一轮结束后可在答案上方展开本轮过程记录回看。被转发的卡片也不会再被静默丢弃。 @dashhuang @joei4cm 🌐 浏览器自动化更顺 需要浏览器时，Cindy 会自动启动你的浏览器并等待扩展连接，不用再手动打开。一次调用可以连续执行多步操作，遇到页面报错会立即停止并说明失败原因，不会继续执行后面的步骤。 @dashhuang 📱 iPhone 灵动岛与 Android 通知 iPhone 灵动岛会显示任务进度和未读结果，收起后点按可回到首页。Android 没有 Google 推送也能自动收到通知，部分失败不会丢消息；文件预览报错、群聊富文本崩溃和归档撤销位置也已修正。 @Br1efx @DavidShenXD @dashhuang @zqchris 💬 异步提问不丢草稿 需要你补充信息的问题可以异步回答，编"
+    },
+    {
+      "tag": "v0.1.133-beta",
+      "title": "v0.1.133-beta: test(plugin): 等待列表回归的滚动结束回调",
+      "date": "2026-11-11",
+      "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.133-beta",
+      "pre": true,
+      "note": "Signed-off-by: liugaowei liugaowei@xd.com"
+    },
+    {
+      "tag": "v0.1.130",
+      "title": "v0.1.130",
+      "date": "2026-11-10",
+      "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.130",
+      "pre": false,
+      "note": "Desktop release 0.1.130 更新说明 🤖 Claude 订阅可选 Fable 5.2 Claude 订阅账号现在能在模型列表里选到最新的 Fable 5.2，并保留 Fast 模式；在设置里刷新模型列表时，也会等待实际刷新完成再显示结果。 @dashhuang 🛠️ Android 输入框闪退修复 在 Android 上新建任务后点击输入框会直接闪退，现已修复；输入框可以正常聚焦并输入文字。 @guyong-zapo 📱 Android 用量小组件字体修正 Android 的订阅余量与每日用量小组件现在使用设计好的数字字体，数字显示更紧凑清晰。 @guyong-zapo PRs #6609 #6752 #6771 #7284 #8439 #8653 #8655 #9031 #9204 #9205 #9226 #9246 #9282 #9312 #9313 #9320 #9325 #9330 #9337 #9338 #9375 #9383 #9384 #9392 #9410 #9413 #9415 #9417 #9425 #9428 #9430 #9432 #9438 #9439 #9442 #9443 #9445 #9446 #9447 #9448 #9449 #9456 #9457 #9468 #9475 #9477 #9480 #9481 #9487 #9493 #9495 #9497 #9498 #9499 #9502 #9503 #9507 #9509 #9512 #9514 #9516 #9522 #9523 #9524 #9528 #9529 #9533 #9540 #9541 #9554 commit: 999f7b8b415b17d246acaed7fe07880439fcaf72 source tag: beta2026-11-10_15-36-19 regions: cn global iOS(cn):整包 0.1.24(2026110601) · 热更 ae8bec7a Android(cn):整包 0.1.35(48) "
+    },
+    {
+      "tag": "v0.1.130-beta",
+      "title": "v0.1.130-beta: fix(models): preserve native subscription feature flag discovery",
+      "date": "2026-11-09",
+      "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.130-beta",
+      "pre": true,
+      "note": "Stop defaulting DISABLE_TELEMETRY for native Claude subscriptions so supportedModels can fetch the current account catalog. Preserve explicit settings and gateway defaults. Assisted-by: Cindy ( https://cindy.app ) Signed-off-by: Dash 125997726+dashhuang@users.noreply.github.com"
+    },
+    {
+      "tag": "v0.1.128",
+      "title": "v0.1.128",
+      "date": "2026-11-06",
+      "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.128",
+      "pre": false,
+      "note": "Desktop release 0.1.128 更新说明 🔌 重复 MCP 连接会提醒 当 Cindy 与 Claude Code 的配置里有相同或相近的 MCP 连接时，会提示你选择保留哪个来源，并记住这台电脑上的选择；同名服务的识别和设置兼容也更准确。 @DavidShenXD 🖥️ macOS Dock 图标已恢复 修复 0.1.127 打包版在 macOS 上 Dock 图标空白的问题，打包版重新显示正常图标。 @GaoWeiLiuXD ⏰ 自动化运行更可靠 自动化的截止时间处理更稳：到期后会正确停止或顺延，尚未执行的一次性自动化会按时恢复；配置页的触发方式文案和页签名称也已统一。 @DavidShenXD 🌐 「我的浏览器」不再占用你的页签 「我的浏览器」默认在 Cindy 自己的窗口新开页签，不再读取、点击或跳转你已打开的页面；需要时会沿用同一网站的地址，登录状态仍然共用。 @dashhuang 📱 手机端 PR 状态不再丢失 手机首页的任务行和伙伴近况里，PR 关联与状态会保存下来，应用重启后立即显示并在后台刷新；首次查询失败或赶上刷新时也不会再被清空。 @dashhuang 📡 远程任务选模型更顺 远程新建任务时可以直接选用远程电脑提供的模型来源，选中后不会再被清空；远程任务出错时会保留可操作的供应商指引，输入框的输入建议也会正常恢复。 @Battleplus @DavidShenXD @GaoWeiLiuXD 🔁 共享任务恢复说明更清楚 共享任务需要恢复时会说明原因，并允许你明确选择另一台电脑；联系分享电脑失败时不再误报其他电脑离线，未确认的任务也保持正常速度运行。 @yan-xdt 🤖 伙伴消息更顺畅 伙伴在后台作业运行时也能正常接收新消息，不再一直提示「伙伴能力正在刷新」；从其他任务派来的消息在自动续跑或重试时，也不会被误判为撤权而静默停住。 @Shaojie66 ✅ GitLab 检查更准确 GitLab 项目现在会显示合并结果流水线检查；没有流水线时显示为零项检查，重试和手动作业的统计也不再算错。 @fmfsaisai 🛠️ 日"
+    },
+    {
+      "tag": "v0.1.128-beta",
+      "title": "v0.1.128-beta",
+      "date": "2026-11-06",
+      "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.128-beta",
+      "pre": true,
+      "note": "Merge pull request #9104 from makecindy/fix/controlled-draft-agent-de…"
+    }
+  ]
+}

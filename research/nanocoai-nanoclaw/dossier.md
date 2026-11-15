@@ -5,7 +5,7 @@
 - **Licencia**: MIT
 - **Lenguaje**: TypeScript
 - **Estrellas**: 31111 · **Forks**: 12647
-- **Último push**: 2026-11-12T06:31:11Z · **Última release**: 2026-11-09
+- **Último push**: 2026-11-12T06:31:11Z · **Última release**: 2026-11-14
 - **Revisado**: 2026-11-12 · **Confianza**: 64/100
 - **Tipo**: agent · **Categoría**: teams
 
@@ -18,6 +18,15 @@ Asistente ligero que ejecuta cada agente en su propio contenedor, con memoria, t
 ## Nota de verificación
 
 README: un contenedor por agente, memoria y workspace propios, tareas programadas y equipos. Los canales son conectores; no opera una GUI completa ni tiene capa de aprobaciones.
+
+## Release revisada
+
+- **Tag**: [v2026.11.0-beta.3](https://github.com/nanocoai/nanoclaw/releases/tag/v2026.11.0-beta.3)
+- **Fecha**: 2026-11-14 (hace 1 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> NanoClaw 2026.11.0-beta.3 is the third beta of 2026.11.0: an early test build, so expect rough edges. The November release takes the place of 2026.10.1, which never becomes a stable release; its two release candidates stay published, and everything they brought is in this entry. Installs on the beta channel get this beta; stable stays on 2026.10.0 until 2026.11.0 is published. Since 2026.11.0-beta.2, gateway approval cards mark anything they shorten, an approval card changes only after NanoClaw accepts the click, long Slack replies are sent as several messages, and installs that set NANOCLAW_INSTALL_ID use it in the shell scripts and the installed service. Since 2026.11.0-beta.1, locally bui
 
 ## Evidencia de la investigación
 

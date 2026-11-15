@@ -19,6 +19,15 @@ Agente de escritorio open source construido sobre OpenClaw que ejecuta tareas re
 
 Revisión previa + README: agente de escritorio construido sobre OpenClaw que ejecuta tareas reales en tu computadora. Sin evidencia de equipo o rutinas.
 
+## Release revisada
+
+- **Tag**: [2026.11.6](https://github.com/netease-youdao/LobsterAI/releases/tag/2026.11.6)
+- **Fecha**: 2026-11-06 (hace 9 días)
+- **Estado**: reciente · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> 2026.11.2 A release focused on reliability: chat streams now survive mid-reply drops, oversized contexts recover with visible compaction progress, the image pipeline is cheaper and less chatty, and installers ship a lot less dead weight. Highlights Model streams reconnect automatically when they drop mid-reply instead of leaving the message truncated ( #2974 ). Oversized conversations now recover instead of failing, with compaction progress surfaced in the UI ( #2982 , #3014 , #2988 ). One image confirmation can now approve the rest of a turn's images, and delivery recovery is more robust ( #2995 , #2980 , #2994 ). Installer and runtime bundles are significantly slimmer: no source maps, no t
+
 ## Evidencia de la investigación
 
 ### ❌ Identidad

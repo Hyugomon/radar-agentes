@@ -5,7 +5,7 @@
 - **Licencia**: MIT
 - **Lenguaje**: TypeScript
 - **Estrellas**: 590 · **Forks**: 494
-- **Último push**: 2026-11-12T02:24:08Z · **Última release**: 2026-11-12
+- **Último push**: 2026-11-12T02:24:08Z · **Última release**: 2026-11-14
 - **Revisado**: 2026-11-12 · **Confianza**: 62/100
 - **Tipo**: agent · **Categoría**: teams
 
@@ -18,6 +18,15 @@ Una «oficina» de agentes de IA de escritorio (macOS y Windows) para pequeñas 
 ## Nota de verificación
 
 Revisión previa + README: oficina de agentes de escritorio con identidad, memoria, computadora y coordinación; aprobaciones.
+
+## Release revisada
+
+- **Tag**: [v0.4.1](https://github.com/agentvivekkumar/dontbemichael/releases/tag/v0.4.1)
+- **Fecha**: 2026-11-14 (hace 1 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> Don't Be Michael v0.4.1 An AI office for your small business. Pick your kind of business, pick your team, and Michael, your office manager, runs the floor while you run the business. What's new in 0.4.1 Job changes work in every office. A job change, such as a better job description offered for a team member, failed every time in an office whose folder Claude Code had never been opened in. These checks now run in a folder of their own that Claude never stops on. Every feature, release by release: docs/FEATURES.md Download Platform Download Mac (Apple Silicon and Intel) Dont-Be-Michael-0.4.1-mac-universal.dmg Windows 11 (x64): Dont-Be-Michael-0.4.1-win-x64-setup.exe . ARM PCs aren't supported
 
 ## Evidencia de la investigación
 

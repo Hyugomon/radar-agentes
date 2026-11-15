@@ -5,11 +5,24 @@
 - **Licencia**: MIT
 - **Categoría**: workspace
 - **Revisado**: 2026-11-13
-- **ADE Score**: 78.42 · Tier A
+- **ADE Score**: 80.2 · Tier A
 
 ## Qué es
 
-Entorno de desarrollo agéntico open source con sesiones, extensiones, revisión y acceso remoto para varios agentes.
+Entorno de desarrollo agéntico open source con sesiones, extensiones, revisión, share pages para pedir ayuda a personas y un navegador que actúa como humano.
+
+## Release revisada
+
+- **Tag**: [v2.7.2](https://github.com/openchamber/openchamber/releases/tag/v2.7.2)
+- **Fecha**: 2026-11-15 (hace 0 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+**Qué trae**: v2.7.2: share pages con PIN, PDF anotado y navegador que actúa como humano.
+
+**Impacto en la ficha**: Tier A (+1.78): Revisión 76→80, Orquestación 72→75, Remoto 80→84 y Producto 76→79.
+
+> New Share pages: an agent can ask your teammates. When an answer has to come from someone else, the agent sends them a page , and the chat shows a link and PIN for each person. Their answers come back into the session with a notification. Share pages: a shared link pasted into the composer opens the page in your own OpenChamber, so your agent sees it too. Pages on the rail lists every page you received, and Add to chat attaches one to your message. Browser: dictate into annotation comments and mark up PDFs. The comment field takes your voice and shows the microphone level, and a PDF in the panel takes Region and Draw marks. Browser: the agent clicks, types, drags and uploads files in the pan
 
 ## Evidencia
 
@@ -26,13 +39,10 @@ Entorno de desarrollo agéntico open source con sesiones, extensiones, revisión
 - Sin cita directa en la web/README revisada.
 
 ### revision
-- “Kimi K3.1 Pro · Build · 3m 18s Review the login pull request.” — https://github.com/openchamber/openchamber#readme
-- “The fixes you chose are in, each with a test, and anything you put off stays as a comment on the pull request.” — https://github.com/openchamber/openchamber#readme
-- “Nothing changed, and the findings stay as comments on the pull request.” — https://github.com/openchamber/openchamber#readme
+- “New Share pages: an agent can ask your teammates. When an answer has to come from someone else, the agent sends them a page, and the chat shows a link and PIN for each person.” — https://github.com/openchamber/openchamber/releases/tag/v2.7.2
 
 ### remoto
-- “Direct connections, LAN/VPN access, Cloudflare/Ngrok tunnels, and SSH are also supported.” — https://github.com/openchamber/openchamber#readme
-- “### Private remote access Pair a device with a one-time QR code and connect through **Private Relay** without opening ports or exposing a public server.” — https://github.com/openchamber/openchamber#readme
+- “Share pages: a shared link pasted into the composer opens the page in your own OpenChamber, so your agent sees it too.” — https://github.com/openchamber/openchamber/releases/tag/v2.7.2
 
 ### movil
 - “### Continue on another device Open the same projects and sessions from Desktop, Web/PWA, VS Code, iOS, or Android.” — https://github.com/openchamber/openchamber#readme
@@ -50,25 +60,26 @@ Entorno de desarrollo agéntico open source con sesiones, extensiones, revisión
 
 - **Harnesses**: 84/100
 - **Paralelismo**: 82/100
-- **Orquestación**: 72/100
-- **Revisión**: 76/100
-- **Remoto / cloud**: 80/100
-- **Móvil**: 80/100
+- **Orquestación**: 75/100
+- **Revisión**: 80/100
+- **Remoto / cloud**: 84/100
+- **Móvil**: 82/100
 - **Extensiones**: 78/100
-- **Control**: 65/100
+- **Control**: 68/100
 - **Apertura**: 90/100
-- **Producto**: 76/100
+- **Producto**: 79/100
 
 ## Fortalezas
 
 - Open source y multiplataforma
-- Extensiones y acceso remoto
+- Share pages para colaborar con personas
+- Navegador controlado y PDF anotado
 - Buena adopción
 
 ## Carencias
 
 - Orquestación menos profunda
-- Control/aprobaciones básicos
+- Aprobaciones todavía básicas
 - Ecosistema joven
 
 ## Fuentes

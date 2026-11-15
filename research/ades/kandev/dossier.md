@@ -11,6 +11,15 @@
 
 Entorno self-hostable con tablero Kanban, pipelines de agentes, revisión de cambios y pull requests. Multi-proveedor y sin telemetría.
 
+## Release revisada
+
+- **Tag**: [v0.101.0](https://github.com/kdlbs/kandev/releases/tag/v0.101.0)
+- **Fecha**: 2026-11-11 (hace 4 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> Warning macOS, Windows desktop installers in this release are unsigned development builds. They may require manual OS security bypasses and are not trusted downloads. If macOS blocks Kandev after you verify the checksum, run: xattr -d com.apple.quarantine /Applications/Kandev.app 0.101.0 - 2026-11-11 Features select built-in packages and workspace MCPs ( #5106 ) clarify change workflow selector fields ( #5249 ) comment on extracts of task thread comments ( #5233 ) by @jcoatelen-ledger review question images in a large A/B view ( #5239 ) by @point-source cancel running chat turn with escape ( #5241 ) by @ZenitK show CI bubbles on PR status icons ( #5244 ) preview HTML files from review diffs 
+
 ## Evidencia
 
 ### harnesses

@@ -1,0 +1,87 @@
+{
+  "repo": "Emanuele-web04/synara",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "v1.5.4",
+      "title": "Synara v1.5.4",
+      "date": "2026-11-14",
+      "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.5.4",
+      "pre": false,
+      "note": "What's Changed Frame project logos with a plain border instead of a shadow halo by @Emanuele-web04 in #2134 Retry Cloudflare-blocked Claude turns and log turn failure categories by @Emanuele-web04 in #2138 fix(hosts): keep remote folder browsing usable after errors by @Emanuele-web04 in #2129 fix(skills): deliver typed and shared skills to Claude and Codex reliably by @Emanuele-web04 in #2142 Fix stuck background status and merge replies woken by background tasks by @Emanuele-web04 in #2149 Move background tasks out of the transcript into the Environment panel by @Emanuele-web04 in #2150 Leave merged and checked-out history out of turn diffs and Undo by @Emanuele-web04 in #2130 Reconnect remote computers automatically and from the picker by @Emanuele-web04 in #2133 Show Claude's turn plan again through a Synara update_plan tool by @Emanuele-web04 in #2140 Put chat images that share a par"
+    },
+    {
+      "tag": "v1.5.3",
+      "title": "Synara v1.5.3",
+      "date": "2026-11-12",
+      "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.5.3",
+      "pre": false,
+      "note": "What's Changed Reduce Supabase egress from Remote polling by @Emanuele-web04 in #2115 Stop usage-sync event-loop stalls and stale interrupt quarantine by @Emanuele-web04 in #2119 Cut transcript noise from non-Claude runtime warnings by @Emanuele-web04 in #2118 Compact question card with the composer kept as a pill by @Emanuele-web04 in #2120 Explain browser_run script failures with a sanitized cause by @Emanuele-web04 in #2117 Reduce idle account API polling by @Emanuele-web04 in #2122 Calmer Claude stream; open subagents beside their parent (SYN-142, SYN-143) by @Emanuele-web04 in #2116 Keep model picker open when choosing a starred model by @Danjar27 in #2113 Nest agent-created child threads in sidebar by @Danjar27 in #2114 Reduce avoidable Claude usage: ask before cold resumes, discourage unrequested subagents by @Emanuele-web04 in #2121 Redesign settings navigation and give accounts "
+    },
+    {
+      "tag": "v1.5.2",
+      "title": "Synara v1.5.2",
+      "date": "2026-11-11",
+      "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.5.2",
+      "pre": false,
+      "note": "Synara 1.5.2 Stable Linux ARM64: Download the ARM64 AppImage alongside x86_64. Each architecture has its own update feed. Usage analytics: Explore token and activity trends by provider, model and project. Costs are reported or estimated at API rates, not subscription charges. On macOS, This Mac can include local Codex and Claude Code sessions. Connected computers: Choose which computer's host-owned settings to edit and see available signed-in identity for supported Codex and Claude accounts. Reliability: Account recovery, chat sends, queued work and Remote connections handle interruptions more reliably. macOS update preparation and shutdown, simulator control, onboarding and rate-limit messages also improve. Installers and verification The exact-tag workflow passed quality gates, all three server test shards, all five native packages, macOS signing and notarization, Windows Defender, pro"
+    },
+    {
+      "tag": "v1.5.1",
+      "title": "Synara v1.5.1",
+      "date": "2026-11-10",
+      "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.5.1",
+      "pre": false,
+      "note": "What's Changed Start web checkout from a verified Synara account by @Emanuele-web04 in #2093 Handle released Stable migrations and track anonymous Remote outcomes by @Emanuele-web04 in #2095 Full Changelog : v1.5.0...v1.5.1"
+    },
+    {
+      "tag": "v1.5.0",
+      "title": "Synara v1.5.0",
+      "date": "2026-11-10",
+      "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.5.0",
+      "pre": false,
+      "note": "What's Changed perf(server): stop history-length stalls on long threads ( #1900 ) by @Emanuele-web04 in #1945 fix(web): remove the server-busy popup and stop refetch storms during parallel threads by @Emanuele-web04 in #1946 perf(web): queue RPCs client-side instead of reject-and-retry by @Emanuele-web04 in #1947 fix(claude): discover effort controls from the installed CLI by @ByteTheDev in #1948 fix(claude): remove the synthetic default effort option by @Emanuele-web04 in #1953 Preserve live turn ownership and page runtime reconciliation by @cmdr-chara in #1866 fix(git): keep a/ and b/ diff prefixes under user diff config by @MarMarLabs in #1863 fix(server): settle provider handoffs without replaying native work by @cmdr-chara in #1842 fix(ci): validate migration lineage within the release family by @Emanuele-web04 in #1955 fix(server): hide Codex moderation metadata from chat activity "
+    },
+    {
+      "tag": "v1.0.6-remote.44",
+      "title": "Synara Remote v1.0.6-remote.44 (legacy)",
+      "date": "2026-11-10",
+      "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.0.6-remote.44",
+      "pre": false,
+      "note": "Synara Remote is now part of Stable For new installations, download Synara Stable 1.5.0 . Install Stable separately, then sign in with the same Synara account to access your account data and paired computers. Local-only conversations remain in the app where they were created. This early-access release is kept for existing Synara Remote installations and their update feed. Fixed Pending MCP connector approvals stay pinned above the composer while you scroll, even when Worked for is collapsed. After approval or dismissal, the card stays in the transcript. Desktop downloads macOS Apple Silicon. Signed and notarized. Windows x64. Unsigned for this release. The published installer passed Microsoft Defender in CI and may show a SmartScreen prompt. Linux x64 AppImage. The exact release tag passed the full test suite and packaged startup checks on all three platforms."
+    },
+    {
+      "tag": "v1.0.6-remote.43",
+      "title": "v1.0.6-remote.43",
+      "date": "2026-11-03",
+      "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.0.6-remote.43",
+      "pre": false,
+      "note": "chore(release): prepare Synara Remote .43"
+    },
+    {
+      "tag": "v1.0.6-remote.42",
+      "title": "v1.0.6-remote.42",
+      "date": "2026-11-03",
+      "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.0.6-remote.42",
+      "pre": false,
+      "note": "chore(release): prepare Remote .42 local MCP connectors"
+    },
+    {
+      "tag": "v1.1.1-beta.1",
+      "title": "Synara v1.1.1-beta.1",
+      "date": "2026-11-02",
+      "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.1.1-beta.1",
+      "pre": true,
+      "note": "1.1.1-beta.1 — 2026-11-02 Spanish and Simplified Chinese, reliable task recovery and opt-in continuation after usage limits. This Beta follows Stable 1.1.0 from the same source, with its separate version commit. Its same-channel baseline is v1.0.9-beta.1 ; the complete source range is recorded in the source audit . Native editing and MCP Connectors were already available in Beta and are not new features here. Added English, Spanish, Simplified Chinese and System interface preferences, with native menus and app-authored permission explanations. Stable continues to exclude Chinese. Existing editor labels can require the offered guarded reload; user content and provider output remain unchanged. Default-off Resume after usage limits for supported Codex and Claude terminal refusals with verified identity and future reset evidence. The owning computer must be running. Stop, manual sends and ac"
+    },
+    {
+      "tag": "v1.1.0",
+      "title": "Synara v1.1.0",
+      "date": "2026-11-02",
+      "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.1.0",
+      "pre": false,
+      "note": "1.1.0 — 2026-11-02 More reliable recovery, opt-in continuation after usage limits, Spanish interface and safer attachments. This Stable release covers the complete range after v1.0.9 through d80787e3e4d8829a35a64b111e6fcbe5f51cf037 . Simplified Chinese remains Beta-only. Stable and Beta retain separate identities, data homes and update feeds. Added English, Spanish and System interface preferences, including native menus and app-authored permission explanations. Existing editor engine labels may require the offered guarded reload; user content and provider output are not translated. Default-off Resume after usage limits for supported Codex and Claude terminal refusals with verified account identity and future reset evidence. The execution host must be running. Stop, manual sends and account/model changes cancel pending waits; ambiguous limits stay manual. Explicit offline synara-compact-"
+    }
+  ]
+}

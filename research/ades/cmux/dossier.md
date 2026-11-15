@@ -11,6 +11,15 @@
 
 Terminal nativa para correr varios agentes y sesiones en paralelo, con worktrees, notificaciones y acceso desde el móvil.
 
+## Release revisada
+
+- **Tag**: [nightly-next](https://github.com/manaflow-ai/cmux/releases/tag/nightly-next)
+- **Fecha**: 2026-11-15 (hace 0 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> Automated nightly build for 69b946e from nightly-next . Published commit: 69b946eb435d02aed3f5ee6181056833fa0c7ec0 . Built at the commit whose cmux-tui tree is published (app and daemon from one commit); branch tip 69b946eb435d02aed3f5ee6181056833fa0c7ec0 , 0 commits and 0 h behind it. cmux NIGHTLY ships for Apple silicon only (bundle ID com.cmuxterm.app.nightly ): Apple silicon: cmux-nightly-next-macos-arm64.dmg , feed appcast-arm64.xml PRs in this build #43466 ci: bound every upload-artifact step to 7 days, 60 of them were 14 to 90 #43409 carrier: the app's bundled cmux finds the tunnel hub its app's link serves #43432 Toggle Terminal and Chat: the chat face of a shown terminal never freez
+
 ## Evidencia
 
 ### harnesses

@@ -1,27 +1,87 @@
-[
-  {
-    "tag": "v2026.11.0-beta.1",
-    "date": "2026-11-09",
-    "url": "https://github.com/nanocoai/nanoclaw/releases/tag/v2026.11.0-beta.1"
-  },
-  {
-    "tag": "v2026.10.1-rc.2",
-    "date": "2026-10-22",
-    "url": "https://github.com/nanocoai/nanoclaw/releases/tag/v2026.10.1-rc.2"
-  },
-  {
-    "tag": "v2026.10.1-rc.1",
-    "date": "2026-10-20",
-    "url": "https://github.com/nanocoai/nanoclaw/releases/tag/v2026.10.1-rc.1"
-  },
-  {
-    "tag": "v2026.10.0",
-    "date": "2026-10-09",
-    "url": "https://github.com/nanocoai/nanoclaw/releases/tag/v2026.10.0"
-  },
-  {
-    "tag": "v2026.10.0-rc.2",
-    "date": "2026-10-05",
-    "url": "https://github.com/nanocoai/nanoclaw/releases/tag/v2026.10.0-rc.2"
-  }
-]
+{
+  "repo": "nanocoai/nanoclaw",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "v2026.11.0-beta.3",
+      "title": "v2026.11.0-beta.3",
+      "date": "2026-11-14",
+      "url": "https://github.com/nanocoai/nanoclaw/releases/tag/v2026.11.0-beta.3",
+      "pre": true,
+      "note": "NanoClaw 2026.11.0-beta.3 is the third beta of 2026.11.0: an early test build, so expect rough edges. The November release takes the place of 2026.10.1, which never becomes a stable release; its two release candidates stay published, and everything they brought is in this entry. Installs on the beta channel get this beta; stable stays on 2026.10.0 until 2026.11.0 is published. Since 2026.11.0-beta.2, gateway approval cards mark anything they shorten, an approval card changes only after NanoClaw accepts the click, long Slack replies are sent as several messages, and installs that set NANOCLAW_INSTALL_ID use it in the shell scripts and the installed service. Since 2026.11.0-beta.1, locally built agent images move to Claude Code 2.1.321 and Agent SDK 0.3.321, the first pair that knows Claude Fable 5.2, /update-nanoclaw no longer stops on a lockfile conflict at the first update of a default "
+    },
+    {
+      "tag": "v2026.11.0-beta.2",
+      "title": "v2026.11.0-beta.2",
+      "date": "2026-11-12",
+      "url": "https://github.com/nanocoai/nanoclaw/releases/tag/v2026.11.0-beta.2",
+      "pre": true,
+      "note": "NanoClaw 2026.11.0-beta.2 is the second beta of 2026.11.0: an early test build, so expect rough edges. The November release takes the place of 2026.10.1, which never becomes a stable release; its two release candidates stay published, and everything they brought is in this entry. Installs on the beta channel get this beta; stable stays on 2026.10.0 until 2026.11.0 is published. Since 2026.11.0-beta.1, locally built agent images move to Claude Code 2.1.321 and Agent SDK 0.3.321, the first pair that knows Claude Fable 5.2, /update-nanoclaw no longer stops on a lockfile conflict at the first update of a default install, setup installs jq when it's missing so channel setup works on WSL and minimal Ubuntu images, setup restarts NanoClaw after it installs a provider, mention-sticky threads no longer wake the agent for chatter it was never mentioned in, answered question cards keep their questi"
+    },
+    {
+      "tag": "v2026.11.0-beta.1",
+      "title": "v2026.11.0-beta.1",
+      "date": "2026-11-09",
+      "url": "https://github.com/nanocoai/nanoclaw/releases/tag/v2026.11.0-beta.1",
+      "pre": true,
+      "note": "NanoClaw 2026.11.0-beta.1 is the first beta of 2026.11.0: an early test build, so expect rough edges. The November release takes the place of 2026.10.1, which never becomes a stable release; its two release candidates stay published, and everything they brought is in this entry. Installs on the beta channel get this beta; stable stays on 2026.10.0 until 2026.11.0 is published. Since 2026.10.1-rc.2, a stuck channel send no longer silences a conversation, agents can put KPI fields, a table and charts in cards, setup on Linux and WSL asks for your password in the open before it installs Node or Docker, setup on Linux reaches Docker right after it adds you to the docker group, setup names the NanoClaw account a machine is signed in to and lets you switch it, Discord server messages that @mention someone reach the agent, agent reactions reach Telegram, Mattermost recovers by itself from a sho"
+    },
+    {
+      "tag": "v2026.10.1-rc.2",
+      "title": "v2026.10.1-rc.2",
+      "date": "2026-10-22",
+      "url": "https://github.com/nanocoai/nanoclaw/releases/tag/v2026.10.1-rc.2",
+      "pre": true,
+      "note": "NanoClaw 2026.10.1-rc.2 is the second release candidate for 2026.10.1. Installs on the beta channel get this candidate; stable stays on 2026.10.0 until 2026.10.1 is published. Since 2026.10.1-rc.1 it moves OneCLI to 1.45, where new agent groups get only their model key and other keys go to the groups you choose, makes the webhook server listen only on this machine by default, applies egress lockdown to agents that were already running, asks for Node's October 2026 security releases, and lets Claude agents read PDFs; Google Chat now checks that its webhooks come from your app. It also lets agents create other agents from templates, adds Cursor as an agent provider, and moves locally built agent images to Claude Code 2.1.296 with Claude Haiku 5.5. Setup waits for a slow first reply and says when that reply failed, approval cards appear in the thread you are waiting in, and fewer agent runs"
+    },
+    {
+      "tag": "v2026.10.1-rc.1",
+      "title": "v2026.10.1-rc.1",
+      "date": "2026-10-20",
+      "url": "https://github.com/nanocoai/nanoclaw/releases/tag/v2026.10.1-rc.1",
+      "pre": true,
+      "note": "NanoClaw 2026.10.1-rc.1 is the first release candidate for 2026.10.1. Installs on the beta channel get this candidate; stable stays on 2026.10.0 until 2026.10.1 is published. It lets agents create other agents from templates, adds Cursor as an agent provider, and moves locally built agent images to Claude Code 2.1.296 with Claude Haiku 5.5. Setup waits for a slow first reply and says when that reply failed, approval cards appear in the thread you are waiting in, and fewer agent runs fail on Docker Desktop. Chat SDK channels move to 4.41.1, and Iron Proxy installs that signed Codex in with ChatGPT must sign in again, so check the section below before you update. ⚠️ Before you update [BREAKING] Chat SDK channels move to adapter 4.41.1, which fixes Telegram messages with links that were never delivered. Affected: installs where grep -o '\"@chat-adapter/[a-z]*\"' package.json prints anything ("
+    },
+    {
+      "tag": "v2026.10.0",
+      "title": "v2026.10.0",
+      "date": "2026-10-09",
+      "url": "https://github.com/nanocoai/nanoclaw/releases/tag/v2026.10.0",
+      "pre": false,
+      "note": "NanoClaw 2026.10.0 is the first release with calendar version numbers and the first one /update-nanoclaw installs by default: updates now follow published releases instead of the tip of main . It was tested first as 2026.10.0-rc.1 and 2026.10.0-rc.2 on the beta channel. It also makes updates and rollbacks more dependable, lets Iron Proxy reach a keyless local model over plain HTTP, routes the service through an outbound proxy when you have one, and shows Claude's own reason when a run fails. Iron Proxy installs need one setup rerun, so check the section below before you update. ⚠️ Before you update [BREAKING] OneCLI installs: upgrade the OneCLI gateway to exactly 1.42.0, which closes a credential-injection bypass. /update-nanoclaw never upgrades a running gateway, so this step stops the update until it is done. Follow docs/onecli-upgrades.md in your install ( the same guide on GitHub ): "
+    },
+    {
+      "tag": "v2026.10.0-rc.2",
+      "title": "v2026.10.0-rc.2",
+      "date": "2026-10-05",
+      "url": "https://github.com/nanocoai/nanoclaw/releases/tag/v2026.10.0-rc.2",
+      "pre": true,
+      "note": "NanoClaw 2026.10.0-rc.2 is the second release candidate for 2026.10.0, the first release with calendar version numbers and the first one /update-nanoclaw installs by default: updates now follow published releases instead of the tip of main . Installs on the beta channel get this candidate; stable stays on 2.4.0 until 2026.10.0 is published. Since 2026.10.0-rc.1 it pins the fixed WhatsApp library, holds OneCLI gateway upgrades on 1.42.0, stops macOS updates from failing when the service is slow to stop, and lets the agent browser load HTTPS pages behind Iron Proxy. It also makes updates and rollbacks more dependable, lets Iron Proxy reach a keyless local model over plain HTTP, routes the service through an outbound proxy when you have one, and shows Claude's own reason when a run fails. Iron Proxy installs need one setup rerun, so check the section below before you update. ⚠️ Before you u"
+    },
+    {
+      "tag": "v2026.10.0-rc.1",
+      "title": "v2026.10.0-rc.1",
+      "date": "2026-10-04",
+      "url": "https://github.com/nanocoai/nanoclaw/releases/tag/v2026.10.0-rc.1",
+      "pre": true,
+      "note": "NanoClaw 2026.10.0-rc.1 is the release candidate for 2026.10.0, the first release with calendar version numbers and the first one /update-nanoclaw installs by default: updates now follow published releases instead of the tip of main . Installs on the beta channel get this candidate; stable stays on 2.4.0 until 2026.10.0 is published. It also makes updates and rollbacks more dependable, lets Iron Proxy reach a keyless local model over plain HTTP, routes the service through an outbound proxy when you have one, and shows Claude's own reason when a run fails. Iron Proxy installs need one setup rerun, so check the section below before you update. ⚠️ Before you update [BREAKING] OneCLI installs: upgrade the OneCLI gateway to 1.42.0, which closes a credential-injection bypass. /update-nanoclaw never upgrades a running gateway, so this step stops the update until it is done. Skip it if .env has "
+    },
+    {
+      "tag": "v2.4.0",
+      "title": "v2.4.0",
+      "date": "2026-09-23",
+      "url": "https://github.com/nanocoai/nanoclaw/releases/tag/v2.4.0",
+      "pre": false,
+      "note": "NanoClaw 2.4.0 adds credential gateways installed through skills (OneCLI stays the default, Iron Proxy is new), community-portal setup for Echo's hardened image and a managed Slack app, install-wide and per-group model and speed controls, a Mattermost channel, and a reworked OpenCode provider. Agents now receive all of their capability instructions, replies stay in the thread they answer, and host restarts and /update-nanoclaw are more reliable. The default Claude model moves to Opus 5.5 and new Codex threads to gpt-6-astra , so check the section below before you update. ⚠️ Before you update [BREAKING] Custom source that composes agent instructions must move to the new module. CLAUDE.md was a list of @ imports into /app , and Claude Code silently drops imports that resolve outside the project directory, so eight of nine instruction sections never reached the model; it is now one flat fil"
+    },
+    {
+      "tag": "v2.3.0",
+      "title": "v2.3.0",
+      "date": "2026-08-24",
+      "url": "https://github.com/nanocoai/nanoclaw/releases/tag/v2.3.0",
+      "pre": false,
+      "note": "[BREAKING] A new Slack experience — per-agent provisioned Slack apps, agent spawning from Slack, and UX improvements — is available to classic single-bot Slack installs. Classic Slack keeps working unchanged; this gate asks for a decision, not a forced migration. New installs and non-Slack installs are unaffected. Migration: run /migrate-slack-agents — it detects classic state (exits cleanly otherwise) and either walks the upgrade or records the choice to stay on classic; both outcomes satisfy this requirement. /add-codex now pins @openai/codex 0.146.0. The previous pin (0.138.0) defaults to GPT-5.4, which OpenAI retires from Codex on 2026-08-31 — codex-provider agents ride the CLI default model, so stock installs stop completing turns at retirement — and it rejects the newer GPT-5.6 models with a 400 asking for a newer Codex CLI. Existing codex installs are not re-pinned by re-running /"
+    }
+  ]
+}

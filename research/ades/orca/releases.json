@@ -1,0 +1,87 @@
+{
+  "repo": "stablyai/orca",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "mobile-android-v0.0.65",
+      "title": "Orca Mobile Android mobile-android-v0.0.65",
+      "date": "2026-11-15",
+      "url": "https://github.com/stablyai/orca/releases/tag/mobile-android-v0.0.65",
+      "pre": true,
+      "note": "This is the last update for this app Orca for Android has moved to a new app, dev.orca.app . It's on Google Play , and as an APK on GitHub for phones without Play. This app ( com.stably.orca.mobile ) won't get any more updates after this one, including security fixes. The new app is separate, so it can't update this one in place. You need to install it once, and from then on it updates itself. What this update does When you open Orca, it shows you how to move to the new app. Its name on your home screen is now Orca (old) , so you can tell the two apart. Switching to the new app Install the new app from Google Play. If your phone doesn't have Play, download the APK from the new app's release . It installs next to this one. Pair it: in Orca on your computer, go to Settings → Mobile and scan the code. Delete Orca (old) once your agents show up in the new app. Your agents, chats and workspac"
+    },
+    {
+      "tag": "android-v0.0.65",
+      "title": "Orca Mobile Android android-v0.0.65",
+      "date": "2026-11-15",
+      "url": "https://github.com/stablyai/orca/releases/tag/android-v0.0.65",
+      "pre": true,
+      "note": "Orca for Android has moved to a new app This is the new Orca app for Android ( dev.orca.app ). It's the same build as the one on Google Play . If you installed Orca from GitHub, you need to install this APK. The old app ( com.stably.orca.mobile ) gets no more updates, including security fixes. This is a separate app, so it installs next to the old one instead of updating it. Future GitHub releases will update this app. If your phone has Google Play, install Orca from Play instead. Play keeps it up to date for you. Switching from the old app Install this APK. If your phone asks, allow your browser to install apps. Pair it: in Orca on your computer, go to Settings → Mobile and scan the code. Delete the old app once your agents show up in the new one. Your agents, chats and workspaces are saved on your computer, so you'll see them all in the new app. What's new A new Agents tab shows every "
+    },
+    {
+      "tag": "v1.4.259",
+      "title": "1.4.259",
+      "date": "2026-11-14",
+      "url": "https://github.com/stablyai/orca/releases/tag/v1.4.259",
+      "pre": false,
+      "note": "Major performance improvements, automatic cleanup &amp; focused subagent views ✨ Orca 1.4.259 improves performance across crowded sidebars, long chats and terminal restoration, and keeps Git reads moving while new workspaces are created. New cleanup controls help you manage the workspaces left behind. ⚡ Smoother busy workspaces: Crowded sidebars and long chat tool runs render only the visible rows, reducing rendering work and chat memory use. Terminal history restores without blocking the window on disk reads. 🧹 Clear finished work on your terms: Settings → Workspace Cleanup lets you review matching workspaces, enable automatic cleanup and inspect its activity. Give individual projects their own rules. 💬 Follow one subagent at a time: Open its task, live steps and final answer in a dedicated view, then return to the main conversation where you left off. 🤖 Use Kimi Code in Chat: Start "
+    },
+    {
+      "tag": "v1.4.258",
+      "title": "1.4.258",
+      "date": "2026-11-13",
+      "url": "https://github.com/stablyai/orca/releases/tag/v1.4.258",
+      "pre": false,
+      "note": "Previous release: 1.4.257 — Smoother long chats, saved browser feedback and better dictation. Smoother workspaces, restored phone scrolling &amp; Copilot Chat ✨ Orca 1.4.258 cuts pauses when opening large workspace collections, moving windows and changing the layout. Local usage updates do less work on the process handling your keystrokes, helping Chat UI and terminal users keep working while usage refreshes. 📱 Scroll phone chats again: On chat pages served by the desktop, swipe through messages and sideways through wide code blocks. Pinch with two fingers to resize chat text without zooming the whole page. 💬 Use GitHub Copilot in Chat: Choose Launch chat to stream replies, inspect tool output and review file diffs in a conversation you can reopen after restarting Orca. ⌨️ Start Pi with your chosen model and thinking level: The terminal launcher applies your model choice and offers rea"
+    },
+    {
+      "tag": "v1.4.257",
+      "title": "1.4.257",
+      "date": "2026-11-12",
+      "url": "https://github.com/stablyai/orca/releases/tag/v1.4.257",
+      "pre": false,
+      "note": "Previous release: 1.4.256 — Easier on-device dictation setup and earlier long-chat performance improvements. Smoother long chats, saved feedback and better dictation ✨ Orca 1.4.257 reduces freezes when several long Chat UI conversations stream at once. If you keep multiple agents working in conversations with a lot of history, this update cuts the work Orca does as their replies arrive. 🌐 Keep your browser feedback across restarts: Unsent text notes on pages in Orca’s browser now return after a reload or restart. Closing a tab with unsent notes asks before discarding them, so you can leave feedback and come back to it later. Agents running on your desktop can read those notes with orca tab annotations before you press Send. 🎙️ Give yourself time to think while dictating: In Settings → Voice → Input → Stop After Silence , choose 30 seconds, one minute, two minutes or Off. Dictation can "
+    },
+    {
+      "tag": "v1.4.256",
+      "title": "1.4.256",
+      "date": "2026-11-11",
+      "url": "https://github.com/stablyai/orca/releases/tag/v1.4.256",
+      "pre": false,
+      "note": "Smoother performance, easier dictation, saved phone drafts &amp; clearer workspace controls ✨ Long chats stay more responsive while agents stream tool output, reasoning and subagent work, with less background processing during terminal and tab updates. This update also makes dictation easier to set up and use and makes agents and cloud workspaces easier to manage. Phone-specific improvements below require the matching phone app update. 🎙️ Dictate with less setup: Voice settings suggests an on-device model for your language and offers one setup button. Add personal or repository vocabulary, remove filler words, and use Auto mode to hold the shortcut or tap to toggle. On-device dictation inserts phrases as you pause, and you can dictate into fields in Orca's browser. 📱 Pick up where you left off: Chats show their saved recent messages after a phone relaunch while reconnecting. Commit mes"
+    },
+    {
+      "tag": "v1.4.255",
+      "title": "1.4.255",
+      "date": "2026-11-09",
+      "url": "https://github.com/stablyai/orca/releases/tag/v1.4.255",
+      "pre": false,
+      "note": "Faster session search, agents on your phone &amp; smoother chat switching ✨ We shipped two releases in quick succession: 1.4.254 yesterday and 1.4.255 today. See the 1.4.254 release notes for Git Graph, chat forks, on-device phone dictation, more resilient mobile work, and pairing and trust improvements. A little less waiting, a little more flow. This update makes large session histories easier to search, brings your agents together on your phone, and smooths out the everyday work of switching accounts, models and workspaces. ⚡ Find past work without slowing down: Session History searches run off the app’s main thread, keep results visible while you type, and show your last list immediately after a restart while it refreshes. Search also works on SSH and remote-server hosts. 📱 Your agents, together on your phone: A new Agents tab lists agents across your connected desktops. Mark them re"
+    },
+    {
+      "tag": "v1.4.254",
+      "title": "1.4.254",
+      "date": "2026-11-08",
+      "url": "https://github.com/stablyai/orca/releases/tag/v1.4.254",
+      "pre": false,
+      "note": "Git Graph, on-phone dictation &amp; side questions in chat ✨ 🌳 See the whole repository: A new Git Graph tab shows local and remote branches and tags, with each commit's details and changed files. Folder workspaces now get Source Control, with a card for each attached repo, and the branch name in Source Control switches or creates a branch in place. 💬 Ask without derailing a chat: In Chat UI, /btw asks a side question in a fork beside the chat while the original keeps running, and /fork branches from the latest response. Chats that open or push to a pull request show a short line when its CI passes or fails. 🎙️ Dictate from anywhere: Phones can turn speech into text on the device (iPhone on iOS 26 or later, and Android), with the computer as fallback. The computer, phones and web client can dictate at the same time, and on-device dictation runs in its own process, so a speech engine c"
+    },
+    {
+      "tag": "v1.4.253",
+      "title": "v1.4.253",
+      "date": "2026-11-08",
+      "url": "https://github.com/stablyai/orca/releases/tag/v1.4.253",
+      "pre": false,
+      "note": "A little update ✨ We released two updates today! Check out the v1.4.252 release notes for chat forking and Plan mode, a smoother phone experience, and workspace organization across machines. A small release with a few minor improvements. A bigger one is coming later 🫣 What's changed Reduce repeated work during host-status updates by @nwparker in #39340 Reduce process launches when reading Linux process start times by @OrcaWin in #39439 Dim the chat message rail until hover, focus or scroll by @nwparker in #39369 Full Changelog : v1.4.252...v1.4.253"
+    },
+    {
+      "tag": "v1.4.252",
+      "title": "v1.4.252",
+      "date": "2026-11-07",
+      "url": "https://github.com/stablyai/orca/releases/tag/v1.4.252",
+      "pre": false,
+      "note": "Fork chats from any reply, Plan mode &amp; a faster phone ✨ 📱 A smoother experience on your phone: The phone opens and reconnects sooner, scrolls and streams chats more smoothly, reads Markdown and math better, and keeps unsent chat, review and Tasks text across reconnects. 🗂️ Organize workspaces across machines: Nest workspaces under a folder workspace, including workspaces on other machines. 🌿 Do more with Chat UI: Fork any finished response to try another direction while the original chat stays as it was. In Claude or Codex chats, type /plan to switch to Plan mode, which persists when you reopen the chat. 🖥️ A more reliable terminal: Terminal panes keep their zoom and restored scrollback, copied files paste as full paths, and busy terminal output takes less work to render. 🤖 Better agent support: Open running subagents from chat, see proposed files and diffs in Codex approvals, a"
+    }
+  ]
+}

@@ -1,27 +1,87 @@
-[
-  {
-    "tag": "v0.8.6",
-    "date": "2026-11-11",
-    "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.6"
-  },
-  {
-    "tag": "mobile-v0.4.0: chore: release desktop 0.8.6 and mobile 0.4.0",
-    "date": "2026-11-11",
-    "url": "https://github.com/Anil-matcha/suparagent/releases/tag/mobile-v0.4.0"
-  },
-  {
-    "tag": "v0.8.5",
-    "date": "2026-11-09",
-    "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.5"
-  },
-  {
-    "tag": "v0.8.4",
-    "date": "2026-11-06",
-    "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.4"
-  },
-  {
-    "tag": "v0.8.3",
-    "date": "2026-11-05",
-    "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.3"
-  }
-]
+{
+  "repo": "Anil-matcha/suparagent",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "v0.8.6",
+      "title": "v0.8.6",
+      "date": "2026-11-11",
+      "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.6",
+      "pre": false,
+      "note": "What's Changed test: fix four stale tests that fail on main by @inderpreet001 in #237 Share a server install with other people: members, roles and permissions by @inderpreet001 in #236 docs: describe members, roles and shared workspaces by @inderpreet001 in #238 feat(mobile): chat-first default screen, sliding sidebar, dynamic model &amp; effort switcher, and server profile integration by @jaiprasad04 in #239 feat(docs): add in-app documentation center, visual workflows guide, and fix Windows Google auth command formatting by @jaiprasad04 in #235 feat: hosted workspace grants, workspace switcher and hosted People screen by @inderpreet001 in #240 Full Changelog : v0.8.5...v0.8.6"
+    },
+    {
+      "tag": "mobile-v0.4.0",
+      "title": "mobile-v0.4.0: chore: release desktop 0.8.6 and mobile 0.4.0",
+      "date": "2026-11-11",
+      "url": "https://github.com/Anil-matcha/suparagent/releases/tag/mobile-v0.4.0",
+      "pre": false,
+      "note": "Co-Authored-By: Claude Sonnet 5.5 noreply@anthropic.com"
+    },
+    {
+      "tag": "v0.8.5",
+      "title": "v0.8.5",
+      "date": "2026-11-09",
+      "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.5",
+      "pre": false,
+      "note": "Full Changelog : v0.8.4...v0.8.5"
+    },
+    {
+      "tag": "v0.8.4",
+      "title": "v0.8.4",
+      "date": "2026-11-06",
+      "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.4",
+      "pre": false,
+      "note": "What's new Open your hosted workspace in the desktop app. The Workspace menu switches between this computer and your hosted workspace. Sign-in and sign-out are separate, and local data is not copied. This preview has source and automated checks; an installed build and hosted staging account have not been checked. Choose a cloud computer provider. Use Boat or Muapi. Muapi computers are shell-only and charge against your Muapi credits while running. The provider tests use a mocked API; live Muapi use has not been checked. Build workflows visually. Add notes and shapes with their toolbars, and see validation for workflow connections. Search Pixeltable's public documentation through the Community marketplace without an account or API key. Installers macOS Apple silicon DMG: signed with Developer ID and notarized. Windows x64 installer: packaged by CI. This is a prerelease. Installed-app setu"
+    },
+    {
+      "tag": "v0.8.3",
+      "title": "v0.8.3",
+      "date": "2026-11-05",
+      "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.3",
+      "pre": false,
+      "note": "What's Changed feat(workflows): implement visual workflow builder and interactive trigger node by @jaiprasad04 in #230 Full Changelog : v0.8.2...v0.8.3"
+    },
+    {
+      "tag": "v0.8.2",
+      "title": "v0.8.2",
+      "date": "2026-11-05",
+      "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.2",
+      "pre": false,
+      "note": "What's Changed merge remote changes by @jaiprasad04 in #224 fix(chat): keep a # that ends a Markdown heading word by @rudycelekli in #199 fix(chat): keep balanced parentheses in Markdown link targets by @rudycelekli in #200 fix(permissions): classify compound and option-bearing git commands conservatively by @monsterlag in #196 fix(sentinel): redact UNC paths in health-scan titles by @rudycelekli in #201 Allow a prefix when ; or > is only inside quotes by @rudycelekli in #205 Don't treat a dated example inside a code fence as a memory by @rudycelekli in #203 fix(memory): keep a comma inside a quoted topic alias by @rudycelekli in #202 Phone app: create and edit agents and rooms, local-network http://, and a fixed pairing QR by @inderpreet001 in #226 Add You.com to the Community MCP marketplace by @brainsparker in #225 feat: add local Whisper voice dictation, desktop OS notifications (BL-"
+    },
+    {
+      "tag": "mobile-v0.3.0",
+      "title": "Mobile: version 0.3.0",
+      "date": "2026-11-04",
+      "url": "https://github.com/Anil-matcha/suparagent/releases/tag/mobile-v0.3.0",
+      "pre": false,
+      "note": "This update lets you manage agents and rooms from your phone. It also lets you pair over your local network without HTTPS, and it fixes the QR scanner. What's new Create and edit agents from the phone. This needs a phone paired with the \"Chat, files and agents\" ( manage ) scope. Deleting an agent stays in the web app. Create, edit and delete rooms. You can set instructions and routing, change members, hold or resume a room, and delete it after typing its name. If the member list changed on the server while you were editing, the server refuses your edit. Plain http:// pairing on your own network. Addresses like localhost , 192.168.x.x , 10.x.x.x and *.local now work. Any other address still needs HTTPS. Fixes The QR scanner works in release builds. The camera used to show but never read a code. The pairing QR now points at the API address. Every agent action now shows on Android, and the "
+    },
+    {
+      "tag": "v0.8.1",
+      "title": "v0.8.1",
+      "date": "2026-11-02",
+      "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.1",
+      "pre": false,
+      "note": "Full Changelog : v0.8.0...v0.8.1"
+    },
+    {
+      "tag": "v0.8.0",
+      "title": "v0.8.0",
+      "date": "2026-11-02",
+      "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.0",
+      "pre": false,
+      "note": "What's Changed Add Muapi as first community MCP integration by @Anil-matcha in #220 Mobile: search, tables, web look, guided pairing and file access by @inderpreet001 in #221 Full Changelog : v0.7.0...v0.8.0"
+    },
+    {
+      "tag": "mobile-v0.2.0",
+      "title": "Mobile: version 0.2.0 (versionCode 2)",
+      "date": "2026-11-02",
+      "url": "https://github.com/Anil-matcha/suparagent/releases/tag/mobile-v0.2.0",
+      "pre": false,
+      "note": "Android preview of the Suparagent phone app. Signed with the same key as 0.1.0, so it installs over it. New Search your conversations, with results that open the matching message Tables in answers, scrolling sideways when wide A look that matches the web app: same colors, fonts and agent pictures Conversation screen like the web's, with a jump-to-latest button Guided pairing: numbered steps, QR code first, and a check of the server address before any code is sent Files: browse the files an agent made, preview text and images, and share or save any file Larger touch targets throughout Needs A server that is reachable over HTTPS. This build refuses plain http:// addresses. For Files, pair with a code made with Access: Chat and files (Settings → Devices), and turn on local execution on the server. A phone paired with \"Chat only\" still works for chat but cannot open files. Known issues On th"
+    }
+  ]
+}

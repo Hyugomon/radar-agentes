@@ -5,7 +5,7 @@
 - **Licencia**: MIT
 - **Lenguaje**: Python
 - **Estrellas**: 262811 · **Forks**: 59107
-- **Último push**: 2026-11-12T07:45:11Z · **Última release**: 2026-11-12
+- **Último push**: 2026-11-12T07:45:11Z · **Última release**: 2026-11-15
 - **Revisado**: 2026-11-12 · **Confianza**: 62/100
 - **Tipo**: agent · **Categoría**: general
 
@@ -18,6 +18,15 @@ Agente de código de Nous Research con bucle de autoaprendizaje: crea y mejora s
 ## Nota de verificación
 
 README: memoria persistente, skills que se auto-mejoran, cron, subagentes, backends de terminal, navegador cloud y aprobación de comandos.
+
+## Release revisada
+
+- **Tag**: [v0.23.1+canary.20261115T064406Z](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.1%2Bcanary.20261115T064406Z)
+- **Fecha**: 2026-11-15 (hace 0 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> Hermes Agent canary 20261115T064406Z
 
 ## Evidencia de la investigación
 

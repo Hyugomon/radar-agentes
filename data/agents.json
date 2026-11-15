@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-12 09:00",
-  "generated_iso": "2026-11-12T14:00:00Z",
+  "generated_at": "2026-11-15 06:50",
+  "generated_iso": "2026-11-15T06:50:44.405Z",
   "meta": {
     "reference": {
       "name": "Grok Bot",
@@ -224,8 +224,8 @@
   "counts": {
     "ready": 26,
     "open": 26,
-    "personal": 8,
-    "teams": 12,
+    "personal": 7,
+    "teams": 13,
     "general": 6,
     "hosted": 0,
     "reference": 0
@@ -407,35 +407,56 @@
         "created_at": "2025-07-22T22:22:28Z",
         "created_day": "2025-07-22",
         "pushed_at": "2026-11-12T07:45:11Z",
-        "last_release": "2026-11-12",
-        "releases_90": 5,
+        "last_release": "2026-11-15",
+        "last_release_tag": "v0.23.1+canary.20261115T064406Z",
+        "last_release_url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.1%2Bcanary.20261115T064406Z",
+        "last_release_days": 0,
+        "releases_90": 10,
         "releases_recent": [
           {
-            "tag": "v0.23.1+canary.20261112T064528Z",
-            "date": "2026-11-12",
-            "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.1%2Bcanary.20261112T064528Z"
+            "tag": "v0.23.1+canary.20261115T064406Z",
+            "date": "2026-11-15",
+            "pre": true,
+            "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.1%2Bcanary.20261115T064406Z"
           },
           {
-            "tag": "v0.23.1+canary.20261111T064456Z",
-            "date": "2026-11-11",
-            "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.1%2Bcanary.20261111T064456Z"
+            "tag": "v0.23.1+canary.20261114T064334Z",
+            "date": "2026-11-14",
+            "pre": true,
+            "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.1%2Bcanary.20261114T064334Z"
           },
           {
-            "tag": "Hermes Agent v0.23.1",
-            "date": "2026-11-10",
-            "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.1"
+            "tag": "rc.8-v0.23.2",
+            "date": "2026-11-14",
+            "pre": true,
+            "url": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.8-v0.23.2"
           },
           {
-            "tag": "v0.23.1+canary.20261110T064422Z",
-            "date": "2026-11-10",
-            "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.1%2Bcanary.20261110T064422Z"
+            "tag": "rc.7-v0.23.2",
+            "date": "2026-11-14",
+            "pre": true,
+            "url": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.7-v0.23.2"
           },
           {
-            "tag": "rc.3-v0.23.1",
-            "date": "2026-11-10",
-            "url": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.3-v0.23.1"
+            "tag": "rc.6-v0.23.2",
+            "date": "2026-11-14",
+            "pre": true,
+            "url": "https://github.com/NousResearch/hermes-agent/releases/tag/rc.6-v0.23.2"
+          },
+          {
+            "tag": "abandoned-rc.8-v0.23.2",
+            "date": "2026-11-14",
+            "pre": true,
+            "url": "https://github.com/NousResearch/hermes-agent/releases/tag/abandoned-rc.8-v0.23.2"
           }
         ],
+        "release_status": "activo",
+        "release_source": "releases.atom",
+        "release_note": "Hermes Agent canary 20261115T064406Z",
+        "release_highlight": "",
+        "release_impact": "",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
         "judged_day": "2026-11-12",
         "readme": "",
         "topics": [
@@ -630,35 +651,56 @@
         "created_at": "2026-08-11T18:58:55Z",
         "created_day": "2026-08-11",
         "pushed_at": "2026-11-12T07:08:53Z",
-        "last_release": "2026-11-12",
-        "releases_90": 5,
+        "last_release": "2026-11-14",
+        "last_release_tag": "v0.1.158",
+        "last_release_url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.158",
+        "last_release_days": 1,
+        "releases_90": 10,
         "releases_recent": [
           {
-            "tag": "OpenMausBot 0.1.154",
+            "tag": "v0.1.158",
+            "date": "2026-11-14",
+            "pre": false,
+            "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.158"
+          },
+          {
+            "tag": "v0.1.155",
+            "date": "2026-11-13",
+            "pre": false,
+            "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.155"
+          },
+          {
+            "tag": "v0.1.154",
             "date": "2026-11-12",
+            "pre": false,
             "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.154"
           },
           {
-            "tag": "OpenMausBot 0.1.153",
+            "tag": "v0.1.153",
             "date": "2026-11-11",
+            "pre": false,
             "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.153"
           },
           {
-            "tag": "OpenMausBot 0.1.152",
+            "tag": "v0.1.152",
             "date": "2026-11-10",
+            "pre": false,
             "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.152"
           },
           {
-            "tag": "OpenMausBot 0.1.151",
+            "tag": "v0.1.151",
             "date": "2026-11-09",
+            "pre": false,
             "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.151"
-          },
-          {
-            "tag": "OpenMausBot 0.1.150",
-            "date": "2026-11-09",
-            "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.150"
           }
         ],
+        "release_status": "activo",
+        "release_source": "releases.atom",
+        "release_note": "What's new in 0.1.158 Bots can change app settings for you Ask a bot to change a setting and it does it, with an Undo in the chat. You can make MausBot a regular bot if you don't want it as your helper. Rooms and teams Point at a member's page from inside a room. Set up many bots at once: a Chief can edit up to 40 bots in one go and add a rule to each. A Chief in charge of every department gets new departments automatically. Fork a conversation from any message to try a different direction without losing the original. Voice Listen with your ElevenLabs key, and speak Thai through Eleven v3. Phone A pairing link says when it only works on the same Wi-Fi. Phones without admin rights can read a bot's Data. Phone tools can run several known steps in one call. Browser and engines The built-in browser can use a SOCKS5 proxy and a chosen locale. Project skills are always on. A custom ACP engine ",
+        "release_highlight": "",
+        "release_impact": "",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
         "judged_day": "2026-11-12",
         "readme": "",
         "topics": [
@@ -849,35 +891,56 @@
         "created_at": "2026-04-20T12:46:31Z",
         "created_day": "2026-04-20",
         "pushed_at": "2026-11-12T07:21:12Z",
-        "last_release": "2026-11-03",
-        "releases_90": 5,
+        "last_release": "2026-11-14",
+        "last_release_tag": "optimus-v0.5.2",
+        "last_release_url": "https://github.com/cosmicstack-labs/mercury-agent/releases/tag/optimus-v0.5.2",
+        "last_release_days": 1,
+        "releases_90": 10,
         "releases_recent": [
           {
-            "tag": "Mercury v1.5.1",
+            "tag": "optimus-v0.5.2",
+            "date": "2026-11-14",
+            "pre": false,
+            "url": "https://github.com/cosmicstack-labs/mercury-agent/releases/tag/optimus-v0.5.2"
+          },
+          {
+            "tag": "v1.5.2",
+            "date": "2026-11-12",
+            "pre": true,
+            "url": "https://github.com/cosmicstack-labs/mercury-agent/releases/tag/v1.5.2"
+          },
+          {
+            "tag": "v1.5.1",
             "date": "2026-11-03",
+            "pre": true,
             "url": "https://github.com/cosmicstack-labs/mercury-agent/releases/tag/v1.5.1"
           },
           {
-            "tag": "Mercury v1.5.0",
+            "tag": "v1.5.0",
             "date": "2026-11-03",
+            "pre": true,
             "url": "https://github.com/cosmicstack-labs/mercury-agent/releases/tag/v1.5.0"
           },
           {
-            "tag": "Optimus 0.5.1 (plugin update)",
+            "tag": "optimus-v0.5.1",
             "date": "2026-11-03",
+            "pre": false,
             "url": "https://github.com/cosmicstack-labs/mercury-agent/releases/tag/optimus-v0.5.1"
           },
           {
-            "tag": "Mercury Dev — 1.4.2-dev.20261102.3418788",
+            "tag": "mercury-dev-latest",
             "date": "2026-11-02",
+            "pre": true,
             "url": "https://github.com/cosmicstack-labs/mercury-agent/releases/tag/mercury-dev-latest"
-          },
-          {
-            "tag": "WhatsApp 0.1.2 (plugin update)",
-            "date": "2026-10-30",
-            "url": "https://github.com/cosmicstack-labs/mercury-agent/releases/tag/whatsapp-v0.1.2"
           }
         ],
+        "release_status": "activo",
+        "release_source": "releases.atom",
+        "release_note": "Plugin-only update. Install or update with /plugins update optimus , or Plugins → Optimus → Update in Mercury Desktop. Works with Mercury 1.3.9 and newer; screenshot sizing per model needs Mercury 1.5.2. Screenshots sized for the model in use. Optimus resizes each capture to what the model reads best: Claude and OpenAI 1024×640, Gemini 768×480, open vision models 896×560. Click coordinates stay exact. No screenshot for models that can't see images. Optimus says which window is in front instead of sending a picture the model can't read.",
+        "release_highlight": "",
+        "release_impact": "",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
         "judged_day": "2026-11-12",
         "readme": "",
         "topics": [
@@ -1060,34 +1123,55 @@
         "created_day": "2023-05-25",
         "pushed_at": "2026-11-11T15:55:47Z",
         "last_release": "2026-11-11",
-        "releases_90": 5,
+        "last_release_tag": "v0.8.6",
+        "last_release_url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.6",
+        "last_release_days": 4,
+        "releases_90": 10,
         "releases_recent": [
           {
             "tag": "v0.8.6",
             "date": "2026-11-11",
+            "pre": false,
             "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.6"
           },
           {
-            "tag": "mobile-v0.4.0: chore: release desktop 0.8.6 and mobile 0.4.0",
+            "tag": "mobile-v0.4.0",
             "date": "2026-11-11",
+            "pre": false,
             "url": "https://github.com/Anil-matcha/suparagent/releases/tag/mobile-v0.4.0"
           },
           {
             "tag": "v0.8.5",
             "date": "2026-11-09",
+            "pre": false,
             "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.5"
           },
           {
             "tag": "v0.8.4",
             "date": "2026-11-06",
+            "pre": false,
             "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.4"
           },
           {
             "tag": "v0.8.3",
             "date": "2026-11-05",
+            "pre": false,
             "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.3"
+          },
+          {
+            "tag": "v0.8.2",
+            "date": "2026-11-05",
+            "pre": false,
+            "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.2"
           }
         ],
+        "release_status": "activo",
+        "release_source": "releases.atom",
+        "release_note": "What's Changed test: fix four stale tests that fail on main by @inderpreet001 in #237 Share a server install with other people: members, roles and permissions by @inderpreet001 in #236 docs: describe members, roles and shared workspaces by @inderpreet001 in #238 feat(mobile): chat-first default screen, sliding sidebar, dynamic model &amp; effort switcher, and server profile integration by @jaiprasad04 in #239 feat(docs): add in-app documentation center, visual workflows guide, and fix Windows Google auth command formatting by @jaiprasad04 in #235 feat: hosted workspace grants, workspace switcher and hosted People screen by @inderpreet001 in #240 Full Changelog : v0.8.5...v0.8.6",
+        "release_highlight": "",
+        "release_impact": "",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
         "judged_day": "2026-11-12",
         "readme": "",
         "topics": [
@@ -1284,34 +1368,55 @@
         "created_day": "2026-04-29",
         "pushed_at": "2026-11-12T01:24:20Z",
         "last_release": "2026-11-04",
-        "releases_90": 5,
+        "last_release_tag": "v2026.11.4",
+        "last_release_url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.11.4",
+        "last_release_days": 11,
+        "releases_90": 8,
         "releases_recent": [
           {
-            "tag": "Orkas 2026.11.4",
+            "tag": "v2026.11.4",
             "date": "2026-11-04",
+            "pre": false,
             "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.11.4"
           },
           {
-            "tag": "Orkas 2026.10.27",
+            "tag": "v2026.10.27",
             "date": "2026-10-27",
+            "pre": false,
             "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.10.27"
           },
           {
-            "tag": "Orkas 2026.10.17",
+            "tag": "v2026.10.17",
             "date": "2026-10-21",
+            "pre": false,
             "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.10.17"
           },
           {
-            "tag": "Orkas 2026.10.1",
+            "tag": "v2026.10.1",
             "date": "2026-10-16",
+            "pre": false,
             "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.10.1"
           },
           {
-            "tag": "Orkas 2026.9.22",
+            "tag": "v2026.9.22",
             "date": "2026-09-22",
+            "pre": false,
             "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.9.22"
+          },
+          {
+            "tag": "v2026.9.11",
+            "date": "2026-09-11",
+            "pre": false,
+            "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.9.11"
           }
         ],
+        "release_status": "reciente",
+        "release_source": "releases.atom",
+        "release_note": "v2026.11.4 Download Download Orkas Highlights Use GPT-6.1 Terra in supported provider and model settings. Choose multiple weekdays or month dates for recurring automations and review clearer schedule summaries. Capture product pages and recover video compositions with clearer preview and delivery checks. Fixes Recover queued messages, selected attachments and interrupted conversations without treating downloaded files as new drafts. Keep search results complete through cache rebuilds, file changes, deletion and restoration. Preserve both recoverable copies when Library moves encounter concurrent edits or partial deletion. Keep desktop background work, shutdown and provider failures consistent with the task's actual completion state. Full changelog Compare v2026.10.27...v2026.11.4",
+        "release_highlight": "",
+        "release_impact": "",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
         "judged_day": "2026-11-12",
         "readme": "",
         "topics": [
@@ -1511,35 +1616,56 @@
         "created_at": "2026-01-31T15:47:22Z",
         "created_day": "2026-01-31",
         "pushed_at": "2026-11-12T06:31:11Z",
-        "last_release": "2026-11-09",
-        "releases_90": 5,
+        "last_release": "2026-11-14",
+        "last_release_tag": "v2026.11.0-beta.3",
+        "last_release_url": "https://github.com/nanocoai/nanoclaw/releases/tag/v2026.11.0-beta.3",
+        "last_release_days": 1,
+        "releases_90": 10,
         "releases_recent": [
+          {
+            "tag": "v2026.11.0-beta.3",
+            "date": "2026-11-14",
+            "pre": true,
+            "url": "https://github.com/nanocoai/nanoclaw/releases/tag/v2026.11.0-beta.3"
+          },
+          {
+            "tag": "v2026.11.0-beta.2",
+            "date": "2026-11-12",
+            "pre": true,
+            "url": "https://github.com/nanocoai/nanoclaw/releases/tag/v2026.11.0-beta.2"
+          },
           {
             "tag": "v2026.11.0-beta.1",
             "date": "2026-11-09",
+            "pre": true,
             "url": "https://github.com/nanocoai/nanoclaw/releases/tag/v2026.11.0-beta.1"
           },
           {
             "tag": "v2026.10.1-rc.2",
             "date": "2026-10-22",
+            "pre": true,
             "url": "https://github.com/nanocoai/nanoclaw/releases/tag/v2026.10.1-rc.2"
           },
           {
             "tag": "v2026.10.1-rc.1",
             "date": "2026-10-20",
+            "pre": true,
             "url": "https://github.com/nanocoai/nanoclaw/releases/tag/v2026.10.1-rc.1"
           },
           {
             "tag": "v2026.10.0",
             "date": "2026-10-09",
+            "pre": false,
             "url": "https://github.com/nanocoai/nanoclaw/releases/tag/v2026.10.0"
-          },
-          {
-            "tag": "v2026.10.0-rc.2",
-            "date": "2026-10-05",
-            "url": "https://github.com/nanocoai/nanoclaw/releases/tag/v2026.10.0-rc.2"
           }
         ],
+        "release_status": "activo",
+        "release_source": "releases.atom",
+        "release_note": "NanoClaw 2026.11.0-beta.3 is the third beta of 2026.11.0: an early test build, so expect rough edges. The November release takes the place of 2026.10.1, which never becomes a stable release; its two release candidates stay published, and everything they brought is in this entry. Installs on the beta channel get this beta; stable stays on 2026.10.0 until 2026.11.0 is published. Since 2026.11.0-beta.2, gateway approval cards mark anything they shorten, an approval card changes only after NanoClaw accepts the click, long Slack replies are sent as several messages, and installs that set NANOCLAW_INSTALL_ID use it in the shell scripts and the installed service. Since 2026.11.0-beta.1, locally built agent images move to Claude Code 2.1.321 and Agent SDK 0.3.321, the first pair that knows Claude Fable 5.2, /update-nanoclaw no longer stops on a lockfile conflict at the first update of a default ",
+        "release_highlight": "",
+        "release_impact": "",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
         "judged_day": "2026-11-12",
         "readme": "",
         "topics": [
@@ -1726,35 +1852,56 @@
         "created_at": "2026-10-27T08:51:18Z",
         "created_day": "2026-10-27",
         "pushed_at": "2026-11-11T12:44:17Z",
-        "last_release": "2026-11-11",
-        "releases_90": 5,
+        "last_release": "2026-11-14",
+        "last_release_tag": "v0.1.36",
+        "last_release_url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.36",
+        "last_release_days": 1,
+        "releases_90": 10,
         "releases_recent": [
+          {
+            "tag": "v0.1.36",
+            "date": "2026-11-14",
+            "pre": false,
+            "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.36"
+          },
+          {
+            "tag": "v0.1.35",
+            "date": "2026-11-14",
+            "pre": false,
+            "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.35"
+          },
+          {
+            "tag": "v0.1.34",
+            "date": "2026-11-14",
+            "pre": false,
+            "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.34"
+          },
+          {
+            "tag": "v0.1.33",
+            "date": "2026-11-14",
+            "pre": false,
+            "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.33"
+          },
           {
             "tag": "v0.1.32",
             "date": "2026-11-11",
+            "pre": false,
             "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.32"
           },
           {
             "tag": "v0.1.31",
             "date": "2026-11-11",
+            "pre": false,
             "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.31"
-          },
-          {
-            "tag": "v0.1.30",
-            "date": "2026-11-09",
-            "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.30"
-          },
-          {
-            "tag": "v0.1.29",
-            "date": "2026-11-09",
-            "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.29"
-          },
-          {
-            "tag": "v0.1.28",
-            "date": "2026-11-08",
-            "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.28"
           }
         ],
+        "release_status": "activo",
+        "release_source": "releases.atom",
+        "release_note": "新增 把做成的事存成技能： 和机器人把一件事做对后，在输入框的「+」里点「存成技能…」、发 /skill 或直接说「存成技能」，机器人会整理出一张草稿卡，列出步骤、你纠正过的地方、用到的应用和技能，以及「试试这样说」。确认后存进「我的技能」，可以在其他机器人上一键打开，也能设成定时。密钥不会写进技能，手机号、邮箱等个人信息默认改成每次使用前再问；同一个技能可以更新、恢复上一版或导出 ZIP。 在微信、飞书里存技能： 微信、飞书、Telegram、Slack、Discord 私聊里也能发起，回复「保存」即可存下，回复「取消」放弃；群聊里不能发起。 技能库： 「连接应用」改名为「应用与技能」，新增「技能」标签，收录 31 个开源仓库的 155 个技能，可按用途分类、按作者筛选。复制安装指令发给任意机器人，或直接发技能的 GitHub 链接，确认卡片后就装上。 在对话里用技能和应用： 输入框「+」›「技能与应用」列出这个机器人能用的技能和应用，点一项会填入「用{名称}帮我……」。回复上方显示正在使用和已使用的技能、应用，技能名可以点开看详情。 改进与修复 技能列表更好找： 开着的排在前面；超过 10 个时可以搜索，并按「我的技能、GitHub、本地 ZIP、已关闭」筛选。每个技能标明是否已生效和来源，并附一句「试试这样说」。 体验额度期间的模板： 按当前额度选择合适的模型档位，并说明模板原本推荐的档位。 电脑操作授权： 后台任务接着做时被权限拦下，也会显示授权卡片；不再留下没有对应卡片的等待状态。 上手清单与提示： 点清单步骤被挡住时说明原因；操作提示移到主区顶部居中显示。 定时规则： 展开的规则按提示词、频率、下次运行和发送位置分区；选择机器人改为可搜索的列表；新建规则用卡片选择「发一句提醒」或「让它做件事」，「让它做件事」可以选用「我的技能」；改进空状态和英文的时区提示。 更新、账户和细节： 更新入口直接写明版本号；账户信息读取失败时可以重试；「退出登录」改为红色；应用内群聊余额不足时显示充值入口；模板卡片加上边框，入口去掉箭头。 New Save what you di",
+        "release_highlight": "",
+        "release_impact": "",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
         "judged_day": "2026-11-12",
         "readme": "",
         "topics": [
@@ -1954,35 +2101,56 @@
         "created_at": "2026-03-18T11:11:05Z",
         "created_day": "2026-03-18",
         "pushed_at": "2026-11-12T07:07:19Z",
-        "last_release": "2026-11-11",
-        "releases_90": 5,
+        "last_release": "2026-11-14",
+        "last_release_tag": "v2.47.0",
+        "last_release_url": "https://github.com/leepokai/Codync/releases/tag/v2.47.0",
+        "last_release_days": 1,
+        "releases_90": 10,
         "releases_recent": [
+          {
+            "tag": "v2.47.0",
+            "date": "2026-11-14",
+            "pre": false,
+            "url": "https://github.com/leepokai/Codync/releases/tag/v2.47.0"
+          },
+          {
+            "tag": "v2.46.1",
+            "date": "2026-11-13",
+            "pre": false,
+            "url": "https://github.com/leepokai/Codync/releases/tag/v2.46.1"
+          },
+          {
+            "tag": "v2.46.0",
+            "date": "2026-11-12",
+            "pre": false,
+            "url": "https://github.com/leepokai/Codync/releases/tag/v2.46.0"
+          },
+          {
+            "tag": "v2.45.1",
+            "date": "2026-11-12",
+            "pre": false,
+            "url": "https://github.com/leepokai/Codync/releases/tag/v2.45.1"
+          },
           {
             "tag": "v2.44.1",
             "date": "2026-11-11",
+            "pre": false,
             "url": "https://github.com/leepokai/Codync/releases/tag/v2.44.1"
           },
           {
             "tag": "v2.43.2",
             "date": "2026-11-10",
+            "pre": false,
             "url": "https://github.com/leepokai/Codync/releases/tag/v2.43.2"
-          },
-          {
-            "tag": "v2.43.1",
-            "date": "2026-11-09",
-            "url": "https://github.com/leepokai/Codync/releases/tag/v2.43.1"
-          },
-          {
-            "tag": "v2.42.2",
-            "date": "2026-11-09",
-            "url": "https://github.com/leepokai/Codync/releases/tag/v2.42.2"
-          },
-          {
-            "tag": "v2.42.1",
-            "date": "2026-11-08",
-            "url": "https://github.com/leepokai/Codync/releases/tag/v2.42.1"
           }
         ],
+        "release_status": "activo",
+        "release_source": "releases.atom",
+        "release_note": "Codync 2.47.0 Login profiles : an agent can have more than one login on a computer. Add another account (Claude Code, Codex, OpenCode, Pi, Google Antigravity and more) or an API key for any agent, name each one, and pick which a bot uses under Agent in its settings. Key values stay on the computer; variables from your login shell reach an agent only when you import them. A fallback can be the same agent on another login profile: when one runs out of usage, the bot carries on with the next. Usage limits per login : an agent with several signed-in accounts shows each account's own limits (Claude Code, Codex). The menu bar, notch island and widgets show the one nearest its limit. Share to a bot : choose Codync in any app's share sheet on iPhone or Android to send text, links, photos or files, with a message if you like. Choice cards show numbered options, and the last row takes your own typ",
+        "release_highlight": "",
+        "release_impact": "",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
         "judged_day": "2026-11-12",
         "readme": "",
         "topics": [
@@ -2009,6 +2177,252 @@
         ],
         "homepage": "https://www.codync.dev",
         "rank": 8
+      },
+      {
+        "id": "rowboatlabs-rowboat",
+        "slug": "rowboatlabs-rowboat",
+        "full_name": "rowboatlabs/rowboat",
+        "maker": "rowboatlabs",
+        "tagline": "Tu equipo de AI coworkers con memoria.",
+        "summary": "Asistente open source que organiza equipos de AI coworkers en Spaces: agentes hosted o locales con rol y personalidad, tableros compartidos, aprobaciones y acceso web/móvil, sobre una memoria en grafo y correo integrado.",
+        "description": "Asistente open source que organiza equipos de AI coworkers en Spaces: agentes hosted o locales con rol y personalidad, tableros compartidos, aprobaciones y acceso web/móvil, sobre una memoria en grafo y correo integrado.",
+        "url": "https://www.rowboatlabs.com",
+        "website": "https://www.rowboatlabs.com",
+        "repo": "https://github.com/rowboatlabs/rowboat",
+        "docs": "https://github.com/rowboatlabs/rowboat",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/rowboatlabs-rowboat",
+        "category": "teams",
+        "catLabel": "Equipo",
+        "licenseType": "Open source",
+        "license": "Apache-2.0",
+        "pricing": "free",
+        "priceLabel": "Gratis",
+        "priceNote": "Código abierto + tus modelos",
+        "setup": "moderate",
+        "setupLabel": "Medio",
+        "maturity": "released",
+        "maturityLabel": "Released",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux",
+          "Web",
+          "iOS"
+        ],
+        "models": "BYOK / multi-modelo",
+        "channels": [
+          "Chat",
+          "Email",
+          "Reuniones",
+          "Web"
+        ],
+        "reference": false,
+        "kind": "assistant",
+        "archetype": "teams",
+        "archetype_label": "Equipo",
+        "generation": "sesion 2024",
+        "tier": "A",
+        "total": 73.6,
+        "agency": 42,
+        "confidence": 75,
+        "dimensions": {
+          "capacidad": 80,
+          "autonomia": 68,
+          "computadora": 60,
+          "memoria": 90,
+          "rutinas": 60,
+          "equipo": 82,
+          "confianza": 78,
+          "producto": 76
+        },
+        "pillars": {
+          "identidad": true,
+          "computadora": false,
+          "memoria": true,
+          "rutinas": false,
+          "apps": false,
+          "coordinacion": true,
+          "aprobaciones": true,
+          "desatendido": false
+        },
+        "pillars_detail": [
+          {
+            "key": "identidad",
+            "label": "Identidad",
+            "hint": "El bot tiene nombre y rol propio; no es solo un chat.",
+            "weight": 10,
+            "on": true
+          },
+          {
+            "key": "computadora",
+            "label": "Computadora propia",
+            "hint": "Navegador, terminal, archivos y sesiones que sobreviven a la tarea.",
+            "weight": 18,
+            "on": false
+          },
+          {
+            "key": "memoria",
+            "label": "Memoria",
+            "hint": "Recuerda y acumula contexto por bot.",
+            "weight": 10,
+            "on": true
+          },
+          {
+            "key": "rutinas",
+            "label": "Rutinas",
+            "hint": "Ejecuta trabajo programado o por evento sin prompt.",
+            "weight": 16,
+            "on": false
+          },
+          {
+            "key": "apps",
+            "label": "Apps reales",
+            "hint": "Opera sitios y programas reales, no solo APIs.",
+            "weight": 14,
+            "on": false
+          },
+          {
+            "key": "coordinacion",
+            "label": "Coordinación",
+            "hint": "Varios bots se reparten el trabajo y lo entregan juntos.",
+            "weight": 12,
+            "on": true
+          },
+          {
+            "key": "aprobaciones",
+            "label": "Aprobaciones",
+            "hint": "Pide permiso antes de publicar, pagar o borrar.",
+            "weight": 10,
+            "on": true
+          },
+          {
+            "key": "desatendido",
+            "label": "Desatendido",
+            "hint": "Sigue trabajando mientras no estás conectado.",
+            "weight": 10,
+            "on": false
+          }
+        ],
+        "agency_max": 100,
+        "has_pillars": true,
+        "next_tier": "S",
+        "delta_next": 6.4,
+        "strengths": [
+          "Equipos de AI coworkers en Spaces: agentes hosted o locales con rol, personalidad y espacio compartido",
+          "Aprobaciones dentro de la conversación y superagentes que crean y delegan en otros agentes",
+          "Memoria en grafo, correo, reuniones y archivos compartidos, con acceso web y móvil"
+        ],
+        "weaknesses": [
+          "No documenta una computadora propia persistente: orquesta agentes hosted o locales, no un escritorio completo",
+          "Las rutinas programadas y el trabajo desatendido siguen sin evidencia clara",
+          "El stack TypeScript y la coordinación de varios agentes pueden encarecer cada tarea"
+        ],
+        "comparison": "Ya compite como equipo de AI coworkers con roles, aprobaciones y Spaces, pero sigue por debajo de Grok Bot en computadora propia persistente y trabajo desatendido.",
+        "sources": [
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/rowboatlabs/rowboat",
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "label": "Web oficial",
+            "url": "https://www.rowboatlabs.com",
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/rowboatlabs/rowboat#readme",
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "label": "Releases",
+            "url": "https://github.com/rowboatlabs/rowboat/releases",
+            "accessedAt": "2026-11-12"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/rowboatlabs-rowboat",
+            "accessedAt": "2026-11-12"
+          }
+        ],
+        "stars": 18167,
+        "forks": 1822,
+        "open_issues": 233,
+        "language": "TypeScript",
+        "created_at": "2025-01-13T09:30:40Z",
+        "created_day": "2025-01-13",
+        "pushed_at": "2026-11-12T03:42:58Z",
+        "last_release": "2026-11-11",
+        "last_release_tag": "v1.0.9",
+        "last_release_url": "https://github.com/rowboatlabs/rowboat/releases/tag/v1.0.9",
+        "last_release_days": 4,
+        "releases_90": 10,
+        "releases_recent": [
+          {
+            "tag": "v1.0.9",
+            "date": "2026-11-11",
+            "pre": false,
+            "url": "https://github.com/rowboatlabs/rowboat/releases/tag/v1.0.9"
+          },
+          {
+            "tag": "v1.0.8",
+            "date": "2026-11-11",
+            "pre": false,
+            "url": "https://github.com/rowboatlabs/rowboat/releases/tag/v1.0.8"
+          },
+          {
+            "tag": "v1.0.7",
+            "date": "2026-11-03",
+            "pre": false,
+            "url": "https://github.com/rowboatlabs/rowboat/releases/tag/v1.0.7"
+          },
+          {
+            "tag": "v1.0.6",
+            "date": "2026-11-03",
+            "pre": false,
+            "url": "https://github.com/rowboatlabs/rowboat/releases/tag/v1.0.6"
+          },
+          {
+            "tag": "v1.0.5",
+            "date": "2026-09-30",
+            "pre": false,
+            "url": "https://github.com/rowboatlabs/rowboat/releases/tag/v1.0.5"
+          },
+          {
+            "tag": "v1.0.4",
+            "date": "2026-09-22",
+            "pre": false,
+            "url": "https://github.com/rowboatlabs/rowboat/releases/tag/v1.0.4"
+          }
+        ],
+        "release_status": "activo",
+        "release_source": "releases.atom",
+        "release_note": "What's new This release brings together the major changes since v1.0.3 , with a focus on building and working with your own team of AI coworkers. 🤖 Bring your AI teammates into Spaces. Create hosted Hermes, Claude Code, and Codex agents, or connect agents you already run—including Claude Code and Codex on your own computer. Give them roles and personalities, add them to a shared space, and let them work alongside you and each other. Choose who can ask each agent for help, follow its progress, and handle approvals in the conversation. Managed agents gain Composio integrations for connected services, and super agents can create other agents to delegate work to, with permission prompts on by default. 🌐 Spaces on the web and on your phone. Use Spaces in your browser for conversations, agents, shared files, and notifications. The iOS app gains richer messaging, editable notes and files, inl",
+        "release_highlight": "v1.0.9: Spaces con AI teammates, roles, agentes hosted y aprobaciones; superagentes y Composio.",
+        "release_impact": "Sube a Tier A (+8.05): Equipo 55→82 y Confianza 55→78; Identidad, Coordinación y Aprobaciones pasan a ON. Computadora sigue en falso.",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
+        "judged_day": "2026-11-12",
+        "readme": "",
+        "topics": [
+          "agents",
+          "agents-sdk",
+          "ai",
+          "ai-agents",
+          "ai-agents-automation",
+          "chatgpt",
+          "claude-code",
+          "claude-cowork",
+          "generative-ai",
+          "llm",
+          "multiagent",
+          "opeani",
+          "open-source",
+          "orchestration",
+          "productivity"
+        ],
+        "homepage": "https://www.rowboatlabs.com",
+        "rank": 9
       },
       {
         "id": "nano-muse-nanomuse",
@@ -2185,34 +2599,55 @@
         "created_day": "2026-09-23",
         "pushed_at": "2026-11-12T01:39:27Z",
         "last_release": "2026-10-30",
-        "releases_90": 5,
+        "last_release_tag": "v1.0.9",
+        "last_release_url": "https://github.com/nano-muse/nanoMuse/releases/tag/v1.0.9",
+        "last_release_days": 16,
+        "releases_90": 10,
         "releases_recent": [
           {
-            "tag": "nanoMuse 1.0.9 · Tiller",
+            "tag": "v1.0.9",
             "date": "2026-10-30",
+            "pre": false,
             "url": "https://github.com/nano-muse/nanoMuse/releases/tag/v1.0.9"
           },
           {
-            "tag": "nanoMuse 1.0.8 · Crew",
+            "tag": "v1.0.8",
             "date": "2026-10-29",
+            "pre": false,
             "url": "https://github.com/nano-muse/nanoMuse/releases/tag/v1.0.8"
           },
           {
-            "tag": "nanoMuse 1.0.7 · Logbook",
+            "tag": "v1.0.7",
             "date": "2026-10-25",
+            "pre": false,
             "url": "https://github.com/nano-muse/nanoMuse/releases/tag/v1.0.7"
           },
           {
-            "tag": "nanoMuse 1.0.6 · Beacon",
+            "tag": "v1.0.6",
             "date": "2026-10-24",
+            "pre": false,
             "url": "https://github.com/nano-muse/nanoMuse/releases/tag/v1.0.6"
           },
           {
-            "tag": "nanoMuse 1.0.5 · Lookout",
+            "tag": "v1.0.5",
             "date": "2026-10-13",
+            "pre": false,
             "url": "https://github.com/nano-muse/nanoMuse/releases/tag/v1.0.5"
+          },
+          {
+            "tag": "v1.0.4",
+            "date": "2026-10-12",
+            "pre": false,
+            "url": "https://github.com/nano-muse/nanoMuse/releases/tag/v1.0.4"
           }
         ],
+        "release_status": "reciente",
+        "release_source": "releases.atom",
+        "release_note": "nanoMuse 1.0.9 · Tiller 🐉 nanoMuse 1.0.9 “Tiller” : a fix release the same day as Crew. The desktop starts again when you are signed in, the relay's console loads on a large record, and the runtime takes a budget for a task and recalls from the whole memory store. 1.0.8 went out this morning, and its desktop did not start for anyone who was signed in. The plugin pointed the nanoMuse Cloud provider row at the loopback door it opens for the relay and waited for that settings write while the plugins were still starting; the write waits for the plugins, so the Host never announced its address and the window sat on Starting… for good, with nanoMuse is still starting every ten minutes ( #701 , fixed in #703 ). A fresh install was never affected, which is why the release check passed; everyone who had used 1.0.7 or signed in was. The same day the hosted relay's console stopped loading: the Usa",
+        "release_highlight": "",
+        "release_impact": "",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
         "judged_day": "2026-11-12",
         "readme": "",
         "topics": [
@@ -2236,7 +2671,7 @@
           "personal-agent"
         ],
         "homepage": "https://nanomuse.cn/",
-        "rank": 9
+        "rank": 10
       },
       {
         "id": "sentelabsai-openexecutive",
@@ -2405,35 +2840,56 @@
         "created_at": "2026-06-11T21:41:54Z",
         "created_day": "2026-06-11",
         "pushed_at": "2026-11-12T03:57:33Z",
-        "last_release": "2026-11-11",
-        "releases_90": 5,
+        "last_release": "2026-11-12",
+        "last_release_tag": "v0.7.3",
+        "last_release_url": "https://github.com/ForeactLabs/OpenExecutive/releases/tag/v0.7.3",
+        "last_release_days": 3,
+        "releases_90": 10,
         "releases_recent": [
+          {
+            "tag": "v0.7.3",
+            "date": "2026-11-12",
+            "pre": false,
+            "url": "https://github.com/ForeactLabs/OpenExecutive/releases/tag/v0.7.3"
+          },
           {
             "tag": "v0.7.2",
             "date": "2026-11-11",
-            "url": "https://github.com/SenteLabsAI/OpenExecutive/releases/tag/v0.7.2"
+            "pre": false,
+            "url": "https://github.com/ForeactLabs/OpenExecutive/releases/tag/v0.7.2"
           },
           {
             "tag": "v0.7.1",
             "date": "2026-11-10",
-            "url": "https://github.com/SenteLabsAI/OpenExecutive/releases/tag/v0.7.1"
+            "pre": false,
+            "url": "https://github.com/ForeactLabs/OpenExecutive/releases/tag/v0.7.1"
           },
           {
             "tag": "v0.7.0",
             "date": "2026-11-07",
-            "url": "https://github.com/SenteLabsAI/OpenExecutive/releases/tag/v0.7.0"
+            "pre": false,
+            "url": "https://github.com/ForeactLabs/OpenExecutive/releases/tag/v0.7.0"
           },
           {
             "tag": "v0.6.9",
             "date": "2026-11-03",
-            "url": "https://github.com/SenteLabsAI/OpenExecutive/releases/tag/v0.6.9"
+            "pre": false,
+            "url": "https://github.com/ForeactLabs/OpenExecutive/releases/tag/v0.6.9"
           },
           {
             "tag": "v0.6.8",
             "date": "2026-10-30",
-            "url": "https://github.com/SenteLabsAI/OpenExecutive/releases/tag/v0.6.8"
+            "pre": false,
+            "url": "https://github.com/ForeactLabs/OpenExecutive/releases/tag/v0.6.8"
           }
         ],
+        "release_status": "activo",
+        "release_source": "releases.atom",
+        "release_note": "0.7.3 (2026-11-12) Added integrations: add Approve and Skip buttons to Google Chat cards ( #806 ) ( 9f0c9dc ) ui: give email cards one set of buttons and answer questions on them ( #811 ) ( 33073d0 ) Fixed delegation: reply in the thread to whoever they ask, on the waiting card when there is one ( #810 ) ( 5df30ac ) integrations: check a Google Chat tap before its buttons come off ( #808 ) ( 6639fd5 ) integrations: move Google Workspace MCP to 2.4.2 ( #812 ) ( 95ebc8e )",
+        "release_highlight": "",
+        "release_impact": "",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
         "judged_day": "2026-11-12",
         "readme": "",
         "topics": [
@@ -2449,7 +2905,7 @@
           "typescript"
         ],
         "homepage": "https://openexecutive.ai",
-        "rank": 10
+        "rank": 11
       },
       {
         "id": "androoagi-starnet",
@@ -2622,34 +3078,55 @@
         "created_day": "2026-06-14",
         "pushed_at": "2026-11-11T21:50:54Z",
         "last_release": "2026-11-07",
-        "releases_90": 5,
+        "last_release_tag": "v0.15.0",
+        "last_release_url": "https://github.com/androoAGI/starnet/releases/tag/v0.15.0",
+        "last_release_days": 8,
+        "releases_90": 10,
         "releases_recent": [
           {
-            "tag": "StarNet v0.15.0",
+            "tag": "v0.15.0",
             "date": "2026-11-07",
+            "pre": false,
             "url": "https://github.com/androoAGI/starnet/releases/tag/v0.15.0"
           },
           {
-            "tag": "StarNet v0.14.2",
+            "tag": "v0.14.2",
             "date": "2026-10-31",
+            "pre": false,
             "url": "https://github.com/androoAGI/starnet/releases/tag/v0.14.2"
           },
           {
-            "tag": "StarNet v0.14.1",
+            "tag": "v0.14.1",
             "date": "2026-10-26",
+            "pre": false,
             "url": "https://github.com/androoAGI/starnet/releases/tag/v0.14.1"
           },
           {
-            "tag": "StarNet v0.14.0",
+            "tag": "v0.14.0",
             "date": "2026-10-25",
+            "pre": false,
             "url": "https://github.com/androoAGI/starnet/releases/tag/v0.14.0"
           },
           {
-            "tag": "StarNet v0.13.5",
+            "tag": "v0.13.5",
             "date": "2026-10-16",
+            "pre": false,
             "url": "https://github.com/androoAGI/starnet/releases/tag/v0.13.5"
+          },
+          {
+            "tag": "v0.13.3",
+            "date": "2026-10-13",
+            "pre": false,
+            "url": "https://github.com/androoAGI/starnet/releases/tag/v0.13.3"
           }
         ],
+        "release_status": "reciente",
+        "release_source": "releases.atom",
+        "release_note": "Download Platform Installer Windows (x64) StarNet_0.15.0_x64-setup.exe macOS (Apple Silicon) StarNet_0.15.0_aarch64.dmg macOS (Intel) StarNet_0.15.0_x64.dmg These downloads are mirrored byte-for-byte from the validated StarNet distribution release. Already running StarNet? Update from inside the app; your crew, sessions, keys, and station remain in place. StarNet v0.15.0 This update improves StarNet's reliability, privacy, security and spending controls. Jobs now wait for your decision when a reviewer blocks them, deleting a chat clears far more of what the station kept from it, images of unknown cost are capped, and save files are much smaller for stations with a lot of chat history. It also adds steering an agent mid-task from COMMS, a recovery bundle for backing up your station, and a station designer with seven new floor plans. Upgrading, and going back The first save moves your stat",
+        "release_highlight": "",
+        "release_impact": "",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
         "judged_day": "2026-11-12",
         "readme": "",
         "topics": [
@@ -2667,7 +3144,7 @@
           "tauri"
         ],
         "homepage": "https://github.com/androoAGI/starnet-releases/releases/latest",
-        "rank": 11
+        "rank": 12
       },
       {
         "id": "microclaw-microclaw",
@@ -2840,35 +3317,56 @@
         "created_at": "2026-02-07T08:28:51Z",
         "created_day": "2026-02-07",
         "pushed_at": "2026-11-12T07:00:58Z",
-        "last_release": "2026-11-12",
-        "releases_90": 5,
+        "last_release": "2026-11-13",
+        "last_release_tag": "v0.31.0",
+        "last_release_url": "https://github.com/microclaw/microclaw/releases/tag/v0.31.0",
+        "last_release_days": 2,
+        "releases_90": 10,
         "releases_recent": [
+          {
+            "tag": "v0.31.0",
+            "date": "2026-11-13",
+            "pre": false,
+            "url": "https://github.com/microclaw/microclaw/releases/tag/v0.31.0"
+          },
+          {
+            "tag": "v0.30.2",
+            "date": "2026-11-12",
+            "pre": false,
+            "url": "https://github.com/microclaw/microclaw/releases/tag/v0.30.2"
+          },
+          {
+            "tag": "v0.30.1",
+            "date": "2026-11-12",
+            "pre": false,
+            "url": "https://github.com/microclaw/microclaw/releases/tag/v0.30.1"
+          },
           {
             "tag": "v0.30.0",
             "date": "2026-11-12",
+            "pre": false,
             "url": "https://github.com/microclaw/microclaw/releases/tag/v0.30.0"
           },
           {
             "tag": "v0.29.1",
             "date": "2026-11-11",
+            "pre": false,
             "url": "https://github.com/microclaw/microclaw/releases/tag/v0.29.1"
           },
           {
             "tag": "v0.29.0",
             "date": "2026-11-10",
+            "pre": false,
             "url": "https://github.com/microclaw/microclaw/releases/tag/v0.29.0"
-          },
-          {
-            "tag": "v0.28.0",
-            "date": "2026-11-09",
-            "url": "https://github.com/microclaw/microclaw/releases/tag/v0.28.0"
-          },
-          {
-            "tag": "v0.27.1",
-            "date": "2026-11-09",
-            "url": "https://github.com/microclaw/microclaw/releases/tag/v0.27.1"
           }
         ],
+        "release_status": "activo",
+        "release_source": "releases.atom",
+        "release_note": "MicroClaw Code 0.31: private project memory, Claude Code plugins and idle compaction ( docs/roadmap/mccode-competitive-plan-2026-11-cn.md , N5–N7). Added Private project memory. Besides the shared .microclaw/memory.md (in the repository), trusted projects now have a private memory in ~/.mccode/projects/ - /memory.md for your preferences and this machine's setup. Both are in the prompt of every turn; the agent is told which kind of fact goes where (a stated preference never goes to the shared file), and writing the private file does not ask for the outside-the-project approval. Worktrees share the main checkout's private memory. /memory opens both files in $EDITOR ( shared , private , show ). mccode import claude adds Claude Code's auto memory of the same repository, mccode import codex the items of Codex's memories. Plugins in the Claude Code layout. mccode plugin add [--plugin ] [--proj",
+        "release_highlight": "",
+        "release_impact": "",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
         "judged_day": "2026-11-12",
         "readme": "",
         "topics": [
@@ -2878,7 +3376,7 @@
           "rust"
         ],
         "homepage": "https://microclaw.org",
-        "rank": 12
+        "rank": 13
       },
       {
         "id": "rokaswk-threebot",
@@ -3051,35 +3549,56 @@
         "created_at": "2026-11-02T00:17:37Z",
         "created_day": "2026-11-02",
         "pushed_at": "2026-11-11T13:08:21Z",
-        "last_release": "2026-11-11",
-        "releases_90": 5,
+        "last_release": "2026-11-14",
+        "last_release_tag": "v0.1.8",
+        "last_release_url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.8",
+        "last_release_days": 1,
+        "releases_90": 9,
         "releases_recent": [
           {
-            "tag": "Threebot 0.1.6",
+            "tag": "v0.1.8",
+            "date": "2026-11-14",
+            "pre": false,
+            "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.8"
+          },
+          {
+            "tag": "v0.1.7",
+            "date": "2026-11-14",
+            "pre": false,
+            "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.7"
+          },
+          {
+            "tag": "v0.1.6",
             "date": "2026-11-11",
+            "pre": false,
             "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.6"
           },
           {
-            "tag": "Threebot 0.1.5",
+            "tag": "v0.1.5",
             "date": "2026-11-07",
+            "pre": false,
             "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.5"
           },
           {
-            "tag": "Threebot 0.1.4",
+            "tag": "v0.1.4",
             "date": "2026-11-06",
+            "pre": false,
             "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.4"
           },
           {
-            "tag": "Threebot 0.1.3",
+            "tag": "v0.1.3",
             "date": "2026-11-06",
+            "pre": false,
             "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.3"
-          },
-          {
-            "tag": "Threebot 0.1.2",
-            "date": "2026-11-06",
-            "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.2"
           }
         ],
+        "release_status": "activo",
+        "release_source": "releases.atom",
+        "release_note": "v0.1.8 · 2 changes from 2 contributors Quieter rooms. A room's notifications are held back on the device that has that room open, and still reach your other devices. Plus 1 more change. Full changelog What's Changed Hold a room push back while that room is on screen by @cristianbdev in #61 Release 0.1.8 by @RokaSwK in #62 Full Changelog : v0.1.7...v0.1.8",
+        "release_highlight": "",
+        "release_impact": "",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
         "judged_day": "2026-11-12",
         "readme": "",
         "topics": [
@@ -3090,7 +3609,7 @@
           "t3code"
         ],
         "homepage": "https://bot.swk.tools/",
-        "rank": 13
+        "rank": 14
       },
       {
         "id": "ryder-sun-meldwork",
@@ -3262,34 +3781,55 @@
         "created_day": "2026-07-29",
         "pushed_at": "2026-11-09T07:10:09Z",
         "last_release": "2026-11-02",
-        "releases_90": 5,
+        "last_release_tag": "Meldwork-V1.0.9",
+        "last_release_url": "https://github.com/Ryder-Sun/Meldwork/releases/tag/Meldwork-V1.0.9",
+        "last_release_days": 13,
+        "releases_90": 8,
         "releases_recent": [
           {
-            "tag": "Meldwork V1.0.9 Preview",
+            "tag": "Meldwork-V1.0.9",
             "date": "2026-11-02",
+            "pre": true,
             "url": "https://github.com/Ryder-Sun/Meldwork/releases/tag/Meldwork-V1.0.9"
           },
           {
-            "tag": "Meldwork V1.0.8",
+            "tag": "Meldwork-V1.0.8",
             "date": "2026-10-27",
+            "pre": false,
             "url": "https://github.com/Ryder-Sun/Meldwork/releases/tag/Meldwork-V1.0.8"
           },
           {
-            "tag": "Meldwork V1.0.7",
+            "tag": "Meldwork-V1.0.7",
             "date": "2026-10-27",
+            "pre": false,
             "url": "https://github.com/Ryder-Sun/Meldwork/releases/tag/Meldwork-V1.0.7"
           },
           {
-            "tag": "Meldwork V1.0.6",
+            "tag": "Meldwork-V1.0.6",
             "date": "2026-10-18",
+            "pre": false,
             "url": "https://github.com/Ryder-Sun/Meldwork/releases/tag/Meldwork-V1.0.6"
           },
           {
-            "tag": "Meldwork V1.0.5 — General Agent workspace prerelease",
+            "tag": "Meldwork-V1.0.5",
             "date": "2026-09-17",
+            "pre": false,
             "url": "https://github.com/Ryder-Sun/Meldwork/releases/tag/Meldwork-V1.0.5"
+          },
+          {
+            "tag": "Meldwork-V1.0.4",
+            "date": "2026-09-01",
+            "pre": false,
+            "url": "https://github.com/Ryder-Sun/Meldwork/releases/tag/Meldwork-V1.0.4"
           }
         ],
+        "release_status": "reciente",
+        "release_source": "releases.atom",
+        "release_note": "Meldwork V1.0.9 预览版 本版本适用于 Apple 芯片 macOS。安装包使用 ad-hoc 临时签名，尚未使用 Apple Developer ID 签名或公证；首次打开时，macOS 可能需要在“系统设置 → 隐私与安全性”中选择“仍要打开”。 更新 自动讨论根据原生 Agent 的明确完成信号结束发言，所有参与者须认可同一版交付物后才结束。 改进本地 Agent 认证状态，正确识别 CLI 仅在标准错误中报告的认证失败；修复知识库图标资源，并精简启动页面文案。 真实六 Agent 无限轮讨论在九轮后完成，六方认可同一候选交付物，文件哈希一致。此次版本验证包括 1,700 项桌面测试、379 项前端测试、13 项官网测试、构建与安装包完整性检查。 已知限制 安装 CLI 不代表模型连接已验证。OpenClaw 的隔离环境可能无法使用现有原生配置；WorkBuddy CLI 可能需要单独登录；Zcode 需要有效的原生提供方凭据。 ZGCI smart-router-v2 已通过 Zcode 临时配置实测，但本版本不会自动写入或部署该提供方配置。 下载 DMG 安装，或下载 ZIP 解压； SHA256SUMS.txt 可用于校验文件完整性。 English Apple silicon macOS preview. The artifacts are ad-hoc signed and are not Apple Developer ID signed or notarized. On first launch, macOS may require Open Anyway in System Settings → Privacy &amp; Security . Unlimited Auto Discussion completes native turns on explicit completion and requires all participants to approve the same delivery version. A real ",
+        "release_highlight": "",
+        "release_impact": "",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
         "judged_day": "2026-11-12",
         "readme": "",
         "topics": [
@@ -3304,7 +3844,7 @@
           "multi-agent-system"
         ],
         "homepage": "https://ryder-sun.github.io/Meldwork/",
-        "rank": 14
+        "rank": 15
       },
       {
         "id": "opencrabs-opencrabs",
@@ -3480,35 +4020,56 @@
         "created_at": "2026-02-14T00:05:58Z",
         "created_day": "2026-02-14",
         "pushed_at": "2026-11-12T03:59:17Z",
-        "last_release": "2026-10-27",
-        "releases_90": 5,
+        "last_release": "2026-11-15",
+        "last_release_tag": "v0.6.0",
+        "last_release_url": "https://github.com/opencrabs/opencrabs/releases/tag/v0.6.0",
+        "last_release_days": 0,
+        "releases_90": 10,
         "releases_recent": [
+          {
+            "tag": "v0.6.0",
+            "date": "2026-11-15",
+            "pre": false,
+            "url": "https://github.com/opencrabs/opencrabs/releases/tag/v0.6.0"
+          },
           {
             "tag": "v0.5.15",
             "date": "2026-10-27",
+            "pre": false,
             "url": "https://github.com/opencrabs/opencrabs/releases/tag/v0.5.15"
           },
           {
             "tag": "v0.5.14",
             "date": "2026-10-25",
+            "pre": false,
             "url": "https://github.com/opencrabs/opencrabs/releases/tag/v0.5.14"
           },
           {
             "tag": "v0.5.13",
             "date": "2026-10-24",
+            "pre": false,
             "url": "https://github.com/opencrabs/opencrabs/releases/tag/v0.5.13"
           },
           {
             "tag": "v0.5.12",
             "date": "2026-10-21",
+            "pre": false,
             "url": "https://github.com/opencrabs/opencrabs/releases/tag/v0.5.12"
           },
           {
             "tag": "v0.5.11",
             "date": "2026-10-16",
+            "pre": false,
             "url": "https://github.com/opencrabs/opencrabs/releases/tag/v0.5.11"
           }
         ],
+        "release_status": "activo",
+        "release_source": "releases.atom",
+        "release_note": "925 commits since v0.5.15, 6 contributors. 654 files changed, +127,903 / -5,765 lines. ✨ Features 79facf2a5 The theme modal picks the window's font ( ctrl+shift+t or /theme ) : the card that chooses the four themes now carries a Font row under them, listing the families the machine actually has installed with System (default) at the top. A click applies to the whole window and saves at once to [gui] font , the same way a theme card does, and esc closes the list before it closes the modal. Nothing is bundled: no font bytes, no licence files. The window paints in the family you name and the system supplies the glyphs it does not have, so every script the platform font covers still renders, and the catalog is read once on the first paint because all_font_names walks CoreText on macOS with no cache of its own. Code blocks get their own key, [gui] mono_font , which walks a candidate list and ",
+        "release_highlight": "",
+        "release_impact": "",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
         "judged_day": "2026-11-12",
         "readme": "",
         "topics": [
@@ -3527,7 +4088,7 @@
           "self-learning"
         ],
         "homepage": "https://opencrabs.com",
-        "rank": 15
+        "rank": 16
       },
       {
         "id": "zhayujie-cowagent",
@@ -3701,34 +4262,55 @@
         "created_day": "2022-08-07",
         "pushed_at": "2026-11-12T04:52:23Z",
         "last_release": "2026-10-30",
-        "releases_90": 5,
+        "last_release_tag": "2.2.2",
+        "last_release_url": "https://github.com/zhayujie/CowAgent/releases/tag/2.2.2",
+        "last_release_days": 16,
+        "releases_90": 6,
         "releases_recent": [
           {
             "tag": "2.2.2",
             "date": "2026-10-30",
+            "pre": false,
             "url": "https://github.com/zhayujie/CowAgent/releases/tag/2.2.2"
           },
           {
             "tag": "2.2.1",
             "date": "2026-10-14",
+            "pre": false,
             "url": "https://github.com/zhayujie/CowAgent/releases/tag/2.2.1"
           },
           {
             "tag": "2.2.0",
             "date": "2026-09-30",
+            "pre": false,
             "url": "https://github.com/zhayujie/CowAgent/releases/tag/2.2.0"
           },
           {
             "tag": "2.1.9",
             "date": "2026-09-14",
+            "pre": false,
             "url": "https://github.com/zhayujie/CowAgent/releases/tag/2.1.9"
           },
           {
             "tag": "2.1.8",
             "date": "2026-09-11",
+            "pre": false,
             "url": "https://github.com/zhayujie/CowAgent/releases/tag/2.1.8"
+          },
+          {
+            "tag": "2.1.7",
+            "date": "2026-08-21",
+            "pre": false,
+            "url": "https://github.com/zhayujie/CowAgent/releases/tag/2.1.7"
           }
         ],
+        "release_status": "reciente",
+        "release_source": "releases.atom",
+        "release_note": "🌐 English | 中文 💬 Guest Pages Share an Agent as a standalone chat page, or embed it in your website as a chat window. Visitors open the link and start chatting without signing in, which suits product inquiries, knowledge base Q&amp;A, customer support, and similar scenarios: Standalone pages : each page gets its own link, visitors keep their chat history, and the name, icon, theme color, welcome message, and suggested questions are all customizable. Embedded chat window : a single code snippet embeds the page in your website, with a chat button in the bottom-right corner. You can restrict which sites may embed it and preview the result while configuring. Try it live on the CowAgent website . Data isolation : the Agent serving visitors can only use the tools, skills, and references enabled for that page. It cannot access your memory, conversations, or workspace, cannot run commands, and ",
+        "release_highlight": "",
+        "release_impact": "",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
         "judged_day": "2026-11-12",
         "readme": "",
         "topics": [
@@ -3751,7 +4333,7 @@
           "skills"
         ],
         "homepage": "https://cowagent.ai",
-        "rank": 16
+        "rank": 17
       },
       {
         "id": "agentvivekkumar-dontbemichael",
@@ -3923,35 +4505,56 @@
         "created_at": "2026-09-15T03:39:15Z",
         "created_day": "2026-09-15",
         "pushed_at": "2026-11-12T02:24:08Z",
-        "last_release": "2026-11-12",
-        "releases_90": 5,
+        "last_release": "2026-11-14",
+        "last_release_tag": "v0.4.1",
+        "last_release_url": "https://github.com/agentvivekkumar/dontbemichael/releases/tag/v0.4.1",
+        "last_release_days": 1,
+        "releases_90": 10,
         "releases_recent": [
+          {
+            "tag": "v0.4.1",
+            "date": "2026-11-14",
+            "pre": false,
+            "url": "https://github.com/agentvivekkumar/dontbemichael/releases/tag/v0.4.1"
+          },
+          {
+            "tag": "v0.4.0",
+            "date": "2026-11-13",
+            "pre": false,
+            "url": "https://github.com/agentvivekkumar/dontbemichael/releases/tag/v0.4.0"
+          },
+          {
+            "tag": "v0.3.9",
+            "date": "2026-11-13",
+            "pre": false,
+            "url": "https://github.com/agentvivekkumar/dontbemichael/releases/tag/v0.3.9"
+          },
           {
             "tag": "v0.3.8",
             "date": "2026-11-12",
+            "pre": false,
             "url": "https://github.com/agentvivekkumar/dontbemichael/releases/tag/v0.3.8"
           },
           {
             "tag": "v0.3.7",
             "date": "2026-11-09",
+            "pre": false,
             "url": "https://github.com/agentvivekkumar/dontbemichael/releases/tag/v0.3.7"
           },
           {
             "tag": "v0.3.6",
             "date": "2026-11-06",
+            "pre": false,
             "url": "https://github.com/agentvivekkumar/dontbemichael/releases/tag/v0.3.6"
-          },
-          {
-            "tag": "v0.3.5",
-            "date": "2026-11-04",
-            "url": "https://github.com/agentvivekkumar/dontbemichael/releases/tag/v0.3.5"
-          },
-          {
-            "tag": "v0.3.4",
-            "date": "2026-11-01",
-            "url": "https://github.com/agentvivekkumar/dontbemichael/releases/tag/v0.3.4"
           }
         ],
+        "release_status": "activo",
+        "release_source": "releases.atom",
+        "release_note": "Don't Be Michael v0.4.1 An AI office for your small business. Pick your kind of business, pick your team, and Michael, your office manager, runs the floor while you run the business. What's new in 0.4.1 Job changes work in every office. A job change, such as a better job description offered for a team member, failed every time in an office whose folder Claude Code had never been opened in. These checks now run in a folder of their own that Claude never stops on. Every feature, release by release: docs/FEATURES.md Download Platform Download Mac (Apple Silicon and Intel) Dont-Be-Michael-0.4.1-mac-universal.dmg Windows 11 (x64): Dont-Be-Michael-0.4.1-win-x64-setup.exe . ARM PCs aren't supported. This build is not yet signed with a Microsoft certificate: when Windows says Windows protected your PC , click More info , then Run anyway . Linux will follow. Source code (zip) · Source code (tar.g",
+        "release_highlight": "",
+        "release_impact": "",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
         "judged_day": "2026-11-12",
         "readme": "",
         "topics": [
@@ -3959,7 +4562,7 @@
           "ai"
         ],
         "homepage": "https://dontbemichael.com",
-        "rank": 17
+        "rank": 18
       },
       {
         "id": "agentscope-ai-qwenpaw",
@@ -4131,34 +4734,55 @@
         "created_day": "2026-02-24",
         "pushed_at": "2026-11-12T04:06:01Z",
         "last_release": "2026-11-11",
-        "releases_90": 5,
+        "last_release_tag": "v2.3.0",
+        "last_release_url": "https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.3.0",
+        "last_release_days": 4,
+        "releases_90": 10,
         "releases_recent": [
           {
             "tag": "v2.3.0",
             "date": "2026-11-11",
+            "pre": false,
             "url": "https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.3.0"
           },
           {
             "tag": "v2.3.0-beta.4",
             "date": "2026-11-10",
+            "pre": true,
             "url": "https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.3.0-beta.4"
           },
           {
             "tag": "v2.3.0-beta.3",
             "date": "2026-11-09",
+            "pre": true,
             "url": "https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.3.0-beta.3"
           },
           {
             "tag": "v2.3.0-beta.2",
             "date": "2026-11-02",
+            "pre": true,
             "url": "https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.3.0-beta.2"
           },
           {
             "tag": "v2.3.0-beta.1",
             "date": "2026-10-27",
+            "pre": true,
             "url": "https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.3.0-beta.1"
+          },
+          {
+            "tag": "v2.2.2.post1",
+            "date": "2026-10-22",
+            "pre": false,
+            "url": "https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.2.2.post1"
           }
         ],
+        "release_status": "activo",
+        "release_source": "releases.atom",
+        "release_note": "What's Changed ✨ Added Piccolo Local Decision Models Add Piccolo 4B, 9B, and 27B as local decision models for tool review and context compaction, with BF16 and Q8_0 recommendations, runtime installation and updates, and Hugging Face or ModelScope downloads. Review and compaction remain opt-in; the local runtime serves one model at a time ( #8463 , #8573 ) QwenPaw Community Browse, sort, and comment on QwenPaw Community posts from the Console, draft resource-linked issue reports with model assistance, and open the community editor. Connect an account to sync selected message categories to the Inbox and desktop notifications ( #7903 ) Console &amp; Desktop Add the optional OpenUI plugin to display interactive forms and components within replies, preserve their state during streaming, and submit actions to the originating conversation ( #8239 , #8248 ) Add an unread-only filter to Inbox pus",
+        "release_highlight": "",
+        "release_impact": "",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
         "judged_day": "2026-11-12",
         "readme": "",
         "topics": [
@@ -4180,228 +4804,6 @@
           "webui"
         ],
         "homepage": "http://qwenpaw.agentscope.io/",
-        "rank": 18
-      },
-      {
-        "id": "rowboatlabs-rowboat",
-        "slug": "rowboatlabs-rowboat",
-        "full_name": "rowboatlabs/rowboat",
-        "maker": "rowboatlabs",
-        "tagline": "Tu coworker con memoria.",
-        "summary": "Asistente personal open source con documentación, pizarra y correo integrados, memoria y orquestación multi-agente para trabajar solo o en equipo. Para profesionales y equipos pequeños que quieren un coworker con contexto duradero.",
-        "description": "Asistente personal open source con documentación, pizarra y correo integrados, memoria y orquestación multi-agente para trabajar solo o en equipo. Para profesionales y equipos pequeños que quieren un coworker con contexto duradero.",
-        "url": "https://www.rowboatlabs.com",
-        "website": "https://www.rowboatlabs.com",
-        "repo": "https://github.com/rowboatlabs/rowboat",
-        "docs": "https://github.com/rowboatlabs/rowboat",
-        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/rowboatlabs-rowboat",
-        "category": "personal",
-        "catLabel": "Bot personal",
-        "licenseType": "Open source",
-        "license": "Apache-2.0",
-        "pricing": "free",
-        "priceLabel": "Gratis",
-        "priceNote": "Código abierto + tus modelos",
-        "setup": "moderate",
-        "setupLabel": "Medio",
-        "maturity": "released",
-        "maturityLabel": "Released",
-        "platforms": [
-          "macOS",
-          "Windows",
-          "Linux"
-        ],
-        "models": "BYOK / multi-modelo",
-        "channels": [
-          "Email",
-          "Reuniones",
-          "Chat"
-        ],
-        "reference": false,
-        "kind": "assistant",
-        "archetype": "personal",
-        "archetype_label": "Bot personal",
-        "generation": "sesion 2024",
-        "tier": "B",
-        "total": 65.55,
-        "agency": 10,
-        "confidence": 75,
-        "dimensions": {
-          "capacidad": 76,
-          "autonomia": 66,
-          "computadora": 55,
-          "memoria": 90,
-          "rutinas": 55,
-          "equipo": 55,
-          "confianza": 55,
-          "producto": 70
-        },
-        "pillars": {
-          "identidad": false,
-          "computadora": false,
-          "memoria": true,
-          "rutinas": false,
-          "apps": false,
-          "coordinacion": false,
-          "aprobaciones": false,
-          "desatendido": false
-        },
-        "pillars_detail": [
-          {
-            "key": "identidad",
-            "label": "Identidad",
-            "hint": "El bot tiene nombre y rol propio; no es solo un chat.",
-            "weight": 10,
-            "on": false
-          },
-          {
-            "key": "computadora",
-            "label": "Computadora propia",
-            "hint": "Navegador, terminal, archivos y sesiones que sobreviven a la tarea.",
-            "weight": 18,
-            "on": false
-          },
-          {
-            "key": "memoria",
-            "label": "Memoria",
-            "hint": "Recuerda y acumula contexto por bot.",
-            "weight": 10,
-            "on": true
-          },
-          {
-            "key": "rutinas",
-            "label": "Rutinas",
-            "hint": "Ejecuta trabajo programado o por evento sin prompt.",
-            "weight": 16,
-            "on": false
-          },
-          {
-            "key": "apps",
-            "label": "Apps reales",
-            "hint": "Opera sitios y programas reales, no solo APIs.",
-            "weight": 14,
-            "on": false
-          },
-          {
-            "key": "coordinacion",
-            "label": "Coordinación",
-            "hint": "Varios bots se reparten el trabajo y lo entregan juntos.",
-            "weight": 12,
-            "on": false
-          },
-          {
-            "key": "aprobaciones",
-            "label": "Aprobaciones",
-            "hint": "Pide permiso antes de publicar, pagar o borrar.",
-            "weight": 10,
-            "on": false
-          },
-          {
-            "key": "desatendido",
-            "label": "Desatendido",
-            "hint": "Sigue trabajando mientras no estás conectado.",
-            "weight": 10,
-            "on": false
-          }
-        ],
-        "agency_max": 100,
-        "has_pillars": true,
-        "next_tier": "A",
-        "delta_next": 4.45,
-        "strengths": [
-          "Memoria y contexto persistente combinados con docs, pizarra y correo en un solo producto",
-          "Orquestación multi-agente y colaboración en equipo, poco habitual en asistentes open source",
-          "Respaldo de Y Combinator, 18,167 estrellas y desarrollo activo"
-        ],
-        "weaknesses": [
-          "No opera apps de terceros ni tiene computadora propia: se queda en productividad asistida",
-          "La autonomía real es limitada y depende de que el usuario dirija el flujo",
-          "Stack TypeScript con orquestación y recuperación de memoria que puede encarecer cada tarea"
-        ],
-        "comparison": "Es un AI coworker sólido y con memoria, pero está por debajo de Grok Bot en operación autónoma y ejecución de trabajo de varios pasos fuera de sus apps.",
-        "sources": [
-          {
-            "label": "Repositorio GitHub",
-            "url": "https://github.com/rowboatlabs/rowboat",
-            "accessedAt": "2026-11-12"
-          },
-          {
-            "label": "Web oficial",
-            "url": "https://www.rowboatlabs.com",
-            "accessedAt": "2026-11-12"
-          },
-          {
-            "label": "README",
-            "url": "https://github.com/rowboatlabs/rowboat#readme",
-            "accessedAt": "2026-11-12"
-          },
-          {
-            "label": "Releases",
-            "url": "https://github.com/rowboatlabs/rowboat/releases",
-            "accessedAt": "2026-11-12"
-          },
-          {
-            "label": "Dossier de investigación",
-            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/rowboatlabs-rowboat",
-            "accessedAt": "2026-11-12"
-          }
-        ],
-        "stars": 18167,
-        "forks": 1822,
-        "open_issues": 233,
-        "language": "TypeScript",
-        "created_at": "2025-01-13T09:30:40Z",
-        "created_day": "2025-01-13",
-        "pushed_at": "2026-11-12T03:42:58Z",
-        "last_release": "2026-11-11",
-        "releases_90": 5,
-        "releases_recent": [
-          {
-            "tag": "v1.0.9",
-            "date": "2026-11-11",
-            "url": "https://github.com/rowboatlabs/rowboat/releases/tag/v1.0.9"
-          },
-          {
-            "tag": "v1.0.8",
-            "date": "2026-11-11",
-            "url": "https://github.com/rowboatlabs/rowboat/releases/tag/v1.0.8"
-          },
-          {
-            "tag": "v1.0.7",
-            "date": "2026-11-03",
-            "url": "https://github.com/rowboatlabs/rowboat/releases/tag/v1.0.7"
-          },
-          {
-            "tag": "v1.0.6",
-            "date": "2026-11-03",
-            "url": "https://github.com/rowboatlabs/rowboat/releases/tag/v1.0.6"
-          },
-          {
-            "tag": "v1.0.5",
-            "date": "2026-09-30",
-            "url": "https://github.com/rowboatlabs/rowboat/releases/tag/v1.0.5"
-          }
-        ],
-        "judged_day": "2026-11-12",
-        "readme": "",
-        "topics": [
-          "agents",
-          "agents-sdk",
-          "ai",
-          "ai-agents",
-          "ai-agents-automation",
-          "chatgpt",
-          "claude-code",
-          "claude-cowork",
-          "generative-ai",
-          "llm",
-          "multiagent",
-          "opeani",
-          "open-source",
-          "orchestration",
-          "productivity"
-        ],
-        "homepage": "https://www.rowboatlabs.com",
         "rank": 19
       },
       {
@@ -4573,35 +4975,56 @@
         "created_at": "2026-02-02T09:52:10Z",
         "created_day": "2026-02-02",
         "pushed_at": "2026-11-12T05:26:32Z",
-        "last_release": "2026-11-09",
-        "releases_90": 5,
+        "last_release": "2026-11-14",
+        "last_release_tag": "v1.0.11",
+        "last_release_url": "https://github.com/openBitFun/OpenBitFun/releases/tag/v1.0.11",
+        "last_release_days": 1,
+        "releases_90": 10,
         "releases_recent": [
           {
-            "tag": "OpenBitFun 1.0.10",
+            "tag": "v1.0.11",
+            "date": "2026-11-14",
+            "pre": false,
+            "url": "https://github.com/openBitFun/OpenBitFun/releases/tag/v1.0.11"
+          },
+          {
+            "tag": "v1.0.10",
             "date": "2026-11-09",
+            "pre": false,
             "url": "https://github.com/openBitFun/OpenBitFun/releases/tag/v1.0.10"
           },
           {
-            "tag": "nightly: Merge pull request #3848 from kev1n77/fmy/bugfix",
+            "tag": "nightly",
             "date": "2026-11-09",
+            "pre": true,
             "url": "https://github.com/openBitFun/OpenBitFun/releases/tag/nightly"
           },
           {
-            "tag": "OpenBitFun 1.0.9",
+            "tag": "v1.0.9",
             "date": "2026-11-06",
+            "pre": false,
             "url": "https://github.com/openBitFun/OpenBitFun/releases/tag/v1.0.9"
           },
           {
-            "tag": "OpenBitFun 1.0.8",
+            "tag": "v1.0.8",
             "date": "2026-10-29",
+            "pre": false,
             "url": "https://github.com/openBitFun/OpenBitFun/releases/tag/v1.0.8"
           },
           {
-            "tag": "OpenBitFun 1.0.7",
+            "tag": "v1.0.7",
             "date": "2026-10-22",
+            "pre": false,
             "url": "https://github.com/openBitFun/OpenBitFun/releases/tag/v1.0.7"
           }
         ],
+        "release_status": "activo",
+        "release_source": "releases.atom",
+        "release_note": "chore(release): prepare 1.0.11 stable release",
+        "release_highlight": "",
+        "release_impact": "",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
         "judged_day": "2026-11-12",
         "readme": "",
         "topics": [
@@ -4792,35 +5215,56 @@
         "created_at": "2026-08-23T06:15:15Z",
         "created_day": "2026-08-23",
         "pushed_at": "2026-11-12T07:44:42Z",
-        "last_release": "2026-11-11",
-        "releases_90": 5,
+        "last_release": "2026-11-15",
+        "last_release_tag": "v1.1.197",
+        "last_release_url": "https://github.com/rome-os/rome/releases/tag/v1.1.197",
+        "last_release_days": 0,
+        "releases_90": 10,
         "releases_recent": [
           {
-            "tag": "Rome v1.1.192",
-            "date": "2026-11-11",
-            "url": "https://github.com/rome-os/rome/releases/tag/v1.1.192"
+            "tag": "v1.1.197",
+            "date": "2026-11-15",
+            "pre": false,
+            "url": "https://github.com/rome-os/rome/releases/tag/v1.1.197"
           },
           {
-            "tag": "v1.1.191",
-            "date": "2026-11-11",
-            "url": "https://github.com/rome-os/rome/releases/tag/v1.1.191"
+            "tag": "v1.1.196",
+            "date": "2026-11-15",
+            "pre": false,
+            "url": "https://github.com/rome-os/rome/releases/tag/v1.1.196"
           },
           {
-            "tag": "ui: v0.3.10",
-            "date": "2026-11-11",
-            "url": "https://github.com/rome-os/rome/releases/tag/ui-v0.3.10"
+            "tag": "v1.1.195",
+            "date": "2026-11-15",
+            "pre": false,
+            "url": "https://github.com/rome-os/rome/releases/tag/v1.1.195"
           },
           {
-            "tag": "rome-web-components: v0.1.26",
-            "date": "2026-11-11",
-            "url": "https://github.com/rome-os/rome/releases/tag/rome-web-components-v0.1.26"
+            "tag": "ui-v0.3.11",
+            "date": "2026-11-15",
+            "pre": false,
+            "url": "https://github.com/rome-os/rome/releases/tag/ui-v0.3.11"
           },
           {
-            "tag": "node: v0.1.10",
-            "date": "2026-11-11",
-            "url": "https://github.com/rome-os/rome/releases/tag/node-v0.1.10"
+            "tag": "rome-web-components-v0.1.27",
+            "date": "2026-11-15",
+            "pre": false,
+            "url": "https://github.com/rome-os/rome/releases/tag/rome-web-components-v0.1.27"
+          },
+          {
+            "tag": "node-v0.1.11",
+            "date": "2026-11-15",
+            "pre": false,
+            "url": "https://github.com/rome-os/rome/releases/tag/node-v0.1.11"
           }
         ],
+        "release_status": "activo",
+        "release_source": "releases.atom",
+        "release_note": "The Rome runtime image yunfanye/rome:1.1.197 , built from 02e2b81 . Rome Cloud offers it to instances on its own. To run it yourself, pull yunfanye/rome:1.1.197 . Changes since v1.1.196 No changes to what the image runs. Full changelog: v1.1.196...v1.1.197",
+        "release_highlight": "",
+        "release_impact": "",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
         "judged_day": "2026-11-12",
         "readme": "",
         "topics": [
@@ -5012,35 +5456,56 @@
         "created_at": "2026-07-22T17:49:34Z",
         "created_day": "2026-07-22",
         "pushed_at": "2026-11-12T07:34:14Z",
-        "last_release": "2026-11-11",
-        "releases_90": 5,
+        "last_release": "2026-11-13",
+        "last_release_tag": "v0.1.136",
+        "last_release_url": "https://github.com/makecindy/cindy/releases/tag/v0.1.136",
+        "last_release_days": 2,
+        "releases_90": 10,
         "releases_recent": [
+          {
+            "tag": "v0.1.136",
+            "date": "2026-11-13",
+            "pre": false,
+            "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.136"
+          },
+          {
+            "tag": "v0.1.136-beta",
+            "date": "2026-11-12",
+            "pre": true,
+            "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.136-beta"
+          },
+          {
+            "tag": "v0.1.135",
+            "date": "2026-11-12",
+            "pre": false,
+            "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.135"
+          },
+          {
+            "tag": "v0.1.135-beta",
+            "date": "2026-11-12",
+            "pre": true,
+            "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.135-beta"
+          },
           {
             "tag": "v0.1.133",
             "date": "2026-11-11",
+            "pre": false,
             "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.133"
           },
           {
-            "tag": "v0.1.133-beta: test(plugin): 等待列表回归的滚动结束回调",
+            "tag": "v0.1.133-beta",
             "date": "2026-11-11",
+            "pre": true,
             "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.133-beta"
-          },
-          {
-            "tag": "v0.1.130",
-            "date": "2026-11-10",
-            "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.130"
-          },
-          {
-            "tag": "v0.1.130-beta: fix(models): preserve native subscription feature flag discovery",
-            "date": "2026-11-09",
-            "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.130-beta"
-          },
-          {
-            "tag": "v0.1.128",
-            "date": "2026-11-06",
-            "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.128"
           }
         ],
+        "release_status": "activo",
+        "release_source": "releases.atom",
+        "release_note": "Desktop release 0.1.136 更新说明 🤖 模型组：把多个模型排成一条路线 新增模型组设置：把已连接的模型合成一条路线，按额度、顺序或轮次自动挑选；路线还能跨电脑和共享供应商取用。任务会用一句话说明这次选了哪个来源、为什么。 @zqchris 👥 带项目的伙伴群聊 群可以绑定一个项目，伙伴在群里开出的任务、@ 唤醒与任务卡都落到这里，任务结果也会回到群里。群里的 Cindy 会标明替谁说话；伙伴文案统一为「伙伴」。 @DavidShenXD @nanaco666 @zqchris 🐙 GitHub 事件自动触发任务 连接 GitHub 后，所选仓库的事件可以直接触发自动化任务，关注的 PR 会随事件自动刷新；PR 悬浮卡片支持复制链接，手机任务菜单也能查看关联 PR。 @dashhuang @zqchris 🧩 插件界面更完整 插件现在可以扩展导航、任务菜单、输入补全和统一设置，并处理附件、折叠侧栏与标题栏按钮；MCP Apps 的卡片界面能按账号保存自己的页面状态，插件市场与统计读取也更轻快。 @GaoWeiLiuXD @fmfsaisai 🎨 主题创建器与完整外观包 新增主题创建器，可导入、编辑并分享完整的 v2 外观包，主题默认值与手动覆盖更清楚，切换后能精确恢复。输入框高度、复选框、动效和颜色也按设计规范统一。 @GaoWeiLiuXD @kirozeng 🧭 首次登录开始引导 首次登录或进入本机模式后会显示一次开始引导，串联迁移助理、连接模型与本机导入。设置里的迁移助理入口下移，并新增「开始引导」入口。 @dashhuang 🖥️ 远程连接与桌面稳定性 Agent-Net 支持在电脑间切换连接方式；断网启动不再等待环境下载，SSH 任务跳过本机环境检查。Windows 侧栏闪烁、休眠后误报崩溃、远程桌面首次查询卡住等问题也已修复。 @DavidShenXD @MagicLizi @dashhuang @xuzini-xzn @zqchris 📱 手机角标与提问卡片 手机图标可按待处理任务数显示角标，后台推送和账号汇总会同步更新",
+        "release_highlight": "",
+        "release_impact": "",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
         "judged_day": "2026-11-12",
         "readme": "",
         "topics": [
@@ -5233,34 +5698,55 @@
         "created_day": "2026-02-21",
         "pushed_at": "2026-11-12T07:43:04Z",
         "last_release": "2026-11-11",
-        "releases_90": 5,
+        "last_release_tag": "v2.18.7",
+        "last_release_url": "https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.7",
+        "last_release_days": 4,
+        "releases_90": 10,
         "releases_recent": [
           {
             "tag": "v2.18.7",
             "date": "2026-11-11",
+            "pre": false,
             "url": "https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.7"
           },
           {
             "tag": "v2.18.6",
             "date": "2026-11-05",
+            "pre": false,
             "url": "https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.6"
           },
           {
             "tag": "v2.18.5",
             "date": "2026-11-04",
+            "pre": false,
             "url": "https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.5"
           },
           {
             "tag": "v2.18.4",
             "date": "2026-10-27",
+            "pre": false,
             "url": "https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.4"
           },
           {
             "tag": "v2.18.3",
             "date": "2026-10-26",
+            "pre": false,
             "url": "https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.3"
+          },
+          {
+            "tag": "v2.18.2",
+            "date": "2026-10-25",
+            "pre": false,
+            "url": "https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.2"
           }
         ],
+        "release_status": "activo",
+        "release_source": "releases.atom",
+        "release_note": "Simplified the Dashboard and improved team creation and launch. Added a tasks table, built-in Git, improved schedules, and fixed OpenCode teammates sometimes not replying. Customize local fonts, text size, app scaling, and portable JSON themes. Simplified the Team screen. What's New Create teams from the Teams page; confirm templates before replacing an edited setup. Sort tasks in a live table with selectable, resizable columns. Schedule one agent or a whole team, with optional linked board tasks and avatar-based member selection. Built-in Git handles app diffs, worktrees, and cloning without a separate Git installation. Use OpenCode 2.x on Intel Macs. Choose local UI fonts, text size, whole-app scaling, and portable JSON themes. Improvements Manage providers in Settings and refresh their models directly from the model selector. Search time zones, preview scheduled runs, and open linked ",
+        "release_highlight": "",
+        "release_impact": "",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
         "judged_day": "2026-11-12",
         "readme": "",
         "topics": [
@@ -5457,34 +5943,55 @@
         "created_day": "2026-02-12",
         "pushed_at": "2026-11-12T07:32:52Z",
         "last_release": "2026-11-06",
-        "releases_90": 5,
+        "last_release_tag": "2026.11.6",
+        "last_release_url": "https://github.com/netease-youdao/LobsterAI/releases/tag/2026.11.6",
+        "last_release_days": 9,
+        "releases_90": 10,
         "releases_recent": [
           {
-            "tag": "LobsterAI 2026.11.6",
+            "tag": "2026.11.6",
             "date": "2026-11-06",
+            "pre": false,
             "url": "https://github.com/netease-youdao/LobsterAI/releases/tag/2026.11.6"
           },
           {
-            "tag": "LobsterAI 2026.10.30",
+            "tag": "2026.10.30",
             "date": "2026-10-31",
+            "pre": false,
             "url": "https://github.com/netease-youdao/LobsterAI/releases/tag/2026.10.30"
           },
           {
-            "tag": "LobsterAI 2026.10.23",
+            "tag": "2026.10.23",
             "date": "2026-10-23",
+            "pre": false,
             "url": "https://github.com/netease-youdao/LobsterAI/releases/tag/2026.10.23"
           },
           {
-            "tag": "LobsterAI 2026.10.16",
+            "tag": "2026.10.16",
             "date": "2026-10-16",
+            "pre": false,
             "url": "https://github.com/netease-youdao/LobsterAI/releases/tag/2026.10.16"
           },
           {
-            "tag": "LobsterAI 2026.10.13",
+            "tag": "2026.10.13",
             "date": "2026-10-14",
+            "pre": false,
             "url": "https://github.com/netease-youdao/LobsterAI/releases/tag/2026.10.13"
+          },
+          {
+            "tag": "2026.9.23",
+            "date": "2026-09-23",
+            "pre": false,
+            "url": "https://github.com/netease-youdao/LobsterAI/releases/tag/2026.9.23"
           }
         ],
+        "release_status": "reciente",
+        "release_source": "releases.atom",
+        "release_note": "2026.11.2 A release focused on reliability: chat streams now survive mid-reply drops, oversized contexts recover with visible compaction progress, the image pipeline is cheaper and less chatty, and installers ship a lot less dead weight. Highlights Model streams reconnect automatically when they drop mid-reply instead of leaving the message truncated ( #2974 ). Oversized conversations now recover instead of failing, with compaction progress surfaced in the UI ( #2982 , #3014 , #2988 ). One image confirmation can now approve the rest of a turn's images, and delivery recovery is more robust ( #2995 , #2980 , #2994 ). Installer and runtime bundles are significantly slimmer: no source maps, no tsc output, no debug-only files ( #2976 , #2985 , #2996 ). DeepSeek Harness runtime moved to 0.2.2-rc.1 with cleaner shutdown and leftover reclamation ( #2989 , #3007 , #3008 ). New Features Desktop co",
+        "release_highlight": "",
+        "release_impact": "",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
         "judged_day": "2026-11-12",
         "readme": "",
         "topics": [
@@ -5672,35 +6179,56 @@
         "created_at": "2026-10-07T15:37:36Z",
         "created_day": "2026-10-07",
         "pushed_at": "2026-11-12T07:41:49Z",
-        "last_release": "2026-11-11",
-        "releases_90": 5,
+        "last_release": "2026-11-12",
+        "last_release_tag": "v0.3.6",
+        "last_release_url": "https://github.com/Fei2411/DS-Bot/releases/tag/v0.3.6",
+        "last_release_days": 3,
+        "releases_90": 10,
         "releases_recent": [
+          {
+            "tag": "v0.3.6",
+            "date": "2026-11-12",
+            "pre": false,
+            "url": "https://github.com/Fei2411/DS-Bot/releases/tag/v0.3.6"
+          },
           {
             "tag": "v0.3.5",
             "date": "2026-11-11",
+            "pre": false,
             "url": "https://github.com/Fei2411/DS-Bot/releases/tag/v0.3.5"
           },
           {
             "tag": "v0.3.2",
             "date": "2026-11-09",
+            "pre": false,
             "url": "https://github.com/Fei2411/DS-Bot/releases/tag/v0.3.2"
           },
           {
             "tag": "v0.3.1",
             "date": "2026-11-07",
+            "pre": false,
             "url": "https://github.com/Fei2411/DS-Bot/releases/tag/v0.3.1"
           },
           {
             "tag": "v0.3.0",
             "date": "2026-11-06",
+            "pre": false,
             "url": "https://github.com/Fei2411/DS-Bot/releases/tag/v0.3.0"
           },
           {
             "tag": "v0.2.7",
             "date": "2026-11-03",
+            "pre": false,
             "url": "https://github.com/Fei2411/DS-Bot/releases/tag/v0.2.7"
           }
         ],
+        "release_status": "activo",
+        "release_source": "releases.atom",
+        "release_note": "Download / 下载 System / 系统 Download / 下载 Size / 大小 Windows 10/11 (64-bit / 64 位) Double-click to install / 双击安装 DS-Bot-0.3.6-win-x64.exe 291 MB macOS, Apple chip / Apple 芯片 DS-Bot-0.3.6-mac-arm64.zip 369 MB macOS, Intel DS-Bot-0.3.6-mac-x64.zip 384 MB Linux, AppImage DS-Bot-0.3.6-linux-x86_64.AppImage 371 MB Linux, deb (Debian, Ubuntu) DS-Bot-0.3.6-linux-amd64.deb 291 MB Android (phone app / 手机 App) DS-Bot-0.3.6-android.apk 117 MB The .blockmap , latest*.yml and ds-bot-*.tgz files and the source code archives are for updates and the plugin: you do not need to download them. .blockmap 、 latest*.yml 、 ds-bot-*.tgz 和源代码是给自动更新和插件用的，不用下载。 To check a download, compare its SHA-256 with SHA256SUMS.txt . / 下载后可以用 SHA256SUMS.txt 核对 SHA-256。 Fixed In the Android phone app, tapping another Bot or a group chat in the sidebar or tapping an incoming notice banner no longer closes the app, and switching ",
+        "release_highlight": "",
+        "release_impact": "",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
         "judged_day": "2026-11-12",
         "readme": "",
         "topics": [
@@ -5876,14 +6404,25 @@
         "created_day": "2026-11-06",
         "pushed_at": "2026-11-11T08:58:11Z",
         "last_release": "2026-11-06",
+        "last_release_tag": "v0.1.7",
+        "last_release_url": "https://github.com/ai-timon/timon/releases/tag/v0.1.7",
+        "last_release_days": 9,
         "releases_90": 1,
         "releases_recent": [
           {
-            "tag": "Timon 0.1.7",
+            "tag": "v0.1.7",
             "date": "2026-11-06",
+            "pre": false,
             "url": "https://github.com/ai-timon/timon/releases/tag/v0.1.7"
           }
         ],
+        "release_status": "reciente",
+        "release_source": "releases.atom",
+        "release_note": "Added Plugins can draw their menu entry with the product's own ( NavLink from @timon/ui ), so it folds with the side menu instead of squeezing its label into it. When accounts beyond the first superadmin are suspended (no pro licence, or no Multi-user plugin), the superadmin gets a card saying why; their data are kept. Signed plugins can now manage a team's accounts: add accounts and open their sessions ( accounts:provision ), say which rights each account holds ( accounts:permissions-source ), and serve pages without a session such as an invitation ( http:public ). The account provider also reads and updates the accounts it serves, writes the audit log, and reads the catalogue of rights a role can grant. Plugins can keep their data in a SQLite database of their own ( ctx.sql , permission storage:sql ), with migrations declared in their manifest and applied when they start. The Git widge",
+        "release_highlight": "",
+        "release_impact": "",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
         "judged_day": "2026-11-12",
         "readme": "",
         "topics": [],

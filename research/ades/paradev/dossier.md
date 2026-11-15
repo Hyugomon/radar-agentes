@@ -11,6 +11,15 @@
 
 Workspace open source para correr agentes de código en paralelo, con CLI, MCP, móvil, automatizaciones y workspaces cloud opcionales.
 
+## Release revisada
+
+- **Tag**: [desktop-canary](https://github.com/ParadevAI/Paradev/releases/tag/desktop-canary)
+- **Fecha**: 2026-11-15 (hace 0 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> Internal Testing Build This is an automated canary build from main branch. Commit: 7ae3dc9 Short SHA: 7ae3dc9 Built: 2026-11-15T02:32:51Z ⚠️ This build is for internal testing only and may be unstable.
+
 ## Evidencia
 
 ### harnesses

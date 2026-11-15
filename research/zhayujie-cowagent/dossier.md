@@ -19,6 +19,15 @@ Asistente personal open source con canales de mensajería, memoria, skills y sop
 
 Revisión previa + README: asistente personal con canales de mensajería, memoria, skills y soporte multiagente. Sin evidencia de computadora GUI.
 
+## Release revisada
+
+- **Tag**: [2.2.2](https://github.com/zhayujie/CowAgent/releases/tag/2.2.2)
+- **Fecha**: 2026-10-30 (hace 16 días)
+- **Estado**: reciente · **Releases en 90 días**: 6
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> 🌐 English | 中文 💬 Guest Pages Share an Agent as a standalone chat page, or embed it in your website as a chat window. Visitors open the link and start chatting without signing in, which suits product inquiries, knowledge base Q&amp;A, customer support, and similar scenarios: Standalone pages : each page gets its own link, visitors keep their chat history, and the name, icon, theme color, welcome message, and suggested questions are all customizable. Embedded chat window : a single code snippet embeds the page in your website, with a chat button in the bottom-right corner. You can restrict which sites may embed it and preview the result while configuring. Try it live on the CowAgent website 
+
 ## Evidencia de la investigación
 
 ### ❌ Identidad

@@ -5,7 +5,7 @@
 - **Licencia**: MIT
 - **Lenguaje**: Rust
 - **Estrellas**: 4009 · **Forks**: 305
-- **Último push**: 2026-11-12T05:26:32Z · **Última release**: 2026-11-09
+- **Último push**: 2026-11-12T05:26:32Z · **Última release**: 2026-11-14
 - **Revisado**: 2026-11-12 · **Confianza**: 55/100
 - **Tipo**: agent · **Categoría**: general
 
@@ -18,6 +18,15 @@ Workspace de agentes de escritorio con runtime Rust, capacidades de computer-use
 ## Nota de verificación
 
 Revisión previa + README: workspace de agentes con runtime Rust y computer-use. Sin evidencia de aprobaciones o equipo.
+
+## Release revisada
+
+- **Tag**: [v1.0.11](https://github.com/openBitFun/OpenBitFun/releases/tag/v1.0.11)
+- **Fecha**: 2026-11-14 (hace 1 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> chore(release): prepare 1.0.11 stable release
 
 ## Evidencia de la investigación
 

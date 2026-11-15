@@ -1,0 +1,87 @@
+{
+  "repo": "generalaction/emdash",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "v1.2.11",
+      "title": "v1.2.11",
+      "date": "2026-11-06",
+      "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.11",
+      "pre": false,
+      "note": "This release improves Git authentication, Windows compatibility, and SSH responsiveness. It also reduces background fetch overhead, fixes pane shortcuts after switching tasks, and adds an in-app signup for Emdash 2.0 early access. Highlights The project's Git credentials setting now applies to Emdash's own local Git operations, including push, pull, and fetch. Choosing System uses the machine's credentials, while an account explicitly selected for an operation still takes precedence. Join the Emdash 2.0 waitlist directly from the sidebar, with your email and an optional note about your team or workflow. The card can be dismissed for the current release. Fixes Commit &amp; Push and other Git network operations on Windows authenticate correctly through the connected account, fixing failures where pushing from a terminal worked but pushing from Emdash did not. Agent hooks on Windows run cor"
+    },
+    {
+      "tag": "v1.2.10",
+      "title": "v1.2.10",
+      "date": "2026-10-30",
+      "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.10",
+      "pre": false,
+      "note": "This release lets you trust repositories that Git refuses because of their ownership, stops background processes from opening console windows on Windows, and keeps large repositories responsive. It also fixes Clean Artifacts, Git SSH configuration, credential handling, and panel sizes. Remote machines get these fixes once you update their workspace server in Settings > Machines. Highlights When Git refuses a repository because another user owns it, such as a repository in a WSL folder, Add Project explains why and shows the Git command to run yourself. Trust Repository adds that one folder to your global Git configuration after confirmation, which also applies to agents and terminals. For SSH projects, the entry is written on the remote machine. On Windows, Git, agents, SSH connections, and other background processes no longer open console windows or Windows Terminal tabs. Changed-file d"
+    },
+    {
+      "tag": "v1.2.10-canary.102",
+      "title": "v1.2.10-canary.102",
+      "date": "2026-10-26",
+      "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.10-canary.102",
+      "pre": true,
+      "note": ""
+    },
+    {
+      "tag": "v1.2.9",
+      "title": "v1.2.9",
+      "date": "2026-10-23",
+      "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.9",
+      "pre": false,
+      "note": "This release adds GitLab repository and merge request workflows, with browser and device sign-in for GitLab.com. It also adds support for Apple silicon Mac remotes and improves terminal links, account reconnection, and project dialogs. Highlights Create GitLab repositories in personal namespaces or existing groups, including nested groups, and publish an existing project through Add Remote. Connected self-hosted instances are supported, and task creation uses GitLab's work-item terminology. Browse, create, and merge GitLab merge requests from Emdash. View approvals, pipeline jobs, discussions, commits, and changed files, mark drafts ready, and start or review tasks from merge requests, including those from forks. Connect GitLab.com through your Emdash account or with a device code, with automatic token renewal. Device sign-in stays inside the connection dialog with copy, open, retry, and"
+    },
+    {
+      "tag": "v1.2.8",
+      "title": "v1.2.8",
+      "date": "2026-10-10",
+      "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.8",
+      "pre": false,
+      "note": "This release adds language intelligence to the editor, subscription usage meters, and YouTrack integration. It also brings diff comments to chat and improves file browsing, agent status, and desktop integration. Highlights The editor adds hover information, definitions, type definitions, references, and diagnostics for local and SSH workspaces. JavaScript, TypeScript, and Python language servers are bundled; additional servers support Bash, Go, Rust, C/C++, JSON, YAML, HTML, and CSS dialects. Language service status and restart controls are available in the file tab menu. A new Usage page in settings shows remaining Codex and Claude Code subscription allowances, reset countdowns, and refresh controls. Shared accounts appear once across machines, and stale or unavailable readings are clearly marked. Connect YouTrack Cloud or self-hosted instances with a permanent token, search tickets usi"
+    },
+    {
+      "tag": "v1.2.8-canary.101",
+      "title": "v1.2.8-canary.101",
+      "date": "2026-10-10",
+      "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.8-canary.101",
+      "pre": true,
+      "note": ""
+    },
+    {
+      "tag": "v1.2.8-canary.100",
+      "title": "v1.2.8-canary.100",
+      "date": "2026-10-09",
+      "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.8-canary.100",
+      "pre": true,
+      "note": ""
+    },
+    {
+      "tag": "v1.2.8-canary.98",
+      "title": "v1.2.8-canary.98",
+      "date": "2026-10-08",
+      "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.8-canary.98",
+      "pre": true,
+      "note": ""
+    },
+    {
+      "tag": "v1.2.7",
+      "title": "v1.2.7",
+      "date": "2026-09-27",
+      "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.7",
+      "pre": false,
+      "note": "This release remembers agent settings across tasks, adds native provider controls to the chat composer, and improves session recovery. It also makes update downloads, project opening, and conversation navigation more reliable. Highlights Chat remembers your model, effort, access mode, and other provider settings across tasks and projects, with separate preferences for each agent and machine. New automations inherit these preferences and retain their own saved settings for scheduled runs. Switch between Chat UI and TUI directly in the agent selector. Your interface choice is remembered across agents, projects, and machines. Task creation and active chat use the provider's available configuration options, including a fast-mode toggle where supported. Chat permissions follow the provider's native access mode, and TUI auto-approval is remembered separately. Claude's model picker adds Opus 5."
+    },
+    {
+      "tag": "v1.2.7-canary.96",
+      "title": "v1.2.7-canary.96",
+      "date": "2026-09-26",
+      "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.7-canary.96",
+      "pre": true,
+      "note": ""
+    }
+  ]
+}

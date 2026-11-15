@@ -1,0 +1,87 @@
+{
+  "repo": "kdlbs/kandev",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "v0.101.0",
+      "title": "v0.101.0",
+      "date": "2026-11-11",
+      "url": "https://github.com/kdlbs/kandev/releases/tag/v0.101.0",
+      "pre": false,
+      "note": "Warning macOS, Windows desktop installers in this release are unsigned development builds. They may require manual OS security bypasses and are not trusted downloads. If macOS blocks Kandev after you verify the checksum, run: xattr -d com.apple.quarantine /Applications/Kandev.app 0.101.0 - 2026-11-11 Features select built-in packages and workspace MCPs ( #5106 ) clarify change workflow selector fields ( #5249 ) comment on extracts of task thread comments ( #5233 ) by @jcoatelen-ledger review question images in a large A/B view ( #5239 ) by @point-source cancel running chat turn with escape ( #5241 ) by @ZenitK show CI bubbles on PR status icons ( #5244 ) preview HTML files from review diffs ( #5243 ) remote credentials and config bundle for Pi ( #4767 ) by @naerymdan add Telegram plugin to the registry ( #4756 ) by @scottof move the task graph action into composer actions ( #5232 ) show "
+    },
+    {
+      "tag": "pluginsdk/v0.2.1",
+      "title": "Plugin SDK 0.2.1",
+      "date": "2026-11-11",
+      "url": "https://github.com/kdlbs/kandev/releases/tag/pluginsdk%2Fv0.2.1",
+      "pre": false,
+      "note": "No content."
+    },
+    {
+      "tag": "v0.100.0",
+      "title": "v0.100.0",
+      "date": "2026-11-09",
+      "url": "https://github.com/kdlbs/kandev/releases/tag/v0.100.0",
+      "pre": false,
+      "note": "Warning macOS, Windows desktop installers in this release are unsigned development builds. They may require manual OS security bypasses and are not trusted downloads. If macOS blocks Kandev after you verify the checksum, run: xattr -d com.apple.quarantine /Applications/Kandev.app 0.100.0 - 2026-11-09 Features let Office agents set blockers and workspace mode on task create ( #4614 ) by @point-source group profile delete conflict tasks by workspace ( #5041 ) by @jhillyerd add workspace-scoped plugin tools ( #5107 ) Bug Fixes preserve legacy handoff report identity ( #5150 ) by @dreampiler classify prefixed OpenCode free usage limits ( #5120 ) by @dreampiler diagnose stalled stop phases ( #5139 ) by @dreampiler reconcile SSH controllers after directory loss ( #5145 ) ( #5201 ) reconcile standalone retained journal owners ( #5165 ) ( #5200 ) preserve fresh-start workflow context ( #5137 ) ("
+    },
+    {
+      "tag": "pluginsdk/v0.2.0",
+      "title": "Plugin SDK 0.2.0",
+      "date": "2026-11-09",
+      "url": "https://github.com/kdlbs/kandev/releases/tag/pluginsdk%2Fv0.2.0",
+      "pre": false,
+      "note": "No content."
+    },
+    {
+      "tag": "v0.99.1",
+      "title": "v0.99.1",
+      "date": "2026-11-06",
+      "url": "https://github.com/kdlbs/kandev/releases/tag/v0.99.1",
+      "pre": false,
+      "note": "Warning macOS, Windows desktop installers in this release are unsigned development builds. They may require manual OS security bypasses and are not trusted downloads. If macOS blocks Kandev after you verify the checksum, run: xattr -d com.apple.quarantine /Applications/Kandev.app 0.99.1 - 2026-11-06 Features count Copilot compactions from native events ( #5098 ) continue failed turns after capacity and command errors ( #5087 ) Bug Fixes index task session environment lookups ( #5088 ) ( #5092 ) check Copilot plugin contracts and retain startup errors ( #5064 ) ( #5078 ) exclude Copilot mixed usage from compaction count ( #5089 ) ( #5093 ) preserve chat links and Changes health after live attachment ( #5084 ) prevent cancellation and deletion deadlocks ( #5083 ) settle Claude background terminal exits ( #5082 ) recover SDK publication after immutable host releases ( #5085 ) stop session c"
+    },
+    {
+      "tag": "v0.99.0",
+      "title": "v0.99.0",
+      "date": "2026-11-05",
+      "url": "https://github.com/kdlbs/kandev/releases/tag/v0.99.0",
+      "pre": false,
+      "note": "Warning macOS, Windows desktop installers in this release are unsigned development builds. They may require manual OS security bypasses and are not trusted downloads. If macOS blocks Kandev after you verify the checksum, run: xattr -d com.apple.quarantine /Applications/Kandev.app 0.99.0 - 2026-11-05 Features attribute runtime stall phases and agentctl failures ( #5054 ) expose instance reads across MCP contexts ( #5038 ) report handed-off task completion to the source task ( #5046 ) by @dreampiler support draft discovery and grouped model catalogs ( #5037 ) replace clarification size actions with one toggle ( #5036 ) separate running background work from history ( #5039 ) add selectable built-in tool packages ( #4762 ) attach files to clarification answers ( #5012 ) ( #5032 ) compact notification preferences ( #5024 ) add private automation plugin tools ( #5016 ) add Antigravity local su"
+    },
+    {
+      "tag": "pluginsdk/v0.1.0",
+      "title": "Plugin SDK 0.1.0",
+      "date": "2026-11-05",
+      "url": "https://github.com/kdlbs/kandev/releases/tag/pluginsdk%2Fv0.1.0",
+      "pre": false,
+      "note": "No content."
+    },
+    {
+      "tag": "v0.98.0",
+      "title": "v0.98.0",
+      "date": "2026-10-23",
+      "url": "https://github.com/kdlbs/kandev/releases/tag/v0.98.0",
+      "pre": false,
+      "note": "Warning macOS, Windows desktop installers in this release are unsigned development builds. They may require manual OS security bypasses and are not trusted downloads. If macOS blocks Kandev after you verify the checksum, run: xattr -d com.apple.quarantine /Applications/Kandev.app 0.98.0 - 2026-10-23 Features link task mentions in chat bubbles ( #4664 ) add archive shortcut and list filters ( #4629 ) enlarge image previews and configure initial visibility ( #4619 ) restart sessions from the tab context menu ( #4520 ) search task conversations from the command palette ( #4632 ) include tasks without repositories in filters ( #4587 ) add explicit workspace repository placement ( #3403 ) ( #3680 ) capture immutable repository changes per turn ( #4332 ) add on_pr_merged and on_pr_closed step events ( #4559 ) by @qwent71 project filter and project context for issue watches ( #4558 ) by @qwent7"
+    },
+    {
+      "tag": "v0.97.0",
+      "title": "v0.97.0",
+      "date": "2026-10-04",
+      "url": "https://github.com/kdlbs/kandev/releases/tag/v0.97.0",
+      "pre": false,
+      "note": "Warning macOS, Windows desktop installers in this release are unsigned development builds. They may require manual OS security bypasses and are not trusted downloads. If macOS blocks Kandev after you verify the checksum, run: xattr -d com.apple.quarantine /Applications/Kandev.app 0.97.0 - 2026-10-04 Features add the Quick Chat opening composer ( #4173 ) add task-scoped create completion callbacks ( #4187 ) by @Fclem add safe Go cache cleanup while tasks run ( #4167 ) add Configuration Chat session restart ( #4180 ) support bounded task plan reads and fragment updates ( #4181 ) simplify Changes loading feedback and retry Git reads ( #4155 ) notify and optionally update agent runtimes ( #4148 ) add Korean UI translation catalog ( #4119 ) by @dreampiler add GitHub workflow approval task badge ( #4097 ) add native MiniMax Code support add configurable agent tab close behavior ( #3690 ) by @y"
+    },
+    {
+      "tag": "v0.96.0",
+      "title": "v0.96.0",
+      "date": "2026-09-25",
+      "url": "https://github.com/kdlbs/kandev/releases/tag/v0.96.0",
+      "pre": false,
+      "note": "Warning macOS, Windows desktop installers in this release are unsigned development builds. They may require manual OS security bypasses and are not trusted downloads. If macOS blocks Kandev after you verify the checksum, run: xattr -d com.apple.quarantine /Applications/Kandev.app 0.96.0 - 2026-09-25 Features support a default saved view ( #3924 ) share local Cursor MCP authentication ( #3923 ) show remote repository in task topbar ( #3917 ) add task-specific workflow changes ( #3895 ) record archive source manifests ( #3905 ) by @yattdev add copy path actions ( #3913 ) add colors for multi-selected tasks ( #3906 ) keep language servers alive across browser reconnects ( #3899 ) preview task canvases with workspace data ( #3887 ) preview sorted storage usage bars ( #3867 ) let a custom agent speak ACP ( #3863 ) by @JnManso render a task menu action as a submenu ( #3874 ) by @Fclem show liv"
+    }
+  ]
+}

@@ -11,6 +11,15 @@
 
 Workspace local-first para tareas de agentes, worktrees, handoffs y revisión, con MCP y soporte de varios harnesses.
 
+## Release revisada
+
+- **Tag**: [v1.5.4](https://github.com/Emanuele-web04/synara/releases/tag/v1.5.4)
+- **Fecha**: 2026-11-14 (hace 1 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+> What's Changed Frame project logos with a plain border instead of a shadow halo by @Emanuele-web04 in #2134 Retry Cloudflare-blocked Claude turns and log turn failure categories by @Emanuele-web04 in #2138 fix(hosts): keep remote folder browsing usable after errors by @Emanuele-web04 in #2129 fix(skills): deliver typed and shared skills to Claude and Codex reliably by @Emanuele-web04 in #2142 Fix stuck background status and merge replies woken by background tasks by @Emanuele-web04 in #2149 Move background tasks out of the transcript into the Environment panel by @Emanuele-web04 in #2150 Leave merged and checked-out history out of turn diffs and Undo by @Emanuele-web04 in #2130 Reconnect rem
+
 ## Evidencia
 
 ### harnesses

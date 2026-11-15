@@ -5,11 +5,24 @@
 - **Licencia**: No verificada
 - **Categoría**: workspace
 - **Revisado**: 2026-11-13
-- **ADE Score**: 79.74 · Tier A
+- **ADE Score**: 80.9 · Tier A
 
 ## Qué es
 
-Workspace para acceder a sesiones de agentes de código desde distintos dispositivos, con worktrees, plugins y orquestación.
+Workspace para acceder a sesiones de agentes de código desde distintos dispositivos, con worktrees, plugins, tareas en segundo plano y orquestación.
+
+## Release revisada
+
+- **Tag**: [v0.16.0-beta.2](https://github.com/getpaseo/paseo/releases/tag/v0.16.0-beta.2)
+- **Fecha**: 2026-11-11 (hace 4 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+
+**Qué trae**: 0.16.0-beta.2: tareas en segundo plano con Stop, plugins con vistas de sidebar y controles de composer.
+
+**Impacto en la ficha**: Tier A (+1.16): Control 65→70, Extensiones 80→84 y Producto 80→82.
+
+> 0.16.0-beta.2 - 2026-11-11 Background tasks: Paseo now shows the background tasks an agent is running, such as shells and monitors, above the composer, with a Stop button for each. Works with Claude Code, Codex and OpenCode v2. ( #6220 , #9162 by @fxlelouarn ) Plugin sidebar views: A plugin can replace the sidebar's content with its own layout of workspaces, agents, projects and terminals across every connected host. Pick the view per device under Settings → Sidebar; Paseo's sidebar header and footer stay in place. ( #8906 ) Plugin composer controls: Plugins can add their own controls to the composer, and read and set its prompt, attachments, provider, model, mode and thinking. They can also
 
 ## Evidencia
 
@@ -44,30 +57,29 @@ Workspace para acceder a sesiones de agentes de código desde distintos disposit
 - “The native mobile app has full feature parity with desktop.” — https://github.com/getpaseo/paseo#readme
 
 ### extensiones
-- “Paseo – Run Claude Code, Codex, Copilot, OpenCode from anywhere Paseo Plugins Blog Docs Changelog Download Sponsor EN 23.9k The agentic development environment Run many coding agents at once, on any machine.” — https://github.com/getpaseo/paseo#readme
-- “Review queue 3 Retry flaky relay handshake #418 · ana · 12m Group schedules by project #415 · kenji · 1h Add Gruvbox theme #409 · lea · 3h 400+ community plugins Built by developers on the same plugin API your agents use Browse plugins Plugin docs Themes Sidebar Workspaces Providers Orchestration Git Paseo is Apache 2.0.” — https://github.com/getpaseo/paseo#readme
-- “Fork the repo Built for automation Use MCP, the CLI, or the TypeScript SDK to automate Paseo MCP docs CLI docs SDK docs MCP From another agent CLI From the terminal SDK From code Take the open GitHub issues labeled ready and fan them out to separate worktree agents.” — https://github.com/getpaseo/paseo#readme
+- “Plugin sidebar views: A plugin can replace the sidebar content with its own layout of workspaces, agents, projects and terminals across every connected host.” — https://github.com/getpaseo/paseo/releases/tag/v0.16.0-beta.2
 
 ### control
-- “- **Agent lifecycle:** change configuration, environment, and MCP servers, answer permissions, follow up when a turn ends.” — https://github.com/getpaseo/paseo#readme
+- “Background tasks: Paseo now shows the background tasks an agent is running, such as shells and monitors, above the composer, with a Stop button for each.” — https://github.com/getpaseo/paseo/releases/tag/v0.16.0-beta.2
 
 ## Dimensiones
 
 - **Harnesses**: 88/100
 - **Paralelismo**: 86/100
-- **Orquestación**: 82/100
+- **Orquestación**: 84/100
 - **Revisión**: 76/100
 - **Remoto / cloud**: 84/100
 - **Móvil**: 88/100
-- **Extensiones**: 80/100
-- **Control**: 65/100
+- **Extensiones**: 84/100
+- **Control**: 70/100
 - **Apertura**: 50/100
-- **Producto**: 80/100
+- **Producto**: 82/100
 
 ## Fortalezas
 
 - Móvil y acceso entre dispositivos
 - Plugins y worktrees
+- Tareas en segundo plano con Stop por tarea
 - Open source
 
 ## Carencias
