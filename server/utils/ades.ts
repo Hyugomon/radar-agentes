@@ -29,6 +29,16 @@ export interface AdeRow {
   features: { key: string; label: string; on: boolean }[]
   sources: { label: string; url: string; accessedAt: string }[]
   judged_day: string
+  last_release?: string | null
+  last_release_tag?: string | null
+  last_release_url?: string | null
+  last_release_days?: number | null
+  releases_90?: number | null
+  release_status?: string
+  release_source?: string
+  release_highlight?: string
+  release_impact?: string
+  release_checked_at?: string | null
 }
 
 export interface AdesPayload {
@@ -71,6 +81,16 @@ export function toAdeListRow(a: AdeRow) {
     harnesses: a.harnesses,
     features: a.features,
     pricing: a.pricing,
-    priceNote: a.priceNote
+    priceNote: a.priceNote,
+    last_release: a.last_release || null,
+    last_release_tag: a.last_release_tag || null,
+    last_release_url: a.last_release_url || null,
+    last_release_days: a.last_release_days ?? null,
+    releases_90: a.releases_90 ?? null,
+    release_status: a.release_status || '',
+    release_source: a.release_source || '',
+    release_highlight: a.release_highlight || '',
+    release_impact: a.release_impact || '',
+    release_checked_at: a.release_checked_at || null
   }
 }

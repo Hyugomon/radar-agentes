@@ -56,8 +56,16 @@ export interface AgentRow {
   created_day: string
   pushed_at: string
   last_release: string | null
-  releases_90: number
+  last_release_tag?: string | null
+  last_release_url?: string | null
+  last_release_days?: number | null
+  releases_90: number | null
   releases_recent: { tag: string; date: string; pre: boolean }[]
+  release_status?: string
+  release_source?: string
+  release_highlight?: string
+  release_impact?: string
+  release_checked_at?: string | null
   judged_day: string
   readme: string
   topics: string[]
@@ -267,6 +275,16 @@ export function toListRow(a: AgentRow) {
     pillars: a.pillars,
     has_pillars: a.has_pillars,
     next_tier: a.next_tier,
-    delta_next: a.delta_next
+    delta_next: a.delta_next,
+    last_release: a.last_release,
+    last_release_tag: a.last_release_tag || null,
+    last_release_url: a.last_release_url || null,
+    last_release_days: a.last_release_days ?? null,
+    releases_90: a.releases_90 ?? null,
+    release_status: a.release_status || '',
+    release_source: a.release_source || '',
+    release_highlight: a.release_highlight || '',
+    release_impact: a.release_impact || '',
+    release_checked_at: a.release_checked_at || null
   }
 }
