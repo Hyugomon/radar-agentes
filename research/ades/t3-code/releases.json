@@ -12,12 +12,28 @@
       "note": "v0.1.10-nightly.20261115.4723 · 221 changes from 92 contributors Resume Cursor turns. Resume a stopped Cursor turn from its latest checkpoint without sending a new message. Cursor compaction. Manually compact Cursor conversations from the slash menu or context meter. Large pull request diffs. Load a pull request file’s diff on demand when it is too large to show automatically. Faster pull request actions. Pull request actions, title edits, and labels now update immediately across all supported hosts. Faster delegated tasks. Delegated tasks start and finish faster in long threads. Prompt recovery. Prompts awaiting provider acceptance are preserved if the server restarts. Scratch thread protection. Agents can no longer delete the built-in No project workspace and its threads. Plus 205 more bug fixes and performance improvements. Full changelog What's Changed perf(server): text-only browser"
     },
     {
+      "tag": "mobile-android-preview-build/933ff59582b2590a306796226303c611bfae3003",
+      "title": "mobile-android-preview-build/933ff59582b2590a306796226303c611bfae3003",
+      "date": "2026-11-15",
+      "url": "https://github.com/pingdotgg/t3code/releases/tag/mobile-android-preview-build%2F933ff59582b2590a306796226303c611bfae3003",
+      "pre": true,
+      "note": "https://expo.dev/accounts/pingdotgg/projects/t3-code/builds/09ca487a-…"
+    },
+    {
       "tag": "mobile-android-preview-build/4d8f7b0a47340c0caa8ab2ff11ffeea71183938b",
       "title": "mobile-android-preview-build/4d8f7b0a47340c0caa8ab2ff11ffeea71183938b",
       "date": "2026-11-15",
       "url": "https://github.com/pingdotgg/t3code/releases/tag/mobile-android-preview-build%2F4d8f7b0a47340c0caa8ab2ff11ffeea71183938b",
       "pre": true,
       "note": "https://expo.dev/accounts/pingdotgg/projects/t3-code/builds/8b1121c3-…"
+    },
+    {
+      "tag": "mobile-android-preview-build/b46c39a8269c16363d18b5ae9b72e5d4da13afb0",
+      "title": "mobile-android-preview-build/b46c39a8269c16363d18b5ae9b72e5d4da13afb0",
+      "date": "2026-11-15",
+      "url": "https://github.com/pingdotgg/t3code/releases/tag/mobile-android-preview-build%2Fb46c39a8269c16363d18b5ae9b72e5d4da13afb0",
+      "pre": true,
+      "note": "https://expo.dev/accounts/pingdotgg/projects/t3-code/builds/0ae15491-…"
     },
     {
       "tag": "mobile-android-build/2.3.0/81e495fe123dcf91e6e607b56e62b8e788e624dd",
@@ -66,22 +82,6 @@
       "url": "https://github.com/pingdotgg/t3code/releases/tag/mobile-android-preview-build%2F129c3f51229a46191dd87ef93fe96dc5e3700bdb",
       "pre": true,
       "note": "https://expo.dev/accounts/pingdotgg/projects/t3-code/builds/9c417451-…"
-    },
-    {
-      "tag": "mobile-android-build/2.3.0/436e590add017144eb94f2c4a6105cc113d1a1fa",
-      "title": "mobile-android-build/2.3.0/436e590add017144eb94f2c4a6105cc113d1a1fa",
-      "date": "2026-11-14",
-      "url": "https://github.com/pingdotgg/t3code/releases/tag/mobile-android-build%2F2.3.0%2F436e590add017144eb94f2c4a6105cc113d1a1fa",
-      "pre": false,
-      "note": "fix(cli): npm launcher no longer leaves a runtime running after a sto…"
-    },
-    {
-      "tag": "mobile-android-build/2.3.0/9a741b169f25b073d03616efe91c609a86bda7ad",
-      "title": "mobile-android-build/2.3.0/9a741b169f25b073d03616efe91c609a86bda7ad",
-      "date": "2026-11-14",
-      "url": "https://github.com/pingdotgg/t3code/releases/tag/mobile-android-build%2F2.3.0%2F9a741b169f25b073d03616efe91c609a86bda7ad",
-      "pre": false,
-      "note": "fix(terminal): answer OSC color queries so CLIs pick light colors ( #3 …"
     }
   ]
 }

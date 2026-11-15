@@ -1,7 +1,630 @@
 {
   "generated_at": "2026-11-15",
-  "count": 26,
+  "count": 32,
   "projects": [
+    {
+      "slug": "rakazo",
+      "name": "rakazo",
+      "full_name": "elie222/rakazo",
+      "maker": "elie222",
+      "repo": "https://github.com/elie222/rakazo",
+      "website": "https://rakazo.com",
+      "license": "Apache-2.0",
+      "licenseType": "Open source",
+      "language": "TypeScript",
+      "stars": 8467,
+      "forks": 1534,
+      "open_issues": 218,
+      "pushed_at": "2026-11-15T07:57:19Z",
+      "created_at": "2026-08-13T06:28:56Z",
+      "last_release": "2026-11-12",
+      "releases_recent": [
+        {
+          "tag": "v0.11.0",
+          "date": "2026-11-12",
+          "pre": false,
+          "url": "https://github.com/elie222/rakazo/releases/tag/v0.11.0"
+        },
+        {
+          "tag": "v0.10.0",
+          "date": "2026-11-11",
+          "pre": false,
+          "url": "https://github.com/elie222/rakazo/releases/tag/v0.10.0"
+        },
+        {
+          "tag": "v0.9.0",
+          "date": "2026-11-10",
+          "pre": false,
+          "url": "https://github.com/elie222/rakazo/releases/tag/v0.9.0"
+        },
+        {
+          "tag": "android",
+          "date": "2026-11-10",
+          "pre": false,
+          "url": "https://github.com/elie222/rakazo/releases/tag/android"
+        },
+        {
+          "tag": "v0.8.0",
+          "date": "2026-11-04",
+          "pre": false,
+          "url": "https://github.com/elie222/rakazo/releases/tag/v0.8.0"
+        },
+        {
+          "tag": "v0.7.0",
+          "date": "2026-11-04",
+          "pre": false,
+          "url": "https://github.com/elie222/rakazo/releases/tag/v0.7.0"
+        }
+      ],
+      "releases_90": 10,
+      "release_status": "activo",
+      "release_source": "releases.atom",
+      "release_checked_at": "2026-11-15",
+      "topics": [
+        "ai-agents",
+        "chatgpt",
+        "docker",
+        "electron",
+        "expo",
+        "grok",
+        "llm",
+        "self-hosted",
+        "typescript"
+      ],
+      "kind": "agent",
+      "category": "teams",
+      "summary": "Alternativa open source a Grok Bot con bots persistentes, memoria, rutinas, computadora y navegador, grupos y delegación, miles de integraciones y apps web, escritorio y móvil.",
+      "tagline": "Tus AI teammates, en tus propios servidores.",
+      "strengths": [
+        "Bots persistentes con computadora, navegador y escritorio",
+        "Grupos, delegación y subagentes",
+        "Rutinas, memoria, miles de apps y MCP",
+        "Web, escritorio, iPhone/iPad y Android"
+      ],
+      "weaknesses": [
+        "Self-hosting requiere Docker y varios secretos",
+        "Muchas integraciones dependen de Composio/Pipedream",
+        "Producto en evolución con 218 issues abiertos"
+      ],
+      "comparison": "Cubre casi todas las piezas de Grok Bot con más adopción y multiplataforma; le falta madurez operativa y evidencias públicas de escala.",
+      "confidence": 68,
+      "judged_day": "2026-11-15",
+      "pillars": {
+        "identidad": true,
+        "computadora": true,
+        "memoria": true,
+        "rutinas": true,
+        "apps": true,
+        "coordinacion": true,
+        "aprobaciones": true,
+        "desatendido": true
+      },
+      "evidence": {
+        "identidad": [
+          {
+            "text": "Persistent AI teammates with their own memory, routines, apps, and computer.",
+            "source": "https://github.com/elie222/rakazo#readme"
+          }
+        ],
+        "computadora": [
+          {
+            "text": "A browser, terminal, files, and a full desktop. Watch it work, take control to sign in, and hand it back.",
+            "source": "https://github.com/elie222/rakazo#readme"
+          }
+        ],
+        "memoria": [
+          {
+            "text": "Persistent AI teammates with their own memory, routines, apps, and computer.",
+            "source": "https://github.com/elie222/rakazo#readme"
+          }
+        ],
+        "rutinas": [
+          {
+            "text": "Run a bot on a schedule, from an email, or from a webhook, and see every run.",
+            "source": "https://github.com/elie222/rakazo#readme"
+          }
+        ],
+        "apps": [
+          {
+            "text": "Gmail, Slack, GitHub, Notion, Linear and thousands more, plus your own MCP servers and OpenAPI tools.",
+            "source": "https://github.com/elie222/rakazo#readme"
+          }
+        ],
+        "coordinacion": [
+          {
+            "text": "Put bots in a group and @mention them. They split the work, check each other, and report back.",
+            "source": "https://github.com/elie222/rakazo#readme"
+          }
+        ],
+        "aprobaciones": [
+          {
+            "text": "Decide which actions need your approval.",
+            "source": "https://rakazo.com"
+          }
+        ],
+        "desatendido": [
+          {
+            "text": "Keeps working while your computer is off.",
+            "source": "https://rakazo.com"
+          },
+          {
+            "text": "Run a bot on a schedule, from an email, or from a webhook, and see every run.",
+            "source": "https://github.com/elie222/rakazo#readme"
+          }
+        ]
+      },
+      "dimensions": {
+        "capacidad": 82,
+        "autonomia": 80,
+        "computadora": 87,
+        "memoria": 90,
+        "rutinas": 90,
+        "equipo": 88,
+        "confianza": 90,
+        "producto": 79
+      },
+      "total": 85,
+      "tier": "S",
+      "agency": 100,
+      "sources": [
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/elie222/rakazo",
+          "accessedAt": "2026-11-15"
+        },
+        {
+          "label": "Web oficial",
+          "url": "https://rakazo.com",
+          "accessedAt": "2026-11-15"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/elie222/rakazo#readme",
+          "accessedAt": "2026-11-15"
+        },
+        {
+          "label": "Releases",
+          "url": "https://github.com/elie222/rakazo/releases",
+          "accessedAt": "2026-11-15"
+        }
+      ],
+      "setup": "moderate",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "channels": [
+        "Chat",
+        "Email",
+        "Slack",
+        "Voz"
+      ],
+      "release_highlight": "0.11.0: computadora local sin Docker en Mac, DMs de Teams y rutinas que vigilan una URL.",
+      "release_impact": "Nuevo en el ranking: 85.00 S. 8/8 pilares; la alternativa más completa a Grok Bot por producto.",
+      "last_release_tag": "v0.11.0",
+      "last_release_url": "https://github.com/elie222/rakazo/releases/tag/v0.11.0",
+      "last_release_days": 3,
+      "release_note": "Security Updated third-party dependencies with known vulnerabilities, including the HTTP client used by model, mail and scraping connections, the mail sender, and XML and Markdown parsers. The development launcher's database cleanup accepts only database names it generated and quotes them, so forged database metadata can no longer inject SQL or point the cleanup at another folder. This affects source checkouts only. Added On Apple silicon Macs running macOS 26 or newer, the desktop app's This computer runs without Docker. The app downloads what it needs the first time you pick it, and each bot's computer runs as its own small VM with a firewall that lets it reach the internet but not your Mac or local network. If you already run This computer on Docker, the app asks once whether to move your bots and data; Docker is stopped, not removed. Intel Macs, older macOS, Linux and Windows keep us",
+      "release_http": 200,
+      "changelog_url": null,
+      "verificationNote": "README y web: bots persistentes con computadora/navegador, grupos, delegación, rutinas, memoria, integraciones y aprobaciones. Self-hosting con Docker; apps web, escritorio y móvil."
+    },
+    {
+      "slug": "rerun-build",
+      "name": "rerun",
+      "full_name": "rerun-build/rerun",
+      "maker": "rerun-build",
+      "repo": "https://github.com/rerun-build/rerun",
+      "website": "https://rerun.build",
+      "license": "AGPL-3.0",
+      "licenseType": "Open source",
+      "language": "TypeScript",
+      "stars": 1066,
+      "forks": 128,
+      "open_issues": 36,
+      "pushed_at": "2026-11-14T11:20:42Z",
+      "created_at": "2026-10-29T16:09:54Z",
+      "last_release": "2026-11-13",
+      "releases_recent": [
+        {
+          "tag": "v0.15.0",
+          "date": "2026-11-13",
+          "pre": false,
+          "url": "https://github.com/rerun-build/rerun/releases/tag/v0.15.0"
+        },
+        {
+          "tag": "v0.14.6",
+          "date": "2026-11-13",
+          "pre": false,
+          "url": "https://github.com/rerun-build/rerun/releases/tag/v0.14.6"
+        },
+        {
+          "tag": "v0.14.5",
+          "date": "2026-11-13",
+          "pre": false,
+          "url": "https://github.com/rerun-build/rerun/releases/tag/v0.14.5"
+        },
+        {
+          "tag": "v0.14.4",
+          "date": "2026-11-13",
+          "pre": false,
+          "url": "https://github.com/rerun-build/rerun/releases/tag/v0.14.4"
+        },
+        {
+          "tag": "v0.14.3",
+          "date": "2026-11-13",
+          "pre": false,
+          "url": "https://github.com/rerun-build/rerun/releases/tag/v0.14.3"
+        },
+        {
+          "tag": "v0.14.2",
+          "date": "2026-11-13",
+          "pre": false,
+          "url": "https://github.com/rerun-build/rerun/releases/tag/v0.14.2"
+        }
+      ],
+      "releases_90": 10,
+      "release_status": "activo",
+      "release_source": "releases.atom",
+      "release_checked_at": "2026-11-15",
+      "topics": [],
+      "kind": "agent",
+      "category": "teams",
+      "summary": "App open source de AI coworkers: el Chief of Staff contrata y coordina agentes con memoria, skills, computadora propia, rutinas, integraciones y aprobaciones, en local o en Rerun Cloud.",
+      "tagline": "AI coworkers que trabajan mientras duermes.",
+      "strengths": [
+        "Chief of Staff que contrata y coordina coworkers",
+        "Computadora propia con navegador y takeover",
+        "Memoria, skills, rutinas e integraciones 200+",
+        "Aprobaciones antes de enviar, pagar o borrar"
+      ],
+      "weaknesses": [
+        "Self-hosting requiere Docker, Node y Supabase",
+        "Producto joven (octubre 2026) con poca validación pública",
+        "El modelo y el coste corren por cuenta del usuario"
+      ],
+      "comparison": "Se acerca al listón en equipo, computadora y aprobaciones; todavía debe demostrar estabilidad y casos de uso a escala.",
+      "confidence": 60,
+      "judged_day": "2026-11-15",
+      "pillars": {
+        "identidad": true,
+        "computadora": true,
+        "memoria": true,
+        "rutinas": true,
+        "apps": true,
+        "coordinacion": true,
+        "aprobaciones": true,
+        "desatendido": true
+      },
+      "evidence": {
+        "identidad": [
+          {
+            "text": "Each coworker gets a job, its own memory, its own skills and its own computer.",
+            "source": "https://github.com/rerun-build/rerun#readme"
+          }
+        ],
+        "computadora": [
+          {
+            "text": "A browser and a screen you can watch, and take over at any time",
+            "source": "https://github.com/rerun-build/rerun#readme"
+          }
+        ],
+        "memoria": [
+          {
+            "text": "a soul, skills, a memory that grows with every task",
+            "source": "https://github.com/rerun-build/rerun#readme"
+          }
+        ],
+        "rutinas": [
+          {
+            "text": "Schedules and webhook triggers: the 7am run happens without you",
+            "source": "https://github.com/rerun-build/rerun#readme"
+          }
+        ],
+        "apps": [
+          {
+            "text": "200+ ready integrations, any MCP server, Composio",
+            "source": "https://github.com/rerun-build/rerun#readme"
+          }
+        ],
+        "coordinacion": [
+          {
+            "text": "One finds the leads, the next writes to them, a third files the result.",
+            "source": "https://github.com/rerun-build/rerun#readme"
+          }
+        ],
+        "aprobaciones": [
+          {
+            "text": "They stop and ask before they send, pay or delete anything",
+            "source": "https://github.com/rerun-build/rerun#readme"
+          }
+        ],
+        "desatendido": [
+          {
+            "text": "Schedules and webhook triggers: the 7am run happens without you",
+            "source": "https://github.com/rerun-build/rerun#readme"
+          }
+        ]
+      },
+      "dimensions": {
+        "capacidad": 82,
+        "autonomia": 82,
+        "computadora": 88,
+        "memoria": 90,
+        "rutinas": 90,
+        "equipo": 90,
+        "confianza": 90,
+        "producto": 74
+      },
+      "total": 84.9,
+      "tier": "S",
+      "agency": 100,
+      "sources": [
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/rerun-build/rerun",
+          "accessedAt": "2026-11-15"
+        },
+        {
+          "label": "Web oficial",
+          "url": "https://rerun.build",
+          "accessedAt": "2026-11-15"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/rerun-build/rerun#readme",
+          "accessedAt": "2026-11-15"
+        },
+        {
+          "label": "Releases",
+          "url": "https://github.com/rerun-build/rerun/releases",
+          "accessedAt": "2026-11-15"
+        }
+      ],
+      "setup": "technical",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "channels": [
+        "Chat",
+        "Email",
+        "Slack"
+      ],
+      "release_highlight": "0.15.0: los coworkers responden sobre la documentación y el Foreman estrena General con hilos.",
+      "release_impact": "Nuevo en el ranking: 84.90 S. 8/8 pilares; self-hosting técnico y producto joven.",
+      "last_release_tag": "v0.15.0",
+      "last_release_url": "https://github.com/rerun-build/rerun/releases/tag/v0.15.0",
+      "last_release_days": 2,
+      "release_note": "Minor release: read Upgrade before updating. Highlights A coworker answers questions about Rerun from the documentation ( #208 ) The Foreman's General and its threads ( #204 ) Every conversation behind the clock of the column ( #203 ) General with its threads in the column ( #202 ) A General conversation and threads on the hub ( #201 ) Switch workspace from the header of the workspace menu ( #197 ) A coworker types a secret into a page without seeing it ( #196 ) Temporarily hide \"Hire an expert\" from the help menu ( #195 ) Simple view, a list of coworkers beside the chat ( #190 ) Move every coworker's own catalog apps into the Vault ( #189 ) Archives and duplicates of a coworker keep what it holds from the Vault ( #187 ) A coworker's app suggestion offers the Vault's accounts ( #186 ) Paid app accounts show in the Vault ( #185 ) Composio and managed accounts go to the Vault too ( #184 ) ",
+      "release_http": 200,
+      "changelog_url": null,
+      "verificationNote": "README: Chief of Staff que crea y coordina coworkers con memoria, skills, computadora propia, rutinas, integraciones y aprobaciones. Self-hosting con Docker, Node y Supabase."
+    },
+    {
+      "slug": "agentes-chat",
+      "name": "agentes-chat",
+      "full_name": "agentes-chat/agentes-chat",
+      "maker": "agentes-chat",
+      "repo": "https://github.com/agentes-chat/agentes-chat",
+      "website": "https://agentes.chat",
+      "license": "AGPL-3.0",
+      "licenseType": "Open source",
+      "language": "TypeScript",
+      "stars": 1425,
+      "forks": 251,
+      "open_issues": 220,
+      "pushed_at": "2026-11-15T06:22:40Z",
+      "created_at": "2026-11-09T00:50:28Z",
+      "last_release": "2026-11-14",
+      "releases_recent": [
+        {
+          "tag": "desktop-v0.8.8",
+          "date": "2026-11-14",
+          "pre": false,
+          "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/desktop-v0.8.8"
+        },
+        {
+          "tag": "desktop-v0.8.7",
+          "date": "2026-11-14",
+          "pre": false,
+          "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/desktop-v0.8.7"
+        },
+        {
+          "tag": "cla-v1.0",
+          "date": "2026-11-14",
+          "pre": false,
+          "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/cla-v1.0"
+        },
+        {
+          "tag": "desktop-v0.8.5",
+          "date": "2026-11-13",
+          "pre": false,
+          "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/desktop-v0.8.5"
+        },
+        {
+          "tag": "v0.1.1",
+          "date": "2026-11-12",
+          "pre": false,
+          "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/v0.1.1"
+        },
+        {
+          "tag": "setup-v0.1.1",
+          "date": "2026-11-12",
+          "pre": false,
+          "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/setup-v0.1.1"
+        }
+      ],
+      "releases_90": 10,
+      "release_status": "activo",
+      "release_source": "releases.atom",
+      "release_checked_at": "2026-11-15",
+      "topics": [
+        "agentic-ai",
+        "ai-agents",
+        "browser-automation",
+        "chat",
+        "claude",
+        "claude-code",
+        "codex",
+        "collaboration",
+        "computer-use",
+        "docker-compose",
+        "gemini",
+        "grok",
+        "human-in-the-loop",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "openai",
+        "self-hosted",
+        "slack-alternative",
+        "team-chat"
+      ],
+      "kind": "agent",
+      "category": "teams",
+      "summary": "Alternativa open source a Slack donde personas y agentes comparten canales y DMs: cada agente tiene rol, presupuesto, computadora, navegador, memoria, rutinas, MCP y aprobaciones; web, escritorio y móvil.",
+      "tagline": "Slack con agentes que trabajan de verdad.",
+      "strengths": [
+        "Slack open source con agentes como miembros de canales y DMs, no un bot lateral",
+        "Computadora y navegador propios con takeover humano y aislamiento por workspace",
+        "Rutinas, memoria, MCP/Composio y aprobaciones en el mismo producto",
+        "Web, escritorio, iOS y Android"
+      ],
+      "weaknesses": [
+        "Producto muy joven: creado en noviembre de 2026 y en beta abierta",
+        "Self-hosting exige Docker/Postgres y operación",
+        "La calidad de los agentes depende del modelo y del runtime conectado"
+      ],
+      "comparison": "Es la alternativa open source más directa a Grok Bot en formato Slack: equipo, computadora, rutinas, memoria y aprobaciones. Le falta madurez y recorrido.",
+      "confidence": 58,
+      "judged_day": "2026-11-15",
+      "pillars": {
+        "identidad": true,
+        "computadora": true,
+        "memoria": true,
+        "rutinas": true,
+        "apps": true,
+        "coordinacion": true,
+        "aprobaciones": true,
+        "desatendido": true
+      },
+      "evidence": {
+        "identidad": [
+          {
+            "text": "Agents are members of the workspace, not a sidebar bot: they read the channel, answer when it's theirs to answer, and hand work back and forth.",
+            "source": "https://github.com/agentes-chat/agentes-chat#readme"
+          }
+        ],
+        "computadora": [
+          {
+            "text": "Agents run commands and code on a computer that runs the runner: the server itself (the setup makes it the agents' computer by default), or a server, VM or laptop you connect.",
+            "source": "https://github.com/agentes-chat/agentes-chat#readme"
+          }
+        ],
+        "memoria": [
+          {
+            "text": "Agents keep decisions, facts, preferences and lessons from conversations, learn from corrections and refused approvals, and propose changes to their own instructions for a person to accept.",
+            "source": "https://github.com/agentes-chat/agentes-chat#readme"
+          }
+        ],
+        "rutinas": [
+          {
+            "text": "An agent works on a schedule (\"every weekday at 9am\") or on an event (a GitHub pull request, a Sentry issue, a new task, an incoming email) and delivers to a channel, a DM or the Drive.",
+            "source": "https://github.com/agentes-chat/agentes-chat#readme"
+          }
+        ],
+        "apps": [
+          {
+            "text": "With a Composio key, Google Drive, Calendar, Sheets and Docs, Slack, Microsoft Teams, OneDrive, HubSpot, Salesforce, Zendesk, Asana, Figma, Intercom, Dropbox, Square, Instagram, Facebook, LinkedIn, YouTube, Pinterest, Reddit and WhatsApp Business connect through Composio.",
+            "source": "https://github.com/agentes-chat/agentes-chat#readme"
+          }
+        ],
+        "coordinacion": [
+          {
+            "text": "Up to four agents answer, or none, and the message says who picked.",
+            "source": "https://github.com/agentes-chat/agentes-chat#readme"
+          }
+        ],
+        "aprobaciones": [
+          {
+            "text": "Merge, deploy, rollback and anything a connector marks sensitive wait for the agent's owner or an admin, as a card in the chat.",
+            "source": "https://github.com/agentes-chat/agentes-chat#readme"
+          }
+        ],
+        "desatendido": [
+          {
+            "text": "An agent works on a schedule (\"every weekday at 9am\") or on an event (a GitHub pull request, a Sentry issue, a new task, an incoming email) and delivers to a channel, a DM or the Drive.",
+            "source": "https://github.com/agentes-chat/agentes-chat#readme"
+          }
+        ]
+      },
+      "dimensions": {
+        "capacidad": 83,
+        "autonomia": 80,
+        "computadora": 87,
+        "memoria": 90,
+        "rutinas": 90,
+        "equipo": 90,
+        "confianza": 90,
+        "producto": 74
+      },
+      "total": 84.6,
+      "tier": "S",
+      "agency": 100,
+      "sources": [
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/agentes-chat/agentes-chat",
+          "accessedAt": "2026-11-15"
+        },
+        {
+          "label": "Web oficial",
+          "url": "https://agentes.chat",
+          "accessedAt": "2026-11-15"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/agentes-chat/agentes-chat#readme",
+          "accessedAt": "2026-11-15"
+        },
+        {
+          "label": "Releases",
+          "url": "https://github.com/agentes-chat/agentes-chat/releases",
+          "accessedAt": "2026-11-15"
+        }
+      ],
+      "setup": "moderate",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "channels": [
+        "Chat",
+        "Email",
+        "Slack",
+        "Web"
+      ],
+      "release_highlight": "0.8.8: correcciones de escritorio y móvil; la base ya incluye canales, computadora y aprobaciones.",
+      "release_impact": "Nuevo en el ranking: 84.60 S. 8/8 pilares; producto joven y en beta abierta.",
+      "last_release_tag": "desktop-v0.8.8",
+      "last_release_url": "https://github.com/agentes-chat/agentes-chat/releases/tag/desktop-v0.8.8",
+      "last_release_days": 1,
+      "release_note": "fix(desktop): the app no longer stops answering on macOS while it reads the window's cookies fix(mobile): the agents' conversation sheet keeps its title and foot clear of the list fix(mobile): the chat's fade under the header is solid behind the status bar docs(engine): listsAgentTo says plainly which agents a narrowed list keeps feat(web): no \"more agents in Team\" row for who doesn't see every agent feat(engine), i18n: \"See all agents\", on for everyone; off, Team lists only the agents that answer you Installing (first open) The desktop app is in beta: the Mac build isn't notarized by Apple yet and the Windows installer isn't signed by Microsoft, so the first open asks once. After that it opens and updates by itself. macOS : drag agentes.chat to Applications and open it, click Done , then open System Settings › Privacy &amp; Security and click Open Anyway (it shows up only right after yo",
+      "release_http": 200,
+      "changelog_url": null,
+      "verificationNote": "README y web oficial: Slack open source con agentes miembros del workspace, computadora y navegador propios, rutinas, memoria, MCP/Composio, aprobaciones y apps web/escritorio/móvil. Proyecto creado el 2026-11-09; se puntúa como beta abierta."
+    },
     {
       "slug": "nousresearch-hermes-agent",
       "name": "hermes-agent",
@@ -200,7 +823,7 @@
       "last_release_url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.1%2Bcanary.20261115T064406Z",
       "last_release_days": 0,
       "releases_90": 10,
-      "release_note": "Hermes Agent canary 20261115T064406Z",
+      "release_note": "Hermes Agent v0.23.1+canary.20261115T064406Z (v0.23.1+canary.20261115T064406Z) Release Date: November 15, 2026 Downloads Hermes Desktop OS Architecture Download macOS Apple Silicon (M-series) DMG Windows x86 (64-bit) MSIX Windows ARM (arm64 / aarch64) MSIX Native install/chat smoke Download availability is independent of smoke status. Each result covers all native legs in that format group. Linux bundles are disabled; unsigned Store envelopes are not install-smoked. No-upload dry tags have no download handoff and are not smoke-qualified. Packages Smoke status macOS DMG + ZIP (arm64) Passed Windows MSIX (arm64) Passed Windows MSIX (x64) Passed ✨ Features Plugin \"dosbox-mcp\" ( 4c02a304 ) — @shakeyourbunny Hermes-eye-memory to the plugin catalog ( e71d2da7 ) — @isthatananya Plugin-catalog): add permission-tiers (f5f6183) ( c2779be8 ) — @imperator-clawdius Plugin-catalog): add neuralwatt-pro",
       "release_status": "activo",
       "release_source": "releases.atom",
       "release_checked_at": "2026-11-15",
@@ -208,6 +831,431 @@
       "changelog_url": null,
       "release_highlight": "",
       "release_impact": ""
+    },
+    {
+      "slug": "cubebot",
+      "name": "cubebot",
+      "full_name": "vicotrbb/cubebot",
+      "maker": "vicotrbb",
+      "repo": "https://github.com/vicotrbb/cubebot",
+      "website": "https://cubebot.io",
+      "license": "Apache-2.0",
+      "licenseType": "Open source",
+      "language": "Rust",
+      "stars": 119,
+      "forks": 7,
+      "open_issues": 0,
+      "pushed_at": "2026-11-14T18:43:32Z",
+      "created_at": "2026-10-25T19:06:43Z",
+      "last_release": "2026-11-14",
+      "releases_recent": [
+        {
+          "tag": "v0.2.15",
+          "date": "2026-11-14",
+          "pre": false,
+          "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.2.15"
+        },
+        {
+          "tag": "v0.2.14",
+          "date": "2026-11-14",
+          "pre": false,
+          "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.2.14"
+        },
+        {
+          "tag": "v0.2.13",
+          "date": "2026-11-11",
+          "pre": false,
+          "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.2.13"
+        },
+        {
+          "tag": "v0.2.12",
+          "date": "2026-11-10",
+          "pre": false,
+          "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.2.12"
+        },
+        {
+          "tag": "v0.2.11",
+          "date": "2026-11-10",
+          "pre": false,
+          "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.2.11"
+        },
+        {
+          "tag": "v0.2.10",
+          "date": "2026-11-10",
+          "pre": false,
+          "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.2.10"
+        }
+      ],
+      "releases_90": 10,
+      "release_status": "activo",
+      "release_source": "releases.atom",
+      "release_checked_at": "2026-11-15",
+      "topics": [],
+      "kind": "agent",
+      "category": "teams",
+      "summary": "Plataforma self-hosted para un equipo de agentes persistentes: cada uno con memoria, workspace y computadora aislada (KVM o contenedor), salas, equipos, tareas, rutinas, conectores y aprobaciones.",
+      "tagline": "Agentes persistentes en tu propia infraestructura.",
+      "strengths": [
+        "Aislamiento fuerte: KVM o contenedor por agente",
+        "Salas, equipos, org chart y orquestador de tareas",
+        "Memoria, rutinas, 34 conectores y voz",
+        "Grants, aprobaciones, auditoría y SSO"
+      ],
+      "weaknesses": [
+        "Instalación y operación técnica (Docker/Kubernetes)",
+        "Proyecto joven y de nicho (119 estrellas)",
+        "El orquestador necesita el socket de Docker, con riesgo de privilegios"
+      ],
+      "comparison": "Tiene la infraestructura y el aislamiento que Grok Bot promete, pero su operación es técnica y su producto aún es joven.",
+      "confidence": 62,
+      "judged_day": "2026-11-15",
+      "pillars": {
+        "identidad": true,
+        "computadora": true,
+        "memoria": true,
+        "rutinas": true,
+        "apps": true,
+        "coordinacion": true,
+        "aprobaciones": true,
+        "desatendido": true
+      },
+      "evidence": {
+        "identidad": [
+          {
+            "text": "Each agent has its own name, memory, workspace and computer.",
+            "source": "https://github.com/vicotrbb/cubebot#readme"
+          }
+        ],
+        "computadora": [
+          {
+            "text": "Each agent runs in its own sandbox, a KVM virtual machine or a container, with a terminal, a browser and a desktop you can watch live.",
+            "source": "https://github.com/vicotrbb/cubebot#readme"
+          }
+        ],
+        "memoria": [
+          {
+            "text": "One permanent conversation, one memory and one workspace per agent, kept across restarts, upgrades and moves.",
+            "source": "https://github.com/vicotrbb/cubebot#readme"
+          }
+        ],
+        "rutinas": [
+          {
+            "text": "Schedule recurring work, see every agent's runs on one calendar, and layer in your own calendars.",
+            "source": "https://github.com/vicotrbb/cubebot#readme"
+          }
+        ],
+        "apps": [
+          {
+            "text": "34 of them, including GitHub, Google, Microsoft 365, Slack, Notion, Linear, Jira and Home Assistant, plus any MCP server.",
+            "source": "https://github.com/vicotrbb/cubebot#readme"
+          }
+        ],
+        "coordinacion": [
+          {
+            "text": "Talk to one agent, mention several in a room, or group them into teams with an org chart. Describe an outcome in Tasks and the orchestrator splits the work across the right agents.",
+            "source": "https://github.com/vicotrbb/cubebot#readme"
+          }
+        ],
+        "aprobaciones": [
+          {
+            "text": "Grants per agent and connection, approvals for sensitive actions, an encrypted vault, an audit log, single sign-on with OpenID Connect, and backups to S3.",
+            "source": "https://github.com/vicotrbb/cubebot#readme"
+          }
+        ],
+        "desatendido": [
+          {
+            "text": "Idle agents sleep, then \"dream\" to tidy their memory, and you can see what changed.",
+            "source": "https://github.com/vicotrbb/cubebot#readme"
+          },
+          {
+            "text": "Schedule recurring work, see every agent's runs on one calendar, and layer in your own calendars.",
+            "source": "https://github.com/vicotrbb/cubebot#readme"
+          }
+        ]
+      },
+      "dimensions": {
+        "capacidad": 82,
+        "autonomia": 78,
+        "computadora": 92,
+        "memoria": 90,
+        "rutinas": 90,
+        "equipo": 90,
+        "confianza": 90,
+        "producto": 62
+      },
+      "total": 83.1,
+      "tier": "S",
+      "agency": 100,
+      "sources": [
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/vicotrbb/cubebot",
+          "accessedAt": "2026-11-15"
+        },
+        {
+          "label": "Web oficial",
+          "url": "https://cubebot.io",
+          "accessedAt": "2026-11-15"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/vicotrbb/cubebot#readme",
+          "accessedAt": "2026-11-15"
+        },
+        {
+          "label": "Releases",
+          "url": "https://github.com/vicotrbb/cubebot/releases",
+          "accessedAt": "2026-11-15"
+        }
+      ],
+      "setup": "technical",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Web"
+      ],
+      "channels": [
+        "Chat",
+        "Voz"
+      ],
+      "release_highlight": "0.2.15: actualización de dependencias; sin cambios funcionales mayores.",
+      "release_impact": "Nuevo en el ranking: 83.10 S. 8/8 pilares; producto técnico y de nicho.",
+      "last_release_tag": "v0.2.15",
+      "last_release_url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.2.15",
+      "last_release_days": 1,
+      "release_note": "What's Changed Consolidate safe dependency updates by @vicotrbb in #120 Release v0.2.15 by @vicotrbb in #121 Full Changelog : v0.2.14...v0.2.15",
+      "release_http": 200,
+      "changelog_url": null,
+      "verificationNote": "README: plataforma self-hosted con agentes persistentes, sandbox KVM/contenedor, salas, equipos, orquestador, rutinas, conectores, voz, grants y auditoría. Instalación técnica con Docker o Kubernetes."
+    },
+    {
+      "slug": "anil-matcha-open-duet",
+      "name": "suparagent",
+      "full_name": "Anil-matcha/suparagent",
+      "maker": "Anil-matcha",
+      "repo": "https://github.com/Anil-matcha/suparagent",
+      "website": "https://suparagent.ai",
+      "license": "Apache-2.0",
+      "licenseType": "Open source",
+      "language": "Python",
+      "stars": 7075,
+      "forks": 921,
+      "open_issues": 97,
+      "pushed_at": "2026-11-13T10:36:29Z",
+      "created_at": "2023-05-25T14:21:12Z",
+      "last_release": "2026-11-11",
+      "releases_recent": [
+        {
+          "tag": "v0.8.6",
+          "date": "2026-11-11",
+          "pre": false,
+          "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.6"
+        },
+        {
+          "tag": "mobile-v0.4.0",
+          "date": "2026-11-11",
+          "pre": false,
+          "url": "https://github.com/Anil-matcha/suparagent/releases/tag/mobile-v0.4.0"
+        },
+        {
+          "tag": "v0.8.5",
+          "date": "2026-11-09",
+          "pre": false,
+          "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.5"
+        },
+        {
+          "tag": "v0.8.4",
+          "date": "2026-11-06",
+          "pre": false,
+          "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.4"
+        },
+        {
+          "tag": "v0.8.3",
+          "date": "2026-11-05",
+          "pre": false,
+          "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.3"
+        },
+        {
+          "tag": "v0.8.2",
+          "date": "2026-11-05",
+          "pre": false,
+          "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.2"
+        }
+      ],
+      "topics": [
+        "agentic-ai",
+        "ai-agent",
+        "ai-assistant",
+        "ai-coworker",
+        "ai-employees",
+        "ai-workspace",
+        "chatgpt-agent",
+        "claude-cowork",
+        "claude-duet",
+        "computer-use",
+        "computer-use-agent",
+        "grok-bot",
+        "grok-bot-alternative",
+        "manus-cue",
+        "meta-muse",
+        "open-source",
+        "open-source-alternative",
+        "personal-ai-agent",
+        "self-hosted",
+        "self-hosted-ai"
+      ],
+      "kind": "agent",
+      "summary": "Alternativa open source y autoalojable a Grok Bot y Claude Duet: agentes con nombre, memoria, rutinas, computadora aislada propia y aprobación antes de actuar; ahora con espacios compartidos, roles y permisos.",
+      "tagline": "Equipo de agentes con computadoras aisladas.",
+      "strengths": [
+        "Replica casi todo el listón: computadora aislada, rutinas, memoria y aprobaciones",
+        "Espacios compartidos con miembros, roles y permisos",
+        "Autoalojable, con app de escritorio y servicio alojado opcional"
+      ],
+      "weaknesses": [
+        "En desarrollo activo, con limitaciones reconocidas para trabajo importante",
+        "El autoalojamiento añade fricción operativa",
+        "Poca evidencia pública de tests, escala y casos de uso reales"
+      ],
+      "comparison": "Es de lo más cercano en concepto a Grok Bot dentro del open source; los espacios compartidos mejoran el equipo, pero su madurez sigue por demostrar.",
+      "confidence": 60,
+      "judged_day": "2026-11-12",
+      "pillars": {
+        "identidad": true,
+        "computadora": true,
+        "memoria": true,
+        "rutinas": true,
+        "apps": true,
+        "coordinacion": true,
+        "aprobaciones": true,
+        "desatendido": true
+      },
+      "evidence": {
+        "identidad": [
+          {
+            "text": "Give agents a name, role, engine, workspace, memory, and approval settings.",
+            "source": "https://github.com/Anil-matcha/suparagent#readme"
+          }
+        ],
+        "computadora": [
+          {
+            "text": "Docker is only needed for the optional isolated agent computers.",
+            "source": "https://github.com/Anil-matcha/suparagent#readme"
+          }
+        ],
+        "memoria": [
+          {
+            "text": "Suparagent keeps conversations, memory, routines, and approvals in one place.",
+            "source": "https://github.com/Anil-matcha/suparagent#readme"
+          }
+        ],
+        "rutinas": [
+          {
+            "text": "Add teammates or create a routine when you want to split up or repeat work.",
+            "source": "https://github.com/Anil-matcha/suparagent#readme"
+          }
+        ],
+        "apps": [
+          {
+            "text": "- **Connect tools and apps.** Connect services such as GitHub, Gmail, and Google Calendar through your own Composio key, then grant access to selected Claude or Codex agents.",
+            "source": "https://suparagent.ai"
+          },
+          {
+            "text": "- Connected apps are reached through Composio and tested against a fake Composio service, not yet the real service.",
+            "source": "https://suparagent.ai"
+          },
+          {
+            "text": "See [connected apps](docs/CONNECTED_APPS.md).",
+            "source": "https://github.com/Anil-matcha/suparagent#readme"
+          }
+        ],
+        "coordinacion": [
+          {
+            "text": "A lead can delegate work to specialists or coordinate agents in shared rooms.",
+            "source": "https://github.com/Anil-matcha/suparagent#readme"
+          },
+          {
+            "text": "Share a server install with other people: members, roles and permissions",
+            "source": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.6"
+          }
+        ],
+        "aprobaciones": [
+          {
+            "text": "a routine never approves an action by itself.",
+            "source": "https://github.com/Anil-matcha/suparagent#readme"
+          },
+          {
+            "text": "Share a server install with other people: members, roles and permissions",
+            "source": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.6"
+          }
+        ],
+        "desatendido": [
+          {
+            "text": "Create routines for scheduled, webhook, or manual runs.",
+            "source": "https://github.com/Anil-matcha/suparagent#readme"
+          }
+        ]
+      },
+      "dimensions": {
+        "capacidad": 82,
+        "autonomia": 78,
+        "computadora": 85,
+        "memoria": 90,
+        "rutinas": 90,
+        "equipo": 90,
+        "confianza": 90,
+        "producto": 63
+      },
+      "total": 82.2,
+      "tier": "S",
+      "agency": 100,
+      "sources": [
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/Anil-matcha/suparagent",
+          "accessedAt": "2026-11-15"
+        },
+        {
+          "label": "Web oficial",
+          "url": "https://suparagent.ai",
+          "accessedAt": "2026-11-15"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/Anil-matcha/suparagent#readme",
+          "accessedAt": "2026-11-15"
+        },
+        {
+          "label": "Releases",
+          "url": "https://github.com/Anil-matcha/suparagent/releases",
+          "accessedAt": "2026-11-15"
+        }
+      ],
+      "category": "teams",
+      "setup": "technical",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "channels": [
+        "Chat",
+        "Telegram"
+      ],
+      "verificationNote": "Revisión de release v0.8.6 (2026-11-11): espacios compartidos con miembros, roles y permisos, móvil chat-first y cambio de modelo. Se mantiene el slug histórico anil-matcha-open-duet.",
+      "last_release_tag": "v0.8.6",
+      "last_release_url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.6",
+      "last_release_days": 4,
+      "releases_90": 10,
+      "release_note": "What's Changed test: fix four stale tests that fail on main by @inderpreet001 in #237 Share a server install with other people: members, roles and permissions by @inderpreet001 in #236 docs: describe members, roles and shared workspaces by @inderpreet001 in #238 feat(mobile): chat-first default screen, sliding sidebar, dynamic model &amp; effort switcher, and server profile integration by @jaiprasad04 in #239 feat(docs): add in-app documentation center, visual workflows guide, and fix Windows Google auth command formatting by @jaiprasad04 in #235 feat: hosted workspace grants, workspace switcher and hosted People screen by @inderpreet001 in #240 Full Changelog : v0.8.5...v0.8.6",
+      "release_status": "activo",
+      "release_source": "releases.atom",
+      "release_checked_at": "2026-11-15",
+      "release_http": 200,
+      "changelog_url": null,
+      "release_highlight": "0.8.6: espacios compartidos con miembros, roles y permisos; móvil chat-first y cambio de modelo.",
+      "release_impact": "Sube de 80.55 a 82.20 S por espacios compartidos, roles/permisos y móvil."
     },
     {
       "slug": "milind-soni-openmausbot",
@@ -622,227 +1670,6 @@
       "release_impact": ""
     },
     {
-      "slug": "anil-matcha-open-duet",
-      "name": "open-duet",
-      "full_name": "Anil-matcha/open-duet",
-      "maker": "Anil-matcha",
-      "repo": "https://github.com/Anil-matcha/suparagent",
-      "website": "https://suparagent.ai",
-      "license": "Apache-2.0",
-      "licenseType": "Open source",
-      "language": "Python",
-      "stars": 7031,
-      "forks": 913,
-      "open_issues": 10,
-      "pushed_at": "2026-11-11T15:55:47Z",
-      "created_at": "2023-05-25T14:21:12Z",
-      "last_release": "2026-11-11",
-      "releases_recent": [
-        {
-          "tag": "v0.8.6",
-          "date": "2026-11-11",
-          "pre": false,
-          "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.6"
-        },
-        {
-          "tag": "mobile-v0.4.0",
-          "date": "2026-11-11",
-          "pre": false,
-          "url": "https://github.com/Anil-matcha/suparagent/releases/tag/mobile-v0.4.0"
-        },
-        {
-          "tag": "v0.8.5",
-          "date": "2026-11-09",
-          "pre": false,
-          "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.5"
-        },
-        {
-          "tag": "v0.8.4",
-          "date": "2026-11-06",
-          "pre": false,
-          "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.4"
-        },
-        {
-          "tag": "v0.8.3",
-          "date": "2026-11-05",
-          "pre": false,
-          "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.3"
-        },
-        {
-          "tag": "v0.8.2",
-          "date": "2026-11-05",
-          "pre": false,
-          "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.2"
-        }
-      ],
-      "topics": [
-        "agentic-ai",
-        "ai-agent",
-        "ai-assistant",
-        "ai-coworker",
-        "ai-employees",
-        "ai-workspace",
-        "chatgpt-agent",
-        "claude-cowork",
-        "claude-duet",
-        "computer-use",
-        "computer-use-agent",
-        "grok-bot",
-        "grok-bot-alternative",
-        "manus-cue",
-        "meta-muse",
-        "open-source",
-        "open-source-alternative",
-        "personal-ai-agent",
-        "self-hosted",
-        "self-hosted-ai"
-      ],
-      "kind": "agent",
-      "summary": "Alternativa open-source y autoalojable a Grok Bot y Claude Duet: agentes con nombre, memoria, rutinas, computadora aislada propia y aprobación antes de actuar.",
-      "tagline": "Equipo de agentes con computadoras aisladas.",
-      "strengths": [
-        "Replica casi todo el listón: computadora aislada, rutinas, memoria y aprobaciones",
-        "Autoalojable, con app de escritorio y servicio alojado opcional",
-        "No exige un modelo ni una suscripción propia del proyecto"
-      ],
-      "weaknesses": [
-        "En desarrollo activo, con limitaciones reconocidas para trabajo importante",
-        "No incluye modelo y el autoalojamiento añade fricción operativa",
-        "Poca evidencia pública de tests, escala y casos de uso reales"
-      ],
-      "comparison": "Es de lo más cercano en concepto a Grok Bot dentro del open source, pero su madurez y su ejecución están todavía por demostrar frente al producto de xAI.",
-      "confidence": 58,
-      "judged_day": "2026-11-12",
-      "pillars": {
-        "identidad": true,
-        "computadora": true,
-        "memoria": true,
-        "rutinas": true,
-        "apps": true,
-        "coordinacion": true,
-        "aprobaciones": true,
-        "desatendido": true
-      },
-      "evidence": {
-        "identidad": [
-          {
-            "text": "Give agents a name, role, engine, workspace, memory, and approval settings.",
-            "source": "https://github.com/Anil-matcha/open-duet#readme"
-          }
-        ],
-        "computadora": [
-          {
-            "text": "Docker is only needed for the optional isolated agent computers.",
-            "source": "https://github.com/Anil-matcha/open-duet#readme"
-          }
-        ],
-        "memoria": [
-          {
-            "text": "Suparagent keeps conversations, memory, routines, and approvals in one place.",
-            "source": "https://github.com/Anil-matcha/open-duet#readme"
-          }
-        ],
-        "rutinas": [
-          {
-            "text": "Add teammates or create a routine when you want to split up or repeat work.",
-            "source": "https://github.com/Anil-matcha/open-duet#readme"
-          }
-        ],
-        "apps": [
-          {
-            "text": "- **Connect tools and apps.** Connect services such as GitHub, Gmail, and Google Calendar through your own Composio key, then grant access to selected Claude or Codex agents.",
-            "source": "https://suparagent.ai"
-          },
-          {
-            "text": "- Connected apps are reached through Composio and tested against a fake Composio service, not yet the real service.",
-            "source": "https://suparagent.ai"
-          },
-          {
-            "text": "See [connected apps](docs/CONNECTED_APPS.md).",
-            "source": "https://github.com/Anil-matcha/suparagent#readme"
-          }
-        ],
-        "coordinacion": [
-          {
-            "text": "A request goes to a Claude or Codex team lead, who delegates work to specialists. Teammates can share a project folder, and you review actions when approval is required.",
-            "source": "https://github.com/Anil-matcha/open-duet#readme"
-          }
-        ],
-        "aprobaciones": [
-          {
-            "text": "Choose Ask first to pause for approval before actions that change files or systems.",
-            "source": "https://github.com/Anil-matcha/open-duet#readme"
-          }
-        ],
-        "desatendido": [
-          {
-            "text": "Use the desktop app or host the server yourself; the desktop app and server are experimental.",
-            "source": "https://github.com/Anil-matcha/open-duet#readme"
-          }
-        ]
-      },
-      "dimensions": {
-        "capacidad": 80,
-        "autonomia": 76,
-        "computadora": 85,
-        "memoria": 90,
-        "rutinas": 90,
-        "equipo": 90,
-        "confianza": 90,
-        "producto": 56
-      },
-      "total": 80.55,
-      "tier": "S",
-      "agency": 100,
-      "sources": [
-        {
-          "label": "Repositorio GitHub",
-          "url": "https://github.com/Anil-matcha/suparagent",
-          "accessedAt": "2026-11-12"
-        },
-        {
-          "label": "Web oficial",
-          "url": "https://suparagent.ai",
-          "accessedAt": "2026-11-12"
-        },
-        {
-          "label": "README",
-          "url": "https://github.com/Anil-matcha/suparagent#readme",
-          "accessedAt": "2026-11-12"
-        },
-        {
-          "label": "Releases",
-          "url": "https://github.com/Anil-matcha/suparagent/releases",
-          "accessedAt": "2026-11-12"
-        }
-      ],
-      "category": "teams",
-      "setup": "technical",
-      "platforms": [
-        "macOS",
-        "Windows",
-        "Linux",
-        "Web"
-      ],
-      "channels": [
-        "Chat",
-        "Telegram"
-      ],
-      "verificationNote": "README: agentes con nombre, memoria, rutinas, computadora aislada y aprobaciones; un líder delega en especialistas. El servidor puede quedar corriendo.",
-      "last_release_tag": "v0.8.6",
-      "last_release_url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.6",
-      "last_release_days": 4,
-      "releases_90": 10,
-      "release_note": "What's Changed test: fix four stale tests that fail on main by @inderpreet001 in #237 Share a server install with other people: members, roles and permissions by @inderpreet001 in #236 docs: describe members, roles and shared workspaces by @inderpreet001 in #238 feat(mobile): chat-first default screen, sliding sidebar, dynamic model &amp; effort switcher, and server profile integration by @jaiprasad04 in #239 feat(docs): add in-app documentation center, visual workflows guide, and fix Windows Google auth command formatting by @jaiprasad04 in #235 feat: hosted workspace grants, workspace switcher and hosted People screen by @inderpreet001 in #240 Full Changelog : v0.8.5...v0.8.6",
-      "release_status": "activo",
-      "release_source": "releases.atom",
-      "release_checked_at": "2026-11-15",
-      "release_http": 200,
-      "changelog_url": null,
-      "release_highlight": "",
-      "release_impact": ""
-    },
-    {
       "slug": "orkas-ai-orkas",
       "name": "Orkas",
       "full_name": "Orkas-AI/Orkas",
@@ -1067,6 +1894,220 @@
       "changelog_url": null,
       "release_highlight": "",
       "release_impact": ""
+    },
+    {
+      "slug": "clawboo",
+      "name": "clawboo",
+      "full_name": "clawboo/clawboo",
+      "maker": "clawboo",
+      "repo": "https://github.com/clawboo/clawboo",
+      "website": "https://www.claw.boo",
+      "license": "MIT",
+      "licenseType": "Open source",
+      "language": "TypeScript",
+      "stars": 171,
+      "forks": 45,
+      "open_issues": 2,
+      "pushed_at": "2026-11-15T05:59:27Z",
+      "created_at": "2026-02-18T01:10:30Z",
+      "last_release": "2026-11-14",
+      "releases_recent": [
+        {
+          "tag": "clawboo@0.7.0",
+          "date": "2026-11-14",
+          "pre": false,
+          "url": "https://github.com/clawboo/clawboo/releases/tag/clawboo%400.7.0"
+        },
+        {
+          "tag": "clawboo@0.6.0",
+          "date": "2026-11-04",
+          "pre": false,
+          "url": "https://github.com/clawboo/clawboo/releases/tag/clawboo%400.6.0"
+        },
+        {
+          "tag": "clawboo@0.5.0",
+          "date": "2026-10-21",
+          "pre": false,
+          "url": "https://github.com/clawboo/clawboo/releases/tag/clawboo%400.5.0"
+        },
+        {
+          "tag": "clawboo@0.4.0",
+          "date": "2026-09-28",
+          "pre": false,
+          "url": "https://github.com/clawboo/clawboo/releases/tag/clawboo%400.4.0"
+        },
+        {
+          "tag": "clawboo@0.3.1",
+          "date": "2026-07-20",
+          "pre": false,
+          "url": "https://github.com/clawboo/clawboo/releases/tag/clawboo%400.3.1"
+        },
+        {
+          "tag": "clawboo@0.3.0",
+          "date": "2026-07-15",
+          "pre": false,
+          "url": "https://github.com/clawboo/clawboo/releases/tag/clawboo%400.3.0"
+        }
+      ],
+      "releases_90": 4,
+      "release_status": "activo",
+      "release_source": "releases.atom",
+      "release_checked_at": "2026-11-15",
+      "topics": [
+        "agent-framework",
+        "agent-harness",
+        "agent-orchestration",
+        "agentic-ai",
+        "agents",
+        "ai",
+        "ai-agents",
+        "autonomous-agents",
+        "claude",
+        "clawboo",
+        "developer-tools",
+        "llm",
+        "llm-agents",
+        "multi-agent",
+        "nodejs",
+        "open-source",
+        "openclaw",
+        "react",
+        "self-hosted",
+        "typescript"
+      ],
+      "kind": "agent",
+      "category": "teams",
+      "summary": "Estudio open source para desplegar equipos de agentes con un jefe que reparte tareas, memoria compartida, rutinas, conectores y aprobaciones; los agentes corren sobre Claude Code, Codex, Hermes, OpenClaw o el runtime propio.",
+      "tagline": "Un jefe AI para tu equipo de agentes.",
+      "strengths": [
+        "Boo Zero reparte tareas y coordina varios runtimes",
+        "Memoria compartida y tablero durable",
+        "Rutinas, conectores MCP/Composio y aprobaciones",
+        "Corre local con una sola orden"
+      ],
+      "weaknesses": [
+        "Proyecto pequeño (171 estrellas) y ecosistema joven",
+        "La computadora es el entorno local, no una VM aislada por agente",
+        "Depende de runtimes externos y de sus propios límites de permisos"
+      ],
+      "comparison": "Coordina agentes como un equipo real, pero su computadora es local y su ecosistema aún es pequeño frente a Grok Bot.",
+      "confidence": 62,
+      "judged_day": "2026-11-15",
+      "pillars": {
+        "identidad": true,
+        "computadora": true,
+        "memoria": true,
+        "rutinas": true,
+        "apps": true,
+        "coordinacion": true,
+        "aprobaciones": true,
+        "desatendido": true
+      },
+      "evidence": {
+        "identidad": [
+          {
+            "text": "Ask once. Boo Zero, your team lead, splits the work into jobs on one board and hands each job to a teammate.",
+            "source": "https://github.com/clawboo/clawboo#readme"
+          }
+        ],
+        "computadora": [
+          {
+            "text": "Share the Playwright or Chrome DevTools connector with an agent, and its Browser tab shows the latest screenshot from its browser. Each of those agents gets its own browser profile, so its logins stay its own.",
+            "source": "https://github.com/clawboo/clawboo#readme"
+          }
+        ],
+        "memoria": [
+          {
+            "text": "Memory lives in Clawboo itself, so a fact one teammate saves can be recalled by any teammate, whatever tool it runs on.",
+            "source": "https://github.com/clawboo/clawboo#readme"
+          }
+        ],
+        "rutinas": [
+          {
+            "text": "Put work on a clock. A team routine posts into the group chat for Boo Zero to pick up, and an agent routine hands one agent a task.",
+            "source": "https://github.com/clawboo/clawboo#readme"
+          }
+        ],
+        "apps": [
+          {
+            "text": "A Connectors page starts or signs in to popular MCP servers for you (GitHub, Linear, Notion, Figma, Stripe, Playwright, a local folder and more; some ask for a key or token once). Gmail, Slack, Jira and 38 more apps connect through your Composio account: paste a Composio project key once, and Composio keeps those apps' sign-ins.",
+            "source": "https://github.com/clawboo/clawboo#readme"
+          }
+        ],
+        "coordinacion": [
+          {
+            "text": "Boo Zero splits your request into jobs, hands them out, and pulls the results together in the chat.",
+            "source": "https://github.com/clawboo/clawboo#readme"
+          }
+        ],
+        "aprobaciones": [
+          {
+            "text": "Risky tool calls that go through Clawboo ask you first, on any runtime.",
+            "source": "https://github.com/clawboo/clawboo#readme"
+          }
+        ],
+        "desatendido": [
+          {
+            "text": "Every handoff is a real task on a durable board that survives restarts, and the team talks it through in one room.",
+            "source": "https://github.com/clawboo/clawboo#readme"
+          }
+        ]
+      },
+      "dimensions": {
+        "capacidad": 78,
+        "autonomia": 74,
+        "computadora": 70,
+        "memoria": 90,
+        "rutinas": 90,
+        "equipo": 90,
+        "confianza": 90,
+        "producto": 68
+      },
+      "total": 79.5,
+      "tier": "A",
+      "agency": 100,
+      "sources": [
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/clawboo/clawboo",
+          "accessedAt": "2026-11-15"
+        },
+        {
+          "label": "Web oficial",
+          "url": "https://www.claw.boo",
+          "accessedAt": "2026-11-15"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/clawboo/clawboo#readme",
+          "accessedAt": "2026-11-15"
+        },
+        {
+          "label": "Releases",
+          "url": "https://github.com/clawboo/clawboo/releases",
+          "accessedAt": "2026-11-15"
+        }
+      ],
+      "setup": "easy",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web"
+      ],
+      "channels": [
+        "Chat",
+        "Web"
+      ],
+      "release_highlight": "0.7.0: Cua Driver para que los agentes usen apps de su propia pantalla en Linux.",
+      "release_impact": "Nuevo en el ranking: 79.50 A. Equipo y memoria fuertes; computadora local y ecosistema pequeño.",
+      "last_release_tag": "clawboo@0.7.0",
+      "last_release_url": "https://github.com/clawboo/clawboo/releases/tag/clawboo%400.7.0",
+      "last_release_days": 1,
+      "release_note": "Minor Changes 3cf2d73 : New connector: Cua Driver (category Desktop , Linux only) uses the apps on an agent's own screen through Clawboo's tool server: it lists windows, clicks, types and reads each app's accessibility tree. It runs only when agents run as their own OS user ( CLAWBOO_AGENT_USER ), like control links: it types into the agent's browser, which otherwise runs as you. Without it, agents still get their screen, the live view and their browser tools. Install it from an agent's Screen view, connect it, and give it to the agents that need it; it is not given to every agent. Each agent gets its own Cua Driver process on that agent's own screen, as the agent user when agents run as their own OS user, with a home folder of its own and the screen's own session bus, never your desktop session's. It runs only from Clawboo's own install, with its telemetry and update check turned off. A",
+      "release_http": 200,
+      "changelog_url": null,
+      "verificationNote": "README: estudio de equipos de agentes con Boo Zero como jefe, varios runtimes, memoria compartida, rutinas, conectores y aprobaciones. La computadora es el entorno local; no hay VM aislada por agente."
     },
     {
       "slug": "nanocoai-nanoclaw",
@@ -1298,8 +2339,20 @@
       "open_issues": 1,
       "pushed_at": "2026-11-11T12:44:17Z",
       "created_at": "2026-10-27T08:51:18Z",
-      "last_release": "2026-11-14",
+      "last_release": "2026-11-15",
       "releases_recent": [
+        {
+          "tag": "v0.1.38",
+          "date": "2026-11-15",
+          "pre": false,
+          "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.38"
+        },
+        {
+          "tag": "v0.1.37",
+          "date": "2026-11-15",
+          "pre": false,
+          "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.37"
+        },
         {
           "tag": "v0.1.36",
           "date": "2026-11-14",
@@ -1323,18 +2376,6 @@
           "date": "2026-11-14",
           "pre": false,
           "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.33"
-        },
-        {
-          "tag": "v0.1.32",
-          "date": "2026-11-11",
-          "pre": false,
-          "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.32"
-        },
-        {
-          "tag": "v0.1.31",
-          "date": "2026-11-11",
-          "pre": false,
-          "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.31"
         }
       ],
       "topics": [
@@ -1451,11 +2492,11 @@
         "WeChat"
       ],
       "verificationNote": "README + revisión previa: workspace, memoria y control del escritorio por bot; multi-modelo, rutinas, canales y aprobaciones. No coordina varios bots entre sí.",
-      "last_release_tag": "v0.1.36",
-      "last_release_url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.36",
-      "last_release_days": 1,
+      "last_release_tag": "v0.1.38",
+      "last_release_url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.38",
+      "last_release_days": 0,
       "releases_90": 10,
-      "release_note": "新增 把做成的事存成技能： 和机器人把一件事做对后，在输入框的「+」里点「存成技能…」、发 /skill 或直接说「存成技能」，机器人会整理出一张草稿卡，列出步骤、你纠正过的地方、用到的应用和技能，以及「试试这样说」。确认后存进「我的技能」，可以在其他机器人上一键打开，也能设成定时。密钥不会写进技能，手机号、邮箱等个人信息默认改成每次使用前再问；同一个技能可以更新、恢复上一版或导出 ZIP。 在微信、飞书里存技能： 微信、飞书、Telegram、Slack、Discord 私聊里也能发起，回复「保存」即可存下，回复「取消」放弃；群聊里不能发起。 技能库： 「连接应用」改名为「应用与技能」，新增「技能」标签，收录 31 个开源仓库的 155 个技能，可按用途分类、按作者筛选。复制安装指令发给任意机器人，或直接发技能的 GitHub 链接，确认卡片后就装上。 在对话里用技能和应用： 输入框「+」›「技能与应用」列出这个机器人能用的技能和应用，点一项会填入「用{名称}帮我……」。回复上方显示正在使用和已使用的技能、应用，技能名可以点开看详情。 改进与修复 技能列表更好找： 开着的排在前面；超过 10 个时可以搜索，并按「我的技能、GitHub、本地 ZIP、已关闭」筛选。每个技能标明是否已生效和来源，并附一句「试试这样说」。 体验额度期间的模板： 按当前额度选择合适的模型档位，并说明模板原本推荐的档位。 电脑操作授权： 后台任务接着做时被权限拦下，也会显示授权卡片；不再留下没有对应卡片的等待状态。 上手清单与提示： 点清单步骤被挡住时说明原因；操作提示移到主区顶部居中显示。 定时规则： 展开的规则按提示词、频率、下次运行和发送位置分区；选择机器人改为可搜索的列表；新建规则用卡片选择「发一句提醒」或「让它做件事」，「让它做件事」可以选用「我的技能」；改进空状态和英文的时区提示。 更新、账户和细节： 更新入口直接写明版本号；账户信息读取失败时可以重试；「退出登录」改为红色；应用内群聊余额不足时显示充值入口；模板卡片加上边框，入口去掉箭头。 New Save what you di",
+      "release_note": "AnyModelBot 0.1.38",
       "release_status": "activo",
       "release_source": "releases.atom",
       "release_checked_at": "2026-11-15",
@@ -2146,6 +3187,189 @@
       "changelog_url": null,
       "release_highlight": "",
       "release_impact": ""
+    },
+    {
+      "slug": "cludegods",
+      "name": "CludeGods",
+      "full_name": "AKamaly/CludeGods",
+      "maker": "AKamaly",
+      "repo": "https://github.com/AKamaly/CludeGods",
+      "website": "",
+      "license": "MIT",
+      "licenseType": "Open source",
+      "language": "TypeScript",
+      "stars": 53,
+      "forks": 6,
+      "open_issues": 0,
+      "pushed_at": "2026-11-02T15:10:51Z",
+      "created_at": "2026-11-01T13:13:49Z",
+      "last_release": "2026-11-02",
+      "releases_recent": [
+        {
+          "tag": "v0.5.0",
+          "date": "2026-11-02",
+          "pre": false,
+          "url": "https://github.com/AKamaly/CludeGods/releases/tag/v0.5.0"
+        },
+        {
+          "tag": "v0.4.0",
+          "date": "2026-11-02",
+          "pre": false,
+          "url": "https://github.com/AKamaly/CludeGods/releases/tag/v0.4.0"
+        },
+        {
+          "tag": "v0.3.0",
+          "date": "2026-11-01",
+          "pre": false,
+          "url": "https://github.com/AKamaly/CludeGods/releases/tag/v0.3.0"
+        },
+        {
+          "tag": "v0.2.0",
+          "date": "2026-11-01",
+          "pre": false,
+          "url": "https://github.com/AKamaly/CludeGods/releases/tag/v0.2.0"
+        },
+        {
+          "tag": "v0.1.0",
+          "date": "2026-11-01",
+          "pre": false,
+          "url": "https://github.com/AKamaly/CludeGods/releases/tag/v0.1.0"
+        }
+      ],
+      "releases_90": 5,
+      "release_status": "reciente",
+      "release_source": "releases.atom",
+      "release_checked_at": "2026-11-15",
+      "topics": [
+        "ai-agents",
+        "always-on-agents",
+        "claude",
+        "claude-code",
+        "macos",
+        "voice",
+        "voice-assistant",
+        "voicemode"
+      ],
+      "kind": "agent",
+      "category": "personal",
+      "summary": "Toolkit para macOS que convierte Claude Code en un equipo de workers always-on con voz en tiempo real, computer use, memoria, horarios, espacios, Slack y aprobaciones por clic.",
+      "tagline": "Claude Code con voz y workers always-on.",
+      "strengths": [
+        "Voz en tiempo real y workers always-on sobre Claude Code",
+        "Computer use con navegador, terminal y archivos",
+        "Aprobaciones por clic y permisos por worker",
+        "Spaces, Slack y memoria compartida"
+      ],
+      "weaknesses": [
+        "Solo macOS Apple Silicon; es un toolkit, no un producto hosted",
+        "No coordina workers entre sí ni reparte trabajo automáticamente",
+        "Proyecto pequeño (53 estrellas) y dependiente de Claude Code/VoiceMode"
+      ],
+      "comparison": "Excelente para voz y workers always-on en Mac, pero no es un equipo coordinado ni un producto multiplataforma como Grok Bot.",
+      "confidence": 58,
+      "judged_day": "2026-11-15",
+      "pillars": {
+        "identidad": true,
+        "computadora": true,
+        "memoria": true,
+        "rutinas": true,
+        "apps": true,
+        "coordinacion": false,
+        "aprobaciones": true,
+        "desatendido": true
+      },
+      "evidence": {
+        "identidad": [
+          {
+            "text": "Each worker is its own Claude Code chat with a name, a role, a god, a voice and its own hours.",
+            "source": "https://github.com/AKamaly/CludeGods#readme"
+          }
+        ],
+        "computadora": [
+          {
+            "text": "Computer use: browser, terminal & files",
+            "source": "https://github.com/AKamaly/CludeGods#readme"
+          }
+        ],
+        "memoria": [
+          {
+            "text": "A built-in Memory space holds the rules every worker reads before it starts; it changes only through a draft you approve, whatever the setting.",
+            "source": "https://github.com/AKamaly/CludeGods#readme"
+          }
+        ],
+        "rutinas": [
+          {
+            "text": "Give a worker a schedule, and the pane wakes it at that time: to run its charter if it has one, or to check in on its role if not.",
+            "source": "https://github.com/AKamaly/CludeGods#readme"
+          }
+        ],
+        "apps": [
+          {
+            "text": "mention a worker in your own Slack workspace and it answers in the thread",
+            "source": "https://github.com/AKamaly/CludeGods#readme"
+          }
+        ],
+        "aprobaciones": [
+          {
+            "text": "Permissions by click, never by voice",
+            "source": "https://github.com/AKamaly/CludeGods#readme"
+          }
+        ],
+        "desatendido": [
+          {
+            "text": "Give a worker a schedule, and the pane wakes it at that time: to run its charter if it has one, or to check in on its role if not.",
+            "source": "https://github.com/AKamaly/CludeGods#readme"
+          }
+        ]
+      },
+      "dimensions": {
+        "capacidad": 76,
+        "autonomia": 74,
+        "computadora": 78,
+        "memoria": 84,
+        "rutinas": 86,
+        "equipo": 55,
+        "confianza": 84,
+        "producto": 54
+      },
+      "total": 73.2,
+      "tier": "A",
+      "agency": 88,
+      "sources": [
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/AKamaly/CludeGods",
+          "accessedAt": "2026-11-15"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/AKamaly/CludeGods#readme",
+          "accessedAt": "2026-11-15"
+        },
+        {
+          "label": "Releases",
+          "url": "https://github.com/AKamaly/CludeGods/releases",
+          "accessedAt": "2026-11-15"
+        }
+      ],
+      "setup": "moderate",
+      "platforms": [
+        "macOS"
+      ],
+      "channels": [
+        "Voz",
+        "Chat",
+        "Slack"
+      ],
+      "release_highlight": "0.5.0: instalación en una línea, voz guiada y plantillas de workers.",
+      "release_impact": "Nuevo en el ranking: 73.20 A. 7/8 pilares; sin coordinación entre workers y solo macOS.",
+      "last_release_tag": "v0.5.0",
+      "last_release_url": "https://github.com/AKamaly/CludeGods/releases/tag/v0.5.0",
+      "last_release_days": 13,
+      "release_note": "Added One-line install: curl -fsSL https://raw.githubusercontent.com/AKamaly/CludeGods/main/bootstrap.sh | bash clones CludeGods to ~/.cludegods/src , installs it and the three panes, and checks the result. Add | bash -s -- --voice for voice too. Safe to run again. cludegods ( ~/.claude/skills/gods/bin/cludegods ): setup voice (guided, picks up where it stopped, ends with a spoken self-test and a mic check), doctor (health checks with one-click repairs, also in the Workers pane), update , uninstall and version . uninstall.sh : removes CludeGods, backing everything up first; --keep-data keeps your workers, spaces and settings. Prebuilt CallPill: each published release carries CallPill-macos.zip . The installer uses it, re-signed on your Mac, when it cannot build CallPill itself (no Xcode command line tools). Voice from the first /gods : with no local voice yet, the call says what voice ne",
+      "release_http": 200,
+      "changelog_url": null,
+      "verificationNote": "README: toolkit macOS sobre Claude Code y VoiceMode con workers always-on, voz, computer use, memoria, horarios, Spaces, Slack y aprobaciones por clic. No hay evidencia de coordinación entre workers."
     },
     {
       "slug": "sentelabsai-openexecutive",

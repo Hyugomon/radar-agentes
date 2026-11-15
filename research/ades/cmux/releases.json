@@ -12,6 +12,14 @@
       "note": "Automated nightly build for 69b946e from nightly-next . Published commit: 69b946eb435d02aed3f5ee6181056833fa0c7ec0 . Built at the commit whose cmux-tui tree is published (app and daemon from one commit); branch tip 69b946eb435d02aed3f5ee6181056833fa0c7ec0 , 0 commits and 0 h behind it. cmux NIGHTLY ships for Apple silicon only (bundle ID com.cmuxterm.app.nightly ): Apple silicon: cmux-nightly-next-macos-arm64.dmg , feed appcast-arm64.xml PRs in this build #43466 ci: bound every upload-artifact step to 7 days, 60 of them were 14 to 90 #43409 carrier: the app's bundled cmux finds the tunnel hub its app's link serves #43432 Toggle Terminal and Chat: the chat face of a shown terminal never freezes or reloads #43435 cmux-tui-core: the terminal port watch worker lets a dropped mux go, so restart tests reopen their session #43449 Updated popover: release-notes look, real area symbols, plain-lan"
     },
     {
+      "tag": "nightly",
+      "title": "cmux nightly 4368177648801",
+      "date": "2026-11-15",
+      "url": "https://github.com/manaflow-ai/cmux/releases/tag/nightly",
+      "pre": true,
+      "note": "What changed No product PRs merged since the previous published build. Infrastructure: 1 Compare published builds Downloads Apple silicon: cmux-nightly-macos-arm64.dmg , feed appcast-arm64.xml Intel: cmux-nightly-macos-x86_64.dmg , feed appcast-x86_64.xml Universal: cmux-nightly-macos.dmg , feed appcast.xml"
+    },
+    {
       "tag": "cmux-app-ffi-556776e92abcaa32112348edd37fa95afc009487",
       "title": "cmux-app-ffi-556776e92abcaa32112348edd37fa95afc009487",
       "date": "2026-11-15",
@@ -60,12 +68,12 @@
       "note": "The cmux app FFI (remote desktop core + sidebar layout reducer) as CCmuxAppFFI.xcframework (one static library, universal macOS arm64/x86_64). Source 2d7bfe4 . SwiftPM binaryTarget checksum (SHA-256 of the zip): dcf95305f39d4d355528331479fb6bb85fcf0bf83ee13ede9630443abe820d90"
     },
     {
-      "tag": "nightly",
-      "title": "cmux nightly 4362405288201",
+      "tag": "cmux-app-ffi-2c58afdd5f8ac95146fed0cc3c472aee5af31562",
+      "title": "cmux-app-ffi-2c58afdd5f8ac95146fed0cc3c472aee5af31562",
       "date": "2026-11-15",
-      "url": "https://github.com/manaflow-ai/cmux/releases/tag/nightly",
-      "pre": true,
-      "note": "What changed No product PRs merged since the previous published build. Infrastructure: 3 Compare published builds Downloads Apple silicon: cmux-nightly-macos-arm64.dmg , feed appcast-arm64.xml Intel: cmux-nightly-macos-x86_64.dmg , feed appcast-x86_64.xml Universal: cmux-nightly-macos.dmg , feed appcast.xml"
+      "url": "https://github.com/manaflow-ai/cmux/releases/tag/cmux-app-ffi-2c58afdd5f8ac95146fed0cc3c472aee5af31562",
+      "pre": false,
+      "note": "The cmux app FFI (remote desktop core + sidebar layout reducer) as CCmuxAppFFI.xcframework (one static library, universal macOS arm64/x86_64). Source 2c58afd . SwiftPM binaryTarget checksum (SHA-256 of the zip): a0e82b130ac60cc80136af3e58b22ed6f4a4917054b72fcfac644e60a15feb5e"
     },
     {
       "tag": "cmux-app-ffi-ff3fc9c79521faa8542f0bb0c649ed33fad6ee9f",
@@ -74,14 +82,6 @@
       "url": "https://github.com/manaflow-ai/cmux/releases/tag/cmux-app-ffi-ff3fc9c79521faa8542f0bb0c649ed33fad6ee9f",
       "pre": false,
       "note": "The cmux app FFI (remote desktop core + sidebar layout reducer) as CCmuxAppFFI.xcframework (one static library, universal macOS arm64/x86_64). Source ff3fc9c . SwiftPM binaryTarget checksum (SHA-256 of the zip): 75b10b7eba9c4291691ce022c55558c21ee238cbf82b413cb2695cf4ae0c76b0"
-    },
-    {
-      "tag": "cmux-app-ffi-efa5fe40ce2aa123314062ef054ccdabcab40982",
-      "title": "cmux-app-ffi-efa5fe40ce2aa123314062ef054ccdabcab40982",
-      "date": "2026-11-14",
-      "url": "https://github.com/manaflow-ai/cmux/releases/tag/cmux-app-ffi-efa5fe40ce2aa123314062ef054ccdabcab40982",
-      "pre": false,
-      "note": "The cmux app FFI (remote desktop core + sidebar layout reducer) as CCmuxAppFFI.xcframework (one static library, universal macOS arm64/x86_64). Source efa5fe4 . SwiftPM binaryTarget checksum (SHA-256 of the zip): 308a73996042871b4b8f3c318644c83588088728e6a166f75b56883ed43c6eed"
     }
   ]
 }

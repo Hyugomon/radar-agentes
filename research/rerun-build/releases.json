@@ -1,0 +1,87 @@
+{
+  "repo": "rerun-build/rerun",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "v0.15.0",
+      "title": "v0.15.0",
+      "date": "2026-11-13",
+      "url": "https://github.com/rerun-build/rerun/releases/tag/v0.15.0",
+      "pre": false,
+      "note": "Minor release: read Upgrade before updating. Highlights A coworker answers questions about Rerun from the documentation ( #208 ) The Foreman's General and its threads ( #204 ) Every conversation behind the clock of the column ( #203 ) General with its threads in the column ( #202 ) A General conversation and threads on the hub ( #201 ) Switch workspace from the header of the workspace menu ( #197 ) A coworker types a secret into a page without seeing it ( #196 ) Temporarily hide \"Hire an expert\" from the help menu ( #195 ) Simple view, a list of coworkers beside the chat ( #190 ) Move every coworker's own catalog apps into the Vault ( #189 ) Archives and duplicates of a coworker keep what it holds from the Vault ( #187 ) A coworker's app suggestion offers the Vault's accounts ( #186 ) Paid app accounts show in the Vault ( #185 ) Composio and managed accounts go to the Vault too ( #184 ) "
+    },
+    {
+      "tag": "v0.14.6",
+      "title": "v0.14.6",
+      "date": "2026-11-13",
+      "url": "https://github.com/rerun-build/rerun/releases/tag/v0.14.6",
+      "pre": false,
+      "note": "Patch release: pull the new images, nothing else to do. Changes Internal changes, nothing visible. Upgrade Nothing to do: pull the new images."
+    },
+    {
+      "tag": "v0.14.5",
+      "title": "v0.14.5",
+      "date": "2026-11-13",
+      "url": "https://github.com/rerun-build/rerun/releases/tag/v0.14.5",
+      "pre": false,
+      "note": "Patch release: pull the new images, nothing else to do. Highlights No Claude plan and no paid apps on a lifetime workspace ( #169 ) Draw the macOS installer window with a background and fixed icon slots ( #165 ) Fixes Keep the inbox pill and the bottom bar of the board apart (RER-107) ( #168 ) A box short on disk frees what the updater owns before giving up (RER-91) ( #166 ) Upgrade Nothing to do: pull the new images."
+    },
+    {
+      "tag": "v0.14.4",
+      "title": "v0.14.4",
+      "date": "2026-11-13",
+      "url": "https://github.com/rerun-build/rerun/releases/tag/v0.14.4",
+      "pre": false,
+      "note": "Patch release: pull the new images, nothing else to do. Highlights Point lifetime workspaces to an API key when the AI runs out ( #164 ) Fixes A tapped push opens its conversation in its own workspace ( #163 ) Upgrade Nothing to do: pull the new images."
+    },
+    {
+      "tag": "v0.14.3",
+      "title": "v0.14.3",
+      "date": "2026-11-13",
+      "url": "https://github.com/rerun-build/rerun/releases/tag/v0.14.3",
+      "pre": false,
+      "note": "Patch release: pull the new images, nothing else to do. Fixes Keep the rerun tools direct under Codex's code_mode_only catalog ( #162 ) Keep the composer above the iOS keyboard after it swaps its view (RER-68) ( #161 ) No SMS code to Saudi Arabia, where Bird never delivers one ( #160 ) A dropped network read no longer surfaces as \"Failed to fetch\" ( #158 ) Stop painting what a grown card screen covers ( #155 ) Keep scopes out of the OAuth context cookie ( #151 ) Upgrade Nothing to do: pull the new images."
+    },
+    {
+      "tag": "v0.14.2",
+      "title": "v0.14.2",
+      "date": "2026-11-13",
+      "url": "https://github.com/rerun-build/rerun/releases/tag/v0.14.2",
+      "pre": false,
+      "note": "Patch release: pull the new images, nothing else to do. Highlights Workspace language for unattended runs, structured routine notifications ( #60 ) IPhone Duo store captures on an EAS Simulator session ( #146 ) Fixes A resumed stream no longer closes the question card it caught up on ( #147 ) Give a coworker the direct URL of a published file ( #141 ) Upgrade Nothing to do: pull the new images."
+    },
+    {
+      "tag": "v0.14.1",
+      "title": "v0.14.1",
+      "date": "2026-11-12",
+      "url": "https://github.com/rerun-build/rerun/releases/tag/v0.14.1",
+      "pre": false,
+      "note": "Patch release: pull the new images, nothing else to do. Highlights One installer per architecture instead of a universal build ( #144 ) Store screenshots on a 13\" iPad simulator ( #143 ) Fixes Flag a closed linked device as needs_reconnect ( #142 ) Catch up on what Realtime missed, so a chat started on the web shows up ( #138 ) Refuse a switch to a channel Bird leaves out of the plan ( #135 ) Upgrade Nothing to do: pull the new images."
+    },
+    {
+      "tag": "v0.14.0",
+      "title": "v0.14.0",
+      "date": "2026-11-12",
+      "url": "https://github.com/rerun-build/rerun/releases/tag/v0.14.0",
+      "pre": false,
+      "note": "Minor release: read Upgrade before updating. Highlights /download texts for Windows (beta) and Linux ( #133 ) Attach a file and dictate an answer to a coworker's question ( #104 ) Attach a file and dictate an answer to a coworker's question ( #103 ) Add Keirolabs as a web search provider ( #118 ) Get the app, its docs, and more windows ( #131 ) Windows and Linux builds in CI ( #130 ) Self-hosted servers from the sign-in page ( #129 ) Quick ask, the Chief of Staff from any app ( #128 ) Open a page of Rerun in the desktop app from the browser ( #127 ) Notifications, badge, tray and settings of the desktop app ( #126 ) Links, service sign-ins, payments and downloads ( #124 ) Sign in through the system browser ( #123 ) The window's title bar, drawn by the web ( #122 ) Signed macOS builds that update themselves ( #121 ) An Electron shell around the web app ( #120 ) Fixes A delegate calls hub "
+    },
+    {
+      "tag": "v0.13.1",
+      "title": "v0.13.1",
+      "date": "2026-11-11",
+      "url": "https://github.com/rerun-build/rerun/releases/tag/v0.13.1",
+      "pre": false,
+      "note": "Patch release: pull the new images, nothing else to do. Highlights A paperclip and a microphone in the footer of a question ( #102 ) Let a coworker read its AI providers, models and quotas ( #108 ) Enlarge the Home rows and section headers like Grok's sidebar ( #110 ) Let a coworker read its AI providers, models and quotas with ai_status Put the coworker's face inside the chat header pill ( #105 ) List the free Go models, switched off ( #101 ) Ask before a coworker spends Rerun credit on paid data ( #98 ) Fixes Accept an invitation sent to the verified email of a linked Google account ( #115 ) Android release builds pass lint, store captures on Android ( #99 ) Open a conversation with the composer already in place ( #106 ) Restore vertical spacing in the providers dialog detail ( #100 ) Upgrade Nothing to do: pull the new images."
+    },
+    {
+      "tag": "v0.13.0",
+      "title": "v0.13.0",
+      "date": "2026-11-11",
+      "url": "https://github.com/rerun-build/rerun/releases/tag/v0.13.0",
+      "pre": false,
+      "note": "Minor release: read Upgrade before updating. Highlights Call the Foreman \"Chief of Staff\" everywhere the user reads it ( #97 ) Play release prerequisites, Firebase file from EAS and Android store shots ( #95 ) Android parity, screen by screen ( #91 ) Kotlin twins of composer-paste and background-grace ( #84 ) Sign in on Android, Apple through the web, Google with the web client ( #82 ) Android twins of the iOS controls ( #94 ) Push notifications on Android ( #93 ) Android is a first-class client of the hub ( #83 ) Android base, the app starts on an emulator up to sign-in ( #81 ) Draw every icon with Nucleo through a shared Icon, drop expo-symbols ( #79 ) Hang a coworker's threads in General, as the web does ( #90 ) Pinnable Foreman row and coworker General as the first chat page ( #88 ) Add Brazilian Portuguese and German language packs ( #78 ) Fixes Fail store builds that have no hub to"
+    }
+  ]
+}

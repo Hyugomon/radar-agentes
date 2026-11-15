@@ -26,13 +26,20 @@
       <button v-if="selected" class="btn btn--sm btn--ghost" style="padding: 3px 7px" @click.stop="clear">✕</button>
     </div>
 
-    <div v-if="open" class="picker__list">
+    <div v-if="open" ref="listEl" class="picker__list" role="listbox">
+      <div class="picker__count">
+        <span>{{ filtered.length }} de {{ agents.length }} disponibles</span>
+        <span v-if="query.trim()">Buscando “{{ query.trim() }}”</span>
+      </div>
       <div v-if="!filtered.length" class="picker__empty">Sin resultados para “{{ query }}”.</div>
       <div
         v-for="(a, i) in filtered"
         :key="a.slug"
+        :ref="el => setItemRef(el, i)"
         class="picker__item"
-        :class="{ 'is-cursor': i === cursor }"
+        :class="{ 'is-cursor': i === cursor, 'is-selected': a.slug === modelValue }"
+        role="option"
+        :aria-selected="a.slug === modelValue"
         @mouseenter="cursor = i"
         @click.stop="choose(a)"
       >
@@ -47,6 +54,7 @@
           <span class="tier" :class="`tier--${a.tier}`" style="height: 20px; min-width: 24px; font-size: 11px">{{ a.tier }}</span>
           {{ a.total.toFixed(1) }}
         </span>
+        <span v-if="a.slug === modelValue" class="picker__check" aria-hidden="true">✓</span>
       </div>
     </div>
   </div>
@@ -57,32 +65,71 @@ const props = defineProps<{ agents: any[]; modelValue: string; label: string }>(
 const emit = defineEmits<{ 'update:modelValue': [string] }>()
 
 const root = ref<HTMLElement | null>(null)
+const listEl = ref<HTMLElement | null>(null)
 const input = ref<HTMLInputElement | null>(null)
 const open = ref(false)
 const query = ref('')
 const cursor = ref(0)
+const itemEls: (HTMLElement | null)[] = []
 
 const selected = computed(() => props.agents.find(a => a.slug === props.modelValue))
 
 const filtered = computed(() => {
   const needle = query.value.trim().toLowerCase()
-  const list = needle
-    ? props.agents.filter(a => `${a.full_name} ${a.summary} ${a.language}`.toLowerCase().includes(needle))
-    : props.agents
-  return list.slice(0, 8)
+  if (!needle) return props.agents
+  return props.agents.filter(a => [
+    a.full_name,
+    a.slug,
+    a.maker,
+    a.summary,
+    a.description,
+    a.tagline,
+    a.language,
+    a.catLabel,
+    ...(a.harnesses || [])
+  ].join(' ').toLowerCase().includes(needle))
 })
 
-watch(filtered, () => { cursor.value = 0 })
+watch(filtered, () => {
+  cursor.value = 0
+  nextTick(scrollCursorIntoView)
+})
+
+watch(() => props.agents, () => {
+  query.value = ''
+  cursor.value = 0
+  open.value = false
+})
+
+function setItemRef(el: any, index: number) {
+  itemEls[index] = el as HTMLElement | null
+}
+
+function scrollCursorIntoView() {
+  const list = listEl.value
+  const item = itemEls[cursor.value]
+  if (!list || !item) return
+  const top = item.offsetTop
+  const bottom = top + item.offsetHeight
+  if (top < list.scrollTop) list.scrollTop = top
+  else if (bottom > list.scrollTop + list.clientHeight) list.scrollTop = bottom - list.clientHeight
+}
 
 function focusInput() {
   open.value = true
-  nextTick(() => input.value?.focus())
+  const index = props.agents.findIndex(a => a.slug === props.modelValue)
+  cursor.value = index >= 0 ? index : 0
+  nextTick(() => {
+    input.value?.focus()
+    scrollCursorIntoView()
+  })
 }
 function move(delta: number) {
   if (!open.value) { open.value = true; return }
   const n = filtered.value.length
   if (!n) return
   cursor.value = (cursor.value + delta + n) % n
+  nextTick(scrollCursorIntoView)
 }
 function choose(a: any) {
   if (!a) return

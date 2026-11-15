@@ -26,7 +26,7 @@ README: memoria persistente, skills que se auto-mejoran, cron, subagentes, backe
 - **Estado**: activo · **Releases en 90 días**: 10
 - **Revisado**: 2026-11-15 · **Fuente**: releases.atom
 
-> Hermes Agent canary 20261115T064406Z
+> Hermes Agent v0.23.1+canary.20261115T064406Z (v0.23.1+canary.20261115T064406Z) Release Date: November 15, 2026 Downloads Hermes Desktop OS Architecture Download macOS Apple Silicon (M-series) DMG Windows x86 (64-bit) MSIX Windows ARM (arm64 / aarch64) MSIX Native install/chat smoke Download availability is independent of smoke status. Each result covers all native legs in that format group. Linux bundles are disabled; unsigned Store envelopes are not install-smoked. No-upload dry tags have no download handoff and are not smoke-qualified. Packages Smoke status macOS DMG + ZIP (arm64) Passed Windows MSIX (arm64) Passed Windows MSIX (x64) Passed ✨ Features Plugin "dosbox-mcp" ( 4c02a304 ) — @sh
 
 ## Evidencia de la investigación
 

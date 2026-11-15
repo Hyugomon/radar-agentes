@@ -1,21 +1,27 @@
 # Revisión de releases · 2026-11-15
 
 - Ventana de 90 días: desde 2026-08-17
-- Revisados: 50 proyectos (26 agentes + 24 ADEs)
+- Revisados: 56 proyectos (32 agentes + 24 ADEs)
 - Fuente: feeds `releases.atom` / `tags.atom` de GitHub y changelogs oficiales cuando no hay repo.
 
 | Tipo | Proyecto | Última versión | Fecha | Releases 90d | Estado | Nota |
 |---|---|---|---|---:|---|---|
-| Agente | hermes-agent | `v0.23.1+canary.20261115T064406Z` | 2026-11-15 | 10 | activo | Hermes Agent canary 20261115T064406Z |
+| Agente | rakazo | `v0.11.0` | 2026-11-12 | 10 | activo | Security Updated third-party dependencies with known vulnerabilities, including the HTTP client used by model, mail and scraping connections, the mail sender, and XML and Markdown  |
+| Agente | rerun | `v0.15.0` | 2026-11-13 | 10 | activo | Minor release: read Upgrade before updating. Highlights A coworker answers questions about Rerun from the documentation ( #208 ) The Foreman's General and its threads ( #204 ) Ever |
+| Agente | agentes-chat | `desktop-v0.8.8` | 2026-11-14 | 10 | activo | fix(desktop): the app no longer stops answering on macOS while it reads the window's cookies fix(mobile): the agents' conversation sheet keeps its title and foot clear of the list  |
+| Agente | hermes-agent | `v0.23.1+canary.20261115T064406Z` | 2026-11-15 | 10 | activo | Hermes Agent v0.23.1+canary.20261115T064406Z (v0.23.1+canary.20261115T064406Z) Release Date: November 15, 2026 Downloads Hermes Desktop OS Architecture Download macOS Apple Silicon |
+| Agente | cubebot | `v0.2.15` | 2026-11-14 | 10 | activo | What's Changed Consolidate safe dependency updates by @vicotrbb in #120 Release v0.2.15 by @vicotrbb in #121 Full Changelog : v0.2.14...v0.2.15 |
+| Agente | suparagent | `v0.8.6` | 2026-11-11 | 10 | activo | What's Changed test: fix four stale tests that fail on main by @inderpreet001 in #237 Share a server install with other people: members, roles and permissions by @inderpreet001 in  |
 | Agente | OpenMausBot | `v0.1.158` | 2026-11-14 | 10 | activo | What's new in 0.1.158 Bots can change app settings for you Ask a bot to change a setting and it does it, with an Undo in the chat. You can make MausBot a regular bot if you don't w |
 | Agente | mercury-agent | `optimus-v0.5.2` | 2026-11-14 | 10 | activo | Plugin-only update. Install or update with /plugins update optimus , or Plugins → Optimus → Update in Mercury Desktop. Works with Mercury 1.3.9 and newer; screenshot sizing per mod |
-| Agente | open-duet | `v0.8.6` | 2026-11-11 | 10 | activo | What's Changed test: fix four stale tests that fail on main by @inderpreet001 in #237 Share a server install with other people: members, roles and permissions by @inderpreet001 in  |
 | Agente | Orkas | `v2026.11.4` | 2026-11-04 | 8 | reciente | v2026.11.4 Download Download Orkas Highlights Use GPT-6.1 Terra in supported provider and model settings. Choose multiple weekdays or month dates for recurring automations and revi |
+| Agente | clawboo | `clawboo@0.7.0` | 2026-11-14 | 4 | activo | Minor Changes 3cf2d73 : New connector: Cua Driver (category Desktop , Linux only) uses the apps on an agent's own screen through Clawboo's tool server: it lists windows, clicks, ty |
 | Agente | nanoclaw | `v2026.11.0-beta.3` | 2026-11-14 | 10 | activo | NanoClaw 2026.11.0-beta.3 is the third beta of 2026.11.0: an early test build, so expect rough edges. The November release takes the place of 2026.10.1, which never becomes a stabl |
-| Agente | AnyModelBot | `v0.1.36` | 2026-11-14 | 10 | activo | 新增 把做成的事存成技能： 和机器人把一件事做对后，在输入框的「+」里点「存成技能…」、发 /skill 或直接说「存成技能」，机器人会整理出一张草稿卡，列出步骤、你纠正过的地方、用到的应用和技能，以及「试试这样说」。确认后存进「我的技能」，可以在其他机器人上一键打开，也能设成定时。密钥不会写进技能，手机号、邮箱等个人信息默认改成每次使用前再问；同一个技能可 |
+| Agente | AnyModelBot | `v0.1.38` | 2026-11-15 | 10 | activo | AnyModelBot 0.1.38 |
 | Agente | Codync | `v2.47.0` | 2026-11-14 | 10 | activo | Codync 2.47.0 Login profiles : an agent can have more than one login on a computer. Add another account (Claude Code, Codex, OpenCode, Pi, Google Antigravity and more) or an API ke |
 | Agente | rowboat | `v1.0.9` | 2026-11-11 | 10 | activo | What's new This release brings together the major changes since v1.0.3 , with a focus on building and working with your own team of AI coworkers. 🤖 Bring your AI teammates into Sp |
 | Agente | nanoMuse | `v1.0.9` | 2026-10-30 | 10 | reciente | nanoMuse 1.0.9 · Tiller 🐉 nanoMuse 1.0.9 “Tiller” : a fix release the same day as Crew. The desktop starts again when you are signed in, the relay's console loads on a large recor |
+| Agente | CludeGods | `v0.5.0` | 2026-11-02 | 5 | reciente | Added One-line install: curl -fsSL https://raw.githubusercontent.com/AKamaly/CludeGods/main/bootstrap.sh \| bash clones CludeGods to ~/.cludegods/src , installs it and the three pa |
 | Agente | OpenExecutive | `v0.7.3` | 2026-11-12 | 10 | activo | 0.7.3 (2026-11-12) Added integrations: add Approve and Skip buttons to Google Chat cards ( #806 ) ( 9f0c9dc ) ui: give email cards one set of buttons and answer questions on them ( |
 | Agente | starnet | `v0.15.0` | 2026-11-07 | 10 | reciente | Download Platform Installer Windows (x64) StarNet_0.15.0_x64-setup.exe macOS (Apple Silicon) StarNet_0.15.0_aarch64.dmg macOS (Intel) StarNet_0.15.0_x64.dmg These downloads are mir |
 | Agente | microclaw | `v0.31.0` | 2026-11-13 | 10 | activo | MicroClaw Code 0.31: private project memory, Claude Code plugins and idle compaction ( docs/roadmap/mccode-competitive-plan-2026-11-cn.md , N5–N7). Added Private project memory. Be |
@@ -42,7 +48,7 @@
 | ADE | Emdash | `v1.2.11` | 2026-11-06 | 10 | reciente | This release improves Git authentication, Windows compatibility, and SSH responsiveness. It also reduces background fetch overhead, fixes pane shortcuts after switching tasks, and  |
 | ADE | Paseo | `v0.16.0-beta.2` | 2026-11-11 | 10 | activo | 0.16.0-beta.2 - 2026-11-11 Background tasks: Paseo now shows the background tasks an agent is running, such as shells and monitors, above the composer, with a Stop button for each. |
 | ADE | Conductor | `0.94.2` | 2026-11-13 | null | activo | Fri, 13 Nov 2026 00:00:00 GMT Conductor 0.94.2: Conductor is back https://www.conductor.build/changelog/0.94.2-conductor-is-back https://www.conductor.build/changelog/0.94.2-conduc |
-| ADE | Jean | `v1.0.15` | 2026-11-12 | 10 | activo | Features Added QwenCloud provider presets with region and billing mode selection and automatic model fetching ( #898 ) Added Claude Fable 5.2 to the model list Added CLIProxyAPI as |
+| ADE | Jean | `v1.0.16` | 2026-11-15 | 10 | activo | Features Added an auto-compact window option to Claude backend settings. Added auto-compact options for Codex, OpenCode, and PI. Fixes Fixed chat not scrolling to the bottom after  |
 | ADE | OpenChamber | `v2.7.2` | 2026-11-15 | 10 | activo | New Share pages: an agent can ask your teammates. When an answer has to come from someone else, the agent sends them a page , and the chat shows a link and PIN for each person. The |
 | ADE | Ghostex | `v11.7.1` | 2026-11-15 | 10 | activo | macOS: Apple Silicon DMG · Windows: x64 installer · ARM64 installer Linux x64: .deb · .rpm · tarball (mise/ubi) · AppImage · AUR (ghostex-bin) · Linux ARM64: .deb · .rpm · tarball  |
 | ADE | Traycer | `host-v1.5.4` | 2026-11-14 | 10 | activo | Traycer Host 1.5.4. Fixed Memory and stability - the host no longer runs out of memory or stalls while a large batch of files is published, and closed tasks are released from memor |

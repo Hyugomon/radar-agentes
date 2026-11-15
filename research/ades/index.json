@@ -401,10 +401,22 @@
           "url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.10-nightly.20261115.4723"
         },
         {
+          "tag": "mobile-android-preview-build/933ff59582b2590a306796226303c611bfae3003",
+          "date": "2026-11-15",
+          "pre": true,
+          "url": "https://github.com/pingdotgg/t3code/releases/tag/mobile-android-preview-build%2F933ff59582b2590a306796226303c611bfae3003"
+        },
+        {
           "tag": "mobile-android-preview-build/4d8f7b0a47340c0caa8ab2ff11ffeea71183938b",
           "date": "2026-11-15",
           "pre": true,
           "url": "https://github.com/pingdotgg/t3code/releases/tag/mobile-android-preview-build%2F4d8f7b0a47340c0caa8ab2ff11ffeea71183938b"
+        },
+        {
+          "tag": "mobile-android-preview-build/b46c39a8269c16363d18b5ae9b72e5d4da13afb0",
+          "date": "2026-11-15",
+          "pre": true,
+          "url": "https://github.com/pingdotgg/t3code/releases/tag/mobile-android-preview-build%2Fb46c39a8269c16363d18b5ae9b72e5d4da13afb0"
         },
         {
           "tag": "mobile-android-build/2.3.0/81e495fe123dcf91e6e607b56e62b8e788e624dd",
@@ -417,18 +429,6 @@
           "date": "2026-11-14",
           "pre": true,
           "url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.10-nightly.20261114.4709"
-        },
-        {
-          "tag": "v0.1.10-nightly.20261114.4695",
-          "date": "2026-11-14",
-          "pre": true,
-          "url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.10-nightly.20261114.4695"
-        },
-        {
-          "tag": "v0.1.10-nightly.20261114.4682",
-          "date": "2026-11-14",
-          "pre": true,
-          "url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.10-nightly.20261114.4682"
         }
       ],
       "release_note": "v0.1.10-nightly.20261115.4723 · 221 changes from 92 contributors Resume Cursor turns. Resume a stopped Cursor turn from its latest checkpoint without sending a new message. Cursor compaction. Manually compact Cursor conversations from the slash menu or context meter. Large pull request diffs. Load a pull request file’s diff on demand when it is too large to show automatically. Faster pull request actions. Pull request actions, title edits, and labels now update immediately across all supported hosts. Faster delegated tasks. Delegated tasks start and finish faster in long threads. Prompt recovery. Prompts awaiting provider acceptance are preserved if the server restarts. Scratch thread protection. Agents can no longer delete the built-in No project workspace and its threads. Plus 205 more bug fixes and performance improvements. Full changelog What's Changed perf(server): text-only browser",
@@ -2315,12 +2315,18 @@
         "Menos adopción"
       ],
       "licenseType": "Comercial",
-      "last_release": "2026-11-12",
-      "last_release_tag": "v1.0.15",
-      "last_release_url": "https://github.com/coollabsio/jean/releases/tag/v1.0.15",
-      "last_release_days": 3,
+      "last_release": "2026-11-15",
+      "last_release_tag": "v1.0.16",
+      "last_release_url": "https://github.com/coollabsio/jean/releases/tag/v1.0.16",
+      "last_release_days": 0,
       "releases_90": 10,
       "releases_recent": [
+        {
+          "tag": "v1.0.16",
+          "date": "2026-11-15",
+          "pre": false,
+          "url": "https://github.com/coollabsio/jean/releases/tag/v1.0.16"
+        },
         {
           "tag": "v1.0.15",
           "date": "2026-11-12",
@@ -2350,15 +2356,9 @@
           "date": "2026-10-14",
           "pre": false,
           "url": "https://github.com/coollabsio/jean/releases/tag/v1.0.11"
-        },
-        {
-          "tag": "v1.0.10",
-          "date": "2026-10-13",
-          "pre": false,
-          "url": "https://github.com/coollabsio/jean/releases/tag/v1.0.10"
         }
       ],
-      "release_note": "Features Added QwenCloud provider presets with region and billing mode selection and automatic model fetching ( #898 ) Added Claude Fable 5.2 to the model list Added CLIProxyAPI as a provider for every backend, with an option to pick it as the default provider Added per-account CLIProxyAPI usage in the usage cards and the quick menu, with guidance for Claude terms errors Added account login buttons for CLIProxyAPI on the collapsed row and in the backend CLI sections Read Claude models from CLIProxyAPI and showed API retries Grouped the CLIProxyAPI usage steps into sections and made the commands copyable Showed only the latest model per family in the model picker, with a toggle to show older models Showed short Claude names for provider model aliases and labeled the default Codex provider as OpenAI Let \"Apply to all prompts\" in Magic Prompts use a custom Claude provider Added favorites fo",
+      "release_note": "Features Added an auto-compact window option to Claude backend settings. Added auto-compact options for Codex, OpenCode, and PI. Fixes Fixed chat not scrolling to the bottom after you answered a question. Fixed PR conflict status not refreshing after sync and push. Fixed SSH host key reading on Windows when ssh-keyscan failed; Jean now falls back to ssh . Fixed long tool names hiding the row chevron in chat; names are now truncated. Fixed worktree sort options on mobile; they now open in a bottom sheet. Breaking Changes Removed the CLIProxyAPI provider integration.",
       "release_status": "activo",
       "release_source": "releases.atom",
       "release_checked_at": "2026-11-15",
@@ -3196,6 +3196,12 @@
           "url": "https://github.com/manaflow-ai/cmux/releases/tag/nightly-next"
         },
         {
+          "tag": "nightly",
+          "date": "2026-11-15",
+          "pre": true,
+          "url": "https://github.com/manaflow-ai/cmux/releases/tag/nightly"
+        },
+        {
           "tag": "cmux-app-ffi-556776e92abcaa32112348edd37fa95afc009487",
           "date": "2026-11-15",
           "pre": false,
@@ -3218,12 +3224,6 @@
           "date": "2026-11-15",
           "pre": false,
           "url": "https://github.com/manaflow-ai/cmux/releases/tag/cmux-app-ffi-8d0524328b3c091835083b02c757aa0775af53cd"
-        },
-        {
-          "tag": "cmux-app-ffi-6ed77417c9a68a8f4835abea6f2812b61ee5305f",
-          "date": "2026-11-15",
-          "pre": false,
-          "url": "https://github.com/manaflow-ai/cmux/releases/tag/cmux-app-ffi-6ed77417c9a68a8f4835abea6f2812b61ee5305f"
         }
       ],
       "release_note": "Automated nightly build for 69b946e from nightly-next . Published commit: 69b946eb435d02aed3f5ee6181056833fa0c7ec0 . Built at the commit whose cmux-tui tree is published (app and daemon from one commit); branch tip 69b946eb435d02aed3f5ee6181056833fa0c7ec0 , 0 commits and 0 h behind it. cmux NIGHTLY ships for Apple silicon only (bundle ID com.cmuxterm.app.nightly ): Apple silicon: cmux-nightly-next-macos-arm64.dmg , feed appcast-arm64.xml PRs in this build #43466 ci: bound every upload-artifact step to 7 days, 60 of them were 14 to 90 #43409 carrier: the app's bundled cmux finds the tunnel hub its app's link serves #43432 Toggle Terminal and Chat: the chat face of a shown terminal never freezes or reloads #43435 cmux-tui-core: the terminal port watch worker lets a dropped mux go, so restart tests reopen their session #43449 Updated popover: release-notes look, real area symbols, plain-lan",

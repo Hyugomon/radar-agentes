@@ -4,6 +4,14 @@
   "checked_at": "2026-11-15",
   "entries": [
     {
+      "tag": "v1.0.16",
+      "title": "v1.0.16",
+      "date": "2026-11-15",
+      "url": "https://github.com/coollabsio/jean/releases/tag/v1.0.16",
+      "pre": false,
+      "note": "Features Added an auto-compact window option to Claude backend settings. Added auto-compact options for Codex, OpenCode, and PI. Fixes Fixed chat not scrolling to the bottom after you answered a question. Fixed PR conflict status not refreshing after sync and push. Fixed SSH host key reading on Windows when ssh-keyscan failed; Jean now falls back to ssh . Fixed long tool names hiding the row chevron in chat; names are now truncated. Fixed worktree sort options on mobile; they now open in a bottom sheet. Breaking Changes Removed the CLIProxyAPI provider integration."
+    },
+    {
       "tag": "v1.0.15",
       "title": "v1.0.15",
       "date": "2026-11-12",
@@ -74,14 +82,6 @@
       "url": "https://github.com/coollabsio/jean/releases/tag/v1.0.6",
       "pre": false,
       "note": "Fixes Kept pinned sessions visible in recent worktrees and newly finished sessions visible in unread notifications. Restored the last active session when a session window opened. Detected stale Web Access connections after a browser woke and reloaded to restore the session. Improvements Used an issue icon for the Issue investigation action. Full Changelog : v1.0.5...v1.0.6"
-    },
-    {
-      "tag": "v1.0.5",
-      "title": "v1.0.5",
-      "date": "2026-09-23",
-      "url": "https://github.com/coollabsio/jean/releases/tag/v1.0.5",
-      "pre": false,
-      "note": "Features Added actions in the # picker to attach an issue or pull request, or start an investigation in a new session. Added a Comment &amp; Close Issue action that asked the assistant to post the latest commit SHA and close linked GitHub issues. Added counts to collapsed folders, projects, and worktrees, and made the Folders section collapsible. Added folder creation to the project sidebar menu. Improvements Added separate Load more controls for issues and pull requests, plus a Refresh action for the current project's context results. Kept folders visible during sidebar search. Fixes Fixed WSL terminal launches so CLI arguments and Windows context paths were passed correctly. ( #758 ) Kept linked issue and pull request context in the selected session. Worktree context was used only when the session had no link. Moved queued prompt handling to the backend so saved prompts continued when "
     }
   ]
 }

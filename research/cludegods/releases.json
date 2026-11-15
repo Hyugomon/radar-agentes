@@ -1,0 +1,47 @@
+{
+  "repo": "AKamaly/CludeGods",
+  "source": "releases.atom",
+  "checked_at": "2026-11-15",
+  "entries": [
+    {
+      "tag": "v0.5.0",
+      "title": "CludeGods 0.5.0: Two-minute start",
+      "date": "2026-11-02",
+      "url": "https://github.com/AKamaly/CludeGods/releases/tag/v0.5.0",
+      "pre": false,
+      "note": "Added One-line install: curl -fsSL https://raw.githubusercontent.com/AKamaly/CludeGods/main/bootstrap.sh | bash clones CludeGods to ~/.cludegods/src , installs it and the three panes, and checks the result. Add | bash -s -- --voice for voice too. Safe to run again. cludegods ( ~/.claude/skills/gods/bin/cludegods ): setup voice (guided, picks up where it stopped, ends with a spoken self-test and a mic check), doctor (health checks with one-click repairs, also in the Workers pane), update , uninstall and version . uninstall.sh : removes CludeGods, backing everything up first; --keep-data keeps your workers, spaces and settings. Prebuilt CallPill: each published release carries CallPill-macos.zip . The installer uses it, re-signed on your Mac, when it cannot build CallPill itself (no Xcode command line tools). Voice from the first /gods : with no local voice yet, the call says what voice ne"
+    },
+    {
+      "tag": "v0.4.0",
+      "title": "CludeGods 0.4.0",
+      "date": "2026-11-02",
+      "url": "https://github.com/AKamaly/CludeGods/releases/tag/v0.4.0",
+      "pre": false,
+      "note": "Added Tutorial video in the README : the Overview now opens with a 54-second walkthrough (a call, narrated steps, click to approve, a worker task, a worker on the call) in place of the static app screenshot. One-paste install : the README's Get started now opens with a prompt you paste into Claude Code; Claude installs VoiceMode, CludeGods and the panes, checks them, and tells you how to start your first call. A settings file : ~/.voicemode/call/config.json , with an approvals block ( outward , permission_prompts , worker_publish ), user_label , and workers.default_tools . install.sh creates it from config/config.example.json , which explains every key, and never overwrites it. Nothing said is lost when the listener restarts : the Monitor that hears you expires every 30 minutes; a re-armed listener now delivers what you said in between, and one armed right after the call starts hears you"
+    },
+    {
+      "tag": "v0.3.0",
+      "title": "CludeGods 0.3.0",
+      "date": "2026-11-01",
+      "url": "https://github.com/AKamaly/CludeGods/releases/tag/v0.3.0",
+      "pre": false,
+      "note": "Added Wake every few hours : a worker's hours can be every 1, 2, 3, 4, 6 or 12 hours, within optional active hours (for example 9:00 to 18:00) on chosen days, besides once a day. Each slot wakes once however many panes run; after a gap only the latest missed slot fires. Expanded Workers pane : when the pane is wide, workers are listed on the left and the selected worker opens on the right, with Overview, Outbox, Activity and Settings tabs. Narrow, the selected card gets the same tabs. Each worker's own colour : the selected worker's god colour drives its border, badges, chips, tabs and settings, readable in light and dark. A release process : this changelog, CI on every pull request and push to main (the self-tests, the unit tests, the CallPill build and a snapshot of every pill state), a pull request template, and CONTRIBUTING.md . Fixed Worker settings: choosing a god, tools preset, vo"
+    },
+    {
+      "tag": "v0.2.0",
+      "title": "CludeGods 0.2.0",
+      "date": "2026-11-01",
+      "url": "https://github.com/AKamaly/CludeGods/releases/tag/v0.2.0",
+      "pre": false,
+      "note": "Added The gods : six characters (colleague, research, scribe, scout, sales, herald) with idle, talk, listen, work and happy states. art/gods.js is the source; the panes draw them as SVG, CallPill animates them from sprite strips ( scripts/render-gods.mjs ). Workers pane redesign : god cards with a drafts badge, status, an Ask field, hours, Run now, Outbox and Open; Make them yours settings (name, god, voice, hours, tools, pause, spaces); outbox Approve and Decline with a decisions log; an Activity view of each worker's last steps. Spaces and Pages : Markdown spaces under ~/.voicemode/call/spaces/ , the pages CLI, the Spaces pane (search, nested pages, Ask a worker, Open in editor), a Memory space every worker reads, and drafts that land only after your approval. Per-worker voices : call say --voice / --as ; outbox heads-ups in each worker's voice. Calls with a worker : \"put me on with Sc"
+    },
+    {
+      "tag": "v0.1.0",
+      "title": "CludeGods 0.1.0",
+      "date": "2026-11-01",
+      "url": "https://github.com/AKamaly/CludeGods/releases/tag/v0.1.0",
+      "pre": false,
+      "note": "First public release of CludeGods: voice and always-on workers for Claude Code, on macOS (Apple Silicon). What is in 0.1.0 colleague skill : a live voice call with your Claude Code session. Always-on mic, spoken answers that do not block work, barge-in at any time. Echo gate for laptop speakers ( listen.py --selftest , --replay ). CallPill : a native AppKit and Metal status card with the voice orb, Mute and Stop, and click-only permission approvals through the permit hook. narrate hook : says each tool step out loud during a call, at most once every 6 seconds. Workers pane mod : standing worker chats as cards with live status, a task box per worker, and a footer launcher. Proactive workers : optional charter and schedule per worker; the pane wakes the worker's own chat, drafts land in an outbox, and nothing is sent without a typed yes in that chat. VoiceMode Bluetooth patch for crackle-f"
+    }
+  ]
+}

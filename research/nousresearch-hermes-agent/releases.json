@@ -5,11 +5,11 @@
   "entries": [
     {
       "tag": "v0.23.1+canary.20261115T064406Z",
-      "title": "v0.23.1+canary.20261115T064406Z",
+      "title": "Hermes Agent canary v0.23.1+canary.20261115T064406Z",
       "date": "2026-11-15",
       "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.1%2Bcanary.20261115T064406Z",
       "pre": true,
-      "note": "Hermes Agent canary 20261115T064406Z"
+      "note": "Hermes Agent v0.23.1+canary.20261115T064406Z (v0.23.1+canary.20261115T064406Z) Release Date: November 15, 2026 Downloads Hermes Desktop OS Architecture Download macOS Apple Silicon (M-series) DMG Windows x86 (64-bit) MSIX Windows ARM (arm64 / aarch64) MSIX Native install/chat smoke Download availability is independent of smoke status. Each result covers all native legs in that format group. Linux bundles are disabled; unsigned Store envelopes are not install-smoked. No-upload dry tags have no download handoff and are not smoke-qualified. Packages Smoke status macOS DMG + ZIP (arm64) Passed Windows MSIX (arm64) Passed Windows MSIX (x64) Passed ✨ Features Plugin \"dosbox-mcp\" ( 4c02a304 ) — @shakeyourbunny Hermes-eye-memory to the plugin catalog ( e71d2da7 ) — @isthatananya Plugin-catalog): add permission-tiers (f5f6183) ( c2779be8 ) — @imperator-clawdius Plugin-catalog): add neuralwatt-pro"
     },
     {
       "tag": "v0.23.1+canary.20261114T064334Z",

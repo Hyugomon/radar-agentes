@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15 06:50",
-  "generated_iso": "2026-11-15T06:50:44.405Z",
+  "generated_at": "2026-11-15 08:08",
+  "generated_iso": "2026-11-15T08:08:25.515Z",
   "meta": {
     "reference": {
       "name": "Grok Bot",
@@ -222,19 +222,743 @@
     "included": "Solo agentes, bots, asistentes y equipos open source que una persona puede instalar o autoalojar."
   },
   "counts": {
-    "ready": 26,
-    "open": 26,
-    "personal": 7,
-    "teams": 13,
+    "ready": 32,
+    "open": 32,
+    "personal": 8,
+    "teams": 18,
     "general": 6,
     "hosted": 0,
     "reference": 0
   },
   "pending": 0,
-  "total_repos": 26,
-  "total_analyzed": 26,
+  "total_repos": 32,
+  "total_analyzed": 32,
   "groups": {
     "ready": [
+      {
+        "id": "rakazo",
+        "slug": "rakazo",
+        "full_name": "elie222/rakazo",
+        "maker": "elie222",
+        "tagline": "Tus AI teammates, en tus propios servidores.",
+        "summary": "Alternativa open source a Grok Bot con bots persistentes, memoria, rutinas, computadora y navegador, grupos y delegación, miles de integraciones y apps web, escritorio y móvil.",
+        "description": "Alternativa open source a Grok Bot con bots persistentes, memoria, rutinas, computadora y navegador, grupos y delegación, miles de integraciones y apps web, escritorio y móvil.",
+        "url": "https://rakazo.com",
+        "website": "https://rakazo.com",
+        "repo": "https://github.com/elie222/rakazo",
+        "docs": "https://github.com/elie222/rakazo",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/rakazo",
+        "category": "teams",
+        "catLabel": "Equipo",
+        "licenseType": "Open source",
+        "license": "Apache-2.0",
+        "pricing": "free",
+        "priceLabel": "Gratis",
+        "priceNote": "Código abierto + tus modelos",
+        "setup": "moderate",
+        "setupLabel": "Medio",
+        "maturity": "beta",
+        "maturityLabel": "Beta",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux",
+          "Web",
+          "iOS",
+          "Android"
+        ],
+        "models": "BYOK / multi-modelo",
+        "channels": [
+          "Chat",
+          "Email",
+          "Slack",
+          "Voz"
+        ],
+        "reference": false,
+        "kind": "agent",
+        "archetype": "teams",
+        "archetype_label": "Equipo",
+        "generation": "bots 2026",
+        "tier": "S",
+        "total": 85,
+        "agency": 100,
+        "confidence": 68,
+        "dimensions": {
+          "capacidad": 82,
+          "autonomia": 80,
+          "computadora": 87,
+          "memoria": 90,
+          "rutinas": 90,
+          "equipo": 88,
+          "confianza": 90,
+          "producto": 79
+        },
+        "pillars": {
+          "identidad": true,
+          "computadora": true,
+          "memoria": true,
+          "rutinas": true,
+          "apps": true,
+          "coordinacion": true,
+          "aprobaciones": true,
+          "desatendido": true
+        },
+        "pillars_detail": [
+          {
+            "key": "identidad",
+            "label": "Identidad",
+            "hint": "El bot tiene nombre y rol propio; no es solo un chat.",
+            "weight": 10,
+            "on": true
+          },
+          {
+            "key": "computadora",
+            "label": "Computadora propia",
+            "hint": "Navegador, terminal, archivos y sesiones que sobreviven a la tarea.",
+            "weight": 18,
+            "on": true
+          },
+          {
+            "key": "memoria",
+            "label": "Memoria",
+            "hint": "Recuerda y acumula contexto por bot.",
+            "weight": 10,
+            "on": true
+          },
+          {
+            "key": "rutinas",
+            "label": "Rutinas",
+            "hint": "Ejecuta trabajo programado o por evento sin prompt.",
+            "weight": 16,
+            "on": true
+          },
+          {
+            "key": "apps",
+            "label": "Apps reales",
+            "hint": "Opera sitios y programas reales, no solo APIs.",
+            "weight": 14,
+            "on": true
+          },
+          {
+            "key": "coordinacion",
+            "label": "Coordinación",
+            "hint": "Varios bots se reparten el trabajo y lo entregan juntos.",
+            "weight": 12,
+            "on": true
+          },
+          {
+            "key": "aprobaciones",
+            "label": "Aprobaciones",
+            "hint": "Pide permiso antes de publicar, pagar o borrar.",
+            "weight": 10,
+            "on": true
+          },
+          {
+            "key": "desatendido",
+            "label": "Desatendido",
+            "hint": "Sigue trabajando mientras no estás conectado.",
+            "weight": 10,
+            "on": true
+          }
+        ],
+        "agency_max": 100,
+        "has_pillars": true,
+        "next_tier": "SS",
+        "delta_next": 7,
+        "strengths": [
+          "Bots persistentes con computadora, navegador y escritorio",
+          "Grupos, delegación y subagentes",
+          "Rutinas, memoria, miles de apps y MCP",
+          "Web, escritorio, iPhone/iPad y Android"
+        ],
+        "weaknesses": [
+          "Self-hosting requiere Docker y varios secretos",
+          "Muchas integraciones dependen de Composio/Pipedream",
+          "Producto en evolución con 218 issues abiertos"
+        ],
+        "comparison": "Cubre casi todas las piezas de Grok Bot con más adopción y multiplataforma; le falta madurez operativa y evidencias públicas de escala.",
+        "sources": [
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/elie222/rakazo",
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "label": "Web oficial",
+            "url": "https://rakazo.com",
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/elie222/rakazo#readme",
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "label": "Releases",
+            "url": "https://github.com/elie222/rakazo/releases",
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/rakazo",
+            "accessedAt": "2026-11-15"
+          }
+        ],
+        "stars": 8467,
+        "forks": 1534,
+        "open_issues": 218,
+        "language": "TypeScript",
+        "created_at": "2026-08-13T06:28:56Z",
+        "created_day": "2026-08-13",
+        "pushed_at": "2026-11-15T07:57:19Z",
+        "last_release": "2026-11-12",
+        "last_release_tag": "v0.11.0",
+        "last_release_url": "https://github.com/elie222/rakazo/releases/tag/v0.11.0",
+        "last_release_days": 3,
+        "releases_90": 10,
+        "releases_recent": [
+          {
+            "tag": "v0.11.0",
+            "date": "2026-11-12",
+            "pre": false,
+            "url": "https://github.com/elie222/rakazo/releases/tag/v0.11.0"
+          },
+          {
+            "tag": "v0.10.0",
+            "date": "2026-11-11",
+            "pre": false,
+            "url": "https://github.com/elie222/rakazo/releases/tag/v0.10.0"
+          },
+          {
+            "tag": "v0.9.0",
+            "date": "2026-11-10",
+            "pre": false,
+            "url": "https://github.com/elie222/rakazo/releases/tag/v0.9.0"
+          },
+          {
+            "tag": "android",
+            "date": "2026-11-10",
+            "pre": false,
+            "url": "https://github.com/elie222/rakazo/releases/tag/android"
+          },
+          {
+            "tag": "v0.8.0",
+            "date": "2026-11-04",
+            "pre": false,
+            "url": "https://github.com/elie222/rakazo/releases/tag/v0.8.0"
+          },
+          {
+            "tag": "v0.7.0",
+            "date": "2026-11-04",
+            "pre": false,
+            "url": "https://github.com/elie222/rakazo/releases/tag/v0.7.0"
+          }
+        ],
+        "release_status": "activo",
+        "release_source": "releases.atom",
+        "release_note": "Security Updated third-party dependencies with known vulnerabilities, including the HTTP client used by model, mail and scraping connections, the mail sender, and XML and Markdown parsers. The development launcher's database cleanup accepts only database names it generated and quotes them, so forged database metadata can no longer inject SQL or point the cleanup at another folder. This affects source checkouts only. Added On Apple silicon Macs running macOS 26 or newer, the desktop app's This computer runs without Docker. The app downloads what it needs the first time you pick it, and each bot's computer runs as its own small VM with a firewall that lets it reach the internet but not your Mac or local network. If you already run This computer on Docker, the app asks once whether to move your bots and data; Docker is stopped, not removed. Intel Macs, older macOS, Linux and Windows keep us",
+        "release_highlight": "0.11.0: computadora local sin Docker en Mac, DMs de Teams y rutinas que vigilan una URL.",
+        "release_impact": "Nuevo en el ranking: 85.00 S. 8/8 pilares; la alternativa más completa a Grok Bot por producto.",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
+        "judged_day": "2026-11-15",
+        "readme": "",
+        "topics": [
+          "ai-agents",
+          "chatgpt",
+          "docker",
+          "electron",
+          "expo",
+          "grok",
+          "llm",
+          "self-hosted",
+          "typescript"
+        ],
+        "homepage": "https://rakazo.com",
+        "rank": 1
+      },
+      {
+        "id": "rerun-build",
+        "slug": "rerun-build",
+        "full_name": "rerun-build/rerun",
+        "maker": "rerun-build",
+        "tagline": "AI coworkers que trabajan mientras duermes.",
+        "summary": "App open source de AI coworkers: el Chief of Staff contrata y coordina agentes con memoria, skills, computadora propia, rutinas, integraciones y aprobaciones, en local o en Rerun Cloud.",
+        "description": "App open source de AI coworkers: el Chief of Staff contrata y coordina agentes con memoria, skills, computadora propia, rutinas, integraciones y aprobaciones, en local o en Rerun Cloud.",
+        "url": "https://rerun.build",
+        "website": "https://rerun.build",
+        "repo": "https://github.com/rerun-build/rerun",
+        "docs": "https://github.com/rerun-build/rerun",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/rerun-build",
+        "category": "teams",
+        "catLabel": "Equipo",
+        "licenseType": "Open source",
+        "license": "AGPL-3.0",
+        "pricing": "free",
+        "priceLabel": "Gratis",
+        "priceNote": "Código abierto + tus modelos",
+        "setup": "technical",
+        "setupLabel": "Técnico",
+        "maturity": "beta",
+        "maturityLabel": "Beta",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux",
+          "Web"
+        ],
+        "models": "BYOK / multi-modelo",
+        "channels": [
+          "Chat",
+          "Email",
+          "Slack"
+        ],
+        "reference": false,
+        "kind": "agent",
+        "archetype": "teams",
+        "archetype_label": "Equipo",
+        "generation": "bots 2026",
+        "tier": "S",
+        "total": 84.9,
+        "agency": 100,
+        "confidence": 60,
+        "dimensions": {
+          "capacidad": 82,
+          "autonomia": 82,
+          "computadora": 88,
+          "memoria": 90,
+          "rutinas": 90,
+          "equipo": 90,
+          "confianza": 90,
+          "producto": 74
+        },
+        "pillars": {
+          "identidad": true,
+          "computadora": true,
+          "memoria": true,
+          "rutinas": true,
+          "apps": true,
+          "coordinacion": true,
+          "aprobaciones": true,
+          "desatendido": true
+        },
+        "pillars_detail": [
+          {
+            "key": "identidad",
+            "label": "Identidad",
+            "hint": "El bot tiene nombre y rol propio; no es solo un chat.",
+            "weight": 10,
+            "on": true
+          },
+          {
+            "key": "computadora",
+            "label": "Computadora propia",
+            "hint": "Navegador, terminal, archivos y sesiones que sobreviven a la tarea.",
+            "weight": 18,
+            "on": true
+          },
+          {
+            "key": "memoria",
+            "label": "Memoria",
+            "hint": "Recuerda y acumula contexto por bot.",
+            "weight": 10,
+            "on": true
+          },
+          {
+            "key": "rutinas",
+            "label": "Rutinas",
+            "hint": "Ejecuta trabajo programado o por evento sin prompt.",
+            "weight": 16,
+            "on": true
+          },
+          {
+            "key": "apps",
+            "label": "Apps reales",
+            "hint": "Opera sitios y programas reales, no solo APIs.",
+            "weight": 14,
+            "on": true
+          },
+          {
+            "key": "coordinacion",
+            "label": "Coordinación",
+            "hint": "Varios bots se reparten el trabajo y lo entregan juntos.",
+            "weight": 12,
+            "on": true
+          },
+          {
+            "key": "aprobaciones",
+            "label": "Aprobaciones",
+            "hint": "Pide permiso antes de publicar, pagar o borrar.",
+            "weight": 10,
+            "on": true
+          },
+          {
+            "key": "desatendido",
+            "label": "Desatendido",
+            "hint": "Sigue trabajando mientras no estás conectado.",
+            "weight": 10,
+            "on": true
+          }
+        ],
+        "agency_max": 100,
+        "has_pillars": true,
+        "next_tier": "SS",
+        "delta_next": 7.1,
+        "strengths": [
+          "Chief of Staff que contrata y coordina coworkers",
+          "Computadora propia con navegador y takeover",
+          "Memoria, skills, rutinas e integraciones 200+",
+          "Aprobaciones antes de enviar, pagar o borrar"
+        ],
+        "weaknesses": [
+          "Self-hosting requiere Docker, Node y Supabase",
+          "Producto joven (octubre 2026) con poca validación pública",
+          "El modelo y el coste corren por cuenta del usuario"
+        ],
+        "comparison": "Se acerca al listón en equipo, computadora y aprobaciones; todavía debe demostrar estabilidad y casos de uso a escala.",
+        "sources": [
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/rerun-build/rerun",
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "label": "Web oficial",
+            "url": "https://rerun.build",
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/rerun-build/rerun#readme",
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "label": "Releases",
+            "url": "https://github.com/rerun-build/rerun/releases",
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/rerun-build",
+            "accessedAt": "2026-11-15"
+          }
+        ],
+        "stars": 1066,
+        "forks": 128,
+        "open_issues": 36,
+        "language": "TypeScript",
+        "created_at": "2026-10-29T16:09:54Z",
+        "created_day": "2026-10-29",
+        "pushed_at": "2026-11-14T11:20:42Z",
+        "last_release": "2026-11-13",
+        "last_release_tag": "v0.15.0",
+        "last_release_url": "https://github.com/rerun-build/rerun/releases/tag/v0.15.0",
+        "last_release_days": 2,
+        "releases_90": 10,
+        "releases_recent": [
+          {
+            "tag": "v0.15.0",
+            "date": "2026-11-13",
+            "pre": false,
+            "url": "https://github.com/rerun-build/rerun/releases/tag/v0.15.0"
+          },
+          {
+            "tag": "v0.14.6",
+            "date": "2026-11-13",
+            "pre": false,
+            "url": "https://github.com/rerun-build/rerun/releases/tag/v0.14.6"
+          },
+          {
+            "tag": "v0.14.5",
+            "date": "2026-11-13",
+            "pre": false,
+            "url": "https://github.com/rerun-build/rerun/releases/tag/v0.14.5"
+          },
+          {
+            "tag": "v0.14.4",
+            "date": "2026-11-13",
+            "pre": false,
+            "url": "https://github.com/rerun-build/rerun/releases/tag/v0.14.4"
+          },
+          {
+            "tag": "v0.14.3",
+            "date": "2026-11-13",
+            "pre": false,
+            "url": "https://github.com/rerun-build/rerun/releases/tag/v0.14.3"
+          },
+          {
+            "tag": "v0.14.2",
+            "date": "2026-11-13",
+            "pre": false,
+            "url": "https://github.com/rerun-build/rerun/releases/tag/v0.14.2"
+          }
+        ],
+        "release_status": "activo",
+        "release_source": "releases.atom",
+        "release_note": "Minor release: read Upgrade before updating. Highlights A coworker answers questions about Rerun from the documentation ( #208 ) The Foreman's General and its threads ( #204 ) Every conversation behind the clock of the column ( #203 ) General with its threads in the column ( #202 ) A General conversation and threads on the hub ( #201 ) Switch workspace from the header of the workspace menu ( #197 ) A coworker types a secret into a page without seeing it ( #196 ) Temporarily hide \"Hire an expert\" from the help menu ( #195 ) Simple view, a list of coworkers beside the chat ( #190 ) Move every coworker's own catalog apps into the Vault ( #189 ) Archives and duplicates of a coworker keep what it holds from the Vault ( #187 ) A coworker's app suggestion offers the Vault's accounts ( #186 ) Paid app accounts show in the Vault ( #185 ) Composio and managed accounts go to the Vault too ( #184 ) ",
+        "release_highlight": "0.15.0: los coworkers responden sobre la documentación y el Foreman estrena General con hilos.",
+        "release_impact": "Nuevo en el ranking: 84.90 S. 8/8 pilares; self-hosting técnico y producto joven.",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
+        "judged_day": "2026-11-15",
+        "readme": "",
+        "topics": [],
+        "homepage": "https://rerun.build",
+        "rank": 2
+      },
+      {
+        "id": "agentes-chat",
+        "slug": "agentes-chat",
+        "full_name": "agentes-chat/agentes-chat",
+        "maker": "agentes-chat",
+        "tagline": "Slack con agentes que trabajan de verdad.",
+        "summary": "Alternativa open source a Slack donde personas y agentes comparten canales y DMs: cada agente tiene rol, presupuesto, computadora, navegador, memoria, rutinas, MCP y aprobaciones; web, escritorio y móvil.",
+        "description": "Alternativa open source a Slack donde personas y agentes comparten canales y DMs: cada agente tiene rol, presupuesto, computadora, navegador, memoria, rutinas, MCP y aprobaciones; web, escritorio y móvil.",
+        "url": "https://agentes.chat",
+        "website": "https://agentes.chat",
+        "repo": "https://github.com/agentes-chat/agentes-chat",
+        "docs": "https://github.com/agentes-chat/agentes-chat",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/agentes-chat",
+        "category": "teams",
+        "catLabel": "Equipo",
+        "licenseType": "Open source",
+        "license": "AGPL-3.0",
+        "pricing": "free",
+        "priceLabel": "Gratis",
+        "priceNote": "Código abierto + tus modelos",
+        "setup": "moderate",
+        "setupLabel": "Medio",
+        "maturity": "beta",
+        "maturityLabel": "Beta",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux",
+          "Web",
+          "iOS",
+          "Android"
+        ],
+        "models": "BYOK / multi-modelo",
+        "channels": [
+          "Chat",
+          "Email",
+          "Slack",
+          "Web"
+        ],
+        "reference": false,
+        "kind": "agent",
+        "archetype": "teams",
+        "archetype_label": "Equipo",
+        "generation": "bots 2026",
+        "tier": "S",
+        "total": 84.6,
+        "agency": 100,
+        "confidence": 58,
+        "dimensions": {
+          "capacidad": 83,
+          "autonomia": 80,
+          "computadora": 87,
+          "memoria": 90,
+          "rutinas": 90,
+          "equipo": 90,
+          "confianza": 90,
+          "producto": 74
+        },
+        "pillars": {
+          "identidad": true,
+          "computadora": true,
+          "memoria": true,
+          "rutinas": true,
+          "apps": true,
+          "coordinacion": true,
+          "aprobaciones": true,
+          "desatendido": true
+        },
+        "pillars_detail": [
+          {
+            "key": "identidad",
+            "label": "Identidad",
+            "hint": "El bot tiene nombre y rol propio; no es solo un chat.",
+            "weight": 10,
+            "on": true
+          },
+          {
+            "key": "computadora",
+            "label": "Computadora propia",
+            "hint": "Navegador, terminal, archivos y sesiones que sobreviven a la tarea.",
+            "weight": 18,
+            "on": true
+          },
+          {
+            "key": "memoria",
+            "label": "Memoria",
+            "hint": "Recuerda y acumula contexto por bot.",
+            "weight": 10,
+            "on": true
+          },
+          {
+            "key": "rutinas",
+            "label": "Rutinas",
+            "hint": "Ejecuta trabajo programado o por evento sin prompt.",
+            "weight": 16,
+            "on": true
+          },
+          {
+            "key": "apps",
+            "label": "Apps reales",
+            "hint": "Opera sitios y programas reales, no solo APIs.",
+            "weight": 14,
+            "on": true
+          },
+          {
+            "key": "coordinacion",
+            "label": "Coordinación",
+            "hint": "Varios bots se reparten el trabajo y lo entregan juntos.",
+            "weight": 12,
+            "on": true
+          },
+          {
+            "key": "aprobaciones",
+            "label": "Aprobaciones",
+            "hint": "Pide permiso antes de publicar, pagar o borrar.",
+            "weight": 10,
+            "on": true
+          },
+          {
+            "key": "desatendido",
+            "label": "Desatendido",
+            "hint": "Sigue trabajando mientras no estás conectado.",
+            "weight": 10,
+            "on": true
+          }
+        ],
+        "agency_max": 100,
+        "has_pillars": true,
+        "next_tier": "SS",
+        "delta_next": 7.4,
+        "strengths": [
+          "Slack open source con agentes como miembros de canales y DMs, no un bot lateral",
+          "Computadora y navegador propios con takeover humano y aislamiento por workspace",
+          "Rutinas, memoria, MCP/Composio y aprobaciones en el mismo producto",
+          "Web, escritorio, iOS y Android"
+        ],
+        "weaknesses": [
+          "Producto muy joven: creado en noviembre de 2026 y en beta abierta",
+          "Self-hosting exige Docker/Postgres y operación",
+          "La calidad de los agentes depende del modelo y del runtime conectado"
+        ],
+        "comparison": "Es la alternativa open source más directa a Grok Bot en formato Slack: equipo, computadora, rutinas, memoria y aprobaciones. Le falta madurez y recorrido.",
+        "sources": [
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/agentes-chat/agentes-chat",
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "label": "Web oficial",
+            "url": "https://agentes.chat",
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/agentes-chat/agentes-chat#readme",
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "label": "Releases",
+            "url": "https://github.com/agentes-chat/agentes-chat/releases",
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/agentes-chat",
+            "accessedAt": "2026-11-15"
+          }
+        ],
+        "stars": 1425,
+        "forks": 251,
+        "open_issues": 220,
+        "language": "TypeScript",
+        "created_at": "2026-11-09T00:50:28Z",
+        "created_day": "2026-11-09",
+        "pushed_at": "2026-11-15T06:22:40Z",
+        "last_release": "2026-11-14",
+        "last_release_tag": "desktop-v0.8.8",
+        "last_release_url": "https://github.com/agentes-chat/agentes-chat/releases/tag/desktop-v0.8.8",
+        "last_release_days": 1,
+        "releases_90": 10,
+        "releases_recent": [
+          {
+            "tag": "desktop-v0.8.8",
+            "date": "2026-11-14",
+            "pre": false,
+            "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/desktop-v0.8.8"
+          },
+          {
+            "tag": "desktop-v0.8.7",
+            "date": "2026-11-14",
+            "pre": false,
+            "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/desktop-v0.8.7"
+          },
+          {
+            "tag": "cla-v1.0",
+            "date": "2026-11-14",
+            "pre": false,
+            "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/cla-v1.0"
+          },
+          {
+            "tag": "desktop-v0.8.5",
+            "date": "2026-11-13",
+            "pre": false,
+            "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/desktop-v0.8.5"
+          },
+          {
+            "tag": "v0.1.1",
+            "date": "2026-11-12",
+            "pre": false,
+            "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/v0.1.1"
+          },
+          {
+            "tag": "setup-v0.1.1",
+            "date": "2026-11-12",
+            "pre": false,
+            "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/setup-v0.1.1"
+          }
+        ],
+        "release_status": "activo",
+        "release_source": "releases.atom",
+        "release_note": "fix(desktop): the app no longer stops answering on macOS while it reads the window's cookies fix(mobile): the agents' conversation sheet keeps its title and foot clear of the list fix(mobile): the chat's fade under the header is solid behind the status bar docs(engine): listsAgentTo says plainly which agents a narrowed list keeps feat(web): no \"more agents in Team\" row for who doesn't see every agent feat(engine), i18n: \"See all agents\", on for everyone; off, Team lists only the agents that answer you Installing (first open) The desktop app is in beta: the Mac build isn't notarized by Apple yet and the Windows installer isn't signed by Microsoft, so the first open asks once. After that it opens and updates by itself. macOS : drag agentes.chat to Applications and open it, click Done , then open System Settings › Privacy &amp; Security and click Open Anyway (it shows up only right after yo",
+        "release_highlight": "0.8.8: correcciones de escritorio y móvil; la base ya incluye canales, computadora y aprobaciones.",
+        "release_impact": "Nuevo en el ranking: 84.60 S. 8/8 pilares; producto joven y en beta abierta.",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
+        "judged_day": "2026-11-15",
+        "readme": "",
+        "topics": [
+          "agentic-ai",
+          "ai-agents",
+          "browser-automation",
+          "chat",
+          "claude",
+          "claude-code",
+          "codex",
+          "collaboration",
+          "computer-use",
+          "docker-compose",
+          "gemini",
+          "grok",
+          "human-in-the-loop",
+          "llm",
+          "mcp",
+          "multi-agent",
+          "openai",
+          "self-hosted",
+          "slack-alternative",
+          "team-chat"
+        ],
+        "homepage": "https://agentes.chat",
+        "rank": 3
+      },
       {
         "id": "nousresearch-hermes-agent",
         "slug": "nousresearch-hermes-agent",
@@ -452,7 +1176,7 @@
         ],
         "release_status": "activo",
         "release_source": "releases.atom",
-        "release_note": "Hermes Agent canary 20261115T064406Z",
+        "release_note": "Hermes Agent v0.23.1+canary.20261115T064406Z (v0.23.1+canary.20261115T064406Z) Release Date: November 15, 2026 Downloads Hermes Desktop OS Architecture Download macOS Apple Silicon (M-series) DMG Windows x86 (64-bit) MSIX Windows ARM (arm64 / aarch64) MSIX Native install/chat smoke Download availability is independent of smoke status. Each result covers all native legs in that format group. Linux bundles are disabled; unsigned Store envelopes are not install-smoked. No-upload dry tags have no download handoff and are not smoke-qualified. Packages Smoke status macOS DMG + ZIP (arm64) Passed Windows MSIX (arm64) Passed Windows MSIX (x64) Passed ✨ Features Plugin \"dosbox-mcp\" ( 4c02a304 ) — @shakeyourbunny Hermes-eye-memory to the plugin catalog ( e71d2da7 ) — @isthatananya Plugin-catalog): add permission-tiers (f5f6183) ( c2779be8 ) — @imperator-clawdius Plugin-catalog): add neuralwatt-pro",
         "release_highlight": "",
         "release_impact": "",
         "release_checked_at": "2026-11-15",
@@ -475,7 +1199,482 @@
           "openai"
         ],
         "homepage": "https://hermes-agent.nousresearch.com",
-        "rank": 1
+        "rank": 4
+      },
+      {
+        "id": "cubebot",
+        "slug": "cubebot",
+        "full_name": "vicotrbb/cubebot",
+        "maker": "vicotrbb",
+        "tagline": "Agentes persistentes en tu propia infraestructura.",
+        "summary": "Plataforma self-hosted para un equipo de agentes persistentes: cada uno con memoria, workspace y computadora aislada (KVM o contenedor), salas, equipos, tareas, rutinas, conectores y aprobaciones.",
+        "description": "Plataforma self-hosted para un equipo de agentes persistentes: cada uno con memoria, workspace y computadora aislada (KVM o contenedor), salas, equipos, tareas, rutinas, conectores y aprobaciones.",
+        "url": "https://cubebot.io",
+        "website": "https://cubebot.io",
+        "repo": "https://github.com/vicotrbb/cubebot",
+        "docs": "https://github.com/vicotrbb/cubebot",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/cubebot",
+        "category": "teams",
+        "catLabel": "Equipo",
+        "licenseType": "Open source",
+        "license": "Apache-2.0",
+        "pricing": "free",
+        "priceLabel": "Gratis",
+        "priceNote": "Código abierto + tus modelos",
+        "setup": "technical",
+        "setupLabel": "Técnico",
+        "maturity": "beta",
+        "maturityLabel": "Beta",
+        "platforms": [
+          "Linux",
+          "macOS",
+          "Web"
+        ],
+        "models": "BYOK / multi-modelo",
+        "channels": [
+          "Chat",
+          "Voz"
+        ],
+        "reference": false,
+        "kind": "agent",
+        "archetype": "teams",
+        "archetype_label": "Equipo",
+        "generation": "bots 2026",
+        "tier": "S",
+        "total": 83.1,
+        "agency": 100,
+        "confidence": 62,
+        "dimensions": {
+          "capacidad": 82,
+          "autonomia": 78,
+          "computadora": 92,
+          "memoria": 90,
+          "rutinas": 90,
+          "equipo": 90,
+          "confianza": 90,
+          "producto": 62
+        },
+        "pillars": {
+          "identidad": true,
+          "computadora": true,
+          "memoria": true,
+          "rutinas": true,
+          "apps": true,
+          "coordinacion": true,
+          "aprobaciones": true,
+          "desatendido": true
+        },
+        "pillars_detail": [
+          {
+            "key": "identidad",
+            "label": "Identidad",
+            "hint": "El bot tiene nombre y rol propio; no es solo un chat.",
+            "weight": 10,
+            "on": true
+          },
+          {
+            "key": "computadora",
+            "label": "Computadora propia",
+            "hint": "Navegador, terminal, archivos y sesiones que sobreviven a la tarea.",
+            "weight": 18,
+            "on": true
+          },
+          {
+            "key": "memoria",
+            "label": "Memoria",
+            "hint": "Recuerda y acumula contexto por bot.",
+            "weight": 10,
+            "on": true
+          },
+          {
+            "key": "rutinas",
+            "label": "Rutinas",
+            "hint": "Ejecuta trabajo programado o por evento sin prompt.",
+            "weight": 16,
+            "on": true
+          },
+          {
+            "key": "apps",
+            "label": "Apps reales",
+            "hint": "Opera sitios y programas reales, no solo APIs.",
+            "weight": 14,
+            "on": true
+          },
+          {
+            "key": "coordinacion",
+            "label": "Coordinación",
+            "hint": "Varios bots se reparten el trabajo y lo entregan juntos.",
+            "weight": 12,
+            "on": true
+          },
+          {
+            "key": "aprobaciones",
+            "label": "Aprobaciones",
+            "hint": "Pide permiso antes de publicar, pagar o borrar.",
+            "weight": 10,
+            "on": true
+          },
+          {
+            "key": "desatendido",
+            "label": "Desatendido",
+            "hint": "Sigue trabajando mientras no estás conectado.",
+            "weight": 10,
+            "on": true
+          }
+        ],
+        "agency_max": 100,
+        "has_pillars": true,
+        "next_tier": "SS",
+        "delta_next": 8.9,
+        "strengths": [
+          "Aislamiento fuerte: KVM o contenedor por agente",
+          "Salas, equipos, org chart y orquestador de tareas",
+          "Memoria, rutinas, 34 conectores y voz",
+          "Grants, aprobaciones, auditoría y SSO"
+        ],
+        "weaknesses": [
+          "Instalación y operación técnica (Docker/Kubernetes)",
+          "Proyecto joven y de nicho (119 estrellas)",
+          "El orquestador necesita el socket de Docker, con riesgo de privilegios"
+        ],
+        "comparison": "Tiene la infraestructura y el aislamiento que Grok Bot promete, pero su operación es técnica y su producto aún es joven.",
+        "sources": [
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/vicotrbb/cubebot",
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "label": "Web oficial",
+            "url": "https://cubebot.io",
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/vicotrbb/cubebot#readme",
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "label": "Releases",
+            "url": "https://github.com/vicotrbb/cubebot/releases",
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/cubebot",
+            "accessedAt": "2026-11-15"
+          }
+        ],
+        "stars": 119,
+        "forks": 7,
+        "open_issues": 0,
+        "language": "Rust",
+        "created_at": "2026-10-25T19:06:43Z",
+        "created_day": "2026-10-25",
+        "pushed_at": "2026-11-14T18:43:32Z",
+        "last_release": "2026-11-14",
+        "last_release_tag": "v0.2.15",
+        "last_release_url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.2.15",
+        "last_release_days": 1,
+        "releases_90": 10,
+        "releases_recent": [
+          {
+            "tag": "v0.2.15",
+            "date": "2026-11-14",
+            "pre": false,
+            "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.2.15"
+          },
+          {
+            "tag": "v0.2.14",
+            "date": "2026-11-14",
+            "pre": false,
+            "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.2.14"
+          },
+          {
+            "tag": "v0.2.13",
+            "date": "2026-11-11",
+            "pre": false,
+            "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.2.13"
+          },
+          {
+            "tag": "v0.2.12",
+            "date": "2026-11-10",
+            "pre": false,
+            "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.2.12"
+          },
+          {
+            "tag": "v0.2.11",
+            "date": "2026-11-10",
+            "pre": false,
+            "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.2.11"
+          },
+          {
+            "tag": "v0.2.10",
+            "date": "2026-11-10",
+            "pre": false,
+            "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.2.10"
+          }
+        ],
+        "release_status": "activo",
+        "release_source": "releases.atom",
+        "release_note": "What's Changed Consolidate safe dependency updates by @vicotrbb in #120 Release v0.2.15 by @vicotrbb in #121 Full Changelog : v0.2.14...v0.2.15",
+        "release_highlight": "0.2.15: actualización de dependencias; sin cambios funcionales mayores.",
+        "release_impact": "Nuevo en el ranking: 83.10 S. 8/8 pilares; producto técnico y de nicho.",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
+        "judged_day": "2026-11-15",
+        "readme": "",
+        "topics": [],
+        "homepage": "https://cubebot.io",
+        "rank": 5
+      },
+      {
+        "id": "anil-matcha-open-duet",
+        "slug": "anil-matcha-open-duet",
+        "full_name": "Anil-matcha/suparagent",
+        "maker": "Anil-matcha",
+        "tagline": "Equipo de agentes con computadoras aisladas.",
+        "summary": "Alternativa open source y autoalojable a Grok Bot y Claude Duet: agentes con nombre, memoria, rutinas, computadora aislada propia y aprobación antes de actuar; ahora con espacios compartidos, roles y permisos.",
+        "description": "Alternativa open source y autoalojable a Grok Bot y Claude Duet: agentes con nombre, memoria, rutinas, computadora aislada propia y aprobación antes de actuar; ahora con espacios compartidos, roles y permisos.",
+        "url": "https://suparagent.ai",
+        "website": "https://suparagent.ai",
+        "repo": "https://github.com/Anil-matcha/suparagent",
+        "docs": "https://github.com/Anil-matcha/suparagent",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/anil-matcha-open-duet",
+        "category": "teams",
+        "catLabel": "Equipo",
+        "licenseType": "Open source",
+        "license": "Apache-2.0",
+        "pricing": "free",
+        "priceLabel": "Gratis",
+        "priceNote": "Código abierto + tus modelos",
+        "setup": "technical",
+        "setupLabel": "Técnico",
+        "maturity": "released",
+        "maturityLabel": "Released",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux",
+          "Web"
+        ],
+        "models": "BYOK / multi-modelo",
+        "channels": [
+          "Chat",
+          "Telegram"
+        ],
+        "reference": false,
+        "kind": "agent",
+        "archetype": "teams",
+        "archetype_label": "Equipo",
+        "generation": "bots 2026",
+        "tier": "S",
+        "total": 82.2,
+        "agency": 100,
+        "confidence": 60,
+        "dimensions": {
+          "capacidad": 82,
+          "autonomia": 78,
+          "computadora": 85,
+          "memoria": 90,
+          "rutinas": 90,
+          "equipo": 90,
+          "confianza": 90,
+          "producto": 63
+        },
+        "pillars": {
+          "identidad": true,
+          "computadora": true,
+          "memoria": true,
+          "rutinas": true,
+          "apps": true,
+          "coordinacion": true,
+          "aprobaciones": true,
+          "desatendido": true
+        },
+        "pillars_detail": [
+          {
+            "key": "identidad",
+            "label": "Identidad",
+            "hint": "El bot tiene nombre y rol propio; no es solo un chat.",
+            "weight": 10,
+            "on": true
+          },
+          {
+            "key": "computadora",
+            "label": "Computadora propia",
+            "hint": "Navegador, terminal, archivos y sesiones que sobreviven a la tarea.",
+            "weight": 18,
+            "on": true
+          },
+          {
+            "key": "memoria",
+            "label": "Memoria",
+            "hint": "Recuerda y acumula contexto por bot.",
+            "weight": 10,
+            "on": true
+          },
+          {
+            "key": "rutinas",
+            "label": "Rutinas",
+            "hint": "Ejecuta trabajo programado o por evento sin prompt.",
+            "weight": 16,
+            "on": true
+          },
+          {
+            "key": "apps",
+            "label": "Apps reales",
+            "hint": "Opera sitios y programas reales, no solo APIs.",
+            "weight": 14,
+            "on": true
+          },
+          {
+            "key": "coordinacion",
+            "label": "Coordinación",
+            "hint": "Varios bots se reparten el trabajo y lo entregan juntos.",
+            "weight": 12,
+            "on": true
+          },
+          {
+            "key": "aprobaciones",
+            "label": "Aprobaciones",
+            "hint": "Pide permiso antes de publicar, pagar o borrar.",
+            "weight": 10,
+            "on": true
+          },
+          {
+            "key": "desatendido",
+            "label": "Desatendido",
+            "hint": "Sigue trabajando mientras no estás conectado.",
+            "weight": 10,
+            "on": true
+          }
+        ],
+        "agency_max": 100,
+        "has_pillars": true,
+        "next_tier": "SS",
+        "delta_next": 9.8,
+        "strengths": [
+          "Replica casi todo el listón: computadora aislada, rutinas, memoria y aprobaciones",
+          "Espacios compartidos con miembros, roles y permisos",
+          "Autoalojable, con app de escritorio y servicio alojado opcional"
+        ],
+        "weaknesses": [
+          "En desarrollo activo, con limitaciones reconocidas para trabajo importante",
+          "El autoalojamiento añade fricción operativa",
+          "Poca evidencia pública de tests, escala y casos de uso reales"
+        ],
+        "comparison": "Es de lo más cercano en concepto a Grok Bot dentro del open source; los espacios compartidos mejoran el equipo, pero su madurez sigue por demostrar.",
+        "sources": [
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/Anil-matcha/suparagent",
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "label": "Web oficial",
+            "url": "https://suparagent.ai",
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/Anil-matcha/suparagent#readme",
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "label": "Releases",
+            "url": "https://github.com/Anil-matcha/suparagent/releases",
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/anil-matcha-open-duet",
+            "accessedAt": "2026-11-12"
+          }
+        ],
+        "stars": 7075,
+        "forks": 921,
+        "open_issues": 97,
+        "language": "Python",
+        "created_at": "2023-05-25T14:21:12Z",
+        "created_day": "2023-05-25",
+        "pushed_at": "2026-11-13T10:36:29Z",
+        "last_release": "2026-11-11",
+        "last_release_tag": "v0.8.6",
+        "last_release_url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.6",
+        "last_release_days": 4,
+        "releases_90": 10,
+        "releases_recent": [
+          {
+            "tag": "v0.8.6",
+            "date": "2026-11-11",
+            "pre": false,
+            "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.6"
+          },
+          {
+            "tag": "mobile-v0.4.0",
+            "date": "2026-11-11",
+            "pre": false,
+            "url": "https://github.com/Anil-matcha/suparagent/releases/tag/mobile-v0.4.0"
+          },
+          {
+            "tag": "v0.8.5",
+            "date": "2026-11-09",
+            "pre": false,
+            "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.5"
+          },
+          {
+            "tag": "v0.8.4",
+            "date": "2026-11-06",
+            "pre": false,
+            "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.4"
+          },
+          {
+            "tag": "v0.8.3",
+            "date": "2026-11-05",
+            "pre": false,
+            "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.3"
+          },
+          {
+            "tag": "v0.8.2",
+            "date": "2026-11-05",
+            "pre": false,
+            "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.2"
+          }
+        ],
+        "release_status": "activo",
+        "release_source": "releases.atom",
+        "release_note": "What's Changed test: fix four stale tests that fail on main by @inderpreet001 in #237 Share a server install with other people: members, roles and permissions by @inderpreet001 in #236 docs: describe members, roles and shared workspaces by @inderpreet001 in #238 feat(mobile): chat-first default screen, sliding sidebar, dynamic model &amp; effort switcher, and server profile integration by @jaiprasad04 in #239 feat(docs): add in-app documentation center, visual workflows guide, and fix Windows Google auth command formatting by @jaiprasad04 in #235 feat: hosted workspace grants, workspace switcher and hosted People screen by @inderpreet001 in #240 Full Changelog : v0.8.5...v0.8.6",
+        "release_highlight": "0.8.6: espacios compartidos con miembros, roles y permisos; móvil chat-first y cambio de modelo.",
+        "release_impact": "Sube de 80.55 a 82.20 S por espacios compartidos, roles/permisos y móvil.",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
+        "judged_day": "2026-11-12",
+        "readme": "",
+        "topics": [
+          "agentic-ai",
+          "ai-agent",
+          "ai-assistant",
+          "ai-coworker",
+          "ai-employees",
+          "ai-workspace",
+          "chatgpt-agent",
+          "claude-cowork",
+          "claude-duet",
+          "computer-use",
+          "computer-use-agent",
+          "grok-bot",
+          "grok-bot-alternative",
+          "manus-cue",
+          "meta-muse",
+          "open-source",
+          "open-source-alternative",
+          "personal-ai-agent",
+          "self-hosted",
+          "self-hosted-ai"
+        ],
+        "homepage": "https://suparagent.ai",
+        "rank": 6
       },
       {
         "id": "milind-soni-openmausbot",
@@ -717,7 +1916,7 @@
           "typescript"
         ],
         "homepage": "https://www.mausbot.com/",
-        "rank": 2
+        "rank": 7
       },
       {
         "id": "cosmicstack-labs-mercury-agent",
@@ -949,255 +2148,7 @@
           "llm"
         ],
         "homepage": "https://mercuryagent.sh/",
-        "rank": 3
-      },
-      {
-        "id": "anil-matcha-open-duet",
-        "slug": "anil-matcha-open-duet",
-        "full_name": "Anil-matcha/open-duet",
-        "maker": "Anil-matcha",
-        "tagline": "Equipo de agentes con computadoras aisladas.",
-        "summary": "Alternativa open-source y autoalojable a Grok Bot y Claude Duet: agentes con nombre, memoria, rutinas, computadora aislada propia y aprobación antes de actuar.",
-        "description": "Alternativa open-source y autoalojable a Grok Bot y Claude Duet: agentes con nombre, memoria, rutinas, computadora aislada propia y aprobación antes de actuar.",
-        "url": "https://suparagent.ai",
-        "website": "https://suparagent.ai",
-        "repo": "https://github.com/Anil-matcha/suparagent",
-        "docs": "https://github.com/Anil-matcha/suparagent",
-        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/anil-matcha-open-duet",
-        "category": "teams",
-        "catLabel": "Equipo",
-        "licenseType": "Open source",
-        "license": "Apache-2.0",
-        "pricing": "free",
-        "priceLabel": "Gratis",
-        "priceNote": "Código abierto + tus modelos",
-        "setup": "technical",
-        "setupLabel": "Técnico",
-        "maturity": "released",
-        "maturityLabel": "Released",
-        "platforms": [
-          "macOS",
-          "Windows",
-          "Linux",
-          "Web"
-        ],
-        "models": "BYOK / multi-modelo",
-        "channels": [
-          "Chat",
-          "Telegram"
-        ],
-        "reference": false,
-        "kind": "agent",
-        "archetype": "teams",
-        "archetype_label": "Equipo",
-        "generation": "bots 2026",
-        "tier": "S",
-        "total": 80.55,
-        "agency": 100,
-        "confidence": 58,
-        "dimensions": {
-          "capacidad": 80,
-          "autonomia": 76,
-          "computadora": 85,
-          "memoria": 90,
-          "rutinas": 90,
-          "equipo": 90,
-          "confianza": 90,
-          "producto": 56
-        },
-        "pillars": {
-          "identidad": true,
-          "computadora": true,
-          "memoria": true,
-          "rutinas": true,
-          "apps": true,
-          "coordinacion": true,
-          "aprobaciones": true,
-          "desatendido": true
-        },
-        "pillars_detail": [
-          {
-            "key": "identidad",
-            "label": "Identidad",
-            "hint": "El bot tiene nombre y rol propio; no es solo un chat.",
-            "weight": 10,
-            "on": true
-          },
-          {
-            "key": "computadora",
-            "label": "Computadora propia",
-            "hint": "Navegador, terminal, archivos y sesiones que sobreviven a la tarea.",
-            "weight": 18,
-            "on": true
-          },
-          {
-            "key": "memoria",
-            "label": "Memoria",
-            "hint": "Recuerda y acumula contexto por bot.",
-            "weight": 10,
-            "on": true
-          },
-          {
-            "key": "rutinas",
-            "label": "Rutinas",
-            "hint": "Ejecuta trabajo programado o por evento sin prompt.",
-            "weight": 16,
-            "on": true
-          },
-          {
-            "key": "apps",
-            "label": "Apps reales",
-            "hint": "Opera sitios y programas reales, no solo APIs.",
-            "weight": 14,
-            "on": true
-          },
-          {
-            "key": "coordinacion",
-            "label": "Coordinación",
-            "hint": "Varios bots se reparten el trabajo y lo entregan juntos.",
-            "weight": 12,
-            "on": true
-          },
-          {
-            "key": "aprobaciones",
-            "label": "Aprobaciones",
-            "hint": "Pide permiso antes de publicar, pagar o borrar.",
-            "weight": 10,
-            "on": true
-          },
-          {
-            "key": "desatendido",
-            "label": "Desatendido",
-            "hint": "Sigue trabajando mientras no estás conectado.",
-            "weight": 10,
-            "on": true
-          }
-        ],
-        "agency_max": 100,
-        "has_pillars": true,
-        "next_tier": "SS",
-        "delta_next": 11.45,
-        "strengths": [
-          "Replica casi todo el listón: computadora aislada, rutinas, memoria y aprobaciones",
-          "Autoalojable, con app de escritorio y servicio alojado opcional",
-          "No exige un modelo ni una suscripción propia del proyecto"
-        ],
-        "weaknesses": [
-          "En desarrollo activo, con limitaciones reconocidas para trabajo importante",
-          "No incluye modelo y el autoalojamiento añade fricción operativa",
-          "Poca evidencia pública de tests, escala y casos de uso reales"
-        ],
-        "comparison": "Es de lo más cercano en concepto a Grok Bot dentro del open source, pero su madurez y su ejecución están todavía por demostrar frente al producto de xAI.",
-        "sources": [
-          {
-            "label": "Repositorio GitHub",
-            "url": "https://github.com/Anil-matcha/suparagent",
-            "accessedAt": "2026-11-12"
-          },
-          {
-            "label": "Web oficial",
-            "url": "https://suparagent.ai",
-            "accessedAt": "2026-11-12"
-          },
-          {
-            "label": "README",
-            "url": "https://github.com/Anil-matcha/suparagent#readme",
-            "accessedAt": "2026-11-12"
-          },
-          {
-            "label": "Releases",
-            "url": "https://github.com/Anil-matcha/suparagent/releases",
-            "accessedAt": "2026-11-12"
-          },
-          {
-            "label": "Dossier de investigación",
-            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/anil-matcha-open-duet",
-            "accessedAt": "2026-11-12"
-          }
-        ],
-        "stars": 7031,
-        "forks": 913,
-        "open_issues": 10,
-        "language": "Python",
-        "created_at": "2023-05-25T14:21:12Z",
-        "created_day": "2023-05-25",
-        "pushed_at": "2026-11-11T15:55:47Z",
-        "last_release": "2026-11-11",
-        "last_release_tag": "v0.8.6",
-        "last_release_url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.6",
-        "last_release_days": 4,
-        "releases_90": 10,
-        "releases_recent": [
-          {
-            "tag": "v0.8.6",
-            "date": "2026-11-11",
-            "pre": false,
-            "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.6"
-          },
-          {
-            "tag": "mobile-v0.4.0",
-            "date": "2026-11-11",
-            "pre": false,
-            "url": "https://github.com/Anil-matcha/suparagent/releases/tag/mobile-v0.4.0"
-          },
-          {
-            "tag": "v0.8.5",
-            "date": "2026-11-09",
-            "pre": false,
-            "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.5"
-          },
-          {
-            "tag": "v0.8.4",
-            "date": "2026-11-06",
-            "pre": false,
-            "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.4"
-          },
-          {
-            "tag": "v0.8.3",
-            "date": "2026-11-05",
-            "pre": false,
-            "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.3"
-          },
-          {
-            "tag": "v0.8.2",
-            "date": "2026-11-05",
-            "pre": false,
-            "url": "https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.2"
-          }
-        ],
-        "release_status": "activo",
-        "release_source": "releases.atom",
-        "release_note": "What's Changed test: fix four stale tests that fail on main by @inderpreet001 in #237 Share a server install with other people: members, roles and permissions by @inderpreet001 in #236 docs: describe members, roles and shared workspaces by @inderpreet001 in #238 feat(mobile): chat-first default screen, sliding sidebar, dynamic model &amp; effort switcher, and server profile integration by @jaiprasad04 in #239 feat(docs): add in-app documentation center, visual workflows guide, and fix Windows Google auth command formatting by @jaiprasad04 in #235 feat: hosted workspace grants, workspace switcher and hosted People screen by @inderpreet001 in #240 Full Changelog : v0.8.5...v0.8.6",
-        "release_highlight": "",
-        "release_impact": "",
-        "release_checked_at": "2026-11-15",
-        "changelog_url": null,
-        "judged_day": "2026-11-12",
-        "readme": "",
-        "topics": [
-          "agentic-ai",
-          "ai-agent",
-          "ai-assistant",
-          "ai-coworker",
-          "ai-employees",
-          "ai-workspace",
-          "chatgpt-agent",
-          "claude-cowork",
-          "claude-duet",
-          "computer-use",
-          "computer-use-agent",
-          "grok-bot",
-          "grok-bot-alternative",
-          "manus-cue",
-          "meta-muse",
-          "open-source",
-          "open-source-alternative",
-          "personal-ai-agent",
-          "self-hosted",
-          "self-hosted-ai"
-        ],
-        "homepage": "https://suparagent.ai",
-        "rank": 4
+        "rank": 8
       },
       {
         "id": "orkas-ai-orkas",
@@ -1442,7 +2393,256 @@
           "task-automation"
         ],
         "homepage": "https://orkas.ai?source=gh-orkas",
-        "rank": 5
+        "rank": 9
+      },
+      {
+        "id": "clawboo",
+        "slug": "clawboo",
+        "full_name": "clawboo/clawboo",
+        "maker": "clawboo",
+        "tagline": "Un jefe AI para tu equipo de agentes.",
+        "summary": "Estudio open source para desplegar equipos de agentes con un jefe que reparte tareas, memoria compartida, rutinas, conectores y aprobaciones; los agentes corren sobre Claude Code, Codex, Hermes, OpenClaw o el runtime propio.",
+        "description": "Estudio open source para desplegar equipos de agentes con un jefe que reparte tareas, memoria compartida, rutinas, conectores y aprobaciones; los agentes corren sobre Claude Code, Codex, Hermes, OpenClaw o el runtime propio.",
+        "url": "https://www.claw.boo",
+        "website": "https://www.claw.boo",
+        "repo": "https://github.com/clawboo/clawboo",
+        "docs": "https://github.com/clawboo/clawboo",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/clawboo",
+        "category": "teams",
+        "catLabel": "Equipo",
+        "licenseType": "Open source",
+        "license": "MIT",
+        "pricing": "free",
+        "priceLabel": "Gratis",
+        "priceNote": "Código abierto + tus modelos",
+        "setup": "easy",
+        "setupLabel": "Fácil",
+        "maturity": "beta",
+        "maturityLabel": "Beta",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux",
+          "Web"
+        ],
+        "models": "BYOK / multi-modelo",
+        "channels": [
+          "Chat",
+          "Web"
+        ],
+        "reference": false,
+        "kind": "agent",
+        "archetype": "teams",
+        "archetype_label": "Equipo",
+        "generation": "bots 2026",
+        "tier": "A",
+        "total": 79.5,
+        "agency": 100,
+        "confidence": 62,
+        "dimensions": {
+          "capacidad": 78,
+          "autonomia": 74,
+          "computadora": 70,
+          "memoria": 90,
+          "rutinas": 90,
+          "equipo": 90,
+          "confianza": 90,
+          "producto": 68
+        },
+        "pillars": {
+          "identidad": true,
+          "computadora": true,
+          "memoria": true,
+          "rutinas": true,
+          "apps": true,
+          "coordinacion": true,
+          "aprobaciones": true,
+          "desatendido": true
+        },
+        "pillars_detail": [
+          {
+            "key": "identidad",
+            "label": "Identidad",
+            "hint": "El bot tiene nombre y rol propio; no es solo un chat.",
+            "weight": 10,
+            "on": true
+          },
+          {
+            "key": "computadora",
+            "label": "Computadora propia",
+            "hint": "Navegador, terminal, archivos y sesiones que sobreviven a la tarea.",
+            "weight": 18,
+            "on": true
+          },
+          {
+            "key": "memoria",
+            "label": "Memoria",
+            "hint": "Recuerda y acumula contexto por bot.",
+            "weight": 10,
+            "on": true
+          },
+          {
+            "key": "rutinas",
+            "label": "Rutinas",
+            "hint": "Ejecuta trabajo programado o por evento sin prompt.",
+            "weight": 16,
+            "on": true
+          },
+          {
+            "key": "apps",
+            "label": "Apps reales",
+            "hint": "Opera sitios y programas reales, no solo APIs.",
+            "weight": 14,
+            "on": true
+          },
+          {
+            "key": "coordinacion",
+            "label": "Coordinación",
+            "hint": "Varios bots se reparten el trabajo y lo entregan juntos.",
+            "weight": 12,
+            "on": true
+          },
+          {
+            "key": "aprobaciones",
+            "label": "Aprobaciones",
+            "hint": "Pide permiso antes de publicar, pagar o borrar.",
+            "weight": 10,
+            "on": true
+          },
+          {
+            "key": "desatendido",
+            "label": "Desatendido",
+            "hint": "Sigue trabajando mientras no estás conectado.",
+            "weight": 10,
+            "on": true
+          }
+        ],
+        "agency_max": 100,
+        "has_pillars": true,
+        "next_tier": "S",
+        "delta_next": 0.5,
+        "strengths": [
+          "Boo Zero reparte tareas y coordina varios runtimes",
+          "Memoria compartida y tablero durable",
+          "Rutinas, conectores MCP/Composio y aprobaciones",
+          "Corre local con una sola orden"
+        ],
+        "weaknesses": [
+          "Proyecto pequeño (171 estrellas) y ecosistema joven",
+          "La computadora es el entorno local, no una VM aislada por agente",
+          "Depende de runtimes externos y de sus propios límites de permisos"
+        ],
+        "comparison": "Coordina agentes como un equipo real, pero su computadora es local y su ecosistema aún es pequeño frente a Grok Bot.",
+        "sources": [
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/clawboo/clawboo",
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "label": "Web oficial",
+            "url": "https://www.claw.boo",
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/clawboo/clawboo#readme",
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "label": "Releases",
+            "url": "https://github.com/clawboo/clawboo/releases",
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/clawboo",
+            "accessedAt": "2026-11-15"
+          }
+        ],
+        "stars": 171,
+        "forks": 45,
+        "open_issues": 2,
+        "language": "TypeScript",
+        "created_at": "2026-02-18T01:10:30Z",
+        "created_day": "2026-02-18",
+        "pushed_at": "2026-11-15T05:59:27Z",
+        "last_release": "2026-11-14",
+        "last_release_tag": "clawboo@0.7.0",
+        "last_release_url": "https://github.com/clawboo/clawboo/releases/tag/clawboo%400.7.0",
+        "last_release_days": 1,
+        "releases_90": 4,
+        "releases_recent": [
+          {
+            "tag": "clawboo@0.7.0",
+            "date": "2026-11-14",
+            "pre": false,
+            "url": "https://github.com/clawboo/clawboo/releases/tag/clawboo%400.7.0"
+          },
+          {
+            "tag": "clawboo@0.6.0",
+            "date": "2026-11-04",
+            "pre": false,
+            "url": "https://github.com/clawboo/clawboo/releases/tag/clawboo%400.6.0"
+          },
+          {
+            "tag": "clawboo@0.5.0",
+            "date": "2026-10-21",
+            "pre": false,
+            "url": "https://github.com/clawboo/clawboo/releases/tag/clawboo%400.5.0"
+          },
+          {
+            "tag": "clawboo@0.4.0",
+            "date": "2026-09-28",
+            "pre": false,
+            "url": "https://github.com/clawboo/clawboo/releases/tag/clawboo%400.4.0"
+          },
+          {
+            "tag": "clawboo@0.3.1",
+            "date": "2026-07-20",
+            "pre": false,
+            "url": "https://github.com/clawboo/clawboo/releases/tag/clawboo%400.3.1"
+          },
+          {
+            "tag": "clawboo@0.3.0",
+            "date": "2026-07-15",
+            "pre": false,
+            "url": "https://github.com/clawboo/clawboo/releases/tag/clawboo%400.3.0"
+          }
+        ],
+        "release_status": "activo",
+        "release_source": "releases.atom",
+        "release_note": "Minor Changes 3cf2d73 : New connector: Cua Driver (category Desktop , Linux only) uses the apps on an agent's own screen through Clawboo's tool server: it lists windows, clicks, types and reads each app's accessibility tree. It runs only when agents run as their own OS user ( CLAWBOO_AGENT_USER ), like control links: it types into the agent's browser, which otherwise runs as you. Without it, agents still get their screen, the live view and their browser tools. Install it from an agent's Screen view, connect it, and give it to the agents that need it; it is not given to every agent. Each agent gets its own Cua Driver process on that agent's own screen, as the agent user when agents run as their own OS user, with a home folder of its own and the screen's own session bus, never your desktop session's. It runs only from Clawboo's own install, with its telemetry and update check turned off. A",
+        "release_highlight": "0.7.0: Cua Driver para que los agentes usen apps de su propia pantalla en Linux.",
+        "release_impact": "Nuevo en el ranking: 79.50 A. Equipo y memoria fuertes; computadora local y ecosistema pequeño.",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
+        "judged_day": "2026-11-15",
+        "readme": "",
+        "topics": [
+          "agent-framework",
+          "agent-harness",
+          "agent-orchestration",
+          "agentic-ai",
+          "agents",
+          "ai",
+          "ai-agents",
+          "autonomous-agents",
+          "claude",
+          "clawboo",
+          "developer-tools",
+          "llm",
+          "llm-agents",
+          "multi-agent",
+          "nodejs",
+          "open-source",
+          "openclaw",
+          "react",
+          "self-hosted",
+          "typescript"
+        ],
+        "homepage": "https://www.claw.boo",
+        "rank": 10
       },
       {
         "id": "nanocoai-nanoclaw",
@@ -1676,7 +2876,7 @@
           "openclaw"
         ],
         "homepage": "https://nanoclaw.dev",
-        "rank": 6
+        "rank": 11
       },
       {
         "id": "modelflare-ai-anymodelbot",
@@ -1852,12 +3052,24 @@
         "created_at": "2026-10-27T08:51:18Z",
         "created_day": "2026-10-27",
         "pushed_at": "2026-11-11T12:44:17Z",
-        "last_release": "2026-11-14",
-        "last_release_tag": "v0.1.36",
-        "last_release_url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.36",
-        "last_release_days": 1,
+        "last_release": "2026-11-15",
+        "last_release_tag": "v0.1.38",
+        "last_release_url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.38",
+        "last_release_days": 0,
         "releases_90": 10,
         "releases_recent": [
+          {
+            "tag": "v0.1.38",
+            "date": "2026-11-15",
+            "pre": false,
+            "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.38"
+          },
+          {
+            "tag": "v0.1.37",
+            "date": "2026-11-15",
+            "pre": false,
+            "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.37"
+          },
           {
             "tag": "v0.1.36",
             "date": "2026-11-14",
@@ -1881,23 +3093,11 @@
             "date": "2026-11-14",
             "pre": false,
             "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.33"
-          },
-          {
-            "tag": "v0.1.32",
-            "date": "2026-11-11",
-            "pre": false,
-            "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.32"
-          },
-          {
-            "tag": "v0.1.31",
-            "date": "2026-11-11",
-            "pre": false,
-            "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.31"
           }
         ],
         "release_status": "activo",
         "release_source": "releases.atom",
-        "release_note": "新增 把做成的事存成技能： 和机器人把一件事做对后，在输入框的「+」里点「存成技能…」、发 /skill 或直接说「存成技能」，机器人会整理出一张草稿卡，列出步骤、你纠正过的地方、用到的应用和技能，以及「试试这样说」。确认后存进「我的技能」，可以在其他机器人上一键打开，也能设成定时。密钥不会写进技能，手机号、邮箱等个人信息默认改成每次使用前再问；同一个技能可以更新、恢复上一版或导出 ZIP。 在微信、飞书里存技能： 微信、飞书、Telegram、Slack、Discord 私聊里也能发起，回复「保存」即可存下，回复「取消」放弃；群聊里不能发起。 技能库： 「连接应用」改名为「应用与技能」，新增「技能」标签，收录 31 个开源仓库的 155 个技能，可按用途分类、按作者筛选。复制安装指令发给任意机器人，或直接发技能的 GitHub 链接，确认卡片后就装上。 在对话里用技能和应用： 输入框「+」›「技能与应用」列出这个机器人能用的技能和应用，点一项会填入「用{名称}帮我……」。回复上方显示正在使用和已使用的技能、应用，技能名可以点开看详情。 改进与修复 技能列表更好找： 开着的排在前面；超过 10 个时可以搜索，并按「我的技能、GitHub、本地 ZIP、已关闭」筛选。每个技能标明是否已生效和来源，并附一句「试试这样说」。 体验额度期间的模板： 按当前额度选择合适的模型档位，并说明模板原本推荐的档位。 电脑操作授权： 后台任务接着做时被权限拦下，也会显示授权卡片；不再留下没有对应卡片的等待状态。 上手清单与提示： 点清单步骤被挡住时说明原因；操作提示移到主区顶部居中显示。 定时规则： 展开的规则按提示词、频率、下次运行和发送位置分区；选择机器人改为可搜索的列表；新建规则用卡片选择「发一句提醒」或「让它做件事」，「让它做件事」可以选用「我的技能」；改进空状态和英文的时区提示。 更新、账户和细节： 更新入口直接写明版本号；账户信息读取失败时可以重试；「退出登录」改为红色；应用内群聊余额不足时显示充值入口；模板卡片加上边框，入口去掉箭头。 New Save what you di",
+        "release_note": "AnyModelBot 0.1.38",
         "release_highlight": "",
         "release_impact": "",
         "release_checked_at": "2026-11-15",
@@ -1927,7 +3127,7 @@
           "wechat"
         ],
         "homepage": "https://anymodel.bot/",
-        "rank": 7
+        "rank": 12
       },
       {
         "id": "leepokai-codync",
@@ -2176,7 +3376,7 @@
           "self-hosted"
         ],
         "homepage": "https://www.codync.dev",
-        "rank": 8
+        "rank": 13
       },
       {
         "id": "rowboatlabs-rowboat",
@@ -2422,7 +3622,7 @@
           "productivity"
         ],
         "homepage": "https://www.rowboatlabs.com",
-        "rank": 9
+        "rank": 14
       },
       {
         "id": "nano-muse-nanomuse",
@@ -2671,7 +3871,231 @@
           "personal-agent"
         ],
         "homepage": "https://nanomuse.cn/",
-        "rank": 10
+        "rank": 15
+      },
+      {
+        "id": "cludegods",
+        "slug": "cludegods",
+        "full_name": "AKamaly/CludeGods",
+        "maker": "AKamaly",
+        "tagline": "Claude Code con voz y workers always-on.",
+        "summary": "Toolkit para macOS que convierte Claude Code en un equipo de workers always-on con voz en tiempo real, computer use, memoria, horarios, espacios, Slack y aprobaciones por clic.",
+        "description": "Toolkit para macOS que convierte Claude Code en un equipo de workers always-on con voz en tiempo real, computer use, memoria, horarios, espacios, Slack y aprobaciones por clic.",
+        "url": "https://github.com/AKamaly/CludeGods",
+        "website": "https://github.com/AKamaly/CludeGods",
+        "repo": "https://github.com/AKamaly/CludeGods",
+        "docs": "https://github.com/AKamaly/CludeGods",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/cludegods",
+        "category": "personal",
+        "catLabel": "Bot personal",
+        "licenseType": "Open source",
+        "license": "MIT",
+        "pricing": "free",
+        "priceLabel": "Gratis",
+        "priceNote": "Código abierto + tus modelos",
+        "setup": "moderate",
+        "setupLabel": "Medio",
+        "maturity": "beta",
+        "maturityLabel": "Beta",
+        "platforms": [
+          "macOS"
+        ],
+        "models": "BYOK / multi-modelo",
+        "channels": [
+          "Voz",
+          "Chat",
+          "Slack"
+        ],
+        "reference": false,
+        "kind": "agent",
+        "archetype": "personal",
+        "archetype_label": "Bot personal",
+        "generation": "bots 2026",
+        "tier": "A",
+        "total": 73.2,
+        "agency": 88,
+        "confidence": 58,
+        "dimensions": {
+          "capacidad": 76,
+          "autonomia": 74,
+          "computadora": 78,
+          "memoria": 84,
+          "rutinas": 86,
+          "equipo": 55,
+          "confianza": 84,
+          "producto": 54
+        },
+        "pillars": {
+          "identidad": true,
+          "computadora": true,
+          "memoria": true,
+          "rutinas": true,
+          "apps": true,
+          "coordinacion": false,
+          "aprobaciones": true,
+          "desatendido": true
+        },
+        "pillars_detail": [
+          {
+            "key": "identidad",
+            "label": "Identidad",
+            "hint": "El bot tiene nombre y rol propio; no es solo un chat.",
+            "weight": 10,
+            "on": true
+          },
+          {
+            "key": "computadora",
+            "label": "Computadora propia",
+            "hint": "Navegador, terminal, archivos y sesiones que sobreviven a la tarea.",
+            "weight": 18,
+            "on": true
+          },
+          {
+            "key": "memoria",
+            "label": "Memoria",
+            "hint": "Recuerda y acumula contexto por bot.",
+            "weight": 10,
+            "on": true
+          },
+          {
+            "key": "rutinas",
+            "label": "Rutinas",
+            "hint": "Ejecuta trabajo programado o por evento sin prompt.",
+            "weight": 16,
+            "on": true
+          },
+          {
+            "key": "apps",
+            "label": "Apps reales",
+            "hint": "Opera sitios y programas reales, no solo APIs.",
+            "weight": 14,
+            "on": true
+          },
+          {
+            "key": "coordinacion",
+            "label": "Coordinación",
+            "hint": "Varios bots se reparten el trabajo y lo entregan juntos.",
+            "weight": 12,
+            "on": false
+          },
+          {
+            "key": "aprobaciones",
+            "label": "Aprobaciones",
+            "hint": "Pide permiso antes de publicar, pagar o borrar.",
+            "weight": 10,
+            "on": true
+          },
+          {
+            "key": "desatendido",
+            "label": "Desatendido",
+            "hint": "Sigue trabajando mientras no estás conectado.",
+            "weight": 10,
+            "on": true
+          }
+        ],
+        "agency_max": 100,
+        "has_pillars": true,
+        "next_tier": "S",
+        "delta_next": 6.8,
+        "strengths": [
+          "Voz en tiempo real y workers always-on sobre Claude Code",
+          "Computer use con navegador, terminal y archivos",
+          "Aprobaciones por clic y permisos por worker",
+          "Spaces, Slack y memoria compartida"
+        ],
+        "weaknesses": [
+          "Solo macOS Apple Silicon; es un toolkit, no un producto hosted",
+          "No coordina workers entre sí ni reparte trabajo automáticamente",
+          "Proyecto pequeño (53 estrellas) y dependiente de Claude Code/VoiceMode"
+        ],
+        "comparison": "Excelente para voz y workers always-on en Mac, pero no es un equipo coordinado ni un producto multiplataforma como Grok Bot.",
+        "sources": [
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/AKamaly/CludeGods",
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/AKamaly/CludeGods#readme",
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "label": "Releases",
+            "url": "https://github.com/AKamaly/CludeGods/releases",
+            "accessedAt": "2026-11-15"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/cludegods",
+            "accessedAt": "2026-11-15"
+          }
+        ],
+        "stars": 53,
+        "forks": 6,
+        "open_issues": 0,
+        "language": "TypeScript",
+        "created_at": "2026-11-01T13:13:49Z",
+        "created_day": "2026-11-01",
+        "pushed_at": "2026-11-02T15:10:51Z",
+        "last_release": "2026-11-02",
+        "last_release_tag": "v0.5.0",
+        "last_release_url": "https://github.com/AKamaly/CludeGods/releases/tag/v0.5.0",
+        "last_release_days": 13,
+        "releases_90": 5,
+        "releases_recent": [
+          {
+            "tag": "v0.5.0",
+            "date": "2026-11-02",
+            "pre": false,
+            "url": "https://github.com/AKamaly/CludeGods/releases/tag/v0.5.0"
+          },
+          {
+            "tag": "v0.4.0",
+            "date": "2026-11-02",
+            "pre": false,
+            "url": "https://github.com/AKamaly/CludeGods/releases/tag/v0.4.0"
+          },
+          {
+            "tag": "v0.3.0",
+            "date": "2026-11-01",
+            "pre": false,
+            "url": "https://github.com/AKamaly/CludeGods/releases/tag/v0.3.0"
+          },
+          {
+            "tag": "v0.2.0",
+            "date": "2026-11-01",
+            "pre": false,
+            "url": "https://github.com/AKamaly/CludeGods/releases/tag/v0.2.0"
+          },
+          {
+            "tag": "v0.1.0",
+            "date": "2026-11-01",
+            "pre": false,
+            "url": "https://github.com/AKamaly/CludeGods/releases/tag/v0.1.0"
+          }
+        ],
+        "release_status": "reciente",
+        "release_source": "releases.atom",
+        "release_note": "Added One-line install: curl -fsSL https://raw.githubusercontent.com/AKamaly/CludeGods/main/bootstrap.sh | bash clones CludeGods to ~/.cludegods/src , installs it and the three panes, and checks the result. Add | bash -s -- --voice for voice too. Safe to run again. cludegods ( ~/.claude/skills/gods/bin/cludegods ): setup voice (guided, picks up where it stopped, ends with a spoken self-test and a mic check), doctor (health checks with one-click repairs, also in the Workers pane), update , uninstall and version . uninstall.sh : removes CludeGods, backing everything up first; --keep-data keeps your workers, spaces and settings. Prebuilt CallPill: each published release carries CallPill-macos.zip . The installer uses it, re-signed on your Mac, when it cannot build CallPill itself (no Xcode command line tools). Voice from the first /gods : with no local voice yet, the call says what voice ne",
+        "release_highlight": "0.5.0: instalación en una línea, voz guiada y plantillas de workers.",
+        "release_impact": "Nuevo en el ranking: 73.20 A. 7/8 pilares; sin coordinación entre workers y solo macOS.",
+        "release_checked_at": "2026-11-15",
+        "changelog_url": null,
+        "judged_day": "2026-11-15",
+        "readme": "",
+        "topics": [
+          "ai-agents",
+          "always-on-agents",
+          "claude",
+          "claude-code",
+          "macos",
+          "voice",
+          "voice-assistant",
+          "voicemode"
+        ],
+        "homepage": "https://github.com/AKamaly/CludeGods",
+        "rank": 16
       },
       {
         "id": "sentelabsai-openexecutive",
@@ -2905,7 +4329,7 @@
           "typescript"
         ],
         "homepage": "https://openexecutive.ai",
-        "rank": 11
+        "rank": 17
       },
       {
         "id": "androoagi-starnet",
@@ -3144,7 +4568,7 @@
           "tauri"
         ],
         "homepage": "https://github.com/androoAGI/starnet-releases/releases/latest",
-        "rank": 12
+        "rank": 18
       },
       {
         "id": "microclaw-microclaw",
@@ -3376,7 +4800,7 @@
           "rust"
         ],
         "homepage": "https://microclaw.org",
-        "rank": 13
+        "rank": 19
       },
       {
         "id": "rokaswk-threebot",
@@ -3609,7 +5033,7 @@
           "t3code"
         ],
         "homepage": "https://bot.swk.tools/",
-        "rank": 14
+        "rank": 20
       },
       {
         "id": "ryder-sun-meldwork",
@@ -3844,7 +5268,7 @@
           "multi-agent-system"
         ],
         "homepage": "https://ryder-sun.github.io/Meldwork/",
-        "rank": 15
+        "rank": 21
       },
       {
         "id": "opencrabs-opencrabs",
@@ -4088,7 +5512,7 @@
           "self-learning"
         ],
         "homepage": "https://opencrabs.com",
-        "rank": 16
+        "rank": 22
       },
       {
         "id": "zhayujie-cowagent",
@@ -4333,7 +5757,7 @@
           "skills"
         ],
         "homepage": "https://cowagent.ai",
-        "rank": 17
+        "rank": 23
       },
       {
         "id": "agentvivekkumar-dontbemichael",
@@ -4562,7 +5986,7 @@
           "ai"
         ],
         "homepage": "https://dontbemichael.com",
-        "rank": 18
+        "rank": 24
       },
       {
         "id": "agentscope-ai-qwenpaw",
@@ -4804,7 +6228,7 @@
           "webui"
         ],
         "homepage": "http://qwenpaw.agentscope.io/",
-        "rank": 19
+        "rank": 25
       },
       {
         "id": "gcwing-openbitfun",
@@ -5043,7 +6467,7 @@
           "vibe-coding"
         ],
         "homepage": "openbitfun.com",
-        "rank": 20
+        "rank": 26
       },
       {
         "id": "rome-os-rome",
@@ -5283,7 +6707,7 @@
           "workflow-automation"
         ],
         "homepage": "https://romeos.cc",
-        "rank": 21
+        "rank": 27
       },
       {
         "id": "makecindy-cindy",
@@ -5524,7 +6948,7 @@
           "windows"
         ],
         "homepage": "https://cindy.app",
-        "rank": 22
+        "rank": 28
       },
       {
         "id": "777genius-agent-teams-ai",
@@ -5772,7 +7196,7 @@
           "typescript"
         ],
         "homepage": "https://agentteams.live",
-        "rank": 23
+        "rank": 29
       },
       {
         "id": "netease-youdao-lobsterai",
@@ -6014,7 +7438,7 @@
           "tyepscript"
         ],
         "homepage": "https://lobsterai.youdao.com",
-        "rank": 24
+        "rank": 30
       },
       {
         "id": "fei2411-ds-bot",
@@ -6238,7 +7662,7 @@
           "multi-agent"
         ],
         "homepage": "https://github.com/Fei2411/DS-Bot",
-        "rank": 25
+        "rank": 31
       },
       {
         "id": "ai-timon-timon",
@@ -6427,7 +7851,7 @@
         "readme": "",
         "topics": [],
         "homepage": "https://github.com/ai-timon/timon",
-        "rank": 26
+        "rank": 32
       }
     ]
   }
