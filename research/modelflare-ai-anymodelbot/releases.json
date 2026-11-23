@@ -1,87 +1,87 @@
 {
   "repo": "modelflare-ai/AnyModelBot",
   "source": "releases.atom",
-  "checked_at": "2026-11-15",
+  "checked_at": "2026-11-23",
   "entries": [
+    {
+      "tag": "v0.1.47",
+      "title": "v0.1.47",
+      "date": "2026-11-22",
+      "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.47",
+      "pre": false,
+      "note": "新增 图片用作生图参考： 用 Modelflare 账号登录后，在和机器人的单聊里加了图片，附件数量旁会出现「用作生图参考」开关，默认关闭。打开后，这条消息里的图片按显示顺序作为参考，由右下角选的那个模型生成图片，结果回到同一个对话；只加图片不会自动生成或收费。当前模型不支持、能力暂时确认不了，或图片超出模型的数量、格式、尺寸限制时，输入框上方会说明原因，点其中的「切换模型」就打开原来的模型选择器。费用确认照旧（每次都问，或预计超过 $0.5 时问）；结果不明时不会自动重试。需要 Modelflare 提供型号能力信息，确认不了时不会发送；自定义 API Key 暂不支持。 在模型选择器里选图片生成模型： 登录账号后，右下角的模型选择器会列出这个账户能用的图片生成模型。选中后直接写想要的画面就能生成，不经过对话模型。 改进与修复 生图只用当前选的模型： 登录账号时，让机器人用自然语言生成图片，也只用右下角选的那个模型；它不能生图或能力确认不了时，会说明原因并请你切换，不再改用另一个默认生图模型（设置里的「默认生图模型」在登录账号后不再显示）。只用 API Key 连接时不变。 New Images as image-generation references: when you're signed in to Modelflare and add images in a one-on-one chat with a bot, a “Use as image-generation references” switch appears next to the attachment count, off by default. Turn it on and the images in that message become references in display order; the model selected at the bottom right generates the image and the result comes back to the same ch"
+    },
+    {
+      "tag": "v0.1.46",
+      "title": "v0.1.46",
+      "date": "2026-11-22",
+      "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.46",
+      "pre": false,
+      "note": "新增 工作文件夹： 桌面版的输入框上方可以选择一个文件夹，之后的指令就在原位置读写，不用把文件一个个拖进对话。「工作区可写」下，机器人可以直接修改这个文件夹里的文件，不用逐次批准；写到它外面仍要先经过你同意。每条消息按发送时选的文件夹处理，排队或等批准时换了文件夹，也不会改到别处；从这条消息开始的后台任务也在这个文件夹里做。最近用过的 10 个文件夹可以直接选；应用的数据目录、磁盘根目录和主目录本身不能选。网页端能看到已选的文件夹，选择或更换要在运行机器人的桌面版上进行。 ZIP 附件： ZIP 可以直接拖进对话（单个不超过 50 MiB），和图片、文件一起发送，只发 ZIP 也可以。机器人只在你说明要做什么之后才查看或解压，默认解到它自己的工作区，也可以按你的要求解到工作文件夹；不会自动运行里面的程序。加密、分卷、路径不安全，或展开后超过 200 MiB、2,000 个条目的 ZIP 会被拒绝并说明原因。点一下已发的 ZIP 就能保存原文件。需要开启代理模式。 改进与修复 附件： 一次拖进多个文件时，能加的照常加入，加不了的汇总成一句说明（文件名和原因），不再整批不加。文件卡片显示文件类型，长文件名也保留扩展名。 New Work folder: in the desktop app, choose a folder above the message box and the bot works on the files right where they are, without dragging them in one by one. With Workspace access the bot can edit files in that folder without asking each time; writing anywhere else still needs your approval. Each message keeps the folder chosen when it was sent, so switching folders while it"
+    },
+    {
+      "tag": "v0.1.45",
+      "title": "v0.1.45",
+      "date": "2026-11-22",
+      "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.45",
+      "pre": false,
+      "note": "改进与修复 命令沙箱（Linux）： 机器人执行的命令只在 bubblewrap 沙箱里运行。系统没装 bubblewrap，或不允许它创建命名空间时，命令会被拒绝并说明原因和解决办法（安装 bubblewrap，或给它放行），不再悄悄换成只限制写文件的沙箱——那种沙箱下命令能读到应用的数据目录。完全权限的机器人不受影响。官方 Docker 镜像默认仍允许这种沙箱，因为按默认参数启动的容器建不了 bubblewrap 要的命名空间；不想允许时加 -e AMB_ALLOW_LANDLOCK=0 。 命令行版的访问令牌： 用 npm start 运行时，本机的管理界面也需要访问令牌才能打开。在终端里启动时会打印一次带令牌的地址，用浏览器打开一次就会记住；令牌也保存在数据目录的 ui-token 文件里， npm run bot 会自动读取。桌面版和 Docker 的用法不变。 Improvements and fixes Command sandbox (Linux): commands a bot runs now run only inside the bubblewrap sandbox. If bubblewrap is not installed, or the system does not let it create namespaces, the command is refused with the reason and how to fix it (install bubblewrap or allow it), instead of quietly falling back to a sandbox that only restricts writes and lets commands read the app's data directory. Bots with full access are not affected. The official Docker image still allows that fallback by default"
+    },
+    {
+      "tag": "v0.1.44",
+      "title": "v0.1.44",
+      "date": "2026-11-20",
+      "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.44",
+      "pre": false,
+      "note": "改进与修复 图片附件： 有几类图片拖进或粘贴进对话时会被当成不支持的格式，现在可以正常加入：扩展名和实际格式对不上的图片（比如存成 .jpg 的 PNG 或 WebP）、手机拍的带附加数据的 JPEG 和动态照片（只取其中的静态画面）、扩展名是 .jfif 或 .jpe 的图片。确实加不了的图片会提示转成 PNG 或 JPG，不再提示改用 Markdown、HTML 或 TXT。 预览安全： 预览机器人生成的网页时，页面里的脚本读不到同一文件夹里其他文件的内容（不能再用 fetch 读取）；样式、脚本、图片和字体照常加载。JSON 等数据文件不再提供给预览里的网页，页面要用的数据请内联进 HTML 或写成脚本。 应用内更新： macOS 上点「重启并更新」后，安装期间不再弹出「AnyModelBot 出错了」的窗口。这个修复从 0.1.44 起生效：从旧版本升到 0.1.44 的这一次仍可能弹出，更新会照常完成。 Improvements and fixes Image attachments: several kinds of images were rejected as an unsupported format when dragged or pasted into a chat and are now accepted: images whose extension does not match their real format (a PNG or WebP saved as .jpg, for example), phone JPEGs with extra data after the image and motion photos (only the still frame is used), and images with a .jfif or .jpe extension. An image that really cannot be added now asks you to convert it to PNG or JPG instead of"
+    },
+    {
+      "tag": "v0.1.43",
+      "title": "v0.1.43",
+      "date": "2026-11-19",
+      "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.43",
+      "pre": false,
+      "note": "新增 图片和文件附件： 在对话里粘贴截图或图片，或把图片和文本文件（Markdown、HTML、TXT、CSV、JSON、代码等）拖进对话，和文字一起发给机器人，只发附件也可以。图片交给能看图的模型，文件的完整文字交给模型阅读；点缩略图可以放大查看。每条消息最多 8 个附件，其中图片最多 4 张，每个不超过 10 MiB。当前模型不支持图片时会直接提示。PDF、Office 文档、压缩包和音视频暂不支持。 需求与反馈： 「意见和反馈」改为「需求与反馈」，分成「使用场景与建议」「遇到问题」「企业与合作」三类，各自保留草稿。联系方式默认不附带，只有你勾选同意后才随这次提交发出；日志也要你勾选才带，发送前可以查看完整内容。发现页新增企业场景分区。 改进与修复 整理本机文件： 请机器人整理桌面等文件夹里的文件时，不再要求先开启「辅助功能」或「屏幕录制」；超出工作区的操作照常先请你批准。真正需要操作桌面应用而缺少系统权限时，对话里会出现授权卡，由你点「去开启」。 预览： 焦点在右侧预览时，Cmd+W / Ctrl+W 只关闭当前标签；预览的空状态和「+」菜单会列出本对话打开过的文件。 技能： 「存成技能」默认整理最近完成的那件事；草稿卡上的选择在编辑后保留；导入完成后提示和卡片不再停在「加载中」。 对话与任务： 内容或输入框变高时对话仍贴着底部，提示行和卡片不再被输入框挡住；机器人的「任务」页会列出其他机器人交来的事，并标明来自谁。 New Image and file attachments: paste a screenshot or image into a chat, or drag in images and text files (Markdown, HTML, TXT, CSV, JSON, code and more), and send them with your message. You can also send attachments on their own. Images go to models that can see images, and t"
+    },
+    {
+      "tag": "v0.1.42",
+      "title": "v0.1.42",
+      "date": "2026-11-18",
+      "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.42",
+      "pre": false,
+      "note": "新增 应用内反馈： 账户菜单里的「意见和反馈」、对话里报错下方的「反馈这个问题」、「设置 → 故障排查」和「设置 → 关于」都能打开反馈窗口。选「遇到问题」「功能建议」或「其他」，写几句话就能发送。版本和系统信息会自动附带，从报错打开时还会带上那条报错；诊断信息由你勾选，发送前可以预览全文，不带对话内容和截图。登录 Modelflare 后，反馈会成为你账户下的一张工单，客服回复会发到邮箱，也能在 Modelflare 的工单页查看，每天最多发送 3 次。没登录时可以改用 GitHub 或邮件，内容会帮你填好。 改进与修复 邮件链接： 桌面版里点对话中的邮件链接，会用系统的邮件程序打开；之前点了没有反应。 New In-app feedback: open the feedback window from Feedback in the account menu, \"Report this problem\" under an error in chat, Settings → Troubleshooting or Settings → About. Choose Problem, Suggestion or Other, write a few lines and send. The version and system details are always included, and opening it from an error adds that error. Diagnostics are included only if you tick the box, you can preview the full text before sending, and conversations and screenshots are never attached. When you're signed in to Modelflare, your feedback becomes a support ticket on your account: replies are"
+    },
+    {
+      "tag": "v0.1.41",
+      "title": "v0.1.41",
+      "date": "2026-11-16",
+      "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.41",
+      "pre": false,
+      "note": "新增 土耳其语： 界面、托盘菜单、机器人发出的系统消息、官网和文档都可以用土耳其语。在首次引导或「设置 → 通用 → 语言」里选「Türkçe」；系统语言是土耳其语时会自动用上。百分号写在数字前面，美股研究的图表也能认出这种写法。首页演示视频仍是英文录屏。 New Turkish: The interface, tray menu, system messages from bots, website and documentation are available in Turkish. Pick Türkçe during setup or in Settings → General → Language. If your system language is Turkish, the app uses it automatically. The percent sign comes before the number, and US Stock Research charts read that form. The homepage demo is still the English recording. 新機能 トルコ語： 画面、トレイメニュー、ボットのシステムメッセージ、ウェブサイト、ドキュメントがトルコ語に対応しました。初回案内か「設定 → 一般 → 言語」で「Türkçe」を選べます。システムの言語がトルコ語なら自動で使います。パーセント記号は数字の前に置き、米国株リサーチのグラフもその書き方を読みます。ホームページのデモ動画は引き続き英語版です。 새 기능 튀르키예어: 화면, 트레이 메뉴, 봇의 시스템 메시지, 웹사이트와 문서가 튀르키예어를 지원합니다. 처음 안내 또는 설정 → 일반 → 언어에서 Türkçe를 고르세요. 시스템 언어가 튀르키예어이면 자동으로 사용합니다. 퍼센트 기호는 숫자 앞에 두며, 미국 주식 리서치 차트도 이 형식을 읽습니다. 홈페이지 데모 영상은 아직 영어 녹화본입니다. Новое Турецк"
+    },
+    {
+      "tag": "v0.1.40",
+      "title": "v0.1.40",
+      "date": "2026-11-15",
+      "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.40",
+      "pre": false,
+      "note": "新增 任务库： 「定时」页新增 20 个现成任务，涵盖资讯、工作、学习、生活和理财。选一条、填几项、选机器人和发送位置即可打开，也能在对话里让机器人从任务库创建规则。检查类任务可以先试一次，结果只在试跑窗口和运行记录里显示，不向聊天渠道发送。电脑和应用开着时才会运行。 更完整的文件预览： 代码支持行号、语法着色与自动换行，JSON 支持格式化与折叠，CSV / TSV 支持表格、排序、搜索和编码切换；Markdown 支持图片、任务列表、大纲和原文，图片可缩放、拖动，HTML 可切换预览与源码。 改进与修复 预览操作与刷新： 标签带文件类型图标和右键菜单，「+」可选本对话交付的文件；面板可放大到整个应用窗口，记住视图、缩放和换行设置，文件变化时更新预览。桌面版支持另存为、在文件夹中显示，以及用浏览器打开 HTML。 规则时间与结果： 支持每年提醒、每月或每年提前几天提醒；任务库检查可发送多行简报，试跑费用计入当月用量，常见 cron 时间显示得更易读。 官网： 社群入口改为文字菜单，悬停或键盘聚焦即可展开；简化首页功能区，更新日志只展示已经发布的版本。 New Task library: the Scheduled page adds 20 ready-made tasks for news, work, learning, daily life and finance. Pick one, fill in a few fields, choose a bot and destination, then turn it on; you can also ask a bot to create a library rule in chat. Check tasks can be tried once first, with results shown only in the trial dialog and run log, without sending them to chat channels. The computer and app must be runnin"
+    },
+    {
+      "tag": "v0.1.39",
+      "title": "v0.1.39",
+      "date": "2026-11-15",
+      "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.39",
+      "pre": false,
+      "note": "AnyModelBot 0.1.39"
+    },
     {
       "tag": "v0.1.38",
       "title": "v0.1.38",
       "date": "2026-11-15",
       "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.38",
       "pre": false,
-      "note": "AnyModelBot 0.1.38"
-    },
-    {
-      "tag": "v0.1.37",
-      "title": "v0.1.37",
-      "date": "2026-11-15",
-      "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.37",
-      "pre": false,
-      "note": "新增 关于我： 「团队记忆」改名为「关于我」，放所有机器人共用的、关于你本人的事。在任一机器人的对话里说一次（比如「我是 Melody」），所有机器人都知道；回复下面会提示一行，可以撤销。地址、电话、邮箱先问你再记，你自己改过的句子机器人不会改回去，你删掉的也不会再自动记回来。在「设置 › 关于我」里查看、修改，变更历史保留 30 天、每条都能撤销；原来的团队记忆会自动搬过来。 机器人之间发消息： 在应用里对一个机器人说「交给 产品助理」，它会把要做的事、背景和文件发给另一个机器人。对方用自己的模型、权限和预算在后台做，需要批准时以它的名义在当前对话里问你，做完回消息；原来的机器人核对后告诉你，没达标会先让对方重做。点对话里的灰色小字能看两个机器人之间的往来。需要登录 Modelflare，并且两边都用 Modelflare 模型。 机器人协作设置： 在「设置 › 机器人协作」里可以关掉，或调整每件事的花费、时长、每天件数和重做次数上限，并查看机器人之间的对话和花费。 改进与修复 机器人设置与记忆页签： 去掉每个机器人的「允许写入团队记忆」开关，换成「关于我」入口；记忆页签顶部显示关于我有几句，可以直接查看和删除。 自动整理记忆： 不再把关于你本人的事记进单个机器人的记忆，冲突时以「关于我」为准。 聊天软件里： 在微信、飞书等私聊里记下关于你的事时，回复后面附一行，回「撤销」可撤回；地址、电话、邮箱只在这次对话里用。 New About me: team memory is now About me, for things about you that all your bots share. Say it once in any chat (like \"I'm Melody\") and every bot knows; a one-line note under the reply lets you undo it. Bots ask before saving an address, phone number or email, never change back "
-    },
-    {
-      "tag": "v0.1.36",
-      "title": "v0.1.36",
-      "date": "2026-11-14",
-      "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.36",
-      "pre": false,
-      "note": "新增 把做成的事存成技能： 和机器人把一件事做对后，在输入框的「+」里点「存成技能…」、发 /skill 或直接说「存成技能」，机器人会整理出一张草稿卡，列出步骤、你纠正过的地方、用到的应用和技能，以及「试试这样说」。确认后存进「我的技能」，可以在其他机器人上一键打开，也能设成定时。密钥不会写进技能，手机号、邮箱等个人信息默认改成每次使用前再问；同一个技能可以更新、恢复上一版或导出 ZIP。 在微信、飞书里存技能： 微信、飞书、Telegram、Slack、Discord 私聊里也能发起，回复「保存」即可存下，回复「取消」放弃；群聊里不能发起。 技能库： 「连接应用」改名为「应用与技能」，新增「技能」标签，收录 31 个开源仓库的 155 个技能，可按用途分类、按作者筛选。复制安装指令发给任意机器人，或直接发技能的 GitHub 链接，确认卡片后就装上。 在对话里用技能和应用： 输入框「+」›「技能与应用」列出这个机器人能用的技能和应用，点一项会填入「用{名称}帮我……」。回复上方显示正在使用和已使用的技能、应用，技能名可以点开看详情。 改进与修复 技能列表更好找： 开着的排在前面；超过 10 个时可以搜索，并按「我的技能、GitHub、本地 ZIP、已关闭」筛选。每个技能标明是否已生效和来源，并附一句「试试这样说」。 体验额度期间的模板： 按当前额度选择合适的模型档位，并说明模板原本推荐的档位。 电脑操作授权： 后台任务接着做时被权限拦下，也会显示授权卡片；不再留下没有对应卡片的等待状态。 上手清单与提示： 点清单步骤被挡住时说明原因；操作提示移到主区顶部居中显示。 定时规则： 展开的规则按提示词、频率、下次运行和发送位置分区；选择机器人改为可搜索的列表；新建规则用卡片选择「发一句提醒」或「让它做件事」，「让它做件事」可以选用「我的技能」；改进空状态和英文的时区提示。 更新、账户和细节： 更新入口直接写明版本号；账户信息读取失败时可以重试；「退出登录」改为红色；应用内群聊余额不足时显示充值入口；模板卡片加上边框，入口去掉箭头。 New Save what you di"
-    },
-    {
-      "tag": "v0.1.35",
-      "title": "v0.1.35",
-      "date": "2026-11-14",
-      "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.35",
-      "pre": false,
-      "note": "新增 更简洁的侧栏与图标： 通用操作图标统一使用 Heroicons。顶部保留收起、搜索和新建，定时移到文字导航；账户旁的更新按钮可直接下载，准备好后点击重启更新。 余额在设置中直接展示： 在「设置 → 模型」顶部查看账户余额、Bot 额度和剩余百分比，可刷新或充值；移除侧栏的余额圆环和悬停卡片。 改进与修复 稳定的资源预览： 网址输入和资源选择使用统一控件；右侧面板切换标签时保持宽度，手动调整后也不再跳变。修复侧栏收起后展开按钮可能无法点击的问题。 更准确的错误提示： 额度预占失败归为余额不足，带前缀的错误也能识别状态码；提供与账户来源匹配的恢复入口，侧栏不再展示原始错误报文。 更清楚的电脑权限流程： 单项权限使用单数标题，需要重新打开时直接显示主操作；重新打开前保留聊天与表单草稿，并保留待继续请求。 规则管理修复： 切换开关或投递位置保留撤销资格；主人可跨会话管理规则，群聊成员的规则操作按身份隔离。频率按未来 30 天计算，高频建议改为每 3 小时或每天。 引导与文案统一： 模板初始记忆和自动整理不再误计入「让它记住你」；统一模板示例、撤销提示、规则表单和启用说明，同步七种语言。 New Cleaner sidebar and icons: standard actions now use Heroicons. Collapse, search and new stay at the top, while Scheduled becomes a labeled navigation item. The update button beside your account downloads updates and restarts to install when ready. Balance directly in Settings: Settings → Models shows your account balance, Bot credits and remaining percentage, with refresh and top-up actions. T"
-    },
-    {
-      "tag": "v0.1.34",
-      "title": "v0.1.34",
-      "date": "2026-11-14",
-      "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.34",
-      "pre": false,
-      "note": "新增 启动早期诊断： 桌面版在申请单实例锁前就写入独立的 startup- - .log ，记录系统版本、实际数据目录、锁结果和启动阶段。数据目录无法写入时，会尝试系统临时目录。 启动排查开关： 使用 --diagnose-startup 启动时，如果未获得单实例锁，会显示诊断日志位置，方便排查无窗口退出。 改进与修复 重复启动发生在本机界面服务尚未就绪时，先保留窗口唤起请求，待就绪后再打开，避免过早创建窗口。 每次启动使用独立日志，主实例保留最近 20 份；正常的 app.log 不受第二次启动的日志轮转影响。 这是对 #71 的诊断改进，尚不能确认 Win11 Insider Build 26300 的秒退根因。如果 ELECTRON_RUN_AS_NODE 让程序以 Node 模式启动，应用代码不会执行，仍需先检查这个环境变量。Windows 默认日志目录为 %APPDATA%\\anymodel bot\\data\\logs ，名称中有空格。 New Early startup diagnostics: the desktop app writes a separate startup- - .log before requesting the single-instance lock, recording the OS version, actual data directory, lock result and startup stages. If the data directory is unwritable, it tries the system temporary directory. Startup troubleshooting switch: launch with --diagnose-startup to show the diagnostic log location when the single-instance lock is not acquired, helping investigate exits without a wind"
-    },
-    {
-      "tag": "v0.1.33",
-      "title": "v0.1.33",
-      "date": "2026-11-14",
-      "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.33",
-      "pre": false,
-      "note": "新增 定时规则集中管理： 侧栏新增「定时」页，查看所有机器人的规则和需要处理的事项。对话、任务面板和定时页共用开关；新机器人也能建规则，可以先关着。对话建好或修改规则后显示卡片，支持撤销；撤销创建后 10 分钟内可以恢复。 错过后补跑与群聊日报： 日历类规则支持最长 12 小时内补跑最近一次，结果标明原定时间；「每隔」类不补跑。新增每月调度、接下来三次运行时间、时区和花费估算。群聊日报可选择要整理的应用内群聊，跨天补跑仍整理原定日期。 10 个机器人模板： 新增模板入口，按写作、工作、学习等用途选择，预览人设、记忆与规则后创建；可比较适合的模型。模板规则默认关闭，打开时再补选发送位置和来源群聊。 右侧资源预览： 对话、群聊和工作台里的文件与网页可以在右侧打开。支持 Markdown、文本与代码、PDF、图片和 HTML，并保留下载、系统打开和浏览器打开入口。 更适合右侧面板的工作台： 官方 Bot 的项目导航会随可用宽度折叠；可展开工作台，再返回对话，保留当前编辑状态。 macOS 授权后继续： 缺少电脑操作权限时只显示一张授权卡片，自动检测权限；符合条件时回到原会话继续未完成步骤，保留草稿。有新消息或等待超过 30 分钟时，由用户点「继续」。 改进与修复 改进 Modelflare 登录回跳、账户昵称与头像，以及首次使用引导；连接应用的列表、搜索和错误提示更清楚。 改进影视创作室的画布布局和美股研报的图表数据处理；PPT 大师、尽调助手等官方 Bot 同步适配新工作台。 规则结果显示来源，并遵循回复通知设置。可选择在插电且规则快到点时防止睡眠；此功能不能唤醒已经睡着或合盖的电脑。 New Scheduled rules in one place: the new Scheduled page lists rules across all bots and highlights those needing attention. Chat cards, Tasks and Scheduled share on/off controls. Create rules befo"
-    },
-    {
-      "tag": "v0.1.32",
-      "title": "v0.1.32",
-      "date": "2026-11-11",
-      "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.32",
-      "pre": false,
-      "note": "新增 西班牙语和葡萄牙语（巴西）： 应用新增两种界面语言，在「设置 → 常规 → 语言」里选；系统语言是西班牙语或葡萄牙语时自动使用。界面、托盘菜单、机器人发出的系统消息和「更新了什么」都已翻译。 官方 Bot 也有西语和葡语版： PPT 大师、影视创作室、尽调助手和美股研报的名字、介绍、示例问题、工作台界面和示例内容都有西班牙语和葡萄牙语版本。 改进与修复 美股研报的图表能读懂用逗号作小数点的数字（如 12,5%），关键指标的涨跌按界面语言的数字格式显示。 New Spanish and Portuguese (Brazil): Two new interface languages. Pick one in Settings → General → Language; if your system language is Spanish or Portuguese, the app uses it automatically. The interface, the tray menu, system messages from bots and What's new are all translated. Official bots in Spanish and Portuguese: PPT Master, Film Studio, Company Research and US Stock Research have Spanish and Portuguese names, descriptions, starters, workspace interfaces and samples. Improvements and fixes US Stock Research charts read numbers that use a comma as the decimal mark (such as 12,5%), and changes in the key figures follow the number format of the interface l"
-    },
-    {
-      "tag": "v0.1.31",
-      "title": "v0.1.31",
-      "date": "2026-11-11",
-      "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.31",
-      "pre": false,
-      "note": "新增 连接应用： 左下角头像菜单新增「连接应用」。把常用应用连上，机器人就能替你读写其中的内容。连一次，默认所有机器人都能用；也可以在机器人设置的「应用」里按机器人、按工具收窄。 内置海外应用： GitHub、Notion、Linear、Atlassian（Jira 和 Confluence）、Canva，按提示一两步就能连上。 内置国内应用： 飞书（读写云文档、查看群聊消息）、腾讯文档、钉钉、高德地图、语雀。中文界面把它们排在前面。 自定义连接器（MCP）： 在应用页的「我的 MCP」里添加。粘贴链接、mcpServers JSON、 claude mcp add 命令或本地启动命令就能识别，也可以用表单或 JSON 填写。支持远程服务和本地命令，认证方式有授权登录、请求头、查询参数和专属链接，最多 20 个。 改数据前先问你： 只读的工具直接用。写入默认先在对话里问你，可以选「以后这个工具都允许」，之后能在机器人设置里撤销。删除和对外发送每次都问。只读权限的机器人不能写。 在对话里补上连接： 任务要用还没连接的应用，或者授权过期、密钥失效时，对话里会出现一张卡片。点一下去连接或修复，完成后机器人接着做原来的任务。 右侧面板： 原来的信息面板改成一排标签：概览、任务、记忆。官方 Bot 多一个「工作台」放它的专属界面，主区始终是对话。 侧栏分组： 机器人、群聊和官方 Bot 可以放进自己建的分组。分组可以新建、改名、删除，也可以拖动排序。 官方 Bot 的专属形象： PPT 大师、影视创作室、尽调助手和美股研报各有自己的头像和新封面。没换过头像的会自动换上。 改进与修复 设置里的「连接」改名为「聊天渠道」，只放聊天软件的账号。原来的 Notion 账号移到「连接应用」，不用重新授权。 原来的飞书消息账号也移到「连接应用」的飞书卡片下，不用重新授权；重新授权后还能读写云文档。 Notion 的建页面、改页面现在也按上面的规则先问你。 应用的令牌、Key 和专属链接保存在单独的文件里，不在数据库里；界面和日志里都打码。 macOS 上不再弹出钥匙串授权窗口：Modelfl"
-    },
-    {
-      "tag": "v0.1.30",
-      "title": "v0.1.30",
-      "date": "2026-11-09",
-      "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.30",
-      "pre": false,
-      "note": "新增 Bot 额度： 有 Modelflare Bot 额度的账户，左下角显示一个圆环和剩余百分比，点开能看到 Bot 额度、账户余额和充值入口。Bot 额度只能在 AnyModelBot 里使用，应用签发的 Key 发出的请求会先用它；打开卡片时和每次处理完消息后都会刷新。没有 Bot 额度的账户，左下角和以前一样。 新用户注册送 $1 Bot 额度： 登录页和填写 API Key 的页面写明了注册赠送；订阅 Modelflare 套餐另送套餐额度 10% 的 Bot 额度，额度卡片里也有说明。 更新了什么： 升级后第一次打开时弹窗说明这次更新的内容，往下滑能看完所有版本；点侧栏的新版本提示，会先看新版本更新了什么，再决定下载或重启更新；「设置 → 关于」里随时可以看更新日志。 官方 Bot 改成桌面工作台： 尽调助手、PPT 大师、影视创作室和美股研报左边是作品列表、右边是内容，「新建」用向导点选几项就能开始；顶栏可以在「工作台」和「对话」之间切换，对话里是完整的对话流。美股研报把关键数字画成小图，影视创作室有分镜表和画面、视频、声音的轨道，PPT 大师可以翻页预览。 带专属界面的 Bot 也能选模型： 底部输入框和普通对话一样，有模型选择、「+」菜单和斜杠命令。 搜索弹窗列出最近对话： 还没输入时，按今天、昨天、前 7 天和更早列出最近的对话。 改进与修复 微信扫码登录要输入手机上的验证码时，输入后立刻验证，不再等半分钟；验证码不对会直接提示，输错太多次会自动换一张新二维码。 账户菜单和账户区一样宽，悬停时只有头像变深；设置页的分页导航撑满侧栏，账户区固定在底部。 带专属界面的 Bot 底部的示例改成一排单行胶囊，放不下时悬停可看全文。 New Bot credits: Accounts with Modelflare Bot credits see a ring and the percentage left in the bottom-left corner. Click it to see your Bot credits, account balance "
-    },
-    {
-      "tag": "v0.1.29",
-      "title": "v0.1.29",
-      "date": "2026-11-09",
-      "url": "https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.29",
-      "pre": false,
-      "note": "新增 自动下载更新（默认开启）： 桌面安装版在后台下载新版本，下载完成后在侧栏和「设置 → 关于」提示「重启并更新」。可在「设置 → 常规」关闭自动下载，改为手动下载。 重启安装由你点击确认；有对话或后台任务正在运行时会等待你稍后操作，普通退出不会自动安装更新。 0.1.28 及更早版本需要先手动安装一次本版，之后才能使用应用内更新。支持 macOS、Windows 和 Linux AppImage；Docker 与源码部署仍手动升级。 登录后自动回到应用： 在浏览器里同意授权后，页面会等应用真正连好再显示「登录成功」，并把你带回 AnyModelBot；没连上时直接说明原因。填写 API Key 的页面也可以直接改用 Modelflare 账号登录。 首次登录自动选好模型： 还没有默认模型时，从你能用的模型里选一个支持工具、花费低的（优先 DeepSeek），让体验额度足够完成几轮常见任务；没有合适的模型时会说明原因，由你自己选。 macOS 电脑操作权限用到时才申请： 机器人第一次要点击、输入或查看屏幕时，如果缺少「辅助功能」或「屏幕录制」权限，这一轮会停下，聊天里说明缺哪一项，并提供系统授权、打开对应设置页和重新检测；需要重新打开应用时，没发出的草稿会保留。 发现页封面： 官方 Bot 换上按用途绘制的场景封面，跟随浅色 / 深色主题切换；精选 Bot 以大卡片展示。 改进与修复 出错提示更清楚：余额不足、凭据失效、模型不可用、请求过于频繁、网络失败等情况分别说明原因，并给出充值、换模型等对应操作；原始错误收在「错误详情」里，可以复制（已去除密钥）。同一个错误不再重复弹出，侧栏只显示「失败：原因」；重新发送前会说明将从头执行整个任务。尽调助手的任务报错也改为同样的折叠展示。 左下角账户区常驻显示余额和「充值」入口，余额较低时直接在这里提示，应用内不再另弹通知。账户菜单里可以提交反馈、检查更新和退出登录；有任务在运行时，退出前会先确认。使用自己的 API Key 时，这里也能登录 Modelflare，原有 Key 和配置照常保留。 上手清单：「连接常用聊天工具」可"
+      "note": "新增 自动换回真实模型： 以前选过的「auto/…」模型（全局默认、机器人的默认模型、对话里临时换的），启动时自动换成对应的真实模型；找不到时改回跟随默认。 改进与修复 模型列表里不再出现「auto/…」模型： 一个模型同时由几处提供时（比如机器人开了单独预算，或另外填了官方 API Key），列表里会多出一个看起来和原模型一样、实际叫「auto/模型名」的条目，选了它请求会因模型不存在而失败。现在不再列出，也不会再这样发出去。 New Switches back to the real model: a model you picked earlier that was really \"auto/…\" (the global default, a bot's default or a model switched in a chat) changes to the matching real model at startup, or back to the default if there is none. Improvements and fixes No more \"auto/…\" models in the model list: when a model was offered by more than one source (for example a bot with its own budget, or an official API key added alongside Modelflare), the list gained an entry that looked like the original but was really \"auto/model-name\", and picking it made requests fail with an unknown model. It is no longer listed or sent. 新機能 実際のモデルに自動で戻す： 以前選んでいた「auto/…」のモデル（全体の既定、ボットの既定、チャ"
     }
   ]
 }

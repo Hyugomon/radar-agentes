@@ -4,7 +4,7 @@
 - **Repo**: —
 - **Licencia**: Comercial
 - **Categoría**: orchestrator
-- **Revisado**: 2026-11-13
+- **Revisado**: 2026-11-23
 - **ADE Score**: 72.2 · Tier A
 
 ## Qué es
@@ -13,12 +13,16 @@ Workspace programable para coordinar agentes existentes, terminales y tareas, co
 
 ## Release revisada
 
-- **Tag**: [v0.12.4](https://soloterm.com/changelog)
-- **Fecha**: 2026-10-31 (hace 15 días)
-- **Estado**: reciente · **Releases en 90 días**: —
-- **Revisado**: 2026-11-15 · **Fuente**: changelog
+- **Tag**: [v0.12.5](https://soloterm.com/changelog)
+- **Fecha**: 2026-11-16 (hace 7 días)
+- **Estado**: activo · **Releases en 90 días**: —
+- **Revisado**: 2026-11-23 · **Fuente**: changelog
 
-> v0.12.4 Released on October 31, 2026 TL;DR Stopping a command now lets it shut down cleanly. On macOS and Linux, Solo asks it to exit the way Ctrl+C would and escalates only if it keeps running. On Windows, Solo sends Ctrl+C and force-stops only after about 3 seconds. Child processes are stopped too, and a project whose folder is missing at startup is kept instead of removed. Timer and MCP messages to agents are much more dependable. They no longer get stuck unsubmitted in a prompt, never answer a permission prompt or question for you, and typing into an agent mid-delivery no longer locks its terminal. Resume also follows Claude Code's /clear and /resume , and Codex's -C . MCP gives you cont
+**Qué trae**: v0.12.5: corrección de teclas muertas/acentos en macOS y actualización de seguridad OpenSSL.
+
+**Impacto en la ficha**: Sin cambio de score (72.20 A).
+
+> v0.12.5 Released on November 16, 2026 Fixed Terminal On macOS, typing an accent with a dead key, such as ´ then A on a Latin American layout, types the accented letter once. In 0.12.4 it was followed by a second, unaccented letter ( áa , ÁA ). Security Updated openssl to 0.10.80, which fixes RUSTSEC-2026-0463 and RUSTSEC-2026-0473 through RUSTSEC-2026-0479. Only Linux builds use OpenSSL, for HTTPS requests. Updated actix-web to 4.18.2 and actix-http to 3.20.3, which fix RUSTSEC-2026-0446, RUSTSEC-2026-0447, RUSTSEC-2026-0448 and RUSTSEC-2026-0455. v0.12.4 Released on October 31, 2026 TL;DR Stopping a command now lets it shut down cleanly. On macOS and Linux, Solo asks it to exit the way Ctrl
 
 ## Evidencia
 

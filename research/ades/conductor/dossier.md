@@ -4,8 +4,8 @@
 - **Repo**: —
 - **Licencia**: Comercial
 - **Categoría**: workspace
-- **Revisado**: 2026-11-13
-- **ADE Score**: 80.36 · Tier A
+- **Revisado**: 2026-11-23
+- **ADE Score**: 80.72 · Tier A
 
 ## Qué es
 
@@ -13,12 +13,16 @@ Workspace para correr agentes de código en paralelo, con ejecución local o clo
 
 ## Release revisada
 
-- **Tag**: [0.94.2](https://www.conductor.build/changelog/rss.xml)
-- **Fecha**: 2026-11-13 (hace 2 días)
+- **Tag**: [0.98.0](https://www.conductor.build/changelog/rss.xml)
+- **Fecha**: 2026-11-20 (hace 3 días)
 - **Estado**: activo · **Releases en 90 días**: —
-- **Revisado**: 2026-11-15 · **Fuente**: changelog
+- **Revisado**: 2026-11-23 · **Fuente**: changelog
 
-> Fri, 13 Nov 2026 00:00:00 GMT Conductor 0.94.2: Conductor is back https://www.conductor.build/changelog/0.94.2-conductor-is-back https://www.conductor.build/changelog/0.94.2-conductor-is-back Fri, 13 Nov 2026 00:00:00 GMT Conductor isn't shutting down. It's back, and we're building again. Thank you for sticking with us! If you need anything, email support@conductor.build. Conductor 0.94.0: Claude Fable 5.2 https://www.conductor.build/changelog/0.94.0-claude-fable-5-2 https://www.conductor.build/changelog/0.94.0-claude-fable-5-2 Mon, 09 Nov 2026 00:00:00 GMT Claude Fable 5.2 Claude Fable 5.2, Anthropic's upgraded model for the most demanding technical work, is now available in Conductor. Impr
+**Qué trae**: 0.98.0 (y 0.97.0): página Usage con coste y tokens (7/30/90d), barra de tareas en segundo plano con Stop, artefactos HTML inline y autorrecuperación del servicio.
+
+**Impacto en la ficha**: Tier A (+0.36): Control 75→78 y Producto 90→92.
+
+> Fri, 20 Nov 2026 00:00:00 GMT Conductor 0.98.0: See where your usage goes https://www.conductor.build/changelog/0.98.0-see-where-your-usage-goes https://www.conductor.build/changelog/0.98.0-see-where-your-usage-goes Fri, 20 Nov 2026 00:00:00 GMT The new Usage page shows your chats, estimated cost, and tokens across local workspaces for the last 7, 30, or 90 days, broken down by model and by workspace. Open it from the Usage button in the sidebar footer or in Settings → Usage. The Usage page showing chats, estimated cost, and tokens over 30 days, broken down by model and workspace Themes are also out of experimental. In Settings → Appearance, pick a preset like Dracula or Nord, make your own 
 
 ## Evidencia
 
@@ -58,9 +62,9 @@ Workspace para correr agentes de código en paralelo, con ejecución local o clo
 - **Remoto / cloud**: 92/100
 - **Móvil**: 88/100
 - **Extensiones**: 60/100
-- **Control**: 75/100
+- **Control**: 78/100
 - **Apertura**: 40/100
-- **Producto**: 90/100
+- **Producto**: 92/100
 
 ## Fortalezas
 

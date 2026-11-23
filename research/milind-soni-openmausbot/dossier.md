@@ -4,9 +4,9 @@
 - **Web oficial**: https://www.mausbot.com/
 - **Licencia**: Apache-2.0
 - **Lenguaje**: TypeScript
-- **Estrellas**: 21414 · **Forks**: 2989
-- **Último push**: 2026-11-12T07:08:53Z · **Última release**: 2026-11-14
-- **Revisado**: 2026-11-12 · **Confianza**: 62/100
+- **Estrellas**: 27161 · **Forks**: 3869
+- **Último push**: 2026-11-23T21:38:15Z · **Última release**: 2026-11-22
+- **Revisado**: 2026-11-23 · **Confianza**: 62/100
 - **Tipo**: agent · **Categoría**: teams
 
 ## Qué es
@@ -21,12 +21,16 @@ README: cada bot tiene personalidad, modelo, computadora y apps; memoria y rutin
 
 ## Release revisada
 
-- **Tag**: [v0.1.158](https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.158)
-- **Fecha**: 2026-11-14 (hace 1 días)
+- **Tag**: [v0.1.177](https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.177)
+- **Fecha**: 2026-11-22 (hace 1 días)
 - **Estado**: activo · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
-> What's new in 0.1.158 Bots can change app settings for you Ask a bot to change a setting and it does it, with an Undo in the chat. You can make MausBot a regular bot if you don't want it as your helper. Rooms and teams Point at a member's page from inside a room. Set up many bots at once: a Chief can edit up to 40 bots in one go and add a rule to each. A Chief in charge of every department gets new departments automatically. Fork a conversation from any message to try a different direction without losing the original. Voice Listen with your ElevenLabs key, and speak Thai through Eleven v3. Phone A pairing link says when it only works on the same Wi-Fi. Phones without admin rights can read a 
+**Qué trae**: v0.1.177 (y v0.1.170–v0.1.176): conversaciones bot-a-bot visibles en vivo, revisión "Check before done" por otro bot, auto-recordatorios, autocompactación y OpenCode en un clic.
+
+**Impacto en la ficha**: Sube a 82.80 S (+1.35): Capacidad 78→80, Autonomía 74→77 y Producto 68→72. Desatendido sigue en falso para uso local sin nube/servidor.
+
+> What's new in 0.1.177 Bots and work See what your bots said to each other. When a bot hands work to a teammate, the hand-off shows as a small chip with the teammate's face and name. Click it to read their conversation right in the chat, live, with "Back" to return to where you were. Handed-off conversations get real names. A conversation a teammate opens is named after the job it was handed. Reasoning sticks. In Simple mode, picking a Reasoning level in a bot's panel now also makes it that bot's default, the same way Model does. New conversations start at that level. Chief of Staff mail checks also read your connected Outlook. A failed turn says why it ended in its summary. Codex "Compact no
 
 ## Evidencia de la investigación
 
@@ -56,22 +60,22 @@ README: cada bot tiene personalidad, modelo, computadora y apps; memoria y rutin
 
 ## Puntuación
 
-Grok Score: **81.45** · Tier **S** · ADN **90**
+Grok Score: **82.8** · Tier **S** · ADN **90**
 
-- **capacidad**: 78/100
-- **autonomia**: 74/100
+- **capacidad**: 80/100
+- **autonomia**: 77/100
 - **computadora**: 83/100
 - **memoria**: 90/100
 - **rutinas**: 90/100
 - **equipo**: 90/100
 - **confianza**: 90/100
-- **producto**: 68/100
+- **producto**: 72/100
 
 ## Fortalezas
 
 - Es lo más cercano al listón del lote: bots con nombre, computadora propia, apps conectadas y aprobaciones
 - Self-hosted, bring-your-own-agent y multiplataforma (macOS, Windows, Ubuntu)
-- Tracción muy rápida: 21,414 estrellas en unos tres meses
+- Tracción muy rápida: 27,161 estrellas en unos tres meses
 
 ## Lo que le falta / riesgos
 
@@ -85,10 +89,10 @@ El clon open source más fiel a Grok Bot del lote; le falta madurez y motores pr
 
 ## Fuentes consultadas
 
-- [Repositorio GitHub](https://github.com/milind-soni/OpenMausBot) · consultado 2026-11-12
-- [Web oficial](https://www.mausbot.com/) · consultado 2026-11-12
-- [README](https://github.com/milind-soni/OpenMausBot#readme) · consultado 2026-11-12
-- [Releases](https://github.com/milind-soni/OpenMausBot/releases) · consultado 2026-11-12
+- [Repositorio GitHub](https://github.com/milind-soni/OpenMausBot) · consultado 2026-11-23
+- [Web oficial](https://www.mausbot.com/) · consultado 2026-11-23
+- [README](https://github.com/milind-soni/OpenMausBot#readme) · consultado 2026-11-23
+- [Releases](https://github.com/milind-soni/OpenMausBot/releases) · consultado 2026-11-23
 
 ---
 

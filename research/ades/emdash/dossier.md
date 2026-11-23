@@ -2,9 +2,9 @@
 
 - **Web oficial**: https://emdash.com/
 - **Repo**: https://github.com/generalaction/emdash
-- **Licencia**: Comercial
+- **Licencia**: Apache-2.0
 - **Categoría**: workspace
-- **Revisado**: 2026-11-13
+- **Revisado**: 2026-11-23
 - **ADE Score**: 82.42 · Tier S
 
 ## Qué es
@@ -13,12 +13,14 @@ Workspace open source con worktrees, tareas programadas, SSH y revisión integra
 
 ## Release revisada
 
-- **Tag**: [v1.2.11](https://github.com/generalaction/emdash/releases/tag/v1.2.11)
-- **Fecha**: 2026-11-06 (hace 9 días)
-- **Estado**: reciente · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Tag**: [v1.2.13](https://github.com/generalaction/emdash/releases/tag/v1.2.13)
+- **Fecha**: 2026-11-19 (hace 4 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
-> This release improves Git authentication, Windows compatibility, and SSH responsiveness. It also reduces background fetch overhead, fixes pane shortcuts after switching tasks, and adds an in-app signup for Emdash 2.0 early access. Highlights The project's Git credentials setting now applies to Emdash's own local Git operations, including push, pull, and fetch. Choosing System uses the machine's credentials, while an account explicitly selected for an operation still takes precedence. Join the Emdash 2.0 waitlist directly from the sidebar, with your email and an optional note about your team or workflow. The card can be dismissed for the current release. Fixes Commit &amp; Push and other Git 
+**Qué trae**: v1.2.13 (y v1.2.12): importación transaccional desde v0 y registro waitlist Emdash 2.0.
+
+**Impacto en la ficha**: Sin cambio de score (82.42 S).
 
 ## Evidencia
 
@@ -80,9 +82,9 @@ Workspace open source con worktrees, tareas programadas, SSH y revisión integra
 
 ## Fuentes
 
-- [Web oficial](https://emdash.com/) · consultado 2026-11-13
-- [Repositorio GitHub](https://github.com/generalaction/emdash) · consultado 2026-11-13
-- [README](https://github.com/generalaction/emdash#readme) · consultado 2026-11-13
+- [Web oficial](https://emdash.com/) · consultado 2026-11-23
+- [Repositorio GitHub](https://github.com/generalaction/emdash) · consultado 2026-11-23
+- [README](https://github.com/generalaction/emdash#readme) · consultado 2026-11-23
 
 ---
 

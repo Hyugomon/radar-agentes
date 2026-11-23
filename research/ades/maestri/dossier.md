@@ -4,8 +4,8 @@
 - **Repo**: —
 - **Licencia**: Comercial
 - **Categoría**: orchestrator
-- **Revisado**: 2026-11-13
-- **ADE Score**: 73.3 · Tier A
+- **Revisado**: 2026-11-23
+- **ADE Score**: 73.68 · Tier A
 
 ## Qué es
 
@@ -13,16 +13,16 @@ Canvas visual donde cada agente tiene rol, terminal y contexto; ahora con Comput
 
 ## Release revisada
 
-- **Tag**: [0.59.0](https://themaestri.app/en/changelog)
-- **Fecha**: 2026-11-03 (hace 12 días)
-- **Estado**: reciente · **Releases en 90 días**: —
-- **Revisado**: 2026-11-15 · **Fuente**: changelog
+- **Tag**: [0.61.0](https://themaestri.app/en/changelog)
+- **Fecha**: 2026-11-23 (hace 0 días)
+- **Estado**: activo · **Releases en 90 días**: —
+- **Revisado**: 2026-11-23 · **Fuente**: changelog
 
-**Qué trae**: 0.59.0: Computer Use con aprobación por app y control remoto desde Maestri Remote.
+**Qué trae**: 0.61.0 (y 0.60.0): Spaces en el sidebar y preguntas interactivas con opciones en chat (también en terminales remotas y Maestri Remote).
 
-**Impacto en la ficha**: Tier A (+2.12): Control 55→70 y Remoto 65→70; Computer Use y Remote lo justifican.
+**Impacto en la ficha**: Tier A (+0.38): Remoto 70→72 y Producto 74→77.
 
-> 0.59.0 November 3, 2026 New Computer Use: agents can read and use other apps on your computer in the background, without moving your pointer or taking your keyboard. They ask before using each app, and you can answer on your computer or from Maestri Remote. An agent can also ask to control the whole computer with your pointer and keyboard while you're away. Turn it on in Settings → Agents → Control. Updated Links in chat and notes use the surrounding text color with an underline, so they're easier to read. Bug Fixes Fixed jumping to a terminal or workspace with 1–9 on keyboard layouts whose number row doesn't type digits. Fixed F2 opening rename instead of reaching the program in a focused t
+> 0.61.0 November 23, 2026 New Questions in the chat: agents can now ask you a question with options to pick from. Click one and your answer lands in the Prompt Composer, quoting the question, ready for you to send. It works on other computers' terminals and in Maestri Remote too. Updated Inline code in notes now sits on a rounded background. More under-the-hood optimizations make panning, zooming and dragging on the canvas noticeably smoother, even on your busiest canvases. Stability and performance improvements. 0.60.0 November 18, 2026 New Spaces: organize your sidebar into spaces, each with its own icon and color, and switch between them in one click. A space can hold workspaces on this co
 
 ## Evidencia
 
@@ -60,12 +60,12 @@ Canvas visual donde cada agente tiene rol, terminal y contexto; ahora con Comput
 - **Paralelismo**: 80/100
 - **Orquestación**: 84/100
 - **Revisión**: 75/100
-- **Remoto / cloud**: 70/100
+- **Remoto / cloud**: 72/100
 - **Móvil**: 78/100
 - **Extensiones**: 55/100
 - **Control**: 70/100
 - **Apertura**: 40/100
-- **Producto**: 74/100
+- **Producto**: 77/100
 
 ## Fortalezas
 

@@ -1,8 +1,24 @@
 {
   "repo": "agentscope-ai/QwenPaw",
   "source": "releases.atom",
-  "checked_at": "2026-11-15",
+  "checked_at": "2026-11-23",
   "entries": [
+    {
+      "tag": "v2.3.1-beta.1",
+      "title": "v2.3.1-beta.1",
+      "date": "2026-11-23",
+      "url": "https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.3.1-beta.1",
+      "pre": true,
+      "note": "What's Changed fix(pawapp): disable proxy buffering on chat and tool-call SSE streams by @pcbeingused333 in #8730 chore: bump the version to 2.3.1b1 by @cuiyuebing in #8809 fix(loop): record tool calls appended to one reply message by @weweeeeee in #8701 fix(security): require approval for shell-based email sends, HTTP writes, and uploads by @cuiyuebing in #8810 fix(qq): support full group messages and honor mention-only filtering by @hongxicheng in #8658 fix(dingtalk): separate Markdown tables from preceding paragraphs in AI cards by @vincy-ch in #8601 feat(xiaoyi): add optional streaming and harden channel transport by @hongxicheng in #8694 feat(channels): add QQ C2C streaming message support by @no-teasy in #8409 feat(local whisper): Convert local Whisper into an SDK plugin with framework-managed lifecycle by @lalaliat in #8431 docs: update website for v2.3.0 by @cuiyuebing in #8822 f"
+    },
+    {
+      "tag": "v2.3.0.post1",
+      "title": "v2.3.0.post1",
+      "date": "2026-11-18",
+      "url": "https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.3.0.post1",
+      "pre": false,
+      "note": "What's Changed feat(agent): extract third-party agent into plugins by @Luohh5 in #8426 feat(console): quote response selections in follow-up drafts by @yang0228 in #8609 fix(console): restore Safari message queue action icons by @zhaozhuang521 in #8670 fix(cron): track scheduled agent runs by @zhijianma in #8634 fix(console): gate terminal status checks on auth by @zhijianma in #8660 feat(shell): add intent titles to command cards by @zhijianma in #8638 fix(console): follow active chat name in browser tab title by @zhaozhuang521 in #8631 feat(transcription): make the Whisper API model name configurable by @BeiMu-new in #8052 fix(community): rely on deployment access controls for password login by @Osier-Yi in #8679 docs: fix 5 dead external links in docs, e2e README and terraform skill references by @leom1919 in #8606 chore: bump the version to 2.3.1b1 by @cuiyuebing in #8690 fix(console"
+    },
     {
       "tag": "v2.3.0",
       "title": "v2.3.0",
@@ -66,22 +82,6 @@
       "url": "https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.2.2-beta.6",
       "pre": true,
       "note": "What's Changed fix(e2e): align selectors with current console ui by @zhijianma in #8247 fix(history): support external database paths and portable backups by @rayrayraykk in #8246 chore: bump the version to 2.2.2b6 by @cuiyuebing in #8250 Full Changelog : v2.2.2-beta.5...v2.2.2-beta.6"
-    },
-    {
-      "tag": "v2.2.2-beta.5",
-      "title": "v2.2.2-beta.5",
-      "date": "2026-10-14",
-      "url": "https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.2.2-beta.5",
-      "pre": true,
-      "note": "What's Changed fix(console): preserve drafts when pasting long text ( #7948 ) by @zhaozhuang521 in #8119 fix(providers): recognize newer GPT token limit parameters by @iluv7 in #8090 fix(console): refine desktop settings UI by @zhaozhuang521 in #8127 fix(chats): resolve a DST-aware process timezone for transcript timestamps by @BeiMu-new in #8050 fix(console): support terminal UUIDs on HTTP origins by @zhaozhuang521 in #8144 feat(tools): add view_audio tool for audio understanding by @shuziP in #8083 fix(console): support terminal UUIDs on HTTP origins by @zhaozhuang521 in #8146 fix(qwenpaw-data): keep UI host types package-local by @cyruszhang in #8141 fix(providers): carry the session header on connection checks by @wananing in #7869 fix(console): keep only the page title in settings headers by @zhaozhuang521 in #8130 fix(agents): recover from media payload rejections instead of failin"
-    },
-    {
-      "tag": "v2.2.2-beta.4",
-      "title": "v2.2.2-beta.4",
-      "date": "2026-09-30",
-      "url": "https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.2.2-beta.4",
-      "pre": true,
-      "note": "What's Changed feat: add reranker UI config panel to ReMeLightMemoryCard by @lecheng2018 in #6399 chore: bump the version to 2.2.2b4 by @cuiyuebing in #7892 perf(console): split chat dependencies and lazy-load locales by @zhaozhuang521 in #7829 fix(console): improve session project directory picker by @zhaozhuang521 in #7897 Fix/tool card stuck calling after stop by @zhaozhuang521 in #7345 test(console): raise frontend statement coverage by +1027 statements (+543 cases, tests only) by @yutai78786 in #7894 ci(release): unfreeze merges as soon as the release finishes instead of waiting for cron by @yutai78786 in #7901 fix(agents): handle unknown input_audio rejections by @axelray-dev in #7886 fix(console): refresh cached file tabs on activation by @zhaozhuang521 in #7902 fix(console): render LaTeX math with KaTeX by @zhaozhuang521 in #7909 feat: improve session list details and grouping by"
     }
   ]
 }

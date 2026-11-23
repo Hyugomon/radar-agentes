@@ -5,10 +5,10 @@
   "homepage": "https://www.mausbot.com/",
   "license": "Apache-2.0",
   "language": "TypeScript",
-  "stars": 21414,
-  "forks": 2989,
-  "open_issues": 1080,
-  "pushed_at": "2026-11-12T07:08:53Z",
+  "stars": 27161,
+  "forks": 3869,
+  "open_issues": 1327,
+  "pushed_at": "2026-11-23T21:38:15Z",
   "created_at": "2026-08-11T18:58:55Z",
   "topics": [
     "ai-agents",
@@ -25,5 +25,5 @@
   ],
   "archived": false,
   "api_status": 200,
-  "fetched_at": "2026-11-12"
+  "fetched_at": "2026-11-23"
 }

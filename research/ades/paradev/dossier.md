@@ -1,10 +1,10 @@
 # Paradev — dossier ADE
 
 - **Web oficial**: https://paradev.com/
-- **Repo**: https://github.com/paradevai/paradev
-- **Licencia**: Comercial
+- **Repo**: https://github.com/ParadevAI/Paradev
+- **Licencia**: MIT
 - **Categoría**: workspace
-- **Revisado**: 2026-11-13
+- **Revisado**: 2026-11-23
 - **ADE Score**: 85.56 · Tier S
 
 ## Qué es
@@ -14,11 +14,15 @@ Workspace open source para correr agentes de código en paralelo, con CLI, MCP, 
 ## Release revisada
 
 - **Tag**: [desktop-canary](https://github.com/ParadevAI/Paradev/releases/tag/desktop-canary)
-- **Fecha**: 2026-11-15 (hace 0 días)
+- **Fecha**: 2026-11-23 (hace 0 días)
 - **Estado**: activo · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
-> Internal Testing Build This is an automated canary build from main branch. Commit: 7ae3dc9 Short SHA: 7ae3dc9 Built: 2026-11-15T02:32:51Z ⚠️ This build is for internal testing only and may be unstable.
+**Qué trae**: desktop-v2.0.11 / canary: conector admin, autenticación Bearer unificada para API/MCP/Workers y mejoras de sandbox Codex.
+
+**Impacto en la ficha**: Sin cambio de score (85.56 S).
+
+> Internal Testing Build This is an automated canary build from main branch. Commit: 17bbe65 Short SHA: 17bbe65 Built: 2026-11-23T12:07:53Z ⚠️ This build is for internal testing only and may be unstable.
 
 ## Evidencia
 
@@ -86,9 +90,9 @@ Workspace open source para correr agentes de código en paralelo, con CLI, MCP, 
 
 ## Fuentes
 
-- [Web oficial](https://paradev.com/) · consultado 2026-11-13
-- [Repositorio GitHub](https://github.com/paradevai/paradev) · consultado 2026-11-13
-- [README](https://github.com/paradevai/paradev#readme) · consultado 2026-11-13
+- [Web oficial](https://paradev.com/) · consultado 2026-11-23
+- [Repositorio GitHub](https://github.com/ParadevAI/Paradev) · consultado 2026-11-23
+- [README](https://github.com/ParadevAI/Paradev#readme) · consultado 2026-11-23
 
 ---
 

@@ -22,12 +22,12 @@
 CowAgent is multi-model, multi-channel and multi-agent, lightweight and built to extend. Plug in any major LLM provider, run it 24/7 on your computer or server, and reach it from the web and all major IM platforms.
 
 <p align="center">
-  <a href="https://cowagent.ai/">🌐 Website</a> &nbsp;·&nbsp;
+  <a href="https://cowagent.ai/?utm_source=github">🌐 Website</a> &nbsp;·&nbsp;
   <a href="https://docs.cowagent.ai/intro/index">📖 Docs</a> &nbsp;·&nbsp;
   <a href="https://docs.cowagent.ai/guide/quick-start">🚀 Quick Start</a> &nbsp;·&nbsp;
   <a href="https://skills.cowagent.ai/">🧩 Skill Hub</a> &nbsp;·&nbsp;
   <a href="https://cowagent.ai/download/">💻 Download</a> &nbsp;·&nbsp;
-  <a href="https://cloud.cowagent.ai">☁️ Try Online</a>
+  <a href="https://cloud.cowagent.ai/?utm_source=github">☁️ Try Online</a>
 </p>
 
 <br/>
@@ -37,7 +37,7 @@ CowAgent is multi-model, multi-channel and multi-agent, lightweight and built to
 <p align="center">
   <video src="https://github.com/user-attachments/assets/8625a19f-615c-4343-8be8-3707ce4d4d4e" controls muted playsinline width="720">
     Your browser can't play this video.
-    <a href="https://cowagent.ai/">Watch the demo on our website →</a>
+    <a href="https://cowagent.ai/?utm_source=github">Watch the demo on our website →</a>
   </video>
 </p>
 
@@ -112,7 +112,7 @@ cow install-browser                # install browser automation
 
 > 💻 Desktop client: download the **[CowAgent Desktop client](https://cowagent.ai/download/)** (macOS / Windows) — the backend is bundled, ready to use out of the box.
 
-> ☁️ Prefer not to deploy? **[Open the cloud console](https://cloud.cowagent.ai)** to create a dedicated instance with built-in models, online 24/7.
+> ☁️ Prefer not to deploy? **[Open the cloud console](https://cloud.cowagent.ai/?utm_source=github)** to create a dedicated instance with built-in models, online 24/7.
 
 <br/>
 
@@ -134,7 +134,7 @@ CowAgent supports all mainstream LLM providers. **Chat, vision, image generation
 | --- | --- | :-: | :-: | :-: | :-: | :-: | :-: |
 | [DeepSeek](https://docs.cowagent.ai/models/deepseek) | deepseek-flash (V4.1) / pro | ✅ | ✅ | | | | |
 | [Claude](https://docs.cowagent.ai/models/claude) | claude-opus-5-5 / sonnet-5-5 | ✅ | ✅ | | | | |
-| [OpenAI](https://docs.cowagent.ai/models/openai) | gpt-6.1-terra / gpt-6.1-sol | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [OpenAI](https://docs.cowagent.ai/models/openai) | gpt-6.2-sol / gpt-6.2-astra | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [Gemini](https://docs.cowagent.ai/models/gemini) | gemini-4-argon | ✅ | ✅ | ✅ | | | |
 | [MiniMax](https://docs.cowagent.ai/models/minimax) | MiniMax-M3.1-Flash / M3 | ✅ | ✅ | ✅ | | ✅ | |
 | [GLM](https://docs.cowagent.ai/models/glm) | glm-5.3-flash, glm-5v-turbo | ✅ | ✅ | | ✅ | | ✅ |

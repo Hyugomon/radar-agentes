@@ -1,15 +1,23 @@
 {
   "repo": "openBitFun/OpenBitFun",
   "source": "releases.atom",
-  "checked_at": "2026-11-15",
+  "checked_at": "2026-11-23",
   "entries": [
     {
+      "tag": "v1.0.12",
+      "title": "OpenBitFun 1.0.12",
+      "date": "2026-11-20",
+      "url": "https://github.com/openBitFun/OpenBitFun/releases/tag/v1.0.12",
+      "pre": false,
+      "note": "What's Changed fix(web-ui): promote re-added workspaces within their device by @bobleer in #3938 fix(web-ui): show re-added workspace promotion immediately and keep it scoped by @bobleer in #3939 fix(web-ui): polish promoted workspace reveal, persistence, and CLI peer reorder by @bobleer in #3943 fix(installer): preserve legacy updates and allow parallel installations by @kev1n77 in #3944 fix(visual-skin): allow disabling the active skin by @kev1n77 in #3946 refactor(workspace): unify project open ordering in backend and drop display-order heuristics by @bobleer in #3955 fix(exec): Increase default yield time to 180s by @wsp1911 in #3945 fix(context): Estimate composition on demand by @wsp1911 in #3959 feat(visual-skin): simplify package limits and support MP4 surface backdrops by @bobleer in #3961 fix(settings): refine fallback channel routing layout in model editor by @bobleer in #3965"
+    },
+    {
       "tag": "v1.0.11",
-      "title": "v1.0.11: Merge pull request #3917 from openBitFun/gcwing/release-1.0.11",
-      "date": "2026-11-14",
+      "title": "OpenBitFun 1.0.11",
+      "date": "2026-11-16",
       "url": "https://github.com/openBitFun/OpenBitFun/releases/tag/v1.0.11",
       "pre": false,
-      "note": "chore(release): prepare 1.0.11 stable release"
+      "note": "OpenBitFun 1.0.11 桌面端更新 长会话更流畅。减少流式 Markdown、工具组和并行 BTW 会话更新时的重复渲染，优化长会话首次打开、连续滚动和历史定位。 工作台与设置响应更快。优化工作区会话列表、标签切换、全局搜索和设置搜索；工作区历史支持移除条目，画布切换后保留编辑器布局。 新增手动压缩会话上下文的入口和基于模型的工具审批。改进模型分组配置、会话恢复时的工具历史，以及默认输出长度的选择。 改善跨设备和远程控制的断线恢复。修复远程会话归属、过期运行状态与权限回复丢失问题，并改进飞书、Telegram 和微信机器人的重连与消息重试。 新增 LaTeX 写作工作台，支持 PDF 预览、标注和编译反馈；完善加密 PDF 与审阅冲突的处理。 支持导入、预览和应用视觉皮肤包，取代原有皮肤市场入口。 Windows 安装器支持恢复中断的安装、更新与卸载。macOS 改善旧版钥匙串凭据迁移，并缩短桌面前端资源加载时间。 What's Changed fix(ci): reuse Bun executable caches without PR writes by @kev1n77 in #3848 perf(flow-chat): reuse turn indexes and summaries during streaming by @kev1n77 in #3851 fix(web-ui): keep welcome brand and tagline from overlapping by @bobleer in #3854 fix(web-ui): keep todo editor form from collapsing on older WebKit by @bobleer in #3855 feat(desktop): add LaTeX paper writing and PDF preview by @nonoqing in #3850 docs: slim the root agent guide and correct stale owne"
     },
     {
       "tag": "v1.0.10",
@@ -74,14 +82,6 @@
       "url": "https://github.com/openBitFun/OpenBitFun/releases/tag/data-migrator-v0.1.2",
       "pre": false,
       "note": "BitFun → OpenBitFun Data Migrator 将旧版 BitFun 的配置、会话、工作区及其他受支持数据迁移到 OpenBitFun。迁移器保留旧版数据，不会自动删除 BitFun 的数据目录。 Migrate settings, sessions, workspaces, and other supported data from BitFun to OpenBitFun. The migrator preserves the original BitFun data and does not automatically delete its data directories. 最新版本与使用指南： 中文 · Latest release and guide: English v0.1.2 中文 修复助理工作区与会话迁移后的关联问题，解决部分会话无法继续对话的问题。 将旧版 Auto 模型选择迁移为主力模型，并兼容已迁移的历史会话。 新增 重置 OpenBitFun 数据 功能，可确认清空目标数据后重新迁移，保留旧 BitFun 来源数据。 English Fixed workspace and session references so migrated assistant conversations can continue normally. Converted legacy Auto model selections to the primary model, with compatibility for previously migrated sessions. Added Reset OpenBitFun Data to clear destination data after confirmation and start a fresh migration, preserving the original BitFun source."
-    },
-    {
-      "tag": "v1.0.5",
-      "title": "OpenBitFun 1.0.5",
-      "date": "2026-10-09",
-      "url": "https://github.com/openBitFun/OpenBitFun/releases/tag/v1.0.5",
-      "pre": false,
-      "note": "下载 / Downloads 桌面端 / Desktop Windows x64 : 安装包 macOS : Apple Silicon | Intel Linux AppImage : x64 | ARM64 Linux DEB (Debian/Ubuntu) : x64 | ARM64 Linux RPM (Fedora/RHEL) : x64 | ARM64 手机端 Beta / Mobile Beta Android（1.0.0 Beta） : APK iOS（1.0.0 TestFlight Beta） : 公开测试链接 HarmonyOS（1.0.0 Beta） : 联系 wgq0617@gmail.com 加入测试组 What's Changed fix(updater): restore proactive reminders with lower-frequency checks by @GCWing in #3267 fix: repair build cache preflight and hide companion bubbles on focus by @GCWing in #3272 refactor(settings): reorganize pages and fix interaction and Gemini regressions by @GCWing in #3276 fix(btw): discard temporary side threads and save durable forks by @GCWing in #3277 Standardize agent collaboration and prompt contracts, and fix Windows image paths by @wsp1911 in #3280 feat(ai): simplify model selection and add turn usage metrics by @GCWing in #3281 fix(tool-call-js"
     }
   ]
 }

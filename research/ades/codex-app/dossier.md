@@ -4,7 +4,7 @@
 - **Repo**: —
 - **Licencia**: Comercial
 - **Categoría**: ide
-- **Revisado**: 2026-11-13
+- **Revisado**: 2026-11-23
 - **ADE Score**: 76.11 · Tier A
 
 ## Qué es
@@ -16,7 +16,7 @@ App de escritorio de OpenAI para trabajar con Codex, sesiones y revisión de cam
 - **Tag**: —
 - **Fecha**: —
 - **Estado**: app cerrada · **Releases en 90 días**: 0
-- **Revisado**: 2026-11-15 · **Fuente**: changelog
+- **Revisado**: 2026-11-23 · **Fuente**: changelog
 
 > App cerrada de OpenAI. No tiene repositorio de releases propio; el changelog general de OpenAI no se usa como release del ADE.
 

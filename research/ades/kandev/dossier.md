@@ -2,10 +2,10 @@
 
 - **Web oficial**: https://github.com/kdlbs/kandev
 - **Repo**: https://github.com/kdlbs/kandev
-- **Licencia**: Comercial
+- **Licencia**: AGPL-3.0
 - **Categoría**: orchestrator
-- **Revisado**: 2026-11-13
-- **ADE Score**: 83.82 · Tier S
+- **Revisado**: 2026-11-23
+- **ADE Score**: 84.9 · Tier S
 
 ## Qué es
 
@@ -13,12 +13,16 @@ Entorno self-hostable con tablero Kanban, pipelines de agentes, revisión de cam
 
 ## Release revisada
 
-- **Tag**: [v0.101.0](https://github.com/kdlbs/kandev/releases/tag/v0.101.0)
-- **Fecha**: 2026-11-11 (hace 4 días)
+- **Tag**: [v0.103.1](https://github.com/kdlbs/kandev/releases/tag/v0.103.1)
+- **Fecha**: 2026-11-23 (hace 0 días)
 - **Estado**: activo · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
-> Warning macOS, Windows desktop installers in this release are unsigned development builds. They may require manual OS security bypasses and are not trusted downloads. If macOS blocks Kandev after you verify the checksum, run: xattr -d com.apple.quarantine /Applications/Kandev.app 0.101.0 - 2026-11-11 Features select built-in packages and workspace MCPs ( #5106 ) clarify change workflow selector fields ( #5249 ) comment on extracts of task thread comments ( #5233 ) by @jcoatelen-ledger review question images in a large A/B view ( #5239 ) by @point-source cancel running chat turn with escape ( #5241 ) by @ZenitK show CI bubbles on PR status icons ( #5244 ) preview HTML files from review diffs 
+**Qué trae**: v0.103.1 (y v0.102–v0.103 + pluginsdk v0.4): despacho condicionado a blockers de Linear, paneles de plugins en perfiles/sidebar, anotación en web preview y evidencia con capturas en PRs.
+
+**Impacto en la ficha**: Tier S (+1.08): Extensiones 72→78, Orquestación 90→92 y Revisión 86→88.
+
+> Warning macOS, Windows desktop installers in this release are unsigned development builds. They may require manual OS security bypasses and are not trusted downloads. If macOS blocks Kandev after you verify the checksum, run: xattr -d com.apple.quarantine /Applications/Kandev.app 0.103.1 - 2026-11-23 Features add outside-repository file tree ( #5446 ) hold issue watch dispatch until Linear blockers are done ( #4584 ) by @qwent71 Bug Fixes use the selected managed runtime for session inference ( #5441 ) by @mulatta refresh built-in prompts on PostgreSQL ( #5440 ) prevent false fork review gating ( #5443 )
 
 ## Evidencia
 
@@ -54,6 +58,7 @@ Entorno self-hostable con tablero Kanban, pipelines de agentes, revisión de cam
 - “It includes agent roles and permissions, dashboards, inbox/approvals, routines, task delegation, skills, memory, cost tracking, budgets, and workspace config sync.” — https://github.com/kdlbs/kandev#readme
 - “Choose [native tool packages](docs/public/builtin-mcp-packages.md), including explicit Configuration access for a task.” — https://github.com/kdlbs/kandev#readme
 - “It includes agent roles and permissions, dashboards, inbox/approvals, routines, task delegation, skills, memory, cost tracking, budgets, and workspace config sync.” — https://github.com/kdlbs/kandev#readme
+- “complete plugin grouping for saved sidebar views (#5427)... make Kandev MCP calls wait while detached, with offline budget (#4809).” — https://github.com/kdlbs/kandev/releases/tag/v0.103.0
 
 ### control
 - “It includes agent roles and permissions, dashboards, inbox/approvals, routines, task delegation, skills, memory, cost tracking, budgets, and workspace config sync.” — https://github.com/kdlbs/kandev#readme
@@ -63,11 +68,11 @@ Entorno self-hostable con tablero Kanban, pipelines de agentes, revisión de cam
 
 - **Harnesses**: 90/100
 - **Paralelismo**: 88/100
-- **Orquestación**: 90/100
-- **Revisión**: 86/100
+- **Orquestación**: 92/100
+- **Revisión**: 88/100
 - **Remoto / cloud**: 85/100
 - **Móvil**: 70/100
-- **Extensiones**: 72/100
+- **Extensiones**: 78/100
 - **Control**: 70/100
 - **Apertura**: 95/100
 - **Producto**: 80/100
@@ -86,9 +91,9 @@ Entorno self-hostable con tablero Kanban, pipelines de agentes, revisión de cam
 
 ## Fuentes
 
-- [Web oficial](https://github.com/kdlbs/kandev) · consultado 2026-11-13
-- [Repositorio GitHub](https://github.com/kdlbs/kandev) · consultado 2026-11-13
-- [README](https://github.com/kdlbs/kandev#readme) · consultado 2026-11-13
+- [Web oficial](https://github.com/kdlbs/kandev) · consultado 2026-11-23
+- [Repositorio GitHub](https://github.com/kdlbs/kandev) · consultado 2026-11-23
+- [README](https://github.com/kdlbs/kandev#readme) · consultado 2026-11-23
 
 ---
 

@@ -46,9 +46,11 @@ Everything stays a normal T3 thread, so you can open any of it in T3 Code at any
 
 **Added by Threebot**
 
-- **A messaging app.** An installable PWA built for phones, with notifications, search and themes.
+- **A messaging app.** An installable PWA built for phones, with notifications, search, themes and `@` mentions of your Bots.
 - **Memory.** Each Bot keeps a Markdown memory file it updates as it learns, plus one shared by all your Bots. You can read and edit both in the Memory tab.
+- **Instructions.** Tell each Bot how to work in your own words, in Details › Instructions. Threebot keeps them apart from what it writes itself, and the Bot reads them at the start of every session. You can give a Bot its role when you create it, and a Bot can pass one to a helper it creates.
 - **Projects (beta, off by default).** One live board for everything you are working on: projects, to-dos, your machines and what runs on each, repos, notes and links, split into areas like work and personal. Bots read and edit it with their own tools, every change appears on your screen as it happens, and every item has a link you can hand to a Bot. Switch it on in Settings → Beta.
+- **A tidy T3 sidebar (beta, off by default).** If you talk to your Bots in Threebot, their threads don't need to sit in T3 Code's active list. Switch on **Settle Bot threads in T3 Code** in Settings → Beta and Threebot settles each Bot thread, its subagents and its routines once they go quiet. A new message wakes a thread as usual, and it is settled again once it's quiet. Threads that are working, waiting on you, pinned, snoozed or watching a PR are left alone.
 - **Vault.** Encrypted logins Bots can type into a site without reading the password, powered by secure requests from T3 Code.
 - **Connected apps.** Gmail, GitHub, Slack and the rest, powered by [Executor](https://executor.sh), if you run it.
 - **Independent Bots.** A Bot decides and acts on its own, then tells you what it did. It stops to ask only for what's yours to decide, like your money or your identity, and for anything on your Always Ask list. See [SECURITY.md](SECURITY.md).
@@ -63,7 +65,14 @@ curl -fsSL https://raw.githubusercontent.com/RokaSwK/threebot/main/install.sh | 
 threebot up
 ```
 
-The installer downloads the latest [release](https://github.com/RokaSwK/threebot/releases), checks it against the release's SHA-256 sums and installs it in `~/.threebot`. `threebot up` asks T3 Code for a token, starts Threebot as a background service (launchd on macOS, systemd on Linux) and prints its address, <http://127.0.0.1:3780>. Open it and create your first Bot.
+On Windows, download `Threebot-Setup-<version>.exe` from [releases](https://github.com/RokaSwK/threebot/releases) for a one-click install with no admin prompt, or the portable bundle (`Threebot-<version>-win64.zip`): unzip it and double-click `Threebot.exe`. Both install into `%LOCALAPPDATA%\Programs\Threebot`, add Start Menu and Startup shortcuts, start the gateway and open the app; Node and the icon come with them. Or use PowerShell:
+
+```powershell
+irm https://raw.githubusercontent.com/RokaSwK/threebot/main/install.ps1 | iex
+threebot up
+```
+
+The installer downloads the latest [release](https://github.com/RokaSwK/threebot/releases), checks it against the release's SHA-256 sums and installs it in `~/.threebot`. `threebot up` asks T3 Code for a token, starts Threebot as a background service (launchd on macOS, systemd on Linux, the Startup folder on Windows) and prints its address, <http://127.0.0.1:3780>. Open it and create your first Bot.
 
 To use it on your phone, open **Settings → Remote access**:
 

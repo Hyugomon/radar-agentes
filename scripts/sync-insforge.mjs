@@ -142,7 +142,7 @@ const revisions = data.groups.ready.map(row => ({
   agency: row.agency,
   dimensions: row.dimensions,
   pillars: row.pillars,
-  notes: 'Import inicial del catálogo de productos',
+  notes: row.release_impact || row.release_highlight || 'Actualización de investigación y releases',
   payload: row
 }))
 

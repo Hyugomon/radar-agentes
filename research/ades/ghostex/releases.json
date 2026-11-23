@@ -1,87 +1,87 @@
 {
   "repo": "maddada/Ghostex",
   "source": "releases.atom",
-  "checked_at": "2026-11-15",
+  "checked_at": "2026-11-23",
   "entries": [
     {
-      "tag": "v11.7.1",
-      "title": "Ghostex 11.7.1",
-      "date": "2026-11-15",
-      "url": "https://github.com/maddada/Ghostex/releases/tag/v11.7.1",
+      "tag": "v11.15.0",
+      "title": "Ghostex 11.15.0",
+      "date": "2026-11-22",
+      "url": "https://github.com/maddada/Ghostex/releases/tag/v11.15.0",
       "pre": false,
-      "note": "macOS: Apple Silicon DMG · Windows: x64 installer · ARM64 installer Linux x64: .deb · .rpm · tarball (mise/ubi) · AppImage · AUR (ghostex-bin) · Linux ARM64: .deb · .rpm · tarball · AppImage Android: APK · iOS: App Store 11.7.1 - 2026-11-15 Ghostex 11.7.1 is out. Sessions no longer wake up and spend your usage on their own after a usage limit or a restart, long chats are compacted before they carry on, workers under a coordinator stop sending you notifications, the project picker and the browser bar show each computer's own logo, sidebar extensions arrive, and Settings search finds only real matches. 🔋 Usage after a limit or a restart Sessions stay put after a usage limit: with Switch accounts and no saved account, a session at its limit stays stopped and nothing is typed into it. After a restart, a limit wait asks \"Continue after the limit reset?\" with Continue and Not now, and while i"
+      "note": "macOS: Apple Silicon DMG · Windows: PowerShell irm https://ghostex.dev/install.ps1 | iex · x64 installer · ARM64 installer (if Windows says it protected your PC, click More info, then Run anyway; the publisher is Open Source Developer Mohamad Yahia Youssef) Linux x64: .deb · .rpm · tarball (mise/ubi) · AppImage · AUR (ghostex-bin) · Linux ARM64: .deb · .rpm · tarball · AppImage Android: APK · iOS: App Store 11.15.0 - 2026-11-22 Ghostex 11.15.0 is out. Four approval levels for Non-CLI sessions on the chat box's Mode button, top and bottom pin groups with discoverable separators on the rail, a Windows wake-from-sleep crash fix, older open pages and forms kept in the dock and Work panel, a scrollable phone pill row, and blurred art behind Live pages on the phone. 💬 Chat and approvals Approval levels for Non-CLI sessions: pick Ask, Auto-edits, Auto or Full access directly from the chat box'"
     },
     {
-      "tag": "v11.7.0",
-      "title": "Ghostex 11.7.0",
-      "date": "2026-11-14",
-      "url": "https://github.com/maddada/Ghostex/releases/tag/v11.7.0",
+      "tag": "v11.14.0",
+      "title": "Ghostex 11.14.0",
+      "date": "2026-11-22",
+      "url": "https://github.com/maddada/Ghostex/releases/tag/v11.14.0",
       "pre": false,
-      "note": "macOS: Apple Silicon DMG · Windows: x64 installer · ARM64 installer Linux x64: .deb · .rpm · tarball (mise/ubi) · AppImage · AUR (ghostex-bin) · Linux ARM64: .deb · .rpm · tarball · AppImage Android: APK · iOS: App Store 11.7.0 - 2026-11-14 Ghostex 11.7.0 is out. Agents can restyle Ghostex with sixteen new theme colours, a memory guard that stops a runaway command before the computer stalls, Claude Code's idle compaction and the 1-hour cache in Settings, settings you can export and import, a clearer Autopilot page, project folders you trust by choice, Easy Connect between two computers (also from the phone), the Beads view on the phone, Ghostex on Omarchy and Hyprland, and Superwhisper dictation on Linux. 🎨 Themes Ask an agent to restyle Ghostex: any agent can change the look with ghostex theme : the Interface settings and sixteen new theme colours (borders, dividers, text, grey text, t"
+      "note": "macOS: Apple Silicon DMG · Windows: PowerShell irm https://ghostex.dev/install.ps1 | iex · x64 installer · ARM64 installer (if Windows says it protected your PC, click More info, then Run anyway; the publisher is Open Source Developer Mohamad Yahia Youssef) Linux x64: .deb · .rpm · tarball (mise/ubi) · AppImage · AUR (ghostex-bin) · Linux ARM64: .deb · .rpm · tarball · AppImage Android: APK · iOS: App Store 11.14.0 - 2026-11-22 Ghostex 11.14.0 is out. Art themes with Polar Night as the new default look, Animated backgrounds and a matching floating Theme Editor, opt-in Non-CLI session mode, Find across prompts and agent answers, a redesigned Add Project folder picker, live previews in Settings > Experience, refreshed defaults for new installs, the rail's Links menu, phone Automations, and a wide round of stability and Cloud Box fixes. 🎨 Themes and look Art themes and on-demand artwork: s"
     },
     {
-      "tag": "v11.6.1",
-      "title": "Ghostex 11.6.1",
-      "date": "2026-11-13",
-      "url": "https://github.com/maddada/Ghostex/releases/tag/v11.6.1",
+      "tag": "v11.13.0",
+      "title": "Ghostex 11.13.0",
+      "date": "2026-11-21",
+      "url": "https://github.com/maddada/Ghostex/releases/tag/v11.13.0",
       "pre": false,
-      "note": "macOS: Apple Silicon DMG · Windows: x64 installer · ARM64 installer Linux x64: .deb · .rpm · tarball (mise/ubi) · AppImage · AUR (ghostex-bin) · Linux ARM64: .deb · .rpm · tarball · AppImage Android: APK · iOS: App Store 11.6.1 - 2026-11-13 Ghostex 11.6.1 is out. Codex on Windows recovers when it quits, model lists read live from each agent, a coordinator on any agent with a clearer setup, fewer coordinator notifications, a limit card that can continue on Opus, folded sent answers, and many fixes, on the computer and the Android app. 🤖 Agents and models Codex recovers when it quits early: a Codex that quits before its first message shows \"Codex isn't running\" with Restart, and a message you send then restarts it and goes through. ( #595 ) Model lists come from each agent: the model menu for Claude Code, Cursor and Antigravity now matches what the agent itself offers, read from its own m"
+      "note": "macOS: Apple Silicon DMG · Windows: x64 installer · ARM64 installer Linux x64: .deb · .rpm · tarball (mise/ubi) · AppImage · AUR (ghostex-bin) · Linux ARM64: .deb · .rpm · tarball · AppImage Android: APK · iOS: App Store 11.13.0 - 2026-11-21 Ghostex 11.13.0 is out. Ask Ghostex AI greets you with a welcome card and helps you set up, a tidier rail and sidebar, Hide Space, Mark as read in the dock, Fetch latest models, a new default dark look, linked Live pages you can answer, Screenshot mode, Claude limit resets, and a long list of fixes. ✨ Ask Ghostex AI Chief of Staff is now Ask Ghostex AI, everywhere you see it: its sidebar row and Main Hub pin, the rail button, Settings, menus, notifications and Help. A chat you renamed yourself keeps your name; ghostex chief still works. Ask Ghostex AI is where Ghostex starts: Main Hub and Ask Ghostex AI are on by default (unless you turned Main Hub o"
     },
     {
-      "tag": "v11.6.0",
-      "title": "Ghostex 11.6.0",
-      "date": "2026-11-13",
-      "url": "https://github.com/maddada/Ghostex/releases/tag/v11.6.0",
+      "tag": "v11.12.0",
+      "title": "Ghostex 11.12.0",
+      "date": "2026-11-20",
+      "url": "https://github.com/maddada/Ghostex/releases/tag/v11.12.0",
       "pre": false,
-      "note": "macOS: Apple Silicon DMG · Windows: x64 installer · ARM64 installer Linux x64: .deb · .rpm · tarball (mise/ubi) · AppImage · AUR (ghostex-bin) · Linux ARM64: .deb · .rpm · tarball · AppImage Android: APK · iOS: App Store 11.6.0 - 2026-11-13 Ghostex 11.6.0 is out. Quiet View for every chat and a new Summary view, Session details in Overview and Limits tabs, Ghostex pages you can export and answer anywhere, Snooze for pages and forms, a voice agent that waits for \"reply\", calmer dictation that opens Hex by itself, accounts of your other computers managed from here, agents that run without Ghostex's hooks, read-only threads for coordinators, long messages that always arrive, Claude on Windows PowerShell 5.1, and a lighter phone app. 👁️ Chat views Quiet View is on for every chat: every chat now reads as the conversation, with the work between two replies folded into one line, and the newest"
+      "note": "macOS: Apple Silicon DMG · Windows: x64 installer · ARM64 installer Linux x64: .deb · .rpm · tarball (mise/ubi) · AppImage · AUR (ghostex-bin) · Linux ARM64: .deb · .rpm · tarball · AppImage Android: APK · iOS: App Store 11.12.0 - 2026-11-20 Ghostex 11.12.0 is out. A new icon rail beside the sidebar (Classic stays one click away), eighteen Boosts in one menu, a workspace tile with its own icon, one session menu everywhere, message IDs, lead links for any session, ghostex clear-command , a fresh default dark look, and a long list of fixes. 🧭 The icon rail A slim column of icons at the window's left edge keeps Search, Notifications, Main Hub, Agents Hub, All Automations, Hermes, Claude and Grok Bot one click away, and stays when the sidebar hides. It is optional: Settings > Sidebar > Sidebar layout switches between Rail and Classic at any time. Pin what you use and drag the icons into you"
     },
     {
-      "tag": "v11.5.0",
-      "title": "Ghostex 11.5.0",
-      "date": "2026-11-12",
-      "url": "https://github.com/maddada/Ghostex/releases/tag/v11.5.0",
+      "tag": "v11.11.1",
+      "title": "Ghostex 11.11.1",
+      "date": "2026-11-19",
+      "url": "https://github.com/maddada/Ghostex/releases/tag/v11.11.1",
       "pre": false,
-      "note": "macOS: Apple Silicon DMG · Windows: x64 installer · ARM64 installer Linux x64: .deb · .rpm · tarball (mise/ubi) · AppImage · AUR (ghostex-bin) · Linux ARM64: .deb · .rpm · tarball · AppImage Android: APK · iOS: App Store 11.5.0 - 2026-11-12 Ghostex 11.5.0 is out. Active projects from every Space and computer in one list, an icon for each computer, the whole sidebar arranged the same on all your computers, the Beads view, Fork from here, a crown for coordinators, queued messages that can no longer answer an approval, a phone app that matches the desktop's chat, and a lighter, faster app. 🧭 Sidebar Active projects: a star now leads the Spaces row. Click it to see, in one list, the projects you are working on from every Space and every connected computer (any project with a session working or waiting on you, or used in the last 8 hours), each with all its sessions, in your Spaces' order. C"
+      "note": "macOS: Apple Silicon DMG · Windows: x64 installer · ARM64 installer Linux x64: .deb · .rpm · tarball (mise/ubi) · AppImage · AUR (ghostex-bin) · Linux ARM64: .deb · .rpm · tarball · AppImage Android: APK · iOS: App Store 11.11.1 - 2026-11-19 Ghostex 11.11.1 is out. A calmer chat header, Grok Bot set up from Settings with no terminal and able to pass your answers on to your agents, CLIProxyAPI hubs as the place new sessions start with their usage in the sidebar, signed-out accounts shown in amber, Live pages, click-to-toggle Settings rows, and Workspaces fixes for remote projects. 💬 Chat A calmer chat header: it keeps the chat's and project's own controls (Start, Open, Commit, Work, the context ring and the panel toggles), and a ⋯ menu holds Grok Bot, Claude, Voice, Share and Open in a popup. Pin any of them from its ⋯ row and unpin it with a right-click; a control in use stays in the he"
     },
     {
-      "tag": "v11.4.0",
-      "title": "Ghostex 11.4.0",
-      "date": "2026-11-11",
-      "url": "https://github.com/maddada/Ghostex/releases/tag/v11.4.0",
+      "tag": "v11.11.0",
+      "title": "Ghostex 11.11.0",
+      "date": "2026-11-19",
+      "url": "https://github.com/maddada/Ghostex/releases/tag/v11.11.0",
       "pre": false,
-      "note": "macOS: Apple Silicon DMG · Windows: x64 installer · ARM64 installer Linux x64: .deb · .rpm · tarball (mise/ubi) · AppImage · AUR (ghostex-bin) · Linux ARM64: .deb · .rpm · tarball · AppImage Android: APK · iOS: App Store 11.4.0 - 2026-11-11 Ghostex 11.4.0 is out. A shorter first-run setup, one main menu and a tidier sidebar, Settings grouped by what its pages do, a coordinator's work items in one collapsible list with Quiet View, a time and a ⋯ menu under every message, messages that always go out once, Connect a Device in one window, sturdier connections, and new phone apps. ✨ First run A shorter first-run setup that ends in the app: setup no longer asks for a project folder and has no \"You're set\" summary; Open Ghostex goes straight to the app, and Add Project opens when there is no project yet. Welcome shows Coordinators with a new picture, the Workspace panel offers Fast Computer &am"
+      "note": "macOS: Apple Silicon DMG · Windows: x64 installer · ARM64 installer Linux x64: .deb · .rpm · tarball (mise/ubi) · AppImage · AUR (ghostex-bin) · Linux ARM64: .deb · .rpm · tarball · AppImage Android: APK · iOS: App Store 11.11.0 - 2026-11-19 Ghostex 11.11.0 is out. Work items and a Work button for any session, two computers' servers linked with no desktop app, Grok Bot driving your agents, your own update-check times, a focused Interface settings group, and a big round of speed fixes for Windows with many agents. 📋 Work items Any session can keep its own work items, not only coordinators: while Work items is on, a session's to-dos, waits and finished work fill its Work panel, dock rows and cards under a Topic you can rewrite with a click ( #670 ). A Work button in the header opens the Work panel beside the chat, with a count of what waits on you. It shares the spot with Session details,"
     },
     {
-      "tag": "v11.3.0",
-      "title": "Ghostex 11.3.0",
-      "date": "2026-11-10",
-      "url": "https://github.com/maddada/Ghostex/releases/tag/v11.3.0",
+      "tag": "v11.10.0",
+      "title": "Ghostex 11.10.0",
+      "date": "2026-11-18",
+      "url": "https://github.com/maddada/Ghostex/releases/tag/v11.10.0",
       "pre": false,
-      "note": "macOS: Apple Silicon DMG · Windows: x64 installer · ARM64 installer Linux x64: .deb · .rpm · tarball (mise/ubi) · AppImage · AUR (ghostex-bin) · Linux ARM64: .deb · .rpm · tarball · AppImage Android: APK · iOS: TestFlight through Discord (post in the iOS channel) 11.3.0 - 2026-11-10 Ghostex 11.3.0 is out. Ghostex asks for approval only when someone new wants in, pairing a phone takes one window, connections between your computers and phones stay up, coordinators keep work items with what needs you right above the chat box, each project gets a main coordinator, terminals draw pictures, Windows builds are signed, and a new iPhone app is on its way. 🔐 Approvals only at the door Ghostex asks only at the door, with one click: a plain Approve card shows when a new phone or computer asks to pair (compare the three words), when a Collab guest sends a message in Ask me mode, and when an agent tu"
+      "note": "macOS: Apple Silicon DMG · Windows: x64 installer · ARM64 installer Linux x64: .deb · .rpm · tarball (mise/ubi) · AppImage · AUR (ghostex-bin) · Linux ARM64: .deb · .rpm · tarball · AppImage Android: APK · iOS: App Store 11.10.0 - 2026-11-18 Ghostex 11.10.0 is out. Pick any model and effort before a new coordinator starts, a where pill above the chat box, colour pickers and sliders for every theme colour, popups with tabs in their title bar, a calmer Workers list, and a long list of fixes from your reports. 🧭 Coordinators A new coordinator's first message waits for you: it sits in the chat box as a card with Show all, Edit and Start, so you can change the model and effort in the agent first. Typing a request and pressing Enter starts it with your request queued behind. Any model can run a coordinator, Antigravity's Orchestrator (Argon) included. The model picker only adds a quiet \"You m"
     },
     {
-      "tag": "play-ownership-apk",
-      "title": "play-ownership-apk",
-      "date": "2026-11-10",
-      "url": "https://github.com/maddada/Ghostex/releases/tag/play-ownership-apk",
+      "tag": "v11.9.0",
+      "title": "Ghostex 11.9.0",
+      "date": "2026-11-17",
+      "url": "https://github.com/maddada/Ghostex/releases/tag/v11.9.0",
       "pre": false,
-      "note": "Signed APK for Google Play's package-name ownership check. Package io.ghostex, from the v11.3.0 ghostex-android.apk with assets/adi-registration.properties added, signed with the Ghostex Android release key. This is not a product release."
+      "note": "macOS: Apple Silicon DMG · Windows: x64 installer · ARM64 installer Linux x64: .deb · .rpm · tarball (mise/ubi) · AppImage · AUR (ghostex-bin) · Linux ARM64: .deb · .rpm · tarball · AppImage Android: APK · iOS: App Store 11.9.0 - 2026-11-17 Ghostex 11.9.0 is out. Go back to the version you had in one click, report a crash in one click, sessions in their own window, plain approval cards, a setup row for Claude Swap and Codex Swap, and every release now passes a smoke test on macOS before it ships. 🛟 Safer updates Go back to the version you had: every update keeps the previous version, and Settings > Updates offers \"Go back to \" any time something feels off. On deb and rpm installs it gives the one command that installs the older package. If a new version keeps crashing, Ghostex says so the next time it opens and offers Try again or Go back, and the update window says where to go back. Re"
     },
     {
-      "tag": "v11.2.2",
-      "title": "Ghostex 11.2.2",
-      "date": "2026-11-09",
-      "url": "https://github.com/maddada/Ghostex/releases/tag/v11.2.2",
+      "tag": "v11.8.2",
+      "title": "Ghostex 11.8.2",
+      "date": "2026-11-16",
+      "url": "https://github.com/maddada/Ghostex/releases/tag/v11.8.2",
       "pre": false,
-      "note": "macOS: Apple Silicon DMG · Windows: x64 installer · ARM64 installer Linux x64: .deb · .rpm · tarball (mise/ubi) · AppImage · AUR (ghostex-bin) · Linux ARM64: .deb · .rpm · tarball · AppImage Android: APK · iOS: TestFlight through Discord (post in the iOS channel) 11.2.2 - 2026-11-10 Ghostex 11.2.2 is out. Phones and Easy Connect computers stay connected through restarts and slow links, iPhone voice calls work even when the call microphone keeps stopping, Dictate never loses a recording, messages between agents fold into \"Worked for\", approvals work across your connected computers, and Android gets push notifications. 📱 On the phone iPhones on 11.2.1 already have this release's phone fixes: they arrived over the air, and the last ones come with this release's update. Per-computer Easy Connect keys and the full fix for the iPhone call microphone come with a later iPhone app; Android gets "
+      "note": "macOS: Apple Silicon DMG · Windows: x64 installer · ARM64 installer Linux x64: .deb · .rpm · tarball (mise/ubi) · AppImage · AUR (ghostex-bin) · Linux ARM64: .deb · .rpm · tarball · AppImage Android: APK · iOS: App Store 11.8.2 - 2026-11-16 Ghostex 11.8.2 is out. It fixes the Mac app quitting when a chat shows a one-click answer, including on every launch for some people. 🩹 Fixes and polish macOS: Ghostex no longer quits when you open a chat that ends with one-click answer buttons, which for some people happened on every launch, thanks to @nadzifal , @NexiaMoe and @WangAxerold . Ghostex's notes reach a coordinator as their own message, and the chat hides them however they arrive, so a coordinator's reply is no longer lost behind one, thanks to @sebastianarena . A coordinator's right-click menu groups its settings under one Coordinator row, as the phone's long-press menu does. A new chat"
     },
     {
-      "tag": "v11.2.1",
-      "title": "Ghostex 11.2.1",
-      "date": "2026-11-09",
-      "url": "https://github.com/maddada/Ghostex/releases/tag/v11.2.1",
+      "tag": "v11.8.1",
+      "title": "Ghostex 11.8.1",
+      "date": "2026-11-16",
+      "url": "https://github.com/maddada/Ghostex/releases/tag/v11.8.1",
       "pre": false,
-      "note": "macOS: Apple Silicon DMG · Windows: x64 installer · ARM64 installer Linux x64: .deb · .rpm · tarball (mise/ubi) · AppImage · AUR (ghostex-bin) · Linux ARM64: .deb · .rpm · tarball · AppImage Android: APK · iOS: TestFlight through Discord (post in the iOS channel) 11.2.1 - 2026-11-09 Ghostex 11.2.1 is out. GBots come back as Ghostex's own bots (beta, off by default), chats get opt-in looks and one / key for skills, cloning runs in the background, Settings and Extensions get tidier, iPhone voice calls keep the microphone, and Windows and macOS get a round of fixes. 🤖 GBots (beta) GBots are now Ghostex's own bots (beta, off by default): turn on Main Hub, then GBots in Settings > Extensions > Experimental. The previous GBots and its separate download are gone; their bots and chats were not carried over, and their old files are in your Trash as \"GBots (previous)\". The Bots space shows Hermes"
+      "note": "Downloads removed. 11.8.1 has a macOS crash when a chat shows one-click answers. Get Ghostex 11.8.2 instead. 11.8.1 - 2026-11-16 Ghostex 11.8.1 is out. It fixes a freeze that could follow an update or restart. 🩹 Fixes and polish Fixes Ghostex sometimes freezing right after an update or restart when a coordinator chat was open."
     }
   ]
 }

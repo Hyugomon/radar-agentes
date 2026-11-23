@@ -1,87 +1,87 @@
 {
   "repo": "agentes-chat/agentes-chat",
   "source": "releases.atom",
-  "checked_at": "2026-11-15",
+  "checked_at": "2026-11-23",
   "entries": [
     {
-      "tag": "desktop-v0.8.8",
-      "title": "agentes.chat 0.8.8",
-      "date": "2026-11-14",
-      "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/desktop-v0.8.8",
-      "pre": false,
-      "note": "fix(desktop): the app no longer stops answering on macOS while it reads the window's cookies fix(mobile): the agents' conversation sheet keeps its title and foot clear of the list fix(mobile): the chat's fade under the header is solid behind the status bar docs(engine): listsAgentTo says plainly which agents a narrowed list keeps feat(web): no \"more agents in Team\" row for who doesn't see every agent feat(engine), i18n: \"See all agents\", on for everyone; off, Team lists only the agents that answer you Installing (first open) The desktop app is in beta: the Mac build isn't notarized by Apple yet and the Windows installer isn't signed by Microsoft, so the first open asks once. After that it opens and updates by itself. macOS : drag agentes.chat to Applications and open it, click Done , then open System Settings › Privacy &amp; Security and click Open Anyway (it shows up only right after yo"
+      "tag": "ios-v0.1.6",
+      "title": "ios-v0.1.6: - style: the test's long line on the formatter's lines",
+      "date": "2026-11-23",
+      "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/ios-v0.1.6",
+      "pre": true,
+      "note": "fix(mobile): a computer's line keeps its rows' room fix(mobile): the agents' conversation is taken by its header; no close plate fix(mobile): an agent's face inside a line of words stands in its sky tile fix(client): the working line says an agent's work while its question to another agent is out test: match the sheet bar across its lines style: the asked agent's face on the formatter's lines fix(mobile): framed faces in the working line; the agents' conversation takes the sheets' bar fix(mobile): a list in my own message keeps its words fix(mobile): a canvas pin's corners follow its face too feat(mobile): take a Drive file off a task; a picture pin's corners follow its face chore(mobile): android 0.1.9 fix(realtime): missed events start over at most once a minute; app catch-ups spread out chore(mobile): android 0.1.8 fix(adapters): a slow NOTIFY no longer has every app read its workspac"
     },
     {
-      "tag": "desktop-v0.8.7",
-      "title": "agentes.chat 0.8.7",
-      "date": "2026-11-14",
-      "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/desktop-v0.8.7",
+      "tag": "ios-v0.1.5",
+      "title": "ios-v0.1.5: - i18n: Mark on a file's bar in the other twelve languages",
+      "date": "2026-11-23",
+      "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/ios-v0.1.5",
       "pre": false,
-      "note": "fix(i18n): Russian security advisories and Chinese workflows in the app's own words docs(client): toolName's note points at the strings that hold the catalog's words fix(i18n): tool names use each language's words from the rest of the app test(web): on a hold, the key row's ⋯ menu offers only Apagar feat(client): every language names tools by the catalog's words, read from its strings fix(client,web,mobile): a tool's words inside a step's sentence follow the language's capitals feat(i18n): the tool catalog's words as strings, in all 14 languages fix: identical.json as Biome formats it, and the welcome window's browser call comes from the pair sheet now feat(desktop): the first screen lists the three places, with an install screen and plain words test(engine): a key saved again with make default becomes the default and stays it test(engine): the second key in the defaults test has its own"
+      "note": "fix(web): a Mark button turns marking a file off and on; a comment pin's corners follow its face fix(mobile): a labeled field's ⓘ goes after its value, never in the label's column fix: what the full suite found in the inbox fix(web): a video opened from its chat tile goes on where the tile was fix(mobile): the same frame and roles for the cards left out fix(mobile): one hierarchy for the words of every card in a message fix(mobile): one frame for every card in a message test(mobile): the decided requests' status is one word test: the inbox's tests, and what they found fix(mobile): the working orbit turns on every row of the lists chore: the inbox in the other languages, its decision record, formatting chore(mobile): android 0.1.7 feat(web): proposals waiting on the person are rows of the inbox, and the inbox reaches the foot chore(mobile): android 0.1.6 feat(mobile): the inbox on the pho"
     },
     {
-      "tag": "cla-v1.0",
-      "title": "cla-v1.0: Merge pull request #385 from agentes-chat/agentes/nick/cla-dual-license",
-      "date": "2026-11-14",
-      "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/cla-v1.0",
+      "tag": "android-v0.1.10",
+      "title": "android-v0.1.10: - chore(mobile): ios 0.1.6",
+      "date": "2026-11-23",
+      "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/android-v0.1.10",
       "pre": false,
-      "note": "docs: a contributor license agreement for outside contributions, and the commercial license"
+      "note": "style: the test's long line on the formatter's lines fix(mobile): a computer's line keeps its rows' room fix(mobile): the agents' conversation is taken by its header; no close plate fix(mobile): an agent's face inside a line of words stands in its sky tile fix(client): the working line says an agent's work while its question to another agent is out test: match the sheet bar across its lines style: the asked agent's face on the formatter's lines fix(mobile): framed faces in the working line; the agents' conversation takes the sheets' bar fix(mobile): a list in my own message keeps its words fix(mobile): a canvas pin's corners follow its face too feat(mobile): take a Drive file off a task; a picture pin's corners follow its face fix(realtime): missed events start over at most once a minute; app catch-ups spread out"
     },
     {
-      "tag": "desktop-v0.8.5",
-      "title": "agentes.chat 0.8.5",
-      "date": "2026-11-13",
-      "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/desktop-v0.8.5",
+      "tag": "android-v0.1.9",
+      "title": "android-v0.1.9",
+      "date": "2026-11-23",
+      "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/android-v0.1.9",
       "pre": false,
-      "note": "fix(server): a message's explanation reads the workspace's standing through standing.ts's own predicate docs(adr): 0156's addendum covers Git LFS and merge messages fix(engine): a merge message the agent writes ends with its Co-authored-by lines fix(runner): a repository on Git LFS still sends its files when an agent pushes test(engine): the API brain's prompt snapshot names the agents' line on commits in the rarer tools' label docs: the operator API's read routes and read-only token in the map fix(server): operator reads: a page of runs reads only its own transcripts, jobs page by the stored time, and an explanation counts the default budget and every billing hold test(runner): git -c settings an agent's environment already had still hold under its co-author hooks test(server): one canary test holds every operator GET to \"never content, never secrets\" fix(runner,engine): a hook installe"
+      "note": "fix(adapters): a slow NOTIFY no longer has every app read its works…"
     },
     {
-      "tag": "v0.1.1",
-      "title": "v0.1.1: ci: images built on main get published (#131)",
-      "date": "2026-11-12",
-      "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/v0.1.1",
+      "tag": "android-v0.1.8",
+      "title": "android-v0.1.8: - chore(mobile): ios 0.1.5",
+      "date": "2026-11-23",
+      "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/android-v0.1.8",
       "pre": false,
-      "note": "ci: images built on main get published Publish the images had no condition of its own, so GitHub skipped it whenever a job earlier in its chain was skipped, as the jobs a push doesn't touch are on main: the images were built and never tagged :edge. Co-Authored-By: Claude Opus 5.5 noreply@anthropic.com ci: the images don't wait for the desktop, phone and screen tests Co-authored-by: Claude Opus 5.5 noreply@anthropic.com"
+      "note": "i18n: Mark on a file's bar in the other twelve languages fix(web): a Mark button turns marking a file off and on; a comment pin's corners follow its face fix(mobile): a labeled field's ⓘ goes after its value, never in the label's column fix: what the full suite found in the inbox fix(web): a video opened from its chat tile goes on where the tile was fix(mobile): the same frame and roles for the cards left out fix(mobile): one hierarchy for the words of every card in a message fix(mobile): one frame for every card in a message test(mobile): the decided requests' status is one word test: the inbox's tests, and what they found fix(mobile): the working orbit turns on every row of the lists chore: the inbox in the other languages, its decision record, formatting feat(web): proposals waiting on the person are rows of the inbox, and the inbox reaches the foot feat(mobile): the inbox on the phon"
     },
     {
-      "tag": "setup-v0.1.1",
-      "title": "setup-v0.1.1: chore(setup): 0.1.1 (#141)",
-      "date": "2026-11-12",
-      "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/setup-v0.1.1",
+      "tag": "android-v0.1.7",
+      "title": "android-v0.1.7: - feat(mobile): touch-first buttons and segmented control",
+      "date": "2026-11-23",
+      "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/android-v0.1.7",
       "pre": false,
-      "note": "Co-authored-by: Claude Opus 5.5 noreply@anthropic.com"
+      "note": "fix(mobile): a handed work's Stop as an icon on its row; its bubble grows with its words fix(mobile): an agent's role beside its name as the web's tag"
     },
     {
-      "tag": "desktop-v0.8.4",
-      "title": "agentes.chat 0.8.4",
-      "date": "2026-11-12",
-      "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/desktop-v0.8.4",
+      "tag": "ios-v0.1.4",
+      "title": "ios-v0.1.4",
+      "date": "2026-11-22",
+      "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/ios-v0.1.4",
       "pre": false,
-      "note": "feat(web): a routine's name stays on one line; the horizon's strings in every language, its test feat(feedback): the inbox is on by itself on agentes.chat's own servers; FEEDBACK_INBOX=false turns it off feat(web): Rotinas' horizon has one lane per agent, the rest in a dialog docs(feedback): the relay is the one way for a self-hosted server; FEEDBACK_EMAIL is the team's own address fix(engine): read a reported version with bounded digits test(runner): the Codex home rules check is tested where it lives now test(web): the right hand's skill card shows the box like any agent's fix(adapters): a word's closing marks are trimmed in linear time fix(web,mobile,i18n): Lodi's memory reads as one person's, not the team's fix(web,ui): Lodi's page keeps the page rhythm, a chosen tab scrolls into a narrow strip fix(engine,runner): Aprovar sempre and the levels, tightened where a rule or a stored acti"
+      "note": "Comentários de arquivo em tela empurrada; citação entre agentes; Pass…"
     },
     {
-      "tag": "desktop-v0.8.3",
-      "title": "agentes.chat 0.8.3",
-      "date": "2026-11-12",
-      "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/desktop-v0.8.3",
+      "tag": "ios-v0.1.3",
+      "title": "ios-v0.1.3",
+      "date": "2026-11-22",
+      "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/ios-v0.1.3",
       "pre": false,
-      "note": "ci: the web and desktop job gets the time GitHub's runners need ( #154 ) fix(runner): OpenCode 2.2 is found (its version line starts with its name) test(engine): the Codex entry takes only its version fix(engine): switching between an owner's plans keeps who can talk to the agent fix(db): migrations check out with LF everywhere, so every build hashes them the same fix(web): on a phone a settings row's switch goes under a long name instead of squeezing it a word a line test(runner): the dropped-turn test reads the fake CLI's log once every line is whole test(mobile): format the sign-in failure pin fix(engine): the right hand's background work waits for a computer just gone, as its run does fix(ui): a menu with faces keeps every lead centred in its row fix(ui): a wrapped menu name keeps its icon on the first line fix(dashboards): the right hand's widgets wait on what its run would refuse, "
+      "note": "fix(mobile): a title beside a wide right side starts by the back bu…"
     },
     {
-      "tag": "desktop-v0.8.2",
-      "title": "agentes.chat 0.8.2",
-      "date": "2026-11-12",
-      "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/desktop-v0.8.2",
+      "tag": "ios-v0.1.2",
+      "title": "ios-v0.1.2",
+      "date": "2026-11-22",
+      "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/ios-v0.1.2",
       "pre": false,
-      "note": "Every agent can sign in with a Gemini plan. Installing (first open) The desktop app is in beta: the Mac build isn't notarized by Apple yet and the Windows installer isn't signed by Microsoft, so the first open asks once. After that it opens and updates by itself. macOS : drag agentes.chat to Applications and open it, click Done , then open System Settings › Privacy &amp; Security and click Open Anyway (it shows up only right after you try to open the app, for about an hour). Confirm with Touch ID or your password. If the button never shows up, or macOS says the app is damaged, run xattr -dr com.apple.quarantine /Applications/agentes.chat.app in Terminal and open it again. Windows ( x64-setup.exe , or arm64-setup.exe on an ARM computer): if your browser asks, choose Keep . When Windows protected your PC shows up, click More info , then Run anyway . Linux : sudo apt install ./agentes_0.8.2"
+      "note": "fix(mobile): an empty message field is one line high again after a …"
     },
     {
-      "tag": "desktop-v0.8.1",
-      "title": "agentes.chat 0.8.1",
-      "date": "2026-11-12",
-      "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/desktop-v0.8.1",
+      "tag": "android-v0.1.6",
+      "title": "android-v0.1.6: - chore(mobile): ios 0.1.4",
+      "date": "2026-11-22",
+      "url": "https://github.com/agentes-chat/agentes-chat/releases/tag/android-v0.1.6",
       "pre": false,
-      "note": "Pause a connected computer from the app, with its new preferences. Agents stop using it until you resume. Installing (first open) The desktop app is in beta: the Mac build isn't notarized by Apple yet and the Windows installer isn't signed by Microsoft, so the first open asks once. After that it opens and updates by itself. macOS : drag agentes.chat to Applications and open it, click Done , then open System Settings › Privacy &amp; Security and click Open Anyway (it shows up only right after you try to open the app, for about an hour). Confirm with Touch ID or your password. If the button never shows up, or macOS says the app is damaged, run xattr -dr com.apple.quarantine /Applications/agentes.chat.app in Terminal and open it again. Windows ( x64-setup.exe , or arm64-setup.exe on an ARM computer): if your browser asks, choose Keep . When Windows protected your PC shows up, click More inf"
+      "note": "fix(mobile): a service's page reads as one hierarchy fix(mobile): no colored bar at a left edge; quotes and plates on the scale's corner with room fix(mobile): strips that scroll sideways fade at their edges; the service page's sky moves; one icon for the home's view feat(engine): agents show pictures from the web on their reply (show_image, ADR 0217) feat(connectors): Canva connects through Composio feat(engine,server): each run stamped with its coding CLI's version, and GET /cli-runs counts failures by build fix(web): an agent with no owner reads \"Admins\", who answer for it feat(mobile): featured connectors at the top, each over its own sky fix(mobile): the agents' talk sheet after main: its title alone, no unused channel name feat(web): a task manager row's actions in one ⋯ menu feat(web,mobile,engine): a file's comments open with it, and its line in the chat counts them at once feat("
     }
   ]
 }

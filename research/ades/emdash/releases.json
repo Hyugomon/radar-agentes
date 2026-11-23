@@ -1,8 +1,24 @@
 {
   "repo": "generalaction/emdash",
   "source": "releases.atom",
-  "checked_at": "2026-11-15",
+  "checked_at": "2026-11-23",
   "entries": [
+    {
+      "tag": "v1.2.13",
+      "title": "v1.2.13",
+      "date": "2026-11-19",
+      "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.13",
+      "pre": false,
+      "note": ""
+    },
+    {
+      "tag": "v1.2.12",
+      "title": "v1.2.12",
+      "date": "2026-11-19",
+      "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.12",
+      "pre": false,
+      "note": "This release sends Emdash 2.0 waitlist signups through emdash.com and makes importing data from Emdash v0 more reliable. Fixes Waitlist signups from the sidebar are sent to emdash.com in a single request. When a signup fails, the dialog now says why: the email address doesn't look valid, there have been too many attempts, or the server couldn't be reached. Importing data from Emdash v0 runs in one transaction that is never held open while other work happens. A failed import no longer rolls back unrelated changes made at the same time, starting a second import no longer fails with \"cannot start a transaction within a transaction\", an import that overlaps a running one is rejected, and terminal sessions are renamed only after the import has been saved."
+    },
     {
       "tag": "v1.2.11",
       "title": "v1.2.11",
@@ -64,22 +80,6 @@
       "title": "v1.2.8-canary.98",
       "date": "2026-10-08",
       "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.8-canary.98",
-      "pre": true,
-      "note": ""
-    },
-    {
-      "tag": "v1.2.7",
-      "title": "v1.2.7",
-      "date": "2026-09-27",
-      "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.7",
-      "pre": false,
-      "note": "This release remembers agent settings across tasks, adds native provider controls to the chat composer, and improves session recovery. It also makes update downloads, project opening, and conversation navigation more reliable. Highlights Chat remembers your model, effort, access mode, and other provider settings across tasks and projects, with separate preferences for each agent and machine. New automations inherit these preferences and retain their own saved settings for scheduled runs. Switch between Chat UI and TUI directly in the agent selector. Your interface choice is remembered across agents, projects, and machines. Task creation and active chat use the provider's available configuration options, including a fast-mode toggle where supported. Chat permissions follow the provider's native access mode, and TUI auto-approval is remembered separately. Claude's model picker adds Opus 5."
-    },
-    {
-      "tag": "v1.2.7-canary.96",
-      "title": "v1.2.7-canary.96",
-      "date": "2026-09-26",
-      "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.7-canary.96",
       "pre": true,
       "note": ""
     }

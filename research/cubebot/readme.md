@@ -17,7 +17,7 @@ Cubebot is a self-hosted platform for a team of AI agents that live with you. Ea
 - **Calendar and routines.** Schedule recurring work, see every agent's runs on one calendar, and layer in your own calendars.
 - **Skills and a knowledge base.** Reusable procedures with revisions that any person or agent can publish, plus shared pages and files.
 - **Any model.** Anthropic, OpenAI, Google Gemini, xAI Grok, OpenRouter and MiniMax, with a model per agent and spend tracked per agent. ChatGPT and SuperGrok plans can sign in instead of an API key.
-- **Native connectors.** 34 of them, including GitHub, Google, Microsoft 365, Slack, Notion, Linear, Jira and Home Assistant, plus any MCP server.
+- **Native connectors.** 36 of them, including GitHub, Google, Microsoft 365, Slack, Notion, Linear, Devin, Jira and Home Assistant, plus any MCP server.
 - **Voice.** Call an agent from the console and talk.
 - **You stay in control.** Grants per agent and connection, approvals for sensitive actions, an encrypted vault, an audit log, single sign-on with OpenID Connect, and backups to S3.
 
@@ -45,7 +45,7 @@ Manage the installation with the `cubebot` command:
 ```sh
 ~/.cubebot/cubebot up          # start
 ~/.cubebot/cubebot down        # stop, keeping your data
-~/.cubebot/cubebot update      # move to the latest release, or name one: update v0.2.15
+~/.cubebot/cubebot update      # move to the latest release, or name one: update v0.4.2
 ~/.cubebot/cubebot logs -f     # follow the logs
 ~/.cubebot/cubebot admin       # create the administrator if nobody has yet
 ~/.cubebot/cubebot uninstall   # remove everything this installation created, data included

@@ -2,9 +2,9 @@
 
 - **Web oficial**: https://herdr.dev/
 - **Repo**: https://github.com/herdrdev/herdr-app
-- **Licencia**: Comercial
+- **Licencia**: Apache-2.0
 - **Categoría**: terminal
-- **Revisado**: 2026-11-13
+- **Revisado**: 2026-11-23
 - **ADE Score**: 72.22 · Tier A
 
 ## Qué es
@@ -13,12 +13,16 @@ ADE de terminal para mantener agentes de código juntos en local y SSH; las term
 
 ## Release revisada
 
-- **Tag**: [v0.1.15](https://github.com/herdrdev/herdr-app/releases/tag/v0.1.15)
-- **Fecha**: 2026-11-10 (hace 5 días)
+- **Tag**: [v0.1.17](https://github.com/herdrdev/herdr-app/releases/tag/v0.1.17)
+- **Fecha**: 2026-11-22 (hace 1 días)
 - **Estado**: activo · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
-> chore: release 0.1.15
+**Qué trae**: v0.1.17: lanzamientos de mantenimiento v0.1.16–v0.1.17.
+
+**Impacto en la ficha**: Sin cambio de score (72.22 A).
+
+> docs: 0.1.17 notes in plain words
 
 ## Evidencia
 
@@ -79,9 +83,9 @@ ADE de terminal para mantener agentes de código juntos en local y SSH; las term
 
 ## Fuentes
 
-- [Web oficial](https://herdr.dev/) · consultado 2026-11-13
-- [Repositorio GitHub](https://github.com/herdrdev/herdr-app) · consultado 2026-11-13
-- [README](https://github.com/herdrdev/herdr-app#readme) · consultado 2026-11-13
+- [Web oficial](https://herdr.dev/) · consultado 2026-11-23
+- [Repositorio GitHub](https://github.com/herdrdev/herdr-app) · consultado 2026-11-23
+- [README](https://github.com/herdrdev/herdr-app#readme) · consultado 2026-11-23
 
 ---
 

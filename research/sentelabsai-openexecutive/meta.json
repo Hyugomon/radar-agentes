@@ -1,14 +1,14 @@
 {
-  "full_name": "SenteLabsAI/OpenExecutive",
-  "html_url": "https://github.com/SenteLabsAI/OpenExecutive",
+  "full_name": "ForeactLabs/OpenExecutive",
+  "html_url": "https://github.com/ForeactLabs/OpenExecutive",
   "description": "AI-powered virtual executive team — a single coherent executive persona backed by 8 specialist agents (FastAPI + Next.js).",
   "homepage": "https://openexecutive.ai",
   "license": "Apache-2.0",
   "language": "Python",
-  "stars": 5796,
-  "forks": 629,
-  "open_issues": 10,
-  "pushed_at": "2026-11-12T03:57:33Z",
+  "stars": 5834,
+  "forks": 634,
+  "open_issues": 12,
+  "pushed_at": "2026-11-22T21:54:20Z",
   "created_at": "2026-06-11T21:41:54Z",
   "topics": [
     "ai",
@@ -24,5 +24,5 @@
   ],
   "archived": false,
   "api_status": 200,
-  "fetched_at": "2026-11-12"
+  "fetched_at": "2026-11-23"
 }

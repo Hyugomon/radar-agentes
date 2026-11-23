@@ -1,8 +1,48 @@
 {
   "repo": "elie222/rakazo",
   "source": "releases.atom",
-  "checked_at": "2026-11-15",
+  "checked_at": "2026-11-23",
   "entries": [
+    {
+      "tag": "v0.15.0",
+      "title": "Rakazo v0.15.0",
+      "date": "2026-11-23",
+      "url": "https://github.com/elie222/rakazo/releases/tag/v0.15.0",
+      "pre": false,
+      "note": "Security Changing an MCP server's URL no longer carries its stored bearer token, header values or an OAuth client that never signed in to the new address. Before, the connection check after saving sent the old token to the new URL. RAKAZO_NAV_LINKS also rejects links to the app's own routes written in other letter cases or percent-encoded, such as /API/me , matching how the bundled proxy routes them. Password managers no longer fill or save in the vault's login fields. The web server refuses to start when its build id is not a plain timestamp, so a malformed id cannot touch files outside the asset archive. Added Attach Word (.docx) and PowerPoint (.pptx) files to a chat, and bots can hand them back. Macro-enabled and legacy Office formats are still refused. A routine's owner can switch on Use my computer so scheduled runs, Run now and @mentions use the computer paired in the desktop app,"
+    },
+    {
+      "tag": "android",
+      "title": "Rakazo for Android 1.0.19 (45)",
+      "date": "2026-11-23",
+      "url": "https://github.com/elie222/rakazo/releases/tag/android",
+      "pre": false,
+      "note": "Install rakazo.apk on your Android phone. It updates itself over the air."
+    },
+    {
+      "tag": "v0.14.0",
+      "title": "Rakazo v0.14.0",
+      "date": "2026-11-22",
+      "url": "https://github.com/elie222/rakazo/releases/tag/v0.14.0",
+      "pre": false,
+      "note": "Security Auto Review knows when a recipient, site, payee or bank account appeared only in content the bot read, and asks before sending private data, granting access or paying that party. After a run reads outside content, it also checks shell commands, typing into pages, desktop input and opening new sites. Saving memory or skills, changing routines and rewriting instructions after outside content are checked against what the owner actually asked for ( approvals ). Only the person who made a routine can edit it, so an edit no longer makes the routine run with the editor's accounts. Restoring an archived bot or group turns back on only the restorer's own routines. Bot run prompts are encrypted at rest with the Space's keys, like chat messages. Memory text is escaped before it reaches the prompt, so a saved memory cannot read as instructions ( content encryption ). Names and labels lose i"
+    },
+    {
+      "tag": "v0.13.0",
+      "title": "Rakazo v0.13.0",
+      "date": "2026-11-18",
+      "url": "https://github.com/elie222/rakazo/releases/tag/v0.13.0",
+      "pre": false,
+      "note": "Security Approval settings now apply across routines, connected chat apps, and work influenced by outside content. Auto Review considers recent instructions from the owner, asks about new sites when a URL could disclose private information, and can use the deployment's included reviewer when the selected one is unavailable. Unattended approvals expire after 30 minutes. Explicit blocks and spending limits still apply ( approvals ). Creating event triggers or saving skills can require approval when outside content may have influenced the request. Remote secret stores clean up unused credentials after interrupted writes, replaced sign-ins, and deletion of accounts or workspaces with connected services. Locked down which credentials screenshot jobs receive, removed messaging addresses from invalid-address errors, and updated the inbound email authentication dependency. Billing expires checko"
+    },
+    {
+      "tag": "v0.12.0",
+      "title": "Rakazo v0.12.0",
+      "date": "2026-11-16",
+      "url": "https://github.com/elie222/rakazo/releases/tag/v0.12.0",
+      "pre": false,
+      "note": "Security Cloud-agent tools enforce the bot's current integration assignments and allowed tools before using a connected account. Inbound email needs signed recipients before it can be treated as the owner's instructions; an SPF pass reported by a relay is no longer enough. Email routines can still accept signed mail as outside data ( inbound email ). Saving memory after reading outside content follows the run's approval mode and Always allow list, including after a run resumes ( approvals ). Spoken answers containing both yes and no cannot approve an action. A texted YES or NO applies only to a group invite or agent connection request delivered before the reply. Ambiguous checkout totals require manual payment, including when an approved action is checked again. Amounts such as $.99 are read as cents, and payment-method controls are excluded from purchase approval. Model connection error"
+    },
     {
       "tag": "v0.11.0",
       "title": "Rakazo v0.11.0",
@@ -28,14 +68,6 @@
       "note": "Security Mobile discards sign-ins that finish after a server change, preventing the previous server's session credentials from reaching the new server. Offline sign-out now retries session revocation when connectivity returns; Android also suppresses bot notifications while signed out. On iOS, old notification previews can still appear until revocation reaches the server. Credentials passed in local MCP server launch arguments are hidden from tool output, errors and run history, including authorization flags, numeric secret values and passwords in URLs. Incus computers explicitly start as an unprivileged user, including custom images without a declared user. Remote command working directories stay within the bot workspace, and team-chat attachment names are sanitized before entering bot context. Computer helpers no longer load Python code from the bot-writable home directory or inherit t"
     },
     {
-      "tag": "android",
-      "title": "Rakazo for Android 1.0.14 (33)",
-      "date": "2026-11-10",
-      "url": "https://github.com/elie222/rakazo/releases/tag/android",
-      "pre": false,
-      "note": "Install rakazo.apk on your Android phone. It updates itself over the air."
-    },
-    {
       "tag": "v0.8.0",
       "title": "Rakazo v0.8.0",
       "date": "2026-11-04",
@@ -50,38 +82,6 @@
       "url": "https://github.com/elie222/rakazo/releases/tag/v0.7.0",
       "pre": false,
       "note": "Security Updated Better Auth to 1.7.16 for its November security fixes. The most serious one was in mobile sign-in, where the authorization proxy could sign values it did not issue. The others fix OAuth sign-in treating an unverified provider email as verified, email codes whose attempt limit could be raced, email-change links that stayed valid after the address changed hands, and passkey checks that skipped origin and user verification. Signing out, signing in to another account, or switching server on mobile now stops read-aloud and clears the replies still waiting to be read. Before, the phone kept reading the previous account's bot replies over the sign-in screen. Disconnecting an MCP server's OAuth stays in effect even when a sign-in was still finishing, including the first sign-in to a server. A late token no longer marks the server as connected again, and a sign-in the disconnect "
-    },
-    {
-      "tag": "v0.6.0",
-      "title": "Rakazo v0.6.0",
-      "date": "2026-11-04",
-      "url": "https://github.com/elie222/rakazo/releases/tag/v0.6.0",
-      "pre": false,
-      "note": "Security Every desktop update now has to be signed. Windows releases can no longer be built unsigned. Linux AppImage updates now come with a signature, and the app refuses to install an update whose signature is missing or does not match. Linux installs from before this release can't check signatures yet, so they accept this update the same way as before. Every update after it is checked. Added The vault holds payment cards and contacts (addresses, phones and emails) next to logins, API keys and variables. Each item has a title you choose, such as \"Home\" or \"Work card\", and an optional note on when the bot should use it. Settings → Vault is one list that opens each item in place, and a chat request is a short row with an Add button. In Approvals settings you can add a rule for a tool by name before the bot ever asks about it, and switch any saved tool, connector or site rule between Allo"
-    },
-    {
-      "tag": "v0.5.0",
-      "title": "Rakazo v0.5.0",
-      "date": "2026-11-03",
-      "url": "https://github.com/elie222/rakazo/releases/tag/v0.5.0",
-      "pre": false,
-      "note": "Security When you turn on Let bots use this computer in the desktop app, the computer stays connected only as long as the sign-in that connected it. Signing out, resetting your password or signing out everywhere disconnects it. Signing back in as the same person reconnects it without asking, and anyone else who signs in on that app starts with access off. A computer paired before this update is tied to the desktop's sign-in the next time the updated app opens, and until then it disconnects only once you have no sign-in left. The This computer server that the desktop app runs locally now accepts only its first account. Before, another user on the same machine could sign up and have their bots run as the owner. The desktop app's native speech recognition and Local Computer Access now need an HTTPS server, unless the server runs on the same machine. Before, someone who could tamper with tra"
-    },
-    {
-      "tag": "v0.4.0",
-      "title": "Rakazo v0.4.0",
-      "date": "2026-11-01",
-      "url": "https://github.com/elie222/rakazo/releases/tag/v0.4.0",
-      "pre": false,
-      "note": "Security Row-level security's system bypass now needs a key that only the app holds, so SQL running for one Space can no longer give itself access to every Space. db:migrate sets it up on upgrade with no new configuration. Installs whose runtime database login has no password keep the old behavior, and db:migrate warns about it. Hosts hardened with harden-host.sh now drop inbound IPv4 TCP packets that carry IP options and turn off multipath TCP, and production Caddy no longer listens with multipath TCP. This blocks the known path to CVE-2026-98432 , a remote Linux kernel bug, until a fixed kernel is running. Rerun harden-host.sh and recreate Caddy now, then install the fixed kernel and reboot as soon as your distribution ships it. The host check now reports updates waiting for a reboot ( production ). Dropping a connection partway through a WebSocket upgrade no longer crashes the server."
-    },
-    {
-      "tag": "v0.3.6",
-      "title": "Rakazo v0.3.6",
-      "date": "2026-10-28",
-      "url": "https://github.com/elie222/rakazo/releases/tag/v0.3.6",
-      "pre": false,
-      "note": "What's Changed docs(self-host): restore a production snapshot into a new stack by @tc3oliver in #2167 Agent import follow-ups: Back from a dropped agent, shared helpers, logged Undo failures by @elie222 in #2172 fix(runs): deny an open approval when its run is stopped by @tc3oliver in #2171 Give each screenshot of a remote desktop its own file by @elie222 in #2166 Tell the simulated person when a screen step did nothing by @elie222 in #2169 Drop the legacy isDefault column on model preferences by @elie222 in #2176 Always show the password field and drop the sign-in method toggle by @elie222 in #2173 Repair broken dependencies when preparing cloud computers by @elie222 in #2178 Delete everything an account leaves on bot computers by @elie222 in #2161 fix(runs): deny an expired run's open approval by @tc3oliver in #2181 Run weekly Codex dependency updates in GitHub Actions by @elie222 in #"
     }
   ]
 }

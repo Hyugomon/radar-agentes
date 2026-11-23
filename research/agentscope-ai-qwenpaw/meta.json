@@ -4,11 +4,11 @@
   "description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
   "homepage": "http://qwenpaw.agentscope.io/",
   "license": "Apache-2.0",
-  "language": "TypeScript",
-  "stars": 37637,
-  "forks": 3277,
-  "open_issues": 1137,
-  "pushed_at": "2026-11-12T04:06:01Z",
+  "language": "Python",
+  "stars": 38131,
+  "forks": 3306,
+  "open_issues": 1172,
+  "pushed_at": "2026-11-23T05:02:56Z",
   "created_at": "2026-02-24T03:42:56Z",
   "topics": [
     "agent",
@@ -30,5 +30,5 @@
   ],
   "archived": false,
   "api_status": 200,
-  "fetched_at": "2026-11-12"
+  "fetched_at": "2026-11-23"
 }

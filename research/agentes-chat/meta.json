@@ -67,7 +67,7 @@
   "deployments_url": "https://api.github.com/repos/agentes-chat/agentes-chat/deployments",
   "created_at": "2026-11-09T00:50:28Z",
   "updated_at": "2026-11-15T07:40:31Z",
-  "pushed_at": "2026-11-15T06:22:40Z",
+  "pushed_at": "2026-11-23T21:49:19Z",
   "git_url": "git://github.com/agentes-chat/agentes-chat.git",
   "ssh_url": "git@github.com:agentes-chat/agentes-chat.git",
   "clone_url": "https://github.com/agentes-chat/agentes-chat.git",
@@ -88,13 +88,7 @@
   "archived": false,
   "disabled": false,
   "open_issues_count": 220,
-  "license": {
-    "key": "agpl-3.0",
-    "name": "GNU Affero General Public License v3.0",
-    "spdx_id": "AGPL-3.0",
-    "url": "https://api.github.com/licenses/agpl-3.0",
-    "node_id": "MDc6TGljZW5zZTE="
-  },
+  "license": "AGPL-3.0",
   "allow_forking": true,
   "is_template": false,
   "web_commit_signoff_required": false,
@@ -123,8 +117,8 @@
     "team-chat"
   ],
   "visibility": "public",
-  "forks": 251,
-  "open_issues": 220,
+  "forks": 390,
+  "open_issues": 460,
   "watchers": 1425,
   "default_branch": "main",
   "temp_clone_token": null,
@@ -151,5 +145,8 @@
     "site_admin": false
   },
   "network_count": 251,
-  "subscribers_count": 2
+  "subscribers_count": 2,
+  "stars": 1989,
+  "api_status": 200,
+  "fetched_at": "2026-11-23"
 }

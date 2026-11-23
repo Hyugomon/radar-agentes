@@ -2,9 +2,9 @@
 
 - **Web oficial**: https://tortie.sh/
 - **Repo**: https://github.com/gregce/tortie
-- **Licencia**: Comercial
+- **Licencia**: Apache-2.0
 - **Categoría**: workspace
-- **Revisado**: 2026-11-13
+- **Revisado**: 2026-11-23
 - **ADE Score**: 73.68 · Tier A
 
 ## Qué es
@@ -13,12 +13,16 @@ Workspace con múltiples agentes, multiplexación de sesiones, skills y companio
 
 ## Release revisada
 
-- **Tag**: [v0.114.1](https://github.com/gregce/tortie/releases/tag/v0.114.1)
-- **Fecha**: 2026-11-06 (hace 9 días)
-- **Estado**: reciente · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Tag**: [v0.115.0](https://github.com/gregce/tortie/releases/tag/v0.115.0)
+- **Fecha**: 2026-11-17 (hace 6 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
-> This release fixes an error 0.114.0 could show again and again when Tortie's session list stopped reading correctly while it ran. Tortie now says so once and offers a restart, and your sessions keep running. Fixed If Tortie's session list stops reading correctly while it runs, Tortie says so once and offers a restart, instead of an error every few seconds and a crash when you quit; your sessions keep running either way ( 5a6097ac )
+**Qué trae**: v0.115.0: correcciones de renderizado/scrollback de terminal y estabilidad al arrancar sesiones.
+
+**Impacto en la ficha**: Sin cambio de score (73.68 A).
+
+> This release is about the terminal, after Jack Shaw's report in issue 44. A long agent reply no longer draws over itself, copying gives you what you see, and links an agent prints open in your browser. Words you type no longer turn a session amber, and starting a session or quitting Tortie now holds up when its session list goes bad. Fixed Scroll back to read while an agent on this Mac keeps printing, then scroll back down, and you now pass through everything it printed while you read instead of jumping past it to the bottom; getting back to the bottom takes as many lines as were printed, and typing still takes you there at once ( 99e0d298 ) Copying lines from the history of a busy session o
 
 ## Evidencia
 
@@ -80,9 +84,9 @@ Workspace con múltiples agentes, multiplexación de sesiones, skills y companio
 
 ## Fuentes
 
-- [Web oficial](https://tortie.sh/) · consultado 2026-11-13
-- [Repositorio GitHub](https://github.com/gregce/tortie) · consultado 2026-11-13
-- [README](https://github.com/gregce/tortie#readme) · consultado 2026-11-13
+- [Web oficial](https://tortie.sh/) · consultado 2026-11-23
+- [Repositorio GitHub](https://github.com/gregce/tortie) · consultado 2026-11-23
+- [README](https://github.com/gregce/tortie#readme) · consultado 2026-11-23
 
 ---
 

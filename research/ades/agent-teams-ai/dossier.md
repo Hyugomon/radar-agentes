@@ -2,9 +2,9 @@
 
 - **Web oficial**: https://agentteams.live/
 - **Repo**: https://github.com/777genius/agent-teams-ai
-- **Licencia**: Comercial
+- **Licencia**: AGPL-3.0
 - **Categoría**: orchestrator
-- **Revisado**: 2026-11-13
+- **Revisado**: 2026-11-23
 - **ADE Score**: 71.9 · Tier B
 
 ## Qué es
@@ -14,9 +14,9 @@ App de escritorio para correr agentes como equipo alrededor de un tablero: un l�
 ## Release revisada
 
 - **Tag**: [v2.18.7](https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.7)
-- **Fecha**: 2026-11-11 (hace 4 días)
-- **Estado**: activo · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Fecha**: 2026-11-11 (hace 12 días)
+- **Estado**: reciente · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
 > Simplified the Dashboard and improved team creation and launch. Added a tasks table, built-in Git, improved schedules, and fixed OpenCode teammates sometimes not replying. Customize local fonts, text size, app scaling, and portable JSON themes. Simplified the Team screen. What's New Create teams from the Teams page; confirm templates before replacing an edited setup. Sort tasks in a live table with selectable, resizable columns. Schedule one agent or a whole team, with optional linked board tasks and avatar-based member selection. Built-in Git handles app diffs, worktrees, and cloning without a separate Git installation. Use OpenCode 2.x on Intel Macs. Choose local UI fonts, text size, whole
 
@@ -84,9 +84,9 @@ App de escritorio para correr agentes como equipo alrededor de un tablero: un l�
 
 ## Fuentes
 
-- [Web oficial](https://agentteams.live/) · consultado 2026-11-13
-- [Repositorio GitHub](https://github.com/777genius/agent-teams-ai) · consultado 2026-11-13
-- [README](https://github.com/777genius/agent-teams-ai#readme) · consultado 2026-11-13
+- [Web oficial](https://agentteams.live/) · consultado 2026-11-23
+- [Repositorio GitHub](https://github.com/777genius/agent-teams-ai) · consultado 2026-11-23
+- [README](https://github.com/777genius/agent-teams-ai#readme) · consultado 2026-11-23
 
 ---
 

@@ -4,9 +4,9 @@
 - **Web oficial**: https://www.claw.boo
 - **Licencia**: MIT
 - **Lenguaje**: TypeScript
-- **Estrellas**: 171 · **Forks**: 45
-- **Último push**: 2026-11-15T05:59:27Z · **Última release**: 2026-11-14
-- **Revisado**: 2026-11-15 · **Confianza**: 62/100
+- **Estrellas**: 173 · **Forks**: 44
+- **Último push**: 2026-11-19T16:18:37Z · **Última release**: 2026-11-19
+- **Revisado**: 2026-11-23 · **Confianza**: 62/100
 - **Tipo**: agent · **Categoría**: teams
 
 ## Qué es
@@ -21,16 +21,16 @@ README: estudio de equipos de agentes con Boo Zero como jefe, varios runtimes, m
 
 ## Release revisada
 
-- **Tag**: [clawboo@0.7.0](https://github.com/clawboo/clawboo/releases/tag/clawboo%400.7.0)
-- **Fecha**: 2026-11-14 (hace 1 días)
-- **Estado**: activo · **Releases en 90 días**: 4
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Tag**: [clawboo@0.9.1](https://github.com/clawboo/clawboo/releases/tag/clawboo%400.9.1)
+- **Fecha**: 2026-11-19 (hace 4 días)
+- **Estado**: activo · **Releases en 90 días**: 7
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
-**Qué trae**: 0.7.0: Cua Driver para que los agentes usen apps de su propia pantalla en Linux.
+**Qué trae**: 0.9.1 (y 0.8.0–0.9.0): aislamiento por usuario de sistema operativo en Linux (perfil de navegador, display y procesos propios por agente) y dashboard rediseñado.
 
-**Impacto en la ficha**: Nuevo en el ranking: 79.50 A. Equipo y memoria fuertes; computadora local y ecosistema pequeño.
+**Impacto en la ficha**: Sube a Tier S (+1.50): Computadora 70→78 y Producto 68→70 por aislamiento real por usuario OS en Linux.
 
-> Minor Changes 3cf2d73 : New connector: Cua Driver (category Desktop , Linux only) uses the apps on an agent's own screen through Clawboo's tool server: it lists windows, clicks, types and reads each app's accessibility tree. It runs only when agents run as their own OS user ( CLAWBOO_AGENT_USER ), like control links: it types into the agent's browser, which otherwise runs as you. Without it, agents still get their screen, the live view and their browser tools. Install it from an agent's Screen view, connect it, and give it to the agents that need it; it is not given to every agent. Each agent gets its own Cua Driver process on that agent's own screen, as the agent user when agents run as the
+> Patch Changes 919e2fe : When you take control of an agent's screen, a key you press right as control arrives is now let go if you switch to another window straight away. Before, that key could stay held down on the agent's display. 5563a96 : A dashboard opened around your sign-in proxy, on a server that counts only a person the proxy signed for, no longer says that moving cards is refused there. A card moved there does move; it just does not stop the run on it, which is what the notice now says.
 
 ## Evidencia de la investigación
 
@@ -39,6 +39,7 @@ README: estudio de equipos de agentes con Boo Zero como jefe, varios runtimes, m
 
 ### ✅ Computadora propia
   - “Share the Playwright or Chrome DevTools connector with an agent, and its Browser tab shows the latest screenshot from its browser. Each of those agents gets its own browser profile, so its logins stay its own.” — https://github.com/clawboo/clawboo#readme
+  - “On Linux, each agent can now run as an operating system user of its own, so agents are walled off from each other as well as from Clawboo.” — https://github.com/clawboo/clawboo/releases/tag/clawboo%400.8.0
 
 ### ✅ Memoria
   - “Memory lives in Clawboo itself, so a fact one teammate saves can be recalled by any teammate, whatever tool it runs on.” — https://github.com/clawboo/clawboo#readme
@@ -60,16 +61,16 @@ README: estudio de equipos de agentes con Boo Zero como jefe, varios runtimes, m
 
 ## Puntuación
 
-Grok Score: **79.5** · Tier **A** · ADN **100**
+Grok Score: **81** · Tier **S** · ADN **100**
 
 - **capacidad**: 78/100
 - **autonomia**: 74/100
-- **computadora**: 70/100
+- **computadora**: 78/100
 - **memoria**: 90/100
 - **rutinas**: 90/100
 - **equipo**: 90/100
 - **confianza**: 90/100
-- **producto**: 68/100
+- **producto**: 70/100
 
 ## Fortalezas
 
@@ -80,8 +81,8 @@ Grok Score: **79.5** · Tier **A** · ADN **100**
 
 ## Lo que le falta / riesgos
 
-- Proyecto pequeño (171 estrellas) y ecosistema joven
-- La computadora es el entorno local, no una VM aislada por agente
+- Proyecto pequeño (173 estrellas) y ecosistema joven
+- Aislamiento por usuario OS disponible solo en Linux (en macOS/Windows comparte entorno local)
 - Depende de runtimes externos y de sus propios límites de permisos
 
 ## Comparación con el listón
@@ -90,10 +91,10 @@ Coordina agentes como un equipo real, pero su computadora es local y su ecosiste
 
 ## Fuentes consultadas
 
-- [Repositorio GitHub](https://github.com/clawboo/clawboo) · consultado 2026-11-15
-- [Web oficial](https://www.claw.boo) · consultado 2026-11-15
-- [README](https://github.com/clawboo/clawboo#readme) · consultado 2026-11-15
-- [Releases](https://github.com/clawboo/clawboo/releases) · consultado 2026-11-15
+- [Repositorio GitHub](https://github.com/clawboo/clawboo) · consultado 2026-11-23
+- [Web oficial](https://www.claw.boo) · consultado 2026-11-23
+- [README](https://github.com/clawboo/clawboo#readme) · consultado 2026-11-23
+- [Releases](https://github.com/clawboo/clawboo/releases) · consultado 2026-11-23
 
 ---
 

@@ -4,9 +4,9 @@
 - **Web oficial**: https://bot.swk.tools/
 - **Licencia**: MIT
 - **Lenguaje**: TypeScript
-- **Estrellas**: 38 · **Forks**: 6
-- **Último push**: 2026-11-11T13:08:21Z · **Última release**: 2026-11-14
-- **Revisado**: 2026-11-12 · **Confianza**: 72/100
+- **Estrellas**: 46 · **Forks**: 10
+- **Último push**: 2026-11-21T17:11:15Z · **Última release**: 2026-11-21
+- **Revisado**: 2026-11-23 · **Confianza**: 72/100
 - **Tipo**: assistant · **Categoría**: personal
 
 ## Qué es
@@ -21,12 +21,16 @@ README: bot con memoria Markdown, rutinas, subagentes, navegador de T3 con contr
 
 ## Release revisada
 
-- **Tag**: [v0.1.8](https://github.com/RokaSwK/threebot/releases/tag/v0.1.8)
-- **Fecha**: 2026-11-14 (hace 1 días)
-- **Estado**: activo · **Releases en 90 días**: 9
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Tag**: [v0.1.15](https://github.com/RokaSwK/threebot/releases/tag/v0.1.15)
+- **Fecha**: 2026-11-21 (hace 2 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
-> v0.1.8 · 2 changes from 2 contributors Quieter rooms. A room's notifications are held back on the device that has that room open, and still reach your other devices. Plus 1 more change. Full changelog What's Changed Hold a room push back while that room is on screen by @cristianbdev in #61 Release 0.1.8 by @RokaSwK in #62 Full Changelog : v0.1.7...v0.1.8
+**Qué trae**: v0.1.15 (y v0.1.11–v0.1.14): instalador Windows en un clic + servicio en segundo plano, acceso móvil por QR, rutinas con modelo propio, salas que siguen subagentes y notificaciones push por bot.
+
+**Impacto en la ficha**: Sube a 73.35 A (+3.30): Producto 40→54, Capacidad 60→64 y Autonomía 62→66 por madurez en Windows, móvil y salas.
+
+> v0.1.15 · 10 changes from 3 contributors Notifications show the Bot. Push notifications now carry the Bot's own avatar and name, requests stay visible until you answer them, and you control push notifications. Your other chats can give permission. A request relayed from another of your chats or Bots now counts as yours, so Bots act on it without asking you again; switch it off in Settings → Permissions. Routines on their own model. A routine can run on a model of its choice, in its own conversation. Opens fast, even offline. Threebot installs its core right away and fetches the rest as you use it, and a Bot you've opened before opens from the device's copy when you're offline. Collapsible si
 
 ## Evidencia de la investigación
 
@@ -69,16 +73,16 @@ README: bot con memoria Markdown, rutinas, subagentes, navegador de T3 con contr
 
 ## Puntuación
 
-Grok Score: **70.05** · Tier **A** · ADN **90**
+Grok Score: **73.35** · Tier **A** · ADN **90**
 
-- **capacidad**: 60/100
-- **autonomia**: 62/100
+- **capacidad**: 64/100
+- **autonomia**: 66/100
 - **computadora**: 65/100
 - **memoria**: 90/100
 - **rutinas**: 90/100
 - **equipo**: 90/100
 - **confianza**: 90/100
-- **producto**: 40/100
+- **producto**: 54/100
 
 ## Fortalezas
 
@@ -88,7 +92,7 @@ Grok Score: **70.05** · Tier **A** · ADN **90**
 
 ## Lo que le falta / riesgos
 
-- Cuatro días de vida y 38 estrellas: sin usuarios, tests ni historial de estabilidad
+- Cuatro días de vida y 46 estrellas: sin usuarios, tests ni historial de estabilidad
 - Dependencia total de T3 Code y de sus planes, con riesgo de rotura por cambios ajenos
 - Ecosistema inexistente y documentación limitada al README
 
@@ -98,10 +102,10 @@ Aporta una idea original de 'bot como hilo' frente a asistentes personales como 
 
 ## Fuentes consultadas
 
-- [Repositorio GitHub](https://github.com/RokaSwK/threebot) · consultado 2026-11-12
-- [Web oficial](https://bot.swk.tools/) · consultado 2026-11-12
-- [README](https://github.com/RokaSwK/threebot#readme) · consultado 2026-11-12
-- [Releases](https://github.com/RokaSwK/threebot/releases) · consultado 2026-11-12
+- [Repositorio GitHub](https://github.com/RokaSwK/threebot) · consultado 2026-11-23
+- [Web oficial](https://bot.swk.tools/) · consultado 2026-11-23
+- [README](https://github.com/RokaSwK/threebot#readme) · consultado 2026-11-23
+- [Releases](https://github.com/RokaSwK/threebot/releases) · consultado 2026-11-23
 
 ---
 

@@ -4,9 +4,9 @@
 - **Web oficial**: https://cowagent.ai
 - **Licencia**: MIT
 - **Lenguaje**: Python
-- **Estrellas**: 47890 · **Forks**: 10425
-- **Último push**: 2026-11-12T04:52:23Z · **Última release**: 2026-10-30
-- **Revisado**: 2026-11-12 · **Confianza**: 66/100
+- **Estrellas**: 48052 · **Forks**: 10446
+- **Último push**: 2026-11-23T12:31:02Z · **Última release**: 2026-10-30
+- **Revisado**: 2026-11-23 · **Confianza**: 66/100
 - **Tipo**: assistant · **Categoría**: personal
 
 ## Qué es
@@ -22,9 +22,9 @@ Revisión previa + README: asistente personal con canales de mensajería, memori
 ## Release revisada
 
 - **Tag**: [2.2.2](https://github.com/zhayujie/CowAgent/releases/tag/2.2.2)
-- **Fecha**: 2026-10-30 (hace 16 días)
-- **Estado**: reciente · **Releases en 90 días**: 6
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Fecha**: 2026-10-30 (hace 24 días)
+- **Estado**: reciente · **Releases en 90 días**: 5
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
 > 🌐 English | 中文 💬 Guest Pages Share an Agent as a standalone chat page, or embed it in your website as a chat window. Visitors open the link and start chatting without signing in, which suits product inquiries, knowledge base Q&amp;A, customer support, and similar scenarios: Standalone pages : each page gets its own link, visitors keep their chat history, and the name, icon, theme color, welcome message, and suggested questions are all customizable. Embedded chat window : a single code snippet embeds the page in your website, with a chat button in the bottom-right corner. You can restrict which sites may embed it and preview the result while configuring. Try it live on the CowAgent website 
 
@@ -85,7 +85,7 @@ Grok Score: **68** · Tier **B** · ADN **22**
 
 ## Fortalezas
 
-- Cuatro años de recorrido, 47,890 estrellas y despliegue en un comando
+- Cuatro años de recorrido, 48,052 estrellas y despliegue en un comando
 - Multi-canal, multi-modelo y multiagente con memoria y skills
 - Comunidad y documentación maduras, con releases frecuentes
 
@@ -101,10 +101,10 @@ Es el veterano de los asistentes multi-canal, superado en autonomía por NanoCla
 
 ## Fuentes consultadas
 
-- [Repositorio GitHub](https://github.com/zhayujie/CowAgent) · consultado 2026-11-12
-- [Web oficial](https://cowagent.ai) · consultado 2026-11-12
-- [README](https://github.com/zhayujie/CowAgent#readme) · consultado 2026-11-12
-- [Releases](https://github.com/zhayujie/CowAgent/releases) · consultado 2026-11-12
+- [Repositorio GitHub](https://github.com/zhayujie/CowAgent) · consultado 2026-11-23
+- [Web oficial](https://cowagent.ai) · consultado 2026-11-23
+- [README](https://github.com/zhayujie/CowAgent#readme) · consultado 2026-11-23
+- [Releases](https://github.com/zhayujie/CowAgent/releases) · consultado 2026-11-23
 
 ---
 

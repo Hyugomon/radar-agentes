@@ -1,8 +1,16 @@
 {
   "repo": "gregce/tortie",
   "source": "releases.atom",
-  "checked_at": "2026-11-15",
+  "checked_at": "2026-11-23",
   "entries": [
+    {
+      "tag": "v0.115.0",
+      "title": "Tortie 0.115.0",
+      "date": "2026-11-17",
+      "url": "https://github.com/gregce/tortie/releases/tag/v0.115.0",
+      "pre": false,
+      "note": "This release is about the terminal, after Jack Shaw's report in issue 44. A long agent reply no longer draws over itself, copying gives you what you see, and links an agent prints open in your browser. Words you type no longer turn a session amber, and starting a session or quitting Tortie now holds up when its session list goes bad. Fixed Scroll back to read while an agent on this Mac keeps printing, then scroll back down, and you now pass through everything it printed while you read instead of jumping past it to the bottom; getting back to the bottom takes as many lines as were printed, and typing still takes you there at once ( 99e0d298 ) Copying lines from the history of a busy session on this Mac, after dragging a selection past its edge, now puts exactly the lines you selected on the clipboard ( 99e0d298 ) A session you ended and then removed stays in Past Sessions, and no longer c"
+    },
     {
       "tag": "v0.114.1",
       "title": "Tortie 0.114.1",
@@ -74,14 +82,6 @@
       "url": "https://github.com/gregce/tortie/releases/tag/v0.109.0",
       "pre": false,
       "note": "This release is about managing every session from one place. Session > Manage Sessions… opens a sheet over every session Tortie is running, across every project and machine, and it is built at the same density as the rest of the app. Alongside it, scrolling back in a session stays where you put it, and typing in one file can no longer overwrite another. Added Session > Manage Sessions… shows every session Tortie manages in one sheet, across every project and machine and including projects whose tab is closed, with each one's state, when it was created, how many messages its conversation holds and how long ago the last one was. You can end a session or restore an ended one from there, or tick several and end them together after one confirmation that names each, and Past Sessions… opens the same sheet on its second tab; a session on another machine shows a dash for its messages ( f6c11f57 "
-    },
-    {
-      "tag": "v0.108.0",
-      "title": "Tortie 0.108.0",
-      "date": "2026-09-18",
-      "url": "https://github.com/gregce/tortie/releases/tag/v0.108.0",
-      "pre": false,
-      "note": "This release is about the keyboard ending up where you are. Entering session focus, closing Catch Me Up and coming back from the editor could each leave it on nothing until you clicked, and in a split it went to the first pane rather than the one that is outlined; it now stays with you, and the session focus chord no longer sends Enter to your agent on the way. Alongside that, a save or a rewind no longer loses what you typed at the wrong moment, the Redline chords move on to the next change by themselves, the window goes quiet around a single outline, and the Claude usage meter stops telling you to sign in when you already are. Changed In the Redline view, ⌥↩ and ⌥⌫ move to the next change after the one you pressed, so approving or rejecting a run of changes is one chord pressed over and over instead of alternating with ⌥↓. ⌥↓ and ⌥↑ loop at the ends: past the last change they come roun"
     }
   ]
 }

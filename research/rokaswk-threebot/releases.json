@@ -1,8 +1,64 @@
 {
   "repo": "RokaSwK/threebot",
   "source": "releases.atom",
-  "checked_at": "2026-11-15",
+  "checked_at": "2026-11-23",
   "entries": [
+    {
+      "tag": "v0.1.15",
+      "title": "Threebot 0.1.15",
+      "date": "2026-11-21",
+      "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.15",
+      "pre": false,
+      "note": "v0.1.15 · 10 changes from 3 contributors Notifications show the Bot. Push notifications now carry the Bot's own avatar and name, requests stay visible until you answer them, and you control push notifications. Your other chats can give permission. A request relayed from another of your chats or Bots now counts as yours, so Bots act on it without asking you again; switch it off in Settings → Permissions. Routines on their own model. A routine can run on a model of its choice, in its own conversation. Opens fast, even offline. Threebot installs its core right away and fetches the rest as you use it, and a Bot you've opened before opens from the device's copy when you're offline. Collapsible sidebar. A button collapses the sidebar, and the collapsed view is trimmed down to what you need. Clearer approval cards. Antigravity approval cards show the command you're being asked to approve. Libra"
+    },
+    {
+      "tag": "v0.1.14",
+      "title": "Threebot 0.1.14",
+      "date": "2026-11-18",
+      "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.14",
+      "pre": false,
+      "note": "v0.1.14 · 4 changes from 2 contributors One-click Windows installer. Each release now ships a Threebot-Setup installer for Windows, so you can install Threebot without running any scripts. Threebot in its own window on Windows. The Windows launcher opens Threebot in a dedicated app window that you can pin to the taskbar, and falls back to your browser if WebView2 isn't available. Lighter, steadier update checks. Update checks reuse GitHub's answer when nothing has changed and are spread out a little, so rate limits are hit less often, and Check now always fetches fresh results. Plus 1 more change. Full changelog What's Changed feat(windows): host embedded WebView2 in Threebot.exe with Chromium fallback by @warhammered in #95 feat(server): add ETag caching, polling jitter, and Windows runtime detection to auto-updater by @warhammered in #96 feat(windows): add Inno Setup one-click installe"
+    },
+    {
+      "tag": "v0.1.13",
+      "title": "Threebot 0.1.13",
+      "date": "2026-11-18",
+      "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.13",
+      "pre": false,
+      "note": "v0.1.13 · 13 changes from 3 contributors Rooms follow delegated work. When a room member hands work to a subagent, the room keeps following it and shows what was delegated. Faster loads, smaller updates. The app is sent compressed, and updates download only the files that changed. Room history stays complete. Rooms always pick the newest reply, and a bad timestamp no longer hides earlier messages. Accurate usage on Windows. Usage stats now match Windows transcript paths, and your own threads in adopted repos aren't counted as Bot usage. Settled threads stay quiet. Threads that T3 Code has already settled no longer get settled again and again. Polish in chat and documents. Nested code fences render correctly, file cards don't show a stale size, spreadsheet cells take focus on click and copy out cleanly, and attachment previews no longer leak memory. Plus 2 more changes. Full changelog Wha"
+    },
+    {
+      "tag": "v0.1.12",
+      "title": "Threebot 0.1.12",
+      "date": "2026-11-17",
+      "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.12",
+      "pre": false,
+      "note": "v0.1.12 · 2 changes from 2 contributors Long chats open fast. Opening a long conversation is about 4× quicker, and chats catch up right away when the app reconnects. Plus 1 more change. Full changelog What's Changed Open long chats about 4× faster and catch up right after the app comes back by @mertbozkir in #80 Release v0.1.12 by @RokaSwK in #81 Full Changelog : v0.1.11...v0.1.12"
+    },
+    {
+      "tag": "v0.1.11",
+      "title": "Threebot 0.1.11",
+      "date": "2026-11-17",
+      "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.11",
+      "pre": false,
+      "note": "v0.1.11 · 12 changes from 4 contributors Threebot on Windows. Run Threebot on Windows as a background service, from a self-installing portable bundle with its own launcher. Threebot on your phone. Scan a QR code in Settings to open your remote access link on your phone. Draw avatars from a phone. Drawing a custom Bot avatar now works on mobile, and you can pick the drawing model in Settings there too. Files in chat. Office documents get a preview, files open in a full-window viewer, and attachments show as file cards. Better Rooms. Attach files in a Room, start a Room conversation over, and enjoy a tidier composer. Settings › Usage. See your providers' limits and how many tokens each Bot uses. Memory that stays tidy. Bots can tidy their memory on a schedule, and Memory is reachable from the phone's Details sheet. Plus 2 more changes. Full changelog What's Changed fix: run the test suite "
+    },
+    {
+      "tag": "v0.1.10",
+      "title": "Threebot 0.1.10",
+      "date": "2026-11-16",
+      "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.10",
+      "pre": false,
+      "note": "v0.1.10 · 2 changes from 1 contributor A tidy T3 sidebar (beta). Turn on Settings → Beta → Settle Bot threads in T3 Code and your Bots' threads stay out of T3 Code's active list once they go quiet. Plus 1 more change. Full changelog What's Changed Add a beta switch that keeps Bot threads settled in T3 Code by @RokaSwK in #66 Release v0.1.10 by @RokaSwK in #67 Full Changelog : v0.1.9...v0.1.10"
+    },
+    {
+      "tag": "v0.1.9",
+      "title": "Threebot 0.1.9",
+      "date": "2026-11-15",
+      "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.9",
+      "pre": false,
+      "note": "v0.1.9 · 3 changes from 1 contributor Bots stay put. Bot conversations are no longer auto-settled by T3 after a quiet week, so they stay in your sidebar. Sign in from the secret card. When a Bot asks for a token, the card has a button that opens the page where you get it. Linked threads open at the end. Opening a linked thread jumps to its newest messages. Plus 1 more change. Full changelog What's Changed Keep Bot threads from being auto-settled by T3 after a quiet week by @RokaSwK in #63 Secret cards open the agent's sign-in page, and linked threads open at their newest messages by @RokaSwK in #64 Release v0.1.9 by @RokaSwK in #65 Full Changelog : v0.1.8...v0.1.9"
+    },
     {
       "tag": "v0.1.8",
       "title": "Threebot 0.1.8",
@@ -26,54 +82,6 @@
       "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.6",
       "pre": false,
       "note": "What's Changed Landing: show the GitHub star count by @RokaSwK in #35 Landing: keep the release pill on the latest release by @RokaSwK in #36 Landing: retire the old app's service worker on bot.swk.tools by @RokaSwK in #38 feat: add Web Push notifications by @cristianbdev in #41 feat: add durable Bot memory foundation by @cristianbdev in #39 Show every Library filter and keep Turn off on one line in narrow panels by @RokaSwK in #45 Improve model picker with subProvider badges, favorites, and options panel by @cristianbdev in #44 Mac app: Threebot in a native window by @mertbozkir in #43 Add icons for all built-in T3 Code providers by @cristianbdev in #42 Make memory a Markdown file that the Bot and you both edit by @RokaSwK in #46 Let Bots act on their own and take requests from other Bots by @RokaSwK in #47 Threebot 0.1.6 by @RokaSwK in #48 New Contributors @mertbozkir made their first "
-    },
-    {
-      "tag": "v0.1.5",
-      "title": "Threebot 0.1.5",
-      "date": "2026-11-07",
-      "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.5",
-      "pre": false,
-      "note": "What's Changed Add opt-in anonymous usage stats, off until you say yes by @RokaSwK in #27 Write automatic updates to logs/update.log, like a manual update by @RokaSwK in #29 Show drawn avatar options with their eyes, in the big preview, and as the only selection by @RokaSwK in #30 Let Bots wear any colour, with a custom colour picker that keeps every face readable by @RokaSwK in #31 Send opt-in usage stats to stats.swk.tools by @RokaSwK in #32 Tap any chat image to open it full size, with zoom, swipe and Back to close by @RokaSwK in #33 Threebot 0.1.5 by @RokaSwK in #34 Full Changelog : v0.1.4...v0.1.5"
-    },
-    {
-      "tag": "v0.1.4",
-      "title": "Threebot 0.1.4",
-      "date": "2026-11-06",
-      "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.4",
-      "pre": false,
-      "note": "What's Changed Dictate in Firefox and other browsers without Web Speech by transcribing on T3 Code by @RokaSwK in #19 Make the avatar editor one flat surface, and draw new objects in seconds on a fast model by @RokaSwK in #25 Move the web tests and service worker to TypeScript, and type-check only with tsrs by @RokaSwK in #26 Let Bots start fresh: /clear in chat and fresh-session routines on newer T3 Code by @RokaSwK in #18 Threebot 0.1.4 by @RokaSwK in #28 Full Changelog : v0.1.3...v0.1.4"
-    },
-    {
-      "tag": "v0.1.3",
-      "title": "Threebot 0.1.3",
-      "date": "2026-11-06",
-      "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.3",
-      "pre": false,
-      "note": "What's new Avatars act out what the Bot is doing. They think, search, write, run tools, wait for you or celebrate, using the engine's full set of animations instead of a spinning ring. ( #22 ) New avatar editor. It uses Open Bot Avatar 0.2.0, and drawing a new avatar now happens in the background, with Use, Try again or Discard, instead of in the Bot's chat. ( #16 ) Live PR chips. Each chip shows its PR's real status (Open, Draft, Merged or Closed, plus checks), and merged or closed chips go away. ( #15 ) App logos on connect cards. The cards now show the app's logo, with a check badge once the app is connected. ( #21 ) The server is now TypeScript. Node runs it directly and tsrs type-checks it. ( #23 ) New landing page: dark, with the app drawn live. ( #20 ) Requires Node 22.18 or newer. Existing installs update as usual from Settings → Updates or with threebot update . Full changelog: "
-    },
-    {
-      "tag": "v0.1.2",
-      "title": "Threebot 0.1.2",
-      "date": "2026-11-06",
-      "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.2",
-      "pre": false,
-      "note": "What's new Update button. A button in the sidebar footer appears when a new release is out. Threebot checks every 15 minutes, and Settings → Updates has a \"Check now\" button with the last-checked time. ( #9 ) Update automatically. A new switch in Settings → Updates, off by default. It installs new releases only when no Bot is busy, and rolls back if the new version doesn't start. ( #11 ) Projects is now a beta. Turn it on in Settings → Beta. Installs that already have a board keep it on. ( #12 ) tsrs. The web app is now type-checked with tsrs, the Rust port of TypeScript 7. ( #14 ) Install or update: Settings → Updates, or threebot update . Full changelog: v0.1.1...v0.1.2"
-    },
-    {
-      "tag": "v0.1.1",
-      "title": "Threebot 0.1.1",
-      "date": "2026-11-05",
-      "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.1",
-      "pre": false,
-      "note": "What's Changed Publish the landing page to GitHub Pages, apart from the app by @RokaSwK in #7 Guide for Google sign-in through Cloudflare Access by @RokaSwK in #6 Support configurable voice language and live dictation by @cristianbdev in #2 Keep up with T3 Code 0.1.8: one-time routines, child approvals and Force stop by @RokaSwK in #8 Threebot 0.1.1 by @RokaSwK in #10 Full Changelog : v0.1.0...v0.1.1"
-    },
-    {
-      "tag": "v0.1.0",
-      "title": "Threebot 0.1.0",
-      "date": "2026-11-05",
-      "url": "https://github.com/RokaSwK/threebot/releases/tag/v0.1.0",
-      "pre": false,
-      "note": "What's Changed Preserve newlines on mobile Enter in the composer by @cristianbdev in #1 Publish what's live: side chats, object avatars, Projects and security fixes by @RokaSwK in #4 One-line install, in-app updates and one-click Tailscale or Cloudflare access by @RokaSwK in #5 New Contributors @cristianbdev made their first contribution in #1 @RokaSwK made their first contribution in #4 Full Changelog : https://github.com/RokaSwK/threebot/commits/v0.1.0"
     }
   ]
 }

@@ -1,8 +1,56 @@
 {
   "repo": "leepokai/Codync",
   "source": "releases.atom",
-  "checked_at": "2026-11-15",
+  "checked_at": "2026-11-23",
   "entries": [
+    {
+      "tag": "v2.53.0",
+      "title": "v2.53.0",
+      "date": "2026-11-22",
+      "url": "https://github.com/leepokai/Codync/releases/tag/v2.53.0",
+      "pre": false,
+      "note": "Release 2.53.0 (main is at 2.52.0). Also carries 2.52.1, which never reached main . Subagents in the transcript : when a Claude Code bot uses subagents, each subagent's steps now sit indented under the step that started it, in the unfolded working steps, Full conversation and a task's thread, on desktop, iPhone, Android and the terminal UI. That step shows the subagent's type, the tokens it used and how long it took, or that it runs in the background. Android : opening a long chat for the first time lands on its newest message instead of earlier ones. Bots messaging bots : a queued message_bot request now always reaches its recipient or tells its sender why it ended, including after a host restart or cancellation ( #534 , #543 ). A reply relayed back to a busy bot is kept whole and arrives exactly once, even when the host restarts in between. Desktop : unfolding the working steps of a lo"
+    },
+    {
+      "tag": "v2.52.0",
+      "title": "v2.52.0",
+      "date": "2026-11-22",
+      "url": "https://github.com/leepokai/Codync/releases/tag/v2.52.0",
+      "pre": false,
+      "note": "Release 2.52.0 (main is at 2.51.0). Agents' own questions : some agents, such as Hermes, ask questions mid-reply (ACP elicitation). These now wait for you on the chat's choice card instead of Approve automatically picking their first option ( #522 ). Advisor mode : a bot's Agent settings (desktop, iPhone, Android) can let the chat plan and hand work on while its threads run on another agent, model or login profile, with fallbacks of their own. Threads and tasks : a thread waiting for your approval or choice gives its place up so the next task can start; what you add in the chat about a task under way is passed on to its thread; messages to a thread can carry photos and files; a bot can look back at its tasks up to 30 days; a watchdog catches stuck tasks and a hung host. codync-agent : finding, installing and starting agents now lives in its own crate, codync-agent 0.1.0 (replaces codync-"
+    },
+    {
+      "tag": "v2.51.0",
+      "title": "v2.51.0",
+      "date": "2026-11-20",
+      "url": "https://github.com/leepokai/Codync/releases/tag/v2.51.0",
+      "pre": false,
+      "note": "Release 2.51.0 (main is at 2.50.0). Tasks and threads : what a bot does away from the chat has two clear names in every app and the manual: a task is one piece of work, and a thread is the session started to do tasks, one at a time. The \"In the background\" line above the chat is now \"Work\", like the Work page; prompts say \"Every thread is busy\" and \"Stop this task?\". Update your phone app : a computer on 2.51.0 asks apps older than 2.51.0 to update before they open its bots. Apps on 2.51.0 keep working with computers on older versions. Codync Cloud : first-time setup on the iPhone and Android apps can start a cloud computer instead of installing Codync on one of yours, then waits until it's ready and opens your bots. Pairing : the menu and instructions say Pair phone, since the same code pairs iPhone and Android phones ( #518 ). Desktop notifications : the desktop app can show bots' aler"
+    },
+    {
+      "tag": "v2.50.0",
+      "title": "v2.50.0",
+      "date": "2026-11-19",
+      "url": "https://github.com/leepokai/Codync/releases/tag/v2.50.0",
+      "pre": false,
+      "note": "Release 2.50.0 (main is at 2.49.3). Codync Cloud : setting up a cloud computer goes step by step in one sheet on the iPhone, Android and desktop apps: pick a provider (where it runs, what it costs), make and paste its key, then name it. Only the relay now says a cloud computer is waking, so a wake that never finishes shows as offline again. Computers : name your own computer from any app (Manage computers → touch and hold → Rename…); every app shows the name, and an empty name goes back to the hostname. Bots working together : when bots stop at the handoff limit (8 in a row), the chat shows a note with a Continue button. A manager bot can set another bot's model settings, such as effort ( #395 ). Artifacts : a bot that keeps an artifact current can update it quietly, without a new chat card ( #387 ). Desktop : the voice shortcut's last tap can stop dictation without sending (Settings → G"
+    },
+    {
+      "tag": "v2.49.3",
+      "title": "v2.49.3",
+      "date": "2026-11-18",
+      "url": "https://github.com/leepokai/Codync/releases/tag/v2.49.3",
+      "pre": false,
+      "note": "Release 2.49.3 (main is at 2.49.1). A bot's own folder keeps its history : with Git installed, Codync saves a version of the bot's own folder before and after each turn, so you can ask the bot what a turn changed or bring a file back. The default workspace is now called Own folder , and background work is called a thread on every screen and in the manual ( Threads at once , Worktree per thread ). iPhone : the app icon can show your unread count, a Settings → Notifications switch that is off by default ( #338 ). The Dynamic Island's working bot and its dots line up. Chat : a routine's published artifact shows as a card in the chat ( #492 ); an unanswered choice card stays open and a later pick still reaches the bot; thinking dots become a halftone dot grid on every app. Language : labels, placeholders, tooltips, screen-reader labels and the update notice and its buttons follow the app's l"
+    },
+    {
+      "tag": "v2.49.1",
+      "title": "v2.49.1",
+      "date": "2026-11-17",
+      "url": "https://github.com/leepokai/Codync/releases/tag/v2.49.1",
+      "pre": false,
+      "note": "Release 2.49.1 (main is at 2.47.1). Background work and the event box : a bot hands long work to background agents and keeps answering. Items wait in a per-bot event box under \"Agents at once\"; Details shows Threads and the Event box with First, Cut in, Drop and Try again. Routines and other bots' requests run there too, background work can ask for approval or a choice and send files in the chat, and an hourly look picks up work no event reported. Talking to a thread : a thread opens in place (desktop side panel, a page on the phones, a composer in the terminal) and takes messages like a chat, with Send now and Remove; a finished thread takes messages again. What it shared shows as one line that opens the chat at it. Where work happens : each thread shows its folder or branch; \"Worktree per agent\" gives agents working at once in one git repository their own branch; Settings > Workspace s"
+    },
     {
       "tag": "v2.47.0",
       "title": "v2.47.0",
@@ -34,54 +82,6 @@
       "url": "https://github.com/leepokai/Codync/releases/tag/v2.45.1",
       "pre": false,
       "note": "Codync 2.45.1. Chat Find in a conversation on desktop, iPhone, Android and the terminal: a match count, arrows between matches, and the current message highlighted ( #341 ). Bots can ask you to choose on a card: tap an option and the answer continues the current work; answered or expired cards can't send again ( #416 ). Bots send voice notes, and sound files (MP3, M4A, WAV, AAC, up to 20 MB) play right in the chat with a seekable progress bar ( #364 ). The image viewer zooms (pinch, double-tap), copies the picture itself, and downloads pictures bots share ( #344 ). After an update of the app or of Codync on your computer, a chat keeps its messages on screen while they refresh. Routine lines in the chat are centered on iPhone and Android. Bots New \"Move active bots to the top\" setting per computer; switching it on one device updates every connected device. The handoff to a fallback agent "
-    },
-    {
-      "tag": "v2.44.1",
-      "title": "v2.44.1",
-      "date": "2026-11-11",
-      "url": "https://github.com/leepokai/Codync/releases/tag/v2.44.1",
-      "pre": false,
-      "note": "A What's new window after important updates. When a release is marked important, the iPhone, Android and desktop apps and the terminal UI show its highlights once, the first time they open on that version. New installs and ordinary updates show nothing. Android: large accounts no longer close right after opening. With many bots or very long chats, the app could run out of memory a few seconds after launch. Each chat now loads only its newest messages (the open chat and the 5 opened last keep more), and older ones load as you scroll back, first from the phone, then from the computer. Thanks @co26qdayvdync ( #397 ). Routines no longer pile up MCP servers. When a routine run ends on an agent that can't close its session (Cursor), or whose close fails, the bot's agent stops once nothing is running or waiting, even with the main chat open, and the chat picks up where it left off on its next m"
-    },
-    {
-      "tag": "v2.43.2",
-      "title": "v2.43.2",
-      "date": "2026-11-10",
-      "url": "https://github.com/leepokai/Codync/releases/tag/v2.43.2",
-      "pre": false,
-      "note": "Bot avatars in larger dots. On iPhone, Android, the desktop app and codync.dev, every bot avatar is now drawn as a 9 × 9 grid of large dots with clear gaps between them, whatever its size. Large avatars no longer switch to a fine grid. Tiny ones (widgets, the faces in a group) keep their 7 × 7 grid, and the working bot in the iPhone's Dynamic Island matches. Desktop app: the three bots on the empty chat screen (\"Pick a bot…\") stand apart instead of overlapping, and in Settings → Computers an empty \"can use\" list sits in the same gray card as \"can be used by\". A new codync.dev homepage. A \"New\" link at the top leads to free cloud computers. The real desktop app runs live in the page, now with bots on a MacBook Pro and a Mac mini. Below it come the bring-your-own cards (sandbox, agent, subscription, Codync Cloud), a step-by-step \"How it works\", what bots do while you're away, a privacy dia"
-    },
-    {
-      "tag": "v2.43.1",
-      "title": "v2.43.1",
-      "date": "2026-11-09",
-      "url": "https://github.com/leepokai/Codync/releases/tag/v2.43.1",
-      "pre": false,
-      "note": "Codync Cloud (beta). Signed in to a Codync account, start a cloud computer on your own Boat (EU) or InstaBox (US) account, so your bots keep working while your computer is off. Codync charges nothing for it; the provider bills your account under its own plan. It sleeps while idle and wakes when you message one of its bots, a routine is due or a webhook arrives. Up to three per account, each with its own name. Start one from Manage computers on the phone or Settings → Computers on the desktop. InstaBox's free plan includes one machine: Get a free sandbox on its key sheet opens it. See Codync Cloud . OpenCode bots no longer hang on \"Thinking…\". OpenCode older than 2 retries a refused model call forever (for example, when the free model's limit is used up). Codync now runs the registry's newer OpenCode instead, which reports the error at once, and falls back to the installed one if that bui"
-    },
-    {
-      "tag": "v2.42.2",
-      "title": "v2.42.2",
-      "date": "2026-11-09",
-      "url": "https://github.com/leepokai/Codync/releases/tag/v2.42.2",
-      "pre": false,
-      "note": "New Android users can sign up with Google, GitHub or Apple. On Android, a first sign-in with a provider came back to the welcome screen and no account was made: the sign-in library (Clerk Android 1.1.11) took Clerk's callback for a new account as a cancelled sign-in. Clerk Android 1.4.1 continues that callback into sign-up. People who already had an account were not affected and keep signing in as before. Leaving the Android sign-in page partway is quiet. Closing the browser returns to the welcome screen without \"Error occurred with unknown message.\"; a sign-in that really fails asks to check the connection and try again. Versions: 2.42.2. codync-mem and codync-network are unchanged. No cloud or relay change, so no deploy. No protocol change, so minApp stays. The iPhone app is unchanged, so Submit iOS skips this release. What's Changed build: release 2.42.2 (new Android users can sign up"
-    },
-    {
-      "tag": "v2.42.1",
-      "title": "v2.42.1",
-      "date": "2026-11-08",
-      "url": "https://github.com/leepokai/Codync/releases/tag/v2.42.1",
-      "pre": false,
-      "note": "Long chats are left to the agent by default. Summarize long chats now starts on Auto : Claude Code or Codex summarizes a chat on its own once it fills up. Codync summarizes sooner only when you pick Early , Near the limit or a size. This applies on iPhone, Android, desktop and the terminal UI. Auto replaces Only when full and comes first in the menu. Bots already set to Early keep it. Other agents (OpenCode, Gemini and the rest) follow the same default: Codync no longer starts fresh conversations for them. Versions: 2.42.1, and codync-mem 0.5.0 (its default changed), which publishes on merge. codync-network is unchanged. No cloud change, so no deploy. The wire values are unchanged ( \"off\" is Auto), so 2.42.0 apps keep working and minApp stays. What's Changed build: release 2.42.1 (leave long chats to the agent by default) by @leepokai in #370 Full Changelog : v2.42.0...v2.42.1"
-    },
-    {
-      "tag": "v2.42.0",
-      "title": "v2.42.0",
-      "date": "2026-11-08",
-      "url": "https://github.com/leepokai/Codync/releases/tag/v2.42.0",
-      "pre": false,
-      "note": "Choose when a bot's long chats are summarized. Claude Code and Codex bots have a new Summarize long chats setting in their Agent section, under the agent and its fallbacks, on iPhone, Android, desktop and the terminal UI: Early (the default, as before). Near the limit . Only when full : the agent's own auto-compaction is all there is. A size : 100K, 200K and so on up to what the model holds, or Custom size… to type your own in thousands of tokens (from 50K, rounded to 10K). Sizes appear after the bot's first reply , once its agent has said how much its model holds. Until then the three choices show. Other agents don't show the setting. They take no compact command from Codync and keep summarizing on their own. iPhone dialogs: VoiceOver now reads the whole dialog, not only its Cancel button. Terminal UI: a field's help wraps to a second row instead of being cut off. Versions: 2.42.0, and "
     }
   ]
 }

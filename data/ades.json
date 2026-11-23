@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15 08:08",
-  "generated_iso": "2026-11-15T08:08:25.578Z",
+  "generated_at": "2026-11-23 21:58",
+  "generated_iso": "2026-11-23T21:58:15.675Z",
   "meta": {
     "dimensions": [
       {
@@ -144,8 +144,8 @@
   "counts": {
     "researched": 24,
     "queue": 49,
-    "open": 1,
-    "closed": 21,
+    "open": 17,
+    "closed": 5,
     "unverified": 2
   },
   "queue": [
@@ -357,23 +357,23 @@
         "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/orca",
         "category": "ide",
         "catLabel": "IDE",
-        "license": null,
-        "licenseType": "Comercial",
+        "license": "MIT",
+        "licenseType": "Open source",
         "tagline": "El IDE de agentes con worktrees y móvil.",
         "summary": "Workspace para correr Claude Code, Codex y otros harnesses en paralelo, con worktrees aislados, revisión de cambios y companion móvil.",
         "scores": {
-          "harnesses": 95,
+          "harnesses": 98,
           "paralelo": 94,
-          "orquestacion": 88,
+          "orquestacion": 91,
           "revision": 90,
-          "remoto": 88,
-          "movil": 86,
+          "remoto": 91,
+          "movil": 92,
           "extensiones": 88,
           "control": 80,
           "abierto": 95,
-          "producto": 94
+          "producto": 95
         },
-        "total": 90.21,
+        "total": 91.74,
         "tier": "SS",
         "next_tier": null,
         "delta_next": null,
@@ -407,7 +407,12 @@
           "devin",
           "copilot",
           "grok",
-          "qwen"
+          "qwen",
+          "hermes",
+          "antigravity",
+          "kiro",
+          "kimi",
+          "goose"
         ],
         "features": [
           {
@@ -460,75 +465,75 @@
           {
             "label": "Web oficial",
             "url": "https://www.onorca.dev/",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Repositorio GitHub",
             "url": "https://github.com/stablyai/orca",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "README",
             "url": "https://github.com/stablyai/orca#readme",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Dossier de investigación",
             "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/orca",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           }
         ],
-        "last_release": "2026-11-15",
-        "last_release_tag": "mobile-android-v0.0.65",
-        "last_release_url": "https://github.com/stablyai/orca/releases/tag/mobile-android-v0.0.65",
+        "last_release": "2026-11-23",
+        "last_release_tag": "v1.4.272",
+        "last_release_url": "https://github.com/stablyai/orca/releases/tag/v1.4.272",
         "last_release_days": 0,
         "releases_90": 10,
         "releases_recent": [
           {
-            "tag": "mobile-android-v0.0.65",
-            "date": "2026-11-15",
-            "pre": true,
-            "url": "https://github.com/stablyai/orca/releases/tag/mobile-android-v0.0.65"
-          },
-          {
-            "tag": "android-v0.0.65",
-            "date": "2026-11-15",
-            "pre": true,
-            "url": "https://github.com/stablyai/orca/releases/tag/android-v0.0.65"
-          },
-          {
-            "tag": "v1.4.259",
-            "date": "2026-11-14",
+            "tag": "v1.4.272",
+            "date": "2026-11-23",
             "pre": false,
-            "url": "https://github.com/stablyai/orca/releases/tag/v1.4.259"
+            "url": "https://github.com/stablyai/orca/releases/tag/v1.4.272"
           },
           {
-            "tag": "v1.4.258",
-            "date": "2026-11-13",
+            "tag": "v1.4.271",
+            "date": "2026-11-22",
             "pre": false,
-            "url": "https://github.com/stablyai/orca/releases/tag/v1.4.258"
+            "url": "https://github.com/stablyai/orca/releases/tag/v1.4.271"
           },
           {
-            "tag": "v1.4.257",
-            "date": "2026-11-12",
+            "tag": "v1.4.270",
+            "date": "2026-11-22",
             "pre": false,
-            "url": "https://github.com/stablyai/orca/releases/tag/v1.4.257"
+            "url": "https://github.com/stablyai/orca/releases/tag/v1.4.270"
           },
           {
-            "tag": "v1.4.256",
-            "date": "2026-11-11",
+            "tag": "v1.4.269",
+            "date": "2026-11-21",
             "pre": false,
-            "url": "https://github.com/stablyai/orca/releases/tag/v1.4.256"
+            "url": "https://github.com/stablyai/orca/releases/tag/v1.4.269"
+          },
+          {
+            "tag": "v1.4.268",
+            "date": "2026-11-21",
+            "pre": false,
+            "url": "https://github.com/stablyai/orca/releases/tag/v1.4.268"
+          },
+          {
+            "tag": "v1.4.267",
+            "date": "2026-11-20",
+            "pre": false,
+            "url": "https://github.com/stablyai/orca/releases/tag/v1.4.267"
           }
         ],
         "release_status": "activo",
         "release_source": "releases.atom",
-        "release_note": "This is the last update for this app Orca for Android has moved to a new app, dev.orca.app . It's on Google Play , and as an APK on GitHub for phones without Play. This app ( com.stably.orca.mobile ) won't get any more updates after this one, including security fixes. The new app is separate, so it can't update this one in place. You need to install it once, and from then on it updates itself. What this update does When you open Orca, it shows you how to move to the new app. Its name on your home screen is now Orca (old) , so you can tell the two apart. Switching to the new app Install the new app from Google Play. If your phone doesn't have Play, download the APK from the new app's release . It installs next to this one. Pair it: in Orca on your computer, go to Settings → Mobile and scan the code. Delete Orca (old) once your agents show up in the new app. Your agents, chats and workspac",
-        "release_highlight": "",
-        "release_impact": "",
-        "release_checked_at": "2026-11-15",
+        "release_note": "More reliable bots that pick up where they left off ✨ 🤖 Bots recover more reliably after interruptions. Conversations paused by usage limits can continue automatically after an account switch or restart. Resume works for chats interrupted by a crash or restart, and with Resume work on restart enabled, terminal workers can return to their saved conversations even if their terminals were lost. Usage-limit recovery · Chat recovery · Worker recovery 🌐 Use the same browser tools across machines. Extensions such as 1Password now work in SSH workspace tabs and paired-server tabs opened on This device . Drop files from your desktop into server-streamed pages, and let agents on SSH hosts or paired servers upload and download files using paths on their own host. Extensions · Drag and drop · SSH files · Paired-server files 💬 Take a quick detour in chat. On supported agents, type /btw or /side to",
+        "release_highlight": "v1.4.272 (y v1.4.267–v1.4.271): bots en 12+ harnesses nuevos (Cursor, Copilot, Hermes, Qwen Code, Gemini CLI, Antigravity…), grupos entre computadoras emparejadas, gestión completa desde móvil y recuperación automática tras límites o caídas.",
+        "release_impact": "Consolida Tier SS (+1.53): Harnesses 95→98, Orquestación 88→91, Remoto 88→91, Móvil 86→92 y Producto 94→95.",
+        "release_checked_at": "2026-11-23",
         "changelog_url": null,
-        "judged_day": "2026-11-13",
+        "judged_day": "2026-11-23",
         "rank": 1
       },
       {
@@ -540,26 +545,26 @@
         "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/t3-code",
         "category": "ide",
         "catLabel": "IDE",
-        "license": null,
-        "licenseType": "Comercial",
+        "license": "MIT",
+        "licenseType": "Open source",
         "tagline": "El control plane open source para agentes.",
         "summary": "Workspace open source para manejar varios agentes de código, sesiones remotas y worktrees desde escritorio y móvil.",
         "scores": {
           "harnesses": 95,
           "paralelo": 92,
-          "orquestacion": 86,
+          "orquestacion": 90,
           "revision": 89,
           "remoto": 88,
           "movil": 84,
-          "extensiones": 82,
-          "control": 74,
+          "extensiones": 85,
+          "control": 77,
           "abierto": 95,
           "producto": 91
         },
-        "total": 88.17,
+        "total": 89.19,
         "tier": "S",
         "next_tier": "SS",
-        "delta_next": 1.83,
+        "delta_next": 0.81,
         "strengths": [
           "Open source con mucha adopción",
           "Acceso remoto y móvil",
@@ -640,88 +645,88 @@
           {
             "label": "Web oficial",
             "url": "https://t3.codes/",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Repositorio GitHub",
             "url": "https://github.com/pingdotgg/t3code",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "README",
             "url": "https://github.com/pingdotgg/t3code#readme",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Dossier de investigación",
             "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/t3-code",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           }
         ],
-        "last_release": "2026-11-15",
-        "last_release_tag": "v0.1.10-nightly.20261115.4723",
-        "last_release_url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.10-nightly.20261115.4723",
+        "last_release": "2026-11-23",
+        "last_release_tag": "v0.1.12-nightly.20261123.5151",
+        "last_release_url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.12-nightly.20261123.5151",
         "last_release_days": 0,
         "releases_90": 10,
         "releases_recent": [
           {
-            "tag": "v0.1.10-nightly.20261115.4723",
-            "date": "2026-11-15",
+            "tag": "v0.1.12-nightly.20261123.5151",
+            "date": "2026-11-23",
             "pre": true,
-            "url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.10-nightly.20261115.4723"
+            "url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.12-nightly.20261123.5151"
           },
           {
-            "tag": "mobile-android-preview-build/933ff59582b2590a306796226303c611bfae3003",
-            "date": "2026-11-15",
+            "tag": "v0.1.12-nightly.20261123.5138",
+            "date": "2026-11-23",
             "pre": true,
-            "url": "https://github.com/pingdotgg/t3code/releases/tag/mobile-android-preview-build%2F933ff59582b2590a306796226303c611bfae3003"
+            "url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.12-nightly.20261123.5138"
           },
           {
-            "tag": "mobile-android-preview-build/4d8f7b0a47340c0caa8ab2ff11ffeea71183938b",
-            "date": "2026-11-15",
+            "tag": "v0.1.12-nightly.20261123.5124",
+            "date": "2026-11-23",
             "pre": true,
-            "url": "https://github.com/pingdotgg/t3code/releases/tag/mobile-android-preview-build%2F4d8f7b0a47340c0caa8ab2ff11ffeea71183938b"
+            "url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.12-nightly.20261123.5124"
           },
           {
-            "tag": "mobile-android-preview-build/b46c39a8269c16363d18b5ae9b72e5d4da13afb0",
-            "date": "2026-11-15",
+            "tag": "mobile-ios-build/testflight/3.0.0/05d070e0a4c953882a0e7553758beda8fbe6f3b9",
+            "date": "2026-11-23",
             "pre": true,
-            "url": "https://github.com/pingdotgg/t3code/releases/tag/mobile-android-preview-build%2Fb46c39a8269c16363d18b5ae9b72e5d4da13afb0"
+            "url": "https://github.com/pingdotgg/t3code/releases/tag/mobile-ios-build%2Ftestflight%2F3.0.0%2F05d070e0a4c953882a0e7553758beda8fbe6f3b9"
           },
           {
-            "tag": "mobile-android-build/2.3.0/81e495fe123dcf91e6e607b56e62b8e788e624dd",
-            "date": "2026-11-15",
-            "pre": false,
-            "url": "https://github.com/pingdotgg/t3code/releases/tag/mobile-android-build%2F2.3.0%2F81e495fe123dcf91e6e607b56e62b8e788e624dd"
+            "tag": "mobile-ios-build/testflight/3.0.0/1da083f3be9e0e27a0fbab81f02666b9f41ade7a",
+            "date": "2026-11-23",
+            "pre": true,
+            "url": "https://github.com/pingdotgg/t3code/releases/tag/mobile-ios-build%2Ftestflight%2F3.0.0%2F1da083f3be9e0e27a0fbab81f02666b9f41ade7a"
           },
           {
-            "tag": "v0.1.10-nightly.20261114.4709",
-            "date": "2026-11-14",
+            "tag": "mobile-ios-build/testflight/3.0.0/b7fd0e559c08576d0ed116d8f6824ca3bb8ce473",
+            "date": "2026-11-23",
             "pre": true,
-            "url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.10-nightly.20261114.4709"
+            "url": "https://github.com/pingdotgg/t3code/releases/tag/mobile-ios-build%2Ftestflight%2F3.0.0%2Fb7fd0e559c08576d0ed116d8f6824ca3bb8ce473"
           }
         ],
         "release_status": "activo",
         "release_source": "releases.atom",
-        "release_note": "v0.1.10-nightly.20261115.4723 · 221 changes from 92 contributors Resume Cursor turns. Resume a stopped Cursor turn from its latest checkpoint without sending a new message. Cursor compaction. Manually compact Cursor conversations from the slash menu or context meter. Large pull request diffs. Load a pull request file’s diff on demand when it is too large to show automatically. Faster pull request actions. Pull request actions, title edits, and labels now update immediately across all supported hosts. Faster delegated tasks. Delegated tasks start and finish faster in long threads. Prompt recovery. Prompts awaiting provider acceptance are preserved if the server restarts. Scratch thread protection. Agents can no longer delete the built-in No project workspace and its threads. Plus 205 more bug fixes and performance improvements. Full changelog What's Changed perf(server): text-only browser",
-        "release_highlight": "Nightly 2026-11-15: reanudar turnos de Cursor, compactar contexto y cargar diffs grandes de PR.",
-        "release_impact": "Tier S (+0.58): Revisión 86→89, Control 72→74 y Producto 90→91.",
-        "release_checked_at": "2026-11-15",
+        "release_note": "v0.1.12-nightly.20261123.5151 · 67 changes from 25 contributors Background browser previews. Agents can take screenshots and interact with previews while T3 Code is hidden, minimized, or covered. Agent message delivery. Messages from other agents can steer a running turn without waiting behind a queued message. Web startup. T3 Code starts in browsers where WebAssembly is disabled. Open links on macOS. Links open a T3 Code window when the app is running without one. Plus 51 more bug fixes and performance improvements. Full changelog What's Changed fix(web): retry a failed port-forward locality probe by @juliusmarminge in #41353 fix(web): start without WebAssembly by initialising Words in a guard by @juliusmarminge in #41361 feat(scripts): server metrics read event-loop delay and GC in every window by @juliusmarminge in #41252 feat(scripts): server metrics measure a busy server on a copy o",
+        "release_highlight": "v0.1.12-nightly.20261123: Workflows (Labs) para coordinar agentes, eventos y aprobaciones; MCP Events webhooks; steering de turnos entre agentes y vistas previas de navegador en segundo plano.",
+        "release_impact": "Tier S (+1.02): Orquestación 86→90, Extensiones 82→85 y Control 74→77.",
+        "release_checked_at": "2026-11-23",
         "changelog_url": null,
-        "judged_day": "2026-11-13",
+        "judged_day": "2026-11-23",
         "rank": 2
       },
       {
         "id": "paradev",
         "slug": "paradev",
         "name": "Paradev",
-        "repo": "https://github.com/paradevai/paradev",
+        "repo": "https://github.com/ParadevAI/Paradev",
         "website": "https://paradev.com/",
         "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/paradev",
         "category": "workspace",
         "catLabel": "Workspace",
-        "license": null,
-        "licenseType": "Comercial",
+        "license": "MIT",
+        "licenseType": "Open source",
         "tagline": "Un ejército de agentes en paralelo.",
         "summary": "Workspace open source para correr agentes de código en paralelo, con CLI, MCP, móvil, automatizaciones y workspaces cloud opcionales.",
         "scores": {
@@ -823,25 +828,25 @@
           {
             "label": "Web oficial",
             "url": "https://paradev.com/",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Repositorio GitHub",
-            "url": "https://github.com/paradevai/paradev",
-            "accessedAt": "2026-11-13"
+            "url": "https://github.com/ParadevAI/Paradev",
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "README",
-            "url": "https://github.com/paradevai/paradev#readme",
-            "accessedAt": "2026-11-13"
+            "url": "https://github.com/ParadevAI/Paradev#readme",
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Dossier de investigación",
             "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/paradev",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           }
         ],
-        "last_release": "2026-11-15",
+        "last_release": "2026-11-23",
         "last_release_tag": "desktop-canary",
         "last_release_url": "https://github.com/ParadevAI/Paradev/releases/tag/desktop-canary",
         "last_release_days": 0,
@@ -849,50 +854,412 @@
         "releases_recent": [
           {
             "tag": "desktop-canary",
-            "date": "2026-11-15",
+            "date": "2026-11-23",
             "pre": true,
             "url": "https://github.com/ParadevAI/Paradev/releases/tag/desktop-canary"
           },
           {
-            "tag": "desktop-v2.0.9",
-            "date": "2026-11-12",
-            "pre": false,
-            "url": "https://github.com/ParadevAI/Paradev/releases/tag/desktop-v2.0.9"
-          },
-          {
-            "tag": "ahrefs@1.0.0",
-            "date": "2026-11-12",
-            "pre": false,
-            "url": "https://github.com/ParadevAI/Paradev/releases/tag/ahrefs%401.0.0"
-          },
-          {
-            "tag": "desktop-v2.0.8",
-            "date": "2026-11-10",
+            "tag": "desktop-v2.0.11",
+            "date": "2026-11-22",
             "pre": true,
-            "url": "https://github.com/ParadevAI/Paradev/releases/tag/desktop-v2.0.8"
+            "url": "https://github.com/ParadevAI/Paradev/releases/tag/desktop-v2.0.11"
           },
           {
-            "tag": "cli-v2.0.8",
-            "date": "2026-11-10",
+            "tag": "sentry@1.0.4",
+            "date": "2026-11-21",
+            "pre": false,
+            "url": "https://github.com/ParadevAI/Paradev/releases/tag/sentry%401.0.4"
+          },
+          {
+            "tag": "cli-v2.0.11",
+            "date": "2026-11-20",
             "pre": true,
-            "url": "https://github.com/ParadevAI/Paradev/releases/tag/cli-v2.0.8"
+            "url": "https://github.com/ParadevAI/Paradev/releases/tag/cli-v2.0.11"
           },
           {
             "tag": "cli-latest",
-            "date": "2026-11-10",
+            "date": "2026-11-20",
             "pre": true,
             "url": "https://github.com/ParadevAI/Paradev/releases/tag/cli-latest"
+          },
+          {
+            "tag": "desktop-v2.0.10",
+            "date": "2026-11-19",
+            "pre": true,
+            "url": "https://github.com/ParadevAI/Paradev/releases/tag/desktop-v2.0.10"
           }
         ],
         "release_status": "activo",
         "release_source": "releases.atom",
-        "release_note": "Internal Testing Build This is an automated canary build from main branch. Commit: 7ae3dc9 Short SHA: 7ae3dc9 Built: 2026-11-15T02:32:51Z ⚠️ This build is for internal testing only and may be unstable.",
-        "release_highlight": "",
-        "release_impact": "",
-        "release_checked_at": "2026-11-15",
+        "release_note": "Internal Testing Build This is an automated canary build from main branch. Commit: 17bbe65 Short SHA: 17bbe65 Built: 2026-11-23T12:07:53Z ⚠️ This build is for internal testing only and may be unstable.",
+        "release_highlight": "desktop-v2.0.11 / canary: conector admin, autenticación Bearer unificada para API/MCP/Workers y mejoras de sandbox Codex.",
+        "release_impact": "Sin cambio de score (85.56 S).",
+        "release_checked_at": "2026-11-23",
         "changelog_url": null,
-        "judged_day": "2026-11-13",
+        "judged_day": "2026-11-23",
         "rank": 3
+      },
+      {
+        "id": "synara",
+        "slug": "synara",
+        "name": "Synara",
+        "repo": "https://github.com/Emanuele-web04/synara",
+        "website": "https://www.trysynara.com/",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/synara",
+        "category": "workspace",
+        "catLabel": "Workspace",
+        "license": "MIT",
+        "licenseType": "Open source",
+        "tagline": "Control plane local-first para agentes.",
+        "summary": "Workspace local-first para tareas de agentes, worktrees, handoffs y revisión, con MCP y soporte de varios harnesses.",
+        "scores": {
+          "harnesses": 90,
+          "paralelo": 90,
+          "orquestacion": 90,
+          "revision": 86,
+          "remoto": 82,
+          "movil": 80,
+          "extensiones": 76,
+          "control": 70,
+          "abierto": 95,
+          "producto": 85
+        },
+        "total": 85.12,
+        "tier": "S",
+        "next_tier": "SS",
+        "delta_next": 4.88,
+        "strengths": [
+          "Handoffs y orquestación de agentes",
+          "Worktrees y revisión de PRs",
+          "Open source y local-first"
+        ],
+        "weaknesses": [
+          "App iPhone/iPad todavía en beta",
+          "No tiene runtime propio",
+          "Ecosistema joven"
+        ],
+        "pricing": "free",
+        "priceNote": "Código abierto + tus modelos",
+        "execution": "Local · Self-hosted",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux",
+          "Web",
+          "iOS"
+        ],
+        "harnesses": [
+          "claude code",
+          "codex",
+          "opencode",
+          "cursor",
+          "devin",
+          "grok",
+          "antigravity"
+        ],
+        "features": [
+          {
+            "key": "harnesses",
+            "label": "Múltiples harnesses",
+            "on": true
+          },
+          {
+            "key": "paralelo",
+            "label": "Sesiones en paralelo",
+            "on": true
+          },
+          {
+            "key": "orquestacion",
+            "label": "Orquestación de agentes",
+            "on": true
+          },
+          {
+            "key": "revision",
+            "label": "Revisión / PRs",
+            "on": true
+          },
+          {
+            "key": "remoto",
+            "label": "SSH / remoto / cloud",
+            "on": true
+          },
+          {
+            "key": "movil",
+            "label": "Acceso móvil",
+            "on": true
+          },
+          {
+            "key": "extensiones",
+            "label": "MCP / skills / plugins",
+            "on": true
+          },
+          {
+            "key": "control",
+            "label": "Aprobaciones / control",
+            "on": true
+          },
+          {
+            "key": "abierto",
+            "label": "Open source / autoalojable",
+            "on": true
+          }
+        ],
+        "sources": [
+          {
+            "label": "Web oficial",
+            "url": "https://www.trysynara.com/",
+            "accessedAt": "2026-11-23"
+          },
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/Emanuele-web04/synara",
+            "accessedAt": "2026-11-23"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/Emanuele-web04/synara#readme",
+            "accessedAt": "2026-11-23"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/synara",
+            "accessedAt": "2026-11-23"
+          }
+        ],
+        "last_release": "2026-11-21",
+        "last_release_tag": "v1.6.5",
+        "last_release_url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.6.5",
+        "last_release_days": 2,
+        "releases_90": 10,
+        "releases_recent": [
+          {
+            "tag": "v1.6.5",
+            "date": "2026-11-21",
+            "pre": false,
+            "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.6.5"
+          },
+          {
+            "tag": "v1.6.4",
+            "date": "2026-11-20",
+            "pre": false,
+            "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.6.4"
+          },
+          {
+            "tag": "v1.6.3",
+            "date": "2026-11-19",
+            "pre": false,
+            "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.6.3"
+          },
+          {
+            "tag": "v1.6.2",
+            "date": "2026-11-17",
+            "pre": false,
+            "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.6.2"
+          },
+          {
+            "tag": "v1.6.1",
+            "date": "2026-11-16",
+            "pre": false,
+            "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.6.1"
+          },
+          {
+            "tag": "v1.6.0",
+            "date": "2026-11-15",
+            "pre": false,
+            "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.6.0"
+          }
+        ],
+        "release_status": "activo",
+        "release_source": "releases.atom",
+        "release_note": "Better multilingual transcripts, retained OpenCode reasoning, and more predictable Antigravity resume. Added The analytics receiver can group Remote connection failures by stage, network kind, and connection path when updated iPhone and iPad clients send those categories. Desktop Beta adds six consent-gated reliability codes for admission, authorization, tunnel provisioning, and connector exits. Payloads use fixed categories without hostnames, IP addresses, network names, or free-form errors. The receiver migration and deployment are separate from this Stable desktop release. ( #2257 ) Changed Desktop refreshes the recorded app version for existing Remote links when reporting endpoints. The account service also gains maintenance logic to retire stale pre-Stable Remote 1.0.6 preview identities after a grace period. That cleanup runs through account service maintenance. ( #2256 ) Browser C",
+        "release_highlight": "v1.6.5 (y v1.6.0–v1.6.4): beta nativa de Synara para iPhone/iPad, conectores ACP para Antigravity (Notion/Linear), clonado APFS de node_modules en worktrees y 27 % menos memoria.",
+        "release_impact": "Tier S (+1.48): Móvil 70→80, Extensiones 72→76, Paralelismo 88→90 y Producto 82→85.",
+        "release_checked_at": "2026-11-23",
+        "changelog_url": null,
+        "judged_day": "2026-11-23",
+        "rank": 4
+      },
+      {
+        "id": "kandev",
+        "slug": "kandev",
+        "name": "Kandev",
+        "repo": "https://github.com/kdlbs/kandev",
+        "website": "https://github.com/kdlbs/kandev",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/kandev",
+        "category": "orchestrator",
+        "catLabel": "Orquestador",
+        "license": "AGPL-3.0",
+        "licenseType": "Open source",
+        "tagline": "Kanban para orquestar agentes.",
+        "summary": "Entorno self-hostable con tablero Kanban, pipelines de agentes, revisión de cambios y pull requests. Multi-proveedor y sin telemetría.",
+        "scores": {
+          "harnesses": 90,
+          "paralelo": 88,
+          "orquestacion": 92,
+          "revision": 88,
+          "remoto": 85,
+          "movil": 70,
+          "extensiones": 78,
+          "control": 70,
+          "abierto": 95,
+          "producto": 80
+        },
+        "total": 84.9,
+        "tier": "S",
+        "next_tier": "SS",
+        "delta_next": 5.1,
+        "strengths": [
+          "Tablero Kanban muy claro para trabajo multi-agente",
+          "Revisión y PRs integrados",
+          "Self-hosted y multi-proveedor"
+        ],
+        "weaknesses": [
+          "Más orquestador que IDE de código",
+          "Móvil limitado al navegador",
+          "Setup self-hosted"
+        ],
+        "pricing": "free",
+        "priceNote": "Código abierto + tus modelos",
+        "execution": "Local · SSH · Self-hosted",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux",
+          "Web"
+        ],
+        "harnesses": [
+          "claude code",
+          "codex",
+          "gemini",
+          "opencode",
+          "cursor",
+          "amp",
+          "devin",
+          "copilot",
+          "grok",
+          "qwen"
+        ],
+        "features": [
+          {
+            "key": "harnesses",
+            "label": "Múltiples harnesses",
+            "on": true
+          },
+          {
+            "key": "paralelo",
+            "label": "Sesiones en paralelo",
+            "on": true
+          },
+          {
+            "key": "orquestacion",
+            "label": "Orquestación de agentes",
+            "on": true
+          },
+          {
+            "key": "revision",
+            "label": "Revisión / PRs",
+            "on": true
+          },
+          {
+            "key": "remoto",
+            "label": "SSH / remoto / cloud",
+            "on": true
+          },
+          {
+            "key": "movil",
+            "label": "Acceso móvil",
+            "on": true
+          },
+          {
+            "key": "extensiones",
+            "label": "MCP / skills / plugins",
+            "on": true
+          },
+          {
+            "key": "control",
+            "label": "Aprobaciones / control",
+            "on": true
+          },
+          {
+            "key": "abierto",
+            "label": "Open source / autoalojable",
+            "on": true
+          }
+        ],
+        "sources": [
+          {
+            "label": "Web oficial",
+            "url": "https://github.com/kdlbs/kandev",
+            "accessedAt": "2026-11-23"
+          },
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/kdlbs/kandev",
+            "accessedAt": "2026-11-23"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/kdlbs/kandev#readme",
+            "accessedAt": "2026-11-23"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/kandev",
+            "accessedAt": "2026-11-23"
+          }
+        ],
+        "last_release": "2026-11-23",
+        "last_release_tag": "v0.103.1",
+        "last_release_url": "https://github.com/kdlbs/kandev/releases/tag/v0.103.1",
+        "last_release_days": 0,
+        "releases_90": 10,
+        "releases_recent": [
+          {
+            "tag": "v0.103.1",
+            "date": "2026-11-23",
+            "pre": false,
+            "url": "https://github.com/kdlbs/kandev/releases/tag/v0.103.1"
+          },
+          {
+            "tag": "v0.103.0",
+            "date": "2026-11-22",
+            "pre": false,
+            "url": "https://github.com/kdlbs/kandev/releases/tag/v0.103.0"
+          },
+          {
+            "tag": "pluginsdk/v0.4.0",
+            "date": "2026-11-22",
+            "pre": false,
+            "url": "https://github.com/kdlbs/kandev/releases/tag/pluginsdk%2Fv0.4.0"
+          },
+          {
+            "tag": "v0.102.0",
+            "date": "2026-11-19",
+            "pre": false,
+            "url": "https://github.com/kdlbs/kandev/releases/tag/v0.102.0"
+          },
+          {
+            "tag": "pluginsdk/v0.3.0",
+            "date": "2026-11-19",
+            "pre": false,
+            "url": "https://github.com/kdlbs/kandev/releases/tag/pluginsdk%2Fv0.3.0"
+          },
+          {
+            "tag": "v0.101.0",
+            "date": "2026-11-11",
+            "pre": false,
+            "url": "https://github.com/kdlbs/kandev/releases/tag/v0.101.0"
+          }
+        ],
+        "release_status": "activo",
+        "release_source": "releases.atom",
+        "release_note": "Warning macOS, Windows desktop installers in this release are unsigned development builds. They may require manual OS security bypasses and are not trusted downloads. If macOS blocks Kandev after you verify the checksum, run: xattr -d com.apple.quarantine /Applications/Kandev.app 0.103.1 - 2026-11-23 Features add outside-repository file tree ( #5446 ) hold issue watch dispatch until Linear blockers are done ( #4584 ) by @qwent71 Bug Fixes use the selected managed runtime for session inference ( #5441 ) by @mulatta refresh built-in prompts on PostgreSQL ( #5440 ) prevent false fork review gating ( #5443 )",
+        "release_highlight": "v0.103.1 (y v0.102–v0.103 + pluginsdk v0.4): despacho condicionado a blockers de Linear, paneles de plugins en perfiles/sidebar, anotación en web preview y evidencia con capturas en PRs.",
+        "release_impact": "Tier S (+1.08): Extensiones 72→78, Orquestación 90→92 y Revisión 86→88.",
+        "release_checked_at": "2026-11-23",
+        "changelog_url": null,
+        "judged_day": "2026-11-23",
+        "rank": 5
       },
       {
         "id": "agent-orchestrator",
@@ -903,8 +1270,8 @@
         "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/agent-orchestrator",
         "category": "orchestrator",
         "catLabel": "Orquestador",
-        "license": null,
-        "licenseType": "Comercial",
+        "license": "Apache-2.0",
+        "licenseType": "Open source",
         "tagline": "Supervisión de agentes de punta a punta.",
         "summary": "Orquestador open source para repartir tareas entre agentes, aislar trabajo, revisar cambios y abrir pull requests.",
         "scores": {
@@ -1006,435 +1373,75 @@
           {
             "label": "Web oficial",
             "url": "https://orchestrator.inc/",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Repositorio GitHub",
             "url": "https://github.com/OrchestratorInc/agent-orchestrator",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "README",
             "url": "https://github.com/OrchestratorInc/agent-orchestrator#readme",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Dossier de investigación",
             "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/agent-orchestrator",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           }
         ],
-        "last_release": "2026-11-14",
-        "last_release_tag": "v0.15.2-nightly.202611142232",
-        "last_release_url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.2-nightly.202611142232",
-        "last_release_days": 1,
+        "last_release": "2026-11-23",
+        "last_release_tag": "v0.15.5",
+        "last_release_url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.5",
+        "last_release_days": 0,
         "releases_90": 10,
         "releases_recent": [
           {
-            "tag": "v0.15.2-nightly.202611142232",
-            "date": "2026-11-14",
-            "pre": true,
-            "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.2-nightly.202611142232"
-          },
-          {
-            "tag": "v0.15.2-nightly.202611141846",
-            "date": "2026-11-14",
-            "pre": true,
-            "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.2-nightly.202611141846"
-          },
-          {
-            "tag": "v0.15.1",
-            "date": "2026-11-14",
+            "tag": "v0.15.5",
+            "date": "2026-11-23",
             "pre": false,
-            "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.1"
+            "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.5"
           },
           {
-            "tag": "v0.15.1-nightly.202611140850",
-            "date": "2026-11-14",
+            "tag": "v0.15.5-nightly.202611231543",
+            "date": "2026-11-23",
             "pre": true,
-            "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.1-nightly.202611140850"
+            "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.5-nightly.202611231543"
           },
           {
-            "tag": "v0.15.1-nightly.202611132033",
-            "date": "2026-11-13",
+            "tag": "v0.15.5-nightly.202611230257",
+            "date": "2026-11-23",
             "pre": true,
-            "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.1-nightly.202611132033"
+            "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.5-nightly.202611230257"
           },
           {
-            "tag": "v0.15.0",
-            "date": "2026-11-13",
+            "tag": "v0.15.4",
+            "date": "2026-11-22",
             "pre": false,
-            "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.0"
+            "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.4"
+          },
+          {
+            "tag": "v0.15.4-nightly.202611222025",
+            "date": "2026-11-22",
+            "pre": true,
+            "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.4-nightly.202611222025"
+          },
+          {
+            "tag": "v0.15.4-nightly.202611212010",
+            "date": "2026-11-21",
+            "pre": true,
+            "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.4-nightly.202611212010"
           }
         ],
         "release_status": "activo",
         "release_source": "releases.atom",
-        "release_note": "Changes in this nightly Browser and side chat tabs use the session strip's tab frame by @ronishrohan in #8296 Steer queued messages into the running turn, durably by @mohakchakraborty2004 in #8343 UI-only Cloud parity quick wins (archive, restore, shells, file tabs, automations, notifications, PR conflicts, i18n, delete wording) by @mohakchakraborty2004 in #8341 Drop the workspace row, share the project from the orchestrator and board cards; remove the Cloud GitHub PAT UI by @mohakchakraborty2004 in #8307 Draw Resolve conflicts and Update from base clicks as the user's action by @illegalcall in #8404 Make side chat closing and recovery reliable by @Vansh-Singhal in #8242 Acknowledge reports inside Claude paste wrappers by @Rishet11 in #6387 Log launch timestamps in one line by @illegalcall in #8254 5 more linked changes are included in the full comparison . Build details Commit: c023bdb ",
-        "release_highlight": "",
-        "release_impact": "",
-        "release_checked_at": "2026-11-15",
+        "release_note": "Changed Group desktop and mobile Sentry errors by code or normalized message (stable backport of #8898 ) by @harshitsinghbhandari in #8928 Full Changelog : v0.15.4...v0.15.5",
+        "release_highlight": "v0.15.5 estable: soporte hosts Linux arm64, revisión PR sobre current-head y login de Cline en Orchestrator Browser.",
+        "release_impact": "Sin cambio de score (84.18 S).",
+        "release_checked_at": "2026-11-23",
         "changelog_url": null,
-        "judged_day": "2026-11-13",
-        "rank": 4
-      },
-      {
-        "id": "kandev",
-        "slug": "kandev",
-        "name": "Kandev",
-        "repo": "https://github.com/kdlbs/kandev",
-        "website": "https://github.com/kdlbs/kandev",
-        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/kandev",
-        "category": "orchestrator",
-        "catLabel": "Orquestador",
-        "license": null,
-        "licenseType": "Comercial",
-        "tagline": "Kanban para orquestar agentes.",
-        "summary": "Entorno self-hostable con tablero Kanban, pipelines de agentes, revisión de cambios y pull requests. Multi-proveedor y sin telemetría.",
-        "scores": {
-          "harnesses": 90,
-          "paralelo": 88,
-          "orquestacion": 90,
-          "revision": 86,
-          "remoto": 85,
-          "movil": 70,
-          "extensiones": 72,
-          "control": 70,
-          "abierto": 95,
-          "producto": 80
-        },
-        "total": 83.82,
-        "tier": "S",
-        "next_tier": "SS",
-        "delta_next": 6.18,
-        "strengths": [
-          "Tablero Kanban muy claro para trabajo multi-agente",
-          "Revisión y PRs integrados",
-          "Self-hosted y multi-proveedor"
-        ],
-        "weaknesses": [
-          "Más orquestador que IDE de código",
-          "Móvil limitado al navegador",
-          "Setup self-hosted"
-        ],
-        "pricing": "free",
-        "priceNote": "Código abierto + tus modelos",
-        "execution": "Local · SSH · Self-hosted",
-        "platforms": [
-          "macOS",
-          "Windows",
-          "Linux",
-          "Web"
-        ],
-        "harnesses": [
-          "claude code",
-          "codex",
-          "gemini",
-          "opencode",
-          "cursor",
-          "amp",
-          "devin",
-          "copilot",
-          "grok",
-          "qwen"
-        ],
-        "features": [
-          {
-            "key": "harnesses",
-            "label": "Múltiples harnesses",
-            "on": true
-          },
-          {
-            "key": "paralelo",
-            "label": "Sesiones en paralelo",
-            "on": true
-          },
-          {
-            "key": "orquestacion",
-            "label": "Orquestación de agentes",
-            "on": true
-          },
-          {
-            "key": "revision",
-            "label": "Revisión / PRs",
-            "on": true
-          },
-          {
-            "key": "remoto",
-            "label": "SSH / remoto / cloud",
-            "on": true
-          },
-          {
-            "key": "movil",
-            "label": "Acceso móvil",
-            "on": true
-          },
-          {
-            "key": "extensiones",
-            "label": "MCP / skills / plugins",
-            "on": true
-          },
-          {
-            "key": "control",
-            "label": "Aprobaciones / control",
-            "on": true
-          },
-          {
-            "key": "abierto",
-            "label": "Open source / autoalojable",
-            "on": true
-          }
-        ],
-        "sources": [
-          {
-            "label": "Web oficial",
-            "url": "https://github.com/kdlbs/kandev",
-            "accessedAt": "2026-11-13"
-          },
-          {
-            "label": "Repositorio GitHub",
-            "url": "https://github.com/kdlbs/kandev",
-            "accessedAt": "2026-11-13"
-          },
-          {
-            "label": "README",
-            "url": "https://github.com/kdlbs/kandev#readme",
-            "accessedAt": "2026-11-13"
-          },
-          {
-            "label": "Dossier de investigación",
-            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/kandev",
-            "accessedAt": "2026-11-13"
-          }
-        ],
-        "last_release": "2026-11-11",
-        "last_release_tag": "v0.101.0",
-        "last_release_url": "https://github.com/kdlbs/kandev/releases/tag/v0.101.0",
-        "last_release_days": 4,
-        "releases_90": 10,
-        "releases_recent": [
-          {
-            "tag": "v0.101.0",
-            "date": "2026-11-11",
-            "pre": false,
-            "url": "https://github.com/kdlbs/kandev/releases/tag/v0.101.0"
-          },
-          {
-            "tag": "pluginsdk/v0.2.1",
-            "date": "2026-11-11",
-            "pre": false,
-            "url": "https://github.com/kdlbs/kandev/releases/tag/pluginsdk%2Fv0.2.1"
-          },
-          {
-            "tag": "v0.100.0",
-            "date": "2026-11-09",
-            "pre": false,
-            "url": "https://github.com/kdlbs/kandev/releases/tag/v0.100.0"
-          },
-          {
-            "tag": "pluginsdk/v0.2.0",
-            "date": "2026-11-09",
-            "pre": false,
-            "url": "https://github.com/kdlbs/kandev/releases/tag/pluginsdk%2Fv0.2.0"
-          },
-          {
-            "tag": "v0.99.1",
-            "date": "2026-11-06",
-            "pre": false,
-            "url": "https://github.com/kdlbs/kandev/releases/tag/v0.99.1"
-          },
-          {
-            "tag": "v0.99.0",
-            "date": "2026-11-05",
-            "pre": false,
-            "url": "https://github.com/kdlbs/kandev/releases/tag/v0.99.0"
-          }
-        ],
-        "release_status": "activo",
-        "release_source": "releases.atom",
-        "release_note": "Warning macOS, Windows desktop installers in this release are unsigned development builds. They may require manual OS security bypasses and are not trusted downloads. If macOS blocks Kandev after you verify the checksum, run: xattr -d com.apple.quarantine /Applications/Kandev.app 0.101.0 - 2026-11-11 Features select built-in packages and workspace MCPs ( #5106 ) clarify change workflow selector fields ( #5249 ) comment on extracts of task thread comments ( #5233 ) by @jcoatelen-ledger review question images in a large A/B view ( #5239 ) by @point-source cancel running chat turn with escape ( #5241 ) by @ZenitK show CI bubbles on PR status icons ( #5244 ) preview HTML files from review diffs ( #5243 ) remote credentials and config bundle for Pi ( #4767 ) by @naerymdan add Telegram plugin to the registry ( #4756 ) by @scottof move the task graph action into composer actions ( #5232 ) show ",
-        "release_highlight": "",
-        "release_impact": "",
-        "release_checked_at": "2026-11-15",
-        "changelog_url": null,
-        "judged_day": "2026-11-13",
-        "rank": 5
-      },
-      {
-        "id": "synara",
-        "slug": "synara",
-        "name": "Synara",
-        "repo": "https://github.com/Emanuele-web04/synara",
-        "website": "https://www.trysynara.com/",
-        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/synara",
-        "category": "workspace",
-        "catLabel": "Workspace",
-        "license": null,
-        "licenseType": "Comercial",
-        "tagline": "Control plane local-first para agentes.",
-        "summary": "Workspace local-first para tareas de agentes, worktrees, handoffs y revisión, con MCP y soporte de varios harnesses.",
-        "scores": {
-          "harnesses": 90,
-          "paralelo": 88,
-          "orquestacion": 90,
-          "revision": 86,
-          "remoto": 82,
-          "movil": 70,
-          "extensiones": 72,
-          "control": 70,
-          "abierto": 95,
-          "producto": 82
-        },
-        "total": 83.64,
-        "tier": "S",
-        "next_tier": "SS",
-        "delta_next": 6.36,
-        "strengths": [
-          "Handoffs y orquestación de agentes",
-          "Worktrees y revisión de PRs",
-          "Open source y local-first"
-        ],
-        "weaknesses": [
-          "Sin app móvil nativa",
-          "No tiene runtime propio",
-          "Ecosistema joven"
-        ],
-        "pricing": "free",
-        "priceNote": "Código abierto + tus modelos",
-        "execution": "Local · Self-hosted",
-        "platforms": [
-          "macOS",
-          "Windows",
-          "Linux",
-          "Web"
-        ],
-        "harnesses": [
-          "claude code",
-          "codex",
-          "opencode",
-          "cursor",
-          "devin",
-          "grok"
-        ],
-        "features": [
-          {
-            "key": "harnesses",
-            "label": "Múltiples harnesses",
-            "on": true
-          },
-          {
-            "key": "paralelo",
-            "label": "Sesiones en paralelo",
-            "on": true
-          },
-          {
-            "key": "orquestacion",
-            "label": "Orquestación de agentes",
-            "on": true
-          },
-          {
-            "key": "revision",
-            "label": "Revisión / PRs",
-            "on": true
-          },
-          {
-            "key": "remoto",
-            "label": "SSH / remoto / cloud",
-            "on": true
-          },
-          {
-            "key": "movil",
-            "label": "Acceso móvil",
-            "on": true
-          },
-          {
-            "key": "extensiones",
-            "label": "MCP / skills / plugins",
-            "on": true
-          },
-          {
-            "key": "control",
-            "label": "Aprobaciones / control",
-            "on": true
-          },
-          {
-            "key": "abierto",
-            "label": "Open source / autoalojable",
-            "on": true
-          }
-        ],
-        "sources": [
-          {
-            "label": "Web oficial",
-            "url": "https://www.trysynara.com/",
-            "accessedAt": "2026-11-13"
-          },
-          {
-            "label": "Repositorio GitHub",
-            "url": "https://github.com/Emanuele-web04/synara",
-            "accessedAt": "2026-11-13"
-          },
-          {
-            "label": "README",
-            "url": "https://github.com/Emanuele-web04/synara#readme",
-            "accessedAt": "2026-11-13"
-          },
-          {
-            "label": "Dossier de investigación",
-            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/synara",
-            "accessedAt": "2026-11-13"
-          }
-        ],
-        "last_release": "2026-11-14",
-        "last_release_tag": "v1.5.4",
-        "last_release_url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.5.4",
-        "last_release_days": 1,
-        "releases_90": 10,
-        "releases_recent": [
-          {
-            "tag": "v1.5.4",
-            "date": "2026-11-14",
-            "pre": false,
-            "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.5.4"
-          },
-          {
-            "tag": "v1.5.3",
-            "date": "2026-11-12",
-            "pre": false,
-            "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.5.3"
-          },
-          {
-            "tag": "v1.5.2",
-            "date": "2026-11-11",
-            "pre": false,
-            "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.5.2"
-          },
-          {
-            "tag": "v1.5.1",
-            "date": "2026-11-10",
-            "pre": false,
-            "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.5.1"
-          },
-          {
-            "tag": "v1.5.0",
-            "date": "2026-11-10",
-            "pre": false,
-            "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.5.0"
-          },
-          {
-            "tag": "v1.0.6-remote.44",
-            "date": "2026-11-10",
-            "pre": false,
-            "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.0.6-remote.44"
-          }
-        ],
-        "release_status": "activo",
-        "release_source": "releases.atom",
-        "release_note": "What's Changed Frame project logos with a plain border instead of a shadow halo by @Emanuele-web04 in #2134 Retry Cloudflare-blocked Claude turns and log turn failure categories by @Emanuele-web04 in #2138 fix(hosts): keep remote folder browsing usable after errors by @Emanuele-web04 in #2129 fix(skills): deliver typed and shared skills to Claude and Codex reliably by @Emanuele-web04 in #2142 Fix stuck background status and merge replies woken by background tasks by @Emanuele-web04 in #2149 Move background tasks out of the transcript into the Environment panel by @Emanuele-web04 in #2150 Leave merged and checked-out history out of turn diffs and Undo by @Emanuele-web04 in #2130 Reconnect remote computers automatically and from the picker by @Emanuele-web04 in #2133 Show Claude's turn plan again through a Synara update_plan tool by @Emanuele-web04 in #2140 Put chat images that share a par",
-        "release_highlight": "",
-        "release_impact": "",
-        "release_checked_at": "2026-11-15",
-        "changelog_url": null,
-        "judged_day": "2026-11-13",
+        "judged_day": "2026-11-23",
         "rank": 6
       },
       {
@@ -1446,8 +1453,8 @@
         "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/bb",
         "category": "ide",
         "catLabel": "IDE",
-        "license": null,
-        "licenseType": "Comercial",
+        "license": "MIT",
+        "licenseType": "Open source",
         "tagline": "El IDE agéntico que se construye solo.",
         "summary": "Workspace extensible con plugins, orquestación de agentes, tareas programadas y ejecución remota en tus propios hosts.",
         "scores": {
@@ -1546,47 +1553,53 @@
           {
             "label": "Web oficial",
             "url": "https://getbb.app/",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Repositorio GitHub",
             "url": "https://github.com/get-bb/bb",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "README",
             "url": "https://github.com/get-bb/bb#readme",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Dossier de investigación",
             "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/bb",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           }
         ],
-        "last_release": "2026-11-12",
+        "last_release": "2026-11-22",
         "last_release_tag": "desktop-nightly",
         "last_release_url": "https://github.com/get-bb/bb/releases/tag/desktop-nightly",
-        "last_release_days": 3,
+        "last_release_days": 1,
         "releases_90": 10,
         "releases_recent": [
           {
             "tag": "desktop-nightly",
-            "date": "2026-11-12",
+            "date": "2026-11-22",
             "pre": true,
             "url": "https://github.com/get-bb/bb/releases/tag/desktop-nightly"
+          },
+          {
+            "tag": "desktop-v0.50.1",
+            "date": "2026-11-18",
+            "pre": false,
+            "url": "https://github.com/get-bb/bb/releases/tag/desktop-v0.50.1"
+          },
+          {
+            "tag": "desktop-latest",
+            "date": "2026-11-18",
+            "pre": true,
+            "url": "https://github.com/get-bb/bb/releases/tag/desktop-latest"
           },
           {
             "tag": "desktop-v0.49.0",
             "date": "2026-11-06",
             "pre": false,
             "url": "https://github.com/get-bb/bb/releases/tag/desktop-v0.49.0"
-          },
-          {
-            "tag": "desktop-latest",
-            "date": "2026-11-06",
-            "pre": true,
-            "url": "https://github.com/get-bb/bb/releases/tag/desktop-latest"
           },
           {
             "tag": "desktop-v0.48.1",
@@ -1599,23 +1612,200 @@
             "date": "2026-10-28",
             "pre": false,
             "url": "https://github.com/get-bb/bb/releases/tag/desktop-v0.48.0"
-          },
-          {
-            "tag": "desktop-v0.47.1",
-            "date": "2026-10-24",
-            "pre": false,
-            "url": "https://github.com/get-bb/bb/releases/tag/desktop-v0.47.1"
           }
         ],
         "release_status": "activo",
         "release_source": "releases.atom",
         "release_note": "Latest automated bb Nightly build from main. Nightly builds may be unstable.",
-        "release_highlight": "",
-        "release_impact": "",
-        "release_checked_at": "2026-11-15",
+        "release_highlight": "desktop-v0.50.1 / nightly: build estable 0.50.1 y nightly actualizados.",
+        "release_impact": "Sin cambio de score (83.10 S).",
+        "release_checked_at": "2026-11-23",
         "changelog_url": null,
-        "judged_day": "2026-11-13",
+        "judged_day": "2026-11-23",
         "rank": 7
+      },
+      {
+        "id": "paseo",
+        "slug": "paseo",
+        "name": "Paseo",
+        "repo": "https://github.com/getpaseo/paseo",
+        "website": "https://paseo.sh/",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/paseo",
+        "category": "workspace",
+        "catLabel": "Workspace",
+        "license": null,
+        "licenseType": "No verificada",
+        "tagline": "Tus sesiones de agentes, desde cualquier sitio.",
+        "summary": "Workspace para acceder a sesiones de agentes de código desde distintos dispositivos, con worktrees, plugins, tareas en segundo plano y orquestación.",
+        "scores": {
+          "harnesses": 88,
+          "paralelo": 86,
+          "orquestacion": 87,
+          "revision": 82,
+          "remoto": 84,
+          "movil": 88,
+          "extensiones": 84,
+          "control": 74,
+          "abierto": 50,
+          "producto": 85
+        },
+        "total": 82.48,
+        "tier": "S",
+        "next_tier": "SS",
+        "delta_next": 7.52,
+        "strengths": [
+          "Móvil y acceso entre dispositivos",
+          "Plugins y worktrees",
+          "Tareas en segundo plano con Stop por tarea",
+          "Open source"
+        ],
+        "weaknesses": [
+          "Revisión de código más enfocada a seguimiento de PRs que a diff review profundo",
+          "SSH no verificado",
+          "Orquestación más de sesiones que de tareas"
+        ],
+        "pricing": "free",
+        "priceNote": "Código abierto + tus modelos",
+        "execution": "Local · Self-hosted",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux",
+          "Web",
+          "iOS",
+          "Android"
+        ],
+        "harnesses": [
+          "claude code",
+          "codex",
+          "opencode",
+          "cursor",
+          "amp",
+          "copilot",
+          "antigravity",
+          "goose"
+        ],
+        "features": [
+          {
+            "key": "harnesses",
+            "label": "Múltiples harnesses",
+            "on": true
+          },
+          {
+            "key": "paralelo",
+            "label": "Sesiones en paralelo",
+            "on": true
+          },
+          {
+            "key": "orquestacion",
+            "label": "Orquestación de agentes",
+            "on": true
+          },
+          {
+            "key": "revision",
+            "label": "Revisión / PRs",
+            "on": true
+          },
+          {
+            "key": "remoto",
+            "label": "SSH / remoto / cloud",
+            "on": true
+          },
+          {
+            "key": "movil",
+            "label": "Acceso móvil",
+            "on": true
+          },
+          {
+            "key": "extensiones",
+            "label": "MCP / skills / plugins",
+            "on": true
+          },
+          {
+            "key": "control",
+            "label": "Aprobaciones / control",
+            "on": true
+          },
+          {
+            "key": "abierto",
+            "label": "Open source / autoalojable",
+            "on": false
+          }
+        ],
+        "sources": [
+          {
+            "label": "Web oficial",
+            "url": "https://paseo.sh/",
+            "accessedAt": "2026-11-23"
+          },
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/getpaseo/paseo",
+            "accessedAt": "2026-11-23"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/getpaseo/paseo#readme",
+            "accessedAt": "2026-11-23"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/paseo",
+            "accessedAt": "2026-11-23"
+          }
+        ],
+        "last_release": "2026-11-22",
+        "last_release_tag": "v0.17.3",
+        "last_release_url": "https://github.com/getpaseo/paseo/releases/tag/v0.17.3",
+        "last_release_days": 1,
+        "releases_90": 10,
+        "releases_recent": [
+          {
+            "tag": "v0.17.3",
+            "date": "2026-11-22",
+            "pre": false,
+            "url": "https://github.com/getpaseo/paseo/releases/tag/v0.17.3"
+          },
+          {
+            "tag": "v0.17.2",
+            "date": "2026-11-22",
+            "pre": false,
+            "url": "https://github.com/getpaseo/paseo/releases/tag/v0.17.2"
+          },
+          {
+            "tag": "v0.17.1",
+            "date": "2026-11-22",
+            "pre": false,
+            "url": "https://github.com/getpaseo/paseo/releases/tag/v0.17.1"
+          },
+          {
+            "tag": "v0.17.0",
+            "date": "2026-11-21",
+            "pre": false,
+            "url": "https://github.com/getpaseo/paseo/releases/tag/v0.17.0"
+          },
+          {
+            "tag": "v0.17.0-beta.1",
+            "date": "2026-11-19",
+            "pre": true,
+            "url": "https://github.com/getpaseo/paseo/releases/tag/v0.17.0-beta.1"
+          },
+          {
+            "tag": "desktop-macos-v0.17.0-beta.1",
+            "date": "2026-11-19",
+            "pre": true,
+            "url": "https://github.com/getpaseo/paseo/releases/tag/desktop-macos-v0.17.0-beta.1"
+          }
+        ],
+        "release_status": "activo",
+        "release_source": "releases.atom",
+        "release_note": "0.17.3 - 2026-11-22 Fixed Fixed iPhone sheets such as Workspace tabs ignoring body swipes to expand, scroll, or collapse ( #10525 ) Fixed Antigravity applying the default model's thinking levels to every model, which blocked Orchestrator chats from opening ( #10524 ) Fixed / and @ pickers disappearing until reload after returning to a workspace through window history ( #8954 by @viking1201 )",
+        "release_highlight": "v0.17.3 estable (y v0.17.0–v0.17.2): seguimiento de PRs/MRs, steering de turnos entre agentes, heartbeats en segundo plano, aprobaciones/historial de Antigravity y métricas de coste/tokens por turno.",
+        "release_impact": "Sube a Tier S (+1.58): Revisión 76→82, Control 70→74, Orquestación 84→87 y Producto 82→85.",
+        "release_checked_at": "2026-11-23",
+        "changelog_url": null,
+        "judged_day": "2026-11-23",
+        "rank": 8
       },
       {
         "id": "emdash",
@@ -1626,8 +1816,8 @@
         "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/emdash",
         "category": "workspace",
         "catLabel": "Workspace",
-        "license": null,
-        "licenseType": "Comercial",
+        "license": "Apache-2.0",
+        "licenseType": "Open source",
         "tagline": "Agentes para todo el equipo, en la nube.",
         "summary": "Workspace open source con worktrees, tareas programadas, SSH y revisión integrada para que un equipo corra agentes de código.",
         "scores": {
@@ -1726,30 +1916,42 @@
           {
             "label": "Web oficial",
             "url": "https://emdash.com/",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Repositorio GitHub",
             "url": "https://github.com/generalaction/emdash",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "README",
             "url": "https://github.com/generalaction/emdash#readme",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Dossier de investigación",
             "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/emdash",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           }
         ],
-        "last_release": "2026-11-06",
-        "last_release_tag": "v1.2.11",
-        "last_release_url": "https://github.com/generalaction/emdash/releases/tag/v1.2.11",
-        "last_release_days": 9,
+        "last_release": "2026-11-19",
+        "last_release_tag": "v1.2.13",
+        "last_release_url": "https://github.com/generalaction/emdash/releases/tag/v1.2.13",
+        "last_release_days": 4,
         "releases_90": 10,
         "releases_recent": [
+          {
+            "tag": "v1.2.13",
+            "date": "2026-11-19",
+            "pre": false,
+            "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.13"
+          },
+          {
+            "tag": "v1.2.12",
+            "date": "2026-11-19",
+            "pre": false,
+            "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.12"
+          },
           {
             "tag": "v1.2.11",
             "date": "2026-11-06",
@@ -1773,88 +1975,77 @@
             "date": "2026-10-23",
             "pre": false,
             "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.9"
-          },
-          {
-            "tag": "v1.2.8",
-            "date": "2026-10-10",
-            "pre": false,
-            "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.8"
-          },
-          {
-            "tag": "v1.2.8-canary.101",
-            "date": "2026-10-10",
-            "pre": true,
-            "url": "https://github.com/generalaction/emdash/releases/tag/v1.2.8-canary.101"
           }
         ],
-        "release_status": "reciente",
+        "release_status": "activo",
         "release_source": "releases.atom",
-        "release_note": "This release improves Git authentication, Windows compatibility, and SSH responsiveness. It also reduces background fetch overhead, fixes pane shortcuts after switching tasks, and adds an in-app signup for Emdash 2.0 early access. Highlights The project's Git credentials setting now applies to Emdash's own local Git operations, including push, pull, and fetch. Choosing System uses the machine's credentials, while an account explicitly selected for an operation still takes precedence. Join the Emdash 2.0 waitlist directly from the sidebar, with your email and an optional note about your team or workflow. The card can be dismissed for the current release. Fixes Commit &amp; Push and other Git network operations on Windows authenticate correctly through the connected account, fixing failures where pushing from a terminal worked but pushing from Emdash did not. Agent hooks on Windows run cor",
-        "release_highlight": "",
-        "release_impact": "",
-        "release_checked_at": "2026-11-15",
+        "release_note": "",
+        "release_highlight": "v1.2.13 (y v1.2.12): importación transaccional desde v0 y registro waitlist Emdash 2.0.",
+        "release_impact": "Sin cambio de score (82.42 S).",
+        "release_checked_at": "2026-11-23",
         "changelog_url": null,
-        "judged_day": "2026-11-13",
-        "rank": 8
+        "judged_day": "2026-11-23",
+        "rank": 9
       },
       {
-        "id": "paseo",
-        "slug": "paseo",
-        "name": "Paseo",
-        "repo": "https://github.com/getpaseo/paseo",
-        "website": "https://paseo.sh/",
-        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/paseo",
+        "id": "ghostex",
+        "slug": "ghostex",
+        "name": "Ghostex",
+        "repo": "https://github.com/maddada/Ghostex",
+        "website": "https://ghostex.dev/",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/ghostex",
         "category": "workspace",
         "catLabel": "Workspace",
-        "license": null,
-        "licenseType": "No verificada",
-        "tagline": "Tus sesiones de agentes, desde cualquier sitio.",
-        "summary": "Workspace para acceder a sesiones de agentes de código desde distintos dispositivos, con worktrees, plugins, tareas en segundo plano y orquestación.",
+        "license": "MIT",
+        "licenseType": "Open source",
+        "tagline": "Workspace nativo con chat, código y navegador.",
+        "summary": "Workspace de escritorio con chats de agentes, editor de código, navegador por agente, automatizaciones y app móvil.",
         "scores": {
-          "harnesses": 88,
-          "paralelo": 86,
-          "orquestacion": 84,
-          "revision": 76,
-          "remoto": 84,
-          "movil": 88,
-          "extensiones": 84,
-          "control": 70,
-          "abierto": 50,
-          "producto": 82
+          "harnesses": 86,
+          "paralelo": 84,
+          "orquestacion": 86,
+          "revision": 78,
+          "remoto": 83,
+          "movil": 82,
+          "extensiones": 75,
+          "control": 78,
+          "abierto": 90,
+          "producto": 81
         },
-        "total": 80.9,
-        "tier": "A",
-        "next_tier": "S",
-        "delta_next": 1.1,
+        "total": 82.4,
+        "tier": "S",
+        "next_tier": "SS",
+        "delta_next": 7.6,
         "strengths": [
-          "Móvil y acceso entre dispositivos",
-          "Plugins y worktrees",
-          "Tareas en segundo plano con Stop por tarea",
-          "Open source"
+          "Todo-en-uno: chat, editor, browser",
+          "Orquestación multi-agente",
+          "Open source y móvil",
+          "Cuatro niveles de aprobación en vivo protegidos contra escalado por agentes"
         ],
         "weaknesses": [
-          "Revisión y PRs no son el foco",
-          "SSH no verificado",
-          "Orquestación más de sesiones que de tareas"
+          "Ritmo de cambios muy rápido (versionado mayor agresivo)",
+          "Revisión no es el foco",
+          "Proyecto joven"
         ],
         "pricing": "free",
         "priceNote": "Código abierto + tus modelos",
-        "execution": "Local · Self-hosted",
+        "execution": "Local · SSH",
         "platforms": [
           "macOS",
           "Windows",
           "Linux",
-          "Web",
           "iOS",
           "Android"
         ],
         "harnesses": [
           "claude code",
           "codex",
+          "gemini",
           "opencode",
           "cursor",
           "amp",
-          "copilot"
+          "copilot",
+          "grok"
         ],
         "features": [
           {
@@ -1900,83 +2091,264 @@
           {
             "key": "abierto",
             "label": "Open source / autoalojable",
-            "on": false
+            "on": true
           }
         ],
         "sources": [
           {
             "label": "Web oficial",
-            "url": "https://paseo.sh/",
-            "accessedAt": "2026-11-13"
+            "url": "https://ghostex.dev/",
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Repositorio GitHub",
-            "url": "https://github.com/getpaseo/paseo",
-            "accessedAt": "2026-11-13"
+            "url": "https://github.com/maddada/Ghostex",
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "README",
-            "url": "https://github.com/getpaseo/paseo#readme",
-            "accessedAt": "2026-11-13"
+            "url": "https://github.com/maddada/Ghostex#readme",
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Dossier de investigación",
-            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/paseo",
-            "accessedAt": "2026-11-13"
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/ghostex",
+            "accessedAt": "2026-11-23"
           }
         ],
-        "last_release": "2026-11-11",
-        "last_release_tag": "v0.16.0-beta.2",
-        "last_release_url": "https://github.com/getpaseo/paseo/releases/tag/v0.16.0-beta.2",
-        "last_release_days": 4,
+        "last_release": "2026-11-22",
+        "last_release_tag": "v11.15.0",
+        "last_release_url": "https://github.com/maddada/Ghostex/releases/tag/v11.15.0",
+        "last_release_days": 1,
         "releases_90": 10,
         "releases_recent": [
           {
-            "tag": "v0.16.0-beta.2",
-            "date": "2026-11-11",
-            "pre": true,
-            "url": "https://github.com/getpaseo/paseo/releases/tag/v0.16.0-beta.2"
-          },
-          {
-            "tag": "v0.16.0-beta.1",
-            "date": "2026-11-11",
-            "pre": true,
-            "url": "https://github.com/getpaseo/paseo/releases/tag/v0.16.0-beta.1"
-          },
-          {
-            "tag": "v0.15.4",
-            "date": "2026-11-10",
+            "tag": "v11.15.0",
+            "date": "2026-11-22",
             "pre": false,
-            "url": "https://github.com/getpaseo/paseo/releases/tag/v0.15.4"
+            "url": "https://github.com/maddada/Ghostex/releases/tag/v11.15.0"
           },
           {
-            "tag": "v0.15.3",
-            "date": "2026-11-06",
+            "tag": "v11.14.0",
+            "date": "2026-11-22",
             "pre": false,
-            "url": "https://github.com/getpaseo/paseo/releases/tag/v0.15.3"
+            "url": "https://github.com/maddada/Ghostex/releases/tag/v11.14.0"
           },
           {
-            "tag": "v0.15.2",
-            "date": "2026-11-05",
+            "tag": "v11.13.0",
+            "date": "2026-11-21",
             "pre": false,
-            "url": "https://github.com/getpaseo/paseo/releases/tag/v0.15.2"
+            "url": "https://github.com/maddada/Ghostex/releases/tag/v11.13.0"
           },
           {
-            "tag": "v0.15.1",
-            "date": "2026-11-05",
+            "tag": "v11.12.0",
+            "date": "2026-11-20",
             "pre": false,
-            "url": "https://github.com/getpaseo/paseo/releases/tag/v0.15.1"
+            "url": "https://github.com/maddada/Ghostex/releases/tag/v11.12.0"
+          },
+          {
+            "tag": "v11.11.1",
+            "date": "2026-11-19",
+            "pre": false,
+            "url": "https://github.com/maddada/Ghostex/releases/tag/v11.11.1"
+          },
+          {
+            "tag": "v11.11.0",
+            "date": "2026-11-19",
+            "pre": false,
+            "url": "https://github.com/maddada/Ghostex/releases/tag/v11.11.0"
           }
         ],
         "release_status": "activo",
         "release_source": "releases.atom",
-        "release_note": "0.16.0-beta.2 - 2026-11-11 Background tasks: Paseo now shows the background tasks an agent is running, such as shells and monitors, above the composer, with a Stop button for each. Works with Claude Code, Codex and OpenCode v2. ( #6220 , #9162 by @fxlelouarn ) Plugin sidebar views: A plugin can replace the sidebar's content with its own layout of workspaces, agents, projects and terminals across every connected host. Pick the view per device under Settings → Sidebar; Paseo's sidebar header and footer stay in place. ( #8906 ) Plugin composer controls: Plugins can add their own controls to the composer, and read and set its prompt, attachments, provider, model, mode and thinking. They can also put the cursor in any agent's composer, add items to New workspace, and store their own metadata on agents and workspaces. ( #8744 , #9209 , #9207 ) Faster diff loading: Opening Changes shows the fil",
-        "release_highlight": "0.16.0-beta.2: tareas en segundo plano con Stop, plugins con vistas de sidebar y controles de composer.",
-        "release_impact": "Tier A (+1.16): Control 65→70, Extensiones 80→84 y Producto 80→82.",
-        "release_checked_at": "2026-11-15",
+        "release_note": "macOS: Apple Silicon DMG · Windows: PowerShell irm https://ghostex.dev/install.ps1 | iex · x64 installer · ARM64 installer (if Windows says it protected your PC, click More info, then Run anyway; the publisher is Open Source Developer Mohamad Yahia Youssef) Linux x64: .deb · .rpm · tarball (mise/ubi) · AppImage · AUR (ghostex-bin) · Linux ARM64: .deb · .rpm · tarball · AppImage Android: APK · iOS: App Store 11.15.0 - 2026-11-22 Ghostex 11.15.0 is out. Four approval levels for Non-CLI sessions on the chat box's Mode button, top and bottom pin groups with discoverable separators on the rail, a Windows wake-from-sleep crash fix, older open pages and forms kept in the dock and Work panel, a scrollable phone pill row, and blurred art behind Live pages on the phone. 💬 Chat and approvals Approval levels for Non-CLI sessions: pick Ask, Auto-edits, Auto or Full access directly from the chat box'",
+        "release_highlight": "v11.15.0 (y v11.11–v11.14): 4 niveles de aprobación protegidos por dispositivo, Work items, Ask Ghostex AI, integración Grok Bot sin terminal, enlace servidor-a-servidor y Automations en móvil.",
+        "release_impact": "Sube a Tier S (+2.24): Control 62→78, Orquestación 82→86, Remoto 80→83 y Producto 78→81.",
+        "release_checked_at": "2026-11-23",
         "changelog_url": null,
-        "judged_day": "2026-11-13",
-        "rank": 9
+        "judged_day": "2026-11-23",
+        "rank": 10
+      },
+      {
+        "id": "openchamber",
+        "slug": "openchamber",
+        "name": "OpenChamber",
+        "repo": "https://github.com/openchamber/openchamber",
+        "website": "https://openchamber.dev/",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/openchamber",
+        "category": "workspace",
+        "catLabel": "Workspace",
+        "license": "MIT",
+        "licenseType": "Open source",
+        "tagline": "ADE open source para agentes de código.",
+        "summary": "Entorno de desarrollo agéntico open source con sesiones, extensiones, revisión, share pages para pedir ayuda a personas y un navegador que actúa como humano.",
+        "scores": {
+          "harnesses": 84,
+          "paralelo": 82,
+          "orquestacion": 85,
+          "revision": 82,
+          "remoto": 84,
+          "movil": 82,
+          "extensiones": 81,
+          "control": 68,
+          "abierto": 90,
+          "producto": 81
+        },
+        "total": 82.06,
+        "tier": "S",
+        "next_tier": "SS",
+        "delta_next": 7.94,
+        "strengths": [
+          "Open source y multiplataforma",
+          "Share pages para colaborar con personas",
+          "Navegador controlado y PDF anotado",
+          "Buena adopción",
+          "Sesiones Lead que delegan y sintetizan trabajo + panel de monitoreo de subagentes"
+        ],
+        "weaknesses": [
+          "Aprobaciones y políticas de seguridad aún por debajo de los líderes",
+          "Aprobaciones todavía básicas",
+          "Ecosistema joven"
+        ],
+        "pricing": "free",
+        "priceNote": "Código abierto + tus modelos",
+        "execution": "Local · Remote",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux",
+          "Web",
+          "iOS",
+          "Android"
+        ],
+        "harnesses": [
+          "codex",
+          "gemini",
+          "opencode",
+          "amp",
+          "grok"
+        ],
+        "features": [
+          {
+            "key": "harnesses",
+            "label": "Múltiples harnesses",
+            "on": true
+          },
+          {
+            "key": "paralelo",
+            "label": "Sesiones en paralelo",
+            "on": true
+          },
+          {
+            "key": "orquestacion",
+            "label": "Orquestación de agentes",
+            "on": true
+          },
+          {
+            "key": "revision",
+            "label": "Revisión / PRs",
+            "on": true
+          },
+          {
+            "key": "remoto",
+            "label": "SSH / remoto / cloud",
+            "on": true
+          },
+          {
+            "key": "movil",
+            "label": "Acceso móvil",
+            "on": true
+          },
+          {
+            "key": "extensiones",
+            "label": "MCP / skills / plugins",
+            "on": true
+          },
+          {
+            "key": "control",
+            "label": "Aprobaciones / control",
+            "on": false
+          },
+          {
+            "key": "abierto",
+            "label": "Open source / autoalojable",
+            "on": true
+          }
+        ],
+        "sources": [
+          {
+            "label": "Web oficial",
+            "url": "https://openchamber.dev/",
+            "accessedAt": "2026-11-23"
+          },
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/openchamber/openchamber",
+            "accessedAt": "2026-11-23"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/openchamber/openchamber#readme",
+            "accessedAt": "2026-11-23"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/openchamber",
+            "accessedAt": "2026-11-23"
+          }
+        ],
+        "last_release": "2026-11-23",
+        "last_release_tag": "canary",
+        "last_release_url": "https://github.com/openchamber/openchamber/releases/tag/canary",
+        "last_release_days": 0,
+        "releases_90": 10,
+        "releases_recent": [
+          {
+            "tag": "canary",
+            "date": "2026-11-23",
+            "pre": true,
+            "url": "https://github.com/openchamber/openchamber/releases/tag/canary"
+          },
+          {
+            "tag": "v2.8.0",
+            "date": "2026-11-22",
+            "pre": false,
+            "url": "https://github.com/openchamber/openchamber/releases/tag/v2.8.0"
+          },
+          {
+            "tag": "v2.7.3",
+            "date": "2026-11-19",
+            "pre": false,
+            "url": "https://github.com/openchamber/openchamber/releases/tag/v2.7.3"
+          },
+          {
+            "tag": "v2.7.2",
+            "date": "2026-11-15",
+            "pre": false,
+            "url": "https://github.com/openchamber/openchamber/releases/tag/v2.7.2"
+          },
+          {
+            "tag": "v2.7.1",
+            "date": "2026-11-12",
+            "pre": false,
+            "url": "https://github.com/openchamber/openchamber/releases/tag/v2.7.1"
+          },
+          {
+            "tag": "v2.7.0",
+            "date": "2026-11-08",
+            "pre": false,
+            "url": "https://github.com/openchamber/openchamber/releases/tag/v2.7.0"
+          }
+        ],
+        "release_status": "activo",
+        "release_source": "releases.atom",
+        "release_note": "OpenChamber Canary 2.8.1-canary.20261123.29, built from 3a0dbea . The nightly build of main. In the desktop app, or in the browser page of a server installed from npm (@openchamber/web@canary), Settings → About → Updates: pick Canary to update into it, Stable to go back. Expect rough edges. Downloads System File macOS, Apple Silicon .dmg macOS, Intel .dmg Windows, x64 .exe Windows, ARM .exe Linux, x64 .AppImage , .deb , .rpm Linux, ARM .AppImage , .deb , .rpm Android .apk",
+        "release_highlight": "v2.8.0 (y v2.7.3 + canary): sesiones Lead que delegan y resumen sub-sesiones, panel en vivo de subagentes, OpenCode Server compartido y edición de documentos Office.",
+        "release_impact": "Sube a Tier S (+1.86): Orquestación 75→85, Extensiones 78→81, Revisión 80→82 y Producto 79→81.",
+        "release_checked_at": "2026-11-23",
+        "changelog_url": null,
+        "judged_day": "2026-11-23",
+        "rank": 11
       },
       {
         "id": "conductor",
@@ -1999,14 +2371,14 @@
           "remoto": 92,
           "movil": 88,
           "extensiones": 60,
-          "control": 75,
+          "control": 78,
           "abierto": 40,
-          "producto": 90
+          "producto": 92
         },
-        "total": 80.36,
+        "total": 80.72,
         "tier": "A",
         "next_tier": "S",
-        "delta_next": 1.64,
+        "delta_next": 1.28,
         "strengths": [
           "Cloud gestionado y móvil",
           "Revisión de cambios integrada",
@@ -2089,24 +2461,24 @@
           {
             "label": "Dossier de investigación",
             "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/conductor",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           }
         ],
-        "last_release": "2026-11-13",
-        "last_release_tag": "0.94.2",
+        "last_release": "2026-11-20",
+        "last_release_tag": "0.98.0",
         "last_release_url": "https://www.conductor.build/changelog/rss.xml",
-        "last_release_days": 2,
+        "last_release_days": 3,
         "releases_90": null,
         "releases_recent": [],
         "release_status": "activo",
         "release_source": "changelog",
-        "release_note": "Fri, 13 Nov 2026 00:00:00 GMT Conductor 0.94.2: Conductor is back https://www.conductor.build/changelog/0.94.2-conductor-is-back https://www.conductor.build/changelog/0.94.2-conductor-is-back Fri, 13 Nov 2026 00:00:00 GMT Conductor isn't shutting down. It's back, and we're building again. Thank you for sticking with us! If you need anything, email support@conductor.build. Conductor 0.94.0: Claude Fable 5.2 https://www.conductor.build/changelog/0.94.0-claude-fable-5-2 https://www.conductor.build/changelog/0.94.0-claude-fable-5-2 Mon, 09 Nov 2026 00:00:00 GMT Claude Fable 5.2 Claude Fable 5.2, Anthropic's upgraded model for the most demanding technical work, is now available in Conductor. Improvements Checking for updates is more reliable. Fixes Fixed follow-up messages sometimes failing when sent while a Codex chat was starting. Fixed your local messages sometimes appearing to come from \"User\". Fixed long log and Markdown previews in the Artifacts tab spilling over neighboring tiles. The \"Read the announcement\" link in the Conductor Cloud shutdown banner now opens the announcement instead of the homepage. Misc Updated the bundled Claude Code to 2.1.321 and Codex to 0.166.0. New in 0",
-        "release_highlight": "",
-        "release_impact": "",
-        "release_checked_at": "2026-11-15",
+        "release_note": "Fri, 20 Nov 2026 00:00:00 GMT Conductor 0.98.0: See where your usage goes https://www.conductor.build/changelog/0.98.0-see-where-your-usage-goes https://www.conductor.build/changelog/0.98.0-see-where-your-usage-goes Fri, 20 Nov 2026 00:00:00 GMT The new Usage page shows your chats, estimated cost, and tokens across local workspaces for the last 7, 30, or 90 days, broken down by model and by workspace. Open it from the Usage button in the sidebar footer or in Settings → Usage. The Usage page showing chats, estimated cost, and tokens over 30 days, broken down by model and workspace Themes are also out of experimental. In Settings → Appearance, pick a preset like Dracula or Nord, make your own theme, or ask an agent to change it for you. Improvements Running background tasks now show above the composer, with each task's elapsed time and a button to stop it. The Artifacts tab has a new Background tasks tile that lists finished background tasks by chat. Open a task to see its output or a read-only view of the agent's work. Conductor starts up faster. You can now open workspaces in Rex. Agents in local workspaces can now rename workspaces. Fixes Fixed the loading screen showing the dark ",
+        "release_highlight": "0.98.0 (y 0.97.0): página Usage con coste y tokens (7/30/90d), barra de tareas en segundo plano con Stop, artefactos HTML inline y autorrecuperación del servicio.",
+        "release_impact": "Tier A (+0.36): Control 75→78 y Producto 90→92.",
+        "release_checked_at": "2026-11-23",
         "changelog_url": "https://www.conductor.build/changelog/rss.xml",
-        "judged_day": "2026-11-13",
-        "rank": 10
+        "judged_day": "2026-11-23",
+        "rank": 12
       },
       {
         "id": "jean",
@@ -2117,8 +2489,8 @@
         "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/jean",
         "category": "workspace",
         "catLabel": "Workspace",
-        "license": null,
-        "licenseType": "Comercial",
+        "license": "Apache-2.0",
+        "licenseType": "Open source",
         "tagline": "Un entorno de agentes local o self-hosted.",
         "summary": "Workspace open source para agentes de código, worktrees, MCP y entrega con GitHub, con acceso local, SSH o servidor propio y más proveedores como QwenCloud y CLIProxyAPI.",
         "scores": {
@@ -2215,28 +2587,28 @@
           {
             "label": "Web oficial",
             "url": "https://jean.build/",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Repositorio GitHub",
             "url": "https://github.com/coollabsio/jean",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "README",
             "url": "https://github.com/coollabsio/jean#readme",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Dossier de investigación",
             "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/jean",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           }
         ],
         "last_release": "2026-11-15",
         "last_release_tag": "v1.0.16",
         "last_release_url": "https://github.com/coollabsio/jean/releases/tag/v1.0.16",
-        "last_release_days": 0,
+        "last_release_days": 8,
         "releases_90": 10,
         "releases_recent": [
           {
@@ -2276,244 +2648,63 @@
             "url": "https://github.com/coollabsio/jean/releases/tag/v1.0.11"
           }
         ],
-        "release_status": "activo",
+        "release_status": "reciente",
         "release_source": "releases.atom",
         "release_note": "Features Added an auto-compact window option to Claude backend settings. Added auto-compact options for Codex, OpenCode, and PI. Fixes Fixed chat not scrolling to the bottom after you answered a question. Fixed PR conflict status not refreshing after sync and push. Fixed SSH host key reading on Windows when ssh-keyscan failed; Jean now falls back to ssh . Fixed long tool names hiding the row chevron in chat; names are now truncated. Fixed worktree sort options on mobile; they now open in a bottom sheet. Breaking Changes Removed the CLIProxyAPI provider integration.",
         "release_highlight": "1.0.15: QwenCloud, Claude Fable 5.2 y CLIProxyAPI como proveedor para todos los backends.",
         "release_impact": "Tier A (+0.92): Harnesses 86→88, Extensiones 65→70 y Producto 78→80.",
-        "release_checked_at": "2026-11-15",
+        "release_checked_at": "2026-11-23",
         "changelog_url": null,
-        "judged_day": "2026-11-13",
-        "rank": 11
+        "judged_day": "2026-11-23",
+        "rank": 13
       },
       {
-        "id": "openchamber",
-        "slug": "openchamber",
-        "name": "OpenChamber",
-        "repo": "https://github.com/openchamber/openchamber",
-        "website": "https://openchamber.dev/",
-        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/openchamber",
+        "id": "cloudroom",
+        "slug": "cloudroom",
+        "name": "Cloudroom",
+        "repo": "https://github.com/davidondrej/cloudroom",
+        "website": "https://www.cloudroom.dev/",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/cloudroom",
         "category": "workspace",
         "catLabel": "Workspace",
-        "license": "MIT",
+        "license": "Apache-2.0",
         "licenseType": "Open source",
-        "tagline": "ADE open source para agentes de código.",
-        "summary": "Entorno de desarrollo agéntico open source con sesiones, extensiones, revisión, share pages para pedir ayuda a personas y un navegador que actúa como humano.",
+        "tagline": "Agentes cloud open source.",
+        "summary": "Workspace open source para correr agentes de código en la nube, con revisión de cambios y ejecución remota.",
         "scores": {
-          "harnesses": 84,
-          "paralelo": 82,
+          "harnesses": 88,
+          "paralelo": 83,
           "orquestacion": 75,
-          "revision": 80,
-          "remoto": 84,
-          "movil": 82,
-          "extensiones": 78,
-          "control": 68,
-          "abierto": 90,
-          "producto": 79
-        },
-        "total": 80.2,
-        "tier": "A",
-        "next_tier": "S",
-        "delta_next": 1.8,
-        "strengths": [
-          "Open source y multiplataforma",
-          "Share pages para colaborar con personas",
-          "Navegador controlado y PDF anotado",
-          "Buena adopción"
-        ],
-        "weaknesses": [
-          "Orquestación menos profunda",
-          "Aprobaciones todavía básicas",
-          "Ecosistema joven"
-        ],
-        "pricing": "free",
-        "priceNote": "Código abierto + tus modelos",
-        "execution": "Local · Remote",
-        "platforms": [
-          "macOS",
-          "Windows",
-          "Linux",
-          "Web",
-          "iOS",
-          "Android"
-        ],
-        "harnesses": [
-          "codex",
-          "gemini",
-          "opencode",
-          "amp",
-          "grok"
-        ],
-        "features": [
-          {
-            "key": "harnesses",
-            "label": "Múltiples harnesses",
-            "on": true
-          },
-          {
-            "key": "paralelo",
-            "label": "Sesiones en paralelo",
-            "on": true
-          },
-          {
-            "key": "orquestacion",
-            "label": "Orquestación de agentes",
-            "on": true
-          },
-          {
-            "key": "revision",
-            "label": "Revisión / PRs",
-            "on": true
-          },
-          {
-            "key": "remoto",
-            "label": "SSH / remoto / cloud",
-            "on": true
-          },
-          {
-            "key": "movil",
-            "label": "Acceso móvil",
-            "on": true
-          },
-          {
-            "key": "extensiones",
-            "label": "MCP / skills / plugins",
-            "on": true
-          },
-          {
-            "key": "control",
-            "label": "Aprobaciones / control",
-            "on": false
-          },
-          {
-            "key": "abierto",
-            "label": "Open source / autoalojable",
-            "on": true
-          }
-        ],
-        "sources": [
-          {
-            "label": "Web oficial",
-            "url": "https://openchamber.dev/",
-            "accessedAt": "2026-11-13"
-          },
-          {
-            "label": "Repositorio GitHub",
-            "url": "https://github.com/openchamber/openchamber",
-            "accessedAt": "2026-11-13"
-          },
-          {
-            "label": "README",
-            "url": "https://github.com/openchamber/openchamber#readme",
-            "accessedAt": "2026-11-13"
-          },
-          {
-            "label": "Dossier de investigación",
-            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/openchamber",
-            "accessedAt": "2026-11-13"
-          }
-        ],
-        "last_release": "2026-11-15",
-        "last_release_tag": "v2.7.2",
-        "last_release_url": "https://github.com/openchamber/openchamber/releases/tag/v2.7.2",
-        "last_release_days": 0,
-        "releases_90": 10,
-        "releases_recent": [
-          {
-            "tag": "v2.7.2",
-            "date": "2026-11-15",
-            "pre": false,
-            "url": "https://github.com/openchamber/openchamber/releases/tag/v2.7.2"
-          },
-          {
-            "tag": "canary",
-            "date": "2026-11-15",
-            "pre": true,
-            "url": "https://github.com/openchamber/openchamber/releases/tag/canary"
-          },
-          {
-            "tag": "v2.7.1",
-            "date": "2026-11-12",
-            "pre": false,
-            "url": "https://github.com/openchamber/openchamber/releases/tag/v2.7.1"
-          },
-          {
-            "tag": "v2.7.0",
-            "date": "2026-11-08",
-            "pre": false,
-            "url": "https://github.com/openchamber/openchamber/releases/tag/v2.7.0"
-          },
-          {
-            "tag": "asr-models",
-            "date": "2026-11-08",
-            "pre": false,
-            "url": "https://github.com/openchamber/openchamber/releases/tag/asr-models"
-          },
-          {
-            "tag": "v2.6.1",
-            "date": "2026-11-04",
-            "pre": false,
-            "url": "https://github.com/openchamber/openchamber/releases/tag/v2.6.1"
-          }
-        ],
-        "release_status": "activo",
-        "release_source": "releases.atom",
-        "release_note": "New Share pages: an agent can ask your teammates. When an answer has to come from someone else, the agent sends them a page , and the chat shows a link and PIN for each person. Their answers come back into the session with a notification. Share pages: a shared link pasted into the composer opens the page in your own OpenChamber, so your agent sees it too. Pages on the rail lists every page you received, and Add to chat attaches one to your message. Browser: dictate into annotation comments and mark up PDFs. The comment field takes your voice and shows the microphone level, and a PDF in the panel takes Region and Draw marks. Browser: the agent clicks, types, drags and uploads files in the panel the way a person does, also inside embedded frames. It answers page dialogs itself and browses in a profile of its own unless you share yours. Chat: pick the chat width in Settings > Chat > Reading",
-        "release_highlight": "v2.7.2: share pages con PIN, PDF anotado y navegador que actúa como humano.",
-        "release_impact": "Tier A (+1.78): Revisión 76→80, Orquestación 72→75, Remoto 80→84 y Producto 76→79.",
-        "release_checked_at": "2026-11-15",
-        "changelog_url": null,
-        "judged_day": "2026-11-13",
-        "rank": 12
-      },
-      {
-        "id": "ghostex",
-        "slug": "ghostex",
-        "name": "Ghostex",
-        "repo": "https://github.com/maddada/Ghostex",
-        "website": "https://ghostex.dev/",
-        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/ghostex",
-        "category": "workspace",
-        "catLabel": "Workspace",
-        "license": null,
-        "licenseType": "Comercial",
-        "tagline": "Workspace nativo con chat, código y navegador.",
-        "summary": "Workspace de escritorio con chats de agentes, editor de código, navegador por agente, automatizaciones y app móvil.",
-        "scores": {
-          "harnesses": 86,
-          "paralelo": 84,
-          "orquestacion": 82,
           "revision": 78,
-          "remoto": 80,
-          "movil": 82,
-          "extensiones": 75,
-          "control": 62,
+          "remoto": 90,
+          "movil": 60,
+          "extensiones": 70,
+          "control": 74,
           "abierto": 90,
-          "producto": 78
+          "producto": 77
         },
-        "total": 80.16,
+        "total": 79.55,
         "tier": "A",
         "next_tier": "S",
-        "delta_next": 1.84,
+        "delta_next": 2.45,
         "strengths": [
-          "Todo-en-uno: chat, editor, browser",
-          "Orquestación multi-agente",
-          "Open source y móvil"
+          "Cloud open source",
+          "Revisión de cambios",
+          "Multi-harness"
         ],
         "weaknesses": [
-          "Aprobaciones/control poco documentados",
-          "Revisión no es el foco",
-          "Proyecto joven"
+          "Sin móvil",
+          "Orquestación limitada",
+          "Menos maduro"
         ],
         "pricing": "free",
         "priceNote": "Código abierto + tus modelos",
-        "execution": "Local · SSH",
+        "execution": "Local · Cloud",
         "platforms": [
           "macOS",
           "Windows",
           "Linux",
-          "iOS",
-          "Android"
+          "Web"
         ],
         "harnesses": [
           "claude code",
@@ -2522,8 +2713,10 @@
           "opencode",
           "cursor",
           "amp",
+          "devin",
           "copilot",
-          "grok"
+          "grok",
+          "antigravity"
         ],
         "features": [
           {
@@ -2554,7 +2747,7 @@
           {
             "key": "movil",
             "label": "Acceso móvil",
-            "on": true
+            "on": false
           },
           {
             "key": "extensiones",
@@ -2564,7 +2757,7 @@
           {
             "key": "control",
             "label": "Aprobaciones / control",
-            "on": false
+            "on": true
           },
           {
             "key": "abierto",
@@ -2575,77 +2768,77 @@
         "sources": [
           {
             "label": "Web oficial",
-            "url": "https://ghostex.dev/",
-            "accessedAt": "2026-11-13"
+            "url": "https://www.cloudroom.dev/",
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Repositorio GitHub",
-            "url": "https://github.com/maddada/Ghostex",
-            "accessedAt": "2026-11-13"
+            "url": "https://github.com/davidondrej/cloudroom",
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "README",
-            "url": "https://github.com/maddada/Ghostex#readme",
-            "accessedAt": "2026-11-13"
+            "url": "https://github.com/davidondrej/cloudroom#readme",
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Dossier de investigación",
-            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/ghostex",
-            "accessedAt": "2026-11-13"
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/cloudroom",
+            "accessedAt": "2026-11-23"
           }
         ],
-        "last_release": "2026-11-15",
-        "last_release_tag": "v11.7.1",
-        "last_release_url": "https://github.com/maddada/Ghostex/releases/tag/v11.7.1",
+        "last_release": "2026-11-23",
+        "last_release_tag": "gui-v164",
+        "last_release_url": "https://github.com/davidondrej/cloudroom/releases/tag/gui-v164",
         "last_release_days": 0,
         "releases_90": 10,
         "releases_recent": [
           {
-            "tag": "v11.7.1",
-            "date": "2026-11-15",
+            "tag": "gui-v164",
+            "date": "2026-11-23",
             "pre": false,
-            "url": "https://github.com/maddada/Ghostex/releases/tag/v11.7.1"
+            "url": "https://github.com/davidondrej/cloudroom/releases/tag/gui-v164"
           },
           {
-            "tag": "v11.7.0",
-            "date": "2026-11-14",
+            "tag": "core-v0.1.121",
+            "date": "2026-11-23",
             "pre": false,
-            "url": "https://github.com/maddada/Ghostex/releases/tag/v11.7.0"
+            "url": "https://github.com/davidondrej/cloudroom/releases/tag/core-v0.1.121"
           },
           {
-            "tag": "v11.6.1",
-            "date": "2026-11-13",
+            "tag": "gui-v163",
+            "date": "2026-11-22",
             "pre": false,
-            "url": "https://github.com/maddada/Ghostex/releases/tag/v11.6.1"
+            "url": "https://github.com/davidondrej/cloudroom/releases/tag/gui-v163"
           },
           {
-            "tag": "v11.6.0",
-            "date": "2026-11-13",
+            "tag": "core-v0.1.120",
+            "date": "2026-11-22",
             "pre": false,
-            "url": "https://github.com/maddada/Ghostex/releases/tag/v11.6.0"
+            "url": "https://github.com/davidondrej/cloudroom/releases/tag/core-v0.1.120"
           },
           {
-            "tag": "v11.5.0",
-            "date": "2026-11-12",
+            "tag": "gui-v162",
+            "date": "2026-11-21",
             "pre": false,
-            "url": "https://github.com/maddada/Ghostex/releases/tag/v11.5.0"
+            "url": "https://github.com/davidondrej/cloudroom/releases/tag/gui-v162"
           },
           {
-            "tag": "v11.4.0",
-            "date": "2026-11-11",
+            "tag": "gui-v161",
+            "date": "2026-11-21",
             "pre": false,
-            "url": "https://github.com/maddada/Ghostex/releases/tag/v11.4.0"
+            "url": "https://github.com/davidondrej/cloudroom/releases/tag/gui-v161"
           }
         ],
         "release_status": "activo",
         "release_source": "releases.atom",
-        "release_note": "macOS: Apple Silicon DMG · Windows: x64 installer · ARM64 installer Linux x64: .deb · .rpm · tarball (mise/ubi) · AppImage · AUR (ghostex-bin) · Linux ARM64: .deb · .rpm · tarball · AppImage Android: APK · iOS: App Store 11.7.1 - 2026-11-15 Ghostex 11.7.1 is out. Sessions no longer wake up and spend your usage on their own after a usage limit or a restart, long chats are compacted before they carry on, workers under a coordinator stop sending you notifications, the project picker and the browser bar show each computer's own logo, sidebar extensions arrive, and Settings search finds only real matches. 🔋 Usage after a limit or a restart Sessions stay put after a usage limit: with Switch accounts and no saved account, a session at its limit stays stopped and nothing is typed into it. After a restart, a limit wait asks \"Continue after the limit reset?\" with Continue and Not now, and while i",
-        "release_highlight": "",
-        "release_impact": "",
-        "release_checked_at": "2026-11-15",
+        "release_note": "Cloudroom v164 Share only the repos you pick. For Apple Silicon Macs on macOS 13 or later, Linux x64, and Windows x64. Changes Connect GitHub can now share only the repos you pick with cloud agents. Hitting a Claude plan limit in a Cloud thread shows the plan-limit card, not a raw error. Cloud previews of dev servers load right away instead of stalling. Image attachments show small thumbnails in the message box, and privacy mode hides your email. Security fixes. Install or update macOS: Quit Cloudroom, download the DMG, open it, and drag Cloudroom into Applications. Your data is kept. Signed and notarized by Apple. Linux x64: For Ubuntu 24.04+ and current Arch Linux. chmod +x Cloudroom-v164-x86_64.AppImage ./Cloudroom-v164-x86_64.AppImage If it does not open, add --no-sandbox . For a FUSE error, install libfuse2t64 (Ubuntu) or fuse2 (Arch). Windows x64: For Windows 11. Needs Git for Wind",
+        "release_highlight": "gui-v164 (y gui-v161–v163): soporte completo para Antigravity, proyectos GitLab.com en la nube, compartición selectiva de repos, barra de subagentes y burbujas en vivo para comandos en segundo plano.",
+        "release_impact": "Tier A (+1.99): Orquestación 70→75, Paralelismo 80→83, Control 70→74, Harnesses 86→88, Remoto 88→90 y Producto 75→77.",
+        "release_checked_at": "2026-11-23",
         "changelog_url": null,
-        "judged_day": "2026-11-13",
-        "rank": 13
+        "judged_day": "2026-11-23",
+        "rank": 14
       },
       {
         "id": "traycer",
@@ -2761,28 +2954,28 @@
           {
             "label": "Web oficial",
             "url": "https://traycer.ai/",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Repositorio GitHub",
             "url": "https://github.com/traycerai/traycer",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "README",
             "url": "https://github.com/traycerai/traycer#readme",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Dossier de investigación",
             "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/traycer",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           }
         ],
         "last_release": "2026-11-14",
         "last_release_tag": "host-v1.5.4",
         "last_release_url": "https://github.com/traycerai/traycer/releases/tag/host-v1.5.4",
-        "last_release_days": 1,
+        "last_release_days": 9,
         "releases_90": 10,
         "releases_recent": [
           {
@@ -2822,15 +3015,15 @@
             "url": "https://github.com/traycerai/traycer/releases/tag/cli-v1.5.4-rc.1"
           }
         ],
-        "release_status": "activo",
+        "release_status": "reciente",
         "release_source": "releases.atom",
         "release_note": "Traycer Host 1.5.4. Fixed Memory and stability - the host no longer runs out of memory or stalls while a large batch of files is published, and closed tasks are released from memory. Resource use - fewer file scans, lighter usage tracking and fewer chat history writes, and a credential-check loop that could spike CPU is fixed. Large tasks - tasks with thousands of artifact versions load their versions again, and documents with many attachments can be compacted. File and artifact sync - files rewritten in place are picked up, hand-edited canvases are kept, a failed sync can be retried, and a sync that keeps failing stops retrying. Agents - Codex turns end properly when steered messages are waiting, queues paused by a host crash resume on restart, and a failed Copilot start is handled cleanly. Windows - child processes are cleaned up more reliably when the host stops, and installed coding ",
         "release_highlight": "",
         "release_impact": "",
-        "release_checked_at": "2026-11-15",
+        "release_checked_at": "2026-11-23",
         "changelog_url": null,
-        "judged_day": "2026-11-13",
-        "rank": 14
+        "judged_day": "2026-11-23",
+        "rank": 15
       },
       {
         "id": "cmux",
@@ -2941,25 +3134,25 @@
           {
             "label": "Web oficial",
             "url": "https://cmux.com/",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Repositorio GitHub",
             "url": "https://github.com/manaflow-ai/cmux",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "README",
             "url": "https://github.com/manaflow-ai/cmux#readme",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Dossier de investigación",
             "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/cmux",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           }
         ],
-        "last_release": "2026-11-15",
+        "last_release": "2026-11-23",
         "last_release_tag": "nightly-next",
         "last_release_url": "https://github.com/manaflow-ai/cmux/releases/tag/nightly-next",
         "last_release_days": 0,
@@ -2967,230 +3160,49 @@
         "releases_recent": [
           {
             "tag": "nightly-next",
-            "date": "2026-11-15",
+            "date": "2026-11-23",
             "pre": true,
             "url": "https://github.com/manaflow-ai/cmux/releases/tag/nightly-next"
           },
           {
             "tag": "nightly",
-            "date": "2026-11-15",
+            "date": "2026-11-23",
             "pre": true,
             "url": "https://github.com/manaflow-ai/cmux/releases/tag/nightly"
           },
           {
-            "tag": "cmux-app-ffi-556776e92abcaa32112348edd37fa95afc009487",
-            "date": "2026-11-15",
+            "tag": "cmux-rd-v0.2.9",
+            "date": "2026-11-23",
             "pre": false,
-            "url": "https://github.com/manaflow-ai/cmux/releases/tag/cmux-app-ffi-556776e92abcaa32112348edd37fa95afc009487"
+            "url": "https://github.com/manaflow-ai/cmux/releases/tag/cmux-rd-v0.2.9"
           },
           {
-            "tag": "cmux-app-ffi-3953bc3d2564e88b68c93aa94bd2b6a3bf636fff",
-            "date": "2026-11-15",
+            "tag": "cmux-app-ffi-f43603ed26246b76004058422373588a77dc7fea",
+            "date": "2026-11-23",
             "pre": false,
-            "url": "https://github.com/manaflow-ai/cmux/releases/tag/cmux-app-ffi-3953bc3d2564e88b68c93aa94bd2b6a3bf636fff"
+            "url": "https://github.com/manaflow-ai/cmux/releases/tag/cmux-app-ffi-f43603ed26246b76004058422373588a77dc7fea"
           },
           {
-            "tag": "cmux-app-ffi-220a9b00491ea80d81b3b62391b27d0020883eb3",
-            "date": "2026-11-15",
+            "tag": "cmux-app-ffi-f7928ea20ffb0d473fbad9e799944ed449feafe3",
+            "date": "2026-11-23",
             "pre": false,
-            "url": "https://github.com/manaflow-ai/cmux/releases/tag/cmux-app-ffi-220a9b00491ea80d81b3b62391b27d0020883eb3"
+            "url": "https://github.com/manaflow-ai/cmux/releases/tag/cmux-app-ffi-f7928ea20ffb0d473fbad9e799944ed449feafe3"
           },
           {
-            "tag": "cmux-app-ffi-8d0524328b3c091835083b02c757aa0775af53cd",
-            "date": "2026-11-15",
+            "tag": "cmux-app-ffi-f863d9e2a8b5821e364d49b72c087fa5fc530ed3",
+            "date": "2026-11-23",
             "pre": false,
-            "url": "https://github.com/manaflow-ai/cmux/releases/tag/cmux-app-ffi-8d0524328b3c091835083b02c757aa0775af53cd"
+            "url": "https://github.com/manaflow-ai/cmux/releases/tag/cmux-app-ffi-f863d9e2a8b5821e364d49b72c087fa5fc530ed3"
           }
         ],
         "release_status": "activo",
         "release_source": "releases.atom",
-        "release_note": "Automated nightly build for 69b946e from nightly-next . Published commit: 69b946eb435d02aed3f5ee6181056833fa0c7ec0 . Built at the commit whose cmux-tui tree is published (app and daemon from one commit); branch tip 69b946eb435d02aed3f5ee6181056833fa0c7ec0 , 0 commits and 0 h behind it. cmux NIGHTLY ships for Apple silicon only (bundle ID com.cmuxterm.app.nightly ): Apple silicon: cmux-nightly-next-macos-arm64.dmg , feed appcast-arm64.xml PRs in this build #43466 ci: bound every upload-artifact step to 7 days, 60 of them were 14 to 90 #43409 carrier: the app's bundled cmux finds the tunnel hub its app's link serves #43432 Toggle Terminal and Chat: the chat face of a shown terminal never freezes or reloads #43435 cmux-tui-core: the terminal port watch worker lets a dropped mux go, so restart tests reopen their session #43449 Updated popover: release-notes look, real area symbols, plain-lan",
-        "release_highlight": "",
-        "release_impact": "",
-        "release_checked_at": "2026-11-15",
+        "release_note": "Automated nightly build for e12f551 from nightly-next . Published commit: e12f551a44a688ba03832f5ed8932d7eceb19259 . Built at the commit whose cmux-tui tree is published (app and daemon from one commit); branch tip e12f551a44a688ba03832f5ed8932d7eceb19259 , 0 commits and 0 h behind it. cmux NIGHTLY ships for Apple silicon only (bundle ID com.cmuxterm.app.nightly ): Apple silicon: cmux-nightly-next-macos-arm64.dmg , feed appcast-arm64.xml PRs in this build #50396 NIGHTLY install check follow-ups: retryable is inconclusive, one held notice, no stuck pick, no canary on an older daemon #52368 iOS composer: a new line moves composer and transcript in one 150 ms motion #51862 keys: Linux hosts mint keys through the Mac's broker (safe keys) #51704 Bypass chats stop asking for subagent guards; approval card says what a call does #52279 cmux-terminal-projection: instant-perf bench, small vs god (",
+        "release_highlight": "nightly-next / cmux-rd-v0.2.9: demonio de escritorio remoto Linux v0.2.9 y compilaciones nightly continuas.",
+        "release_impact": "Sin cambio de score (78.27 A).",
+        "release_checked_at": "2026-11-23",
         "changelog_url": null,
-        "judged_day": "2026-11-13",
-        "rank": 15
-      },
-      {
-        "id": "cloudroom",
-        "slug": "cloudroom",
-        "name": "Cloudroom",
-        "repo": "https://github.com/davidondrej/cloudroom",
-        "website": "https://www.cloudroom.dev/",
-        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/cloudroom",
-        "category": "workspace",
-        "catLabel": "Workspace",
-        "license": null,
-        "licenseType": "Comercial",
-        "tagline": "Agentes cloud open source.",
-        "summary": "Workspace open source para correr agentes de código en la nube, con revisión de cambios y ejecución remota.",
-        "scores": {
-          "harnesses": 86,
-          "paralelo": 80,
-          "orquestacion": 70,
-          "revision": 78,
-          "remoto": 88,
-          "movil": 60,
-          "extensiones": 70,
-          "control": 70,
-          "abierto": 90,
-          "producto": 75
-        },
-        "total": 77.56,
-        "tier": "A",
-        "next_tier": "S",
-        "delta_next": 4.44,
-        "strengths": [
-          "Cloud open source",
-          "Revisión de cambios",
-          "Multi-harness"
-        ],
-        "weaknesses": [
-          "Sin móvil",
-          "Orquestación limitada",
-          "Menos maduro"
-        ],
-        "pricing": "free",
-        "priceNote": "Código abierto + tus modelos",
-        "execution": "Local · Cloud",
-        "platforms": [
-          "macOS",
-          "Windows",
-          "Linux",
-          "Web"
-        ],
-        "harnesses": [
-          "claude code",
-          "codex",
-          "gemini",
-          "opencode",
-          "cursor",
-          "amp",
-          "devin",
-          "copilot",
-          "grok"
-        ],
-        "features": [
-          {
-            "key": "harnesses",
-            "label": "Múltiples harnesses",
-            "on": true
-          },
-          {
-            "key": "paralelo",
-            "label": "Sesiones en paralelo",
-            "on": true
-          },
-          {
-            "key": "orquestacion",
-            "label": "Orquestación de agentes",
-            "on": true
-          },
-          {
-            "key": "revision",
-            "label": "Revisión / PRs",
-            "on": true
-          },
-          {
-            "key": "remoto",
-            "label": "SSH / remoto / cloud",
-            "on": true
-          },
-          {
-            "key": "movil",
-            "label": "Acceso móvil",
-            "on": false
-          },
-          {
-            "key": "extensiones",
-            "label": "MCP / skills / plugins",
-            "on": true
-          },
-          {
-            "key": "control",
-            "label": "Aprobaciones / control",
-            "on": true
-          },
-          {
-            "key": "abierto",
-            "label": "Open source / autoalojable",
-            "on": true
-          }
-        ],
-        "sources": [
-          {
-            "label": "Web oficial",
-            "url": "https://www.cloudroom.dev/",
-            "accessedAt": "2026-11-13"
-          },
-          {
-            "label": "Repositorio GitHub",
-            "url": "https://github.com/davidondrej/cloudroom",
-            "accessedAt": "2026-11-13"
-          },
-          {
-            "label": "README",
-            "url": "https://github.com/davidondrej/cloudroom#readme",
-            "accessedAt": "2026-11-13"
-          },
-          {
-            "label": "Dossier de investigación",
-            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/cloudroom",
-            "accessedAt": "2026-11-13"
-          }
-        ],
-        "last_release": "2026-11-15",
-        "last_release_tag": "gui-v154",
-        "last_release_url": "https://github.com/davidondrej/cloudroom/releases/tag/gui-v154",
-        "last_release_days": 0,
-        "releases_90": 10,
-        "releases_recent": [
-          {
-            "tag": "gui-v154",
-            "date": "2026-11-15",
-            "pre": false,
-            "url": "https://github.com/davidondrej/cloudroom/releases/tag/gui-v154"
-          },
-          {
-            "tag": "core-v0.1.111",
-            "date": "2026-11-15",
-            "pre": false,
-            "url": "https://github.com/davidondrej/cloudroom/releases/tag/core-v0.1.111"
-          },
-          {
-            "tag": "gui-v153",
-            "date": "2026-11-13",
-            "pre": false,
-            "url": "https://github.com/davidondrej/cloudroom/releases/tag/gui-v153"
-          },
-          {
-            "tag": "gui-v152",
-            "date": "2026-11-13",
-            "pre": false,
-            "url": "https://github.com/davidondrej/cloudroom/releases/tag/gui-v152"
-          },
-          {
-            "tag": "core-v0.1.110",
-            "date": "2026-11-13",
-            "pre": false,
-            "url": "https://github.com/davidondrej/cloudroom/releases/tag/core-v0.1.110"
-          },
-          {
-            "tag": "core-v0.1.109",
-            "date": "2026-11-13",
-            "pre": false,
-            "url": "https://github.com/davidondrej/cloudroom/releases/tag/core-v0.1.109"
-          }
-        ],
-        "release_status": "activo",
-        "release_source": "releases.atom",
-        "release_note": "Cloudroom v154 Archived threads restore cleanly. For Apple Silicon Macs on macOS 13 or later, Linux x64, and Windows x64. Changes The Archived threads page shows a Restored toast with an Open button, real totals, and a Retry when loading fails. Restoring a thread can bring back its subagent threads too. Self-hosters can connect their own Core right from setup, with no Cloudroom account. Keep Awake has three levels and is on by default, only while agents work. Thread notes now say what each thread is for, then where it stands. With two Macs, Cloud threads follow the Mac you are using. Selecting text in a draft shows a simple Copy button below it. Install or update macOS: Quit Cloudroom, download the DMG, open it, and drag Cloudroom into Applications. Your data is kept. Signed and notarized by Apple. Linux x64: For Ubuntu 24.04+ and current Arch Linux. chmod +x Cloudroom-v154-x86_64.AppIma",
-        "release_highlight": "",
-        "release_impact": "",
-        "release_checked_at": "2026-11-15",
-        "changelog_url": null,
-        "judged_day": "2026-11-13",
+        "judged_day": "2026-11-23",
         "rank": 16
       },
       {
@@ -3310,7 +3322,7 @@
           {
             "label": "Dossier de investigación",
             "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/codex-app",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           }
         ],
         "last_release": null,
@@ -3324,10 +3336,141 @@
         "release_note": "App cerrada de OpenAI. No tiene repositorio de releases propio; el changelog general de OpenAI no se usa como release del ADE.",
         "release_highlight": "",
         "release_impact": "",
-        "release_checked_at": "2026-11-15",
+        "release_checked_at": "2026-11-23",
         "changelog_url": "https://developers.openai.com/codex/app/",
-        "judged_day": "2026-11-13",
+        "judged_day": "2026-11-23",
         "rank": 17
+      },
+      {
+        "id": "maestri",
+        "slug": "maestri",
+        "name": "Maestri",
+        "repo": null,
+        "website": "https://themaestri.app/",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/maestri",
+        "category": "orchestrator",
+        "catLabel": "Orquestador",
+        "license": null,
+        "licenseType": "Comercial",
+        "tagline": "Un lienzo infinito para orquestar agentes.",
+        "summary": "Canvas visual donde cada agente tiene rol, terminal y contexto; ahora con Computer Use que pide permiso por app y control remoto mientras estás fuera.",
+        "scores": {
+          "harnesses": 84,
+          "paralelo": 80,
+          "orquestacion": 84,
+          "revision": 75,
+          "remoto": 72,
+          "movil": 78,
+          "extensiones": 55,
+          "control": 70,
+          "abierto": 40,
+          "producto": 77
+        },
+        "total": 73.68,
+        "tier": "A",
+        "next_tier": "S",
+        "delta_next": 8.32,
+        "strengths": [
+          "Canvas visual muy claro",
+          "Computer Use con aprobación por app",
+          "Control remoto desde Maestri Remote",
+          "Roles y flujos de agentes"
+        ],
+        "weaknesses": [
+          "Cerrado",
+          "Extensiones/MCP limitados",
+          "Computer Use depende de permisos y app por app"
+        ],
+        "pricing": "freemium",
+        "priceNote": "Free 1 workspace; Pro US$18",
+        "execution": "Local · SSH · Self-hosted",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux",
+          "iOS",
+          "Android"
+        ],
+        "harnesses": [
+          "claude code",
+          "codex",
+          "opencode",
+          "cursor"
+        ],
+        "features": [
+          {
+            "key": "harnesses",
+            "label": "Múltiples harnesses",
+            "on": true
+          },
+          {
+            "key": "paralelo",
+            "label": "Sesiones en paralelo",
+            "on": true
+          },
+          {
+            "key": "orquestacion",
+            "label": "Orquestación de agentes",
+            "on": true
+          },
+          {
+            "key": "revision",
+            "label": "Revisión / PRs",
+            "on": true
+          },
+          {
+            "key": "remoto",
+            "label": "SSH / remoto / cloud",
+            "on": true
+          },
+          {
+            "key": "movil",
+            "label": "Acceso móvil",
+            "on": true
+          },
+          {
+            "key": "extensiones",
+            "label": "MCP / skills / plugins",
+            "on": false
+          },
+          {
+            "key": "control",
+            "label": "Aprobaciones / control",
+            "on": true
+          },
+          {
+            "key": "abierto",
+            "label": "Open source / autoalojable",
+            "on": false
+          }
+        ],
+        "sources": [
+          {
+            "label": "Web oficial",
+            "url": "https://themaestri.app/",
+            "accessedAt": "2026-11-13"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/maestri",
+            "accessedAt": "2026-11-23"
+          }
+        ],
+        "last_release": "2026-11-23",
+        "last_release_tag": "0.61.0",
+        "last_release_url": "https://themaestri.app/en/changelog",
+        "last_release_days": 0,
+        "releases_90": null,
+        "releases_recent": [],
+        "release_status": "activo",
+        "release_source": "changelog",
+        "release_note": "0.61.0 November 23, 2026 New Questions in the chat: agents can now ask you a question with options to pick from. Click one and your answer lands in the Prompt Composer, quoting the question, ready for you to send. It works on other computers' terminals and in Maestri Remote too. Updated Inline code in notes now sits on a rounded background. More under-the-hood optimizations make panning, zooming and dragging on the canvas noticeably smoother, even on your busiest canvases. Stability and performance improvements. 0.60.0 November 18, 2026 New Spaces: organize your sidebar into spaces, each with its own icon and color, and switch between them in one click. A space can hold workspaces on this computer or on another computer you've connected over Maestri Wire, so everything you run lives in one sidebar. Remote Desktops: connect to Maestri on another computer on your network and work on its canvas as if it were your own, with its terminals, agents, notes, portals and file trees. Copy and paste between computers, files included. Agents across computers: rope agents together across computers, and ask, recruit or check a teammate on another computer by name, like \"Reviewer @ Build Box\". Ope",
+        "release_highlight": "0.61.0 (y 0.60.0): Spaces en el sidebar y preguntas interactivas con opciones en chat (también en terminales remotas y Maestri Remote).",
+        "release_impact": "Tier A (+0.38): Remoto 70→72 y Producto 74→77.",
+        "release_checked_at": "2026-11-23",
+        "changelog_url": "https://themaestri.app/en/changelog",
+        "judged_day": "2026-11-23",
+        "rank": 18
       },
       {
         "id": "tortie",
@@ -3338,8 +3481,8 @@
         "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/tortie",
         "category": "workspace",
         "catLabel": "Workspace",
-        "license": null,
-        "licenseType": "Comercial",
+        "license": "Apache-2.0",
+        "licenseType": "Open source",
         "tagline": "Una ventana para todos tus agentes.",
         "summary": "Workspace con múltiples agentes, multiplexación de sesiones, skills y companion para iPhone.",
         "scores": {
@@ -3435,30 +3578,36 @@
           {
             "label": "Web oficial",
             "url": "https://tortie.sh/",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Repositorio GitHub",
             "url": "https://github.com/gregce/tortie",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "README",
             "url": "https://github.com/gregce/tortie#readme",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Dossier de investigación",
             "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/tortie",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           }
         ],
-        "last_release": "2026-11-06",
-        "last_release_tag": "v0.114.1",
-        "last_release_url": "https://github.com/gregce/tortie/releases/tag/v0.114.1",
-        "last_release_days": 9,
+        "last_release": "2026-11-17",
+        "last_release_tag": "v0.115.0",
+        "last_release_url": "https://github.com/gregce/tortie/releases/tag/v0.115.0",
+        "last_release_days": 6,
         "releases_90": 10,
         "releases_recent": [
+          {
+            "tag": "v0.115.0",
+            "date": "2026-11-17",
+            "pre": false,
+            "url": "https://github.com/gregce/tortie/releases/tag/v0.115.0"
+          },
           {
             "tag": "v0.114.1",
             "date": "2026-11-06",
@@ -3488,153 +3637,16 @@
             "date": "2026-10-13",
             "pre": false,
             "url": "https://github.com/gregce/tortie/releases/tag/v0.111.2"
-          },
-          {
-            "tag": "v0.111.1",
-            "date": "2026-10-12",
-            "pre": false,
-            "url": "https://github.com/gregce/tortie/releases/tag/v0.111.1"
           }
         ],
-        "release_status": "reciente",
+        "release_status": "activo",
         "release_source": "releases.atom",
-        "release_note": "This release fixes an error 0.114.0 could show again and again when Tortie's session list stopped reading correctly while it ran. Tortie now says so once and offers a restart, and your sessions keep running. Fixed If Tortie's session list stops reading correctly while it runs, Tortie says so once and offers a restart, instead of an error every few seconds and a crash when you quit; your sessions keep running either way ( 5a6097ac )",
-        "release_highlight": "",
-        "release_impact": "",
-        "release_checked_at": "2026-11-15",
+        "release_note": "This release is about the terminal, after Jack Shaw's report in issue 44. A long agent reply no longer draws over itself, copying gives you what you see, and links an agent prints open in your browser. Words you type no longer turn a session amber, and starting a session or quitting Tortie now holds up when its session list goes bad. Fixed Scroll back to read while an agent on this Mac keeps printing, then scroll back down, and you now pass through everything it printed while you read instead of jumping past it to the bottom; getting back to the bottom takes as many lines as were printed, and typing still takes you there at once ( 99e0d298 ) Copying lines from the history of a busy session on this Mac, after dragging a selection past its edge, now puts exactly the lines you selected on the clipboard ( 99e0d298 ) A session you ended and then removed stays in Past Sessions, and no longer c",
+        "release_highlight": "v0.115.0: correcciones de renderizado/scrollback de terminal y estabilidad al arrancar sesiones.",
+        "release_impact": "Sin cambio de score (73.68 A).",
+        "release_checked_at": "2026-11-23",
         "changelog_url": null,
-        "judged_day": "2026-11-13",
-        "rank": 18
-      },
-      {
-        "id": "maestri",
-        "slug": "maestri",
-        "name": "Maestri",
-        "repo": null,
-        "website": "https://themaestri.app/",
-        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/maestri",
-        "category": "orchestrator",
-        "catLabel": "Orquestador",
-        "license": null,
-        "licenseType": "Comercial",
-        "tagline": "Un lienzo infinito para orquestar agentes.",
-        "summary": "Canvas visual donde cada agente tiene rol, terminal y contexto; ahora con Computer Use que pide permiso por app y control remoto mientras estás fuera.",
-        "scores": {
-          "harnesses": 84,
-          "paralelo": 80,
-          "orquestacion": 84,
-          "revision": 75,
-          "remoto": 70,
-          "movil": 78,
-          "extensiones": 55,
-          "control": 70,
-          "abierto": 40,
-          "producto": 74
-        },
-        "total": 73.3,
-        "tier": "A",
-        "next_tier": "S",
-        "delta_next": 8.7,
-        "strengths": [
-          "Canvas visual muy claro",
-          "Computer Use con aprobación por app",
-          "Control remoto desde Maestri Remote",
-          "Roles y flujos de agentes"
-        ],
-        "weaknesses": [
-          "Cerrado",
-          "Extensiones/MCP limitados",
-          "Computer Use depende de permisos y app por app"
-        ],
-        "pricing": "freemium",
-        "priceNote": "Free 1 workspace; Pro US$18",
-        "execution": "Local · SSH · Self-hosted",
-        "platforms": [
-          "macOS",
-          "Windows",
-          "Linux",
-          "iOS",
-          "Android"
-        ],
-        "harnesses": [
-          "claude code",
-          "codex",
-          "opencode",
-          "cursor"
-        ],
-        "features": [
-          {
-            "key": "harnesses",
-            "label": "Múltiples harnesses",
-            "on": true
-          },
-          {
-            "key": "paralelo",
-            "label": "Sesiones en paralelo",
-            "on": true
-          },
-          {
-            "key": "orquestacion",
-            "label": "Orquestación de agentes",
-            "on": true
-          },
-          {
-            "key": "revision",
-            "label": "Revisión / PRs",
-            "on": true
-          },
-          {
-            "key": "remoto",
-            "label": "SSH / remoto / cloud",
-            "on": true
-          },
-          {
-            "key": "movil",
-            "label": "Acceso móvil",
-            "on": true
-          },
-          {
-            "key": "extensiones",
-            "label": "MCP / skills / plugins",
-            "on": false
-          },
-          {
-            "key": "control",
-            "label": "Aprobaciones / control",
-            "on": true
-          },
-          {
-            "key": "abierto",
-            "label": "Open source / autoalojable",
-            "on": false
-          }
-        ],
-        "sources": [
-          {
-            "label": "Web oficial",
-            "url": "https://themaestri.app/",
-            "accessedAt": "2026-11-13"
-          },
-          {
-            "label": "Dossier de investigación",
-            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/maestri",
-            "accessedAt": "2026-11-13"
-          }
-        ],
-        "last_release": "2026-11-03",
-        "last_release_tag": "0.59.0",
-        "last_release_url": "https://themaestri.app/en/changelog",
-        "last_release_days": 12,
-        "releases_90": null,
-        "releases_recent": [],
-        "release_status": "reciente",
-        "release_source": "changelog",
-        "release_note": "0.59.0 November 3, 2026 New Computer Use: agents can read and use other apps on your computer in the background, without moving your pointer or taking your keyboard. They ask before using each app, and you can answer on your computer or from Maestri Remote. An agent can also ask to control the whole computer with your pointer and keyboard while you're away. Turn it on in Settings → Agents → Control. Updated Links in chat and notes use the surrounding text color with an underline, so they're easier to read. Bug Fixes Fixed jumping to a terminal or workspace with 1–9 on keyboard layouts whose number row doesn't type digits. Fixed F2 opening rename instead of reaching the program in a focused terminal. Point Releases 0.59.1 — November 4, 2026 Bug Fixes Fixed an issue where sometimes the chat would not respond to scroll while the terminal is lifted. 0.59.2 — November 5, 2026 Bug Fixes Fixed picking a terminal from the list not bringing it up while another terminal is lifted. Fixed clicking below a chat's last message deselecting the terminal. 0.59.3 — November 6, 2026 Touch support on the canvas, optimized for the new MacBook Pro with PROLED display. Chat terminals have a Clear Chat Hi",
-        "release_highlight": "0.59.0: Computer Use con aprobación por app y control remoto desde Maestri Remote.",
-        "release_impact": "Tier A (+2.12): Control 55→70 y Remoto 65→70; Computer Use y Remote lo justifican.",
-        "release_checked_at": "2026-11-15",
-        "changelog_url": "https://themaestri.app/en/changelog",
-        "judged_day": "2026-11-13",
+        "judged_day": "2026-11-23",
         "rank": 19
       },
       {
@@ -3646,8 +3658,8 @@
         "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/sidecar",
         "category": "terminal",
         "catLabel": "Terminal",
-        "license": null,
-        "licenseType": "Comercial",
+        "license": "MIT",
+        "licenseType": "Open source",
         "tagline": "Workspace de terminal para agentes.",
         "summary": "Terminal workspace para sesiones de agentes, hosts remotos y entrega con Git; broadcasting de agentes detrás de un flag.",
         "scores": {
@@ -3744,28 +3756,28 @@
           {
             "label": "Web oficial",
             "url": "https://sidecar.haplab.com/",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Repositorio GitHub",
             "url": "https://github.com/marcus/sidecar",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "README",
             "url": "https://github.com/marcus/sidecar#readme",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Dossier de investigación",
             "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/sidecar",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           }
         ],
         "last_release": "2026-10-08",
         "last_release_tag": "v1.17.1",
         "last_release_url": "https://github.com/marcus/sidecar/releases/tag/v1.17.1",
-        "last_release_days": 38,
+        "last_release_days": 46,
         "releases_90": 10,
         "releases_recent": [
           {
@@ -3810,9 +3822,9 @@
         "release_note": "Changelog e25b0c9 fix(api): keep Tailnet access across service reinstalls with api.tailnet (td-accec4) cbac413 fix(api): service install waits for the started job before reporting (td-accec4) 2a2978a release: prepare v1.17.1",
         "release_highlight": "",
         "release_impact": "",
-        "release_checked_at": "2026-11-15",
+        "release_checked_at": "2026-11-23",
         "changelog_url": null,
-        "judged_day": "2026-11-13",
+        "judged_day": "2026-11-23",
         "rank": 20
       },
       {
@@ -3824,8 +3836,8 @@
         "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/herdr",
         "category": "terminal",
         "catLabel": "Terminal",
-        "license": null,
-        "licenseType": "Comercial",
+        "license": "Apache-2.0",
+        "licenseType": "Open source",
         "tagline": "Terminales de agentes que sobreviven.",
         "summary": "ADE de terminal para mantener agentes de código juntos en local y SSH; las terminales sobreviven desconexiones y restauran layout.",
         "scores": {
@@ -3917,30 +3929,42 @@
           {
             "label": "Web oficial",
             "url": "https://herdr.dev/",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Repositorio GitHub",
             "url": "https://github.com/herdrdev/herdr-app",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "README",
             "url": "https://github.com/herdrdev/herdr-app#readme",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Dossier de investigación",
             "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/herdr",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           }
         ],
-        "last_release": "2026-11-10",
-        "last_release_tag": "v0.1.15",
-        "last_release_url": "https://github.com/herdrdev/herdr-app/releases/tag/v0.1.15",
-        "last_release_days": 5,
+        "last_release": "2026-11-22",
+        "last_release_tag": "v0.1.17",
+        "last_release_url": "https://github.com/herdrdev/herdr-app/releases/tag/v0.1.17",
+        "last_release_days": 1,
         "releases_90": 10,
         "releases_recent": [
+          {
+            "tag": "v0.1.17",
+            "date": "2026-11-22",
+            "pre": false,
+            "url": "https://github.com/herdrdev/herdr-app/releases/tag/v0.1.17"
+          },
+          {
+            "tag": "v0.1.16",
+            "date": "2026-11-14",
+            "pre": false,
+            "url": "https://github.com/herdrdev/herdr-app/releases/tag/v0.1.16"
+          },
           {
             "tag": "v0.1.15",
             "date": "2026-11-10",
@@ -3964,28 +3988,16 @@
             "date": "2026-11-02",
             "pre": false,
             "url": "https://github.com/herdrdev/herdr-app/releases/tag/v0.1.12"
-          },
-          {
-            "tag": "v0.1.11",
-            "date": "2026-10-31",
-            "pre": false,
-            "url": "https://github.com/herdrdev/herdr-app/releases/tag/v0.1.11"
-          },
-          {
-            "tag": "v0.1.10",
-            "date": "2026-10-30",
-            "pre": false,
-            "url": "https://github.com/herdrdev/herdr-app/releases/tag/v0.1.10"
           }
         ],
         "release_status": "activo",
         "release_source": "releases.atom",
-        "release_note": "chore: release 0.1.15",
-        "release_highlight": "",
-        "release_impact": "",
-        "release_checked_at": "2026-11-15",
+        "release_note": "docs: 0.1.17 notes in plain words",
+        "release_highlight": "v0.1.17: lanzamientos de mantenimiento v0.1.16–v0.1.17.",
+        "release_impact": "Sin cambio de score (72.22 A).",
+        "release_checked_at": "2026-11-23",
         "changelog_url": null,
-        "judged_day": "2026-11-13",
+        "judged_day": "2026-11-23",
         "rank": 21
       },
       {
@@ -4101,23 +4113,23 @@
           {
             "label": "Dossier de investigación",
             "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/solo",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           }
         ],
-        "last_release": "2026-10-31",
-        "last_release_tag": "v0.12.4",
+        "last_release": "2026-11-16",
+        "last_release_tag": "v0.12.5",
         "last_release_url": "https://soloterm.com/changelog",
-        "last_release_days": 15,
+        "last_release_days": 7,
         "releases_90": null,
         "releases_recent": [],
-        "release_status": "reciente",
+        "release_status": "activo",
         "release_source": "changelog",
-        "release_note": "v0.12.4 Released on October 31, 2026 TL;DR Stopping a command now lets it shut down cleanly. On macOS and Linux, Solo asks it to exit the way Ctrl+C would and escalates only if it keeps running. On Windows, Solo sends Ctrl+C and force-stops only after about 3 seconds. Child processes are stopped too, and a project whose folder is missing at startup is kept instead of removed. Timer and MCP messages to agents are much more dependable. They no longer get stuck unsubmitted in a prompt, never answer a permission prompt or question for you, and typing into an agent mid-delivery no longer locks its terminal. Resume also follows Claude Code's /clear and /resume , and Codex's -C . MCP gives you control over who can type into a process. Each process has an \"Incoming MCP input\" setting and keeps a log of the input it received, and agents can tell MCP input from your typing. spawn_agent also takes a working directory and a first prompt. A project's name now stays in sync with its solo.yml , and adding a git worktree of a project you already have links it to that project instead of creating a new one. Shortcuts changed: Cmd/Ctrl+1–9 switch between sessions across the whole workspace. On new in",
-        "release_highlight": "",
-        "release_impact": "",
-        "release_checked_at": "2026-11-15",
+        "release_note": "v0.12.5 Released on November 16, 2026 Fixed Terminal On macOS, typing an accent with a dead key, such as ´ then A on a Latin American layout, types the accented letter once. In 0.12.4 it was followed by a second, unaccented letter ( áa , ÁA ). Security Updated openssl to 0.10.80, which fixes RUSTSEC-2026-0463 and RUSTSEC-2026-0473 through RUSTSEC-2026-0479. Only Linux builds use OpenSSL, for HTTPS requests. Updated actix-web to 4.18.2 and actix-http to 3.20.3, which fix RUSTSEC-2026-0446, RUSTSEC-2026-0447, RUSTSEC-2026-0448 and RUSTSEC-2026-0455. v0.12.4 Released on October 31, 2026 TL;DR Stopping a command now lets it shut down cleanly. On macOS and Linux, Solo asks it to exit the way Ctrl+C would and escalates only if it keeps running. On Windows, Solo sends Ctrl+C and force-stops only after about 3 seconds. Child processes are stopped too, and a project whose folder is missing at startup is kept instead of removed. Timer and MCP messages to agents are much more dependable. They no longer get stuck unsubmitted in a prompt, never answer a permission prompt or question for you, and typing into an agent mid-delivery no longer locks its terminal. Resume also follows Claude Code's /c",
+        "release_highlight": "v0.12.5: corrección de teclas muertas/acentos en macOS y actualización de seguridad OpenSSL.",
+        "release_impact": "Sin cambio de score (72.20 A).",
+        "release_checked_at": "2026-11-23",
         "changelog_url": "https://soloterm.com/changelog",
-        "judged_day": "2026-11-13",
+        "judged_day": "2026-11-23",
         "rank": 22
       },
       {
@@ -4129,8 +4141,8 @@
         "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/agent-teams-ai",
         "category": "orchestrator",
         "catLabel": "Orquestador",
-        "license": null,
-        "licenseType": "Comercial",
+        "license": "AGPL-3.0",
+        "licenseType": "Open source",
         "tagline": "Tus agentes, como un equipo con roles.",
         "summary": "App de escritorio para correr agentes como equipo alrededor de un tablero: un líder delega, los agentes se mensajean y tú revisas.",
         "scores": {
@@ -4228,28 +4240,28 @@
           {
             "label": "Web oficial",
             "url": "https://agentteams.live/",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Repositorio GitHub",
             "url": "https://github.com/777genius/agent-teams-ai",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "README",
             "url": "https://github.com/777genius/agent-teams-ai#readme",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Dossier de investigación",
             "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/agent-teams-ai",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           }
         ],
         "last_release": "2026-11-11",
         "last_release_tag": "v2.18.7",
         "last_release_url": "https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.7",
-        "last_release_days": 4,
+        "last_release_days": 12,
         "releases_90": 10,
         "releases_recent": [
           {
@@ -4289,14 +4301,14 @@
             "url": "https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.2"
           }
         ],
-        "release_status": "activo",
+        "release_status": "reciente",
         "release_source": "releases.atom",
         "release_note": "Simplified the Dashboard and improved team creation and launch. Added a tasks table, built-in Git, improved schedules, and fixed OpenCode teammates sometimes not replying. Customize local fonts, text size, app scaling, and portable JSON themes. Simplified the Team screen. What's New Create teams from the Teams page; confirm templates before replacing an edited setup. Sort tasks in a live table with selectable, resizable columns. Schedule one agent or a whole team, with optional linked board tasks and avatar-based member selection. Built-in Git handles app diffs, worktrees, and cloning without a separate Git installation. Use OpenCode 2.x on Intel Macs. Choose local UI fonts, text size, whole-app scaling, and portable JSON themes. Improvements Manage providers in Settings and refresh their models directly from the model selector. Search time zones, preview scheduled runs, and open linked ",
         "release_highlight": "",
         "release_impact": "",
-        "release_checked_at": "2026-11-15",
+        "release_checked_at": "2026-11-23",
         "changelog_url": null,
-        "judged_day": "2026-11-13",
+        "judged_day": "2026-11-23",
         "rank": 23
       },
       {
@@ -4308,8 +4320,8 @@
         "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/waku",
         "category": "workspace",
         "catLabel": "Workspace",
-        "license": null,
-        "licenseType": "Comercial",
+        "license": "GPL-3.0",
+        "licenseType": "Open source",
         "tagline": "Una app nativa para todos tus agentes.",
         "summary": "App nativa para manejar sesiones de agentes de código, contexto, skills y aprobaciones desde macOS.",
         "scores": {
@@ -4403,29 +4415,29 @@
           {
             "label": "Web oficial",
             "url": "https://waku.sh/",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Repositorio GitHub",
             "url": "https://github.com/egoist/waku",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "README",
             "url": "https://github.com/egoist/waku#readme",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           },
           {
             "label": "Dossier de investigación",
             "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/ades/waku",
-            "accessedAt": "2026-11-13"
+            "accessedAt": "2026-11-23"
           }
         ],
         "last_release": "2026-10-02",
         "last_release_tag": "v0.1.20",
         "last_release_url": "https://github.com/egoist/waku/releases/tag/v0.1.20",
-        "last_release_days": 44,
-        "releases_90": 10,
+        "last_release_days": 52,
+        "releases_90": 5,
         "releases_recent": [
           {
             "tag": "v0.1.20",
@@ -4469,9 +4481,9 @@
         "release_note": "Support the OpenCode 2.0 release, which now installs as opencode : OpenCode runs on its shared background service, OpenCode 2 beta and OpenCode 1 tasks continue as OpenCode tasks, and OpenCode's free models work in Waku tasks Fix rewinding or branching an OpenCode task after steering it mid-turn, which forked OpenCode's conversation at the wrong turn Fix OpenCode tasks going silent when the OpenCode service restarts; a turn it interrupted now continues in place once the service is back Fix Cursor model discovery and options so the pickers list every model the Cursor CLI advertises, with its reasoning effort, fast mode, and context window Show the release version in Claude model names, such as Opus 4.6 (1M context), in the model picker and composer Make the project picker searchable and scrollable, keeping long project lists reachable with the new-project and no-project actions pinned bel",
         "release_highlight": "",
         "release_impact": "",
-        "release_checked_at": "2026-11-15",
+        "release_checked_at": "2026-11-23",
         "changelog_url": null,
-        "judged_day": "2026-11-13",
+        "judged_day": "2026-11-23",
         "rank": 24
       }
     ]

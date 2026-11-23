@@ -4,9 +4,9 @@
 - **Web oficial**: https://mercuryagent.sh/
 - **Licencia**: MIT
 - **Lenguaje**: TypeScript
-- **Estrellas**: 3898 · **Forks**: 397
-- **Último push**: 2026-11-12T07:21:12Z · **Última release**: 2026-11-14
-- **Revisado**: 2026-11-12 · **Confianza**: 74/100
+- **Estrellas**: 4066 · **Forks**: 416
+- **Último push**: 2026-11-23T09:01:12Z · **Última release**: 2026-11-22
+- **Revisado**: 2026-11-23 · **Confianza**: 74/100
 - **Tipo**: agent · **Categoría**: teams
 
 ## Qué es
@@ -21,12 +21,16 @@ README: memoria en SQLite, scheduler, bots persistentes con especialistas, aprob
 
 ## Release revisada
 
-- **Tag**: [optimus-v0.5.2](https://github.com/cosmicstack-labs/mercury-agent/releases/tag/optimus-v0.5.2)
-- **Fecha**: 2026-11-14 (hace 1 días)
+- **Tag**: [v1.5.5](https://github.com/cosmicstack-labs/mercury-agent/releases/tag/v1.5.5)
+- **Fecha**: 2026-11-22 (hace 1 días)
 - **Estado**: activo · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
-> Plugin-only update. Install or update with /plugins update optimus , or Plugins → Optimus → Update in Mercury Desktop. Works with Mercury 1.3.9 and newer; screenshot sizing per model needs Mercury 1.5.2. Screenshots sized for the model in use. Optimus resizes each capture to what the model reads best: Claude and OpenAI 1024×640, Gemini 768×480, open vision models 896×560. Click coordinates stay exact. No screenshot for models that can't see images. Optimus says which window is in front instead of sending a picture the model can't read.
+**Qué trae**: v1.5.5 (y v1.5.3–v1.5.4): apps móviles iOS/Android con llamadas de voz en ~2s, Google Workspace en un comando, defensa anti-prompt-injection, tokens de dispositivo y escalado humano multicanal.
+
+**Impacto en la ficha**: Sube a 82.40 S (+1.70): Capacidad 74→78, Confianza 90→92 y Producto 67→73 por móvil/voz, Google Workspace y seguridad.
+
+> ☿ Mercury Agent v1.5.5 Devices sign in with a device token, Mercury asks you for what only you can do, and bots use fewer tokens. Devices sign in with a device token Password sign-in from other devices is now off by default. To connect a phone, Mercury Desktop or a browser on another computer, make a token on the computer Mercury runs on: /server token (or mercury devices add ), and paste it in. Devices already signed in keep working. Turn password sign-in back on with /server password on . /server is easier: add allowed addresses by typing them, copying a token closes the token screen, and in Mercury Desktop /server opens its own Remote access window. Mercury asks you for what only you can 
 
 ## Evidencia de la investigación
 
@@ -52,22 +56,23 @@ README: memoria en SQLite, scheduler, bots persistentes con especialistas, aprob
 
 ### ✅ Aprobaciones
   - “It asks before it acts. File access is scoped per folder, shell commands pass through a blocklist and an approval step.” — https://github.com/cosmicstack-labs/mercury-agent#readme
+  - “Sends, shares, uploads and deletes always ask you , even under Allow All. They're refused in scheduled tasks and for bots.” — https://github.com/cosmicstack-labs/mercury-agent/releases/tag/v1.5.3
 
 ### ✅ Desatendido
   - “The runtime runs as a login service (LaunchAgent on macOS, systemd on Linux, Task Scheduler on Windows) and restarts itself after a crash.” — https://github.com/cosmicstack-labs/mercury-agent#readme
 
 ## Puntuación
 
-Grok Score: **80.7** · Tier **S** · ADN **86**
+Grok Score: **82.4** · Tier **S** · ADN **86**
 
-- **capacidad**: 74/100
+- **capacidad**: 78/100
 - **autonomia**: 78/100
 - **computadora**: 79/100
 - **memoria**: 90/100
 - **rutinas**: 90/100
 - **equipo**: 90/100
-- **confianza**: 90/100
-- **producto**: 67/100
+- **confianza**: 92/100
+- **producto**: 73/100
 
 ## Fortalezas
 
@@ -87,10 +92,10 @@ Se acerca a Open Interpreter y agentes personales locales, pero está lejos de G
 
 ## Fuentes consultadas
 
-- [Repositorio GitHub](https://github.com/cosmicstack-labs/mercury-agent) · consultado 2026-11-12
-- [Web oficial](https://mercuryagent.sh/) · consultado 2026-11-12
-- [README](https://github.com/cosmicstack-labs/mercury-agent#readme) · consultado 2026-11-12
-- [Releases](https://github.com/cosmicstack-labs/mercury-agent/releases) · consultado 2026-11-12
+- [Repositorio GitHub](https://github.com/cosmicstack-labs/mercury-agent) · consultado 2026-11-23
+- [Web oficial](https://mercuryagent.sh/) · consultado 2026-11-23
+- [README](https://github.com/cosmicstack-labs/mercury-agent#readme) · consultado 2026-11-23
+- [Releases](https://github.com/cosmicstack-labs/mercury-agent/releases) · consultado 2026-11-23
 
 ---
 

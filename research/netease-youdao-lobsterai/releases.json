@@ -1,8 +1,24 @@
 {
   "repo": "netease-youdao/LobsterAI",
   "source": "releases.atom",
-  "checked_at": "2026-11-15",
+  "checked_at": "2026-11-23",
   "entries": [
+    {
+      "tag": "2026.11.20",
+      "title": "LobsterAI 2026.11.20",
+      "date": "2026-11-21",
+      "url": "https://github.com/netease-youdao/LobsterAI/releases/tag/2026.11.20",
+      "pre": false,
+      "note": "Highlights 🎨 Guided PPT cover creation — a new step-by-step cover wizard, plus configurable homepage examples to get you started faster ( #3072 , #3129 ). ⏪ Session navigation &amp; prompt history — move back and forward between sessions and recall previous prompts with ease ( #3107 ). 🔍 Window zoom — zoom the main window in and out, with a clear on-screen indicator ( #3106 ). 🚀 New Features PPT: Configurable homepage examples and a guided cover-creation flow ( #3072 ) @btc69m979y-dotcom PPT: Smoother home quick actions and wizard navigation ( #3129 ) @fisherdaddy Sessions: Back/forward navigation and prompt history recall ( #3107 ) @fisherdaddy Window: Main-window zoom with a zoom-level indicator ( #3106 ) @fisherdaddy Models: Server-configured custom tags in the model selector, with localization support ( #3110 , #3115 ) @Mind-Hand Account menu: Server-configured \"More\" links ( #311"
+    },
+    {
+      "tag": "2026.11.16",
+      "title": "LobsterAI 2026.11.16",
+      "date": "2026-11-16",
+      "url": "https://github.com/netease-youdao/LobsterAI/releases/tag/2026.11.16",
+      "pre": false,
+      "note": "What's Changed This release brings message editing with version history, inline read-aloud, full-text task search, and selectable context windows up to 1M tokens — plus a faster startup and a smoother desktop companion experience. ✨ Highlights Edit your messages, switch between versions. Rework any prompt and browse alternate versions of a turn, including turns the gateway never recorded. ( #3051 , #3086 ) Read replies aloud. Completed replies now have an inline read-aloud control. ( #3045 ) Search across your tasks. Find conversations by content with the new task search. ( #3073 ) Context windows up to 1M tokens. Explicitly choose the context window for supported models. ( #3059 ) Expert Plaza is live. Discover and summon experts from the new entry points. ( #3032 ) Faster startup. Large tool catalogs are deferred behind Tool Search, and gateway startup was trimmed. ( #3029 , #3066 ) 🚀"
+    },
     {
       "tag": "2026.11.6",
       "title": "LobsterAI 2026.11.6",
@@ -66,22 +82,6 @@
       "url": "https://github.com/netease-youdao/LobsterAI/releases/tag/2026.9.20",
       "pre": false,
       "note": "What’s Changed feat: subagent session visibility by @fisherdaddy in #2703 feat(browser): add passkey/WebAuthn support for the in-app agent browser by @fisherdaddy in #2723 feat: scheduled task weixin delivery receipt by @fisherdaddy in #2717 fix(scheduled-task): preserve Weixin target casing and explain resend rejection by @fisherdaddy in #2722 fix: weixin qq qr login channel routing by @fisherdaddy in #2718 fix: openclaw workspace setup recovery by @fisherdaddy in #2702 fix(openclaw): harden startup recovery and Feishu secret routing by @btc69m979y-dotcom in #2701 fix(openclaw): initialize legacy v1 state schema before repair verification by @fisherdaddy in #2700 feat(subscription): add one-cent trial and low-credit purchase offers by @Mind-Hand in #2720 refactor(cowork): remove background jobs feature by @fisherdaddy in #2724 Release/2026.9.18 by @liuzhq1986 in #2715 Release/2026.9.18 "
-    },
-    {
-      "tag": "2026.9.17",
-      "title": "LobsterAI 2026.9.17",
-      "date": "2026-09-20",
-      "url": "https://github.com/netease-youdao/LobsterAI/releases/tag/2026.9.17",
-      "pre": false,
-      "note": "What’s Changed feat(openclaw): migrate shared state schema before startup repair by @fisherdaddy in #2689 feat(openclaw): add repair snapshot rollback and agent media migration handling by @fisherdaddy in #2690 fix(openclaw): safely recover stale gateway lock owners by @btc69m979y-dotcom in #2698 fix(openclaw): guard IM workloads and observe config recovery by @btc69m979y-dotcom in #2694 fix(openclaw): prevent browser DNS failures from restarting gateway by @btc69m979y-dotcom in #2695 fix(openclaw): restore native Feishu plugin loading by @btc69m979y-dotcom in #2691 fix(main): make app quit hide windows immediately and stop skill services faster by @fisherdaddy in #2693 fix(auth): bypass LobsterAI proxy credential cooldowns by @Mind-Hand in #2688 Pr 2692 by @fisherdaddy in #2697 Release/2026.9.16 by @liuzhq1986 in #2699 Full Changelog: https://github.com/netease-youdao/LobsterAI/compare/"
-    },
-    {
-      "tag": "2026.9.15",
-      "title": "LobsterAI 2026.9.15",
-      "date": "2026-09-20",
-      "url": "https://github.com/netease-youdao/LobsterAI/releases/tag/2026.9.15",
-      "pre": false,
-      "note": "What’s Changed feat: openclaw compatibility repair by @fisherdaddy in #2683 feat(openclaw): migrate xAI auth credentials to canonical SQLite store by @fisherdaddy in #2675 fix(openclaw): recover scoped gateway startup compatibility failures by @btc69m979y-dotcom in #2676 fix(openclaw): recover invalid legacy dreaming state at startup by @btc69m979y-dotcom in #2681 fix(openclaw): preserve patched workspace runtime dependencies by @btc69m979y-dotcom in #2685 fix(openclaw): resolve plan-mode safety recovery race conditions by @fisherdaddy in #2674 fix(openclaw): prevent heuristic output budget starvation by @btc69m979y-dotcom in #2684 fix(openclaw): preserve compaction summary format and audit facts by @btc69m979y-dotcom in #2678 fix(openclaw): validate historical transcript replay by @btc69m979y-dotcom in #2682 fix(openclaw): avoid POPO SDK loading races by @btc69m979y-dotcom in #2664 feat"
     }
   ]
 }

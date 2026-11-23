@@ -4,9 +4,9 @@
 - **Web oficial**: —
 - **Licencia**: AGPL-3.0
 - **Lenguaje**: TypeScript
-- **Estrellas**: 292 · **Forks**: 25
-- **Último push**: 2026-11-11T08:58:11Z · **Última release**: 2026-11-06
-- **Revisado**: 2026-11-12 · **Confianza**: 55/100
+- **Estrellas**: 725 · **Forks**: 90
+- **Último push**: 2026-11-23T18:58:25Z · **Última release**: 2026-11-18
+- **Revisado**: 2026-11-23 · **Confianza**: 55/100
 - **Tipo**: agent · **Categoría**: teams
 
 ## Qué es
@@ -17,16 +17,20 @@ Equipo de agentes de IA que corre en tu propia máquina, trabaja con las suscrip
 
 ## Nota de verificación
 
-Revisión previa + README: equipo de agentes que corre en tu máquina y trabaja con tus suscripciones CLI; aprobaciones y trabajo desatendido.
+Revisión v0.1.8–v0.1.9 y README actual: navegador aislado por misión con grabaciones/skills y pausa humana en pagos/captchas, memoria entre misiones, cron/webhooks/series nocturnas, soporte Google Antigravity (agy) con tarjetas Allow/Deny y servicio en Windows/macOS/Linux. Proyecto pequeño todavía.
 
 ## Release revisada
 
-- **Tag**: [v0.1.7](https://github.com/ai-timon/timon/releases/tag/v0.1.7)
-- **Fecha**: 2026-11-06 (hace 9 días)
-- **Estado**: reciente · **Releases en 90 días**: 1
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Tag**: [v0.1.9](https://github.com/ai-timon/timon/releases/tag/v0.1.9)
+- **Fecha**: 2026-11-18 (hace 5 días)
+- **Estado**: activo · **Releases en 90 días**: 3
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
-> Added Plugins can draw their menu entry with the product's own ( NavLink from @timon/ui ), so it folds with the side menu instead of squeezing its label into it. When accounts beyond the first superadmin are suspended (no pro licence, or no Multi-user plugin), the superadmin gets a card saying why; their data are kept. Signed plugins can now manage a team's accounts: add accounts and open their sessions ( accounts:provision ), say which rights each account holds ( accounts:permissions-source ), and serve pages without a session such as an invitation ( http:public ). The account provider also reads and updates the accounts it serves, writes the audit log, and reads the catalogue of rights a r
+**Qué trae**: v0.1.9 (y v0.1.8): soporte Google Antigravity (agy) con tarjetas Allow/Deny, grabaciones de navegador con pausa humana, actualizaciones in-app, modo Free sin licencia y mejoras en Windows.
+
+**Impacto en la ficha**: Sube a Tier A (+13.65, ADN 42→100): Computadora, Memoria, Rutinas y Apps pasan a ON; Producto 29→46 (sigue siendo proyecto joven).
+
+> Highlights A new version now shows as a card at the bottom left, and Update installs it without leaving Timon. Without a licence Timon is simply Free, and a briefly unreachable licensing service no longer shows anything. Errors and Timon's own messages now read in your language. New Settings › System › Privacy: mission history is cleaned after 180 days, and usage statistics turn off in one click. Windows: many fixes to updates, the background service, worktrees and exports. Added On Linux, when you refuse the approval screen of an AppImage the app updated itself, Go back to x.y.z puts the previous version back and opens it. A task created from the board or by a raw API call can be attached t
 
 ## Evidencia de la investigación
 
@@ -35,18 +39,21 @@ Revisión previa + README: equipo de agentes que corre en tu máquina y trabaja 
   - “The **orchestrator** splits the job into tasks and hands each one to the right agent: one codes, another reviews with a different model, a third merges.” — https://github.com/ai-timon/timon#readme
   - “Once it is running, check that everything is in place: ```bash timon doctor # checks the service, the backends and the paths timon backends # lists the agent CLIs Timon found ``` That's it: open Timon and say hi to your orchestrator.” — https://github.com/ai-timon/timon#readme
 
-### ❌ Computadora propia
+### ✅ Computadora propia
   - “**From source.** Clone this repository and follow [GETTING-STARTED.md](GETTING-STARTED.md): the daemon and the web app run on all three systems without the desktop app.” — https://github.com/ai-timon/timon#readme
   - “🎉 On a server without a screen, install the background service from the terminal: ```bash timon service install --dry-run # shows what will be installed timon service install ``` The [installation guide](https://docs.timon-ai.com/installation/overview) covers each system, remote access from your phone, updates and troubleshooting.” — https://github.com/ai-timon/timon#readme
+  - “A built-in browser: isolated per mission, with annotations and recordings.” — https://github.com/ai-timon/timon#readme
 
-### ❌ Memoria
+### ✅ Memoria
   - “Every agent has a role, its own skills and a memory that follows it from mission to mission.” — https://github.com/ai-timon/timon#readme
+  - “Memory that reaches the agent: a rule learned once is injected into the next mission.” — https://github.com/ai-timon/timon#readme
 
-### ❌ Rutinas
-  - Sin evidencia directa en el README/web revisada.
+### ✅ Rutinas
+  - “Routines, cron and webhook triggers, overnight series paced to your quotas.” — https://github.com/ai-timon/timon#readme
 
-### ❌ Apps reales
+### ✅ Apps reales
   - “- Questions, plugins and show-and-tell go to [Discord](https://discord.gg/ZQGARNcpZ3).” — https://github.com/ai-timon/timon#readme
+  - “A browser recording now shows a manual step when you act inside an embedded frame (a payment form, a captcha, a sign-in widget), and the learned skill pauses there and asks you to do that part yourself.” — https://github.com/ai-timon/timon/releases/tag/v0.1.9
 
 ### ✅ Coordinación
   - Sin evidencia directa en el README/web revisada.
@@ -61,16 +68,16 @@ Revisión previa + README: equipo de agentes que corre en tu máquina y trabaja 
 
 ## Puntuación
 
-Grok Score: **59.05** · Tier **C** · ADN **42**
+Grok Score: **72.7** · Tier **A** · ADN **100**
 
-- **capacidad**: 55/100
-- **autonomia**: 58/100
-- **computadora**: 55/100
-- **memoria**: 60/100
-- **rutinas**: 55/100
+- **capacidad**: 68/100
+- **autonomia**: 68/100
+- **computadora**: 72/100
+- **memoria**: 82/100
+- **rutinas**: 84/100
 - **equipo**: 90/100
 - **confianza**: 90/100
-- **producto**: 29/100
+- **producto**: 46/100
 
 ## Fortalezas
 
@@ -80,9 +87,9 @@ Grok Score: **59.05** · Tier **C** · ADN **42**
 
 ## Lo que le falta / riesgos
 
-- Creado el mismo día del análisis: cero historial, cero releases verificables y 292 estrellas
-- Sin evidencia de tests, casos reales ni estabilidad; todo son promesas del README
-- Depende de los CLI de terceros y de sus cuotas, en un espacio de 'agent team local' ya saturado
+- Proyecto joven (725 estrellas) con historial corto frente a alternativas consolidadas
+- Depende de suscripciones/CLIs de terceros (Claude, Antigravity, etc.) y sus cuotas
+- Ecosistema de plugins todavía pequeño
 
 ## Comparación con el listón
 
@@ -90,9 +97,9 @@ Apunta al patrón correcto de 2026, pero hoy es solo una promesa sin historial f
 
 ## Fuentes consultadas
 
-- [Repositorio GitHub](https://github.com/ai-timon/timon) · consultado 2026-11-12
-- [README](https://github.com/ai-timon/timon#readme) · consultado 2026-11-12
-- [Releases](https://github.com/ai-timon/timon/releases) · consultado 2026-11-12
+- [Repositorio GitHub](https://github.com/ai-timon/timon) · consultado 2026-11-23
+- [README](https://github.com/ai-timon/timon#readme) · consultado 2026-11-23
+- [Releases](https://github.com/ai-timon/timon/releases) · consultado 2026-11-23
 
 ---
 

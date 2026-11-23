@@ -1,87 +1,87 @@
 {
-  "repo": "paradevai/paradev",
+  "repo": "ParadevAI/Paradev",
   "source": "releases.atom",
-  "checked_at": "2026-11-15",
+  "checked_at": "2026-11-23",
   "entries": [
     {
       "tag": "desktop-canary",
       "title": "Paradev Desktop Canary",
-      "date": "2026-11-15",
+      "date": "2026-11-23",
       "url": "https://github.com/ParadevAI/Paradev/releases/tag/desktop-canary",
       "pre": true,
-      "note": "Internal Testing Build This is an automated canary build from main branch. Commit: 7ae3dc9 Short SHA: 7ae3dc9 Built: 2026-11-15T02:32:51Z ⚠️ This build is for internal testing only and may be unstable."
+      "note": "Internal Testing Build This is an automated canary build from main branch. Commit: 17bbe65 Short SHA: 17bbe65 Built: 2026-11-23T12:07:53Z ⚠️ This build is for internal testing only and may be unstable."
     },
     {
-      "tag": "desktop-v2.0.9",
-      "title": "desktop-v2.0.9",
-      "date": "2026-11-12",
-      "url": "https://github.com/ParadevAI/Paradev/releases/tag/desktop-v2.0.9",
-      "pre": false,
-      "note": "chore(desktop): bump version to 2.0.9 (host-service 2.0.8 -> 2.0.9, c…"
-    },
-    {
-      "tag": "ahrefs@1.0.0",
-      "title": "ahrefs@1.0.0: feat(plugins): add Ahrefs MCP plugin (#9674)",
-      "date": "2026-11-12",
-      "url": "https://github.com/ParadevAI/Paradev/releases/tag/ahrefs%401.0.0",
-      "pre": false,
-      "note": "feat(plugins): add Ahrefs MCP plugin Ahrefs hosts a remote MCP server at https://api.ahrefs.com/mcp/mcp with OAuth (dynamic client registration, PKCE, scope apiv3-mcp). Add it as a first-party plugin with an ahrefs_mcp connector. Ahrefs exposes no account or user id in its token response or API, so the connector keys the connection on the granted scope: one Ahrefs connection per user per organization. Ahrefs issues no refresh token; access tokens last a year. fix(plugins): key Ahrefs identity on token_type RFC 6749 lets a token endpoint omit scope but requires token_type, so a missing scope can no longer fail every connect. Document that a user can connect one Ahrefs workspace at a time. Co-authored-by: Harshith Mullapudi 17528887+harshithmullapudi@users.noreply.github.com"
-    },
-    {
-      "tag": "desktop-v2.0.8",
-      "title": "Paradev Desktop desktop-v2.0.8",
-      "date": "2026-11-10",
-      "url": "https://github.com/ParadevAI/Paradev/releases/tag/desktop-v2.0.8",
+      "tag": "desktop-v2.0.11",
+      "title": "Paradev Desktop desktop-v2.0.11",
+      "date": "2026-11-22",
+      "url": "https://github.com/ParadevAI/Paradev/releases/tag/desktop-v2.0.11",
       "pre": true,
-      "note": "What's Changed fix(cloud): keep Codex ChatGPT sign-ins alive in cloud workspaces by @saddlepaddle in #9290 feat(models): add Claude Fable 5.2 by @saddlepaddle in #9568 fix(marketing): stop CCing the submitter on contact form emails by @saddlepaddle in #9567 fix: workspace moves skip empty chats, explain failures once, and resume after a reload by @harshithmullapudi in #9561 feat(desktop): a cloud workspace opens on its chats while its box wakes by @harshithmullapudi in #9565 fix: show every open chat on desktop and mobile, not only chats with a running agent by @harshithmullapudi in #9570 chore(desktop): bump version to 2.0.7 by @Kitenite in #9557 feat(desktop): every sidebar card can be dismissed, and no em dashes in desktop UI by @Kitenite in #9573 feat(chat): show why Claude asks for approval in Full access by @harshithmullapudi in #9574 Full Changelog : desktop-v2.0.7...desktop-v2.0."
+      "note": "What's Changed fix(desktop): defer workspace switch follow-up work until after navigation by @Kitenite in #9991 fix(connectors): refresh for the resource the grant was issued for by @saddlepaddle in #10001 refactor(shared): one verifyUserBearer for the API, the MCP server and the Workers by @saddlepaddle in #10002 fix(trpc): Codex API-key sign-in skips the WebSocket the sandbox firewall refuses by @saddlepaddle in #10005 feat(connectors): the Paradev admin connector by @saddlepaddle in #10003 Drop the cloud usage project filter that nothing passes by @saddlepaddle in #10010 chore(desktop): bump version to 2.0.10 by @Kitenite in #10004 Box events through the Sentry SDK, not a bash log shipper by @saddlepaddle in #10009 fix(chat): keep compaction summaries, agent notices and repeated task notifications out of chat text by @harshithmullapudi in #9923 fix(desktop): hide script bar by default"
     },
     {
-      "tag": "cli-v2.0.8",
-      "title": "Paradev CLI cli-v2.0.8",
-      "date": "2026-11-10",
-      "url": "https://github.com/ParadevAI/Paradev/releases/tag/cli-v2.0.8",
+      "tag": "sentry@1.0.4",
+      "title": "sentry@1.0.4",
+      "date": "2026-11-21",
+      "url": "https://github.com/ParadevAI/Paradev/releases/tag/sentry%401.0.4",
+      "pre": false,
+      "note": "fix(plugins,connectors): call Sentry tools directly now that the gate…"
+    },
+    {
+      "tag": "cli-v2.0.11",
+      "title": "Paradev CLI cli-v2.0.11",
+      "date": "2026-11-20",
+      "url": "https://github.com/ParadevAI/Paradev/releases/tag/cli-v2.0.11",
       "pre": true,
-      "note": "What's Changed fix(desktop): a plain click on a bare pull request link honors the URL links setting by @abudker in #9439 chore(desktop): bump version to 2.0.8 by @Kitenite in #9580 feat(desktop): React Compiler on the renderer, plus Vite 8 / plugin-react 6 / electron-vite 6 / Lingui 6.12 by @saddlepaddle in #9582 feat(desktop): ⌘F find in Pages panes by @superset-app[bot] in #9545 fix(desktop): load private-repo images in the PR pane by @AviPeltz in #9579 ci(release-cli): build darwin-arm64 on macos-15 by @saddlepaddle in #9578 New Contributors @abudker made their first contribution in #9439 Full Changelog : desktop-canary...cli-v2.0.8"
+      "note": "What's Changed test(db): the db tests are typechecked by @saddlepaddle in #10054 test(auth): the auth tests are typechecked by @saddlepaddle in #10055 test(trpc): the plugin proxy tests type-check by @saddlepaddle in #10056 test(trpc): drop the stale page publish integration test by @saddlepaddle in #10058 test(trpc): the trpc tests are typechecked by @saddlepaddle in #10057 test: the shared test preload and trpc's test folder are typechecked by @saddlepaddle in #10060 Full Changelog : desktop-canary...cli-v2.0.11"
     },
     {
       "tag": "cli-latest",
       "title": "Latest Paradev CLI",
-      "date": "2026-11-10",
+      "date": "2026-11-20",
       "url": "https://github.com/ParadevAI/Paradev/releases/tag/cli-latest",
       "pre": true,
-      "note": "Rolling pointer to the latest published CLI release. See cli-v2.0.8 for changelog."
+      "note": "Rolling pointer to the latest published CLI release. See cli-v2.0.11 for changelog."
     },
     {
-      "tag": "desktop-v2.0.7",
-      "title": "Paradev Desktop desktop-v2.0.7",
-      "date": "2026-11-09",
-      "url": "https://github.com/ParadevAI/Paradev/releases/tag/desktop-v2.0.7",
+      "tag": "desktop-v2.0.10",
+      "title": "Paradev Desktop desktop-v2.0.10",
+      "date": "2026-11-19",
+      "url": "https://github.com/ParadevAI/Paradev/releases/tag/desktop-v2.0.10",
       "pre": true,
-      "note": "What's Changed fix(chat): settle turns that quits and crashes cut off, and offer to resume them by @Kitenite in #9432 fix(desktop): keep agents' browser panes reachable past the hidden-webview cap by @Kitenite in #9497 feat(desktop): unload hidden browser panes by memory budget, keeping pages Chrome would keep by @Kitenite in #9498 feat: forward cloud workspace ports to your computer, and list forwards with superset ports by @harshithmullapudi in #9493 fix(desktop): show why a plugin connect failed instead of a generic toast by @harshithmullapudi in #9418 fix(github): only organization admins can connect a GitHub account by @saddlepaddle in #9499 chore(desktop): bump version to 2.0.6 by @Kitenite in #9494 fix(desktop): open the window without waiting for the pane-sites clean-up by @Kitenite in #9509 feat(share): say that inviting a new person adds a paid seat, and what it costs by @Kiten"
+      "note": "What's Changed chore(desktop): bump version to 2.0.9 by @Kitenite in #9796 chore: default the desktop app and public links to the Paradev hosts by @Kitenite in #9795 feat(cloud): tell clients when a cloud workspace's sandbox is asleep (SUPER-3018) by @saddlepaddle in #9800 fix(desktop): terminal-host tests no longer SIGKILL real processes by @saddlepaddle in #9801 feat(cloud): backfill legacy cloud workspace statuses (ready by a full Vercel listing, deleted by migration) by @saddlepaddle in #9802 chore(ci): dispatchable workflow that publishes a one-off cloud workspace job to QStash by @saddlepaddle in #9804 chore(ci): publish cloud workspace jobs to the account's QStash URL by @saddlepaddle in #9805 refactor(cloud): drop the server's reads of the old cloud workspace status names by @saddlepaddle in #9806 fix(cloud): expiry watch dedupe id must not contain a colon by @saddlepaddle in #98"
     },
     {
-      "tag": "cli-v2.0.7",
-      "title": "cli-v2.0.7",
-      "date": "2026-11-09",
-      "url": "https://github.com/ParadevAI/Paradev/releases/tag/cli-v2.0.7",
-      "pre": false,
-      "note": "chore(desktop): bump version to 2.0.7 (host-service 2.0.6 -> 2.0.7, c…"
-    },
-    {
-      "tag": "desktop-v2.0.6",
-      "title": "Paradev Desktop desktop-v2.0.6",
-      "date": "2026-11-08",
-      "url": "https://github.com/ParadevAI/Paradev/releases/tag/desktop-v2.0.6",
+      "tag": "cli-v2.0.10",
+      "title": "Paradev CLI cli-v2.0.10",
+      "date": "2026-11-19",
+      "url": "https://github.com/ParadevAI/Paradev/releases/tag/cli-v2.0.10",
       "pre": true,
-      "note": "What's Changed docs: Bring Your Own Cloud guide and the MIT license blog post by @Kitenite in #9382 chore(desktop): bump version to 2.0.5 by @Kitenite in #9380 fix(desktop): keep host data cached when a host looks unreachable by @Kitenite in #9373 fix(desktop): report an offline cloud API on plugins.sync as unavailable by @superset-home in #9385 fix(chat): keep a chat's permission mode across resume, fork and recovery by @harshithmullapudi in #9354 chore(shared): remove the unused acp-chat flag constant by @Kitenite in #9400 marketing: add cloud-agent compare pages and update every compare page for MIT, BYOC, cloud workspaces and Chat by @Kitenite in #9401 marketing: say \"chat interface\" instead of \"Chat view\" on compare pages by @Kitenite in #9404 feat(settings): move the Chat interface setting out of Experimental by @Kitenite in #9403 marketing: refresh Amp compare pages for its cloud "
+      "note": "What's Changed refactor(desktop): sanitize theme CSS only where the renderer applies it by @saddlepaddle in #9995 ci: workflow to copy BETTER_AUTH_SECRET to a Vercel project by @saddlepaddle in #9994 ci: remove the one-run copy-secret workflow by @saddlepaddle in #9996 fix(cloud): billing periods on the 29th, 30th and 31st by @saddlepaddle in #9997 Full Changelog : desktop-canary...cli-v2.0.10"
     },
     {
-      "tag": "cli-v2.0.6",
-      "title": "cli-v2.0.6",
-      "date": "2026-11-07",
-      "url": "https://github.com/ParadevAI/Paradev/releases/tag/cli-v2.0.6",
+      "tag": "planetscale@1.0.0",
+      "title": "planetscale@1.0.0: feat(plugins): add PlanetScale plugin (#9886)",
+      "date": "2026-11-18",
+      "url": "https://github.com/ParadevAI/Paradev/releases/tag/planetscale%401.0.0",
       "pre": false,
-      "note": "chore(desktop): bump version to 2.0.6 (host-service 2.0.5 -> 2.0.6, c…"
+      "note": "feat(plugins): add PlanetScale plugin Add a PlanetScale plugin that proxies PlanetScale's official hosted MCP server ( https://mcp.pscale.dev/mcp/planetscale ). The planetscale_mcp connector uses the dynamic client: PlanetScale's authorization server (issuer https://api.planetscale.com ) offers RFC 7591 registration and S256 PKCE. It requests no explicit scopes, so PlanetScale grants its default MCP scope set, which includes openid/email/profile. The user picks per-organization and per-database access on PlanetScale's consent screen. Identity comes from the OIDC userinfo endpoint (sub, email). Also adds the desktop icon (SiPlanetscale), link unfurl for planetscale.com, the catalog entry, and a docs page. fix(plugins): key PlanetScale identity on email, not pairwise sub PlanetScale advertises subject_types_supported: [\"pairwise\"], so sub can differ between client registrations. A re-regis"
+    },
+    {
+      "tag": "cli-v2.0.9",
+      "title": "Paradev CLI cli-v2.0.9",
+      "date": "2026-11-16",
+      "url": "https://github.com/ParadevAI/Paradev/releases/tag/cli-v2.0.9",
+      "pre": true,
+      "note": "What's Changed docs(marketing): guide for Claude Fable 5.2 by @Kitenite in #9596 fix(desktop): hide the \"Paused when Paradev closed\" row in cloud workspaces by @saddlepaddle in #9601 fix(desktop): a browser pane's popup is a real tab for extensions by @Kitenite in #9599 fix(agents): build an agent's launch command the same way on every launch path by @AndrewBastin in #9605 fix(trpc): let cloud boxes ask whether to sync their chats by @harshithmullapudi in #9609 fix(relay): never route dials to a replaced host socket after hibernation by @harshithmullapudi in #9604 fix(chat-runtime): match a pinned dotted model version, not its major version by @Bruno-rose in #9445 fix(billing): name Team and Ultra in the payment-failed email, and say cloud workspaces stop by @saddlepaddle in #9610 feat(desktop): move chat and terminal pane actions into the title menu by @harshithmullapudi in #9581 fix(ap"
+    },
+    {
+      "tag": "desktop-v2.0.9",
+      "title": "Paradev Desktop desktop-v2.0.9",
+      "date": "2026-11-15",
+      "url": "https://github.com/ParadevAI/Paradev/releases/tag/desktop-v2.0.9",
+      "pre": true,
+      "note": "What's Changed fix(desktop): a plain click on a bare pull request link honors the URL links setting by @abudker in #9439 chore(desktop): bump version to 2.0.8 by @Kitenite in #9580 feat(desktop): React Compiler on the renderer, plus Vite 8 / plugin-react 6 / electron-vite 6 / Lingui 6.12 by @saddlepaddle in #9582 feat(desktop): ⌘F find in Pages panes by @superset-app[bot] in #9545 fix(desktop): load private-repo images in the PR pane by @AviPeltz in #9579 ci(release-cli): build darwin-arm64 on macos-15 by @saddlepaddle in #9578 docs(marketing): guide for Claude Fable 5.2 by @Kitenite in #9596 fix(desktop): hide the \"Paused when Paradev closed\" row in cloud workspaces by @saddlepaddle in #9601 fix(desktop): a browser pane's popup is a real tab for extensions by @Kitenite in #9599 fix(agents): build an agent's launch command the same way on every launch path by @AndrewBastin in #9605 fix(t"
     }
   ]
 }

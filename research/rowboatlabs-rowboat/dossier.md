@@ -4,9 +4,9 @@
 - **Web oficial**: https://www.rowboatlabs.com
 - **Licencia**: Apache-2.0
 - **Lenguaje**: TypeScript
-- **Estrellas**: 18167 · **Forks**: 1822
-- **Último push**: 2026-11-12T03:42:58Z · **Última release**: 2026-11-11
-- **Revisado**: 2026-11-12 · **Confianza**: 75/100
+- **Estrellas**: 18316 · **Forks**: 1834
+- **Último push**: 2026-11-19T08:23:45Z · **Última release**: 2026-11-11
+- **Revisado**: 2026-11-23 · **Confianza**: 75/100
 - **Tipo**: assistant · **Categoría**: teams
 
 ## Qué es
@@ -22,9 +22,9 @@ Revisión de release v1.0.9 (2026-11-11): Spaces con AI teammates, roles y perso
 ## Release revisada
 
 - **Tag**: [v1.0.9](https://github.com/rowboatlabs/rowboat/releases/tag/v1.0.9)
-- **Fecha**: 2026-11-11 (hace 4 días)
-- **Estado**: activo · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Fecha**: 2026-11-11 (hace 12 días)
+- **Estado**: reciente · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
 **Qué trae**: v1.0.9: Spaces con AI teammates, roles, agentes hosted y aprobaciones; superagentes y Composio.
 
@@ -98,10 +98,10 @@ Ya compite como equipo de AI coworkers con roles, aprobaciones y Spaces, pero si
 
 ## Fuentes consultadas
 
-- [Repositorio GitHub](https://github.com/rowboatlabs/rowboat) · consultado 2026-11-12
-- [Web oficial](https://www.rowboatlabs.com) · consultado 2026-11-12
-- [README](https://github.com/rowboatlabs/rowboat#readme) · consultado 2026-11-12
-- [Releases](https://github.com/rowboatlabs/rowboat/releases) · consultado 2026-11-12
+- [Repositorio GitHub](https://github.com/rowboatlabs/rowboat) · consultado 2026-11-23
+- [Web oficial](https://www.rowboatlabs.com) · consultado 2026-11-23
+- [README](https://github.com/rowboatlabs/rowboat#readme) · consultado 2026-11-23
+- [Releases](https://github.com/rowboatlabs/rowboat/releases) · consultado 2026-11-23
 
 ---
 

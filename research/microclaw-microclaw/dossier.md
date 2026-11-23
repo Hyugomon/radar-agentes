@@ -4,9 +4,9 @@
 - **Web oficial**: https://microclaw.org
 - **Licencia**: MIT
 - **Lenguaje**: Rust
-- **Estrellas**: 757 · **Forks**: 143
-- **Último push**: 2026-11-12T07:00:58Z · **Última release**: 2026-11-13
-- **Revisado**: 2026-11-12 · **Confianza**: 63/100
+- **Estrellas**: 757 · **Forks**: 144
+- **Último push**: 2026-11-19T06:53:41Z · **Última release**: 2026-11-13
+- **Revisado**: 2026-11-23 · **Confianza**: 63/100
 - **Tipo**: bot · **Categoría**: personal
 
 ## Qué es
@@ -22,9 +22,9 @@ README: asistente self-hosted que vive en canales de chat, con memoria, rutinas 
 ## Release revisada
 
 - **Tag**: [v0.31.0](https://github.com/microclaw/microclaw/releases/tag/v0.31.0)
-- **Fecha**: 2026-11-13 (hace 2 días)
-- **Estado**: activo · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Fecha**: 2026-11-13 (hace 10 días)
+- **Estado**: reciente · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
 > MicroClaw Code 0.31: private project memory, Claude Code plugins and idle compaction ( docs/roadmap/mccode-competitive-plan-2026-11-cn.md , N5–N7). Added Private project memory. Besides the shared .microclaw/memory.md (in the repository), trusted projects now have a private memory in ~/.mccode/projects/ - /memory.md for your preferences and this machine's setup. Both are in the prompt of every turn; the agent is told which kind of fact goes where (a stated preference never goes to the shared file), and writing the private file does not ask for the outside-the-project approval. Worktrees share the main checkout's private memory. /memory opens both files in $EDITOR ( shared , private , show ).
 
@@ -101,10 +101,10 @@ Frente a un Grok Bot le falta el bot con nombre e identidad propia, la computado
 
 ## Fuentes consultadas
 
-- [Repositorio GitHub](https://github.com/microclaw/microclaw) · consultado 2026-11-12
-- [Web oficial](https://microclaw.org) · consultado 2026-11-12
-- [README](https://github.com/microclaw/microclaw#readme) · consultado 2026-11-12
-- [Releases](https://github.com/microclaw/microclaw/releases) · consultado 2026-11-12
+- [Repositorio GitHub](https://github.com/microclaw/microclaw) · consultado 2026-11-23
+- [Web oficial](https://microclaw.org) · consultado 2026-11-23
+- [README](https://github.com/microclaw/microclaw#readme) · consultado 2026-11-23
+- [Releases](https://github.com/microclaw/microclaw/releases) · consultado 2026-11-23
 
 ---
 

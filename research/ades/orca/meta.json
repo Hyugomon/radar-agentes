@@ -29,7 +29,7 @@
       "site_admin": false
     },
     "html_url": "https://github.com/stablyai/orca",
-    "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
+    "description": "Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.",
     "fork": false,
     "url": "https://api.github.com/repos/stablyai/orca",
     "forks_url": "https://api.github.com/repos/stablyai/orca/forks",
@@ -69,16 +69,16 @@
     "releases_url": "https://api.github.com/repos/stablyai/orca/releases{/id}",
     "deployments_url": "https://api.github.com/repos/stablyai/orca/deployments",
     "created_at": "2026-03-17T03:28:57Z",
-    "updated_at": "2026-11-13T08:11:05Z",
-    "pushed_at": "2026-11-13T08:14:09Z",
+    "updated_at": "2026-11-23T21:44:54Z",
+    "pushed_at": "2026-11-23T21:51:06Z",
     "git_url": "git://github.com/stablyai/orca.git",
     "ssh_url": "git@github.com:stablyai/orca.git",
     "clone_url": "https://github.com/stablyai/orca.git",
     "svn_url": "https://github.com/stablyai/orca",
     "homepage": "https://orca.dev",
-    "size": 2788687,
-    "stargazers_count": 123837,
-    "watchers_count": 123837,
+    "size": 3391817,
+    "stargazers_count": 134390,
+    "watchers_count": 134390,
     "language": "TypeScript",
     "has_issues": true,
     "has_projects": true,
@@ -86,11 +86,11 @@
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 7831,
+    "forks_count": 8589,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 8291,
+    "open_issues_count": 9412,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -126,9 +126,9 @@
       "yc-backed"
     ],
     "visibility": "public",
-    "forks": 7831,
-    "open_issues": 8291,
-    "watchers": 123837,
+    "forks": 8589,
+    "open_issues": 9412,
+    "watchers": 134390,
     "default_branch": "main",
     "temp_clone_token": null,
     "custom_properties": {
@@ -155,8 +155,8 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "network_count": 7831,
-    "subscribers_count": 158
+    "network_count": 8589,
+    "subscribers_count": 170
   },
-  "fetched_at": "2026-11-13"
+  "fetched_at": "2026-11-23"
 }

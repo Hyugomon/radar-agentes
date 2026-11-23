@@ -2,10 +2,10 @@
 
 - **Web oficial**: https://www.trysynara.com/
 - **Repo**: https://github.com/Emanuele-web04/synara
-- **Licencia**: Comercial
+- **Licencia**: MIT
 - **Categoría**: workspace
-- **Revisado**: 2026-11-13
-- **ADE Score**: 83.64 · Tier S
+- **Revisado**: 2026-11-23
+- **ADE Score**: 85.12 · Tier S
 
 ## Qué es
 
@@ -13,12 +13,16 @@ Workspace local-first para tareas de agentes, worktrees, handoffs y revisión, c
 
 ## Release revisada
 
-- **Tag**: [v1.5.4](https://github.com/Emanuele-web04/synara/releases/tag/v1.5.4)
-- **Fecha**: 2026-11-14 (hace 1 días)
+- **Tag**: [v1.6.5](https://github.com/Emanuele-web04/synara/releases/tag/v1.6.5)
+- **Fecha**: 2026-11-21 (hace 2 días)
 - **Estado**: activo · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
-> What's Changed Frame project logos with a plain border instead of a shadow halo by @Emanuele-web04 in #2134 Retry Cloudflare-blocked Claude turns and log turn failure categories by @Emanuele-web04 in #2138 fix(hosts): keep remote folder browsing usable after errors by @Emanuele-web04 in #2129 fix(skills): deliver typed and shared skills to Claude and Codex reliably by @Emanuele-web04 in #2142 Fix stuck background status and merge replies woken by background tasks by @Emanuele-web04 in #2149 Move background tasks out of the transcript into the Environment panel by @Emanuele-web04 in #2150 Leave merged and checked-out history out of turn diffs and Undo by @Emanuele-web04 in #2130 Reconnect rem
+**Qué trae**: v1.6.5 (y v1.6.0–v1.6.4): beta nativa de Synara para iPhone/iPad, conectores ACP para Antigravity (Notion/Linear), clonado APFS de node_modules en worktrees y 27 % menos memoria.
+
+**Impacto en la ficha**: Tier S (+1.48): Móvil 70→80, Extensiones 72→76, Paralelismo 88→90 y Producto 82→85.
+
+> Better multilingual transcripts, retained OpenCode reasoning, and more predictable Antigravity resume. Added The analytics receiver can group Remote connection failures by stage, network kind, and connection path when updated iPhone and iPad clients send those categories. Desktop Beta adds six consent-gated reliability codes for admission, authorization, tunnel provisioning, and connector exits. Payloads use fixed categories without hostnames, IP addresses, network names, or free-form errors. The receiver migration and deployment are separate from this Stable desktop release. ( #2257 ) Changed Desktop refreshes the recorded app version for existing Remote links when reporting endpoints. The 
 
 ## Evidencia
 
@@ -51,6 +55,7 @@ Workspace local-first para tareas de agentes, worktrees, handoffs y revisión, c
 - “4 likes Keios Starqua @ TaLaTaQuangKhoi @trySynara 's way of working with agents is exactly what I need.” — https://github.com/Emanuele-web04/synara#readme
 - “Remote Connections are included with Synara Alto; the iPhone and iPad app is coming soon.” — https://github.com/Emanuele-web04/synara#readme
 - “<p align="center"> <img src="./assets/prod/readme-split-view-dark.png" width="900" alt="Synara split view with an agent thread and iOS simulator preview"> </p> ### 4.” — https://github.com/Emanuele-web04/synara#readme
+- “Discover the Synara for iPhone beta from an eligible desktop launch announcement... sparse catch-up response fell from about 676 KB to 2 KB.” — https://github.com/Emanuele-web04/synara/releases/tag/v1.6.4
 
 ### extensiones
 - “| | **Browser** | Keep local previews next to the thread and let agents use semantic or page-declared WebMCP tools.” — https://github.com/Emanuele-web04/synara#readme
@@ -65,15 +70,15 @@ Workspace local-first para tareas de agentes, worktrees, handoffs y revisión, c
 ## Dimensiones
 
 - **Harnesses**: 90/100
-- **Paralelismo**: 88/100
+- **Paralelismo**: 90/100
 - **Orquestación**: 90/100
 - **Revisión**: 86/100
 - **Remoto / cloud**: 82/100
-- **Móvil**: 70/100
-- **Extensiones**: 72/100
+- **Móvil**: 80/100
+- **Extensiones**: 76/100
 - **Control**: 70/100
 - **Apertura**: 95/100
-- **Producto**: 82/100
+- **Producto**: 85/100
 
 ## Fortalezas
 
@@ -83,15 +88,15 @@ Workspace local-first para tareas de agentes, worktrees, handoffs y revisión, c
 
 ## Carencias
 
-- Sin app móvil nativa
+- App iPhone/iPad todavía en beta
 - No tiene runtime propio
 - Ecosistema joven
 
 ## Fuentes
 
-- [Web oficial](https://www.trysynara.com/) · consultado 2026-11-13
-- [Repositorio GitHub](https://github.com/Emanuele-web04/synara) · consultado 2026-11-13
-- [README](https://github.com/Emanuele-web04/synara#readme) · consultado 2026-11-13
+- [Web oficial](https://www.trysynara.com/) · consultado 2026-11-23
+- [Repositorio GitHub](https://github.com/Emanuele-web04/synara) · consultado 2026-11-23
+- [README](https://github.com/Emanuele-web04/synara#readme) · consultado 2026-11-23
 
 ---
 

@@ -70,13 +70,13 @@
     "deployments_url": "https://api.github.com/repos/gregce/tortie/deployments",
     "created_at": "2026-08-12T18:58:54Z",
     "updated_at": "2026-11-11T00:59:39Z",
-    "pushed_at": "2026-11-09T19:50:11Z",
+    "pushed_at": "2026-11-18T03:11:11Z",
     "git_url": "git://github.com/gregce/tortie.git",
     "ssh_url": "git@github.com:gregce/tortie.git",
     "clone_url": "https://github.com/gregce/tortie.git",
     "svn_url": "https://github.com/gregce/tortie",
     "homepage": "https://tortie.sh",
-    "size": 120405,
+    "size": 123781,
     "stargazers_count": 97,
     "watchers_count": 97,
     "language": "TypeScript",
@@ -90,7 +90,7 @@
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 9,
+    "open_issues_count": 7,
     "license": {
       "key": "apache-2.0",
       "name": "Apache License 2.0",
@@ -121,12 +121,12 @@
     ],
     "visibility": "public",
     "forks": 9,
-    "open_issues": 9,
+    "open_issues": 7,
     "watchers": 97,
     "default_branch": "main",
     "temp_clone_token": null,
     "network_count": 9,
     "subscribers_count": 0
   },
-  "fetched_at": "2026-11-13"
+  "fetched_at": "2026-11-23"
 }

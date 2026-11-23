@@ -4,9 +4,9 @@
 - **Web oficial**: https://lobsterai.youdao.com
 - **Licencia**: MIT
 - **Lenguaje**: TypeScript
-- **Estrellas**: 6179 · **Forks**: 978
-- **Último push**: 2026-11-12T07:32:52Z · **Última release**: 2026-11-06
-- **Revisado**: 2026-11-12 · **Confianza**: 68/100
+- **Estrellas**: 6212 · **Forks**: 983
+- **Último push**: 2026-11-23T16:27:36Z · **Última release**: 2026-11-21
+- **Revisado**: 2026-11-23 · **Confianza**: 68/100
 - **Tipo**: agent · **Categoría**: general
 
 ## Qué es
@@ -21,12 +21,16 @@ Revisión previa + README: agente de escritorio construido sobre OpenClaw que ej
 
 ## Release revisada
 
-- **Tag**: [2026.11.6](https://github.com/netease-youdao/LobsterAI/releases/tag/2026.11.6)
-- **Fecha**: 2026-11-06 (hace 9 días)
-- **Estado**: reciente · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Tag**: [2026.11.20](https://github.com/netease-youdao/LobsterAI/releases/tag/2026.11.20)
+- **Fecha**: 2026-11-21 (hace 2 días)
+- **Estado**: activo · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
-> 2026.11.2 A release focused on reliability: chat streams now survive mid-reply drops, oversized contexts recover with visible compaction progress, the image pipeline is cheaper and less chatty, and installers ship a lot less dead weight. Highlights Model streams reconnect automatically when they drop mid-reply instead of leaving the message truncated ( #2974 ). Oversized conversations now recover instead of failing, with compaction progress surfaced in the UI ( #2982 , #3014 , #2988 ). One image confirmation can now approve the rest of a turn's images, and delivery recovery is more robust ( #2995 , #2980 , #2994 ). Installer and runtime bundles are significantly slimmer: no source maps, no t
+**Qué trae**: 2026.11.20 (y 2026.11.16): contexto seleccionable hasta 1M tokens, edición de mensajes con historial de versiones, lectura en voz alta, búsqueda full-text y asistente PPT.
+
+**Impacto en la ficha**: Sube a 62.70 B (+0.60): Capacidad 76→78 y Producto 59→61.
+
+> Highlights 🎨 Guided PPT cover creation — a new step-by-step cover wizard, plus configurable homepage examples to get you started faster ( #3072 , #3129 ). ⏪ Session navigation &amp; prompt history — move back and forward between sessions and recall previous prompts with ease ( #3107 ). 🔍 Window zoom — zoom the main window in and out, with a clear on-screen indicator ( #3106 ). 🚀 New Features PPT: Configurable homepage examples and a guided cover-creation flow ( #3072 ) @btc69m979y-dotcom PPT: Smoother home quick actions and wizard navigation ( #3129 ) @fisherdaddy Sessions: Back/forward navigation and prompt history recall ( #3107 ) @fisherdaddy Window: Main-window zoom with a zoom-level 
 
 ## Evidencia de la investigación
 
@@ -68,16 +72,16 @@ Revisión previa + README: agente de escritorio construido sobre OpenClaw que ej
 
 ## Puntuación
 
-Grok Score: **62.1** · Tier **B** · ADN **14**
+Grok Score: **62.7** · Tier **B** · ADN **14**
 
-- **capacidad**: 76/100
+- **capacidad**: 78/100
 - **autonomia**: 74/100
 - **computadora**: 55/100
 - **memoria**: 60/100
 - **rutinas**: 55/100
 - **equipo**: 55/100
 - **confianza**: 55/100
-- **producto**: 59/100
+- **producto**: 61/100
 
 ## Fortalezas
 
@@ -97,10 +101,10 @@ Está un escalón por debajo de Grok Bot: hace trabajo real en el escritorio y s
 
 ## Fuentes consultadas
 
-- [Repositorio GitHub](https://github.com/netease-youdao/LobsterAI) · consultado 2026-11-12
-- [Web oficial](https://lobsterai.youdao.com) · consultado 2026-11-12
-- [README](https://github.com/netease-youdao/LobsterAI#readme) · consultado 2026-11-12
-- [Releases](https://github.com/netease-youdao/LobsterAI/releases) · consultado 2026-11-12
+- [Repositorio GitHub](https://github.com/netease-youdao/LobsterAI) · consultado 2026-11-23
+- [Web oficial](https://lobsterai.youdao.com) · consultado 2026-11-23
+- [README](https://github.com/netease-youdao/LobsterAI#readme) · consultado 2026-11-23
+- [Releases](https://github.com/netease-youdao/LobsterAI/releases) · consultado 2026-11-23
 
 ---
 

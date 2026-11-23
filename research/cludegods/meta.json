@@ -72,7 +72,7 @@
   "ssh_url": "git@github.com:AKamaly/CludeGods.git",
   "clone_url": "https://github.com/AKamaly/CludeGods.git",
   "svn_url": "https://github.com/AKamaly/CludeGods",
-  "homepage": null,
+  "homepage": "",
   "size": 14412,
   "stargazers_count": 53,
   "watchers_count": 53,
@@ -88,13 +88,7 @@
   "archived": false,
   "disabled": false,
   "open_issues_count": 0,
-  "license": {
-    "key": "mit",
-    "name": "MIT License",
-    "spdx_id": "MIT",
-    "url": "https://api.github.com/licenses/mit",
-    "node_id": "MDc6TGljZW5zZTEz"
-  },
+  "license": "MIT",
   "allow_forking": true,
   "is_template": false,
   "web_commit_signoff_required": false,
@@ -117,5 +111,8 @@
   "default_branch": "main",
   "temp_clone_token": null,
   "network_count": 6,
-  "subscribers_count": 1
+  "subscribers_count": 1,
+  "stars": 53,
+  "api_status": 200,
+  "fetched_at": "2026-11-23"
 }

@@ -1,87 +1,87 @@
 {
   "repo": "vicotrbb/cubebot",
   "source": "releases.atom",
-  "checked_at": "2026-11-15",
+  "checked_at": "2026-11-23",
   "entries": [
     {
-      "tag": "v0.2.15",
-      "title": "v0.2.15",
-      "date": "2026-11-14",
-      "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.2.15",
+      "tag": "v0.5.3",
+      "title": "v0.5.3",
+      "date": "2026-11-20",
+      "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.5.3",
       "pre": false,
-      "note": "What's Changed Consolidate safe dependency updates by @vicotrbb in #120 Release v0.2.15 by @vicotrbb in #121 Full Changelog : v0.2.14...v0.2.15"
+      "note": "What's Changed Meeting reconnects, a Devin connector, and smaller dev builds by @vicotrbb in #164 Release v0.5.3 by @vicotrbb in #165 Full Changelog : v0.5.2...v0.5.3"
     },
     {
-      "tag": "v0.2.14",
-      "title": "v0.2.14",
-      "date": "2026-11-14",
-      "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.2.14",
+      "tag": "v0.5.2",
+      "title": "v0.5.2",
+      "date": "2026-11-20",
+      "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.5.2",
       "pre": false,
-      "note": "What's Changed Fix phone layout in the installed web app (safe-area top, iOS focus zoom, room head, composer hint) by @vicotrbb in #118 Release v0.2.14 by @vicotrbb in #119 Full Changelog : v0.2.13...v0.2.14"
+      "note": "What's Changed Run room requests as one team led by one agent by @vicotrbb in #160 Release v0.5.2-rc by @vicotrbb in #161 Ship Doom on agent desktops, playable by agents and people by @vicotrbb in #162 Release v0.5.2 by @vicotrbb in #163 Full Changelog : v0.5.1...v0.5.2"
     },
     {
-      "tag": "v0.2.13",
-      "title": "v0.2.13",
-      "date": "2026-11-11",
-      "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.2.13",
-      "pre": false,
-      "note": "What's Changed Attachments, mention highlighting, faster calendar, GitHub push and merge by @vicotrbb in #116 Release v0.2.13 by @vicotrbb in #117 Full Changelog : v0.2.12...v0.2.13"
+      "tag": "v0.5.2-rc",
+      "title": "v0.5.2-rc",
+      "date": "2026-11-19",
+      "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.5.2-rc",
+      "pre": true,
+      "note": "What's Changed Run room requests as one team led by one agent by @vicotrbb in #160 Release v0.5.2-rc by @vicotrbb in #161 Full Changelog : v0.5.1...v0.5.2-rc"
     },
     {
-      "tag": "v0.2.12",
-      "title": "v0.2.12",
-      "date": "2026-11-10",
-      "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.2.12",
+      "tag": "v0.5.1",
+      "title": "v0.5.1",
+      "date": "2026-11-19",
+      "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.5.1",
       "pre": false,
-      "note": "What's Changed Approved requests no longer message the agent by @vicotrbb in #114 Release v0.2.12 by @vicotrbb in #115 Full Changelog : v0.2.11...v0.2.12"
+      "note": "What's Changed Trace every reply, vault payment cards, update hint, coding harness by @vicotrbb in #156 Release v0.5.0-rc by @vicotrbb in #157 Show everyone in a meeting, copy its link from inside, and push what needs you by @vicotrbb in #158 Release v0.5.1 by @vicotrbb in #159 Full Changelog : v0.4.2...v0.5.1"
     },
     {
-      "tag": "v0.2.11",
-      "title": "v0.2.11",
-      "date": "2026-11-10",
-      "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.2.11",
-      "pre": false,
-      "note": "What's Changed Recover agents lost in a host reboot and size KVM guests from the request by @vicotrbb in #112 Release v0.2.11 by @vicotrbb in #113 Full Changelog : v0.2.10...v0.2.11"
+      "tag": "v0.5.0-rc",
+      "title": "v0.5.0-rc",
+      "date": "2026-11-19",
+      "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.5.0-rc",
+      "pre": true,
+      "note": "What's Changed Trace every reply, vault payment cards, update hint, coding harness by @vicotrbb in #156 Release v0.5.0-rc by @vicotrbb in #157 Full Changelog : v0.4.2...v0.5.0-rc"
     },
     {
-      "tag": "v0.2.10",
-      "title": "v0.2.10",
-      "date": "2026-11-10",
-      "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.2.10",
+      "tag": "v0.4.2",
+      "title": "v0.4.2",
+      "date": "2026-11-18",
+      "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.4.2",
       "pre": false,
-      "note": "What's Changed Give agents a title shown on their cards by @vicotrbb in #110 Release v0.2.10 by @vicotrbb in #111 Full Changelog : v0.2.9...v0.2.10"
+      "note": "What's Changed Agent character, finishing work, meeting follow-ups, message copy and delete by @vicotrbb in #154 Release v0.4.2 by @vicotrbb in #155 Full Changelog : v0.4.1...v0.4.2"
     },
     {
-      "tag": "v0.2.9",
-      "title": "v0.2.9",
-      "date": "2026-11-10",
-      "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.2.9",
+      "tag": "v0.4.1",
+      "title": "v0.4.1",
+      "date": "2026-11-18",
+      "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.4.1",
       "pre": false,
-      "note": "What's Changed Inline approvals, org chart canvas, room deletion, agent changes and sandbox guardrails by @vicotrbb in #108 Release v0.2.9 by @vicotrbb in #109 Full Changelog : v0.2.8...v0.2.9"
+      "note": "What's Changed Meetings: transcript export, noise cancellation, listen-only chips, summary fix by @vicotrbb in #152 Release v0.4.1 by @vicotrbb in #153 Full Changelog : v0.4.0...v0.4.1"
     },
     {
-      "tag": "v0.2.8",
-      "title": "v0.2.8",
-      "date": "2026-11-10",
-      "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.2.8",
+      "tag": "v0.4.0",
+      "title": "v0.4.0",
+      "date": "2026-11-18",
+      "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.4.0",
       "pre": false,
-      "note": "What's Changed Add a WHOOP connector by @vicotrbb in #105 Agent models, platform About, roomier settings, and open rooms and teams by @vicotrbb in #106 Release v0.2.8 by @vicotrbb in #107 Full Changelog : v0.2.7...v0.2.8"
+      "note": "What's Changed Cubebot Apps and listen-only meetings by @vicotrbb in #148 Release v0.4.0-rc by @vicotrbb in #149 Apps on iOS, card select above dialogs, running apps in vitals by @vicotrbb in #150 Release v0.4.0 by @vicotrbb in #151 Full Changelog : v0.3.7...v0.4.0"
     },
     {
-      "tag": "v0.2.7",
-      "title": "v0.2.7",
-      "date": "2026-11-10",
-      "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.2.7",
-      "pre": false,
-      "note": "What's Changed Agents ask to create agents, rooms and teams by @vicotrbb in #103 Release v0.2.7 by @vicotrbb in #104 Full Changelog : v0.2.6...v0.2.7"
+      "tag": "v0.4.0-rc",
+      "title": "v0.4.0-rc",
+      "date": "2026-11-17",
+      "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.4.0-rc",
+      "pre": true,
+      "note": "What's Changed Cubebot Apps and listen-only meetings by @vicotrbb in #148 Release v0.4.0-rc by @vicotrbb in #149 Full Changelog : v0.3.7...v0.4.0-rc"
     },
     {
-      "tag": "v0.2.6",
-      "title": "v0.2.6",
-      "date": "2026-11-09",
-      "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.2.6",
+      "tag": "v0.3.7",
+      "title": "v0.3.7",
+      "date": "2026-11-17",
+      "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.3.7",
       "pre": false,
-      "note": "What's Changed Calendar: events and agent routines in one place by @vicotrbb in #101 Release v0.2.6 by @vicotrbb in #102 Full Changelog : v0.2.5...v0.2.6"
+      "note": "What's Changed Agent wakes, Needs you inbox, Speech tab, dreaming dropdown by @vicotrbb in #146 Release v0.3.7 by @vicotrbb in #147 Full Changelog : v0.3.6...v0.3.7"
     }
   ]
 }

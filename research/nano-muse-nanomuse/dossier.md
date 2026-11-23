@@ -4,9 +4,9 @@
 - **Web oficial**: https://nanomuse.cn/
 - **Licencia**: GPL-3.0
 - **Lenguaje**: Swift
-- **Estrellas**: 3427 · **Forks**: 412
-- **Último push**: 2026-11-12T01:39:27Z · **Última release**: 2026-10-30
-- **Revisado**: 2026-11-12 · **Confianza**: 66/100
+- **Estrellas**: 3662 · **Forks**: 450
+- **Último push**: 2026-11-23T03:25:47Z · **Última release**: 2026-10-30
+- **Revisado**: 2026-11-23 · **Confianza**: 66/100
 - **Tipo**: agent · **Categoría**: personal
 
 ## Qué es
@@ -22,9 +22,9 @@ Revisión previa + README: identidad, memoria y computer-use con aprobaciones en
 ## Release revisada
 
 - **Tag**: [v1.0.9](https://github.com/nano-muse/nanoMuse/releases/tag/v1.0.9)
-- **Fecha**: 2026-10-30 (hace 16 días)
+- **Fecha**: 2026-10-30 (hace 24 días)
 - **Estado**: reciente · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
 > nanoMuse 1.0.9 · Tiller 🐉 nanoMuse 1.0.9 “Tiller” : a fix release the same day as Crew. The desktop starts again when you are signed in, the relay's console loads on a large record, and the runtime takes a budget for a task and recalls from the whole memory store. 1.0.8 went out this morning, and its desktop did not start for anyone who was signed in. The plugin pointed the nanoMuse Cloud provider row at the loopback door it opens for the relay and waited for that settings write while the plugins were still starting; the write waits for the plugins, so the Host never announced its address and the window sat on Starting… for good, with nanoMuse is still starting every ten minutes ( #701 , fi
 
@@ -82,7 +82,7 @@ Grok Score: **73.4** · Tier **A** · ADN **72**
 ## Lo que le falta / riesgos
 
 - Seis semanas de vida: sin historial, tests públicos ni casos de producción
-- Ecosistema incipiente (3,427 estrellas) y equipo pequeño
+- Ecosistema incipiente (3,662 estrellas) y equipo pequeño
 - La fiabilidad del control de GUI en móviles y escritorios es la pieza más frágil y no hay benchmarks
 
 ## Comparación con el listón
@@ -91,10 +91,10 @@ Conceptualmente es el que más se parece a Grok Bot del lote, pero su madurez y 
 
 ## Fuentes consultadas
 
-- [Repositorio GitHub](https://github.com/nano-muse/nanoMuse) · consultado 2026-11-12
-- [Web oficial](https://nanomuse.cn/) · consultado 2026-11-12
-- [README](https://github.com/nano-muse/nanoMuse#readme) · consultado 2026-11-12
-- [Releases](https://github.com/nano-muse/nanoMuse/releases) · consultado 2026-11-12
+- [Repositorio GitHub](https://github.com/nano-muse/nanoMuse) · consultado 2026-11-23
+- [Web oficial](https://nanomuse.cn/) · consultado 2026-11-23
+- [README](https://github.com/nano-muse/nanoMuse#readme) · consultado 2026-11-23
+- [Releases](https://github.com/nano-muse/nanoMuse/releases) · consultado 2026-11-23
 
 ---
 

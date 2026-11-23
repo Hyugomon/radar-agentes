@@ -2,10 +2,10 @@
 
 - **Web oficial**: https://ghostex.dev/
 - **Repo**: https://github.com/maddada/Ghostex
-- **Licencia**: Comercial
+- **Licencia**: MIT
 - **Categoría**: workspace
-- **Revisado**: 2026-11-13
-- **ADE Score**: 80.16 · Tier A
+- **Revisado**: 2026-11-23
+- **ADE Score**: 82.4 · Tier S
 
 ## Qué es
 
@@ -13,12 +13,16 @@ Workspace de escritorio con chats de agentes, editor de código, navegador por a
 
 ## Release revisada
 
-- **Tag**: [v11.7.1](https://github.com/maddada/Ghostex/releases/tag/v11.7.1)
-- **Fecha**: 2026-11-15 (hace 0 días)
+- **Tag**: [v11.15.0](https://github.com/maddada/Ghostex/releases/tag/v11.15.0)
+- **Fecha**: 2026-11-22 (hace 1 días)
 - **Estado**: activo · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
-> macOS: Apple Silicon DMG · Windows: x64 installer · ARM64 installer Linux x64: .deb · .rpm · tarball (mise/ubi) · AppImage · AUR (ghostex-bin) · Linux ARM64: .deb · .rpm · tarball · AppImage Android: APK · iOS: App Store 11.7.1 - 2026-11-15 Ghostex 11.7.1 is out. Sessions no longer wake up and spend your usage on their own after a usage limit or a restart, long chats are compacted before they carry on, workers under a coordinator stop sending you notifications, the project picker and the browser bar show each computer's own logo, sidebar extensions arrive, and Settings search finds only real matches. 🔋 Usage after a limit or a restart Sessions stay put after a usage limit: with Switch accou
+**Qué trae**: v11.15.0 (y v11.11–v11.14): 4 niveles de aprobación protegidos por dispositivo, Work items, Ask Ghostex AI, integración Grok Bot sin terminal, enlace servidor-a-servidor y Automations en móvil.
+
+**Impacto en la ficha**: Sube a Tier S (+2.24): Control 62→78, Orquestación 82→86, Remoto 80→83 y Producto 78→81.
+
+> macOS: Apple Silicon DMG · Windows: PowerShell irm https://ghostex.dev/install.ps1 | iex · x64 installer · ARM64 installer (if Windows says it protected your PC, click More info, then Run anyway; the publisher is Open Source Developer Mohamad Yahia Youssef) Linux x64: .deb · .rpm · tarball (mise/ubi) · AppImage · AUR (ghostex-bin) · Linux ARM64: .deb · .rpm · tarball · AppImage Android: APK · iOS: App Store 11.15.0 - 2026-11-22 Ghostex 11.15.0 is out. Four approval levels for Non-CLI sessions on the chat box's Mode button, top and bottom pin groups with discoverable separators on the rail, a Windows wake-from-sleep crash fix, older open pages and forms kept in the dock and Work panel, a scro
 
 ## Evidencia
 
@@ -52,38 +56,39 @@ Workspace de escritorio con chats de agentes, editor de código, navegador por a
 - “Opus 5.5 Hover to expand the sessions Hover to expand the chat Tons of powerful plugins.” — https://github.com/maddada/Ghostex#readme
 
 ### control
-- Sin cita directa en la web/README revisada.
+- “Approval levels for Non-CLI sessions: pick Ask, Auto-edits, Auto or Full access directly from the chat box's Mode button... Only your own devices can raise approval levels.” — https://github.com/maddada/Ghostex/releases/tag/v11.15.0
 
 ## Dimensiones
 
 - **Harnesses**: 86/100
 - **Paralelismo**: 84/100
-- **Orquestación**: 82/100
+- **Orquestación**: 86/100
 - **Revisión**: 78/100
-- **Remoto / cloud**: 80/100
+- **Remoto / cloud**: 83/100
 - **Móvil**: 82/100
 - **Extensiones**: 75/100
-- **Control**: 62/100
+- **Control**: 78/100
 - **Apertura**: 90/100
-- **Producto**: 78/100
+- **Producto**: 81/100
 
 ## Fortalezas
 
 - Todo-en-uno: chat, editor, browser
 - Orquestación multi-agente
 - Open source y móvil
+- Cuatro niveles de aprobación en vivo protegidos contra escalado por agentes
 
 ## Carencias
 
-- Aprobaciones/control poco documentados
+- Ritmo de cambios muy rápido (versionado mayor agresivo)
 - Revisión no es el foco
 - Proyecto joven
 
 ## Fuentes
 
-- [Web oficial](https://ghostex.dev/) · consultado 2026-11-13
-- [Repositorio GitHub](https://github.com/maddada/Ghostex) · consultado 2026-11-13
-- [README](https://github.com/maddada/Ghostex#readme) · consultado 2026-11-13
+- [Web oficial](https://ghostex.dev/) · consultado 2026-11-23
+- [Repositorio GitHub](https://github.com/maddada/Ghostex) · consultado 2026-11-23
+- [README](https://github.com/maddada/Ghostex#readme) · consultado 2026-11-23
 
 ---
 

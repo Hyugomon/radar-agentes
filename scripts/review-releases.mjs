@@ -15,7 +15,7 @@ import { dirname, join } from 'node:path'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const root = join(__dirname, '..')
-const TODAY = '2026-11-15'
+const TODAY = process.env.RADAR_DATE || new Date().toISOString().slice(0, 10)
 const THRESHOLD = new Date(new Date(TODAY).getTime() - 90 * 86400000).toISOString().slice(0, 10)
 const UA = 'radar-agentes-release-review'
 
@@ -43,9 +43,9 @@ function text(html) {
 async function fetchText(url) {
   try {
     const res = await fetch(url, { headers: { 'User-Agent': UA, Accept: 'application/atom+xml,text/html,*/*' } })
-    return { ok: res.ok, status: res.status, text: res.ok ? await res.text() : '' }
+    return { ok: res.ok, status: res.status, finalUrl: res.url || url, text: res.ok ? await res.text() : '' }
   } catch (e) {
-    return { ok: false, status: 0, text: '', error: String(e) }
+    return { ok: false, status: 0, finalUrl: url, text: '', error: String(e) }
   }
 }
 
@@ -95,15 +95,23 @@ async function releaseData(repoUrl) {
   if (!repoUrl) return null
   const m = String(repoUrl).match(/github\.com\/([^/]+)\/([^/#?]+)/)
   if (!m) return null
-  const repo = `${m[1]}/${m[2].replace(/\.git$/, '')}`
+  let repo = `${m[1]}/${m[2].replace(/\.git$/, '')}`
   let entries = []
   let source = 'releases.atom'
   const rel = await fetchText(`https://github.com/${repo}/releases.atom`)
-  if (rel.ok) entries = parseAtom(rel.text)
+  if (rel.ok) {
+    const rm = String(rel.finalUrl || '').match(/github\.com\/([^/]+)\/([^/#?]+)\/releases\.atom/i)
+    if (rm) repo = `${rm[1]}/${rm[2]}`
+    entries = parseAtom(rel.text)
+  }
   if (!entries.length) {
     source = 'tags.atom'
     const tags = await fetchText(`https://github.com/${repo}/tags.atom`)
-    if (tags.ok) entries = parseAtom(tags.text)
+    if (tags.ok) {
+      const tm = String(tags.finalUrl || '').match(/github\.com\/([^/]+)\/([^/#?]+)\/tags\.atom/i)
+      if (tm) repo = `${tm[1]}/${tm[2]}`
+      entries = parseAtom(tags.text)
+    }
   }
   entries.sort((a, b) => String(b.date).localeCompare(String(a.date)))
   return { repo, entries, source, http: rel.status }

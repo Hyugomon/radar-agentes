@@ -4,9 +4,9 @@
 - **Web oficial**: https://romeos.cc
 - **Licencia**: MIT
 - **Lenguaje**: TypeScript
-- **Estrellas**: 897 · **Forks**: 68
-- **Último push**: 2026-11-12T07:44:42Z · **Última release**: 2026-11-15
-- **Revisado**: 2026-11-12 · **Confianza**: 62/100
+- **Estrellas**: 932 · **Forks**: 71
+- **Último push**: 2026-11-23T18:45:30Z · **Última release**: 2026-11-23
+- **Revisado**: 2026-11-23 · **Confianza**: 62/100
 - **Tipo**: agent · **Categoría**: general
 
 ## Qué es
@@ -21,12 +21,16 @@ Revisión previa + README: agente personal que vive en un entorno persistente, c
 
 ## Release revisada
 
-- **Tag**: [v1.1.197](https://github.com/rome-os/rome/releases/tag/v1.1.197)
-- **Fecha**: 2026-11-15 (hace 0 días)
+- **Tag**: [v1.1.222](https://github.com/rome-os/rome/releases/tag/v1.1.222)
+- **Fecha**: 2026-11-23 (hace 0 días)
 - **Estado**: activo · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
-> The Rome runtime image yunfanye/rome:1.1.197 , built from 02e2b81 . Rome Cloud offers it to instances on its own. To run it yourself, pull yunfanye/rome:1.1.197 . Changes since v1.1.196 No changes to what the image runs. Full changelog: v1.1.196...v1.1.197
+**Qué trae**: v1.1.222 (y v1.1.218–v1.1.220 + iOS 1.0.0 TestFlight): conversaciones de voz por WebSocket, cliente iOS, selector AI Tools con cambio de proveedor e integraciones Slack/Discord.
+
+**Impacto en la ficha**: Sube a 66.15 B (+1.35): Capacidad 70→73 y Producto 50→56 por voz en tiempo real y cliente iOS.
+
+> The Rome runtime image yunfanye/rome:1.1.222 , built from 1b6a946 . Rome Cloud offers it to instances on its own. To run it yourself, pull yunfanye/rome:1.1.222 . Changes since v1.1.221 Fixes relay: stop one failing webhook from holding the mailbox ( #2618 ) Full changelog: v1.1.221...v1.1.222
 
 ## Evidencia de la investigación
 
@@ -69,16 +73,16 @@ Revisión previa + README: agente personal que vive en un entorno persistente, c
 
 ## Puntuación
 
-Grok Score: **64.8** · Tier **B** · ADN **38**
+Grok Score: **66.15** · Tier **B** · ADN **38**
 
-- **capacidad**: 70/100
+- **capacidad**: 73/100
 - **autonomia**: 67/100
 - **computadora**: 75/100
 - **memoria**: 90/100
 - **rutinas**: 55/100
 - **equipo**: 55/100
 - **confianza**: 55/100
-- **producto**: 50/100
+- **producto**: 56/100
 
 ## Fortalezas
 
@@ -90,20 +94,20 @@ Grok Score: **64.8** · Tier **B** · ADN **38**
 ## Lo que le falta / riesgos
 
 - Pre-1.0 y sin historial: nació en agosto de 2026, versiones 0.1.x/0.11.x y Rome Cloud todavía en preview.
-- 291 issues abiertos para 897 estrellas: backlog desproporcionado y señal de producto aún inestable.
+- 291 issues abiertos para 932 estrellas: backlog desproporcionado y señal de producto aún inestable.
 - El expediente no aporta evidencia de aprobaciones, benchmarks, tests de extremo a extremo ni casos reales de producción.
 - La frontera con un harness es difusa ('guardrailed environment', 'agents build their own harnesses'): el README no deja claro qué queda listo sin programar ni integrar.
 
 ## Comparación con el listón
 
-Juega en la categoría de agentes personales persistentes que lideran Grok Bot y Muse, pero con 2,5 meses de vida y versión 0.1.x está muy por detrás en madurez y adopción (897 estrellas frente a cientos de miles de los referentes).
+Juega en la categoría de agentes personales persistentes que lideran Grok Bot y Muse, pero con 2,5 meses de vida y versión 0.1.x está muy por detrás en madurez y adopción (932 estrellas frente a cientos de miles de los referentes).
 
 ## Fuentes consultadas
 
-- [Repositorio GitHub](https://github.com/rome-os/rome) · consultado 2026-11-12
-- [Web oficial](https://romeos.cc) · consultado 2026-11-12
-- [README](https://github.com/rome-os/rome#readme) · consultado 2026-11-12
-- [Releases](https://github.com/rome-os/rome/releases) · consultado 2026-11-12
+- [Repositorio GitHub](https://github.com/rome-os/rome) · consultado 2026-11-23
+- [Web oficial](https://romeos.cc) · consultado 2026-11-23
+- [README](https://github.com/rome-os/rome#readme) · consultado 2026-11-23
+- [Releases](https://github.com/rome-os/rome/releases) · consultado 2026-11-23
 
 ---
 

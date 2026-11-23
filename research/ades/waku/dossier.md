@@ -2,9 +2,9 @@
 
 - **Web oficial**: https://waku.sh/
 - **Repo**: https://github.com/egoist/waku
-- **Licencia**: Comercial
+- **Licencia**: GPL-3.0
 - **Categoría**: workspace
-- **Revisado**: 2026-11-13
+- **Revisado**: 2026-11-23
 - **ADE Score**: 70.88 · Tier B
 
 ## Qué es
@@ -14,9 +14,9 @@ App nativa para manejar sesiones de agentes de código, contexto, skills y aprob
 ## Release revisada
 
 - **Tag**: [v0.1.20](https://github.com/egoist/waku/releases/tag/v0.1.20)
-- **Fecha**: 2026-10-02 (hace 44 días)
-- **Estado**: estable · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Fecha**: 2026-10-02 (hace 52 días)
+- **Estado**: estable · **Releases en 90 días**: 5
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
 > Support the OpenCode 2.0 release, which now installs as opencode : OpenCode runs on its shared background service, OpenCode 2 beta and OpenCode 1 tasks continue as OpenCode tasks, and OpenCode's free models work in Waku tasks Fix rewinding or branching an OpenCode task after steering it mid-turn, which forked OpenCode's conversation at the wrong turn Fix OpenCode tasks going silent when the OpenCode service restarts; a turn it interrupted now continues in place once the service is back Fix Cursor model discovery and options so the pickers list every model the Cursor CLI advertises, with its reasoning effort, fast mode, and context window Show the release version in Claude model names, such a
 
@@ -77,9 +77,9 @@ App nativa para manejar sesiones de agentes de código, contexto, skills y aprob
 
 ## Fuentes
 
-- [Web oficial](https://waku.sh/) · consultado 2026-11-13
-- [Repositorio GitHub](https://github.com/egoist/waku) · consultado 2026-11-13
-- [README](https://github.com/egoist/waku#readme) · consultado 2026-11-13
+- [Web oficial](https://waku.sh/) · consultado 2026-11-23
+- [Repositorio GitHub](https://github.com/egoist/waku) · consultado 2026-11-23
+- [README](https://github.com/egoist/waku#readme) · consultado 2026-11-23
 
 ---
 

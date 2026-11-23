@@ -4,9 +4,9 @@
 - **Web oficial**: https://opencrabs.com
 - **Licencia**: MIT
 - **Lenguaje**: Rust
-- **Estrellas**: 1029 · **Forks**: 108
-- **Último push**: 2026-11-12T03:59:17Z · **Última release**: 2026-11-15
-- **Revisado**: 2026-11-12 · **Confianza**: 62/100
+- **Estrellas**: 1032 · **Forks**: 109
+- **Último push**: 2026-11-22T12:43:43Z · **Última release**: 2026-11-15
+- **Revisado**: 2026-11-23 · **Confianza**: 62/100
 - **Tipo**: agent · **Categoría**: general
 
 ## Qué es
@@ -22,9 +22,9 @@ Revisión previa + README: identidad, runtime persistente, rutinas y trabajo des
 ## Release revisada
 
 - **Tag**: [v0.6.0](https://github.com/opencrabs/opencrabs/releases/tag/v0.6.0)
-- **Fecha**: 2026-11-15 (hace 0 días)
-- **Estado**: activo · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Fecha**: 2026-11-15 (hace 8 días)
+- **Estado**: reciente · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
 > 925 commits since v0.5.15, 6 contributors. 654 files changed, +127,903 / -5,765 lines. ✨ Features 79facf2a5 The theme modal picks the window's font ( ctrl+shift+t or /theme ) : the card that chooses the four themes now carries a Font row under them, listing the families the machine actually has installed with System (default) at the top. A click applies to the whole window and saves at once to [gui] font , the same way a theme card does, and esc closes the list before it closes the modal. Nothing is bundled: no font bytes, no licence files. The window paints in the family you name and the system supplies the glyphs it does not have, so every script the platform font covers still renders, and
 
@@ -95,7 +95,7 @@ Grok Score: **68.3** · Tier **B** · ADN **54**
 
 - Las promesas de 'self-improving', 'recursive self-improvement' y 'self-healing' no se sostienen con evidencia en el expediente y suenan a marketing
 - No tiene la pieza clave del listón: computadora persistente en la nube ni computer-use que inicie sesión en tus apps reales; opera sobre el entorno local donde lo despliegues
-- Proyecto joven y de un solo autor: v0.5.x pre-1.0, 90 issues abiertos para 1,029 estrellas y sin ecosistema de plugins ni integraciones verificadas
+- Proyecto joven y de un solo autor: v0.5.x pre-1.0, 90 issues abiertos para 1,032 estrellas y sin ecosistema de plugins ni integraciones verificadas
 - No consta un sistema de aprobaciones antes de acciones irreversibles ni sandbox fuerte, justo lo que exige un agente 'fully autonomous' en producción
 - Etiquetado ambiguo (harness, orchestration-framework, agentic-framework) que confunde su propuesta frente a frameworks reales y complica la comparación
 
@@ -105,10 +105,10 @@ Está por debajo de los referentes tipo Grok Bot (sin computadora persistente en
 
 ## Fuentes consultadas
 
-- [Repositorio GitHub](https://github.com/opencrabs/opencrabs) · consultado 2026-11-12
-- [Web oficial](https://opencrabs.com) · consultado 2026-11-12
-- [README](https://github.com/opencrabs/opencrabs#readme) · consultado 2026-11-12
-- [Releases](https://github.com/opencrabs/opencrabs/releases) · consultado 2026-11-12
+- [Repositorio GitHub](https://github.com/opencrabs/opencrabs) · consultado 2026-11-23
+- [Web oficial](https://opencrabs.com) · consultado 2026-11-23
+- [README](https://github.com/opencrabs/opencrabs#readme) · consultado 2026-11-23
+- [Releases](https://github.com/opencrabs/opencrabs/releases) · consultado 2026-11-23
 
 ---
 

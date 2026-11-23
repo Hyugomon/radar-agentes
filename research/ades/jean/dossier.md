@@ -2,9 +2,9 @@
 
 - **Web oficial**: https://jean.build/
 - **Repo**: https://github.com/coollabsio/jean
-- **Licencia**: Comercial
+- **Licencia**: Apache-2.0
 - **Categoría**: workspace
-- **Revisado**: 2026-11-13
+- **Revisado**: 2026-11-23
 - **ADE Score**: 80.36 · Tier A
 
 ## Qué es
@@ -13,16 +13,16 @@ Workspace open source para agentes de código, worktrees, MCP y entrega con GitH
 
 ## Release revisada
 
-- **Tag**: [v1.0.15](https://github.com/coollabsio/jean/releases/tag/v1.0.15)
-- **Fecha**: 2026-11-12 (hace 3 días)
-- **Estado**: activo · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Tag**: [v1.0.16](https://github.com/coollabsio/jean/releases/tag/v1.0.16)
+- **Fecha**: 2026-11-15 (hace 8 días)
+- **Estado**: reciente · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
 **Qué trae**: 1.0.15: QwenCloud, Claude Fable 5.2 y CLIProxyAPI como proveedor para todos los backends.
 
 **Impacto en la ficha**: Tier A (+0.92): Harnesses 86→88, Extensiones 65→70 y Producto 78→80.
 
-> Features Added QwenCloud provider presets with region and billing mode selection and automatic model fetching ( #898 ) Added Claude Fable 5.2 to the model list Added CLIProxyAPI as a provider for every backend, with an option to pick it as the default provider Added per-account CLIProxyAPI usage in the usage cards and the quick menu, with guidance for Claude terms errors Added account login buttons for CLIProxyAPI on the collapsed row and in the backend CLI sections Read Claude models from CLIProxyAPI and showed API retries Grouped the CLIProxyAPI usage steps into sections and made the commands copyable Showed only the latest model per family in the model picker, with a toggle to show older 
+> Features Added an auto-compact window option to Claude backend settings. Added auto-compact options for Codex, OpenCode, and PI. Fixes Fixed chat not scrolling to the bottom after you answered a question. Fixed PR conflict status not refreshing after sync and push. Fixed SSH host key reading on Windows when ssh-keyscan failed; Jean now falls back to ssh . Fixed long tool names hiding the row chevron in chat; names are now truncated. Fixed worktree sort options on mobile; they now open in a bottom sheet. Breaking Changes Removed the CLIProxyAPI provider integration.
 
 ## Evidencia
 
@@ -83,9 +83,9 @@ Workspace open source para agentes de código, worktrees, MCP y entrega con GitH
 
 ## Fuentes
 
-- [Web oficial](https://jean.build/) · consultado 2026-11-13
-- [Repositorio GitHub](https://github.com/coollabsio/jean) · consultado 2026-11-13
-- [README](https://github.com/coollabsio/jean#readme) · consultado 2026-11-13
+- [Web oficial](https://jean.build/) · consultado 2026-11-23
+- [Repositorio GitHub](https://github.com/coollabsio/jean) · consultado 2026-11-23
+- [README](https://github.com/coollabsio/jean#readme) · consultado 2026-11-23
 
 ---
 

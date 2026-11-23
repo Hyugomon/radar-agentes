@@ -67,7 +67,7 @@
   "deployments_url": "https://api.github.com/repos/clawboo/clawboo/deployments",
   "created_at": "2026-02-18T01:10:30Z",
   "updated_at": "2026-11-13T13:21:39Z",
-  "pushed_at": "2026-11-15T05:59:27Z",
+  "pushed_at": "2026-11-19T16:18:37Z",
   "git_url": "git://github.com/clawboo/clawboo.git",
   "ssh_url": "git@github.com:clawboo/clawboo.git",
   "clone_url": "https://github.com/clawboo/clawboo.git",
@@ -88,13 +88,7 @@
   "archived": false,
   "disabled": false,
   "open_issues_count": 2,
-  "license": {
-    "key": "mit",
-    "name": "MIT License",
-    "spdx_id": "MIT",
-    "url": "https://api.github.com/licenses/mit",
-    "node_id": "MDc6TGljZW5zZTEz"
-  },
+  "license": "MIT",
   "allow_forking": true,
   "is_template": false,
   "web_commit_signoff_required": false,
@@ -123,8 +117,8 @@
     "typescript"
   ],
   "visibility": "public",
-  "forks": 45,
-  "open_issues": 2,
+  "forks": 44,
+  "open_issues": 1,
   "watchers": 171,
   "default_branch": "main",
   "temp_clone_token": null,
@@ -151,5 +145,8 @@
     "site_admin": false
   },
   "network_count": 45,
-  "subscribers_count": 1
+  "subscribers_count": 1,
+  "stars": 173,
+  "api_status": 200,
+  "fetched_at": "2026-11-23"
 }

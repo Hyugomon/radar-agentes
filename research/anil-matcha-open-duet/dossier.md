@@ -4,9 +4,9 @@
 - **Web oficial**: https://suparagent.ai
 - **Licencia**: Apache-2.0
 - **Lenguaje**: Python
-- **Estrellas**: 7075 · **Forks**: 921
-- **Último push**: 2026-11-13T10:36:29Z · **Última release**: 2026-11-11
-- **Revisado**: 2026-11-12 · **Confianza**: 60/100
+- **Estrellas**: 7158 · **Forks**: 931
+- **Último push**: 2026-11-23T18:03:42Z · **Última release**: 2026-11-16
+- **Revisado**: 2026-11-23 · **Confianza**: 60/100
 - **Tipo**: agent · **Categoría**: teams
 
 ## Qué es
@@ -21,16 +21,16 @@ Revisión de release v0.8.6 (2026-11-11): espacios compartidos con miembros, rol
 
 ## Release revisada
 
-- **Tag**: [v0.8.6](https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.6)
-- **Fecha**: 2026-11-11 (hace 4 días)
+- **Tag**: [v0.8.7](https://github.com/Anil-matcha/suparagent/releases/tag/v0.8.7)
+- **Fecha**: 2026-11-16 (hace 7 días)
 - **Estado**: activo · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
-**Qué trae**: 0.8.6: espacios compartidos con miembros, roles y permisos; móvil chat-first y cambio de modelo.
+**Qué trae**: v0.8.7: servidores MCP personalizados con login en navegador, búsqueda de herramientas y compartición en equipo.
 
-**Impacto en la ficha**: Sube de 80.55 a 82.20 S por espacios compartidos, roles/permisos y móvil.
+**Impacto en la ficha**: Sube a 82.65 S (+0.45): Capacidad 82→83 y Producto 63→65 por MCP compartido en equipo.
 
-> What's Changed test: fix four stale tests that fail on main by @inderpreet001 in #237 Share a server install with other people: members, roles and permissions by @inderpreet001 in #236 docs: describe members, roles and shared workspaces by @inderpreet001 in #238 feat(mobile): chat-first default screen, sliding sidebar, dynamic model &amp; effort switcher, and server profile integration by @jaiprasad04 in #239 feat(docs): add in-app documentation center, visual workflows guide, and fix Windows Google auth command formatting by @jaiprasad04 in #235 feat: hosted workspace grants, workspace switcher and hosted People screen by @inderpreet001 in #240 Full Changelog : v0.8.5...v0.8.6
+> What's Changed feat: custom MCP servers with browser sign-in, tool search and team sharing by @inderpreet001 in #241 Full Changelog : v0.8.6...v0.8.7
 
 ## Evidencia de la investigación
 
@@ -64,16 +64,16 @@ Revisión de release v0.8.6 (2026-11-11): espacios compartidos con miembros, rol
 
 ## Puntuación
 
-Grok Score: **82.2** · Tier **S** · ADN **100**
+Grok Score: **82.65** · Tier **S** · ADN **100**
 
-- **capacidad**: 82/100
+- **capacidad**: 83/100
 - **autonomia**: 78/100
 - **computadora**: 85/100
 - **memoria**: 90/100
 - **rutinas**: 90/100
 - **equipo**: 90/100
 - **confianza**: 90/100
-- **producto**: 63/100
+- **producto**: 65/100
 
 ## Fortalezas
 
@@ -93,10 +93,10 @@ Es de lo más cercano en concepto a Grok Bot dentro del open source; los espacio
 
 ## Fuentes consultadas
 
-- [Repositorio GitHub](https://github.com/Anil-matcha/suparagent) · consultado 2026-11-15
-- [Web oficial](https://suparagent.ai) · consultado 2026-11-15
-- [README](https://github.com/Anil-matcha/suparagent#readme) · consultado 2026-11-15
-- [Releases](https://github.com/Anil-matcha/suparagent/releases) · consultado 2026-11-15
+- [Repositorio GitHub](https://github.com/Anil-matcha/suparagent) · consultado 2026-11-23
+- [Web oficial](https://suparagent.ai) · consultado 2026-11-23
+- [README](https://github.com/Anil-matcha/suparagent#readme) · consultado 2026-11-23
+- [Releases](https://github.com/Anil-matcha/suparagent/releases) · consultado 2026-11-23
 
 ---
 

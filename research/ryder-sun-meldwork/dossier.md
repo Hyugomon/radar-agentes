@@ -4,9 +4,9 @@
 - **Web oficial**: https://ryder-sun.github.io/Meldwork/
 - **Licencia**: Apache-2.0
 - **Lenguaje**: JavaScript
-- **Estrellas**: 1564 · **Forks**: 108
-- **Último push**: 2026-11-09T07:10:09Z · **Última release**: 2026-11-02
-- **Revisado**: 2026-11-12 · **Confianza**: 62/100
+- **Estrellas**: 1601 · **Forks**: 111
+- **Último push**: 2026-11-16T05:27:33Z · **Última release**: 2026-11-02
+- **Revisado**: 2026-11-23 · **Confianza**: 62/100
 - **Tipo**: agent · **Categoría**: teams
 
 ## Qué es
@@ -22,9 +22,9 @@ Revisión previa + README: app de escritorio local-first donde varios agentes tr
 ## Release revisada
 
 - **Tag**: [Meldwork-V1.0.9](https://github.com/Ryder-Sun/Meldwork/releases/tag/Meldwork-V1.0.9)
-- **Fecha**: 2026-11-02 (hace 13 días)
-- **Estado**: reciente · **Releases en 90 días**: 8
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Fecha**: 2026-11-02 (hace 21 días)
+- **Estado**: reciente · **Releases en 90 días**: 6
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
 > Meldwork V1.0.9 预览版 本版本适用于 Apple 芯片 macOS。安装包使用 ad-hoc 临时签名，尚未使用 Apple Developer ID 签名或公证；首次打开时，macOS 可能需要在“系统设置 → 隐私与安全性”中选择“仍要打开”。 更新 自动讨论根据原生 Agent 的明确完成信号结束发言，所有参与者须认可同一版交付物后才结束。 改进本地 Agent 认证状态，正确识别 CLI 仅在标准错误中报告的认证失败；修复知识库图标资源，并精简启动页面文案。 真实六 Agent 无限轮讨论在九轮后完成，六方认可同一候选交付物，文件哈希一致。此次版本验证包括 1,700 项桌面测试、379 项前端测试、13 项官网测试、构建与安装包完整性检查。 已知限制 安装 CLI 不代表模型连接已验证。OpenClaw 的隔离环境可能无法使用现有原生配置；WorkBuddy CLI 可能需要单独登录；Zcode 需要有效的原生提供方凭据。 ZGCI smart-router-v2 已通过 Zcode 临时配置实测，但本版本不会自动写入或部署该提供方配置。 下载 DMG 安装，或下载 ZIP 解压； SHA256SUMS.txt 可用于校验文件完整性。 English Apple silicon macOS preview. The artifacts are ad-hoc signed and are not Apple Developer ID signed or notarized. On first launch, macOS may require Open 
 
@@ -100,10 +100,10 @@ Frente a Grok Bot y los equipos de agentes persistentes de 2026, Meldwork iguala
 
 ## Fuentes consultadas
 
-- [Repositorio GitHub](https://github.com/Ryder-Sun/Meldwork) · consultado 2026-11-12
-- [Web oficial](https://ryder-sun.github.io/Meldwork/) · consultado 2026-11-12
-- [README](https://github.com/Ryder-Sun/Meldwork#readme) · consultado 2026-11-12
-- [Releases](https://github.com/Ryder-Sun/Meldwork/releases) · consultado 2026-11-12
+- [Repositorio GitHub](https://github.com/Ryder-Sun/Meldwork) · consultado 2026-11-23
+- [Web oficial](https://ryder-sun.github.io/Meldwork/) · consultado 2026-11-23
+- [README](https://github.com/Ryder-Sun/Meldwork#readme) · consultado 2026-11-23
+- [Releases](https://github.com/Ryder-Sun/Meldwork/releases) · consultado 2026-11-23
 
 ---
 

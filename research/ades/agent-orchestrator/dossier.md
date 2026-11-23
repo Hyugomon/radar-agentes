@@ -2,9 +2,9 @@
 
 - **Web oficial**: https://orchestrator.inc/
 - **Repo**: https://github.com/OrchestratorInc/agent-orchestrator
-- **Licencia**: Comercial
+- **Licencia**: Apache-2.0
 - **Categoría**: orchestrator
-- **Revisado**: 2026-11-13
+- **Revisado**: 2026-11-23
 - **ADE Score**: 84.18 · Tier S
 
 ## Qué es
@@ -13,12 +13,16 @@ Orquestador open source para repartir tareas entre agentes, aislar trabajo, revi
 
 ## Release revisada
 
-- **Tag**: [v0.15.2-nightly.202611142232](https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.2-nightly.202611142232)
-- **Fecha**: 2026-11-14 (hace 1 días)
+- **Tag**: [v0.15.5](https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.5)
+- **Fecha**: 2026-11-23 (hace 0 días)
 - **Estado**: activo · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
-> Changes in this nightly Browser and side chat tabs use the session strip's tab frame by @ronishrohan in #8296 Steer queued messages into the running turn, durably by @mohakchakraborty2004 in #8343 UI-only Cloud parity quick wins (archive, restore, shells, file tabs, automations, notifications, PR conflicts, i18n, delete wording) by @mohakchakraborty2004 in #8341 Drop the workspace row, share the project from the orchestrator and board cards; remove the Cloud GitHub PAT UI by @mohakchakraborty2004 in #8307 Draw Resolve conflicts and Update from base clicks as the user's action by @illegalcall in #8404 Make side chat closing and recovery reliable by @Vansh-Singhal in #8242 Acknowledge reports 
+**Qué trae**: v0.15.5 estable: soporte hosts Linux arm64, revisión PR sobre current-head y login de Cline en Orchestrator Browser.
+
+**Impacto en la ficha**: Sin cambio de score (84.18 S).
+
+> Changed Group desktop and mobile Sentry errors by code or normalized message (stable backport of #8898 ) by @harshitsinghbhandari in #8928 Full Changelog : v0.15.4...v0.15.5
 
 ## Evidencia
 
@@ -88,9 +92,9 @@ Orquestador open source para repartir tareas entre agentes, aislar trabajo, revi
 
 ## Fuentes
 
-- [Web oficial](https://orchestrator.inc/) · consultado 2026-11-13
-- [Repositorio GitHub](https://github.com/OrchestratorInc/agent-orchestrator) · consultado 2026-11-13
-- [README](https://github.com/OrchestratorInc/agent-orchestrator#readme) · consultado 2026-11-13
+- [Web oficial](https://orchestrator.inc/) · consultado 2026-11-23
+- [Repositorio GitHub](https://github.com/OrchestratorInc/agent-orchestrator) · consultado 2026-11-23
+- [README](https://github.com/OrchestratorInc/agent-orchestrator#readme) · consultado 2026-11-23
 
 ---
 

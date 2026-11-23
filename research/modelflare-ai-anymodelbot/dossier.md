@@ -4,9 +4,9 @@
 - **Web oficial**: https://anymodel.bot/
 - **Licencia**: MIT
 - **Lenguaje**: Python
-- **Estrellas**: 3304 · **Forks**: 46
-- **Último push**: 2026-11-11T12:44:17Z · **Última release**: 2026-11-15
-- **Revisado**: 2026-11-12 · **Confianza**: 62/100
+- **Estrellas**: 4985 · **Forks**: 115
+- **Último push**: 2026-11-22T18:58:42Z · **Última release**: 2026-11-22
+- **Revisado**: 2026-11-23 · **Confianza**: 62/100
 - **Tipo**: agent · **Categoría**: personal
 
 ## Qué es
@@ -21,12 +21,16 @@ README + revisión previa: workspace, memoria y control del escritorio por bot; 
 
 ## Release revisada
 
-- **Tag**: [v0.1.38](https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.38)
-- **Fecha**: 2026-11-15 (hace 0 días)
+- **Tag**: [v0.1.47](https://github.com/modelflare-ai/AnyModelBot/releases/tag/v0.1.47)
+- **Fecha**: 2026-11-22 (hace 1 días)
 - **Estado**: activo · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
-> AnyModelBot 0.1.38
+**Qué trae**: v0.1.47 (y v0.1.42–v0.1.46): sandbox estricto con bubblewrap en Linux, carpeta de trabajo in-place con aprobación fuera del límite, adjuntos ZIP/imágenes y generación de imágenes con confirmación de coste.
+
+**Impacto en la ficha**: Sube a 79.35 A (+1.10): Confianza 90→92 y Producto 54→60 por sandbox bubblewrap, carpeta de trabajo y mejoras de UX.
+
+> 新增 图片用作生图参考： 用 Modelflare 账号登录后，在和机器人的单聊里加了图片，附件数量旁会出现「用作生图参考」开关，默认关闭。打开后，这条消息里的图片按显示顺序作为参考，由右下角选的那个模型生成图片，结果回到同一个对话；只加图片不会自动生成或收费。当前模型不支持、能力暂时确认不了，或图片超出模型的数量、格式、尺寸限制时，输入框上方会说明原因，点其中的「切换模型」就打开原来的模型选择器。费用确认照旧（每次都问，或预计超过 $0.5 时问）；结果不明时不会自动重试。需要 Modelflare 提供型号能力信息，确认不了时不会发送；自定义 API Key 暂不支持。 在模型选择器里选图片生成模型： 登录账号后，右下角的模型选择器会列出这个账户能用的图片生成模型。选中后直接写想要的画面就能生成，不经过对话模型。 改进与修复 生图只用当前选的模型： 登录账号时，让机器人用自然语言生成图片，也只用右下角选的那个模型；它不能生图或能力确认不了时，会说明原因并请你切换，不再改用另一个默认生图模型（设置里的「默认生图模型」在登录账号后不再显示）。只用 API Key 连接时不变。 New Images as image-generation references: when you're signed in to Modelflare and add images in a one-on-one chat with a bot, a “Use as image-generation references” switch appears next to the attachment 
 
 ## Evidencia de la investigación
 
@@ -56,7 +60,7 @@ README + revisión previa: workspace, memoria y control del escritorio por bot; 
 
 ## Puntuación
 
-Grok Score: **78.25** · Tier **A** · ADN **88**
+Grok Score: **79.35** · Tier **A** · ADN **88**
 
 - **capacidad**: 84/100
 - **autonomia**: 78/100
@@ -64,8 +68,8 @@ Grok Score: **78.25** · Tier **A** · ADN **88**
 - **memoria**: 90/100
 - **rutinas**: 90/100
 - **equipo**: 55/100
-- **confianza**: 90/100
-- **producto**: 54/100
+- **confianza**: 92/100
+- **producto**: 60/100
 
 ## Fortalezas
 
@@ -87,10 +91,10 @@ Es el clon local-first más completo del referente Grok Bot y de dots/Claude Due
 
 ## Fuentes consultadas
 
-- [Repositorio GitHub](https://github.com/modelflare-ai/AnyModelBot) · consultado 2026-11-12
-- [Web oficial](https://anymodel.bot/) · consultado 2026-11-12
-- [README](https://github.com/modelflare-ai/AnyModelBot#readme) · consultado 2026-11-12
-- [Releases](https://github.com/modelflare-ai/AnyModelBot/releases) · consultado 2026-11-12
+- [Repositorio GitHub](https://github.com/modelflare-ai/AnyModelBot) · consultado 2026-11-23
+- [Web oficial](https://anymodel.bot/) · consultado 2026-11-23
+- [README](https://github.com/modelflare-ai/AnyModelBot#readme) · consultado 2026-11-23
+- [Releases](https://github.com/modelflare-ai/AnyModelBot/releases) · consultado 2026-11-23
 
 ---
 

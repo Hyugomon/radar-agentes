@@ -1,13 +1,37 @@
 {
-  "repo": "Fei2411/DS-Bot",
+  "repo": "Fei-Craft/DS-Bot",
   "source": "releases.atom",
-  "checked_at": "2026-11-15",
+  "checked_at": "2026-11-23",
   "entries": [
+    {
+      "tag": "v0.3.10",
+      "title": "v0.3.10",
+      "date": "2026-11-22",
+      "url": "https://github.com/Fei-Craft/DS-Bot/releases/tag/v0.3.10",
+      "pre": false,
+      "note": "Download / 下载 System / 系统 Download / 下载 Size / 大小 Windows 10/11 (64-bit / 64 位) Double-click to install / 双击安装 DS-Bot-0.3.10-win-x64.exe 291 MB macOS, Apple chip / Apple 芯片 DS-Bot-0.3.10-mac-arm64.zip 373 MB macOS, Intel DS-Bot-0.3.10-mac-x64.zip 389 MB Linux, AppImage DS-Bot-0.3.10-linux-x86_64.AppImage 372 MB Linux, deb (Debian, Ubuntu) DS-Bot-0.3.10-linux-amd64.deb 294 MB Android (phone app / 手机 App) DS-Bot-0.3.10-android.apk 58 MB The .blockmap , latest*.yml and ds-bot-*.tgz files and the source code archives are for updates and the plugin: you do not need to download them. .blockmap 、 latest*.yml 、 ds-bot-*.tgz 和源代码是给自动更新和插件用的，不用下载。 To check a download, compare its SHA-256 with SHA256SUMS.txt . / 下载后可以用 SHA256SUMS.txt 核对 SHA-256。 Added Settings console and redesign : Settings opens on an Overview page (with an in-place API key prompt when a Bot's provider lacks a key, team status, a"
+    },
+    {
+      "tag": "v0.3.9",
+      "title": "v0.3.9",
+      "date": "2026-11-21",
+      "url": "https://github.com/Fei-Craft/DS-Bot/releases/tag/v0.3.9",
+      "pre": false,
+      "note": "Download / 下载 System / 系统 Download / 下载 Size / 大小 Windows 10/11 (64-bit / 64 位) Double-click to install / 双击安装 DS-Bot-0.3.9-win-x64.exe 291 MB macOS, Apple chip / Apple 芯片 DS-Bot-0.3.9-mac-arm64.zip 373 MB macOS, Intel DS-Bot-0.3.9-mac-x64.zip 389 MB Linux, AppImage DS-Bot-0.3.9-linux-x86_64.AppImage 372 MB Linux, deb (Debian, Ubuntu) DS-Bot-0.3.9-linux-amd64.deb 294 MB Android (phone app / 手机 App) DS-Bot-0.3.9-android.apk 58 MB The .blockmap , latest*.yml and ds-bot-*.tgz files and the source code archives are for updates and the plugin: you do not need to download them. .blockmap 、 latest*.yml 、 ds-bot-*.tgz 和源代码是给自动更新和插件用的，不用下载。 To check a download, compare its SHA-256 with SHA256SUMS.txt . / 下载后可以用 SHA256SUMS.txt 核对 SHA-256。 Added Asynchronous Bot work and background tasks : slow shell commands continue in the background after a configurable wait ( Settings → General → Background wor"
+    },
+    {
+      "tag": "v0.3.8",
+      "title": "v0.3.8",
+      "date": "2026-11-16",
+      "url": "https://github.com/Fei-Craft/DS-Bot/releases/tag/v0.3.8",
+      "pre": false,
+      "note": "Download / 下载 System / 系统 Download / 下载 Size / 大小 Windows 10/11 (64-bit / 64 位) Double-click to install / 双击安装 DS-Bot-0.3.8-win-x64.exe 291 MB macOS, Apple chip / Apple 芯片 DS-Bot-0.3.8-mac-arm64.zip 369 MB macOS, Intel DS-Bot-0.3.8-mac-x64.zip 385 MB Linux, AppImage DS-Bot-0.3.8-linux-x86_64.AppImage 371 MB Linux, deb (Debian, Ubuntu) DS-Bot-0.3.8-linux-amd64.deb 291 MB Android (phone app / 手机 App) DS-Bot-0.3.8-android.apk 58 MB The .blockmap , latest*.yml and ds-bot-*.tgz files and the source code archives are for updates and the plugin: you do not need to download them. .blockmap 、 latest*.yml 、 ds-bot-*.tgz 和源代码是给自动更新和插件用的，不用下载。 To check a download, compare its SHA-256 with SHA256SUMS.txt . / 下载后可以用 SHA256SUMS.txt 核对 SHA-256。 Added Local agent Bots add support for Antigravity ( agy ) and 24 more coding CLIs with automatic stdio MCP bridging, per-engine cwd isolation, reasoning-level r"
+    },
     {
       "tag": "v0.3.6",
       "title": "v0.3.6",
       "date": "2026-11-12",
-      "url": "https://github.com/Fei2411/DS-Bot/releases/tag/v0.3.6",
+      "url": "https://github.com/Fei-Craft/DS-Bot/releases/tag/v0.3.6",
       "pre": false,
       "note": "Download / 下载 System / 系统 Download / 下载 Size / 大小 Windows 10/11 (64-bit / 64 位) Double-click to install / 双击安装 DS-Bot-0.3.6-win-x64.exe 291 MB macOS, Apple chip / Apple 芯片 DS-Bot-0.3.6-mac-arm64.zip 369 MB macOS, Intel DS-Bot-0.3.6-mac-x64.zip 384 MB Linux, AppImage DS-Bot-0.3.6-linux-x86_64.AppImage 371 MB Linux, deb (Debian, Ubuntu) DS-Bot-0.3.6-linux-amd64.deb 291 MB Android (phone app / 手机 App) DS-Bot-0.3.6-android.apk 117 MB The .blockmap , latest*.yml and ds-bot-*.tgz files and the source code archives are for updates and the plugin: you do not need to download them. .blockmap 、 latest*.yml 、 ds-bot-*.tgz 和源代码是给自动更新和插件用的，不用下载。 To check a download, compare its SHA-256 with SHA256SUMS.txt . / 下载后可以用 SHA256SUMS.txt 核对 SHA-256。 Fixed In the Android phone app, tapping another Bot or a group chat in the sidebar or tapping an incoming notice banner no longer closes the app, and switching "
     },
@@ -15,7 +39,7 @@
       "tag": "v0.3.5",
       "title": "v0.3.5",
       "date": "2026-11-11",
-      "url": "https://github.com/Fei2411/DS-Bot/releases/tag/v0.3.5",
+      "url": "https://github.com/Fei-Craft/DS-Bot/releases/tag/v0.3.5",
       "pre": false,
       "note": "Download / 下载 System / 系统 Download / 下载 Size / 大小 Windows 10/11 (64-bit / 64 位) Double-click to install / 双击安装 DS-Bot-0.3.5-win-x64.exe 291 MB macOS, Apple chip / Apple 芯片 DS-Bot-0.3.5-mac-arm64.zip 369 MB macOS, Intel DS-Bot-0.3.5-mac-x64.zip 384 MB Linux, AppImage DS-Bot-0.3.5-linux-x86_64.AppImage 371 MB Linux, deb (Debian, Ubuntu) DS-Bot-0.3.5-linux-amd64.deb 291 MB Android (phone app / 手机 App) DS-Bot-0.3.5-android.apk 117 MB The .blockmap , latest*.yml and ds-bot-*.tgz files and the source code archives are for updates and the plugin: you do not need to download them. .blockmap 、 latest*.yml 、 ds-bot-*.tgz 和源代码是给自动更新和插件用的，不用下载。 To check a download, compare its SHA-256 with SHA256SUMS.txt . / 下载后可以用 SHA256SUMS.txt 核对 SHA-256。 Added DS Bot phone app for Android (beta). Pair a phone with the QR code in Settings → Phone, then chat with your Bots and group chats, send photos, answer ques"
     },
@@ -23,7 +47,7 @@
       "tag": "v0.3.2",
       "title": "v0.3.2",
       "date": "2026-11-09",
-      "url": "https://github.com/Fei2411/DS-Bot/releases/tag/v0.3.2",
+      "url": "https://github.com/Fei-Craft/DS-Bot/releases/tag/v0.3.2",
       "pre": false,
       "note": "Download / 下载 System / 系统 Download / 下载 Size / 大小 Windows 10/11 (64-bit / 64 位) Double-click to install / 双击安装 DS-Bot-0.3.2-win-x64.exe 290 MB macOS, Apple chip / Apple 芯片 DS-Bot-0.3.2-mac-arm64.zip 369 MB macOS, Intel DS-Bot-0.3.2-mac-x64.zip 384 MB Linux, AppImage DS-Bot-0.3.2-linux-x86_64.AppImage 371 MB Linux, deb (Debian, Ubuntu) DS-Bot-0.3.2-linux-amd64.deb 290 MB The .blockmap , latest*.yml and ds-bot-*.tgz files and the source code archives are for updates and the plugin: you do not need to download them. .blockmap 、 latest*.yml 、 ds-bot-*.tgz 和源代码是给自动更新和插件用的，不用下载。 To check a download, compare its SHA-256 with SHA256SUMS.txt . / 下载后可以用 SHA256SUMS.txt 核对 SHA-256。 Added You can organize the sidebar into collapsible sections: create sections, drag Bots and groups between them, or let the Main Bot organize the team for you. ( #836 , #875 , #1176 ) Creating or editing a Bot puts its r"
     },
@@ -31,7 +55,7 @@
       "tag": "v0.3.1",
       "title": "v0.3.1",
       "date": "2026-11-07",
-      "url": "https://github.com/Fei2411/DS-Bot/releases/tag/v0.3.1",
+      "url": "https://github.com/Fei-Craft/DS-Bot/releases/tag/v0.3.1",
       "pre": false,
       "note": "Download / 下载 System / 系统 Download / 下载 Size / 大小 Windows 10/11 (64-bit / 64 位) Double-click to install / 双击安装 DS-Bot-0.3.1-win-x64.exe 288 MB macOS, Apple chip / Apple 芯片 DS-Bot-0.3.1-mac-arm64.zip 366 MB macOS, Intel DS-Bot-0.3.1-mac-x64.zip 381 MB Linux, AppImage DS-Bot-0.3.1-linux-x86_64.AppImage 368 MB Linux, deb (Debian, Ubuntu) DS-Bot-0.3.1-linux-amd64.deb 288 MB The .blockmap , latest*.yml and ds-bot-*.tgz files and the source code archives are for updates and the plugin: you do not need to download them. .blockmap 、 latest*.yml 、 ds-bot-*.tgz 和源代码是给自动更新和插件用的，不用下载。 To check a download, compare its SHA-256 with SHA256SUMS.txt . / 下载后可以用 SHA256SUMS.txt 核对 SHA-256。 Fixed Opening Settings → Local agents no longer stops Bot settings and other DS Bot dialogs from opening until the window reloads. ( #1016 , #1017 ) Changed The Docker image runs DeepSeek Harness 0.2.2-rc.1. ( #983 )"
     },
@@ -39,7 +63,7 @@
       "tag": "v0.3.0",
       "title": "v0.3.0",
       "date": "2026-11-06",
-      "url": "https://github.com/Fei2411/DS-Bot/releases/tag/v0.3.0",
+      "url": "https://github.com/Fei-Craft/DS-Bot/releases/tag/v0.3.0",
       "pre": false,
       "note": "Download / 下载 System / 系统 Download / 下载 Size / 大小 Windows 10/11 (64-bit / 64 位) Double-click to install / 双击安装 DS-Bot-0.3.0-win-x64.exe 288 MB macOS, Apple chip / Apple 芯片 DS-Bot-0.3.0-mac-arm64.zip 366 MB macOS, Intel DS-Bot-0.3.0-mac-x64.zip 381 MB Linux, AppImage DS-Bot-0.3.0-linux-x86_64.AppImage 368 MB Linux, deb (Debian, Ubuntu) DS-Bot-0.3.0-linux-amd64.deb 288 MB The .blockmap , latest*.yml and ds-bot-*.tgz files and the source code archives are for updates and the plugin: you do not need to download them. .blockmap 、 latest*.yml 、 ds-bot-*.tgz 和源代码是给自动更新和插件用的，不用下载。 To check a download, compare its SHA-256 with SHA256SUMS.txt . / 下载后可以用 SHA256SUMS.txt 核对 SHA-256。 Added Bots can use the apps on your computer, as far as you allow: turn it on in Settings → Computer use, give each Bot a level and its apps, and take over or hand back at any time. ( #917 , #918 ) Talk to your Bots from "
     },
@@ -47,7 +71,7 @@
       "tag": "v0.2.7",
       "title": "v0.2.7",
       "date": "2026-11-03",
-      "url": "https://github.com/Fei2411/DS-Bot/releases/tag/v0.2.7",
+      "url": "https://github.com/Fei-Craft/DS-Bot/releases/tag/v0.2.7",
       "pre": false,
       "note": "Download / 下载 System / 系统 Download / 下载 Size / 大小 Windows 10/11 (64-bit / 64 位) Double-click to install / 双击安装 DS-Bot-0.2.7-win-x64.exe 275 MB macOS, Apple chip / Apple 芯片 DS-Bot-0.2.7-mac-arm64.zip 334 MB macOS, Intel DS-Bot-0.2.7-mac-x64.zip 350 MB Linux, AppImage DS-Bot-0.2.7-linux-x86_64.AppImage 347 MB Linux, deb (Debian, Ubuntu) DS-Bot-0.2.7-linux-amd64.deb 272 MB The .blockmap , latest*.yml and ds-bot-*.tgz files and the source code archives are for updates and the plugin: you do not need to download them. .blockmap 、 latest*.yml 、 ds-bot-*.tgz 和源代码是给自动更新和插件用的，不用下载。 To check a download, compare its SHA-256 with SHA256SUMS.txt . / 下载后可以用 SHA256SUMS.txt 核对 SHA-256。 Added A group's admin can set a goal with you, split it into checked stages for its members and run it to the end; the header shows the current stage and who is working on it, and you can pause, resume, stop or clear the "
     },
@@ -55,33 +79,9 @@
       "tag": "v0.2.6",
       "title": "v0.2.6",
       "date": "2026-11-02",
-      "url": "https://github.com/Fei2411/DS-Bot/releases/tag/v0.2.6",
+      "url": "https://github.com/Fei-Craft/DS-Bot/releases/tag/v0.2.6",
       "pre": false,
       "note": "Hotfix for the desktop app. Group chats open again in a team imported by 0.2.2 or earlier. Those imports did not copy each group's own conversation, so a click on the group did nothing. At start, the app now copies the missing conversations from the DSH home the team came from; your old DSH home is only read. ( #551 , #837 )"
-    },
-    {
-      "tag": "v0.2.5",
-      "title": "v0.2.5",
-      "date": "2026-11-01",
-      "url": "https://github.com/Fei2411/DS-Bot/releases/tag/v0.2.5",
-      "pre": false,
-      "note": "Renamed to DS Bot. The desktop app and its downloads are now called DS Bot; your team, chats, settings and browser data carry over when you update. Group chats: no relay limit; @ calls in one message start all the named members at once, and the calling Bot waits until all of them finish; a member that only says \"Got it\" goes straight on to its tools. How Bots work: Bots hand parallel work to other Bots instead of starting DSH subagents. In a private chat, a message you send while the Bot is working reaches it right away. Crash &amp; data fixes: fixed the Linux image crash, the part-switch loop on repeated model errors, lost Bot-to-Bot messages across restarts or failed deliveries, outside edits to state.json being overwritten, folder guard bypasses, and secrets missing after a restart. 30+ more fixes across group folders and notices, memory review and Chinese recall, voice input, usage s"
-    },
-    {
-      "tag": "v0.2.4",
-      "title": "v0.2.4",
-      "date": "2026-10-29",
-      "url": "https://github.com/Fei2411/DS-Bot/releases/tag/v0.2.4",
-      "pre": false,
-      "note": "Privacy Bot: a Bot can be marked private; other Bots cannot read its folder, memory or chats, and sharing needs your approval. Bots can read, check and edit Word, PowerPoint and Excel documents. A Bot can propose a new skill or an AGENTS.md update after long work; applied only when you approve. Group details can stop all work in the group at once. The sidebar can be dragged to resize or folded to an avatar rail; narrow windows fold the Bot panel first. Bot views run on the shared Deep View package. Fixes: group-name tooltip on truncated names, read_group_chat on notice rows, installer writable-folder check. DS Bot tracks DeepSeek Harness 0.2.1-rc.4."
-    },
-    {
-      "tag": "v0.2.3",
-      "title": "v0.2.3",
-      "date": "2026-10-27",
-      "url": "https://github.com/Fei2411/DS-Bot/releases/tag/v0.2.3",
-      "pre": false,
-      "note": "Added The desktop app keeps running in the system tray when you close its window, so Bots go on with their work. Click the tray icon to open the window again, or choose Quit there to end the app. ( #500 , #549 ) An avatar library in Bot settings and New Bot: import several photos at once and reuse them for any Bot. If some files fail, the others are still imported. ( #484 , #491 ) When a Bot hands its browser to you for a sign-in, a payment or a check, a card in the chat lets you take over, skip it, or tell the Bot you're done. ( #591 ) A message you steer into a running turn shows \"Not read yet\" under it until the Bot reads it. ( #581 , #598 ) Old /btw cards left by 0.2.1 can be deleted from the chat. ( #550 , #555 ) Changed Long replies are easier to read: in the desktop app, Chinese text uses the system font, lines are a little looser and stay even around inline code, and list items h"
     }
   ]
 }

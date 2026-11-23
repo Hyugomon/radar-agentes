@@ -4,9 +4,9 @@
 - **Web oficial**: https://hermes-agent.nousresearch.com
 - **Licencia**: MIT
 - **Lenguaje**: Python
-- **Estrellas**: 262811 · **Forks**: 59107
-- **Último push**: 2026-11-12T07:45:11Z · **Última release**: 2026-11-15
-- **Revisado**: 2026-11-12 · **Confianza**: 62/100
+- **Estrellas**: 265650 · **Forks**: 60115
+- **Último push**: 2026-11-23T21:49:35Z · **Última release**: 2026-11-23
+- **Revisado**: 2026-11-23 · **Confianza**: 62/100
 - **Tipo**: agent · **Categoría**: general
 
 ## Qué es
@@ -21,12 +21,16 @@ README: memoria persistente, skills que se auto-mejoran, cron, subagentes, backe
 
 ## Release revisada
 
-- **Tag**: [v0.23.1+canary.20261115T064406Z](https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.1%2Bcanary.20261115T064406Z)
-- **Fecha**: 2026-11-15 (hace 0 días)
+- **Tag**: [canary.20261123T065600Z-v0.23.3](https://github.com/NousResearch/hermes-agent/releases/tag/canary.20261123T065600Z-v0.23.3)
+- **Fecha**: 2026-11-23 (hace 0 días)
 - **Estado**: activo · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
-> Hermes Agent v0.23.1+canary.20261115T064406Z (v0.23.1+canary.20261115T064406Z) Release Date: November 15, 2026 Downloads Hermes Desktop OS Architecture Download macOS Apple Silicon (M-series) DMG Windows x86 (64-bit) MSIX Windows ARM (arm64 / aarch64) MSIX Native install/chat smoke Download availability is independent of smoke status. Each result covers all native legs in that format group. Linux bundles are disabled; unsigned Store envelopes are not install-smoked. No-upload dry tags have no download handoff and are not smoke-qualified. Packages Smoke status macOS DMG + ZIP (arm64) Passed Windows MSIX (arm64) Passed Windows MSIX (x64) Passed ✨ Features Plugin "dosbox-mcp" ( 4c02a304 ) — @sh
+**Qué trae**: v0.23.3 estable (y canary 2026-11-23): consolida ~370 PRs y 1,657 commits para CLI, Desktop (macOS/Windows MSIX), Microsoft Store, Docker y Hermes Cloud.
+
+**Impacto en la ficha**: Sube a 83.85 S (+0.30): Producto 77→79 por la consolidación estable multiplataforma v0.23.3.
+
+> Hermes Agent v0.23.3+canary.20261123T065600Z (canary.20261123T065600Z-v0.23.3) Release Date: November 23, 2026 Downloads Hermes Desktop OS Architecture Download macOS Apple Silicon (M-series) DMG Windows x86 (64-bit) MSIX Windows ARM (arm64 / aarch64) MSIX Native install/chat smoke Download availability is independent of smoke status. Each result covers all native legs in that format group. Linux AppImages and unsigned Store envelopes are not install-smoked. No-upload dry tags have no download handoff and are not smoke-qualified. Packages Smoke status macOS DMG + ZIP (arm64) Passed Windows MSIX (arm64) Passed Windows MSIX (x64) Passed ✨ Features Release): wire commit claims into stable-relea
 
 ## Evidencia de la investigación
 
@@ -56,7 +60,7 @@ README: memoria persistente, skills que se auto-mejoran, cron, subagentes, backe
 
 ## Puntuación
 
-Grok Score: **83.55** · Tier **S** · ADN **100**
+Grok Score: **83.85** · Tier **S** · ADN **100**
 
 - **capacidad**: 80/100
 - **autonomia**: 75/100
@@ -65,12 +69,12 @@ Grok Score: **83.55** · Tier **S** · ADN **100**
 - **rutinas**: 90/100
 - **equipo**: 90/100
 - **confianza**: 90/100
-- **producto**: 77/100
+- **producto**: 79/100
 
 ## Fortalezas
 
 - Bucle de aprendizaje propio que convierte la experiencia en skills reutilizables, algo que casi ningún competidor ofrece
-- Adopción extraordinaria (262,811 estrellas) con app de escritorio, documentación propia y comunidad activa en Discord
+- Adopción extraordinaria (265,650 estrellas) con app de escritorio, documentación propia y comunidad activa en Discord
 - Se actualiza a diario y mantiene READMEs localizados, señal de producto cuidado y no de experimento
 
 ## Lo que le falta / riesgos
@@ -85,10 +89,10 @@ Está en la élite de los agentes de código abierto, pero aún a un paso del li
 
 ## Fuentes consultadas
 
-- [Repositorio GitHub](https://github.com/NousResearch/hermes-agent) · consultado 2026-11-12
-- [Web oficial](https://hermes-agent.nousresearch.com) · consultado 2026-11-12
-- [README](https://github.com/NousResearch/hermes-agent#readme) · consultado 2026-11-12
-- [Releases](https://github.com/NousResearch/hermes-agent/releases) · consultado 2026-11-12
+- [Repositorio GitHub](https://github.com/NousResearch/hermes-agent) · consultado 2026-11-23
+- [Web oficial](https://hermes-agent.nousresearch.com) · consultado 2026-11-23
+- [README](https://github.com/NousResearch/hermes-agent#readme) · consultado 2026-11-23
+- [Releases](https://github.com/NousResearch/hermes-agent/releases) · consultado 2026-11-23
 
 ---
 

@@ -1,8 +1,32 @@
 {
   "repo": "androoAGI/starnet",
   "source": "releases.atom",
-  "checked_at": "2026-11-15",
+  "checked_at": "2026-11-23",
   "entries": [
+    {
+      "tag": "v0.15.4",
+      "title": "StarNet v0.15.4",
+      "date": "2026-11-20",
+      "url": "https://github.com/androoAGI/starnet/releases/tag/v0.15.4",
+      "pre": false,
+      "note": "Download Platform Installer Windows (x64) StarNet_0.15.4_x64-setup.exe macOS (Apple Silicon) StarNet_0.15.4_aarch64.dmg macOS (Intel) StarNet_0.15.4_x64.dmg These downloads are mirrored byte-for-byte from the validated StarNet distribution release. Already running StarNet? Update from inside the app; your crew, sessions, keys, and station remain in place. StarNet v0.15.4 Full Power no longer asks. In 0.15.3 an agent on Full Access asked before every command once its chat had read a web page, an email or a connector result, and the update itself switched Full Access off for every agent. This release takes both back. It also fixes a context meter that could lock a model out of new chats. Before you update Already on 0.15.3? Turn Full Access back on once. 0.15.3 set every agent that had FULL ACCESS back to ask first and turned FULL BYPASS off. This update cannot bring that back for you. Giv"
+    },
+    {
+      "tag": "v0.15.3",
+      "title": "StarNet v0.15.3",
+      "date": "2026-11-19",
+      "url": "https://github.com/androoAGI/starnet/releases/tag/v0.15.3",
+      "pre": false,
+      "note": "Download Platform Installer Windows (x64) StarNet_0.15.3_x64-setup.exe macOS (Apple Silicon) StarNet_0.15.3_aarch64.dmg macOS (Intel) StarNet_0.15.3_x64.dmg These downloads are mirrored byte-for-byte from the validated StarNet distribution release. Already running StarNet? Update from inside the app; your crew, sessions, keys, and station remain in place. StarNet v0.15.3 On first open after this update, every agent that had Full Access asks first again and FULL BYPASS is off. Their tools, connectors and reach are kept; give Full Access back by hand in each agent's dossier. This release also brings a new dashboard look, a restart that no longer stops on RESUME asking for a key while Claude Code is signed in, a confirmation for anything that gives lasting power, routine runs that no longer fill the session list, and a fix for older chat history that would not load. Before you update Agents"
+    },
+    {
+      "tag": "v0.15.2",
+      "title": "v0.15.2",
+      "date": "2026-11-18",
+      "url": "https://github.com/androoAGI/starnet/releases/tag/v0.15.2",
+      "pre": false,
+      "note": "qa(claims): re-lock the release surface for v0.15.2"
+    },
     {
       "tag": "v0.15.0",
       "title": "StarNet v0.15.0",
@@ -58,30 +82,6 @@
       "url": "https://github.com/androoAGI/starnet/releases/tag/v0.13.2",
       "pre": false,
       "note": "Download Platform Installer Windows (x64) StarNet_0.13.2_x64-setup.exe macOS (Apple Silicon) StarNet_0.13.2_aarch64.dmg macOS (Intel) StarNet_0.13.2_x64.dmg These downloads are mirrored byte-for-byte from the validated StarNet distribution release. Already running StarNet? Update from inside the app; your crew, sessions, keys, and station remain in place. StarNet v0.13.2 Before you update: if the in-app update from 0.13.1 stops with \"Update paused - no verified recovery point was created\", download the full installer from the releases page and run it over the top (your station is kept). If agents are working, choose WAIT FOR AGENTS, not INSTALL ANYWAY. macOS 10.15 Catalina is no longer supported: StarNet needs macOS 11+ with Safari 16.4+. A large repair update: credits and spending tell the truth, in-app updates are safer, routines get their keys and tools back, the station runs lighter,"
-    },
-    {
-      "tag": "v0.13.1",
-      "title": "StarNet v0.13.1",
-      "date": "2026-10-04",
-      "url": "https://github.com/androoAGI/starnet/releases/tag/v0.13.1",
-      "pre": false,
-      "note": "Download Platform Installer Windows (x64) StarNet_0.13.1_x64-setup.exe macOS (Apple Silicon) StarNet_0.13.1_aarch64.dmg macOS (Intel) StarNet_0.13.1_x64.dmg These downloads are mirrored byte-for-byte from the validated StarNet distribution release. Already running StarNet? Update from inside the app; your crew, sessions, keys, and station remain in place. StarNet v0.13.1 A repair update: web requests work again, group chats save and show who is in them, COMMS reads like a conversation, crew no longer freeze in the halls, each floor OUTBOX shows only its own line's work, schedules let you pick who they run as, and spending limits hold during retries. Fixed Web requests web_request and web_fetch work again. Since 0.12.5, every web request an agent made could fail with \"fetch failed\", even for sites like google.com. Requests now connect normally, and on networks without IPv6 they fall back "
-    },
-    {
-      "tag": "v0.13.0",
-      "title": "StarNet v0.13.0",
-      "date": "2026-10-03",
-      "url": "https://github.com/androoAGI/starnet/releases/tag/v0.13.0",
-      "pre": false,
-      "note": "Download Platform Installer Windows (x64) StarNet_0.13.0_x64-setup.exe macOS (Apple Silicon) StarNet_0.13.0_aarch64.dmg macOS (Intel) StarNet_0.13.0_x64.dmg These downloads are mirrored byte-for-byte from the validated StarNet distribution release. Already running StarNet? Update from inside the app; your crew, sessions, keys, and station remain in place. StarNet v0.13.0 A simpler dock, a new glass look, apps your crew builds, StarNet Remote for your phone, Claude Code as a provider, and a lead that builds rooms and changes settings from chat. Heads-up: stations that never set autonomy now start at SUGGEST, routines stop after 90 minutes, a StarNet-credits run stops at $2 unless you set a per-run limit, old notifications are cleared, and going back to 0.12.5 drops made props and plugin terminals. See Heads-up below. Highlights One dock, fewer doors. The dock keeps its four menus (CREW, W"
-    },
-    {
-      "tag": "v0.12.5",
-      "title": "StarNet v0.12.5",
-      "date": "2026-09-28",
-      "url": "https://github.com/androoAGI/starnet/releases/tag/v0.12.5",
-      "pre": false,
-      "note": "Download Platform Installer Windows (x64) StarNet_0.12.5_x64-setup.exe macOS (Apple Silicon) StarNet_0.12.5_aarch64.dmg macOS (Intel) StarNet_0.12.5_x64.dmg These downloads are mirrored byte-for-byte from the validated StarNet distribution release. Already running StarNet? Update from inside the app; your crew, sessions, keys, and station remain in place. StarNet v0.12.5 Workflow lines you can step-test and start from a folder or webhook, Google Workspace early access, steadier long runs, and a large security update. Heads-up: metered runs now stop once spend in the last 24 hours reaches $25, until you press RESUME in Budget (editable; 0 turns it off). Some plugins, chat-channel bots and code.run ask for approval or pairing again. The heads-up items at the end list what to check. Highlights Workflow studio. Each line gets one docked Workflow panel. You can step-test a line one stage at a"
     }
   ]
 }

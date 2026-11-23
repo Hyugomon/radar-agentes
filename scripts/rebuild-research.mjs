@@ -128,8 +128,8 @@ for (const p of index.projects) {
   p.strengths = o.strengths || p.strengths
   p.weaknesses = o.weaknesses || p.weaknesses
   p.comparison = o.comparison || p.comparison
-  p.release_highlight = o.release_highlight || p.release_highlight || ''
-  p.release_impact = o.release_impact || p.release_impact || ''
+  p.release_highlight = o.release_highlight !== undefined ? o.release_highlight : (p.release_highlight || '')
+  p.release_impact = o.release_impact !== undefined ? o.release_impact : (p.release_impact || '')
   p.setup = o.setup || p.setup || 'moderate'
   p.platforms = o.platforms || p.platforms || ['Desktop']
   p.channels = o.channels || p.channels || ['Chat']
@@ -151,7 +151,7 @@ for (const p of index.projects) {
   p.total = Math.round(Object.entries(WEIGHTS).reduce((sum, [k, w]) => sum + p.dimensions[k] * w, 0) * 100) / 100
   p.tier = tierFor(p.total)
   p.agency = PILLARS.reduce((sum, pillar) => sum + (p.pillars[pillar.key] ? pillar.weight : 0), 0)
-  p.judged_day = p.judged_day || new Date().toISOString().slice(0, 10)
+  p.judged_day = o.judged_day || p.release_checked_at || p.judged_day || new Date().toISOString().slice(0, 10)
   p.summary = cleanStars(p.summary, p.stars)
   p.strengths = (p.strengths || []).map(s => cleanStars(s, p.stars))
   p.weaknesses = (p.weaknesses || []).map(s => cleanStars(s, p.stars))

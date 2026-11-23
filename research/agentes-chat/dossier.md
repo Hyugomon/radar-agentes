@@ -4,9 +4,9 @@
 - **Web oficial**: https://agentes.chat
 - **Licencia**: AGPL-3.0
 - **Lenguaje**: TypeScript
-- **Estrellas**: 1425 · **Forks**: 251
-- **Último push**: 2026-11-15T06:22:40Z · **Última release**: 2026-11-14
-- **Revisado**: 2026-11-15 · **Confianza**: 58/100
+- **Estrellas**: 1989 · **Forks**: 390
+- **Último push**: 2026-11-23T21:49:19Z · **Última release**: 2026-11-23
+- **Revisado**: 2026-11-23 · **Confianza**: 58/100
 - **Tipo**: agent · **Categoría**: teams
 
 ## Qué es
@@ -21,16 +21,16 @@ README y web oficial: Slack open source con agentes miembros del workspace, comp
 
 ## Release revisada
 
-- **Tag**: [desktop-v0.8.8](https://github.com/agentes-chat/agentes-chat/releases/tag/desktop-v0.8.8)
-- **Fecha**: 2026-11-14 (hace 1 días)
+- **Tag**: [ios-v0.1.6](https://github.com/agentes-chat/agentes-chat/releases/tag/ios-v0.1.6)
+- **Fecha**: 2026-11-23 (hace 0 días)
 - **Estado**: activo · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
-**Qué trae**: 0.8.8: correcciones de escritorio y móvil; la base ya incluye canales, computadora y aprobaciones.
+**Qué trae**: iOS 0.1.6 / Android 0.1.10: apps móviles activas, anotaciones en archivos con pines y visibilidad en vivo cuando un agente consulta a otro.
 
-**Impacto en la ficha**: Nuevo en el ranking: 84.60 S. 8/8 pilares; producto joven y en beta abierta.
+**Impacto en la ficha**: Se mantiene en 84.60 S: avances de acabado móvil y colaboración en beta abierta sin cambios de pilares.
 
-> fix(desktop): the app no longer stops answering on macOS while it reads the window's cookies fix(mobile): the agents' conversation sheet keeps its title and foot clear of the list fix(mobile): the chat's fade under the header is solid behind the status bar docs(engine): listsAgentTo says plainly which agents a narrowed list keeps feat(web): no "more agents in Team" row for who doesn't see every agent feat(engine), i18n: "See all agents", on for everyone; off, Team lists only the agents that answer you Installing (first open) The desktop app is in beta: the Mac build isn't notarized by Apple yet and the Windows installer isn't signed by Microsoft, so the first open asks once. After that it op
+> fix(mobile): a computer's line keeps its rows' room fix(mobile): the agents' conversation is taken by its header; no close plate fix(mobile): an agent's face inside a line of words stands in its sky tile fix(client): the working line says an agent's work while its question to another agent is out test: match the sheet bar across its lines style: the asked agent's face on the formatter's lines fix(mobile): framed faces in the working line; the agents' conversation takes the sheets' bar fix(mobile): a list in my own message keeps its words fix(mobile): a canvas pin's corners follow its face too feat(mobile): take a Drive file off a task; a picture pin's corners follow its face chore(mobile): a
 
 ## Evidencia de la investigación
 
@@ -90,10 +90,10 @@ Es la alternativa open source más directa a Grok Bot en formato Slack: equipo, 
 
 ## Fuentes consultadas
 
-- [Repositorio GitHub](https://github.com/agentes-chat/agentes-chat) · consultado 2026-11-15
-- [Web oficial](https://agentes.chat) · consultado 2026-11-15
-- [README](https://github.com/agentes-chat/agentes-chat#readme) · consultado 2026-11-15
-- [Releases](https://github.com/agentes-chat/agentes-chat/releases) · consultado 2026-11-15
+- [Repositorio GitHub](https://github.com/agentes-chat/agentes-chat) · consultado 2026-11-23
+- [Web oficial](https://agentes.chat) · consultado 2026-11-23
+- [README](https://github.com/agentes-chat/agentes-chat#readme) · consultado 2026-11-23
+- [Releases](https://github.com/agentes-chat/agentes-chat/releases) · consultado 2026-11-23
 
 ---
 

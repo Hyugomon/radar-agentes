@@ -1,8 +1,56 @@
 {
   "repo": "Emanuele-web04/synara",
   "source": "releases.atom",
-  "checked_at": "2026-11-15",
+  "checked_at": "2026-11-23",
   "entries": [
+    {
+      "tag": "v1.6.5",
+      "title": "Synara v1.6.5",
+      "date": "2026-11-21",
+      "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.6.5",
+      "pre": false,
+      "note": "Better multilingual transcripts, retained OpenCode reasoning, and more predictable Antigravity resume. Added The analytics receiver can group Remote connection failures by stage, network kind, and connection path when updated iPhone and iPad clients send those categories. Desktop Beta adds six consent-gated reliability codes for admission, authorization, tunnel provisioning, and connector exits. Payloads use fixed categories without hostnames, IP addresses, network names, or free-form errors. The receiver migration and deployment are separate from this Stable desktop release. ( #2257 ) Changed Desktop refreshes the recorded app version for existing Remote links when reporting endpoints. The account service also gains maintenance logic to retire stale pre-Stable Remote 1.0.6 preview identities after a grace period. That cleanup runs through account service maintenance. ( #2256 ) Browser C"
+    },
+    {
+      "tag": "v1.6.4",
+      "title": "Synara v1.6.4",
+      "date": "2026-11-20",
+      "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.6.4",
+      "pre": false,
+      "note": "Antigravity connectors, lighter Remote reconnects, and more usable narrow chats. Added Antigravity sessions can use Synara tools and connected services such as Notion and Linear. The new ACP integration streams reasoning, tool activity, context usage, and questions, and resumes existing conversations. Requires Antigravity CLI 1.5.0 or newer. Start a new session to pick up newly connected services. ( #2233 ) New pull requests created through Synara include a “Created with Synara” link by default. Turn it off in Settings → Models &amp; writing → Add Synara attribution . ( #2229 ) Changed Remote can catch up a cached chat using just that chat's changes, even after heavy unrelated desktop activity. In an authenticated loopback benchmark with 400 chats and 1,500 messages in the active chat, a sparse catch-up response fell from about 676 KB to 2 KB. In the same fixture, the iOS Simulator appli"
+    },
+    {
+      "tag": "v1.6.3",
+      "title": "Synara v1.6.3",
+      "date": "2026-11-19",
+      "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.6.3",
+      "pre": false,
+      "note": "Faster long chats, live tool activity, and dependency seeding for macOS worktrees. Added The chat working indicator shows the current tool call, recent failure, or a request for approval or an answer. Tool runs fold into summaries that distinguish actions such as code search and web search. ( #2220 ) On macOS, newly created worktrees can inherit eligible node_modules directories through APFS cloning when the tracked lockfiles match. Cloning is best effort and project setup scripts still run. In one Synara checkout benchmark, cloning 13 directories took 1.9–3.2 s, compared with 6.5 s for a warm Bun install in a fresh worktree. ( #2219 ) Changed Chats start loading on a sidebar press and reuse settled Markdown when transcript rows come back into view. In a headless Chromium A/B benchmark with seeded conversations, median first opens took 16–20% less time, and repeat scroll flings used 19–2"
+    },
+    {
+      "tag": "v1.6.2",
+      "title": "Synara v1.6.2",
+      "date": "2026-11-17",
+      "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.6.2",
+      "pre": false,
+      "note": "Local video playback, Codex Ultrafast and more reliable worktrees. Added Play and seek local MP4, M4V, WebM, MOV and OGV videos in file previews and inline in chat. Unsupported codecs offer download and retry; desktop-proxied remote hosts offer download instead of streaming. Choose Codex Ultrafast when the account's model catalog advertises it. Speed choices follow the selected model and account. Discover the Synara for iPhone beta from an eligible desktop launch announcement. Remove empty Remote projects from the sidebar without deleting their files; archived chats and unsent drafts prevent removal. Changed Worktree creation completes without waiting for unrelated Git and GitHub refreshes and uses parallel checkout unless configured otherwise. In one isolated 10,000-file repository run, creation completed in 1.21 seconds; no equivalent before measurement was made. Codex startup warnings"
+    },
+    {
+      "tag": "v1.6.1",
+      "title": "Synara v1.6.1",
+      "date": "2026-11-16",
+      "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.6.1",
+      "pre": false,
+      "note": "What's Changed build: stop the web bundle waiting for the contracts declaration build by @Emanuele-web04 in #2183 ci(test): run each server shard on every core by @Emanuele-web04 in #2164 ci: blobless full-history clone where history is read; shallow elsewhere by @Emanuele-web04 in #2165 test(web): random test order, and fix the leaks it found by @Emanuele-web04 in #2167 fix(desktop): stop a dropped network guard call from hanging startup by @Emanuele-web04 in #2191 fix(web): surface read/search icons for native tool names across providers by @horizzon3507 in #2178 fix(server): boot a shut-down simulator before running an app on it by @Emanuele-web04 in #2192 fix(web): focus rings, contrast, labels and touch targets from a consistency pass by @Emanuele-web04 in #2186 Make composer predictions reliable and retryable by @Emanuele-web04 in #2175 feat(onboarding): guide provider sign-in and "
+    },
+    {
+      "tag": "v1.6.0",
+      "title": "Synara v1.6.0",
+      "date": "2026-11-15",
+      "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.6.0",
+      "pre": false,
+      "note": "Composer suggestions, clearer tables and a lighter desktop. Added After a settled main-chat reply, a supported provider can suggest a follow-up in the empty composer. Tab inserts an editable draft; it never sends automatically. Disable it in Settings → Chat behavior → Show suggestions. Generation uses the chat's provider and recent conversation context; unsupported providers offer no suggestion. Chat tables keep short values, numbers and units together, scroll horizontally when necessary, and offer Copy table to copy their Markdown. Changed Desktop startup defers unused provider and service work, uses a version-scoped backend compile cache and stops background usage work during shutdown. In source-build tests on one Mac, three streaming Claude threads used 3,136 MB versus 2,281 MB of process-tree memory (27% less). In a separate later comparison, median relaunch-to-typing fell from 1.715"
+    },
     {
       "tag": "v1.5.4",
       "title": "Synara v1.5.4",
@@ -34,54 +82,6 @@
       "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.5.1",
       "pre": false,
       "note": "What's Changed Start web checkout from a verified Synara account by @Emanuele-web04 in #2093 Handle released Stable migrations and track anonymous Remote outcomes by @Emanuele-web04 in #2095 Full Changelog : v1.5.0...v1.5.1"
-    },
-    {
-      "tag": "v1.5.0",
-      "title": "Synara v1.5.0",
-      "date": "2026-11-10",
-      "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.5.0",
-      "pre": false,
-      "note": "What's Changed perf(server): stop history-length stalls on long threads ( #1900 ) by @Emanuele-web04 in #1945 fix(web): remove the server-busy popup and stop refetch storms during parallel threads by @Emanuele-web04 in #1946 perf(web): queue RPCs client-side instead of reject-and-retry by @Emanuele-web04 in #1947 fix(claude): discover effort controls from the installed CLI by @ByteTheDev in #1948 fix(claude): remove the synthetic default effort option by @Emanuele-web04 in #1953 Preserve live turn ownership and page runtime reconciliation by @cmdr-chara in #1866 fix(git): keep a/ and b/ diff prefixes under user diff config by @MarMarLabs in #1863 fix(server): settle provider handoffs without replaying native work by @cmdr-chara in #1842 fix(ci): validate migration lineage within the release family by @Emanuele-web04 in #1955 fix(server): hide Codex moderation metadata from chat activity "
-    },
-    {
-      "tag": "v1.0.6-remote.44",
-      "title": "Synara Remote v1.0.6-remote.44 (legacy)",
-      "date": "2026-11-10",
-      "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.0.6-remote.44",
-      "pre": false,
-      "note": "Synara Remote is now part of Stable For new installations, download Synara Stable 1.5.0 . Install Stable separately, then sign in with the same Synara account to access your account data and paired computers. Local-only conversations remain in the app where they were created. This early-access release is kept for existing Synara Remote installations and their update feed. Fixed Pending MCP connector approvals stay pinned above the composer while you scroll, even when Worked for is collapsed. After approval or dismissal, the card stays in the transcript. Desktop downloads macOS Apple Silicon. Signed and notarized. Windows x64. Unsigned for this release. The published installer passed Microsoft Defender in CI and may show a SmartScreen prompt. Linux x64 AppImage. The exact release tag passed the full test suite and packaged startup checks on all three platforms."
-    },
-    {
-      "tag": "v1.0.6-remote.43",
-      "title": "v1.0.6-remote.43",
-      "date": "2026-11-03",
-      "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.0.6-remote.43",
-      "pre": false,
-      "note": "chore(release): prepare Synara Remote .43"
-    },
-    {
-      "tag": "v1.0.6-remote.42",
-      "title": "v1.0.6-remote.42",
-      "date": "2026-11-03",
-      "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.0.6-remote.42",
-      "pre": false,
-      "note": "chore(release): prepare Remote .42 local MCP connectors"
-    },
-    {
-      "tag": "v1.1.1-beta.1",
-      "title": "Synara v1.1.1-beta.1",
-      "date": "2026-11-02",
-      "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.1.1-beta.1",
-      "pre": true,
-      "note": "1.1.1-beta.1 — 2026-11-02 Spanish and Simplified Chinese, reliable task recovery and opt-in continuation after usage limits. This Beta follows Stable 1.1.0 from the same source, with its separate version commit. Its same-channel baseline is v1.0.9-beta.1 ; the complete source range is recorded in the source audit . Native editing and MCP Connectors were already available in Beta and are not new features here. Added English, Spanish, Simplified Chinese and System interface preferences, with native menus and app-authored permission explanations. Stable continues to exclude Chinese. Existing editor labels can require the offered guarded reload; user content and provider output remain unchanged. Default-off Resume after usage limits for supported Codex and Claude terminal refusals with verified identity and future reset evidence. The owning computer must be running. Stop, manual sends and ac"
-    },
-    {
-      "tag": "v1.1.0",
-      "title": "Synara v1.1.0",
-      "date": "2026-11-02",
-      "url": "https://github.com/Emanuele-web04/synara/releases/tag/v1.1.0",
-      "pre": false,
-      "note": "1.1.0 — 2026-11-02 More reliable recovery, opt-in continuation after usage limits, Spanish interface and safer attachments. This Stable release covers the complete range after v1.0.9 through d80787e3e4d8829a35a64b111e6fcbe5f51cf037 . Simplified Chinese remains Beta-only. Stable and Beta retain separate identities, data homes and update feeds. Added English, Spanish and System interface preferences, including native menus and app-authored permission explanations. Existing editor engine labels may require the offered guarded reload; user content and provider output are not translated. Default-off Resume after usage limits for supported Codex and Claude terminal refusals with verified account identity and future reset evidence. The execution host must be running. Stop, manual sends and account/model changes cancel pending waits; ambiguous limits stay manual. Explicit offline synara-compact-"
     }
   ]
 }

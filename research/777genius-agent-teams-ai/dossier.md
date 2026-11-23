@@ -4,9 +4,9 @@
 - **Web oficial**: https://agentteams.live
 - **Licencia**: AGPL-3.0
 - **Lenguaje**: TypeScript
-- **Estrellas**: 2465 · **Forks**: 404
-- **Último push**: 2026-11-12T07:43:04Z · **Última release**: 2026-11-11
-- **Revisado**: 2026-11-12 · **Confianza**: 72/100
+- **Estrellas**: 2537 · **Forks**: 408
+- **Último push**: 2026-11-23T20:58:16Z · **Última release**: 2026-11-11
+- **Revisado**: 2026-11-23 · **Confianza**: 72/100
 - **Tipo**: agent · **Categoría**: teams
 
 ## Qué es
@@ -22,9 +22,9 @@ Revisión previa + README: app de escritorio para montar equipos de agentes con 
 ## Release revisada
 
 - **Tag**: [v2.18.7](https://github.com/777genius/agent-teams-ai/releases/tag/v2.18.7)
-- **Fecha**: 2026-11-11 (hace 4 días)
-- **Estado**: activo · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Fecha**: 2026-11-11 (hace 12 días)
+- **Estado**: reciente · **Releases en 90 días**: 10
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
 > Simplified the Dashboard and improved team creation and launch. Added a tasks table, built-in Git, improved schedules, and fixed OpenCode teammates sometimes not replying. Customize local fonts, text size, app scaling, and portable JSON themes. Simplified the Team screen. What's New Create teams from the Teams page; confirm templates before replacing an edited setup. Sort tasks in a live table with selectable, resizable columns. Schedule one agent or a whole team, with optional linked board tasks and avatar-based member selection. Built-in Git handles app diffs, worktrees, and cloning without a separate Git installation. Use OpenCode 2.x on Intel Macs. Choose local UI fonts, text size, whole
 
@@ -82,7 +82,7 @@ Grok Score: **63.05** · Tier **B** · ADN **22**
 
 - Orquestación multi-agente real: equipos con roles, mensajería agente-a-agente, revisión por pares y tablero kanban como plano de control.
 - Cobertura de proveedores excepcional (300+ modelos, 200+ proveedores, modelos gratuitos sin auth) y reutilización de los mejores coding agents en vez de reimplementarlos.
-- Proyecto muy vivo: 12 releases en 90 días (v2.18.6), CI, 2,465 estrellas, 396 forks y Discord activo; app de escritorio instalable sin escribir código.
+- Proyecto muy vivo: 12 releases en 90 días (v2.18.6), CI, 2,537 estrellas, 396 forks y Discord activo; app de escritorio instalable sin escribir código.
 - Se dirige en lenguaje natural de alto nivel (eres 'el jefe'), lo que lo mantiene del lado del producto y no del framework.
 
 ## Lo que le falta / riesgos
@@ -98,10 +98,10 @@ Es un orquestador de equipos de agentes competente y muy activo, por encima de l
 
 ## Fuentes consultadas
 
-- [Repositorio GitHub](https://github.com/777genius/agent-teams-ai) · consultado 2026-11-12
-- [Web oficial](https://agentteams.live) · consultado 2026-11-12
-- [README](https://github.com/777genius/agent-teams-ai#readme) · consultado 2026-11-12
-- [Releases](https://github.com/777genius/agent-teams-ai/releases) · consultado 2026-11-12
+- [Repositorio GitHub](https://github.com/777genius/agent-teams-ai) · consultado 2026-11-23
+- [Web oficial](https://agentteams.live) · consultado 2026-11-23
+- [README](https://github.com/777genius/agent-teams-ai#readme) · consultado 2026-11-23
+- [Releases](https://github.com/777genius/agent-teams-ai/releases) · consultado 2026-11-23
 
 ---
 

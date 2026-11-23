@@ -4,9 +4,9 @@
 - **Web oficial**: https://dontbemichael.com
 - **Licencia**: MIT
 - **Lenguaje**: TypeScript
-- **Estrellas**: 590 · **Forks**: 494
-- **Último push**: 2026-11-12T02:24:08Z · **Última release**: 2026-11-14
-- **Revisado**: 2026-11-12 · **Confianza**: 62/100
+- **Estrellas**: 595 · **Forks**: 493
+- **Último push**: 2026-11-21T21:54:20Z · **Última release**: 2026-11-21
+- **Revisado**: 2026-11-23 · **Confianza**: 62/100
 - **Tipo**: agent · **Categoría**: teams
 
 ## Qué es
@@ -21,12 +21,16 @@ Revisión previa + README: oficina de agentes de escritorio con identidad, memor
 
 ## Release revisada
 
-- **Tag**: [v0.4.1](https://github.com/agentvivekkumar/dontbemichael/releases/tag/v0.4.1)
-- **Fecha**: 2026-11-14 (hace 1 días)
+- **Tag**: [v0.4.3](https://github.com/agentvivekkumar/dontbemichael/releases/tag/v0.4.3)
+- **Fecha**: 2026-11-21 (hace 2 días)
 - **Estado**: activo · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
-> Don't Be Michael v0.4.1 An AI office for your small business. Pick your kind of business, pick your team, and Michael, your office manager, runs the floor while you run the business. What's new in 0.4.1 Job changes work in every office. A job change, such as a better job description offered for a team member, failed every time in an office whose folder Claude Code had never been opened in. These checks now run in a folder of their own that Claude never stops on. Every feature, release by release: docs/FEATURES.md Download Platform Download Mac (Apple Silicon and Intel) Dont-Be-Michael-0.4.1-mac-universal.dmg Windows 11 (x64): Dont-Be-Michael-0.4.1-win-x64-setup.exe . ARM PCs aren't supported
+**Qué trae**: v0.4.3 (y v0.4.2): soporte para gestionar varios negocios separados en el mismo equipo y adjuntos de archivos visibles en tarjetas de aprobación.
+
+**Impacto en la ficha**: Sube a 67.60 B (+0.45): Producto 47→50 por soporte multi-negocio y mejoras en tarjetas de aprobación.
+
+> Don't Be Michael v0.4.3 An AI office for your small business. Pick your kind of business, pick your team, and Michael, your office manager, runs the floor while you run the business. What's new in 0.4.3 Run two separate businesses on one computer. Each business keeps its own settings, saved passwords and keys, files, history and, if you choose, its own Claude account. The business name in the top bar switches between them, and switching closes the open office properly first. Add a business while the open one keeps working. Setup opens over the office, and the new business's folder is named after it. Back up everything and restore it on a new computer. One file holds every business, with save
 
 ## Evidencia de la investigación
 
@@ -71,7 +75,7 @@ Revisión previa + README: oficina de agentes de escritorio con identidad, memor
 
 ## Puntuación
 
-Grok Score: **67.15** · Tier **B** · ADN **60**
+Grok Score: **67.6** · Tier **B** · ADN **60**
 
 - **capacidad**: 62/100
 - **autonomia**: 55/100
@@ -80,7 +84,7 @@ Grok Score: **67.15** · Tier **B** · ADN **60**
 - **rutinas**: 55/100
 - **equipo**: 90/100
 - **confianza**: 90/100
-- **producto**: 47/100
+- **producto**: 50/100
 
 ## Fortalezas
 
@@ -102,10 +106,10 @@ Es el patrón de «equipo de agentes de escritorio con orquestador» bien ejecut
 
 ## Fuentes consultadas
 
-- [Repositorio GitHub](https://github.com/agentvivekkumar/dontbemichael) · consultado 2026-11-12
-- [Web oficial](https://dontbemichael.com) · consultado 2026-11-12
-- [README](https://github.com/agentvivekkumar/dontbemichael#readme) · consultado 2026-11-12
-- [Releases](https://github.com/agentvivekkumar/dontbemichael/releases) · consultado 2026-11-12
+- [Repositorio GitHub](https://github.com/agentvivekkumar/dontbemichael) · consultado 2026-11-23
+- [Web oficial](https://dontbemichael.com) · consultado 2026-11-23
+- [README](https://github.com/agentvivekkumar/dontbemichael#readme) · consultado 2026-11-23
+- [Releases](https://github.com/agentvivekkumar/dontbemichael/releases) · consultado 2026-11-23
 
 ---
 

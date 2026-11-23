@@ -1,87 +1,87 @@
 {
   "repo": "OrchestratorInc/agent-orchestrator",
   "source": "releases.atom",
-  "checked_at": "2026-11-15",
+  "checked_at": "2026-11-23",
   "entries": [
     {
-      "tag": "v0.15.2-nightly.202611142232",
-      "title": "v0.15.2-nightly.202611142232",
-      "date": "2026-11-14",
-      "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.2-nightly.202611142232",
-      "pre": true,
-      "note": "Changes in this nightly Browser and side chat tabs use the session strip's tab frame by @ronishrohan in #8296 Steer queued messages into the running turn, durably by @mohakchakraborty2004 in #8343 UI-only Cloud parity quick wins (archive, restore, shells, file tabs, automations, notifications, PR conflicts, i18n, delete wording) by @mohakchakraborty2004 in #8341 Drop the workspace row, share the project from the orchestrator and board cards; remove the Cloud GitHub PAT UI by @mohakchakraborty2004 in #8307 Draw Resolve conflicts and Update from base clicks as the user's action by @illegalcall in #8404 Make side chat closing and recovery reliable by @Vansh-Singhal in #8242 Acknowledge reports inside Claude paste wrappers by @Rishet11 in #6387 Log launch timestamps in one line by @illegalcall in #8254 5 more linked changes are included in the full comparison . Build details Commit: c023bdb "
-    },
-    {
-      "tag": "v0.15.2-nightly.202611141846",
-      "title": "v0.15.2-nightly.202611141846",
-      "date": "2026-11-14",
-      "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.2-nightly.202611141846",
-      "pre": true,
-      "note": "Changes in this nightly Make the Cloud Chat approval menu change the mode by @Pritom14 in #8287 Approving a cloud Chat plan turns Plan mode off by @Pritom14 in #8290 Widen the gap between activity row icons and labels by @ronishrohan in #8389 List Cloud's own models in a Cloud New Task's picker by @Pritom14 in #8288 Bring the reader to the end on a Cloud Chat send by @Pritom14 in #8292 Say who the workspace row in Share means, never an email by @Pritom14 in #8293 Stay put when a review starts from the inspector by @illegalcall in #8347 Remove the focus outline from panes by @ronishrohan in #8391 16 more linked changes are included in the full comparison . Build details Commit: 3435361 Built: 2026-11-14 18:46 UTC Nightly builds contain the newest changes for testing and may be unstable."
-    },
-    {
-      "tag": "v0.15.1",
-      "title": "v0.15.1",
-      "date": "2026-11-14",
-      "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.1",
+      "tag": "v0.15.5",
+      "title": "v0.15.5",
+      "date": "2026-11-23",
+      "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.5",
       "pre": false,
-      "note": "Fixed Identify Chat sessions to Claude Code as Orchestrator (stable hotfix) by @illegalcall in #8388 Full Changelog : v0.15.0...v0.15.1"
+      "note": "Changed Group desktop and mobile Sentry errors by code or normalized message (stable backport of #8898 ) by @harshitsinghbhandari in #8928 Full Changelog : v0.15.4...v0.15.5"
     },
     {
-      "tag": "v0.15.1-nightly.202611140850",
-      "title": "v0.15.1-nightly.202611140850",
-      "date": "2026-11-14",
-      "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.1-nightly.202611140850",
+      "tag": "v0.15.5-nightly.202611231543",
+      "title": "v0.15.5-nightly.202611231543",
+      "date": "2026-11-23",
+      "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.5-nightly.202611231543",
       "pre": true,
-      "note": "Changes in this nightly Fork a session into a new session at any turn by @Vaibhaav-Tiwari in #8111 Steer running turns on Qwen Code, Kimchi, and OMP by @Meraj-08 in #7702 Show a single Republish button once a published file changes by @neversettle17-101 in #8349 Agent accounts on remote hosts, per-session pick, and mobile switch by @illegalcall in #8253 Show a Claude model's real context window during its first turn by @raedinkhaled in #8041 Treat a gate job that failed in a cancelled run as cancelled by @roop37 in #8149 Search every past session from Cmd+K and ao search by @illegalcall in #7362 Let agents split the desktop window's panes with `ao pane` by @ronishrohan in #7873 5 more linked changes are included in the full comparison . Build details Commit: c40128f Built: 2026-11-14 08:50 UTC Nightly builds contain the newest changes for testing and may be unstable."
+      "note": "Changes in this nightly Run Orchestrator on Linux arm64 hosts by @illegalcall in #8901 Always include config option choices by @nikhilachale in #8852 Drop the nightly build-info tooltip background by @Annieeeee11 in #8885 Keep collision names within filesystem byte limit by @nikhilachale in #8857 Refresh pending artifact links by @nikhilachale in #8870 Run tmux launch prelude with POSIX shell by @nikhilachale in #8873 Use current-head review for changes requested by @nikhilachale in #8879 Use Agents and Accounts labels across locales by @nikhilachale in #8855 31 more linked changes are included in the full comparison . Build details Commit: fab3db9 Built: 2026-11-23 15:43 UTC Nightly builds contain the newest changes for testing and may be unstable."
     },
     {
-      "tag": "v0.15.1-nightly.202611132033",
-      "title": "v0.15.1-nightly.202611132033",
-      "date": "2026-11-13",
-      "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.1-nightly.202611132033",
+      "tag": "v0.15.5-nightly.202611230257",
+      "title": "v0.15.5-nightly.202611230257",
+      "date": "2026-11-23",
+      "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.5-nightly.202611230257",
       "pre": true,
-      "note": "Changes in this nightly Show the CLI login and a saved account with the same login once by @illegalcall in #7674 Give the send button the same corner inset as the + button by @ronishrohan in #8316 Clear stale model labels when switching providers by @ronishrohan in #7790 Compact the composer's / and @ suggestion menus by @ronishrohan in #8313 Configure provider keys across supported harnesses by @nikhilachale in #7312 Clear Claude model labels left on chats switched before #7790 by @ronishrohan in #8320 Put the chat composer back down after the app resumes on Android by @Prasad-D-Ware in #8314 Add Grok Build ACP Chat support by @nikhilachale in #8298 24 more linked changes are included in the full comparison . Build details Commit: 48709b6 Built: 2026-11-13 20:33 UTC Nightly builds contain the newest changes for testing and may be unstable."
+      "note": "Changes in this nightly Preserve Sentry error messages and split issue groups by @harshitsinghbhandari in #8892 Open Cline login URLs in Orchestrator Browser by @nikhilachale in #8860 Keep Cline login readable in light mode by @nikhilachale in #8869 Build details Commit: acddfae Built: 2026-11-23 02:57 UTC Nightly builds contain the newest changes for testing and may be unstable."
     },
     {
-      "tag": "v0.15.0",
-      "title": "v0.15.0",
-      "date": "2026-11-13",
-      "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.0",
+      "tag": "v0.15.4",
+      "title": "v0.15.4",
+      "date": "2026-11-22",
+      "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.4",
       "pre": false,
-      "note": "Added Right-click menu for center tab strip tabs by @ronishrohan in #7877 Pick the default shell for new terminals by @ronishrohan in #7874 Add the native UI building blocks (native overhaul 2/4) by @MohamedKamran in #7837 Rebuild Settings, Machines, terminal, Files and preview natively (native overhaul 3/4) by @MohamedKamran in #7838 Native tabs, board, New task and chat (native overhaul 4/4) by @MohamedKamran in #7839 View and restore versions of media files by @neversettle17-101 in #7875 Zoom and pan, a file menu for the viewer's actions, open in browser by @ronishrohan in #7814 Raise the task size cap to 100 KiB by @illegalcall in #7298 Swipe and filmstrip for artifacts in the viewer by @Prasad-D-Ware in #7681 Send with Return on an iPad hardware keyboard by @Prasad-D-Ware in #7666 Idle state with Archive pinned when no workers run by @Prasad-D-Ware in #7506 Stream git clone steps in"
+      "note": "Fixed Preserve Sentry error messages and split issue groups (stable hotfix) by @illegalcall in #8896 Full Changelog : v0.15.3...v0.15.4"
     },
     {
-      "tag": "v0.14.11-nightly.202611130904",
-      "title": "v0.14.11-nightly.202611130904",
-      "date": "2026-11-13",
-      "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.14.11-nightly.202611130904",
+      "tag": "v0.15.4-nightly.202611222025",
+      "title": "v0.15.4-nightly.202611222025",
+      "date": "2026-11-22",
+      "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.4-nightly.202611222025",
       "pre": true,
-      "note": "Changes in this nightly Bump bundled ACP Node runtime to 22.23.5 by @nikhilachale in #8196 PR details, actions, comments and activity in the session inspector by @Meraj-08 in #7394 Drop the dead Close tab row from the session tab's menu by @ronishrohan in #8291 Title bar on every pane to drag and unsplit by @ronishrohan in #8273 Remove projects optimistically instead of showing \"Removing…\" by @ronishrohan in #8275 Label the archive's entry points Archived sessions by @ronishrohan in #8294 Keep the provider adapter's stderr in the chat host's directory by @ronishrohan in #8295 Show a session branch as its topic and keep PRs off the root branch by @ronishrohan in #8301 7 more linked changes are included in the full comparison . Build details Commit: a25ce92 Built: 2026-11-13 09:04 UTC Nightly builds contain the newest changes for testing and may be unstable."
+      "note": "Changes in this nightly Prevent annotation placeholder from overlapping action icons by @bhushan4work in #8791 Stop re-rendering the chat surface on every side-chat poll by @illegalcall in #8827 Name Cloud models as desktop does and run the model New task shows by @Prasad-D-Ware in #8776 Let artifact pages autoplay their videos inline by @Prasad-D-Ware in #8768 Render GitHub comment HTML in PR review rows by @Prasad-D-Ware in #8712 Flag a stack layer that is behind the one below it, and ask its agent to rebase by @Meraj-08 in #8790 Observe sessions on versions without extensions by @Meraj-08 in #7827 Start Antigravity chat for a signed-in user on a fresh setup by @Meraj-08 in #7719 26 more linked changes are included in the full comparison . Build details Commit: 7c65ce3 Built: 2026-11-22 20:25 UTC Nightly builds contain the newest changes for testing and may be unstable."
     },
     {
-      "tag": "v0.14.11-nightly.202611122237",
-      "title": "v0.14.11-nightly.202611122237",
-      "date": "2026-11-12",
-      "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.14.11-nightly.202611122237",
+      "tag": "v0.15.4-nightly.202611212010",
+      "title": "v0.15.4-nightly.202611212010",
+      "date": "2026-11-21",
+      "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.4-nightly.202611212010",
       "pre": true,
-      "note": "Changes in this nightly Project setting to name Orchestrator a commit co-author by @mohakchakraborty2004 in #8181 Start standalone agents in Cloud from the Scratchpad by @mohakchakraborty2004 in #8186 Stop the sign-in listener when a browser sign-in fails early by @Prasad-D-Ware in #8189 Keep the Files tabs below the search field while loading by @Prasad-D-Ware in #8192 Publish artifacts privately, invite people by email by @neversettle17-101 in #8164 Size menu rows before their first frame by @Prasad-D-Ware in #8191 Attach images pasted into the New task prompt by @Prasad-D-Ware in #8226 Show account quota as a composer chip instead of a banner by @Prasad-D-Ware in #8231 4 more linked changes are included in the full comparison . Build details Commit: bd4d0d4 Built: 2026-11-12 22:37 UTC Nightly builds contain the newest changes for testing and may be unstable."
+      "note": "Changes in this nightly Add Anthropic API key accounts for Claude Code by @nikhilachale in #8555 Read Claude's cursor over a prompt suggestion as an empty composer by @nikhilachale in #8686 Stop re-rendering the shell while the router loads a session by @illegalcall in #8659 Skip the transcript glob when a new chat's usage is reactivated by @illegalcall in #8661 Let the preview poller rest while no preview is watched by @Meraj-08 in #8692 Read idle polls without a cancellable context by @Meraj-08 in #8688 Drop the workspace list's stale timers and push Stay Awake to the sidebar by @Meraj-08 in #8718 Rest the usage-limit and turn-failure loops while idle by @Meraj-08 in #8705 27 more linked changes are included in the full comparison . Build details Commit: 098ce8f Built: 2026-11-21 20:10 UTC Nightly builds contain the newest changes for testing and may be unstable."
     },
     {
-      "tag": "v0.14.11-nightly.202611122058",
-      "title": "v0.14.11-nightly.202611122058",
-      "date": "2026-11-12",
-      "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.14.11-nightly.202611122058",
+      "tag": "v0.15.4-nightly.202611202121",
+      "title": "v0.15.4-nightly.202611202121",
+      "date": "2026-11-20",
+      "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.4-nightly.202611202121",
       "pre": true,
-      "note": "Changes in this nightly Settle a running turn when its controller stops by @neversettle17-101 in #8171 Resolve symlinks when rebasing gitdir conditional includes by @illegalcall in #8144 Update dompurify to 3.4.17 and patched transitive packages by @illegalcall in #8147 Make the sessionimport and shellterm tests pass on macOS by @illegalcall in #8145 Build with Go 1.27.4 and patched x/net and klauspost/compress by @illegalcall in #8146 Give Android the iOS board layout by @Prasad-D-Ware in #8154 Show composer attachments as thumbnails inside the pill by @Prasad-D-Ware in #8153 Run the Claude reviewer in Chat, read-only, and close the pane's auto-mode write gap by @illegalcall in #7253 36 more linked changes are included in the full comparison . Build details Commit: b58f4c4 Built: 2026-11-12 20:58 UTC Nightly builds contain the newest changes for testing and may be unstable."
+      "note": "Changes in this nightly Prepare the worktree sooner and keep it across visits by @ronishrohan in #8721 Keep the queue hint up from send until the turn shows by @ronishrohan in #8742 Add HTML and Markdown artifacts to GitHub issues by @neversettle17-101 in #8714 Keep the saved sign-in through a secure storage outage by @ronishrohan in #8728 Keep the Cloud login when its file cannot be read by @ronishrohan in #8727 Pick the agent from a logo rail in the composer model picker by @ronishrohan in #8564 Send launch timings, name rendering freezes, leave closed time out of windows by @ronishrohan in #8747 Fix missing session names and hover previews for inline worker IDs by @neversettle17-101 in #8745 8 more linked changes are included in the full comparison . Build details Commit: a4c7a9f Built: 2026-11-20 21:21 UTC Nightly builds contain the newest changes for testing and may be unstable."
     },
     {
-      "tag": "v0.14.11-nightly.202611111839",
-      "title": "v0.14.11-nightly.202611111839",
-      "date": "2026-11-11",
-      "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.14.11-nightly.202611111839",
+      "tag": "v0.15.4-nightly.202611192143",
+      "title": "v0.15.4-nightly.202611192143",
+      "date": "2026-11-19",
+      "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.4-nightly.202611192143",
       "pre": true,
-      "note": "Changes in this nightly Send clicks to programs that track the mouse by @AgentWrapper in #8141 Start New task in the project last worked in by @ronishrohan in #8140 Bound interface-transition polling like mobile by @harshitsinghbhandari in #8114 120s setup budget, timeout labels, no live model lookup, auto-start breaker, spawn telemetry, Sentry cap by @harshitsinghbhandari in #8119 Tell agents the user's local time zone by @ronishrohan in #8152 Stop showing Orchestrator's CLI in agent narration and step rows by @ronishrohan in #8156 ⋮ always on the session tab, ghost close button over the icon on others by @ronishrohan in #8079 One list by last update, Published marks, multi-select filters by @neversettle17-101 in #8148 10 more linked changes are included in the full comparison . Build details Commit: 4d7c9cf Built: 2026-11-11 18:39 UTC Nightly builds contain the newest changes for testi"
+      "note": "Changes in this nightly Search every connected AO machine from Cmd+K by @illegalcall in #7378 Tell the worker when an AO review run finishes by @jimzrt in #6955 Find the daemon through /healthz when its PID is hidden by @neversettle17-101 in #8588 Show a single session account as text, not a dropdown by @illegalcall in #8673 Submit reviews through quoted heredocs instead of shell-quoted strings by @neversettle17-101 in #7067 Shared-with-me list, team and workspace sharing by @neversettle17-101 in #8628 Launch the desktop app from a fresh worktree in seconds (dev:warm + cached predev) by @ronishrohan in #8277 Make the dev:warm launch the default way agents run the desktop app by @ronishrohan in #8487 18 more linked changes are included in the full comparison . Build details Commit: b5f10dd Built: 2026-11-19 21:43 UTC Nightly builds contain the newest changes for testing and may be unstabl"
+    },
+    {
+      "tag": "v0.15.4-nightly.202611182129",
+      "title": "v0.15.4-nightly.202611182129",
+      "date": "2026-11-18",
+      "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.4-nightly.202611182129",
+      "pre": true,
+      "note": "Changes in this nightly Stop re-downloading chat history on every update by @illegalcall in #8502 Only discover PRs opened after the session by @illegalcall in #8338 Show the reviewer's resolved model and effort by @Prasad-D-Ware in #8527 Stop the GitHub PR listing from filling the response cache by @ronishrohan in #8618 Poll local settings from one observer instead of hundreds by @ronishrohan in #8620 Keep the pull-to-refresh spinner for pulls so Retry stops sinking the page by @Prasad-D-Ware in #8472 Open a new Cloud project after its sheet has closed by @Prasad-D-Ware in #8596 Resume usage-limited chat turns from the phone by @Prasad-D-Ware in #8604 23 more linked changes are included in the full comparison . Build details Commit: 617e879 Built: 2026-11-18 21:29 UTC Nightly builds contain the newest changes for testing and may be unstable."
+    },
+    {
+      "tag": "v0.15.4-nightly.202611172150",
+      "title": "v0.15.4-nightly.202611172150",
+      "date": "2026-11-17",
+      "url": "https://github.com/OrchestratorInc/agent-orchestrator/releases/tag/v0.15.4-nightly.202611172150",
+      "pre": true,
+      "note": "Changes in this nightly Resume a remote chat's stopped agent when it opens by @illegalcall in #8438 Fail reviewer preflight when its read-only sandbox cannot start by @ApexYash11 in #7948 Skip automatic reviews for draft pull requests by @raedinkhaled in #8515 Keep artifacts by default on ao session delete by @neversettle17-101 in #8583 Poll live workers' preview columns only by @illegalcall in #8573 Skip the AO-id transcript search for chat sessions by @illegalcall in #8574 Check the workspace's Claude transcript before globbing by @illegalcall in #8575 Stop agent hooks waiting on usage scans by @illegalcall in #8570 15 more linked changes are included in the full comparison . Build details Commit: 6908ee8 Built: 2026-11-17 21:50 UTC Nightly builds contain the newest changes for testing and may be unstable."
     }
   ]
 }

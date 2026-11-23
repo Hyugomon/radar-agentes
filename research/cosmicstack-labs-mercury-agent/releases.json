@@ -1,8 +1,40 @@
 {
   "repo": "cosmicstack-labs/mercury-agent",
   "source": "releases.atom",
-  "checked_at": "2026-11-15",
+  "checked_at": "2026-11-23",
   "entries": [
+    {
+      "tag": "v1.5.5",
+      "title": "Mercury v1.5.5",
+      "date": "2026-11-22",
+      "url": "https://github.com/cosmicstack-labs/mercury-agent/releases/tag/v1.5.5",
+      "pre": true,
+      "note": "☿ Mercury Agent v1.5.5 Devices sign in with a device token, Mercury asks you for what only you can do, and bots use fewer tokens. Devices sign in with a device token Password sign-in from other devices is now off by default. To connect a phone, Mercury Desktop or a browser on another computer, make a token on the computer Mercury runs on: /server token (or mercury devices add ), and paste it in. Devices already signed in keep working. Turn password sign-in back on with /server password on . /server is easier: add allowed addresses by typing them, copying a token closes the token screen, and in Mercury Desktop /server opens its own Remote access window. Mercury asks you for what only you can do CAPTCHAs, codes, a step on a website: Mercury sends it to every chat you've connected (Telegram, WhatsApp, Signal, Discord, Slack), Mercury Desktop and your phones, with the image, and waits. Reply"
+    },
+    {
+      "tag": "captcha-v0.1.0",
+      "title": "CAPTCHA Solver 0.1.0",
+      "date": "2026-11-22",
+      "url": "https://github.com/cosmicstack-labs/mercury-agent/releases/tag/captcha-v0.1.0",
+      "pre": false,
+      "note": "New plugin. Install with /plugins install captcha , or Plugins → CAPTCHA Solver → Install in Mercury Desktop. Needs Mercury 1.5.5 or newer. Cheapest first. Your own vision models read simple image CAPTCHAs for free; two must agree before an answer is used. A solving service with your key handles reCAPTCHA v2/v3 (Enterprise too), Cloudflare Turnstile, GeeTest and FunCaptcha: 2Captcha by default, or CapSolver, Anti-Captcha or CapMonster. Solved tokens come with a script that puts them into the page. A daily limit caps paid solves. You, as the last resort. If nothing else can, the CAPTCHA goes to your chats, Mercury Desktop and your phones, and the plugin waits for your answer (up to 4 minutes). Also captcha__detect (finds CAPTCHAs on a page) and captcha__balance ."
+    },
+    {
+      "tag": "v1.5.4",
+      "title": "Mercury v1.5.4",
+      "date": "2026-11-17",
+      "url": "https://github.com/cosmicstack-labs/mercury-agent/releases/tag/v1.5.4",
+      "pre": true,
+      "note": "☿ Mercury Agent v1.5.4 Set up voice from your phone, and fewer approval prompts. Voice from any device Set voice keys from your phone , with or without Optimus: OpenAI, Gemini, ElevenLabs, Deepgram and more. Mercury checks each key before saving it. A key is never shown back to a device, only its last four characters. One place for keys. A key saved from the phone, Mercury Desktop or Optimus is the same key everywhere. Fewer prompts Only plugin installs ask from another device. Changing a plugin's settings, like Optimus's voice, and setting voice keys no longer ask for your approval. Both are still recorded in the audit log. Fixes A setting changed from a phone no longer snaps back when the plugin takes a while to restart. Install Desktop: mercuryagent.sh/download · Mac: curl -fsSL https://mercuryagent.sh/install-desktop.sh | sh Server / CLI: curl -fsSL https://mercuryagent.sh/install.sh"
+    },
+    {
+      "tag": "v1.5.3",
+      "title": "Mercury v1.5.3",
+      "date": "2026-11-17",
+      "url": "https://github.com/cosmicstack-labs/mercury-agent/releases/tag/v1.5.3",
+      "pre": true,
+      "note": "☿ Mercury Agent v1.5.3 Ready for Mercury on your phone, Google Workspace in one command, and bots that can't be steered by what they read. Mercury on your phone The native iPhone and Android apps connect to this release. They aren't in the app stores yet. Real-time voice calls. The phone gets a short-lived token from your Mercury and runs Mercury's own voice engine, so a call answers in about two seconds. Your API keys never leave your computer. Calls hear you, not the room. Background talk and noise don't count as you speaking. Live dictation types your words into the message box as you speak, with OpenAI, Deepgram or ElevenLabs. Chat lists show a preview of each chat's last message. Google Workspace mercury google connect connects Gmail, Drive and Docs. It installs Google's gws tool, pinned and checksum-checked. It signs you in to your own Google account. It adds Mercury's Google Works"
+    },
     {
       "tag": "optimus-v0.5.2",
       "title": "Optimus 0.5.2",
@@ -50,38 +82,6 @@
       "url": "https://github.com/cosmicstack-labs/mercury-agent/releases/tag/mercury-dev-latest",
       "pre": true,
       "note": "Dev build 1.4.2-dev.20261102.3418788. Rolling preview — may be unstable. Stable users are NOT served this release. Install: curl -fsSL https://mercuryagent.sh/install-dev.sh | sh (macOS/Linux) Windows: irm https://mercuryagent.sh/install-dev.ps1 | iex"
-    },
-    {
-      "tag": "whatsapp-v0.1.2",
-      "title": "WhatsApp 0.1.2 (plugin update)",
-      "date": "2026-10-30",
-      "url": "https://github.com/cosmicstack-labs/mercury-agent/releases/tag/whatsapp-v0.1.2",
-      "pre": false,
-      "note": "Plugin-only update. Install or update with mercury plugins update whatsapp (or /plugins update whatsapp ). Mercury itself is unchanged. Messages from the owner and members arrive again when WhatsApp addresses them by LID ( #247 ). WhatsApp increasingly sends a private id ( …@lid ) instead of the phone number. 0.1.1 couldn't match that id to the owner's number, so those messages were silently ignored while outbound messages still worked. 0.1.2 finds the number behind a LID: from WhatsApp's own LID↔number mapping, plus one lookup when it isn't known yet. It also learns the owner's and members' LIDs as soon as it connects. Incoming calls from the owner are recognised when WhatsApp sends a LID. Business numbers on Meta's hosted service ( @hosted ) count as numbers. No lookup floods. An unknown sender is looked up at most once every 10 minutes, so a stranger messaging repeatedly can't trigger"
-    },
-    {
-      "tag": "optimus-v0.4.9",
-      "title": "Optimus 0.4.9 (plugin update)",
-      "date": "2026-10-26",
-      "url": "https://github.com/cosmicstack-labs/mercury-agent/releases/tag/optimus-v0.4.9",
-      "pre": false,
-      "note": "Plugin-only update. Install or update with /plugins update optimus . Mercury itself is unchanged. Installs on Mercury builds older than 1.4.0. 0.4.8 failed with Invalid mercury-plugin.json: settings.fields.hotkey: Unrecognized key(s) in object: 'examples' on those builds. The suggested values (talk key, mute key, silence timeout, session length) now live in each setting's description, and the manifest validates on old and current Mercury alike. No change to the companion or behaviour otherwise."
-    },
-    {
-      "tag": "v1.4.2",
-      "title": "1.4.2 — search that finds things, and a research prompt that asks only when you mean it",
-      "date": "2026-10-24",
-      "url": "https://github.com/cosmicstack-labs/mercury-agent/releases/tag/v1.4.2",
-      "pre": true,
-      "note": "☿ Mercury Agent v1.4.2 Web search finds things again, with no key and with any model, and the research prompt now asks only when you actually want a research article. Web search Three sources that answer. web_search asks Parallel's public search first (keyless, built for agents, about a second, with excerpts and dates), then DuckDuckGo's html page, then its lite page. Bing's web feed, which had started returning unrelated pages, and the engines that refuse automated requests are gone. DuckDuckGo read exactly. Both pages are parsed from their real markup: the title, the real address behind DuckDuckGo's redirect, and the snippet. Ads are dropped, a bot challenge is retried once, and a page Mercury can't read is reported instead of looking empty. News links open the article. News comes from Parallel's article links, then Bing News with its redirects unwrapped to the publisher, then Google N"
-    },
-    {
-      "tag": "v1.4.1",
-      "title": "1.4.1 — Mercury learns how you work, saves its own skills, and searches again",
-      "date": "2026-10-24",
-      "url": "https://github.com/cosmicstack-labs/mercury-agent/releases/tag/v1.4.1",
-      "pre": true,
-      "note": "☿ Mercury Agent v1.4.1 Mercury now learns how you like to work, saves the procedures it repeats as its own skills, and its free web search returns real results again. The terminal got a round of fixes too: pickers that work in the attached terminal, a status row that stays useful, and no more \"Thinking\" forever after /new . Mercury learns how to work with you (ADR-026) Memory became beliefs with evidence. Each thing Mercury believes about you has support, a confidence that fades unless it is seen again, and a status: candidate, held, confirmed by you, contested, retired or forgotten. It learns working traits : reply length, when to ask before acting, options or a recommendation, tone, your expertise per domain. Never health, religion, politics or credentials. You hear about it. Behaviour-changing learning ends a reply with one line, ☿ Noted: … , and \"forget that\" undoes it. /memory learn"
     }
   ]
 }

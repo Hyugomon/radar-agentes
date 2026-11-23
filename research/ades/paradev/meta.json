@@ -1,6 +1,6 @@
 {
   "name": "Paradev",
-  "repo": "paradevai/paradev",
+  "repo": "ParadevAI/Paradev",
   "github": {
     "id": 1080370450,
     "node_id": "R_kgDOQGUlEg",
@@ -69,16 +69,16 @@
     "releases_url": "https://api.github.com/repos/ParadevAI/Paradev/releases{/id}",
     "deployments_url": "https://api.github.com/repos/ParadevAI/Paradev/deployments",
     "created_at": "2025-10-21T09:16:51Z",
-    "updated_at": "2026-11-13T08:04:43Z",
-    "pushed_at": "2026-11-13T08:09:19Z",
+    "updated_at": "2026-11-23T20:21:35Z",
+    "pushed_at": "2026-11-23T19:11:38Z",
     "git_url": "git://github.com/ParadevAI/Paradev.git",
     "ssh_url": "git@github.com:ParadevAI/Paradev.git",
     "clone_url": "https://github.com/ParadevAI/Paradev.git",
     "svn_url": "https://github.com/ParadevAI/Paradev",
     "homepage": "https://paradev.com",
-    "size": 988831,
-    "stargazers_count": 16268,
-    "watchers_count": 16268,
+    "size": 1148689,
+    "stargazers_count": 16518,
+    "watchers_count": 16518,
     "language": "TypeScript",
     "has_issues": true,
     "has_projects": true,
@@ -86,11 +86,11 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": false,
-    "forks_count": 1457,
+    "forks_count": 1490,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 1288,
+    "open_issues_count": 1254,
     "license": {
       "key": "mit",
       "name": "MIT License",
@@ -126,9 +126,9 @@
       "worktrees"
     ],
     "visibility": "public",
-    "forks": 1457,
-    "open_issues": 1288,
-    "watchers": 16268,
+    "forks": 1490,
+    "open_issues": 1254,
+    "watchers": 16518,
     "default_branch": "main",
     "temp_clone_token": null,
     "custom_properties": {},
@@ -153,8 +153,8 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "network_count": 1457,
+    "network_count": 1490,
     "subscribers_count": 33
   },
-  "fetched_at": "2026-11-13"
+  "fetched_at": "2026-11-23"
 }

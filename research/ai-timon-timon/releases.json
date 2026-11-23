@@ -1,8 +1,24 @@
 {
   "repo": "ai-timon/timon",
   "source": "releases.atom",
-  "checked_at": "2026-11-15",
+  "checked_at": "2026-11-23",
   "entries": [
+    {
+      "tag": "v0.1.9",
+      "title": "Timon 0.1.9",
+      "date": "2026-11-18",
+      "url": "https://github.com/ai-timon/timon/releases/tag/v0.1.9",
+      "pre": false,
+      "note": "Highlights A new version now shows as a card at the bottom left, and Update installs it without leaving Timon. Without a licence Timon is simply Free, and a briefly unreachable licensing service no longer shows anything. Errors and Timon's own messages now read in your language. New Settings › System › Privacy: mission history is cleaned after 180 days, and usage statistics turn off in one click. Windows: many fixes to updates, the background service, worktrees and exports. Added On Linux, when you refuse the approval screen of an AppImage the app updated itself, Go back to x.y.z puts the previous version back and opens it. A task created from the board or by a raw API call can be attached to an orchestrator's series with timon task attach (or the kanban_attach_series agent tool), with its reviews, merge and documentation tasks, so their returns reach that orchestrator. A browser recordi"
+    },
+    {
+      "tag": "v0.1.8",
+      "title": "Timon 0.1.8",
+      "date": "2026-11-15",
+      "url": "https://github.com/ai-timon/timon/releases/tag/v0.1.8",
+      "pre": false,
+      "note": "Added Agents can post a full message in the chat, report or comparison table included, right above a question or the Kanban planner, so you see everything before you choose. Agents can run on Google Antigravity through its agy command, signed in with a personal Google account, with an Allow / Deny card before each edit, command or MCP tool it uses. On Linux, sign in with DBUS_SESSION_BUS_ADDRESS=disabled: agy acp --login , so that Timon's agents can read the sign-in. The LLM quotas widget shows Antigravity's weekly quota for each model group of your Google plan, as agy reports it. Agents graph: right-click an agent and choose Delete agent to delete it without opening its editor; it goes to the trash, as from the editor. A superadmin can turn on developer mode, which loads unsigned plugins such as one you wrote yourself, with a switch in Settings › Plugins › Developer mode; the install sh"
+    },
     {
       "tag": "v0.1.7",
       "title": "Timon 0.1.7",

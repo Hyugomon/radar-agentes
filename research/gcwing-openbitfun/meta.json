@@ -1,14 +1,14 @@
 {
-  "full_name": "GCWing/OpenBitFun",
+  "full_name": "openBitFun/OpenBitFun",
   "html_url": "https://github.com/openBitFun/OpenBitFun",
   "description": "OpenBitFun combines a high-performance agent runtime written in Rust with a polished desktop application. It pairs the depth of a Code Agent with open, general-purpose capabilities for work beyond software development.",
   "homepage": "openbitfun.com",
   "license": "MIT",
   "language": "Rust",
-  "stars": 4009,
-  "forks": 305,
-  "open_issues": 148,
-  "pushed_at": "2026-11-12T05:26:32Z",
+  "stars": 4111,
+  "forks": 315,
+  "open_issues": 126,
+  "pushed_at": "2026-11-23T17:09:53Z",
   "created_at": "2026-02-02T09:52:10Z",
   "topics": [
     "agent-teams",
@@ -27,5 +27,5 @@
   ],
   "archived": false,
   "api_status": 200,
-  "fetched_at": "2026-11-12"
+  "fetched_at": "2026-11-23"
 }

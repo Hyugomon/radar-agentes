@@ -1,87 +1,87 @@
 {
   "repo": "milind-soni/OpenMausBot",
   "source": "releases.atom",
-  "checked_at": "2026-11-15",
+  "checked_at": "2026-11-23",
   "entries": [
     {
-      "tag": "v0.1.158",
-      "title": "OpenMausBot 0.1.158",
-      "date": "2026-11-14",
-      "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.158",
+      "tag": "v0.1.177",
+      "title": "OpenMausBot 0.1.177",
+      "date": "2026-11-22",
+      "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.177",
       "pre": false,
-      "note": "What's new in 0.1.158 Bots can change app settings for you Ask a bot to change a setting and it does it, with an Undo in the chat. You can make MausBot a regular bot if you don't want it as your helper. Rooms and teams Point at a member's page from inside a room. Set up many bots at once: a Chief can edit up to 40 bots in one go and add a rule to each. A Chief in charge of every department gets new departments automatically. Fork a conversation from any message to try a different direction without losing the original. Voice Listen with your ElevenLabs key, and speak Thai through Eleven v3. Phone A pairing link says when it only works on the same Wi-Fi. Phones without admin rights can read a bot's Data. Phone tools can run several known steps in one call. Browser and engines The built-in browser can use a SOCKS5 proxy and a chosen locale. Project skills are always on. A custom ACP engine "
+      "note": "What's new in 0.1.177 Bots and work See what your bots said to each other. When a bot hands work to a teammate, the hand-off shows as a small chip with the teammate's face and name. Click it to read their conversation right in the chat, live, with \"Back\" to return to where you were. Handed-off conversations get real names. A conversation a teammate opens is named after the job it was handed. Reasoning sticks. In Simple mode, picking a Reasoning level in a bot's panel now also makes it that bot's default, the same way Model does. New conversations start at that level. Chief of Staff mail checks also read your connected Outlook. A failed turn says why it ended in its summary. Codex \"Compact now\" compacts the conversation in place. Your project's skills win. With \"Use my Claude Code skills\" on, a project skill takes priority over your own skill of the same name. Lighter isolated Claude turn"
     },
     {
-      "tag": "v0.1.155",
-      "title": "OpenMausBot 0.1.155",
-      "date": "2026-11-13",
-      "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.155",
+      "tag": "v0.1.176",
+      "title": "OpenMausBot 0.1.176",
+      "date": "2026-11-21",
+      "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.176",
       "pre": false,
-      "note": "What's new in 0.1.155 Usage bars are back The usage bars next to the model name show your Claude plan again, in Simple and Advanced, with the 5-hour and weekly figures at the top of the model menu. Codex, Grok and OpenCode Go keep theirs. Cloud computers A cloud computer that stops answering is no longer shown as ready. MausBot restarts it once when that is safe, tells you and the bot plainly, and the computer panel has Restart computer and Replace computer . A cloud computer that fails to start can be reset from the same panel. A lent computer's menu names the bot using it. Rooms and chats Drag rooms into the order you want in the sidebar. Room messages show who is speaking to whom, with the sender's name in the bot's colour. Long bot-to-bot requests fold to one line, with a side view of the whole exchange. A bot can post one message into an existing thread. Attach archives (.zip, .tar."
+      "note": "What's new in 0.1.176 Updates and announcements A blue update button. In Simple mode, a round blue button appears right after Connect apps while an update downloads or is ready. Click it to restart into the new version. It disappears once you're updated. What each update brought. Announcements now lists every release, newest first. Each card says what that update brought, and \"See all changes\" shows the full list. Bots and work Check before done (per bot, off by default). Turn it on, and a bot's answer is checked by another bot before it reaches you. A writer and a checker. New ready-made bots in Templates → Writing: Nib edits only what you asked, and Vera checks the result against your document. What changed. When a bot edits a document you gave it, you can see exactly what changed, sentence by sentence. The bot can check its own changes instead of describing them from memory. Saved too"
     },
     {
-      "tag": "v0.1.154",
-      "title": "OpenMausBot 0.1.154",
-      "date": "2026-11-12",
-      "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.154",
+      "tag": "v0.1.175",
+      "title": "OpenMausBot 0.1.175",
+      "date": "2026-11-21",
+      "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.175",
       "pre": false,
-      "note": "What's new in 0.1.154 Settings, reorganised Three groups, always in the same order: the place you are in (This computer or a Cloud), Your account, and This app. Every page says what it applies to. Simple mode shows fewer pages. Turn on Advanced mode at the bottom of Settings to see the rest. One AI page for engines, provider keys and models. Search settings from the top of the window. A result names the page it lives on. Phone &amp; devices is in the profile menu, so pairing a phone is two clicks from anywhere. Replies appear as they are written A bot's reply now streams into the chat instead of arriving all at once, in chats and in rooms. Streamed text is shown as the bot produces it. Saved secrets are masked once the message is saved, as before. Put a site or web app online Publish to Netlify. A bot can put a site or web app online on your own Netlify account. Included hosting. On a Cl"
+      "note": "What's new in 0.1.175 A calmer look A new conversation starts when you send. New conversation, a bot's + and Cmd/Ctrl+Shift+N open a blank chat, and nothing is saved until you send the first message. Leave it without sending and nothing is left behind. Advanced mode's composer is calmer. The message field gets its own line, with one quiet row beneath it: + , the model, and the voice or send button. Attach, Teach a task, Work until done, approvals, where the bot works and call mode all sit in the + menu. Quieter sidebar rows in Simple mode. A row's AI mark shows when you hover over it, and the sidebar stays open beside a bot's panel on windows 1040 px and wider. Chat finish. The composer gets a soft lift, bot bubbles get a light sheen and small tails, and buttons and bot rows respond when pressed. Mascots hold still at rest, with eased blinks and hover gaze. Type, sizing and icons use one"
     },
     {
-      "tag": "v0.1.153",
-      "title": "OpenMausBot 0.1.153",
-      "date": "2026-11-11",
-      "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.153",
+      "tag": "v0.1.173",
+      "title": "OpenMausBot 0.1.173",
+      "date": "2026-11-19",
+      "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.173",
       "pre": false,
-      "note": "What's new in 0.1.153 Burst mode Give a bot a big job and let it split the work. Type /burst , or let the bot offer it: it previews the parts, runs them side by side and gives you one result. Every plan has it, with more parts at once on bigger plans. Models and engines Ollama, found for you. MausBot finds Ollama running on your computer and adds it in one click, shows the models you've pulled, and lets you turn a model's thinking off or pick its level. Reasoning levels for OpenAI and OpenRouter API models. Star a model to keep it at the top of its provider. Amazon Bedrock as a way to run Claude. New models without an update. The model list now refreshes by itself. My Cloud Choose which bots move to My Cloud. With two or more bots you pick, or move everything. Big workspaces finish moving, including on slow connections. Open one of your computers from another over Tailscale, and see why "
+      "note": "What's new in 0.1.173 Long chats Long threads keep going: Claude and Codex bots now compact their own sessions, and the summary is written before the limit is reached instead of at it. A text selection survives scrolling away in a long chat, and scrolling through history is smoother. Rooms Saved messages hold still while members of a room are replying. Speed The app starts a little sooner: saved keys and the system proxy are read while the splash is showing, and the server starts listening earlier. Hide and Unhide for a provider answer at once. MausBot Cloud Clearer Cloud sign-in: when a saved sign-in on this computer can't be used, the app says so and offers to clear it and sign in again, instead of showing \"couldn't reach\". A browser sign-in that is still open can be cancelled from the same sheet to use the email code. When this computer can't connect to your Cloud's address, the app n"
     },
     {
-      "tag": "v0.1.152",
-      "title": "OpenMausBot 0.1.152",
-      "date": "2026-11-10",
-      "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.152",
+      "tag": "v0.1.171",
+      "title": "OpenMausBot 0.1.171",
+      "date": "2026-11-19",
+      "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.171",
       "pre": false,
-      "note": "What's new in 0.1.152 Advanced mode is back Choose Simple or Advanced again. The switch is back in the app. If you were on Advanced before 0.1.151, you're put back on it. Starter: as many bots as you like No more stopping at 5 bots on Starter. Create any number; 5 stay awake at a time and 2 work at once, as the plan page says. A bot made past the five starts paused, and one tap swaps it in for the one you use least. Nothing you're using is ever paused to make room. ModelGo ModelGo is a new AI provider. Add a ModelGo API key in Settings and pick from the models your key offers. ModelGo sponsors MausBot, and you'll see a one-time card about it. Teams Each person's own view. On a team, unread marks, notifications and bot order are yours alone. See who's here. See who is online and who has a shared chat open. Connection health for admins. A Team Cloud tells its admins how each connection is "
+      "note": "What's new in 0.1.171 Bots Bots check back later: a bot can set itself a reminder to look at something again, instead of waiting in the chat. Hand-offs show who is working on what, so you can see the status of work passed between bots. A bot working on a cloud computer keeps its engine between turns, so its next reply starts sooner. Spending Usage charts in Spending, shown in Simple mode too. Sharing Share and import polish: the product name, plain taglines, folder pictures, and Share in Advanced mode. Speed Faster replies: Codex turns stay warm, Claude starts ahead of your message, and threads and new bots load lighter. Smoother chat while a reply streams: saved rows hold still, rooms draw one bubble per update, and long lists and tables no longer slow down as they grow. Switching bots shows the newest messages first. Long chats stay light however far you scroll back. Fixes The CLI logi"
     },
     {
-      "tag": "v0.1.151",
-      "title": "OpenMausBot 0.1.151",
-      "date": "2026-11-09",
-      "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.151",
+      "tag": "v0.1.170",
+      "title": "OpenMausBot 0.1.170",
+      "date": "2026-11-19",
+      "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.170",
       "pre": false,
-      "note": "What's new in 0.1.151 Claude Fable 5.2 Fable 5.2 is in the model picker. Choose it for any Claude bot. It has a 1M-token context and is cheaper than Fable 5.1. One simple app Simple is now the only mode. Everything you use every day is in one place, with fewer settings to look through. Bot sharing as a preset, your organization's shared skills, and where an installed bot came from are all in Simple now. Your secrets, where bots can use them A Vault page. See and manage what's saved in one place. Secret and sign-in cards offer Use a saved one , so you don't paste the same thing twice. 1Password secrets by name. Link a password manager, and a bot can use a secret from a vault it's allowed to read, without the value being saved or shown. Small things that help Folder links open in Finder or Explorer. Click a folder linked in a chat on the desktop app and it opens in your file manager. Conne"
+      "note": "What's new in 0.1.170 Getting started Claude, ChatGPT and OpenCode are all first choices when you set up MausBot, on desktop and in the Cloud welcome. OpenCode installs in one click and has free models that need no account. The Teams popup links to Team plans, and everyone sees it once more. OpenCode OpenCode 2.3.2. A message sent while an OpenCode bot is working now joins its running turn, instead of waiting for it to finish. Stop ends everything. Stopping an OpenCode bot also ends the work it had moved to the background, so nothing keeps running unseen. OpenCode no longer reads your own Claude instructions ( CLAUDE.md ). Devin bots can be steered mid-turn too, when Devin supports it. Inbox Pinned conversations sit on top, with a Finished list of what you've recently read. Unread dots, a mark on the conversation you have open, and a card showing your last message above the unread ones. "
     },
     {
-      "tag": "v0.1.150",
-      "title": "OpenMausBot 0.1.150",
-      "date": "2026-11-09",
-      "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.150",
+      "tag": "v0.1.169",
+      "title": "OpenMausBot 0.1.169",
+      "date": "2026-11-17",
+      "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.169",
       "pre": false,
-      "note": "What's new in 0.1.150 Clouds finish restores and stay responsive A restore on My Cloud finishes by itself. Restoring a backup, or moving this computer's workspace to My Cloud, used to wait on \"Fully quit MausBot…\", which a Cloud can't do. My Cloud now restarts its own server right after the restore and shows progress while it comes back. The turn queue stays fast when many bots wait. Checking who goes next takes time in proportion to the number waiting, not its square, so a busy Cloud keeps answering. A Claude turn is never sent twice once one of its model calls has answered. Routines save a run's progress once per window, not after every step, so long runs write far less. Paired phones and desktops get large bot lists without stalling. A calmer, clearer app Polish pass. One corner-radius scale, clearer headings and lighter icons. A reply with a table or code is now one bubble instead of"
+      "note": "What's new in 0.1.169 Teams Team files: one shared folder for the team and its bots. Team templates: a team library, templates from private GitHub repositories, and scripts that travel with their skills. Bitwarden in the Vault: logins and secrets through Bitwarden, alongside 1Password. What's new for everyone, and an Announcements page with a dot when there is something unread. Bots and skills Bots can import a skill from GitHub or skills.sh. Up to 10 connected accounts per app (was 5). Rooms say where a queued teammate is busy and that it starts when that work finishes. A bot reads its own hand-offs from any of its own chats. Pause and Resume every bot in the Advanced-mode bot menu. One set of names for approval levels in Simple and Advanced mode. Chat Right-click menu for media, and large chat videos and audio now stream instead of loading whole. A new chat is suggested under the lates"
     },
     {
-      "tag": "v0.1.149",
-      "title": "OpenMausBot 0.1.149",
-      "date": "2026-11-08",
-      "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.149",
+      "tag": "v0.1.167",
+      "title": "OpenMausBot 0.1.167",
+      "date": "2026-11-17",
+      "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.167",
       "pre": false,
-      "note": "What's new in 0.1.149 Clouds stay up when bots hand out a lot of work No more freezes when one bot hands work to many. When many bot turns waited for memory at once, the server could use all its CPU re-checking the queue and stop answering. Waiting is now cheap, so the Cloud keeps working while the queue drains. Starter runs two tasks at once. Other tasks wait their turn, and your own chat still goes first. Once two are running and four are waiting, a new hand-off is refused with a clear note, and you're offered an upgrade to run more. Starter keeps five bots awake, including after a restore or a move. Every bot is kept. Bots past five are paused until you upgrade, and you choose which five stay awake (Cloud settings → Choose awake bots). Your own server can use this computer One popup after pairing. When a desktop pairs with a server you run yourself, it asks \"Let use this computer?\" . "
+      "note": "What's new in 0.1.167 Teams Team files: one shared folder for the team and its bots. Team templates: a team library, templates from private GitHub repositories, and scripts that travel with their skills. Bitwarden in the Vault: logins and secrets through Bitwarden, alongside 1Password. What's new for everyone, and an Announcements page with a dot when there is something unread. Bots and skills Bots can import a skill from GitHub or skills.sh. Up to 10 connected accounts per app (was 5). Rooms say where a queued teammate is busy and that it starts when that work finishes. A bot reads its own hand-offs from any of its own chats. Pause and Resume every bot in the Advanced-mode bot menu. One set of names for approval levels in Simple and Advanced mode. Chat Right-click menu for media, and large chat videos and audio now stream instead of loading whole. A new chat is suggested under the lates"
     },
     {
-      "tag": "v0.1.148",
-      "title": "OpenMausBot 0.1.148",
-      "date": "2026-11-07",
-      "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.148",
+      "tag": "v0.1.166",
+      "title": "OpenMausBot 0.1.166",
+      "date": "2026-11-17",
+      "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.166",
       "pre": false,
-      "note": "What's new in 0.1.148 Connecting to your own server is simpler One way to connect. In the app, ＋ → Connect to a server takes the link your server prints, or its address and a pairing code. A plain http:// address works on your own network (Wi-Fi, Tailscale, .local ); a public http:// address is refused with what to do instead. One pairing code. Servers and the web /pair page use the same 12-character code, and a code of the wrong kind says so. Commands that work when pasted. The server prints one link per way in, checks that the address really reaches it, and prints every command the way you started it (npx, a global install or Docker). --lan makes it reachable on this network. Nothing starts by itself. Each way into this computer has its own switch, all off by default. Tailscale and the phone link never start until you turn them on, and a desktop that only connects to your server starts"
+      "note": "What's new in 0.1.166 Publish sites and apps Sites a bot publishes to your Netlify account are public by default. Anyone with the link can open them, even when your Netlify team protects new sites. Ask for a private site and the bot keeps it private, and remembers that choice. A live preview in the chat. When a bot publishes one of your sites or pages, its reply shows a small live preview with Open and Open in browser. Fewer tokens, same rules Each request carries less fixed text: a new bot's built-in instructions are about 18% smaller and a Chief's about 15%, with every rule kept. Some tools are now loaded only when needed, and text that rarely changes is cached instead of re-sent. Settings you can find Every \"Settings → …\" the app and its bots mention is a real place , in every language that has it. Chat and sidebar The chat header and sidebar are easier to read: the open conversation "
     },
     {
-      "tag": "v0.1.147",
-      "title": "OpenMausBot 0.1.147",
-      "date": "2026-11-07",
-      "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.147",
+      "tag": "v0.1.165",
+      "title": "OpenMausBot 0.1.165",
+      "date": "2026-11-16",
+      "url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.165",
       "pre": false,
-      "note": "What's new in 0.1.147 Meeting notes Paste a Google Meet, Microsoft Teams or Jitsi link and a bot joins the call as a guest. It names itself, says in the chat that it's taking notes, and leaves when asked. Ask it questions during the call with @notes . When the call ends it posts a Meeting notes card: summary, decisions, action items and the full transcript with who said what. A calendar routine can send it to your meetings automatically. On a Cloud plan, transcription is included. Elsewhere, use your own ElevenLabs, Groq or OpenAI key, or a local Whisper model. Fixes \"Internal service failure (session/new, LocationNotFoundError)\" on a Cloud: fixed. OpenCode chats on a Cloud failed in every conversation after a bot's first one; each conversation now reaches its own folder. Phone connection: a second relay server now shares the load. npm: npx openmausbot@0.1.147 · https://www.npmjs.com/pac"
+      "note": "What's new in 0.1.165 Bots work on your computer, simply New bots on the Mac and Windows app work on This computer by default. The choices now say plainly what they mean: This computer uses your files and apps; a Private desktop can't see your files; Browser is websites only. A bot offers the switch itself. When a task needs your own files and the bot isn't on This computer, it says so in one line and switches with one tap, then carries on. No more hunting for settings that don't exist. Bots on API models (OpenRouter, Groq, local models…) can read and save files on This computer , not only drive the screen. Your approval level decides what is asked. Windows: the computer tools start reliably. They no longer drop out of a turn when they take a few seconds to start. Chat runs the app for you Bots name only real places in Settings , and can look them up. Sign in to Claude, ChatGPT or Antigr"
     }
   ]
 }

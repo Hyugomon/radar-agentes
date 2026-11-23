@@ -1,8 +1,32 @@
 {
   "repo": "clawboo/clawboo",
   "source": "releases.atom",
-  "checked_at": "2026-11-15",
+  "checked_at": "2026-11-23",
   "entries": [
+    {
+      "tag": "clawboo@0.9.1",
+      "title": "clawboo@0.9.1",
+      "date": "2026-11-19",
+      "url": "https://github.com/clawboo/clawboo/releases/tag/clawboo%400.9.1",
+      "pre": false,
+      "note": "Patch Changes 919e2fe : When you take control of an agent's screen, a key you press right as control arrives is now let go if you switch to another window straight away. Before, that key could stay held down on the agent's display. 5563a96 : A dashboard opened around your sign-in proxy, on a server that counts only a person the proxy signed for, no longer says that moving cards is refused there. A card moved there does move; it just does not stop the run on it, which is what the notice now says."
+    },
+    {
+      "tag": "clawboo@0.9.0",
+      "title": "clawboo@0.9.0",
+      "date": "2026-11-17",
+      "url": "https://github.com/clawboo/clawboo/releases/tag/clawboo%400.9.0",
+      "pre": false,
+      "note": "Minor Changes 27bf4fd : The dashboard's frame is reworked. An account bar runs along the bottom of the sidebar, under the team rail and the agent column: the person a sign-in proxy verified (or \"You\" on a local install, said as such), the theme switch and the Settings gear, which moved there from the agent column. The team rail is 72 px wide with larger icons, and its add-team button now sits at the end of the team icons and scrolls with them. An app that shows the dashboard in its own window can ask for a slim top bar by setting data-clawboo-embed-titlebar on the page, with --clawboo-titlebar-inset for its height and the new --clawboo-titlebar-left for the window buttons' width: the sidebar's hide button (moved there from the agent column), back and forward through the dashboard's own pages, the team or page name, Needs you and help. Under the bar, everything right of the team rail sits"
+    },
+    {
+      "tag": "clawboo@0.8.0",
+      "title": "clawboo@0.8.0",
+      "date": "2026-11-16",
+      "url": "https://github.com/clawboo/clawboo/releases/tag/clawboo%400.8.0",
+      "pre": false,
+      "note": "Minor Changes 18e0659 : On Linux, each agent can now run as an operating system user of its own, so agents are walled off from each other as well as from Clawboo. Set CLAWBOO_AGENT_USERS to a pool of users you create once (names, or a uid range such as uid:20001-20008 ), CLAWBOO_AGENT_GROUPS to a pool of team groups, and CLAWBOO_WORK_DIR to a folder of your own. It is used instead of CLAWBOO_AGENT_USER , never with it, and is off unless you set it. An agent gets the next free user when it is created, oldest first, and keeps it for its life; each team gets a group the same way. Each agent user has an agent host of its own, started on the agent's first need, closed with the agent's processes after 10 minutes with nothing to do, and watched on its own: a host that stops answering costs only its own agent's processes. An agent's runtime homes, browser profile and display live in its own user"
+    },
     {
       "tag": "clawboo@0.7.0",
       "title": "clawboo@0.7.0",
@@ -58,30 +82,6 @@
       "url": "https://github.com/clawboo/clawboo/releases/tag/clawboo%400.2.0",
       "pre": false,
       "note": "Minor Changes The v0.2.0 liberated cut. Native agents are built in (paste a provider key, no external CLI), and OpenClaw, Claude Code, Codex, and Hermes join as peer teammates in one chat, sharing one durable board, one tiered memory, and one capability dashboard, all governed and verified. Includes the team-task scheduler, per-runtime native homes, an encrypted credential vault under ~/.clawboo/ , and a release-cut security audit. See CHANGELOG.md for the full arc."
-    },
-    {
-      "tag": "clawboo@0.1.9",
-      "title": "clawboo@0.1.9",
-      "date": "2026-06-01",
-      "url": "https://github.com/clawboo/clawboo/releases/tag/clawboo%400.1.9",
-      "pre": false,
-      "note": "Patch Changes 53a05b2 : Welcome redesign, lighter install, and team color collections: New calm Day-sky welcome — a soft animated sky with drifting clouds (pure CSS/SVG) replaces the WebGL ShaderGradient atmosphere on the onboarding splash and home welcome, with a faint \"boo-verse\" of distant boo silhouettes drifting behind the clouds. The welcome is theme-independent (always the bright sky). Removed the WebGL/three.js stack ( @shadergradient/react , @react-three/fiber , three , three-stdlib ) — smaller install/bundle, no GPU cost on first paint. Fresh installs default to light theme so onboarding happens in light mode; switch to light/dark/system anytime after. Team color collections — each team picks from 8 color palettes with per-team hue rotation, and the create-team preview matches the deployed palette (DB migration 0004). Token-usage tracking by team &amp; agent ; onboarding flow i"
-    },
-    {
-      "tag": "clawboo@0.1.8",
-      "title": "clawboo@0.1.8",
-      "date": "2026-05-29",
-      "url": "https://github.com/clawboo/clawboo/releases/tag/clawboo%400.1.8",
-      "pre": false,
-      "note": "Patch Changes 4ecda72 : Light/dark theme with toggle + persisted preference, premium design-system pass (4-tier surfaces, type scale, motion), Atlas radial layout, GitHub star CTA, authentic provider brand marks + app-consistent model dropdown in onboarding, and onboarding-hang/atmosphere fixes."
-    },
-    {
-      "tag": "clawboo@0.1.7",
-      "title": "clawboo@0.1.7",
-      "date": "2026-05-20",
-      "url": "https://github.com/clawboo/clawboo/releases/tag/clawboo%400.1.7",
-      "pre": false,
-      "note": "Patch Changes 9309ee0 : Fix device pairing on fresh macOS installs (v0.1.7): POST /api/system/approve-device now uses spawnSync for the openclaw devices approve --latest preview step so the CLI's preview-mode non-zero exit code no longer swallows the request-id stdout we need to parse. Step 2 (the real approval) keeps execFileSync but surfaces stderr / stdout from any thrown error instead of Node's Command failed: wrapper. The onboarding wizard's StartGatewayStep now catches GatewayResponseError { code: 'NOT_PAIRED' } and renders the in-product DevicePairingApproval card inline. Users no longer have to do a manual page refresh to escape the wizard's \"Something went wrong\" panel on a fresh-install machine with OpenClaw 2026.5.x. After approval, the wizard auto-retries the connect and advances normally. 9038cab : Windows compatibility hardening (bundled into v0.1.7): Round 1 — .cmd spawn f"
     }
   ]
 }

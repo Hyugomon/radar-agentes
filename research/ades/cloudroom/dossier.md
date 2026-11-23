@@ -2,10 +2,10 @@
 
 - **Web oficial**: https://www.cloudroom.dev/
 - **Repo**: https://github.com/davidondrej/cloudroom
-- **Licencia**: Comercial
+- **Licencia**: Apache-2.0
 - **Categoría**: workspace
-- **Revisado**: 2026-11-13
-- **ADE Score**: 77.56 · Tier A
+- **Revisado**: 2026-11-23
+- **ADE Score**: 79.55 · Tier A
 
 ## Qué es
 
@@ -13,12 +13,16 @@ Workspace open source para correr agentes de código en la nube, con revisión d
 
 ## Release revisada
 
-- **Tag**: [gui-v154](https://github.com/davidondrej/cloudroom/releases/tag/gui-v154)
-- **Fecha**: 2026-11-15 (hace 0 días)
+- **Tag**: [gui-v164](https://github.com/davidondrej/cloudroom/releases/tag/gui-v164)
+- **Fecha**: 2026-11-23 (hace 0 días)
 - **Estado**: activo · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
-> Cloudroom v154 Archived threads restore cleanly. For Apple Silicon Macs on macOS 13 or later, Linux x64, and Windows x64. Changes The Archived threads page shows a Restored toast with an Open button, real totals, and a Retry when loading fails. Restoring a thread can bring back its subagent threads too. Self-hosters can connect their own Core right from setup, with no Cloudroom account. Keep Awake has three levels and is on by default, only while agents work. Thread notes now say what each thread is for, then where it stands. With two Macs, Cloud threads follow the Mac you are using. Selecting text in a draft shows a simple Copy button below it. Install or update macOS: Quit Cloudroom, downl
+**Qué trae**: gui-v164 (y gui-v161–v163): soporte completo para Antigravity, proyectos GitLab.com en la nube, compartición selectiva de repos, barra de subagentes y burbujas en vivo para comandos en segundo plano.
+
+**Impacto en la ficha**: Tier A (+1.99): Orquestación 70→75, Paralelismo 80→83, Control 70→74, Harnesses 86→88, Remoto 88→90 y Producto 75→77.
+
+> Cloudroom v164 Share only the repos you pick. For Apple Silicon Macs on macOS 13 or later, Linux x64, and Windows x64. Changes Connect GitHub can now share only the repos you pick with cloud agents. Hitting a Claude plan limit in a Cloud thread shows the plan-limit card, not a raw error. Cloud previews of dev servers load right away instead of stalling. Image attachments show small thumbnails in the message box, and privacy mode hides your email. Security fixes. Install or update macOS: Quit Cloudroom, download the DMG, open it, and drag Cloudroom into Applications. Your data is kept. Signed and notarized by Apple. Linux x64: For Ubuntu 24.04+ and current Arch Linux. chmod +x Cloudroom-v164-
 
 ## Evidencia
 
@@ -40,6 +44,7 @@ Workspace open source para correr agentes de código en la nube, con revisión d
 - “Remote work uses your own server over SSH.” — https://github.com/davidondrej/cloudroom#readme
 - “Remote work needs your own server over SSH.” — https://github.com/davidondrej/cloudroom#readme
 - “Remote work needs your own server over SSH.” — https://github.com/davidondrej/cloudroom#readme
+- “Cloud threads now work with GitLab.com projects, not just GitHub... Connect GitHub can now share only the repos you pick with cloud agents.” — https://github.com/davidondrej/cloudroom/releases/tag/gui-v164
 
 ### movil
 - Sin cita directa en la web/README revisada.
@@ -54,16 +59,16 @@ Workspace open source para correr agentes de código en la nube, con revisión d
 
 ## Dimensiones
 
-- **Harnesses**: 86/100
-- **Paralelismo**: 80/100
-- **Orquestación**: 70/100
+- **Harnesses**: 88/100
+- **Paralelismo**: 83/100
+- **Orquestación**: 75/100
 - **Revisión**: 78/100
-- **Remoto / cloud**: 88/100
+- **Remoto / cloud**: 90/100
 - **Móvil**: 60/100
 - **Extensiones**: 70/100
-- **Control**: 70/100
+- **Control**: 74/100
 - **Apertura**: 90/100
-- **Producto**: 75/100
+- **Producto**: 77/100
 
 ## Fortalezas
 
@@ -79,9 +84,9 @@ Workspace open source para correr agentes de código en la nube, con revisión d
 
 ## Fuentes
 
-- [Web oficial](https://www.cloudroom.dev/) · consultado 2026-11-13
-- [Repositorio GitHub](https://github.com/davidondrej/cloudroom) · consultado 2026-11-13
-- [README](https://github.com/davidondrej/cloudroom#readme) · consultado 2026-11-13
+- [Web oficial](https://www.cloudroom.dev/) · consultado 2026-11-23
+- [Repositorio GitHub](https://github.com/davidondrej/cloudroom) · consultado 2026-11-23
+- [README](https://github.com/davidondrej/cloudroom#readme) · consultado 2026-11-23
 
 ---
 

@@ -101,8 +101,8 @@ for (const p of index.projects) {
   p.tier = tierFor(p.total)
   p.summary = o.summary || p.summary
   p.tagline = o.tagline || p.tagline
-  p.release_highlight = o.release_highlight || p.release_highlight || ''
-  p.release_impact = o.release_impact || p.release_impact || ''
+  p.release_highlight = o.release_highlight !== undefined ? o.release_highlight : (p.release_highlight || '')
+  p.release_impact = o.release_impact !== undefined ? o.release_impact : (p.release_impact || '')
   if (o.evidence) p.evidence = { ...(p.evidence || {}), ...o.evidence }
   p.category = o.category || p.category || 'workspace'
   p.pricing = o.pricing || p.pricing || 'unknown'
@@ -114,7 +114,7 @@ for (const p of index.projects) {
   p.weaknesses = o.weaknesses || p.weaknesses || []
   p.license = o.license !== undefined ? o.license : p.license
   p.licenseType = o.licenseType || (p.license ? 'Open source' : (p.license === null ? 'Comercial' : 'No verificada'))
-  p.judged_day = p.judged_day || new Date().toISOString().slice(0, 10)
+  p.judged_day = o.judged_day || p.release_checked_at || p.judged_day || new Date().toISOString().slice(0, 10)
 
   mkdirSync(join(dirRoot, p.slug), { recursive: true })
   writeFileSync(join(dirRoot, p.slug, 'dossier.md'), dossier(p), 'utf8')

@@ -2,9 +2,9 @@
 
 - **Web oficial**: https://sidecar.haplab.com/
 - **Repo**: https://github.com/marcus/sidecar
-- **Licencia**: Comercial
+- **Licencia**: MIT
 - **Categoría**: terminal
-- **Revisado**: 2026-11-13
+- **Revisado**: 2026-11-23
 - **ADE Score**: 72.42 · Tier A
 
 ## Qué es
@@ -14,9 +14,9 @@ Terminal workspace para sesiones de agentes, hosts remotos y entrega con Git; br
 ## Release revisada
 
 - **Tag**: [v1.17.1](https://github.com/marcus/sidecar/releases/tag/v1.17.1)
-- **Fecha**: 2026-10-08 (hace 38 días)
+- **Fecha**: 2026-10-08 (hace 46 días)
 - **Estado**: estable · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
 > Changelog e25b0c9 fix(api): keep Tailnet access across service reinstalls with api.tailnet (td-accec4) cbac413 fix(api): service install waits for the started job before reporting (td-accec4) 2a2978a release: prepare v1.17.1
 
@@ -80,9 +80,9 @@ Terminal workspace para sesiones de agentes, hosts remotos y entrega con Git; br
 
 ## Fuentes
 
-- [Web oficial](https://sidecar.haplab.com/) · consultado 2026-11-13
-- [Repositorio GitHub](https://github.com/marcus/sidecar) · consultado 2026-11-13
-- [README](https://github.com/marcus/sidecar#readme) · consultado 2026-11-13
+- [Web oficial](https://sidecar.haplab.com/) · consultado 2026-11-23
+- [Repositorio GitHub](https://github.com/marcus/sidecar) · consultado 2026-11-23
+- [README](https://github.com/marcus/sidecar#readme) · consultado 2026-11-23
 
 ---
 

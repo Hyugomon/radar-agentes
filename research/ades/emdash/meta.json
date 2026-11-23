@@ -29,7 +29,7 @@
       "site_admin": false
     },
     "html_url": "https://github.com/generalaction/emdash",
-    "description": "Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider.",
+    "description": "Emdash Classic is the open-source desktop app for running coding agents in parallel. Use your favorite agents in isolated Git worktrees, locally or over SSH.",
     "fork": false,
     "url": "https://api.github.com/repos/generalaction/emdash",
     "forks_url": "https://api.github.com/repos/generalaction/emdash/forks",
@@ -69,16 +69,16 @@
     "releases_url": "https://api.github.com/repos/generalaction/emdash/releases{/id}",
     "deployments_url": "https://api.github.com/repos/generalaction/emdash/deployments",
     "created_at": "2025-08-28T07:19:57Z",
-    "updated_at": "2026-11-13T06:23:04Z",
-    "pushed_at": "2026-11-10T04:06:25Z",
+    "updated_at": "2026-11-23T21:28:37Z",
+    "pushed_at": "2026-11-23T21:48:12Z",
     "git_url": "git://github.com/generalaction/emdash.git",
     "ssh_url": "git@github.com:generalaction/emdash.git",
     "clone_url": "https://github.com/generalaction/emdash.git",
     "svn_url": "https://github.com/generalaction/emdash",
-    "homepage": "https://emdash.com",
-    "size": 177238,
-    "stargazers_count": 6240,
-    "watchers_count": 6240,
+    "homepage": "https://emdash.com/classic",
+    "size": 177588,
+    "stargazers_count": 6296,
+    "watchers_count": 6296,
     "language": "TypeScript",
     "has_issues": true,
     "has_projects": true,
@@ -86,11 +86,11 @@
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": true,
-    "forks_count": 664,
+    "forks_count": 673,
     "mirror_url": null,
     "archived": false,
     "disabled": false,
-    "open_issues_count": 85,
+    "open_issues_count": 88,
     "license": {
       "key": "apache-2.0",
       "name": "Apache License 2.0",
@@ -125,9 +125,9 @@
       "terminal"
     ],
     "visibility": "public",
-    "forks": 664,
-    "open_issues": 85,
-    "watchers": 6240,
+    "forks": 673,
+    "open_issues": 88,
+    "watchers": 6296,
     "default_branch": "main",
     "temp_clone_token": null,
     "custom_properties": {},
@@ -152,8 +152,8 @@
       "user_view_type": "public",
       "site_admin": false
     },
-    "network_count": 664,
-    "subscribers_count": 24
+    "network_count": 673,
+    "subscribers_count": 25
   },
-  "fetched_at": "2026-11-13"
+  "fetched_at": "2026-11-23"
 }

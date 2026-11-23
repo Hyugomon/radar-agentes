@@ -5,10 +5,10 @@
   "homepage": "https://romeos.cc",
   "license": "MIT",
   "language": "TypeScript",
-  "stars": 897,
-  "forks": 68,
-  "open_issues": 330,
-  "pushed_at": "2026-11-12T07:44:42Z",
+  "stars": 932,
+  "forks": 71,
+  "open_issues": 354,
+  "pushed_at": "2026-11-23T18:45:30Z",
   "created_at": "2026-08-23T06:15:15Z",
   "topics": [
     "agent",
@@ -27,5 +27,5 @@
   ],
   "archived": false,
   "api_status": 200,
-  "fetched_at": "2026-11-12"
+  "fetched_at": "2026-11-23"
 }

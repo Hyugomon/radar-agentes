@@ -4,9 +4,9 @@
 - **Web oficial**: https://rakazo.com
 - **Licencia**: Apache-2.0
 - **Lenguaje**: TypeScript
-- **Estrellas**: 8467 · **Forks**: 1534
-- **Último push**: 2026-11-15T07:57:19Z · **Última release**: 2026-11-12
-- **Revisado**: 2026-11-15 · **Confianza**: 68/100
+- **Estrellas**: 9599 · **Forks**: 1727
+- **Último push**: 2026-11-23T21:34:00Z · **Última release**: 2026-11-23
+- **Revisado**: 2026-11-23 · **Confianza**: 68/100
 - **Tipo**: agent · **Categoría**: teams
 
 ## Qué es
@@ -21,16 +21,16 @@ README y web: bots persistentes con computadora/navegador, grupos, delegación, 
 
 ## Release revisada
 
-- **Tag**: [v0.11.0](https://github.com/elie222/rakazo/releases/tag/v0.11.0)
-- **Fecha**: 2026-11-12 (hace 3 días)
+- **Tag**: [v0.15.0](https://github.com/elie222/rakazo/releases/tag/v0.15.0)
+- **Fecha**: 2026-11-23 (hace 0 días)
 - **Estado**: activo · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
-**Qué trae**: 0.11.0: computadora local sin Docker en Mac, DMs de Teams y rutinas que vigilan una URL.
+**Qué trae**: v0.15.0 (y v0.12–v0.14): Auto Review anti-prompt-injection, bots en reuniones con transcripción, adjuntos Word/PowerPoint, rutinas en tu Mac/PC y Android OTA.
 
-**Impacto en la ficha**: Nuevo en el ranking: 85.00 S. 8/8 pilares; la alternativa más completa a Grok Bot por producto.
+**Impacto en la ficha**: Sube a 86.00 S (+1.00): Confianza 90→94, Capacidad 82→84 y Producto 79→81 por endurecimiento de aprobaciones y bots de reuniones.
 
-> Security Updated third-party dependencies with known vulnerabilities, including the HTTP client used by model, mail and scraping connections, the mail sender, and XML and Markdown parsers. The development launcher's database cleanup accepts only database names it generated and quotes them, so forged database metadata can no longer inject SQL or point the cleanup at another folder. This affects source checkouts only. Added On Apple silicon Macs running macOS 26 or newer, the desktop app's This computer runs without Docker. The app downloads what it needs the first time you pick it, and each bot's computer runs as its own small VM with a firewall that lets it reach the internet but not your Ma
+> Security Changing an MCP server's URL no longer carries its stored bearer token, header values or an OAuth client that never signed in to the new address. Before, the connection check after saving sent the old token to the new URL. RAKAZO_NAV_LINKS also rejects links to the app's own routes written in other letter cases or percent-encoded, such as /API/me , matching how the bundled proxy routes them. Password managers no longer fill or save in the vault's login fields. The web server refuses to start when its build id is not a plain timestamp, so a malformed id cannot touch files outside the asset archive. Added Attach Word (.docx) and PowerPoint (.pptx) files to a chat, and bots can hand th
 
 ## Evidencia de la investigación
 
@@ -54,6 +54,7 @@ README y web: bots persistentes con computadora/navegador, grupos, delegación, 
 
 ### ✅ Aprobaciones
   - “Decide which actions need your approval.” — https://rakazo.com
+  - “Auto Review knows when a recipient, site, payee or bank account appeared only in content the bot read, and asks before sending private data, granting access or paying that party.” — https://github.com/elie222/rakazo/releases/tag/v0.14.0
 
 ### ✅ Desatendido
   - “Keeps working while your computer is off.” — https://rakazo.com
@@ -61,16 +62,16 @@ README y web: bots persistentes con computadora/navegador, grupos, delegación, 
 
 ## Puntuación
 
-Grok Score: **85** · Tier **S** · ADN **100**
+Grok Score: **86** · Tier **S** · ADN **100**
 
-- **capacidad**: 82/100
+- **capacidad**: 84/100
 - **autonomia**: 80/100
 - **computadora**: 87/100
 - **memoria**: 90/100
 - **rutinas**: 90/100
 - **equipo**: 88/100
-- **confianza**: 90/100
-- **producto**: 79/100
+- **confianza**: 94/100
+- **producto**: 81/100
 
 ## Fortalezas
 
@@ -78,6 +79,7 @@ Grok Score: **85** · Tier **S** · ADN **100**
 - Grupos, delegación y subagentes
 - Rutinas, memoria, miles de apps y MCP
 - Web, escritorio, iPhone/iPad y Android
+- Auto Review contra prompt injection tras contenido externo, cifrado en reposo y bots que se unen a reuniones con transcripción
 
 ## Lo que le falta / riesgos
 
@@ -91,10 +93,10 @@ Cubre casi todas las piezas de Grok Bot con más adopción y multiplataforma; le
 
 ## Fuentes consultadas
 
-- [Repositorio GitHub](https://github.com/elie222/rakazo) · consultado 2026-11-15
-- [Web oficial](https://rakazo.com) · consultado 2026-11-15
-- [README](https://github.com/elie222/rakazo#readme) · consultado 2026-11-15
-- [Releases](https://github.com/elie222/rakazo/releases) · consultado 2026-11-15
+- [Repositorio GitHub](https://github.com/elie222/rakazo) · consultado 2026-11-23
+- [Web oficial](https://rakazo.com) · consultado 2026-11-23
+- [README](https://github.com/elie222/rakazo#readme) · consultado 2026-11-23
+- [Releases](https://github.com/elie222/rakazo/releases) · consultado 2026-11-23
 
 ---
 

@@ -2,10 +2,10 @@
 
 - **Web oficial**: https://t3.codes/
 - **Repo**: https://github.com/pingdotgg/t3code
-- **Licencia**: Comercial
+- **Licencia**: MIT
 - **Categoría**: ide
-- **Revisado**: 2026-11-13
-- **ADE Score**: 88.17 · Tier S
+- **Revisado**: 2026-11-23
+- **ADE Score**: 89.19 · Tier S
 
 ## Qué es
 
@@ -13,16 +13,16 @@ Workspace open source para manejar varios agentes de código, sesiones remotas y
 
 ## Release revisada
 
-- **Tag**: [v0.1.10-nightly.20261115.4723](https://github.com/pingdotgg/t3code/releases/tag/v0.1.10-nightly.20261115.4723)
-- **Fecha**: 2026-11-15 (hace 0 días)
+- **Tag**: [v0.1.12-nightly.20261123.5151](https://github.com/pingdotgg/t3code/releases/tag/v0.1.12-nightly.20261123.5151)
+- **Fecha**: 2026-11-23 (hace 0 días)
 - **Estado**: activo · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
-**Qué trae**: Nightly 2026-11-15: reanudar turnos de Cursor, compactar contexto y cargar diffs grandes de PR.
+**Qué trae**: v0.1.12-nightly.20261123: Workflows (Labs) para coordinar agentes, eventos y aprobaciones; MCP Events webhooks; steering de turnos entre agentes y vistas previas de navegador en segundo plano.
 
-**Impacto en la ficha**: Tier S (+0.58): Revisión 86→89, Control 72→74 y Producto 90→91.
+**Impacto en la ficha**: Tier S (+1.02): Orquestación 86→90, Extensiones 82→85 y Control 74→77.
 
-> v0.1.10-nightly.20261115.4723 · 221 changes from 92 contributors Resume Cursor turns. Resume a stopped Cursor turn from its latest checkpoint without sending a new message. Cursor compaction. Manually compact Cursor conversations from the slash menu or context meter. Large pull request diffs. Load a pull request file’s diff on demand when it is too large to show automatically. Faster pull request actions. Pull request actions, title edits, and labels now update immediately across all supported hosts. Faster delegated tasks. Delegated tasks start and finish faster in long threads. Prompt recovery. Prompts awaiting provider acceptance are preserved if the server restarts. Scratch thread protec
+> v0.1.12-nightly.20261123.5151 · 67 changes from 25 contributors Background browser previews. Agents can take screenshots and interact with previews while T3 Code is hidden, minimized, or covered. Agent message delivery. Messages from other agents can steer a running turn without waiting behind a queued message. Web startup. T3 Code starts in browsers where WebAssembly is disabled. Open links on macOS. Links open a T3 Code window when the app is running without one. Plus 51 more bug fixes and performance improvements. Full changelog What's Changed fix(web): retry a failed port-forward locality probe by @juliusmarminge in #41353 fix(web): start without WebAssembly by initialising Words in a gu
 
 ## Evidencia
 
@@ -36,6 +36,7 @@ Workspace open source para manejar varios agentes de código, sesiones remotas y
 
 ### orquestacion
 - “Orchestrate Claude Code, Codex, Antigravity, OpenCode, Cursor, and Grok from one surface.” — https://github.com/pingdotgg/t3code#readme
+- “Workflows (Labs). Run workflows that coordinate agents, code, events, and approvals, and inspect and control them in the app.” — https://github.com/pingdotgg/t3code/releases/tag/v0.1.12-nightly.20261123.5124
 
 ### revision
 - “Resume a stopped Cursor turn from its latest checkpoint without sending a new message. Load a pull request file diff on demand when it is too large to show automatically.” — https://github.com/pingdotgg/t3code/releases/tag/v0.1.10-nightly.20261115.4723
@@ -60,12 +61,12 @@ Workspace open source para manejar varios agentes de código, sesiones remotas y
 
 - **Harnesses**: 95/100
 - **Paralelismo**: 92/100
-- **Orquestación**: 86/100
+- **Orquestación**: 90/100
 - **Revisión**: 89/100
 - **Remoto / cloud**: 88/100
 - **Móvil**: 84/100
-- **Extensiones**: 82/100
-- **Control**: 74/100
+- **Extensiones**: 85/100
+- **Control**: 77/100
 - **Apertura**: 95/100
 - **Producto**: 91/100
 
@@ -84,9 +85,9 @@ Workspace open source para manejar varios agentes de código, sesiones remotas y
 
 ## Fuentes
 
-- [Web oficial](https://t3.codes/) · consultado 2026-11-13
-- [Repositorio GitHub](https://github.com/pingdotgg/t3code) · consultado 2026-11-13
-- [README](https://github.com/pingdotgg/t3code#readme) · consultado 2026-11-13
+- [Web oficial](https://t3.codes/) · consultado 2026-11-23
+- [Repositorio GitHub](https://github.com/pingdotgg/t3code) · consultado 2026-11-23
+- [README](https://github.com/pingdotgg/t3code#readme) · consultado 2026-11-23
 
 ---
 

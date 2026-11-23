@@ -4,29 +4,33 @@
 - **Web oficial**: https://www.codync.dev
 - **Licencia**: Apache-2.0
 - **Lenguaje**: Rust
-- **Estrellas**: 2052 · **Forks**: 208
-- **Último push**: 2026-11-12T07:07:19Z · **Última release**: 2026-11-14
-- **Revisado**: 2026-11-12 · **Confianza**: 62/100
+- **Estrellas**: 2427 · **Forks**: 253
+- **Último push**: 2026-11-23T20:39:01Z · **Última release**: 2026-11-22
+- **Revisado**: 2026-11-23 · **Confianza**: 62/100
 - **Tipo**: bot · **Categoría**: teams
 
 ## Qué es
 
-Codync es una app de escritorio y iOS, escrita en Rust y autoalojada, que convierte tus suscripciones a Claude Code, Codex, Cursor y otros 40+ agentes en bots con identidad propia a los que escribes desde el móvil. Está pensada para desarrolladores que quieren un sustituto casero de Grok Bot sobre su propia máquina, sin nube ni capa de pago.
+Convierte más de 40 agentes CLI (Claude Code, Codex, Gemini, Hermes, OpenCode…) en bots persistentes con memoria, rutinas, trabajo en segundo plano, aprobaciones, pantalla remota, Codync Cloud y apps nativas para macOS, Windows, Linux, iOS y Android.
 
 > Tus agentes CLI, convertidos en bots.
 
 ## Nota de verificación
 
-README: bots persistentes con nombre, memoria por bot, group chats, aprobaciones y herramienta de computadora. No encontré scheduler/rutinas en el README, así que rutinas queda en falso. Los agentes corren en tu computadora.
+Revisión v2.49.1–v2.53.0 (2026-11-22): añade trabajo en segundo plano con event box, rutinas y webhooks, Codync Cloud desde iOS/Android/escritorio, modo Advisor, ACP elicitation y app en Google Play. Rutinas y Desatendido pasan a ON (ADN 100).
 
 ## Release revisada
 
-- **Tag**: [v2.47.0](https://github.com/leepokai/Codync/releases/tag/v2.47.0)
-- **Fecha**: 2026-11-14 (hace 1 días)
+- **Tag**: [v2.53.0](https://github.com/leepokai/Codync/releases/tag/v2.53.0)
+- **Fecha**: 2026-11-22 (hace 1 días)
 - **Estado**: activo · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
-> Codync 2.47.0 Login profiles : an agent can have more than one login on a computer. Add another account (Claude Code, Codex, OpenCode, Pi, Google Antigravity and more) or an API key for any agent, name each one, and pick which a bot uses under Agent in its settings. Key values stay on the computer; variables from your login shell reach an agent only when you import them. A fallback can be the same agent on another login profile: when one runs out of usage, the bot carries on with the next. Usage limits per login : an agent with several signed-in accounts shows each account's own limits (Claude Code, Codex). The menu bar, notch island and widgets show the one nearest its limit. Share to a bot
+**Qué trae**: v2.53.0 (y v2.49–v2.52): Codync Cloud, rutinas con event box y watchdog, modo Advisor, subagentes en transcript y app Android en Google Play.
+
+**Impacto en la ficha**: Sube a Tier S (+7.45, ADN 74→100): Rutinas 55→86, Autonomía 60→78, Computadora 83→86 y Producto 70→76; Rutinas y Desatendido pasan a ON.
+
+> Release 2.53.0 (main is at 2.52.0). Also carries 2.52.1, which never reached main . Subagents in the transcript : when a Claude Code bot uses subagents, each subagent's steps now sit indented under the step that started it, in the unfolded working steps, Full conversation and a task's thread, on desktop, iPhone, Android and the terminal UI. That step shows the subagent's type, the tokens it used and how long it took, or that it runs in the background. Android : opening a long chat for the first time lands on its newest message instead of earlier ones. Bots messaging bots : a queued message_bot request now always reaches its recipient or tells its sender why it ended, including after a host r
 
 ## Evidencia de la investigación
 
@@ -39,9 +43,8 @@ README: bots persistentes con nombre, memoria por bot, group chats, aprobaciones
 ### ✅ Memoria
   - “Persistent named bots, group chats, quote replies, bots asking each other for help, approval cards, per-bot memory, remote screen, voice calls.” — https://github.com/leepokai/Codync#readme
 
-### ❌ Rutinas
-  - “Wants to change files Edit src/pace.js Runs on MacBook-Pro-3 · trailmix Details Allow once Always allow Deny Needs approval: Edit src/pace.js 1 : 36 9:41 On a schedule Routines run a bot every morning, every hour or when a webhook arrives, and the result comes as a message.” — https://www.codync.dev
-  - “Morning brief Every day, 08:00 Check the build Every hour Deploy finished Webhook Bots on your other computers (beta) Put your computers in a private network and a bot on one can ask a bot on another.” — https://www.codync.dev
+### ✅ Rutinas
+  - “Background work and the event box : a bot hands long work to background agents and keeps answering... Routines and other bots' requests run there too, background work can ask for approval or a choice and send files in the chat, and an hourly look picks up work no event reported.” — https://github.com/leepokai/Codync/releases/tag/v2.49.1
 
 ### ✅ Apps reales
   - “Remote screen. See and control your computer from the iPhone over WebRTC, and let bots use the screen themselves through the built-in computer tool.” — https://github.com/leepokai/Codync#readme
@@ -52,44 +55,45 @@ README: bots persistentes con nombre, memoria por bot, group chats, aprobaciones
 ### ✅ Aprobaciones
   - “The chat only shows what matters: your messages, each turn's final reply, approval cards and notices.” — https://github.com/leepokai/Codync#readme
 
-### ❌ Desatendido
-  - “Bots run on the Claude, ChatGPT or other plan your agents are already signed in with, on your own computer.” — https://github.com/leepokai/Codync#readme
+### ✅ Desatendido
+  - “Codync Cloud : first-time setup on the iPhone and Android apps can start a cloud computer instead of installing Codync on one of yours, then waits until it's ready and opens your bots.” — https://github.com/leepokai/Codync/releases/tag/v2.51.0
 
 ## Puntuación
 
-Grok Score: **76.15** · Tier **A** · ADN **74**
+Grok Score: **83.6** · Tier **S** · ADN **100**
 
-- **capacidad**: 78/100
-- **autonomia**: 60/100
-- **computadora**: 83/100
+- **capacidad**: 80/100
+- **autonomia**: 78/100
+- **computadora**: 86/100
 - **memoria**: 90/100
-- **rutinas**: 55/100
+- **rutinas**: 86/100
 - **equipo**: 90/100
 - **confianza**: 90/100
-- **producto**: 70/100
+- **producto**: 76/100
 
 ## Fortalezas
 
-- Agnóstico de agente: conecta 40+ agentes vía ACP (Claude Code, Codex, Gemini CLI, Cursor, Copilot) y aprovecha las suscripciones que el usuario ya paga.
-- Canal real desde el iPhone (App Store) y escritorio multiplataforma más terminal, con el entorno, los archivos y las credenciales viviendo en tu propia máquina.
-- Rust, Apache-2.0, gratuito y autoalojado, con distribución amplia (DMG, EXE, AppImage, Homebrew) y cadencia altísima de releases: 54 en 90 días.
+- Bots persistentes con memoria, chats grupales, delegación, modo Advisor y subagentes visibles
+- Trabajo en segundo plano con event box, rutinas, webhooks y watchdog de tareas atascadas
+- Codync Cloud para levantar computadoras en la nube desde iPhone, Android o escritorio, además de pantalla remota WebRTC
+- App nativa en App Store y Google Play con relay E2E gratuito
 
 ## Lo que le falta / riesgos
 
-- Sin runtime persistente en la nube: si el ordenador está apagado o el portátil cerrado, los bots no trabajan, así que no hay trabajo desatendido de verdad.
-- No se evidencian rutinas programadas ni por evento, política de aprobaciones propia ni memoria acumulada por bot: le faltan pilares del listón Grok Bot.
-- Proyecto joven (unos 8 meses) con adopción modesta (2,052 estrellas) y 83 issues abiertos; la frecuencia extrema de releases sugiere churn y la cobertura de tests no es visible en el expediente.
+- Sigue dependiendo de suscripciones/CLIs externos para los motores de los agentes
+- Pantalla remota aún no disponible en hosts Windows
+- Ecosistema todavía mediano frente a plataformas más antiguas
 
 ## Comparación con el listón
 
-Se acerca al concepto de Grok Bot desde el código abierto y el self-hosting, pero al depender de tu ordenador y carecer de rutinas, aprobaciones y computadora en la nube queda por debajo de agentes de referencia como hermes-agent y muy lejos de la adopción de rea, AutoGPT o n8n.
+Con rutinas, trabajo en segundo plano, Codync Cloud y Android ya cubre los 8/8 pilares de Grok Bot usando tus propios agentes CLI; su madurez de producto aún es menor.
 
 ## Fuentes consultadas
 
-- [Repositorio GitHub](https://github.com/leepokai/Codync) · consultado 2026-11-12
-- [Web oficial](https://www.codync.dev) · consultado 2026-11-12
-- [README](https://github.com/leepokai/Codync#readme) · consultado 2026-11-12
-- [Releases](https://github.com/leepokai/Codync/releases) · consultado 2026-11-12
+- [Repositorio GitHub](https://github.com/leepokai/Codync) · consultado 2026-11-23
+- [Web oficial](https://www.codync.dev) · consultado 2026-11-23
+- [README](https://github.com/leepokai/Codync#readme) · consultado 2026-11-23
+- [Releases](https://github.com/leepokai/Codync/releases) · consultado 2026-11-23
 
 ---
 

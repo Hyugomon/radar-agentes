@@ -1,8 +1,16 @@
 {
   "repo": "Orkas-AI/Orkas",
   "source": "releases.atom",
-  "checked_at": "2026-11-15",
+  "checked_at": "2026-11-23",
   "entries": [
+    {
+      "tag": "v2026.11.16",
+      "title": "Orkas 2026.11.16",
+      "date": "2026-11-16",
+      "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.11.16",
+      "pre": false,
+      "note": "v2026.11.16 Download Download Orkas Highlights Create and recover work in the Content workbench and product listing apps, with configured media services and Orkas·Voice speech labels. Build, preview and revise video timelines with clearer reference handling, playback controls and delivery feedback. Work with layered images, RAW photos, PDFs and Office documents through improved inspection, editing and export tools. Review known responsiveness, context-size, shutdown and document-recovery limitations in the release review . Improvements Use more configured speech providers and audio workflows, with better media transfer and rate-limit recovery. Keep conversations, project drafts, local tasks and automation state consistent through delayed responses and restarts. Reuse provider caches across sessions and receive reminders to use collected search evidence during long research runs. Fixes Pr"
+    },
     {
       "tag": "v2026.11.4",
       "title": "Orkas 2026.11.4",
@@ -74,14 +82,6 @@
       "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.8.11",
       "pre": false,
       "note": "v2026.8.11 Download installers macOS Apple Silicon : Orkas-mac-arm64.dmg macOS Intel : Orkas-mac-x64.dmg Windows x64 : Orkas-Setup.exe Changes since v2026.7.29 v2026.8.11 Merge pull request #25 from BlueSkyID666/codex/sync-release-1.6.5-tests Sync Orkas release 1.6.5"
-    },
-    {
-      "tag": "v2026.7.29",
-      "title": "Orkas 2026.7.29",
-      "date": "2026-08-16",
-      "url": "https://github.com/Orkas-AI/Orkas/releases/tag/v2026.7.29",
-      "pre": false,
-      "note": "v2026.7.29 Download installers macOS Apple Silicon : Orkas-mac-arm64.dmg macOS Intel : Orkas-mac-x64.dmg Windows x64 : Orkas-Setup.exe Changes since v2026.7.21 v2026.7.29 Merge pull request #17 from Orkas-AI/codex/sync-release-1.6.2 Sync release 1.6.2 Track OrkasOpen website referrals"
     }
   ]
 }

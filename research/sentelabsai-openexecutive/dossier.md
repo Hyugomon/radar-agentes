@@ -1,32 +1,36 @@
 # OpenExecutive — dossier de investigación
 
-- **Repo**: https://github.com/SenteLabsAI/OpenExecutive
+- **Repo**: https://github.com/ForeactLabs/OpenExecutive
 - **Web oficial**: https://openexecutive.ai
 - **Licencia**: Apache-2.0
 - **Lenguaje**: Python
-- **Estrellas**: 5796 · **Forks**: 629
-- **Último push**: 2026-11-12T03:57:33Z · **Última release**: 2026-11-12
-- **Revisado**: 2026-11-12 · **Confianza**: 76/100
+- **Estrellas**: 5834 · **Forks**: 634
+- **Último push**: 2026-11-22T21:54:20Z · **Última release**: 2026-11-18
+- **Revisado**: 2026-11-23 · **Confianza**: 76/100
 - **Tipo**: agent · **Categoría**: teams
 
 ## Qué es
 
-Equipo ejecutivo virtual de código abierto: una persona coherente respaldada por ocho agentes especialistas, con umbrales de aprobación de gasto, RAG corporativo y conectores con Slack, Telegram, Google, Microsoft 365, Notion y MCP. Apunta a mandos y organizaciones que quieren delegar tareas de gestión.
+Equipo ejecutivo open source (ahora bajo ForeactLabs) con una voz unificada, memoria episódica en SQLite, scheduler integrado, aprobaciones por montos/reglas, extensión de Chrome para operar webs e integraciones con Slack, Google Chat, Email, Google Workspace, Microsoft 365 y MCP.
 
 > Un equipo ejecutivo de agentes.
 
 ## Nota de verificación
 
-Revisión previa + README: una persona coherente respaldada por ocho agentes ejecutivos; coordinación y aprobaciones. Sin evidencia de computadora propia.
+Revisión v0.7.4–v0.7.7 y README actual (ForeactLabs/OpenExecutive): documenta memoria episódica en SQLite, scheduler propio con página Schedule, control de navegador Chrome por extensión, canales corporativos y workflows en segundo plano. Computadora propia sigue en falso (usa el Chrome del usuario, no una VM/terminal propia).
 
 ## Release revisada
 
-- **Tag**: [v0.7.3](https://github.com/ForeactLabs/OpenExecutive/releases/tag/v0.7.3)
-- **Fecha**: 2026-11-12 (hace 3 días)
+- **Tag**: [v0.7.7](https://github.com/ForeactLabs/OpenExecutive/releases/tag/v0.7.7)
+- **Fecha**: 2026-11-18 (hace 5 días)
 - **Estado**: activo · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
-> 0.7.3 (2026-11-12) Added integrations: add Approve and Skip buttons to Google Chat cards ( #806 ) ( 9f0c9dc ) ui: give email cards one set of buttons and answer questions on them ( #811 ) ( 33073d0 ) Fixed delegation: reply in the thread to whoever they ask, on the waiting card when there is one ( #810 ) ( 5df30ac ) integrations: check a Google Chat tap before its buttons come off ( #808 ) ( 6639fd5 ) integrations: move Google Workspace MCP to 2.4.2 ( #812 ) ( 95ebc8e )
+**Qué trae**: v0.7.7 (y v0.7.4–v0.7.6): navegador del usuario desde extensión Chrome, aprobación directa en chat/Slack/Google Chat con "Or tell me", página Schedule y workflows en segundo plano.
+
+**Impacto en la ficha**: Sube a 78.40 A (+7.35, ADN 32→82): Memoria, Rutinas, Apps reales y Desatendido pasan a ON con evidencia del README y releases v0.7.5–v0.7.7.
+
+> 0.7.7 (2026-11-18) Added alerts: give every card options and one "Or tell me" box ( #921 ) ( 0d42d34 ) alerts: give held step and email reply cards options and Or tell me ( #924 ) ( 2706d2f ) alerts: make held cards say who they wait on and why, and let Google Doc appends run ( #930 ) ( ad93df0 ) chat: approve a held step right in the chat and carry on ( #932 ) ( 253e63e ) delegation: join a follow-up email to its card and show its work as it runs ( #908 ) ( 2015b5c ) delegation: keep one version of a reply card's words and put the talk under Send ( #935 ) ( b89463b ) delegation: let a reply card send from the Executive, with you on cc ( #918 ) ( 9386eb9 ) integrations: give chat app cards t
 
 ## Evidencia de la investigación
 
@@ -40,20 +44,23 @@ Revisión previa + README: una persona coherente respaldada por ocho agentes eje
   - “Note that > `make stop` uses `lsof` and has no Windows equivalent; stop the two dev > servers from their own terminals instead.” — https://openexecutive.ai
   - “**For contributors not using `make`:** ```bash cd packages/core uv sync uv run uvicorn openexecutive.api.main:app --reload --port 8000 # In a second terminal cd packages/ui npm install npm run dev ``` `uv run` executes inside the project's virtualenv without activating it, so these commands are the same on macOS, Linux and Windows.” — https://openexecutive.ai
 
-### ❌ Memoria
+### ✅ Memoria
   - “The next session opens with a `<past_decisions>` block so the Executive remembers what it recommended last month.” — https://github.com/SenteLabsAI/OpenExecutive#readme
   - “Then it makes the person's own changes inside Open Executive (alerts, open loops, follow-ups, the watch list, goals, decision outcomes, remembered facts and the company profile), each under the same permissions as in the web app.” — https://openexecutive.ai
   - “Out of the box it supports spend approval thresholds, integration with corporate knowledge systems, and defined governance for how it interacts with human colleagues and other AI systems.” — https://github.com/SenteLabsAI/OpenExecutive#readme
+  - “Episodic memory — After every response, a background claude-haiku-5-5 pass extracts key decisions, initiatives, and advice into SQLite.” — https://github.com/ForeactLabs/OpenExecutive#readme
 
-### ❌ Rutinas
+### ✅ Rutinas
   - “Beyond Q&A, the system maintains episodic memory of past decisions and initiatives across sessions, and a built-in scheduler can proactively surface follow-ups and time-sensitive actions.” — https://github.com/SenteLabsAI/OpenExecutive#readme
   - “**Scheduler** — A built-in job runner claims due actions via `UPDATE … RETURNING` to prevent double-firing.” — https://github.com/SenteLabsAI/OpenExecutive#readme
   - “The API must run as a single instance; do not horizontally scale it without gating the scheduler first.” — https://github.com/SenteLabsAI/OpenExecutive#readme
+  - “Scheduler — A built-in job runner claims due actions via UPDATE … RETURNING to prevent double-firing.” — https://github.com/ForeactLabs/OpenExecutive#readme
 
-### ❌ Apps reales
+### ✅ Apps reales
   - “It meets people where they already work, with integrations for Slack, Discord, Telegram, Google Chat, email, Google Workspace, Microsoft 365 (Outlook mail and calendar, OneDrive), Notion, Confluence and any MCP-compatible AI tool, with more on the roadmap.” — https://github.com/SenteLabsAI/OpenExecutive#readme
   - “Google Workspace Microsoft 365 Slack Microsoft Teams Google Chat Discord Telegram Confluence Use it from your AI apps Ask your Executive from Claude, ChatGPT and other apps that support MCP.” — https://openexecutive.ai
   - “The Executive then keeps private, dated notes of what they said, in chat where it can confirm it's them (the web app signed in, their own Slack or Discord, Telegram with a webhook secret) and in Act as me replies they send.” — https://github.com/SenteLabsAI/OpenExecutive#readme
+  - “With the Open Executive extension in Chrome, it looks at the page you're on, clicks, types, fills in forms and opens pages until the job is done.” — https://github.com/ForeactLabs/OpenExecutive#readme
 
 ### ✅ Coordinación
   - “Multi-agent routing leans heavily on tool use, so pick a model that's strong at it (e.g.” — https://openexecutive.ai
@@ -65,21 +72,22 @@ Revisión previa + README: una persona coherente respaldada por ocho agentes eje
   - “Out of the box it supports spend approval thresholds, integration with corporate knowledge systems, and defined governance for how it interacts with human colleagues and other AI systems.” — https://github.com/SenteLabsAI/OpenExecutive#readme
   - “The Executive then keeps private, dated notes of what they said, in chat where it can confirm it's them (the web app signed in, their own Slack or Discord, Telegram with a webhook secret) and in Act as me replies they send.” — https://github.com/SenteLabsAI/OpenExecutive#readme
 
-### ❌ Desatendido
+### ✅ Desatendido
   - “**Episodic memory** — After every response, a background `claude-haiku-5-5` pass extracts key decisions, initiatives, and advice into SQLite.” — https://github.com/SenteLabsAI/OpenExecutive#readme
+  - “workflows: run background passes in one loop with no step count (#923)” — https://github.com/ForeactLabs/OpenExecutive/releases/tag/v0.7.7
 
 ## Puntuación
 
-Grok Score: **71.05** · Tier **A** · ADN **32**
+Grok Score: **78.4** · Tier **A** · ADN **82**
 
 - **capacidad**: 82/100
-- **autonomia**: 74/100
-- **computadora**: 55/100
-- **memoria**: 60/100
-- **rutinas**: 55/100
+- **autonomia**: 78/100
+- **computadora**: 62/100
+- **memoria**: 84/100
+- **rutinas**: 82/100
 - **equipo**: 90/100
 - **confianza**: 90/100
-- **producto**: 66/100
+- **producto**: 70/100
 
 ## Fortalezas
 
@@ -90,7 +98,7 @@ Grok Score: **71.05** · Tier **A** · ADN **32**
 ## Lo que le falta / riesgos
 
 - Arquitectura FastAPI + Next.js pesada para el trabajo que realiza, con sobrecoste de orquestación
-- No opera apps ni navegador de forma autónoma: se apoya en integraciones y APIs
+- Depende de la extensión Chrome abierta en el navegador de la persona; no tiene máquina/VM propia
 - Proyecto de pocos meses, sin despliegues empresariales públicos que validen la gobernanza
 
 ## Comparación con el listón
@@ -99,10 +107,10 @@ Se posiciona frente a asistentes ejecutivos como Lindy o agentes multi-rol tipo 
 
 ## Fuentes consultadas
 
-- [Repositorio GitHub](https://github.com/SenteLabsAI/OpenExecutive) · consultado 2026-11-12
-- [Web oficial](https://openexecutive.ai) · consultado 2026-11-12
-- [README](https://github.com/SenteLabsAI/OpenExecutive#readme) · consultado 2026-11-12
-- [Releases](https://github.com/SenteLabsAI/OpenExecutive/releases) · consultado 2026-11-12
+- [Repositorio GitHub](https://github.com/ForeactLabs/OpenExecutive) · consultado 2026-11-23
+- [Web oficial](https://openexecutive.ai) · consultado 2026-11-23
+- [README](https://github.com/ForeactLabs/OpenExecutive#readme) · consultado 2026-11-23
+- [Releases](https://github.com/ForeactLabs/OpenExecutive/releases) · consultado 2026-11-23
 
 ---
 

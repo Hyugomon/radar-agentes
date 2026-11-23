@@ -5,10 +5,10 @@
   "homepage": "https://www.rowboatlabs.com",
   "license": "Apache-2.0",
   "language": "TypeScript",
-  "stars": 18167,
-  "forks": 1822,
-  "open_issues": 233,
-  "pushed_at": "2026-11-12T03:42:58Z",
+  "stars": 18316,
+  "forks": 1834,
+  "open_issues": 227,
+  "pushed_at": "2026-11-19T08:23:45Z",
   "created_at": "2025-01-13T09:30:40Z",
   "topics": [
     "agents",
@@ -29,5 +29,5 @@
   ],
   "archived": false,
   "api_status": 200,
-  "fetched_at": "2026-11-12"
+  "fetched_at": "2026-11-23"
 }

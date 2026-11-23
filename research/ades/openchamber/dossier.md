@@ -4,8 +4,8 @@
 - **Repo**: https://github.com/openchamber/openchamber
 - **Licencia**: MIT
 - **Categoría**: workspace
-- **Revisado**: 2026-11-13
-- **ADE Score**: 80.2 · Tier A
+- **Revisado**: 2026-11-23
+- **ADE Score**: 82.06 · Tier S
 
 ## Qué es
 
@@ -13,16 +13,16 @@ Entorno de desarrollo agéntico open source con sesiones, extensiones, revisión
 
 ## Release revisada
 
-- **Tag**: [v2.7.2](https://github.com/openchamber/openchamber/releases/tag/v2.7.2)
-- **Fecha**: 2026-11-15 (hace 0 días)
+- **Tag**: [canary](https://github.com/openchamber/openchamber/releases/tag/canary)
+- **Fecha**: 2026-11-23 (hace 0 días)
 - **Estado**: activo · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
-**Qué trae**: v2.7.2: share pages con PIN, PDF anotado y navegador que actúa como humano.
+**Qué trae**: v2.8.0 (y v2.7.3 + canary): sesiones Lead que delegan y resumen sub-sesiones, panel en vivo de subagentes, OpenCode Server compartido y edición de documentos Office.
 
-**Impacto en la ficha**: Tier A (+1.78): Revisión 76→80, Orquestación 72→75, Remoto 80→84 y Producto 76→79.
+**Impacto en la ficha**: Sube a Tier S (+1.86): Orquestación 75→85, Extensiones 78→81, Revisión 80→82 y Producto 79→81.
 
-> New Share pages: an agent can ask your teammates. When an answer has to come from someone else, the agent sends them a page , and the chat shows a link and PIN for each person. Their answers come back into the session with a notification. Share pages: a shared link pasted into the composer opens the page in your own OpenChamber, so your agent sees it too. Pages on the rail lists every page you received, and Add to chat attaches one to your message. Browser: dictate into annotation comments and mark up PDFs. The comment field takes your voice and shows the microphone level, and a PDF in the panel takes Region and Draw marks. Browser: the agent clicks, types, drags and uploads files in the pan
+> OpenChamber Canary 2.8.1-canary.20261123.29, built from 3a0dbea . The nightly build of main. In the desktop app, or in the browser page of a server installed from npm (@openchamber/web@canary), Settings → About → Updates: pick Canary to update into it, Stable to go back. Expect rough edges. Downloads System File macOS, Apple Silicon .dmg macOS, Intel .dmg Windows, x64 .exe Windows, ARM .exe Linux, x64 .AppImage , .deb , .rpm Linux, ARM .AppImage , .deb , .rpm Android .apk
 
 ## Evidencia
 
@@ -36,7 +36,7 @@ Entorno de desarrollo agéntico open source con sesiones, extensiones, revisión
 - “### Compare and combine runs Use **Multi-run** to give the same task to up to five models, each in its own session and optionally its own worktree.” — https://github.com/openchamber/openchamber#readme
 
 ### orquestacion
-- Sin cita directa en la web/README revisada.
+- “New Leads: a session that runs a whole direction of work... A lead hands tasks to its own sessions, checks what comes back and keeps a brief and a digest you answer in one reply.” — https://github.com/openchamber/openchamber/releases/tag/v2.8.0
 
 ### revision
 - “New Share pages: an agent can ask your teammates. When an answer has to come from someone else, the agent sends them a page, and the chat shows a link and PIN for each person.” — https://github.com/openchamber/openchamber/releases/tag/v2.7.2
@@ -60,14 +60,14 @@ Entorno de desarrollo agéntico open source con sesiones, extensiones, revisión
 
 - **Harnesses**: 84/100
 - **Paralelismo**: 82/100
-- **Orquestación**: 75/100
-- **Revisión**: 80/100
+- **Orquestación**: 85/100
+- **Revisión**: 82/100
 - **Remoto / cloud**: 84/100
 - **Móvil**: 82/100
-- **Extensiones**: 78/100
+- **Extensiones**: 81/100
 - **Control**: 68/100
 - **Apertura**: 90/100
-- **Producto**: 79/100
+- **Producto**: 81/100
 
 ## Fortalezas
 
@@ -75,18 +75,19 @@ Entorno de desarrollo agéntico open source con sesiones, extensiones, revisión
 - Share pages para colaborar con personas
 - Navegador controlado y PDF anotado
 - Buena adopción
+- Sesiones Lead que delegan y sintetizan trabajo + panel de monitoreo de subagentes
 
 ## Carencias
 
-- Orquestación menos profunda
+- Aprobaciones y políticas de seguridad aún por debajo de los líderes
 - Aprobaciones todavía básicas
 - Ecosistema joven
 
 ## Fuentes
 
-- [Web oficial](https://openchamber.dev/) · consultado 2026-11-13
-- [Repositorio GitHub](https://github.com/openchamber/openchamber) · consultado 2026-11-13
-- [README](https://github.com/openchamber/openchamber#readme) · consultado 2026-11-13
+- [Web oficial](https://openchamber.dev/) · consultado 2026-11-23
+- [Repositorio GitHub](https://github.com/openchamber/openchamber) · consultado 2026-11-23
+- [README](https://github.com/openchamber/openchamber#readme) · consultado 2026-11-23
 
 ---
 

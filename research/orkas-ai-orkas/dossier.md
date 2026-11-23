@@ -4,9 +4,9 @@
 - **Web oficial**: https://orkas.ai?source=gh-orkas
 - **Licencia**: MIT
 - **Lenguaje**: JavaScript
-- **Estrellas**: 9271 · **Forks**: 545
-- **Último push**: 2026-11-12T01:24:20Z · **Última release**: 2026-11-04
-- **Revisado**: 2026-11-12 · **Confianza**: 70/100
+- **Estrellas**: 9559 · **Forks**: 568
+- **Último push**: 2026-11-23T14:21:48Z · **Última release**: 2026-11-16
+- **Revisado**: 2026-11-23 · **Confianza**: 70/100
 - **Tipo**: agent · **Categoría**: teams
 
 ## Qué es
@@ -21,12 +21,16 @@ README: proyectos con memoria, 16 especialistas, un Commander que delega y autom
 
 ## Release revisada
 
-- **Tag**: [v2026.11.4](https://github.com/Orkas-AI/Orkas/releases/tag/v2026.11.4)
-- **Fecha**: 2026-11-04 (hace 11 días)
-- **Estado**: reciente · **Releases en 90 días**: 8
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Tag**: [v2026.11.16](https://github.com/Orkas-AI/Orkas/releases/tag/v2026.11.16)
+- **Fecha**: 2026-11-16 (hace 7 días)
+- **Estado**: activo · **Releases en 90 días**: 9
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
-> v2026.11.4 Download Download Orkas Highlights Use GPT-6.1 Terra in supported provider and model settings. Choose multiple weekdays or month dates for recurring automations and review clearer schedule summaries. Capture product pages and recover video compositions with clearer preview and delivery checks. Fixes Recover queued messages, selected attachments and interrupted conversations without treating downloaded files as new drafts. Keep search results complete through cache rebuilds, file changes, deletion and restoration. Preserve both recoverable copies when Library moves encounter concurrent edits or partial deletion. Keep desktop background work, shutdown and provider failures consisten
+**Qué trae**: v2026.11.16: Content workbench, líneas de tiempo de vídeo, etiquetas Orkas·Voice y herramientas mejoradas de imágenes RAW, PDF y Office.
+
+**Impacto en la ficha**: Se mantiene en 79.60 A: mejoras creativas y multimedia sin cambios en aprobaciones ni ejecución desatendida.
+
+> v2026.11.16 Download Download Orkas Highlights Create and recover work in the Content workbench and product listing apps, with configured media services and Orkas·Voice speech labels. Build, preview and revise video timelines with clearer reference handling, playback controls and delivery feedback. Work with layered images, RAW photos, PDFs and Office documents through improved inspection, editing and export tools. Review known responsiveness, context-size, shutdown and document-recovery limitations in the release review . Improvements Use more configured speech providers and audio workflows, with better media transfer and rate-limit recovery. Keep conversations, project drafts, local tasks 
 
 ## Evidencia de la investigación
 
@@ -80,7 +84,7 @@ Grok Score: **79.6** · Tier **A** · ADN **66**
 ## Lo que le falta / riesgos
 
 - Sin computadora persistente en la nube ni inicio de sesión en apps de terceros: todo ocurre en tu escritorio.
-- Seis meses y 9,271 estrellas: poca evidencia de estabilidad en producción y de gobernanza.
+- Seis meses y 9,559 estrellas: poca evidencia de estabilidad en producción y de gobernanza.
 - Orquesta agentes ajenos sobre Electron y JavaScript, con coste y latencia difíciles de acotar.
 
 ## Comparación con el listón
@@ -89,10 +93,10 @@ Es la propuesta más cercana al equipo de agentes de Grok Bot en este lote, pero
 
 ## Fuentes consultadas
 
-- [Repositorio GitHub](https://github.com/Orkas-AI/Orkas) · consultado 2026-11-12
-- [Web oficial](https://orkas.ai?source=gh-orkas) · consultado 2026-11-12
-- [README](https://github.com/Orkas-AI/Orkas#readme) · consultado 2026-11-12
-- [Releases](https://github.com/Orkas-AI/Orkas/releases) · consultado 2026-11-12
+- [Repositorio GitHub](https://github.com/Orkas-AI/Orkas) · consultado 2026-11-23
+- [Web oficial](https://orkas.ai?source=gh-orkas) · consultado 2026-11-23
+- [README](https://github.com/Orkas-AI/Orkas#readme) · consultado 2026-11-23
+- [Releases](https://github.com/Orkas-AI/Orkas/releases) · consultado 2026-11-23
 
 ---
 

@@ -6,7 +6,7 @@
 - **Lenguaje**: TypeScript
 - **Estrellas**: 53 · **Forks**: 6
 - **Último push**: 2026-11-02T15:10:51Z · **Última release**: 2026-11-02
-- **Revisado**: 2026-11-15 · **Confianza**: 58/100
+- **Revisado**: 2026-11-23 · **Confianza**: 58/100
 - **Tipo**: agent · **Categoría**: personal
 
 ## Qué es
@@ -22,9 +22,9 @@ README: toolkit macOS sobre Claude Code y VoiceMode con workers always-on, voz, 
 ## Release revisada
 
 - **Tag**: [v0.5.0](https://github.com/AKamaly/CludeGods/releases/tag/v0.5.0)
-- **Fecha**: 2026-11-02 (hace 13 días)
+- **Fecha**: 2026-11-02 (hace 21 días)
 - **Estado**: reciente · **Releases en 90 días**: 5
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
 **Qué trae**: 0.5.0: instalación en una línea, voz guiada y plantillas de workers.
 
@@ -90,9 +90,9 @@ Excelente para voz y workers always-on en Mac, pero no es un equipo coordinado n
 
 ## Fuentes consultadas
 
-- [Repositorio GitHub](https://github.com/AKamaly/CludeGods) · consultado 2026-11-15
-- [README](https://github.com/AKamaly/CludeGods#readme) · consultado 2026-11-15
-- [Releases](https://github.com/AKamaly/CludeGods/releases) · consultado 2026-11-15
+- [Repositorio GitHub](https://github.com/AKamaly/CludeGods) · consultado 2026-11-23
+- [README](https://github.com/AKamaly/CludeGods#readme) · consultado 2026-11-23
+- [Releases](https://github.com/AKamaly/CludeGods/releases) · consultado 2026-11-23
 
 ---
 

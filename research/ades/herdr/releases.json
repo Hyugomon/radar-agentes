@@ -1,8 +1,24 @@
 {
   "repo": "herdrdev/herdr-app",
   "source": "releases.atom",
-  "checked_at": "2026-11-15",
+  "checked_at": "2026-11-23",
   "entries": [
+    {
+      "tag": "v0.1.17",
+      "title": "v0.1.17",
+      "date": "2026-11-22",
+      "url": "https://github.com/herdrdev/herdr-app/releases/tag/v0.1.17",
+      "pre": false,
+      "note": "docs: 0.1.17 notes in plain words"
+    },
+    {
+      "tag": "v0.1.16",
+      "title": "v0.1.16",
+      "date": "2026-11-14",
+      "url": "https://github.com/herdrdev/herdr-app/releases/tag/v0.1.16",
+      "pre": false,
+      "note": "chore: release 0.1.16"
+    },
     {
       "tag": "v0.1.15",
       "title": "v0.1.15",
@@ -66,22 +82,6 @@
       "url": "https://github.com/herdrdev/herdr-app/releases/tag/v0.1.8",
       "pre": false,
       "note": "chore: release 0.1.8"
-    },
-    {
-      "tag": "v0.1.7",
-      "title": "v0.1.7",
-      "date": "2026-10-29",
-      "url": "https://github.com/herdrdev/herdr-app/releases/tag/v0.1.7",
-      "pre": false,
-      "note": "chore: release 0.1.7"
-    },
-    {
-      "tag": "v0.1.6",
-      "title": "v0.1.6",
-      "date": "2026-10-29",
-      "url": "https://github.com/herdrdev/herdr-app/releases/tag/v0.1.6",
-      "pre": false,
-      "note": "chore: release 0.1.6"
     }
   ]
 }

@@ -4,9 +4,9 @@
 - **Web oficial**: https://rerun.build
 - **Licencia**: AGPL-3.0
 - **Lenguaje**: TypeScript
-- **Estrellas**: 1066 · **Forks**: 128
-- **Último push**: 2026-11-14T11:20:42Z · **Última release**: 2026-11-13
-- **Revisado**: 2026-11-15 · **Confianza**: 60/100
+- **Estrellas**: 1134 · **Forks**: 141
+- **Último push**: 2026-11-23T18:11:29Z · **Última release**: 2026-11-23
+- **Revisado**: 2026-11-23 · **Confianza**: 60/100
 - **Tipo**: agent · **Categoría**: teams
 
 ## Qué es
@@ -21,16 +21,16 @@ README: Chief of Staff que crea y coordina coworkers con memoria, skills, comput
 
 ## Release revisada
 
-- **Tag**: [v0.15.0](https://github.com/rerun-build/rerun/releases/tag/v0.15.0)
-- **Fecha**: 2026-11-13 (hace 2 días)
+- **Tag**: [v0.22.3](https://github.com/rerun-build/rerun/releases/tag/v0.22.3)
+- **Fecha**: 2026-11-23 (hace 0 días)
 - **Estado**: activo · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
-**Qué trae**: 0.15.0: los coworkers responden sobre la documentación y el Foreman estrena General con hilos.
+**Qué trae**: v0.22.3 (y v0.21–v0.22): Vault compartido con múltiples cuentas por app (LinkedIn/WhatsApp Pro, MCP), Chief of Staff respondiendo tarjetas en espera y pip en Boxes.
 
-**Impacto en la ficha**: Nuevo en el ranking: 84.90 S. 8/8 pilares; self-hosting técnico y producto joven.
+**Impacto en la ficha**: Sube a 85.35 S (+0.45): Capacidad 82→83 y Producto 74→76 por Vault multi-cuenta y mejoras del Chief of Staff.
 
-> Minor release: read Upgrade before updating. Highlights A coworker answers questions about Rerun from the documentation ( #208 ) The Foreman's General and its threads ( #204 ) Every conversation behind the clock of the column ( #203 ) General with its threads in the column ( #202 ) A General conversation and threads on the hub ( #201 ) Switch workspace from the header of the workspace menu ( #197 ) A coworker types a secret into a page without seeing it ( #196 ) Temporarily hide "Hire an expert" from the help menu ( #195 ) Simple view, a list of coworkers beside the chat ( #190 ) Move every coworker's own catalog apps into the Vault ( #189 ) Archives and duplicates of a coworker keep what it
+> Patch release: pull the new images, nothing else to do. Highlights Explain @, / and # in the composer (RER-220) ( #749 ) Explain @, / and # in the web composer (RER-220) ( #748 ) Upgrade Nothing to do: pull the new images.
 
 ## Evidencia de la investigación
 
@@ -60,16 +60,16 @@ README: Chief of Staff que crea y coordina coworkers con memoria, skills, comput
 
 ## Puntuación
 
-Grok Score: **84.9** · Tier **S** · ADN **100**
+Grok Score: **85.35** · Tier **S** · ADN **100**
 
-- **capacidad**: 82/100
+- **capacidad**: 83/100
 - **autonomia**: 82/100
 - **computadora**: 88/100
 - **memoria**: 90/100
 - **rutinas**: 90/100
 - **equipo**: 90/100
 - **confianza**: 90/100
-- **producto**: 74/100
+- **producto**: 76/100
 
 ## Fortalezas
 
@@ -90,10 +90,10 @@ Se acerca al listón en equipo, computadora y aprobaciones; todavía debe demost
 
 ## Fuentes consultadas
 
-- [Repositorio GitHub](https://github.com/rerun-build/rerun) · consultado 2026-11-15
-- [Web oficial](https://rerun.build) · consultado 2026-11-15
-- [README](https://github.com/rerun-build/rerun#readme) · consultado 2026-11-15
-- [Releases](https://github.com/rerun-build/rerun/releases) · consultado 2026-11-15
+- [Repositorio GitHub](https://github.com/rerun-build/rerun) · consultado 2026-11-23
+- [Web oficial](https://rerun.build) · consultado 2026-11-23
+- [README](https://github.com/rerun-build/rerun#readme) · consultado 2026-11-23
+- [Releases](https://github.com/rerun-build/rerun/releases) · consultado 2026-11-23
 
 ---
 

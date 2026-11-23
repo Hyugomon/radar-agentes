@@ -1,87 +1,87 @@
 {
   "repo": "rome-os/rome",
   "source": "releases.atom",
-  "checked_at": "2026-11-15",
+  "checked_at": "2026-11-23",
   "entries": [
     {
-      "tag": "v1.1.197",
-      "title": "Rome v1.1.197",
-      "date": "2026-11-15",
-      "url": "https://github.com/rome-os/rome/releases/tag/v1.1.197",
+      "tag": "v1.1.222",
+      "title": "Rome v1.1.222",
+      "date": "2026-11-23",
+      "url": "https://github.com/rome-os/rome/releases/tag/v1.1.222",
       "pre": false,
-      "note": "The Rome runtime image yunfanye/rome:1.1.197 , built from 02e2b81 . Rome Cloud offers it to instances on its own. To run it yourself, pull yunfanye/rome:1.1.197 . Changes since v1.1.196 No changes to what the image runs. Full changelog: v1.1.196...v1.1.197"
+      "note": "The Rome runtime image yunfanye/rome:1.1.222 , built from 1b6a946 . Rome Cloud offers it to instances on its own. To run it yourself, pull yunfanye/rome:1.1.222 . Changes since v1.1.221 Fixes relay: stop one failing webhook from holding the mailbox ( #2618 ) Full changelog: v1.1.221...v1.1.222"
     },
     {
-      "tag": "v1.1.196",
-      "title": "Rome v1.1.196",
-      "date": "2026-11-15",
-      "url": "https://github.com/rome-os/rome/releases/tag/v1.1.196",
+      "tag": "v1.1.221",
+      "title": "Rome v1.1.221",
+      "date": "2026-11-23",
+      "url": "https://github.com/rome-os/rome/releases/tag/v1.1.221",
       "pre": false,
-      "note": "The Rome runtime image yunfanye/rome:1.1.196 , built from 02e2b81 . Rome Cloud offers it to instances on its own. To run it yourself, pull yunfanye/rome:1.1.196 . Changes since v1.1.195 New lib: let feature gate rules match on email ( #2213 ) Fixes device connect, location and chat notices after the phone test ( #2210 ) web: open the remembered chat-list mode at the home address ( #2214 ) Full changelog: v1.1.195...v1.1.196"
+      "note": "The Rome runtime image yunfanye/rome:1.1.221 , built from 533d567 . Rome Cloud offers it to instances on its own. To run it yourself, pull yunfanye/rome:1.1.221 . Changes since v1.1.220 No changes to what the image runs. Full changelog: v1.1.220...v1.1.221"
     },
     {
-      "tag": "v1.1.195",
-      "title": "Rome v1.1.195",
-      "date": "2026-11-15",
-      "url": "https://github.com/rome-os/rome/releases/tag/v1.1.195",
+      "tag": "v1.1.220",
+      "title": "Rome v1.1.220",
+      "date": "2026-11-23",
+      "url": "https://github.com/rome-os/rome/releases/tag/v1.1.220",
       "pre": false,
-      "note": "The Rome runtime image yunfanye/rome:1.1.195 , built from 4df16fd . Rome Cloud offers it to instances on its own. To run it yourself, pull yunfanye/rome:1.1.195 . Changes since v1.1.194 New personal data, device connections, Health sync and the share-location card ( #2165 ) concierge: replace the derived status reaction with a react tool ( #2191 ) web: open a Concierge chat thread in the side pane ( #2183 ) core: let the envoy pass an app agent citing its own documents ( #2170 ) people: let agents read a person's notes instead of the system prompt ( #2158 ) chats: name who said each message the agent reads ( #2157 ) core: describe question cards stored before cards were data ( #2163 ) inbox: tell envoy which agent wrote a reply ( #2155 ) core: connect_account shows a connect card that core owns ( #2127 ) web: add a Chat / Concierge switch to the chat list ( #2122 ) concierge: ask about f"
+      "note": "The Rome runtime image yunfanye/rome:1.1.220 , built from 533d567 . Rome Cloud offers it to instances on its own. To run it yourself, pull yunfanye/rome:1.1.220 . Changes since v1.1.219 New web: make side pane tabs their own header ( #2616 ) chat: focus reply chains from quotes ( #2574 ) voice: talk with a chat's agent over /ws/voice-conversation ( #2598 ) Fixes discord: drop /rome from the Discord settings and docs ( #2617 ) Full changelog: v1.1.219...v1.1.220"
     },
     {
-      "tag": "ui-v0.3.11",
-      "title": "ui: v0.3.11",
-      "date": "2026-11-15",
-      "url": "https://github.com/rome-os/rome/releases/tag/ui-v0.3.11",
+      "tag": "v1.1.219",
+      "title": "Rome v1.1.219",
+      "date": "2026-11-23",
+      "url": "https://github.com/rome-os/rome/releases/tag/v1.1.219",
       "pre": false,
-      "note": "0.3.11 (2026-11-15) Features chat: show pictures inline in chat replies with a download button ( #2015 ) ( e481a8a ) web: open Settings as a dialog over the current page ( #2026 ) ( 033fa18 )"
+      "note": "The Rome runtime image yunfanye/rome:1.1.219 , built from 8ac0cfc . Rome Cloud offers it to instances on its own. To run it yourself, pull yunfanye/rome:1.1.219 . Changes since v1.1.218 New AI Tools, default switching and provider failure cards (iOS), pinned hint on web ( #2560 ) voice: wire speech credentials in at startup, and renew a refused credential ( #2589 ) ios: list every shared link in Settings ( #2593 ) connections: keep the Slack app's token in Rome Cloud ( #2553 ) core: report turn endpoints from the transcriber in conversation mode ( #2588 ) voice: get speech credentials from Rome Cloud for voice mode ( #2582 ) ios: name audio and video outputs as the dashboard does ( #2583 ) web: filter a chat's outputs by every kind it holds ( #2543 ) Fixes core: send an agent message's data as a JSON attachment ( #2604 ) core: stop reporting made-up chat kinds and sender names ( #2601 ) "
     },
     {
-      "tag": "rome-web-components-v0.1.27",
-      "title": "rome-web-components: v0.1.27",
-      "date": "2026-11-15",
-      "url": "https://github.com/rome-os/rome/releases/tag/rome-web-components-v0.1.27",
-      "pre": false,
-      "note": "0.1.27 (2026-11-15) Dependencies The following workspace dependencies were updated dependencies @rome-os/ui bumped to 0.3.11"
+      "tag": "ios-v1.0.0-202611230637",
+      "title": "iOS 1.0.0 (202611230637) — TestFlight",
+      "date": "2026-11-23",
+      "url": "https://github.com/rome-os/rome/releases/tag/ios-v1.0.0-202611230637",
+      "pre": true,
+      "note": "Internal TestFlight build 202611230637 (1.0.0), archived from 405d85f : main 0603549 plus the minimum bump. New AI Tools replaces AI model. Set a default, log in or out with confirms, see a pinned chat's hint and use Back to default, and get provider failure cards with Retry and Switch ( #2560 ) Archived opens from the Topic chats header, and the Older row lines up with the chats ( #2606 ) Settings lists every shared link ( #2593 ) Older topic chats fold under Older ( #2577 ) Audio and video outputs are named as on the dashboard ( #2583 ) Fewer accidental swipes, and a dated Archived sheet ( #2567 ) Fixes Chat, file and app links in replies open natively ( #2595 ) Minimum instance versions Background minimum: 1.1.216 → 1.1.219 Blocking minimum: 1.1.196 (unchanged)"
     },
     {
-      "tag": "node-v0.1.11",
-      "title": "node: v0.1.11",
-      "date": "2026-11-15",
-      "url": "https://github.com/rome-os/rome/releases/tag/node-v0.1.11",
+      "tag": "v1.1.218",
+      "title": "Rome v1.1.218",
+      "date": "2026-11-22",
+      "url": "https://github.com/rome-os/rome/releases/tag/v1.1.218",
       "pre": false,
-      "note": "0.1.11 (2026-11-15) Features personal data, device connections, Health sync and the share-location card ( #2165 ) ( 4df16fd )"
+      "note": "The Rome runtime image yunfanye/rome:1.1.218 , built from 64de317 . Rome Cloud offers it to instances on its own. To run it yourself, pull yunfanye/rome:1.1.218 . Changes since v1.1.217 New chats: fold older topic chats ( #2577 ) agents: make provider switching follow three rules ( #2572 ) Fixes discord: let the instance decide reply permissions ( #2579 ) web: render diagrams in Markdown output previews ( #2578 ) Full changelog: v1.1.217...v1.1.218"
     },
     {
-      "tag": "libs-v0.0.4",
-      "title": "libs: v0.0.4",
-      "date": "2026-11-15",
-      "url": "https://github.com/rome-os/rome/releases/tag/libs-v0.0.4",
+      "tag": "v1.1.217",
+      "title": "Rome v1.1.217",
+      "date": "2026-11-22",
+      "url": "https://github.com/rome-os/rome/releases/tag/v1.1.217",
       "pre": false,
-      "note": "0.0.4 (2026-11-15) Features lib: let feature gate rules match on email ( #2213 ) ( bee837e )"
+      "note": "The Rome runtime image yunfanye/rome:1.1.217 , built from 40ffd99 . Rome Cloud offers it to instances on its own. To run it yourself, pull yunfanye/rome:1.1.217 . Changes since v1.1.216 Breaking changes slack-app: make the Slack app Rome's only Slack connection ( #2451 ) connections: remove the older Slack bot ( #2537 ) New connections: add Rome's official Discord bot, and let a connection chat start tasks ( #2545 ) app-runtime: let an app list the chats and threads a connected account sees ( #2409 ) rome-node: add computer-use host for node daemon ( #2565 ) ios: find and unarchive archived topic chats ( #2549 ) rome-node: add computer-use protocol bridge ( #2564 ) rome-node: add macOS native computer-use helper ( #2563 ) node: add Audit log view to Rome Node Web UI ( #2542 ) chats follow a default model provider the guardian picks ( #2303 ) slack-app: ack Slack messages only once Chats "
     },
     {
-      "tag": "app-web-sdk-v0.4.1",
-      "title": "app-web-sdk: v0.4.1",
-      "date": "2026-11-15",
-      "url": "https://github.com/rome-os/rome/releases/tag/app-web-sdk-v0.4.1",
-      "pre": false,
-      "note": "0.4.1 (2026-11-15) Features app-runtime: let an app action show its card in the dashboard chat without waiting ( #2038 ) ( 98bca00 ) Dependencies The following workspace dependencies were updated peerDependencies @rome-os/ui bumped from ^0.3.0 to ^0.3.11"
+      "tag": "ios-v1.0.0-202611220112",
+      "title": "iOS 1.0.0 (202611220112) — TestFlight",
+      "date": "2026-11-22",
+      "url": "https://github.com/rome-os/rome/releases/tag/ios-v1.0.0-202611220112",
+      "pre": true,
+      "note": "TestFlight build 202611220112 of Rome for iOS (version 1.0.0). It was archived from this commit ( 406955a ) on 2026-11-22, and App Store Connect processed it as VALID. Internal testers only. New Select part of a message's text ( #2536 ): press and hold a message, pick Select text, and the paragraph you pressed is selected in place, with the system's Copy, Look Up and Translate menu. Drag the handles to change the selection. Archived topic chats ( #2549 ): an \"Archived · N\" row at the end of the topic chats opens a half-height list. Swipe or press and hold a row to unarchive or delete it. An archived chat opens read only, with an Unarchive banner. Search marks archived hits. An archived topic chat can't be renamed, on iOS or the web. Instance versions Unchanged: background minimum 1.1.216, blocking minimum 1.1.196. Every API these features use is in 1.1.216."
     },
     {
-      "tag": "app-runtime-v0.11.4",
-      "title": "app-runtime: v0.11.4",
-      "date": "2026-11-15",
-      "url": "https://github.com/rome-os/rome/releases/tag/app-runtime-v0.11.4",
-      "pre": false,
-      "note": "0.11.4 (2026-11-15) Features app-runtime: an app's card described as data can wait for an answer ( #2125 ) ( db1fc76 ) app-runtime: describe the ask-user card as data, with inputs and an answer ( #2068 ) ( 4d5c71a ) app-runtime: let an action describe its chat card as data ( #2065 ) ( dd9d29b ) app-runtime: let an app action show its card in the dashboard chat without waiting ( #2038 ) ( 98bca00 ) connections: grant apps bounded Feishu document reads ( #2113 ) ( 8c2f831 )"
+      "tag": "ios-v1.0.0-202611202121",
+      "title": "iOS 1.0.0 (202611202121) — TestFlight",
+      "date": "2026-11-21",
+      "url": "https://github.com/rome-os/rome/releases/tag/ios-v1.0.0-202611202121",
+      "pre": true,
+      "note": "TestFlight build 202611202121 of Rome for iOS (version 1.0.0). It was archived from this commit ( 03346f8 ) on 2026-11-20, and App Store Connect processed it as VALID. Internal testers only. New One Tasks panel ( #2520 ): tasks are grouped as Needs you, Active, Later, Scheduled and Ended, as on the web. Press and hold a row to mark it done, stop it, pause or resume a routine, cancel a reminder or unfollow. Reply by swiping right ( #2502 ): you can reply to your own messages too, and the replied message stays in view. Pin topic chats ( #2494 ): swipe a drawer row to pin, archive or delete it. Fixes Pictures in a chat stay loaded when a long reply folds, when the app goes to the background and after a relaunch ( #2484 ). A reply's quote shows on its bubble while it is sending ( #2498 ). A chat that fails to load retries by itself and shows the error only after a second failure ( #2476 ). T"
     },
     {
-      "tag": "v1.1.194",
-      "title": "Rome v1.1.194",
-      "date": "2026-11-13",
-      "url": "https://github.com/rome-os/rome/releases/tag/v1.1.194",
+      "tag": "v1.1.216",
+      "title": "Rome v1.1.216",
+      "date": "2026-11-20",
+      "url": "https://github.com/rome-os/rome/releases/tag/v1.1.216",
       "pre": false,
-      "note": "The Rome runtime image yunfanye/rome:1.1.194 , built from 8a71a43 . Rome Cloud offers it to instances on its own. To run it yourself, pull yunfanye/rome:1.1.194 . Changes since v1.1.193 New concierge: list what runs for a Concierge chat in one Tasks panel ( #2108 ) connections: grant apps bounded Feishu document reads ( #2113 ) chat: show several pictures as a grid or a list from a pictures block ( #2110 ) concierge: settle the #2011 follow-ups, and label a reply with where its turn came from ( #2104 ) web: mark where new Concierge messages start ( #2099 ) chat: keep a failed turn's error code in its trace summary ( #2106 ) web: show the Concierge status reaction as an emoji on the bubble's top-left corner ( #2101 ) concierge: carry a handoff across session renewals and bound context growth ( #2076 ) concierge: no automated messages in a Concierge chat, and scheduled tasks ( #2088 ) conc"
+      "note": "The Rome runtime image yunfanye/rome:1.1.216 , built from f7c17ab . Rome Cloud offers it to instances on its own. To run it yourself, pull yunfanye/rome:1.1.216 . Changes since v1.1.215 Fixes concierge: say chat_start answers JSON text with a whole Markdown link ( #2512 ) Internal changes (1) concierge: restructure the Concierge prompt around a few principles ( #2518 ) Full changelog: v1.1.215...v1.1.216"
     }
   ]
 }

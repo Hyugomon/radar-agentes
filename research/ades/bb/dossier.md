@@ -2,9 +2,9 @@
 
 - **Web oficial**: https://getbb.app/
 - **Repo**: https://github.com/get-bb/bb
-- **Licencia**: Comercial
+- **Licencia**: MIT
 - **Categoría**: ide
-- **Revisado**: 2026-11-13
+- **Revisado**: 2026-11-23
 - **ADE Score**: 83.1 · Tier S
 
 ## Qué es
@@ -14,9 +14,13 @@ Workspace extensible con plugins, orquestación de agentes, tareas programadas y
 ## Release revisada
 
 - **Tag**: [desktop-nightly](https://github.com/get-bb/bb/releases/tag/desktop-nightly)
-- **Fecha**: 2026-11-12 (hace 3 días)
+- **Fecha**: 2026-11-22 (hace 1 días)
 - **Estado**: activo · **Releases en 90 días**: 10
-- **Revisado**: 2026-11-15 · **Fuente**: releases.atom
+- **Revisado**: 2026-11-23 · **Fuente**: releases.atom
+
+**Qué trae**: desktop-v0.50.1 / nightly: build estable 0.50.1 y nightly actualizados.
+
+**Impacto en la ficha**: Sin cambio de score (83.10 S).
 
 > Latest automated bb Nightly build from main. Nightly builds may be unstable.
 
@@ -83,9 +87,9 @@ Workspace extensible con plugins, orquestación de agentes, tareas programadas y
 
 ## Fuentes
 
-- [Web oficial](https://getbb.app/) · consultado 2026-11-13
-- [Repositorio GitHub](https://github.com/get-bb/bb) · consultado 2026-11-13
-- [README](https://github.com/get-bb/bb#readme) · consultado 2026-11-13
+- [Web oficial](https://getbb.app/) · consultado 2026-11-23
+- [Repositorio GitHub](https://github.com/get-bb/bb) · consultado 2026-11-23
+- [README](https://github.com/get-bb/bb#readme) · consultado 2026-11-23
 
 ---
 
