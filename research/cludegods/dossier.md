@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/AKamaly/CludeGods
 - **Web oficial**: —
 - **Licencia**: MIT
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: TypeScript
 - **Estrellas**: 53 · **Forks**: 6
 - **Último push**: 2026-11-02T15:10:51Z · **Última release**: 2026-11-02

@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/agentscope-ai/QwenPaw
 - **Web oficial**: http://qwenpaw.agentscope.io/
 - **Licencia**: Apache-2.0
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: Python
 - **Estrellas**: 38131 · **Forks**: 3306
 - **Último push**: 2026-11-23T05:02:56Z · **Última release**: 2026-11-23

@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/rome-os/rome
 - **Web oficial**: https://romeos.cc
 - **Licencia**: MIT
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: TypeScript
 - **Estrellas**: 932 · **Forks**: 71
 - **Último push**: 2026-11-23T18:45:30Z · **Última release**: 2026-11-23

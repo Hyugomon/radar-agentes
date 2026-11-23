@@ -13,8 +13,10 @@
       <div class="panel" style="padding: 22px 24px">
         <h2 style="font-size: 16px; margin-bottom: 10px">Qué entra y qué no</h2>
         <div class="callout" style="margin-bottom: 14px">
-          <b>Entra:</b> repos open source con licencia publicada que puedas instalar o autoalojar como
-          bot, agente, asistente o equipo.
+          <b>Entra:</b> repos open source con licencia OSI publicada que puedas instalar o autoalojar como
+          bot, agente, asistente o equipo. Excepcionalmente pueden entrar repos <b>source-available</b> con
+          código público (p. ej. PolyForm Noncommercial), <b>marcados con aviso negativo</b> sobre su licencia
+          y condiciones de uso personal vs. business y penalizados en puntuación.
         </div>
         <div class="callout callout--warn" style="margin-bottom: 14px">
           <b>No entra:</b> productos cerrados como Grok Bot, Dots, Muse o Cue. Son la referencia, no
@@ -74,7 +76,9 @@
         </div>
 
         <h2 style="font-size: 16px; margin: 22px 0 10px">Cobertura</h2>
-        <div class="kvrow" style="padding: 6px 0; border-bottom: 1px solid var(--line-2)"><span>Repos open source</span><b>{{ fmt(counts.ready) }}</b></div>
+        <div class="kvrow" style="padding: 6px 0; border-bottom: 1px solid var(--line-2)"><span>Total en ranking</span><b>{{ fmt(counts.ready) }}</b></div>
+        <div class="kvrow" style="padding: 6px 0; border-bottom: 1px solid var(--line-2)"><span>Repos open source (OSI)</span><b>{{ fmt(counts.open ?? counts.ready) }}</b></div>
+        <div v-if="counts.sourceAvailable" class="kvrow" style="padding: 6px 0; border-bottom: 1px solid var(--line-2)"><span>Source-available (con aviso)</span><b>{{ fmt(counts.sourceAvailable) }}</b></div>
         <div class="kvrow" style="padding: 6px 0; border-bottom: 1px solid var(--line-2)"><span>Bots personales</span><b>{{ fmt(counts.personal) }}</b></div>
         <div class="kvrow" style="padding: 6px 0; border-bottom: 1px solid var(--line-2)"><span>Equipos</span><b>{{ fmt(counts.teams) }}</b></div>
         <div class="kvrow" style="padding: 6px 0; border-bottom: 1px solid var(--line-2)"><span>Agentes generales</span><b>{{ fmt(counts.general) }}</b></div>

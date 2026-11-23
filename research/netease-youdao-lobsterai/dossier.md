@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/netease-youdao/LobsterAI
 - **Web oficial**: https://lobsterai.youdao.com
 - **Licencia**: MIT
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: TypeScript
 - **Estrellas**: 6212 · **Forks**: 983
 - **Último push**: 2026-11-23T16:27:36Z · **Última release**: 2026-11-21

@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/agentes-chat/agentes-chat
 - **Web oficial**: https://agentes.chat
 - **Licencia**: AGPL-3.0
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: TypeScript
 - **Estrellas**: 1989 · **Forks**: 390
 - **Último push**: 2026-11-23T21:49:19Z · **Última release**: 2026-11-23

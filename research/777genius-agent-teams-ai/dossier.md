@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/777genius/agent-teams-ai
 - **Web oficial**: https://agentteams.live
 - **Licencia**: AGPL-3.0
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: TypeScript
 - **Estrellas**: 2537 · **Forks**: 408
 - **Último push**: 2026-11-23T20:58:16Z · **Última release**: 2026-11-11

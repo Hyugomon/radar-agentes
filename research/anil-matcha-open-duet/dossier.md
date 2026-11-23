@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/Anil-matcha/suparagent
 - **Web oficial**: https://suparagent.ai
 - **Licencia**: Apache-2.0
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: Python
 - **Estrellas**: 7158 · **Forks**: 931
 - **Último push**: 2026-11-23T18:03:42Z · **Última release**: 2026-11-16

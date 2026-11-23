@@ -156,8 +156,8 @@ function parseChangelog(note) {
 async function review(item, type, folder) {
   let data = null
   if (item.repo) data = await releaseData(item.repo)
-  const latest = data?.entries?.[0] || null
   const entries = data?.entries || []
+  const latest = entries.find(e => !/^(mobile-build|mobile-announced)\//i.test(e.tag)) || entries[0] || null
   let status = latest ? statusFor(latest) : (data ? 'repo sin releases' : 'sin repo de releases')
 
   let changelog = null

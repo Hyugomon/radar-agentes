@@ -7,6 +7,13 @@
       </div>
     </div>
 
+    <div v-if="agent.licenseWarning || (agent.licenseType && agent.licenseType !== 'Open source')" class="block" style="margin-top: 12px">
+      <div class="callout callout--warn">
+        <b>⚠️ Punto negativo · Licencia y uso ({{ agent.licenseType }} · {{ agent.license }}):</b>
+        {{ agent.licenseWarning || agent.priceNote }}
+      </div>
+    </div>
+
     <div class="block">
       <h3>Qué es</h3>
       <p class="verdict-summary">{{ agent.summary }}</p>
@@ -115,13 +122,21 @@
     </div>
 
     <div class="block">
-      <h3>Ficha del repo open source</h3>
+      <h3>{{ agent.licenseType && agent.licenseType !== 'Open source' ? 'Ficha del repo (source-available)' : 'Ficha del repo open source' }}</h3>
       <div class="datagrid">
         <div><span>Maker</span><b>{{ agent.maker }}</b></div>
-        <div><span>Precio</span><b>{{ agent.priceLabel }}</b></div>
-        <div><span>Detalle</span><b>{{ agent.priceNote }}</b></div>
+        <div><span>Uso / Precio</span><b>{{ agent.priceLabel }}</b></div>
+        <div><span>Personal / Business</span><b>{{ agent.priceNote }}</b></div>
         <div><span>Setup</span><b>{{ agent.setupLabel }}</b></div>
         <div><span>Licencia</span><b>{{ agent.license || 'Propietaria' }}</b></div>
+        <div>
+          <span>Tipo de licencia</span>
+          <b>
+            <span class="tag" :class="agent.licenseType && agent.licenseType !== 'Open source' ? 'tag--warn' : 'tag--open'">
+              {{ agent.licenseType || 'Open source' }}
+            </span>
+          </b>
+        </div>
         <div><span>Madurez</span><b>{{ agent.maturityLabel }}</b></div>
         <div><span>Modelos</span><b>{{ agent.models }}</b></div>
         <div><span>Canales</span><b>{{ agent.channels.join(' · ') || '—' }}</b></div>

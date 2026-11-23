@@ -17,6 +17,7 @@
             </div>
           </div>
           <div style="display: flex; gap: 6px; flex-wrap: wrap">
+            <span v-if="data.agent.licenseType && data.agent.licenseType !== 'Open source'" class="tag tag--warn">⚠️ {{ data.agent.licenseType }} · {{ data.agent.priceLabel }}</span>
             <a v-if="data.agent.website" class="tag" :href="data.agent.website" target="_blank" rel="noopener">Web ↗</a>
             <a v-if="data.agent.repo" class="tag" :href="data.agent.repo" target="_blank" rel="noopener">Repo ↗</a>
             <a v-if="data.agent.researchUrl" class="tag" :href="data.agent.researchUrl" target="_blank" rel="noopener">Dossier ↗</a>

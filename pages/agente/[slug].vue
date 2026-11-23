@@ -10,7 +10,8 @@
           <p class="muted" style="font-size: 16px; max-width: 720px">{{ agent.summary }}</p>
           <div style="display: flex; gap: 6px; flex-wrap: wrap; margin-top: 14px">
             <span class="tag">{{ agent.catLabel }}</span>
-            <span class="tag">{{ agent.priceLabel }}</span>
+            <span v-if="agent.licenseType && agent.licenseType !== 'Open source'" class="tag tag--warn">⚠️ {{ agent.licenseType }} · {{ agent.license }}</span>
+            <span class="tag" :class="{ 'tag--warn': agent.licenseType && agent.licenseType !== 'Open source' }">{{ agent.priceLabel }}</span>
             <span class="tag">Setup {{ agent.setupLabel }}</span>
             <span class="tag">#{{ agent.rank }} del ranking</span>
             <a v-if="agent.website" class="tag" :href="agent.website" target="_blank" rel="noopener">Web ↗</a>

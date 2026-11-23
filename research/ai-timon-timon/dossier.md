@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/ai-timon/timon
 - **Web oficial**: —
 - **Licencia**: AGPL-3.0
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: TypeScript
 - **Estrellas**: 725 · **Forks**: 90
 - **Último push**: 2026-11-23T18:58:25Z · **Última release**: 2026-11-18

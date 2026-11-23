@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/RokaSwK/threebot
 - **Web oficial**: https://bot.swk.tools/
 - **Licencia**: MIT
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: TypeScript
 - **Estrellas**: 46 · **Forks**: 10
 - **Último push**: 2026-11-21T17:11:15Z · **Última release**: 2026-11-21

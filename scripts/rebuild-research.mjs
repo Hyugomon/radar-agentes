@@ -60,6 +60,7 @@ function dossierFor(p) {
   const strengths = (p.strengths || []).map(s => `- ${s}`).join('\n')
   const weaknesses = (p.weaknesses || []).map(s => `- ${s}`).join('\n')
   const note = p.verificationNote ? `\n## Nota de verificación\n\n${p.verificationNote}\n` : ''
+  const warningBlock = p.licenseWarning ? `\n## Aviso de licencia y uso comercial\n\n${p.licenseWarning}\n` : ''
   const releaseNote = p.release_note ? `\n> ${String(p.release_note).slice(0, 700)}\n` : ''
   const release = `## Release revisada
 
@@ -74,6 +75,7 @@ ${p.release_highlight ? `\n**Qué trae**: ${p.release_highlight}\n` : ''}${p.rel
 - **Repo**: ${p.repo}
 - **Web oficial**: ${p.website || '—'}
 - **Licencia**: ${p.license || '—'}
+- **Tipo de licencia**: ${p.licenseType || 'Open source'} · **Uso / Precio**: ${p.priceLabel || 'Gratis'}
 - **Lenguaje**: ${p.language || '—'}
 - **Estrellas**: ${p.stars ?? '—'} · **Forks**: ${p.forks ?? '—'}
 - **Último push**: ${p.pushed_at || '—'} · **Última release**: ${p.last_release || '—'}
@@ -85,7 +87,7 @@ ${p.release_highlight ? `\n**Qué trae**: ${p.release_highlight}\n` : ''}${p.rel
 ${p.summary || p.description || '—'}
 
 > ${p.tagline || ''}
-${note}
+${warningBlock}${note}
 ${release}
 ## Evidencia de la investigación
 
@@ -123,6 +125,18 @@ for (const p of index.projects) {
   const o = overrides[p.slug] || {}
   p.pillars = { ...(p.pillars || {}), ...(o.pillars || {}) }
   p.category = o.category || p.category || (p.pillars.coordinacion ? 'teams' : 'personal')
+  if (o.license) p.license = o.license
+  p.licenseType = o.licenseType || p.licenseType || 'Open source'
+  p.pricing = o.pricing || p.pricing || 'free'
+  p.priceLabel = o.priceLabel || p.priceLabel || 'Gratis'
+  p.priceNote = o.priceNote || p.priceNote || 'Código abierto + tus modelos'
+  p.licenseWarning = o.licenseWarning !== undefined ? o.licenseWarning : (p.licenseWarning || '')
+  if (o.models) p.models = o.models
+  if (Array.isArray(o.extraSources) && o.extraSources.length) {
+    const byUrl = new Map((p.sources || []).map(s => [s.url, s]))
+    for (const s of o.extraSources) byUrl.set(s.url, s)
+    p.sources = [...byUrl.values()]
+  }
   p.tagline = o.tagline || p.tagline
   p.summary = o.summary || p.summary
   p.strengths = o.strengths || p.strengths

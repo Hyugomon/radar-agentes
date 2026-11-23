@@ -18,6 +18,7 @@ export interface AgentRow {
   catLabel: string
   licenseType: string
   license: string | null
+  licenseWarning?: string
   pricing: string
   priceLabel: string
   priceNote: string
@@ -142,6 +143,7 @@ function mapDbProduct(p: any): AgentRow {
     catLabel: p.cat_label,
     licenseType: p.license_type,
     license: p.license,
+    licenseWarning: payload.licenseWarning || '',
     pricing: p.pricing,
     priceLabel: p.price_label,
     priceNote: p.price_note,
@@ -212,7 +214,8 @@ function buildPayload(rows: AgentRow[], dbMeta: any): RadarPayload {
     meta,
     counts: {
       ready: sorted.length,
-      open: sorted.length,
+      open: sorted.filter(r => (r.licenseType || 'Open source') === 'Open source').length,
+      sourceAvailable: sorted.filter(r => r.licenseType && r.licenseType !== 'Open source').length,
       personal: sorted.filter(r => r.category === 'personal').length,
       teams: sorted.filter(r => r.category === 'teams').length,
       general: sorted.filter(r => r.category === 'general').length,
@@ -253,6 +256,7 @@ export function toListRow(a: AgentRow) {
     catLabel: a.catLabel,
     licenseType: a.licenseType,
     license: a.license,
+    licenseWarning: a.licenseWarning || '',
     pricing: a.pricing,
     priceLabel: a.priceLabel,
     priceNote: a.priceNote,

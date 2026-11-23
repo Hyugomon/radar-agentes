@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/Fei-Craft/DS-Bot
 - **Web oficial**: —
 - **Licencia**: Apache-2.0
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: JavaScript
 - **Estrellas**: 8782 · **Forks**: 891
 - **Último push**: 2026-11-23T18:56:03Z · **Última release**: 2026-11-22

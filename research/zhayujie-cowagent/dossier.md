@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/zhayujie/CowAgent
 - **Web oficial**: https://cowagent.ai
 - **Licencia**: MIT
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: Python
 - **Estrellas**: 48052 · **Forks**: 10446
 - **Último push**: 2026-11-23T12:31:02Z · **Última release**: 2026-10-30

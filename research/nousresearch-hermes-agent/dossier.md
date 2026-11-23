@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/NousResearch/hermes-agent
 - **Web oficial**: https://hermes-agent.nousresearch.com
 - **Licencia**: MIT
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: Python
 - **Estrellas**: 265650 · **Forks**: 60115
 - **Último push**: 2026-11-23T21:49:35Z · **Última release**: 2026-11-23

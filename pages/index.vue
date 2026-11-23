@@ -157,6 +157,7 @@
                   <div class="repo-name">
                     {{ a.full_name }}
                     <span class="tag">{{ a.catLabel }}</span>
+                    <span v-if="a.licenseType && a.licenseType !== 'Open source'" class="tag tag--warn">⚠️ {{ a.licenseType }}</span>
                   </div>
                   <div class="repo-desc">{{ a.tagline }} — {{ a.summary }}</div>
                   <div class="dims" :title="dimTitle(a)">
@@ -166,8 +167,10 @@
                 <td class="num score-cell"><b>{{ a.total.toFixed(1) }}</b><div class="tiny">Grok Score</div></td>
                 <td class="num">{{ Math.round(a.agency) }}</td>
                 <td>
-                  <span class="tag">{{ a.license || '—' }}</span>
-                  <div class="tiny">Open source</div>
+                  <span class="tag" :class="{ 'tag--warn': a.licenseType && a.licenseType !== 'Open source' }">{{ a.license || '—' }}</span>
+                  <div class="tiny" :style="a.licenseType && a.licenseType !== 'Open source' ? 'color: var(--warn)' : ''">
+                    {{ a.licenseType && a.licenseType !== 'Open source' ? a.priceLabel : (a.licenseType || 'Open source') }}
+                  </div>
                 </td>
                 <td>{{ a.setupLabel }}</td>
                 <td class="num deltatier">{{ a.next_tier ? `+${a.delta_next.toFixed(1)} → ${a.next_tier}` : '—' }}</td>
@@ -180,7 +183,7 @@
         </div>
       </div>
       <p class="tiny" style="margin: 12px 2px 0">
-        {{ visible.length }} de {{ counts.ready || 0 }} repos open source · Orden por Grok Score; el ADN desempata.
+        {{ visible.length }} de {{ counts.ready || 0 }} repos ({{ counts.open ?? counts.ready }} open source{{ counts.sourceAvailable ? ` · ${counts.sourceAvailable} source-available con aviso` : '' }}) · Orden por Grok Score; el ADN desempata.
         Haz clic en una fila para ver la ficha completa, las fuentes y el dossier.
       </p>
     </section>
@@ -273,7 +276,7 @@ const visible = computed(() => {
     if (!matchesFilter(a)) return false
     if (tier.value !== 'ALL' && a.tier !== tier.value) return false
     if (!needle) return true
-    return [a.full_name, a.repo, a.summary, a.tagline, a.maker, a.catLabel, a.license, a.models, a.platforms?.join(' ')]
+    return [a.full_name, a.repo, a.summary, a.tagline, a.maker, a.catLabel, a.license, a.licenseType, a.priceLabel, a.priceNote, a.models, a.platforms?.join(' ')]
       .join(' ').toLowerCase().includes(needle)
   })
   return filtered.sort((a, b) => {

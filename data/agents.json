@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23 21:54",
-  "generated_iso": "2026-11-23T21:54:12.614Z",
+  "generated_at": "2026-11-23 22:28",
+  "generated_iso": "2026-11-23T22:28:44.276Z",
   "meta": {
     "reference": {
       "name": "Grok Bot",
@@ -201,13 +201,13 @@
       }
     ],
     "limits": [
-      "Solo entran repos open source con licencia publicada. Grok Bot es cerrado y queda fuera del ranking: se usa como referencia.",
+      "Prioridad a repos open source con licencia OSI; proyectos source-available con código público (p. ej. PolyForm Noncommercial) pueden entrar marcados con aviso negativo y penalizados por restricción comercial. Grok Bot es cerrado y queda fuera del ranking: se usa como referencia.",
       "Puntuación editorial basada en README, web oficial, releases y el snapshot previo del pipeline; no es una prueba práctica de cada tarea.",
       "Los frameworks, SDKs y runtimes no se puntúan: LangChain, LangGraph, CrewAI, AutoGen, OpenAI Agents SDK y similares no son agentes finales.",
       "El coste real incluye modelos/API y hosting aparte. Gratis en código no significa gratis en operación.",
       "Una nota alta no significa que sea seguro para tus datos: revisa permisos, privacidad y aprobaciones."
     ],
-    "ranking_rule": "Orden: Grok Score (0-100) de mayor a menor. El ADN desempata. Solo repos open source; Grok Bot no compite.",
+    "ranking_rule": "Orden: Grok Score (0-100) de mayor a menor. El ADN desempata. Repos open source (y source-available con código público marcados con aviso); Grok Bot no compite.",
     "excluded": [
       "LangChain",
       "LangGraph",
@@ -219,20 +219,21 @@
       "Pydantic AI",
       "LlamaIndex"
     ],
-    "included": "Solo agentes, bots, asistentes y equipos open source que una persona puede instalar o autoalojar."
+    "included": "Agentes, bots, asistentes y equipos instalables o autoalojables con código público (open source OSI, o source-available señalados como punto negativo)."
   },
   "counts": {
-    "ready": 32,
+    "ready": 33,
     "open": 32,
+    "sourceAvailable": 1,
     "personal": 6,
-    "teams": 21,
+    "teams": 22,
     "general": 5,
     "hosted": 0,
     "reference": 0
   },
   "pending": 0,
-  "total_repos": 32,
-  "total_analyzed": 32,
+  "total_repos": 33,
+  "total_analyzed": 33,
   "groups": {
     "ready": [
       {
@@ -252,6 +253,7 @@
         "catLabel": "Equipo",
         "licenseType": "Open source",
         "license": "Apache-2.0",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -499,6 +501,7 @@
         "catLabel": "Equipo",
         "licenseType": "Open source",
         "license": "AGPL-3.0",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -728,6 +731,7 @@
         "catLabel": "Equipo",
         "licenseType": "Open source",
         "license": "AGPL-3.0",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -981,6 +985,7 @@
         "catLabel": "Agente general",
         "licenseType": "Open source",
         "license": "MIT",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -1223,6 +1228,7 @@
         "catLabel": "Equipo",
         "licenseType": "Open source",
         "license": "Apache-2.0",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -1450,6 +1456,7 @@
         "catLabel": "Equipo",
         "licenseType": "Open source",
         "license": "Apache-2.0",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -1701,6 +1708,7 @@
         "catLabel": "Equipo",
         "licenseType": "Open source",
         "license": "Apache-2.0",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -1943,6 +1951,7 @@
         "catLabel": "Equipo",
         "licenseType": "Open source",
         "license": "Apache-2.0",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -2191,6 +2200,7 @@
         "catLabel": "Equipo",
         "licenseType": "Open source",
         "license": "MIT",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -2429,6 +2439,7 @@
         "catLabel": "Equipo",
         "licenseType": "Open source",
         "license": "MIT",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -2668,6 +2679,7 @@
         "catLabel": "Equipo",
         "licenseType": "Open source",
         "license": "MIT",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -2917,6 +2929,7 @@
         "catLabel": "Equipo",
         "licenseType": "Open source",
         "license": "MIT",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -3162,6 +3175,7 @@
         "catLabel": "Bot personal",
         "licenseType": "Open source",
         "license": "MIT",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -3397,6 +3411,258 @@
         "rank": 13
       },
       {
+        "id": "nightly-labs-openbot",
+        "slug": "nightly-labs-openbot",
+        "full_name": "nightly-labs/openbot",
+        "maker": "nightly-labs",
+        "tagline": "Equipo de agentes persistentes local o 24/7; gratis personal, de pago para empresas.",
+        "summary": "Espacio de trabajo multiagente (macOS, Windows, Linux, web, iOS y Android) con servidor always-on en VPS/Docker, workspaces persistentes, navegador embebido, Computer Use (cua-driver), rutinas, memoria, canales compartidos e importador directo desde Grok Bot sobre Codex, Claude Code, Grok CLI, Gemini, OpenCode, Cursor, Hermes y más. Ojo: su código es source-available (PolyForm Noncommercial 1.0.0) — gratis solo para uso personal/no comercial y de pago para uso laboral o empresarial.",
+        "description": "Espacio de trabajo multiagente (macOS, Windows, Linux, web, iOS y Android) con servidor always-on en VPS/Docker, workspaces persistentes, navegador embebido, Computer Use (cua-driver), rutinas, memoria, canales compartidos e importador directo desde Grok Bot sobre Codex, Claude Code, Grok CLI, Gemini, OpenCode, Cursor, Hermes y más. Ojo: su código es source-available (PolyForm Noncommercial 1.0.0) — gratis solo para uso personal/no comercial y de pago para uso laboral o empresarial.",
+        "url": "https://openbot.run/",
+        "website": "https://openbot.run/",
+        "repo": "https://github.com/nightly-labs/openbot",
+        "docs": "https://github.com/nightly-labs/openbot",
+        "researchUrl": "https://github.com/Hyugomon/radar-agentes/tree/main/research/nightly-labs-openbot",
+        "category": "teams",
+        "catLabel": "Equipo",
+        "licenseType": "Source-available",
+        "license": "PolyForm-Noncommercial-1.0.0",
+        "licenseWarning": "Punto negativo — Licencia source-available (PolyForm Noncommercial 1.0.0, no es open source OSI): gratuito (€0) solo para uso personal, estudio o proyectos sin ánimo de lucro. Usarlo en el trabajo o en empresa requiere licencia comercial paga (Starter €10/mes 1 usuario, Team €25/mes 2 usuarios, o Enterprise; gratis solo en promoción hasta 2026-12-01). Solo versiones ≤ 0.1.11 siguen bajo Apache-2.0.",
+        "pricing": "freemium",
+        "priceLabel": "Gratis personal · Pago business",
+        "priceNote": "Uso personal / no comercial: €0 en tu equipo o servidor (+ tus modelos). Uso laboral / business: requiere licencia comercial de pago — Starter €10/mes (1 usuario), Team €25/mes (2 usuarios, +€10.80/extra hasta 10) o Enterprise (>10); promoción gratis solo hasta el 1 dic 2026. Servidor gestionado opcional: €30–€100/mes.",
+        "setup": "easy",
+        "setupLabel": "Fácil",
+        "maturity": "released",
+        "maturityLabel": "Released",
+        "platforms": [
+          "macOS",
+          "Windows",
+          "Linux",
+          "Web",
+          "iOS",
+          "Android"
+        ],
+        "models": "Codex, Claude Code, Grok CLI, Gemini, OpenCode, Cursor, Cline, Kimi, Devin, Copilot, Mistral, Hermes, Ollama/LM Studio, ACP",
+        "channels": [
+          "Chat",
+          "Web",
+          "Móvil"
+        ],
+        "reference": false,
+        "kind": "agent",
+        "archetype": "teams",
+        "archetype_label": "Equipo",
+        "generation": "bots 2026",
+        "tier": "A",
+        "total": 78.85,
+        "agency": 90,
+        "confidence": 80,
+        "dimensions": {
+          "capacidad": 83,
+          "autonomia": 80,
+          "computadora": 86,
+          "memoria": 86,
+          "rutinas": 86,
+          "equipo": 90,
+          "confianza": 48,
+          "producto": 70
+        },
+        "pillars": {
+          "identidad": true,
+          "computadora": true,
+          "memoria": true,
+          "rutinas": true,
+          "apps": true,
+          "coordinacion": true,
+          "aprobaciones": false,
+          "desatendido": true
+        },
+        "pillars_detail": [
+          {
+            "key": "identidad",
+            "label": "Identidad",
+            "hint": "El bot tiene nombre y rol propio; no es solo un chat.",
+            "weight": 10,
+            "on": true
+          },
+          {
+            "key": "computadora",
+            "label": "Computadora propia",
+            "hint": "Navegador, terminal, archivos y sesiones que sobreviven a la tarea.",
+            "weight": 18,
+            "on": true
+          },
+          {
+            "key": "memoria",
+            "label": "Memoria",
+            "hint": "Recuerda y acumula contexto por bot.",
+            "weight": 10,
+            "on": true
+          },
+          {
+            "key": "rutinas",
+            "label": "Rutinas",
+            "hint": "Ejecuta trabajo programado o por evento sin prompt.",
+            "weight": 16,
+            "on": true
+          },
+          {
+            "key": "apps",
+            "label": "Apps reales",
+            "hint": "Opera sitios y programas reales, no solo APIs.",
+            "weight": 14,
+            "on": true
+          },
+          {
+            "key": "coordinacion",
+            "label": "Coordinación",
+            "hint": "Varios bots se reparten el trabajo y lo entregan juntos.",
+            "weight": 12,
+            "on": true
+          },
+          {
+            "key": "aprobaciones",
+            "label": "Aprobaciones",
+            "hint": "Pide permiso antes de publicar, pagar o borrar.",
+            "weight": 10,
+            "on": false
+          },
+          {
+            "key": "desatendido",
+            "label": "Desatendido",
+            "hint": "Sigue trabajando mientras no estás conectado.",
+            "weight": 10,
+            "on": true
+          }
+        ],
+        "agency_max": 100,
+        "has_pillars": true,
+        "next_tier": "S",
+        "delta_next": 1.15,
+        "strengths": [
+          "Orquesta 12+ backends (Codex, Claude Code, Grok CLI, Gemini, OpenCode, Cursor, Cline, Hermes, Ollama/LM Studio y ACP) con workspaces persistentes, colas FIFO crash-safe e importador directo de agentes desde Grok Bot.",
+          "Modo always-on real en servidor Ubuntu (systemd), Docker (ghcr.io/nightly-labs/openbot), AWS ECS, Umbrel y macOS multi-tenant, controlable desde escritorio, web (openbot.run/app) y apps nativas iOS/Android vía WebRTC v3.",
+          "Navegador embebido persistente (WebContentsView), Computer Use opcional (cua-driver en macOS/Windows/Linux), rutinas/workflows con triggers (edit_workflow) y memoria persistente incluso desde subagentes en segundo plano.",
+          "Canales compartidos con delegación explícita, transferencia de archivos, modo multiplayer personas + agentes y ritmo de lanzamientos casi diario (v0.77.0, 10,102 estrellas)."
+        ],
+        "weaknesses": [
+          "Licencia restrictiva (PolyForm Noncommercial 1.0.0, source-available — no open source OSI): es gratis (€0) únicamente para uso personal o sin ánimo de lucro; para uso en el trabajo o empresas exige licencia comercial de pago (Starter €10/mes 1 usuario, Team €25/mes 2 usuarios + €10.80/extra, o Enterprise; gratis solo en promo hasta 2026-12-01) y exige CLA para contribuir.",
+          "Sin aprobaciones previas por decisión explícita de diseño: los agentes ejecutan con danger-full-access y approvalPolicy: never sin pedir confirmación por acción irreversible ('Full local access is an explicit current product decision, not a security boundary').",
+          "Volumen muy alto de issues abiertos (4369) y cadencia de cambios casi diaria (v0.77.0 en 3 meses), lo que incrementa la fricción operativa.",
+          "Los planes/APIs de modelos corren aparte y el servidor gestionado cuesta €30–€100/mes si no lo autoalojas."
+        ],
+        "comparison": "Es uno de los clones más cercanos en experiencia a Grok Bot (hasta incluye importador directo de agentes desde Grok Bot, canales, rutinas, memoria, navegador y servidor 24/7), pero queda por debajo del listón y de líderes 100% open source por dos puntos negativos claros: renuncia a aprobaciones previas (approvalPolicy: never) y su licencia PolyForm Noncommercial cobra por uso business/comercial.",
+        "sources": [
+          {
+            "label": "Repositorio GitHub",
+            "url": "https://github.com/nightly-labs/openbot",
+            "accessedAt": "2026-11-23"
+          },
+          {
+            "label": "Web oficial",
+            "url": "https://openbot.run/",
+            "accessedAt": "2026-11-23"
+          },
+          {
+            "label": "Precios y licencia comercial",
+            "url": "https://openbot.run/pricing",
+            "accessedAt": "2026-11-23"
+          },
+          {
+            "label": "Licencia PolyForm Noncommercial 1.0.0",
+            "url": "https://github.com/nightly-labs/openbot/blob/main/LICENSE",
+            "accessedAt": "2026-11-23"
+          },
+          {
+            "label": "README",
+            "url": "https://github.com/nightly-labs/openbot#readme",
+            "accessedAt": "2026-11-23"
+          },
+          {
+            "label": "Releases",
+            "url": "https://github.com/nightly-labs/openbot/releases",
+            "accessedAt": "2026-11-23"
+          },
+          {
+            "label": "Dossier de investigación",
+            "url": "https://github.com/Hyugomon/radar-agentes/tree/main/research/nightly-labs-openbot",
+            "accessedAt": "2026-11-23"
+          }
+        ],
+        "stars": 10102,
+        "forks": 982,
+        "open_issues": 4369,
+        "language": "TypeScript",
+        "created_at": "2026-08-12T21:32:03Z",
+        "created_day": "2026-08-12",
+        "pushed_at": "2026-11-23T22:23:32Z",
+        "last_release": "2026-11-23",
+        "last_release_tag": "v0.77.0",
+        "last_release_url": "https://github.com/nightly-labs/openbot/releases/tag/v0.77.0",
+        "last_release_days": 0,
+        "releases_90": 10,
+        "releases_recent": [
+          {
+            "tag": "v0.77.0",
+            "date": "2026-11-23",
+            "pre": false,
+            "url": "https://github.com/nightly-labs/openbot/releases/tag/v0.77.0"
+          },
+          {
+            "tag": "mobile-build/ios/1.4.13/41/fb68d91f414bd250d45ca204e041e59dfa9fc88a",
+            "date": "2026-11-23",
+            "pre": false,
+            "url": "https://github.com/nightly-labs/openbot/releases/tag/mobile-build%2Fios%2F1.4.13%2F41%2Ffb68d91f414bd250d45ca204e041e59dfa9fc88a"
+          },
+          {
+            "tag": "mobile-build/android/1.4.13/31/15fa32c1d86fd58b98eb5d6914e19159a417d59a",
+            "date": "2026-11-23",
+            "pre": false,
+            "url": "https://github.com/nightly-labs/openbot/releases/tag/mobile-build%2Fandroid%2F1.4.13%2F31%2F15fa32c1d86fd58b98eb5d6914e19159a417d59a"
+          },
+          {
+            "tag": "v0.76.1",
+            "date": "2026-11-21",
+            "pre": false,
+            "url": "https://github.com/nightly-labs/openbot/releases/tag/v0.76.1"
+          },
+          {
+            "tag": "v0.76.0",
+            "date": "2026-11-21",
+            "pre": false,
+            "url": "https://github.com/nightly-labs/openbot/releases/tag/v0.76.0"
+          },
+          {
+            "tag": "v0.75.0",
+            "date": "2026-11-20",
+            "pre": false,
+            "url": "https://github.com/nightly-labs/openbot/releases/tag/v0.75.0"
+          }
+        ],
+        "release_status": "activo",
+        "release_source": "releases.atom",
+        "release_note": "What's Changed Let a steer reach a Claude agent while a tool runs by @NorbertBodziony in #14259 Add the ghost, jellyfish and octopus avatar shapes by @NorbertBodziony in #14274 Show a refused key and stop retrying it every 10 minutes by @Sniezka1927 in #14271 Free a browser tab whose page stops answering by @Sniezka1927 in #14273 Tell agents why a sidebar folder tool failed by @Sniezka1927 in #14290 Let a Muse agent run when one of its apps does not start by @Sniezka1927 in #14286 build(nix): install OpenBot 0.76.1 by @github-actions[bot] in #14291 Keep agent IDs in Local scripts responses by @Sniezka1927 in #14308 Read replies aloud in any language with a cloud voice by @Sniezka1927 in #14316 Keep the wake origin when a Claude subagent starts its own task by @Sniezka1927 in #14317 Recover an OpenCode chat after a server says multimodal is not enabled by @Sniezka1927 in #14324 Keep a rel",
+        "release_highlight": "v0.77.0 (y apps móviles iOS/Android 1.4.13): steering en mitad de ejecución de herramientas para Claude, voz cloud multiidioma, recuperación de pestañas colgadas en el navegador embebido, fixes MCP y workflows/rutinas + memoria de subagentes (v0.74.0–v0.76.1).",
+        "release_impact": "Alta en el ranking con 78.85 A (ADN 90, 7/8 pilares). Penalizado en Confianza (48) por correr sin aprobaciones y en Producto (70) por licencia source-available PolyForm Noncommercial 1.0.0 (gratis personal, pago para uso business).",
+        "release_checked_at": "2026-11-23",
+        "changelog_url": null,
+        "judged_day": "2026-11-23",
+        "readme": "",
+        "topics": [
+          "ai-agents",
+          "bun",
+          "codex",
+          "electron",
+          "local-first",
+          "macos",
+          "solidjs",
+          "typescript"
+        ],
+        "homepage": "https://openbot.run/",
+        "rank": 14
+      },
+      {
         "id": "sentelabsai-openexecutive",
         "slug": "sentelabsai-openexecutive",
         "full_name": "ForeactLabs/OpenExecutive",
@@ -3413,6 +3679,7 @@
         "catLabel": "Equipo",
         "licenseType": "Open source",
         "license": "Apache-2.0",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -3633,7 +3900,7 @@
           "typescript"
         ],
         "homepage": "https://openexecutive.ai",
-        "rank": 14
+        "rank": 15
       },
       {
         "id": "agentscope-ai-qwenpaw",
@@ -3652,6 +3919,7 @@
         "catLabel": "Equipo",
         "licenseType": "Open source",
         "license": "Apache-2.0",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -3883,7 +4151,7 @@
           "webui"
         ],
         "homepage": "http://qwenpaw.agentscope.io/",
-        "rank": 15
+        "rank": 16
       },
       {
         "id": "androoagi-starnet",
@@ -3902,6 +4170,7 @@
         "catLabel": "Equipo",
         "licenseType": "Open source",
         "license": "MIT",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -4127,7 +4396,7 @@
           "tauri"
         ],
         "homepage": "https://github.com/androoAGI/starnet-releases/releases/latest",
-        "rank": 16
+        "rank": 17
       },
       {
         "id": "makecindy-cindy",
@@ -4146,6 +4415,7 @@
         "catLabel": "Equipo",
         "licenseType": "Open source",
         "license": "Apache-2.0",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -4374,7 +4644,7 @@
           "windows"
         ],
         "homepage": "https://cindy.app",
-        "rank": 17
+        "rank": 18
       },
       {
         "id": "rowboatlabs-rowboat",
@@ -4393,6 +4663,7 @@
         "catLabel": "Equipo",
         "licenseType": "Open source",
         "license": "Apache-2.0",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -4620,7 +4891,7 @@
           "productivity"
         ],
         "homepage": "https://www.rowboatlabs.com",
-        "rank": 18
+        "rank": 19
       },
       {
         "id": "nano-muse-nanomuse",
@@ -4639,6 +4910,7 @@
         "catLabel": "Bot personal",
         "licenseType": "Open source",
         "license": "GPL-3.0",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -4869,7 +5141,7 @@
           "personal-agent"
         ],
         "homepage": "https://nanomuse.cn/",
-        "rank": 19
+        "rank": 20
       },
       {
         "id": "rokaswk-threebot",
@@ -4888,6 +5160,7 @@
         "catLabel": "Bot personal",
         "licenseType": "Open source",
         "license": "MIT",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -5102,7 +5375,7 @@
           "t3code"
         ],
         "homepage": "https://bot.swk.tools/",
-        "rank": 20
+        "rank": 21
       },
       {
         "id": "cludegods",
@@ -5121,6 +5394,7 @@
         "catLabel": "Bot personal",
         "licenseType": "Open source",
         "license": "MIT",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -5326,7 +5600,7 @@
           "voicemode"
         ],
         "homepage": "https://github.com/AKamaly/CludeGods",
-        "rank": 21
+        "rank": 22
       },
       {
         "id": "gcwing-openbitfun",
@@ -5345,6 +5619,7 @@
         "catLabel": "Agente general",
         "licenseType": "Open source",
         "license": "MIT",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -5569,7 +5844,7 @@
           "vibe-coding"
         ],
         "homepage": "openbitfun.com",
-        "rank": 22
+        "rank": 23
       },
       {
         "id": "ai-timon-timon",
@@ -5588,6 +5863,7 @@
         "catLabel": "Equipo",
         "licenseType": "Open source",
         "license": "AGPL-3.0",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -5789,7 +6065,7 @@
           "timon"
         ],
         "homepage": "https://github.com/ai-timon/timon",
-        "rank": 23
+        "rank": 24
       },
       {
         "id": "fei2411-ds-bot",
@@ -5808,6 +6084,7 @@
         "catLabel": "Equipo",
         "licenseType": "Open source",
         "license": "Apache-2.0",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -6022,7 +6299,7 @@
           "multi-agent"
         ],
         "homepage": "https://github.com/Fei-Craft/DS-Bot",
-        "rank": 24
+        "rank": 25
       },
       {
         "id": "microclaw-microclaw",
@@ -6041,6 +6318,7 @@
         "catLabel": "Bot personal",
         "licenseType": "Open source",
         "license": "MIT",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -6254,7 +6532,7 @@
           "rust"
         ],
         "homepage": "https://microclaw.org",
-        "rank": 25
+        "rank": 26
       },
       {
         "id": "ryder-sun-meldwork",
@@ -6273,6 +6551,7 @@
         "catLabel": "Equipo",
         "licenseType": "Open source",
         "license": "Apache-2.0",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -6489,7 +6768,7 @@
           "multi-agent-system"
         ],
         "homepage": "https://ryder-sun.github.io/Meldwork/",
-        "rank": 26
+        "rank": 27
       },
       {
         "id": "opencrabs-opencrabs",
@@ -6508,6 +6787,7 @@
         "catLabel": "Agente general",
         "licenseType": "Open source",
         "license": "MIT",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -6733,7 +7013,7 @@
           "self-learning"
         ],
         "homepage": "https://opencrabs.com",
-        "rank": 27
+        "rank": 28
       },
       {
         "id": "zhayujie-cowagent",
@@ -6752,6 +7032,7 @@
         "catLabel": "Bot personal",
         "licenseType": "Open source",
         "license": "MIT",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -6978,7 +7259,7 @@
           "skills"
         ],
         "homepage": "https://cowagent.ai",
-        "rank": 28
+        "rank": 29
       },
       {
         "id": "agentvivekkumar-dontbemichael",
@@ -6997,6 +7278,7 @@
         "catLabel": "Equipo",
         "licenseType": "Open source",
         "license": "MIT",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -7207,7 +7489,7 @@
           "ai"
         ],
         "homepage": "https://dontbemichael.com",
-        "rank": 29
+        "rank": 30
       },
       {
         "id": "rome-os-rome",
@@ -7226,6 +7508,7 @@
         "catLabel": "Agente general",
         "licenseType": "Open source",
         "license": "MIT",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -7451,7 +7734,7 @@
           "workflow-automation"
         ],
         "homepage": "https://romeos.cc",
-        "rank": 30
+        "rank": 31
       },
       {
         "id": "777genius-agent-teams-ai",
@@ -7470,6 +7753,7 @@
         "catLabel": "Equipo",
         "licenseType": "Open source",
         "license": "AGPL-3.0",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -7699,7 +7983,7 @@
           "typescript"
         ],
         "homepage": "https://agentteams.live",
-        "rank": 31
+        "rank": 32
       },
       {
         "id": "netease-youdao-lobsterai",
@@ -7718,6 +8002,7 @@
         "catLabel": "Agente general",
         "licenseType": "Open source",
         "license": "MIT",
+        "licenseWarning": "",
         "pricing": "free",
         "priceLabel": "Gratis",
         "priceNote": "Código abierto + tus modelos",
@@ -7941,7 +8226,7 @@
           "tyepscript"
         ],
         "homepage": "https://lobsterai.youdao.com",
-        "rank": 32
+        "rank": 33
       }
     ]
   }

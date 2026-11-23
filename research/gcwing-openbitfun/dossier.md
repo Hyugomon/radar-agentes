@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/openBitFun/OpenBitFun
 - **Web oficial**: openbitfun.com
 - **Licencia**: MIT
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: Rust
 - **Estrellas**: 4111 · **Forks**: 315
 - **Último push**: 2026-11-23T17:09:53Z · **Última release**: 2026-11-20

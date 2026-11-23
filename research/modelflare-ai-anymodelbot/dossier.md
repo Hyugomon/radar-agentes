@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/modelflare-ai/AnyModelBot
 - **Web oficial**: https://anymodel.bot/
 - **Licencia**: MIT
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: Python
 - **Estrellas**: 4985 · **Forks**: 115
 - **Último push**: 2026-11-22T18:58:42Z · **Última release**: 2026-11-22

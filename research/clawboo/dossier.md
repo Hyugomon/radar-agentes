@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/clawboo/clawboo
 - **Web oficial**: https://www.claw.boo
 - **Licencia**: MIT
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: TypeScript
 - **Estrellas**: 173 · **Forks**: 44
 - **Último push**: 2026-11-19T16:18:37Z · **Última release**: 2026-11-19

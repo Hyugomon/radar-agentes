@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/androoAGI/starnet
 - **Web oficial**: https://github.com/androoAGI/starnet-releases/releases/latest
 - **Licencia**: MIT
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: JavaScript
 - **Estrellas**: 1921 · **Forks**: 393
 - **Último push**: 2026-11-19T22:09:17Z · **Última release**: 2026-11-20

@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/rerun-build/rerun
 - **Web oficial**: https://rerun.build
 - **Licencia**: AGPL-3.0
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: TypeScript
 - **Estrellas**: 1134 · **Forks**: 141
 - **Último push**: 2026-11-23T18:11:29Z · **Última release**: 2026-11-23

@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/nanocoai/nanoclaw
 - **Web oficial**: https://nanoclaw.dev
 - **Licencia**: MIT
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: TypeScript
 - **Estrellas**: 31149 · **Forks**: 12632
 - **Último push**: 2026-11-23T20:44:47Z · **Última release**: 2026-11-21

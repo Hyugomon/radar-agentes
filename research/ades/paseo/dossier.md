@@ -13,8 +13,8 @@ Workspace para acceder a sesiones de agentes de código desde distintos disposit
 
 ## Release revisada
 
-- **Tag**: [v0.17.3](https://github.com/getpaseo/paseo/releases/tag/v0.17.3)
-- **Fecha**: 2026-11-22 (hace 1 días)
+- **Tag**: [v0.17.4](https://github.com/getpaseo/paseo/releases/tag/v0.17.4)
+- **Fecha**: 2026-11-23 (hace 0 días)
 - **Estado**: activo · **Releases en 90 días**: 10
 - **Revisado**: 2026-11-23 · **Fuente**: releases.atom
 
@@ -22,7 +22,7 @@ Workspace para acceder a sesiones de agentes de código desde distintos disposit
 
 **Impacto en la ficha**: Sube a Tier S (+1.58): Revisión 76→82, Control 70→74, Orquestación 84→87 y Producto 82→85.
 
-> 0.17.3 - 2026-11-22 Fixed Fixed iPhone sheets such as Workspace tabs ignoring body swipes to expand, scroll, or collapse ( #10525 ) Fixed Antigravity applying the default model's thinking levels to every model, which blocked Orchestrator chats from opening ( #10524 ) Fixed / and @ pickers disappearing until reload after returning to a workspace through window history ( #8954 by @viking1201 )
+> v0.17.4
 
 ## Evidencia
 

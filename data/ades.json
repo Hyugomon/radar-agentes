@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23 21:58",
-  "generated_iso": "2026-11-23T21:58:15.675Z",
+  "generated_at": "2026-11-23 22:29",
+  "generated_iso": "2026-11-23T22:29:25.002Z",
   "meta": {
     "dimensions": [
       {
@@ -1754,12 +1754,18 @@
             "accessedAt": "2026-11-23"
           }
         ],
-        "last_release": "2026-11-22",
-        "last_release_tag": "v0.17.3",
-        "last_release_url": "https://github.com/getpaseo/paseo/releases/tag/v0.17.3",
-        "last_release_days": 1,
+        "last_release": "2026-11-23",
+        "last_release_tag": "v0.17.4",
+        "last_release_url": "https://github.com/getpaseo/paseo/releases/tag/v0.17.4",
+        "last_release_days": 0,
         "releases_90": 10,
         "releases_recent": [
+          {
+            "tag": "v0.17.4",
+            "date": "2026-11-23",
+            "pre": false,
+            "url": "https://github.com/getpaseo/paseo/releases/tag/v0.17.4"
+          },
           {
             "tag": "v0.17.3",
             "date": "2026-11-22",
@@ -1789,17 +1795,11 @@
             "date": "2026-11-19",
             "pre": true,
             "url": "https://github.com/getpaseo/paseo/releases/tag/v0.17.0-beta.1"
-          },
-          {
-            "tag": "desktop-macos-v0.17.0-beta.1",
-            "date": "2026-11-19",
-            "pre": true,
-            "url": "https://github.com/getpaseo/paseo/releases/tag/desktop-macos-v0.17.0-beta.1"
           }
         ],
         "release_status": "activo",
         "release_source": "releases.atom",
-        "release_note": "0.17.3 - 2026-11-22 Fixed Fixed iPhone sheets such as Workspace tabs ignoring body swipes to expand, scroll, or collapse ( #10525 ) Fixed Antigravity applying the default model's thinking levels to every model, which blocked Orchestrator chats from opening ( #10524 ) Fixed / and @ pickers disappearing until reload after returning to a workspace through window history ( #8954 by @viking1201 )",
+        "release_note": "v0.17.4",
         "release_highlight": "v0.17.3 estable (y v0.17.0–v0.17.2): seguimiento de PRs/MRs, steering de turnos entre agentes, heartbeats en segundo plano, aprobaciones/historial de Antigravity y métricas de coste/tokens por turno.",
         "release_impact": "Sube a Tier S (+1.58): Revisión 76→82, Control 70→74, Orquestación 84→87 y Producto 82→85.",
         "release_checked_at": "2026-11-23",
@@ -3197,7 +3197,7 @@
         ],
         "release_status": "activo",
         "release_source": "releases.atom",
-        "release_note": "Automated nightly build for e12f551 from nightly-next . Published commit: e12f551a44a688ba03832f5ed8932d7eceb19259 . Built at the commit whose cmux-tui tree is published (app and daemon from one commit); branch tip e12f551a44a688ba03832f5ed8932d7eceb19259 , 0 commits and 0 h behind it. cmux NIGHTLY ships for Apple silicon only (bundle ID com.cmuxterm.app.nightly ): Apple silicon: cmux-nightly-next-macos-arm64.dmg , feed appcast-arm64.xml PRs in this build #50396 NIGHTLY install check follow-ups: retryable is inconclusive, one held notice, no stuck pick, no canary on an older daemon #52368 iOS composer: a new line moves composer and transcript in one 150 ms motion #51862 keys: Linux hosts mint keys through the Mac's broker (safe keys) #51704 Bypass chats stop asking for subagent guards; approval card says what a call does #52279 cmux-terminal-projection: instant-perf bench, small vs god (",
+        "release_note": "Automated nightly build for df97d77 from nightly-next . Published commit: df97d776dcb3f4c280b63b91c41b30b8795acdfb . Built at the commit whose cmux-tui tree is published (app and daemon from one commit); branch tip df97d776dcb3f4c280b63b91c41b30b8795acdfb , 0 commits and 0 h behind it. cmux NIGHTLY ships for Apple silicon only (bundle ID com.cmuxterm.app.nightly ): Apple silicon: cmux-nightly-next-macos-arm64.dmg , feed appcast-arm64.xml PRs in this build #47609 Chat interface font: cmux Sans Open, spacing matched to Quillet (opt-in) #52185 ci: tooling-tests runs on pull requests again, routed by step (fifteen merged changes broke it while skipped) #43676 bench: what one more idle agent chat costs in acpmux, on Linux (daemon, our helpers, the agent apart) #49182 cmux ps / cmux gc: terminal hosts and state from the product's own records #52630 Action catalog: Rename Agent Session… in the ",
         "release_highlight": "nightly-next / cmux-rd-v0.2.9: demonio de escritorio remoto Linux v0.2.9 y compilaciones nightly continuas.",
         "release_impact": "Sin cambio de score (78.27 A).",
         "release_checked_at": "2026-11-23",

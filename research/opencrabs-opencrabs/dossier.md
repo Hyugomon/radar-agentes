@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/opencrabs/opencrabs
 - **Web oficial**: https://opencrabs.com
 - **Licencia**: MIT
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: Rust
 - **Estrellas**: 1032 · **Forks**: 109
 - **Último push**: 2026-11-22T12:43:43Z · **Última release**: 2026-11-15

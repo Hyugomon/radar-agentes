@@ -1,0 +1,87 @@
+{
+  "repo": "nightly-labs/openbot",
+  "source": "releases.atom",
+  "checked_at": "2026-11-23",
+  "entries": [
+    {
+      "tag": "v0.77.0",
+      "title": "OpenBot v0.77.0",
+      "date": "2026-11-23",
+      "url": "https://github.com/nightly-labs/openbot/releases/tag/v0.77.0",
+      "pre": false,
+      "note": "What's Changed Let a steer reach a Claude agent while a tool runs by @NorbertBodziony in #14259 Add the ghost, jellyfish and octopus avatar shapes by @NorbertBodziony in #14274 Show a refused key and stop retrying it every 10 minutes by @Sniezka1927 in #14271 Free a browser tab whose page stops answering by @Sniezka1927 in #14273 Tell agents why a sidebar folder tool failed by @Sniezka1927 in #14290 Let a Muse agent run when one of its apps does not start by @Sniezka1927 in #14286 build(nix): install OpenBot 0.76.1 by @github-actions[bot] in #14291 Keep agent IDs in Local scripts responses by @Sniezka1927 in #14308 Read replies aloud in any language with a cloud voice by @Sniezka1927 in #14316 Keep the wake origin when a Claude subagent starts its own task by @Sniezka1927 in #14317 Recover an OpenCode chat after a server says multimodal is not enabled by @Sniezka1927 in #14324 Keep a rel"
+    },
+    {
+      "tag": "mobile-build/ios/1.4.13/41/fb68d91f414bd250d45ca204e041e59dfa9fc88a",
+      "title": "mobile-build/ios/1.4.13/41/fb68d91f414bd250d45ca204e041e59dfa9fc88a: release: prepare the mobile app v1.4.13 (#15360)",
+      "date": "2026-11-23",
+      "url": "https://github.com/nightly-labs/openbot/releases/tag/mobile-build%2Fios%2F1.4.13%2F41%2Ffb68d91f414bd250d45ca204e041e59dfa9fc88a",
+      "pre": false,
+      "note": "Set the mobile version to 1.4.13 and move the notes in apps/mobile/changelog.d into apps/mobile/CHANGELOG.md. Co-authored-by: Claude Opus 5.5 noreply@anthropic.com"
+    },
+    {
+      "tag": "mobile-build/android/1.4.13/31/15fa32c1d86fd58b98eb5d6914e19159a417d59a",
+      "title": "mobile-build/android/1.4.13/31/15fa32c1d86fd58b98eb5d6914e19159a417d59a: release: prepare the mobile app v1.4.13 (#15360)",
+      "date": "2026-11-23",
+      "url": "https://github.com/nightly-labs/openbot/releases/tag/mobile-build%2Fandroid%2F1.4.13%2F31%2F15fa32c1d86fd58b98eb5d6914e19159a417d59a",
+      "pre": false,
+      "note": "Set the mobile version to 1.4.13 and move the notes in apps/mobile/changelog.d into apps/mobile/CHANGELOG.md. Co-authored-by: Claude Opus 5.5 noreply@anthropic.com"
+    },
+    {
+      "tag": "v0.76.1",
+      "title": "OpenBot v0.76.1",
+      "date": "2026-11-21",
+      "url": "https://github.com/nightly-labs/openbot/releases/tag/v0.76.1",
+      "pre": false,
+      "note": "What's Changed Let Stop end a Claude turn that Claude no longer runs by @Sniezka1927 in #14228 Preview Word documents and open the agent workspace from Files by @NorbertBodziony in #14223 Ignore Linux GPU records that earlier versions wrote by mistake by @Sniezka1927 in #14236 build(nix): install OpenBot 0.76.0 by @github-actions[bot] in #14243 Keep only the newest boat snapshots and accept a changed apt Label by @NorbertBodziony in #14245 Move late 0.76.0 release notes into CHANGELOG.md by @NorbertBodziony in #14249 Open the agent browser in its own window by @NorbertBodziony in #14225 Release v0.76.1 by @NorbertBodziony in #14258 Full Changelog : v0.76.0...v0.76.1"
+    },
+    {
+      "tag": "v0.76.0",
+      "title": "OpenBot v0.76.0",
+      "date": "2026-11-21",
+      "url": "https://github.com/nightly-labs/openbot/releases/tag/v0.76.0",
+      "pre": false,
+      "note": "What's Changed Let agents find threads with the settings search by @Sniezka1927 in #13588 Show a question card that the runtime snapshot leaves out by @Sniezka1927 in #13585 Show why a provider Connect failed, and keep Pi warnings out of Last error by @Sniezka1927 in #13586 Hide the OpenBot launcher when another launcher starts the AppImage by @Sniezka1927 in #13596 Fit the window to a tile on tiling Linux desktops by @NorbertBodziony in #13589 Let an agent run tasks at the same time and get their results back by @NorbertBodziony in #13577 End an Antigravity routine run after routine_no_update by @Sniezka1927 in #13599 Load older thread messages when the user scrolls near the top by @NorbertBodziony in #13594 Tell the agent when a Telegram call fails because the relay is down by @Sniezka1927 in #13613 build(nix): install OpenBot 0.75.0 by @github-actions[bot] in #13621 Send the channel r"
+    },
+    {
+      "tag": "v0.75.0",
+      "title": "OpenBot v0.75.0",
+      "date": "2026-11-20",
+      "url": "https://github.com/nightly-labs/openbot/releases/tag/v0.75.0",
+      "pre": false,
+      "note": "What's Changed Refuse an unknown trigger event in edit_workflow by @Sniezka1927 in #12892 Price GPT-6.2 Sol in agent usage by @Sniezka1927 in #12913 release: prepare the mobile app v1.4.12 by @nrb-dev in #12915 Save memory changes that a background subagent makes after the turn ends by @Sniezka1927 in #12911 Send the Signal home on system_remote_connect by @NorbertBodziony in #12919 Stop busy servers from running out of memory and freezing by @Sniezka1927 in #12929 Show the agent's model on a workflow agent step by @NorbertBodziony in #12930 End an ACP session start that the agent never answers by @Sniezka1927 in #12935 Show the media node prompt panel only on hover by @NorbertBodziony in #12933 Say why an MCP server did not start when it is down or cannot be reached by @Sniezka1927 in #12937 Keep an ended turn from staying active after a late steer by @Sniezka1927 in #12936 Show a workf"
+    },
+    {
+      "tag": "mobile-announced/v1.4.12/ios",
+      "title": "mobile-announced/v1.4.12/ios",
+      "date": "2026-11-20",
+      "url": "https://github.com/nightly-labs/openbot/releases/tag/mobile-announced%2Fv1.4.12%2Fios",
+      "pre": false,
+      "note": "Mark the mobile app 1.4.12 available on iOS, and turn on its cloud se…"
+    },
+    {
+      "tag": "mobile-announced/v1.4.12/android",
+      "title": "mobile-announced/v1.4.12/android",
+      "date": "2026-11-20",
+      "url": "https://github.com/nightly-labs/openbot/releases/tag/mobile-announced%2Fv1.4.12%2Fandroid",
+      "pre": false,
+      "note": "Mark the mobile app 1.4.12 available on Android, and turn on its clou…"
+    },
+    {
+      "tag": "v0.74.0",
+      "title": "OpenBot v0.74.0",
+      "date": "2026-11-20",
+      "url": "https://github.com/nightly-labs/openbot/releases/tag/v0.74.0",
+      "pre": false,
+      "note": "What's Changed Add an Open Agent shortcut that opens the chat of the shortcut agent by @nrb-dev in #12036 Stop three iPhone crashes of the mobile app 1.4.10 by @nrb-dev in #12055 Free the upload slots of failed site replaces by @Sniezka1927 in #12069 Show the CRM form lists above the form dialog by @NorbertBodziony in #12071 Add the Singapore Signal home sg by @NorbertBodziony in #12065 Add an MCP server whose tool schema uses a boolean property schema by @Sniezka1927 in #12080 Start a stopped provider again on the next request by @Sniezka1927 in #8746 Close a browser tab that an earlier operation blocks by @Sniezka1927 in #12083 Send a routine's final answer after a teammate replies by @Sniezka1927 in #12076 Say that the sign-in page refused a relayed MCP sign-in by @Sniezka1927 in #11920 Stop loading ~/.claude memory into Claude agents when the Claude setup switch is off by @Sniezka192"
+    },
+    {
+      "tag": "mobile-build/ios/1.4.12/40/958124356d6cada11486e34297c20d477d3a0e03",
+      "title": "mobile-build/ios/1.4.12/40/958124356d6cada11486e34297c20d477d3a0e03: Fix the iOS release build and the Google Play feature check (#12967)",
+      "date": "2026-11-19",
+      "url": "https://github.com/nightly-labs/openbot/releases/tag/mobile-build%2Fios%2F1.4.12%2F40%2F958124356d6cada11486e34297c20d477d3a0e03",
+      "pre": false,
+      "note": "Make the react-native-screens 4.30.1 patch again from the 4.30.1 source. Two hunks for RNSScreenStackHeaderConfig.mm had the line numbers of the old version. Bun applies a hunk at its line number and does not check the context, so the patched file did not compile and the iOS archive failed. Declare android.hardware.screen.portrait and android.hardware.wifi as not required. The portrait orientation and the ACCESS_WIFI_STATE permission of expo-network made Google Play mark them as required, and Play stopped the review of 1.4.12. These native changes make a new runtime version for Android and iOS. Co-authored-by: Claude Opus 5.5 noreply@anthropic.com"
+    }
+  ]
+}

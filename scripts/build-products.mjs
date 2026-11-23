@@ -101,11 +101,12 @@ const rows = (research.projects || []).map((p) => {
     researchUrl,
     category: p.category,
     catLabel,
-    licenseType: 'Open source',
+    licenseType: p.licenseType || 'Open source',
     license: p.license,
-    pricing: 'free',
-    priceLabel: 'Gratis',
-    priceNote: 'Código abierto + tus modelos',
+    licenseWarning: p.licenseWarning || '',
+    pricing: p.pricing || 'free',
+    priceLabel: p.priceLabel || 'Gratis',
+    priceNote: p.priceNote || 'Código abierto + tus modelos',
     setup,
     setupLabel: SETUP_LABEL[setup] || setup,
     maturity,
@@ -165,7 +166,8 @@ rows.forEach((row, index) => { row.rank = index + 1 })
 
 const counts = {
   ready: rows.length,
-  open: rows.length,
+  open: rows.filter(r => (r.licenseType || 'Open source') === 'Open source').length,
+  sourceAvailable: rows.filter(r => r.licenseType && r.licenseType !== 'Open source').length,
   personal: rows.filter(r => r.category === 'personal').length,
   teams: rows.filter(r => r.category === 'teams').length,
   general: rows.filter(r => r.category === 'general').length,
@@ -204,15 +206,15 @@ const payload = {
       { band: '0-49', verdict: 'flojo', text: 'Automatización frágil o producto claramente superado.' }
     ],
     limits: [
-      'Solo entran repos open source con licencia publicada. Grok Bot es cerrado y queda fuera del ranking: se usa como referencia.',
+      'Prioridad a repos open source con licencia OSI; proyectos source-available con código público (p. ej. PolyForm Noncommercial) pueden entrar marcados con aviso negativo y penalizados por restricción comercial. Grok Bot es cerrado y queda fuera del ranking: se usa como referencia.',
       'Puntuación editorial basada en README, web oficial, releases y el snapshot previo del pipeline; no es una prueba práctica de cada tarea.',
       'Los frameworks, SDKs y runtimes no se puntúan: LangChain, LangGraph, CrewAI, AutoGen, OpenAI Agents SDK y similares no son agentes finales.',
       'El coste real incluye modelos/API y hosting aparte. Gratis en código no significa gratis en operación.',
       'Una nota alta no significa que sea seguro para tus datos: revisa permisos, privacidad y aprobaciones.'
     ],
-    ranking_rule: 'Orden: Grok Score (0-100) de mayor a menor. El ADN desempata. Solo repos open source; Grok Bot no compite.',
+    ranking_rule: 'Orden: Grok Score (0-100) de mayor a menor. El ADN desempata. Repos open source (y source-available con código público marcados con aviso); Grok Bot no compite.',
     excluded: ['LangChain', 'LangGraph', 'CrewAI', 'AutoGen', 'OpenAI Agents SDK', 'Vercel AI SDK', 'Mastra', 'Pydantic AI', 'LlamaIndex'],
-    included: 'Solo agentes, bots, asistentes y equipos open source que una persona puede instalar o autoalojar.'
+    included: 'Agentes, bots, asistentes y equipos instalables o autoalojables con código público (open source OSI, o source-available señalados como punto negativo).'
   },
   counts,
   pending: 0,

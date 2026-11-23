@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/milind-soni/OpenMausBot
 - **Web oficial**: https://www.mausbot.com/
 - **Licencia**: Apache-2.0
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: TypeScript
 - **Estrellas**: 27161 · **Forks**: 3869
 - **Último push**: 2026-11-23T21:38:15Z · **Última release**: 2026-11-22

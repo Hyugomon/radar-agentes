@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/agentvivekkumar/dontbemichael
 - **Web oficial**: https://dontbemichael.com
 - **Licencia**: MIT
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: TypeScript
 - **Estrellas**: 595 · **Forks**: 493
 - **Último push**: 2026-11-21T21:54:20Z · **Última release**: 2026-11-21

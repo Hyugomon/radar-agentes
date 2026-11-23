@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/cosmicstack-labs/mercury-agent
 - **Web oficial**: https://mercuryagent.sh/
 - **Licencia**: MIT
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: TypeScript
 - **Estrellas**: 4066 · **Forks**: 416
 - **Último push**: 2026-11-23T09:01:12Z · **Última release**: 2026-11-22

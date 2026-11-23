@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/vicotrbb/cubebot
 - **Web oficial**: https://cubebot.io
 - **Licencia**: Apache-2.0
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: Rust
 - **Estrellas**: 121 · **Forks**: 8
 - **Último push**: 2026-11-23T16:27:34Z · **Última release**: 2026-11-20

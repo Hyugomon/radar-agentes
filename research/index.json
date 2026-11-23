@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-11-23",
-  "count": 32,
+  "count": 33,
   "projects": [
     {
       "slug": "rakazo",
@@ -220,7 +220,11 @@
       "release_note": "Security Changing an MCP server's URL no longer carries its stored bearer token, header values or an OAuth client that never signed in to the new address. Before, the connection check after saving sent the old token to the new URL. RAKAZO_NAV_LINKS also rejects links to the app's own routes written in other letter cases or percent-encoded, such as /API/me , matching how the bundled proxy routes them. Password managers no longer fill or save in the vault's login fields. The web server refuses to start when its build id is not a plain timestamp, so a malformed id cannot touch files outside the asset archive. Added Attach Word (.docx) and PowerPoint (.pptx) files to a chat, and bots can hand them back. Macro-enabled and legacy Office formats are still refused. A routine's owner can switch on Use my computer so scheduled runs, Run now and @mentions use the computer paired in the desktop app,",
       "release_http": 200,
       "changelog_url": null,
-      "verificationNote": "README y web: bots persistentes con computadora/navegador, grupos, delegación, rutinas, memoria, integraciones y aprobaciones. Self-hosting con Docker; apps web, escritorio y móvil."
+      "verificationNote": "README y web: bots persistentes con computadora/navegador, grupos, delegación, rutinas, memoria, integraciones y aprobaciones. Self-hosting con Docker; apps web, escritorio y móvil.",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
     },
     {
       "slug": "rerun-build",
@@ -414,7 +418,11 @@
       "release_note": "Patch release: pull the new images, nothing else to do. Highlights Explain @, / and # in the composer (RER-220) ( #749 ) Explain @, / and # in the web composer (RER-220) ( #748 ) Upgrade Nothing to do: pull the new images.",
       "release_http": 200,
       "changelog_url": null,
-      "verificationNote": "README: Chief of Staff que crea y coordina coworkers con memoria, skills, computadora propia, rutinas, integraciones y aprobaciones. Self-hosting con Docker, Node y Supabase."
+      "verificationNote": "README: Chief of Staff que crea y coordina coworkers con memoria, skills, computadora propia, rutinas, integraciones y aprobaciones. Self-hosting con Docker, Node y Supabase.",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
     },
     {
       "slug": "agentes-chat",
@@ -632,7 +640,211 @@
       "release_note": "fix(mobile): a computer's line keeps its rows' room fix(mobile): the agents' conversation is taken by its header; no close plate fix(mobile): an agent's face inside a line of words stands in its sky tile fix(client): the working line says an agent's work while its question to another agent is out test: match the sheet bar across its lines style: the asked agent's face on the formatter's lines fix(mobile): framed faces in the working line; the agents' conversation takes the sheets' bar fix(mobile): a list in my own message keeps its words fix(mobile): a canvas pin's corners follow its face too feat(mobile): take a Drive file off a task; a picture pin's corners follow its face chore(mobile): android 0.1.9 fix(realtime): missed events start over at most once a minute; app catch-ups spread out chore(mobile): android 0.1.8 fix(adapters): a slow NOTIFY no longer has every app read its workspac",
       "release_http": 200,
       "changelog_url": null,
-      "verificationNote": "README y web oficial: Slack open source con agentes miembros del workspace, computadora y navegador propios, rutinas, memoria, MCP/Composio, aprobaciones y apps web/escritorio/móvil. Proyecto creado el 2026-11-09; se puntúa como beta abierta."
+      "verificationNote": "README y web oficial: Slack open source con agentes miembros del workspace, computadora y navegador propios, rutinas, memoria, MCP/Composio, aprobaciones y apps web/escritorio/móvil. Proyecto creado el 2026-11-09; se puntúa como beta abierta.",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
+    },
+    {
+      "slug": "cubebot",
+      "name": "cubebot",
+      "full_name": "vicotrbb/cubebot",
+      "maker": "vicotrbb",
+      "repo": "https://github.com/vicotrbb/cubebot",
+      "website": "https://cubebot.io",
+      "license": "Apache-2.0",
+      "licenseType": "Open source",
+      "language": "Rust",
+      "stars": 121,
+      "forks": 8,
+      "open_issues": 2,
+      "pushed_at": "2026-11-23T16:27:34Z",
+      "created_at": "2026-10-25T19:06:43Z",
+      "last_release": "2026-11-20",
+      "releases_recent": [
+        {
+          "tag": "v0.5.3",
+          "date": "2026-11-20",
+          "pre": false,
+          "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.5.3"
+        },
+        {
+          "tag": "v0.5.2",
+          "date": "2026-11-20",
+          "pre": false,
+          "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.5.2"
+        },
+        {
+          "tag": "v0.5.2-rc",
+          "date": "2026-11-19",
+          "pre": true,
+          "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.5.2-rc"
+        },
+        {
+          "tag": "v0.5.1",
+          "date": "2026-11-19",
+          "pre": false,
+          "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.5.1"
+        },
+        {
+          "tag": "v0.5.0-rc",
+          "date": "2026-11-19",
+          "pre": true,
+          "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.5.0-rc"
+        },
+        {
+          "tag": "v0.4.2",
+          "date": "2026-11-18",
+          "pre": false,
+          "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.4.2"
+        }
+      ],
+      "releases_90": 10,
+      "release_status": "activo",
+      "release_source": "releases.atom",
+      "release_checked_at": "2026-11-23",
+      "topics": [],
+      "kind": "agent",
+      "category": "teams",
+      "summary": "Plataforma self-hosted para un equipo de agentes persistentes: cada uno con memoria, workspace y computadora aislada (KVM o contenedor), salas, equipos, tareas, rutinas, conectores y aprobaciones.",
+      "tagline": "Agentes persistentes en tu propia infraestructura.",
+      "strengths": [
+        "Aislamiento fuerte: KVM o contenedor por agente",
+        "Salas, equipos, org chart y orquestador de tareas",
+        "Memoria, rutinas, 34 conectores y voz",
+        "Grants, aprobaciones, auditoría y SSO"
+      ],
+      "weaknesses": [
+        "Instalación y operación técnica (Docker/Kubernetes)",
+        "Proyecto joven y de nicho (121 estrellas)",
+        "El orquestador necesita el socket de Docker, con riesgo de privilegios"
+      ],
+      "comparison": "Tiene la infraestructura y el aislamiento que Grok Bot promete, pero su operación es técnica y su producto aún es joven.",
+      "confidence": 62,
+      "judged_day": "2026-11-23",
+      "pillars": {
+        "identidad": true,
+        "computadora": true,
+        "memoria": true,
+        "rutinas": true,
+        "apps": true,
+        "coordinacion": true,
+        "aprobaciones": true,
+        "desatendido": true
+      },
+      "evidence": {
+        "identidad": [
+          {
+            "text": "Each agent has its own name, memory, workspace and computer.",
+            "source": "https://github.com/vicotrbb/cubebot#readme"
+          }
+        ],
+        "computadora": [
+          {
+            "text": "Each agent runs in its own sandbox, a KVM virtual machine or a container, with a terminal, a browser and a desktop you can watch live.",
+            "source": "https://github.com/vicotrbb/cubebot#readme"
+          }
+        ],
+        "memoria": [
+          {
+            "text": "One permanent conversation, one memory and one workspace per agent, kept across restarts, upgrades and moves.",
+            "source": "https://github.com/vicotrbb/cubebot#readme"
+          }
+        ],
+        "rutinas": [
+          {
+            "text": "Schedule recurring work, see every agent's runs on one calendar, and layer in your own calendars.",
+            "source": "https://github.com/vicotrbb/cubebot#readme"
+          }
+        ],
+        "apps": [
+          {
+            "text": "34 of them, including GitHub, Google, Microsoft 365, Slack, Notion, Linear, Jira and Home Assistant, plus any MCP server.",
+            "source": "https://github.com/vicotrbb/cubebot#readme"
+          }
+        ],
+        "coordinacion": [
+          {
+            "text": "Talk to one agent, mention several in a room, or group them into teams with an org chart. Describe an outcome in Tasks and the orchestrator splits the work across the right agents.",
+            "source": "https://github.com/vicotrbb/cubebot#readme"
+          }
+        ],
+        "aprobaciones": [
+          {
+            "text": "Grants per agent and connection, approvals for sensitive actions, an encrypted vault, an audit log, single sign-on with OpenID Connect, and backups to S3.",
+            "source": "https://github.com/vicotrbb/cubebot#readme"
+          }
+        ],
+        "desatendido": [
+          {
+            "text": "Idle agents sleep, then \"dream\" to tidy their memory, and you can see what changed.",
+            "source": "https://github.com/vicotrbb/cubebot#readme"
+          },
+          {
+            "text": "Schedule recurring work, see every agent's runs on one calendar, and layer in your own calendars.",
+            "source": "https://github.com/vicotrbb/cubebot#readme"
+          }
+        ]
+      },
+      "dimensions": {
+        "capacidad": 84,
+        "autonomia": 78,
+        "computadora": 92,
+        "memoria": 90,
+        "rutinas": 90,
+        "equipo": 90,
+        "confianza": 90,
+        "producto": 65
+      },
+      "total": 83.85,
+      "tier": "S",
+      "agency": 100,
+      "sources": [
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/vicotrbb/cubebot",
+          "accessedAt": "2026-11-23"
+        },
+        {
+          "label": "Web oficial",
+          "url": "https://cubebot.io",
+          "accessedAt": "2026-11-23"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/vicotrbb/cubebot#readme",
+          "accessedAt": "2026-11-23"
+        },
+        {
+          "label": "Releases",
+          "url": "https://github.com/vicotrbb/cubebot/releases",
+          "accessedAt": "2026-11-23"
+        }
+      ],
+      "setup": "technical",
+      "platforms": [
+        "Linux",
+        "macOS",
+        "Web"
+      ],
+      "channels": [
+        "Chat",
+        "Voz"
+      ],
+      "release_highlight": "v0.5.3 (y v0.4–v0.5): solicitudes de sala ejecutadas como equipo con agente líder, tarjetas de pago en Vault, coding harness, conector Devin y trazabilidad por respuesta.",
+      "release_impact": "Sube a 83.85 S (+0.75): Capacidad 82→84 y Producto 62→65 por el salto v0.2→v0.5 en equipo, trazas y conectores.",
+      "last_release_tag": "v0.5.3",
+      "last_release_url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.5.3",
+      "last_release_days": 3,
+      "release_note": "What's Changed Meeting reconnects, a Devin connector, and smaller dev builds by @vicotrbb in #164 Release v0.5.3 by @vicotrbb in #165 Full Changelog : v0.5.2...v0.5.3",
+      "release_http": 200,
+      "changelog_url": null,
+      "verificationNote": "README: plataforma self-hosted con agentes persistentes, sandbox KVM/contenedor, salas, equipos, orquestador, rutinas, conectores, voz, grants y auditoría. Instalación técnica con Docker o Kubernetes.",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
     },
     {
       "slug": "nousresearch-hermes-agent",
@@ -839,203 +1051,11 @@
       "release_http": 200,
       "changelog_url": null,
       "release_highlight": "v0.23.3 estable (y canary 2026-11-23): consolida ~370 PRs y 1,657 commits para CLI, Desktop (macOS/Windows MSIX), Microsoft Store, Docker y Hermes Cloud.",
-      "release_impact": "Sube a 83.85 S (+0.30): Producto 77→79 por la consolidación estable multiplataforma v0.23.3."
-    },
-    {
-      "slug": "cubebot",
-      "name": "cubebot",
-      "full_name": "vicotrbb/cubebot",
-      "maker": "vicotrbb",
-      "repo": "https://github.com/vicotrbb/cubebot",
-      "website": "https://cubebot.io",
-      "license": "Apache-2.0",
-      "licenseType": "Open source",
-      "language": "Rust",
-      "stars": 121,
-      "forks": 8,
-      "open_issues": 2,
-      "pushed_at": "2026-11-23T16:27:34Z",
-      "created_at": "2026-10-25T19:06:43Z",
-      "last_release": "2026-11-20",
-      "releases_recent": [
-        {
-          "tag": "v0.5.3",
-          "date": "2026-11-20",
-          "pre": false,
-          "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.5.3"
-        },
-        {
-          "tag": "v0.5.2",
-          "date": "2026-11-20",
-          "pre": false,
-          "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.5.2"
-        },
-        {
-          "tag": "v0.5.2-rc",
-          "date": "2026-11-19",
-          "pre": true,
-          "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.5.2-rc"
-        },
-        {
-          "tag": "v0.5.1",
-          "date": "2026-11-19",
-          "pre": false,
-          "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.5.1"
-        },
-        {
-          "tag": "v0.5.0-rc",
-          "date": "2026-11-19",
-          "pre": true,
-          "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.5.0-rc"
-        },
-        {
-          "tag": "v0.4.2",
-          "date": "2026-11-18",
-          "pre": false,
-          "url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.4.2"
-        }
-      ],
-      "releases_90": 10,
-      "release_status": "activo",
-      "release_source": "releases.atom",
-      "release_checked_at": "2026-11-23",
-      "topics": [],
-      "kind": "agent",
-      "category": "teams",
-      "summary": "Plataforma self-hosted para un equipo de agentes persistentes: cada uno con memoria, workspace y computadora aislada (KVM o contenedor), salas, equipos, tareas, rutinas, conectores y aprobaciones.",
-      "tagline": "Agentes persistentes en tu propia infraestructura.",
-      "strengths": [
-        "Aislamiento fuerte: KVM o contenedor por agente",
-        "Salas, equipos, org chart y orquestador de tareas",
-        "Memoria, rutinas, 34 conectores y voz",
-        "Grants, aprobaciones, auditoría y SSO"
-      ],
-      "weaknesses": [
-        "Instalación y operación técnica (Docker/Kubernetes)",
-        "Proyecto joven y de nicho (121 estrellas)",
-        "El orquestador necesita el socket de Docker, con riesgo de privilegios"
-      ],
-      "comparison": "Tiene la infraestructura y el aislamiento que Grok Bot promete, pero su operación es técnica y su producto aún es joven.",
-      "confidence": 62,
-      "judged_day": "2026-11-23",
-      "pillars": {
-        "identidad": true,
-        "computadora": true,
-        "memoria": true,
-        "rutinas": true,
-        "apps": true,
-        "coordinacion": true,
-        "aprobaciones": true,
-        "desatendido": true
-      },
-      "evidence": {
-        "identidad": [
-          {
-            "text": "Each agent has its own name, memory, workspace and computer.",
-            "source": "https://github.com/vicotrbb/cubebot#readme"
-          }
-        ],
-        "computadora": [
-          {
-            "text": "Each agent runs in its own sandbox, a KVM virtual machine or a container, with a terminal, a browser and a desktop you can watch live.",
-            "source": "https://github.com/vicotrbb/cubebot#readme"
-          }
-        ],
-        "memoria": [
-          {
-            "text": "One permanent conversation, one memory and one workspace per agent, kept across restarts, upgrades and moves.",
-            "source": "https://github.com/vicotrbb/cubebot#readme"
-          }
-        ],
-        "rutinas": [
-          {
-            "text": "Schedule recurring work, see every agent's runs on one calendar, and layer in your own calendars.",
-            "source": "https://github.com/vicotrbb/cubebot#readme"
-          }
-        ],
-        "apps": [
-          {
-            "text": "34 of them, including GitHub, Google, Microsoft 365, Slack, Notion, Linear, Jira and Home Assistant, plus any MCP server.",
-            "source": "https://github.com/vicotrbb/cubebot#readme"
-          }
-        ],
-        "coordinacion": [
-          {
-            "text": "Talk to one agent, mention several in a room, or group them into teams with an org chart. Describe an outcome in Tasks and the orchestrator splits the work across the right agents.",
-            "source": "https://github.com/vicotrbb/cubebot#readme"
-          }
-        ],
-        "aprobaciones": [
-          {
-            "text": "Grants per agent and connection, approvals for sensitive actions, an encrypted vault, an audit log, single sign-on with OpenID Connect, and backups to S3.",
-            "source": "https://github.com/vicotrbb/cubebot#readme"
-          }
-        ],
-        "desatendido": [
-          {
-            "text": "Idle agents sleep, then \"dream\" to tidy their memory, and you can see what changed.",
-            "source": "https://github.com/vicotrbb/cubebot#readme"
-          },
-          {
-            "text": "Schedule recurring work, see every agent's runs on one calendar, and layer in your own calendars.",
-            "source": "https://github.com/vicotrbb/cubebot#readme"
-          }
-        ]
-      },
-      "dimensions": {
-        "capacidad": 84,
-        "autonomia": 78,
-        "computadora": 92,
-        "memoria": 90,
-        "rutinas": 90,
-        "equipo": 90,
-        "confianza": 90,
-        "producto": 65
-      },
-      "total": 83.85,
-      "tier": "S",
-      "agency": 100,
-      "sources": [
-        {
-          "label": "Repositorio GitHub",
-          "url": "https://github.com/vicotrbb/cubebot",
-          "accessedAt": "2026-11-23"
-        },
-        {
-          "label": "Web oficial",
-          "url": "https://cubebot.io",
-          "accessedAt": "2026-11-23"
-        },
-        {
-          "label": "README",
-          "url": "https://github.com/vicotrbb/cubebot#readme",
-          "accessedAt": "2026-11-23"
-        },
-        {
-          "label": "Releases",
-          "url": "https://github.com/vicotrbb/cubebot/releases",
-          "accessedAt": "2026-11-23"
-        }
-      ],
-      "setup": "technical",
-      "platforms": [
-        "Linux",
-        "macOS",
-        "Web"
-      ],
-      "channels": [
-        "Chat",
-        "Voz"
-      ],
-      "release_highlight": "v0.5.3 (y v0.4–v0.5): solicitudes de sala ejecutadas como equipo con agente líder, tarjetas de pago en Vault, coding harness, conector Devin y trazabilidad por respuesta.",
-      "release_impact": "Sube a 83.85 S (+0.75): Capacidad 82→84 y Producto 62→65 por el salto v0.2→v0.5 en equipo, trazas y conectores.",
-      "last_release_tag": "v0.5.3",
-      "last_release_url": "https://github.com/vicotrbb/cubebot/releases/tag/v0.5.3",
-      "last_release_days": 3,
-      "release_note": "What's Changed Meeting reconnects, a Devin connector, and smaller dev builds by @vicotrbb in #164 Release v0.5.3 by @vicotrbb in #165 Full Changelog : v0.5.2...v0.5.3",
-      "release_http": 200,
-      "changelog_url": null,
-      "verificationNote": "README: plataforma self-hosted con agentes persistentes, sandbox KVM/contenedor, salas, equipos, orquestador, rutinas, conectores, voz, grants y auditoría. Instalación técnica con Docker o Kubernetes."
+      "release_impact": "Sube a 83.85 S (+0.30): Producto 77→79 por la consolidación estable multiplataforma v0.23.3.",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
     },
     {
       "slug": "leepokai-codync",
@@ -1251,7 +1271,11 @@
       "release_http": 200,
       "changelog_url": null,
       "release_highlight": "v2.53.0 (y v2.49–v2.52): Codync Cloud, rutinas con event box y watchdog, modo Advisor, subagentes en transcript y app Android en Google Play.",
-      "release_impact": "Sube a Tier S (+7.45, ADN 74→100): Rutinas 55→86, Autonomía 60→78, Computadora 83→86 y Producto 70→76; Rutinas y Desatendido pasan a ON."
+      "release_impact": "Sube a Tier S (+7.45, ADN 74→100): Rutinas 55→86, Autonomía 60→78, Computadora 83→86 y Producto 70→76; Rutinas y Desatendido pasan a ON.",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
     },
     {
       "slug": "milind-soni-openmausbot",
@@ -1458,7 +1482,11 @@
       "release_http": 200,
       "changelog_url": null,
       "release_highlight": "v0.1.177 (y v0.1.170–v0.1.176): conversaciones bot-a-bot visibles en vivo, revisión \"Check before done\" por otro bot, auto-recordatorios, autocompactación y OpenCode en un clic.",
-      "release_impact": "Sube a 82.80 S (+1.35): Capacidad 78→80, Autonomía 74→77 y Producto 68→72. Desatendido sigue en falso para uso local sin nube/servidor."
+      "release_impact": "Sube a 82.80 S (+1.35): Capacidad 78→80, Autonomía 74→77 y Producto 68→72. Desatendido sigue en falso para uso local sin nube/servidor.",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
     },
     {
       "slug": "anil-matcha-open-duet",
@@ -1687,7 +1715,11 @@
       "release_http": 200,
       "changelog_url": null,
       "release_highlight": "v0.8.7: servidores MCP personalizados con login en navegador, búsqueda de herramientas y compartición en equipo.",
-      "release_impact": "Sube a 82.65 S (+0.45): Capacidad 82→83 y Producto 63→65 por MCP compartido en equipo."
+      "release_impact": "Sube a 82.65 S (+0.45): Capacidad 82→83 y Producto 63→65 por MCP compartido en equipo.",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
     },
     {
       "slug": "cosmicstack-labs-mercury-agent",
@@ -1902,7 +1934,11 @@
       "release_http": 200,
       "changelog_url": null,
       "release_highlight": "v1.5.5 (y v1.5.3–v1.5.4): apps móviles iOS/Android con llamadas de voz en ~2s, Google Workspace en un comando, defensa anti-prompt-injection, tokens de dispositivo y escalado humano multicanal.",
-      "release_impact": "Sube a 82.40 S (+1.70): Capacidad 74→78, Confianza 90→92 y Producto 67→73 por móvil/voz, Google Workspace y seguridad."
+      "release_impact": "Sube a 82.40 S (+1.70): Capacidad 74→78, Confianza 90→92 y Producto 67→73 por móvil/voz, Google Workspace y seguridad.",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
     },
     {
       "slug": "nanocoai-nanoclaw",
@@ -2130,7 +2166,11 @@
       "release_http": 200,
       "changelog_url": null,
       "release_highlight": "v2026.11.0 estable: llaves aisladas por agente (OneCLI 1.45), tarjetas de aprobación en gateway, creación de agentes desde plantillas, Cursor SDK y tarjetas KPI en Slack.",
-      "release_impact": "Sube a Tier S (+2.85, ADN 76→86): Confianza 55→76, Capacidad 80→82 y Producto 70→73; Aprobaciones pasa a ON."
+      "release_impact": "Sube a Tier S (+2.85, ADN 76→86): Confianza 55→76, Capacidad 80→82 y Producto 70→73; Aprobaciones pasa a ON.",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
     },
     {
       "slug": "clawboo",
@@ -2348,7 +2388,11 @@
       "release_note": "Patch Changes 919e2fe : When you take control of an agent's screen, a key you press right as control arrives is now let go if you switch to another window straight away. Before, that key could stay held down on the agent's display. 5563a96 : A dashboard opened around your sign-in proxy, on a server that counts only a person the proxy signed for, no longer says that moving cards is refused there. A card moved there does move; it just does not stop the run on it, which is what the notice now says.",
       "release_http": 200,
       "changelog_url": null,
-      "verificationNote": "README: estudio de equipos de agentes con Boo Zero como jefe, varios runtimes, memoria compartida, rutinas, conectores y aprobaciones. La computadora es el entorno local; no hay VM aislada por agente."
+      "verificationNote": "README: estudio de equipos de agentes con Boo Zero como jefe, varios runtimes, memoria compartida, rutinas, conectores y aprobaciones. La computadora es el entorno local; no hay VM aislada por agente.",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
     },
     {
       "slug": "orkas-ai-orkas",
@@ -2574,7 +2618,11 @@
       "release_http": 200,
       "changelog_url": null,
       "release_highlight": "v2026.11.16: Content workbench, líneas de tiempo de vídeo, etiquetas Orkas·Voice y herramientas mejoradas de imágenes RAW, PDF y Office.",
-      "release_impact": "Se mantiene en 79.60 A: mejoras creativas y multimedia sin cambios en aprobaciones ni ejecución desatendida."
+      "release_impact": "Se mantiene en 79.60 A: mejoras creativas y multimedia sin cambios en aprobaciones ni ejecución desatendida.",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
     },
     {
       "slug": "modelflare-ai-anymodelbot",
@@ -2755,7 +2803,256 @@
       "release_http": 200,
       "changelog_url": null,
       "release_highlight": "v0.1.47 (y v0.1.42–v0.1.46): sandbox estricto con bubblewrap en Linux, carpeta de trabajo in-place con aprobación fuera del límite, adjuntos ZIP/imágenes y generación de imágenes con confirmación de coste.",
-      "release_impact": "Sube a 79.35 A (+1.10): Confianza 90→92 y Producto 54→60 por sandbox bubblewrap, carpeta de trabajo y mejoras de UX."
+      "release_impact": "Sube a 79.35 A (+1.10): Confianza 90→92 y Producto 54→60 por sandbox bubblewrap, carpeta de trabajo y mejoras de UX.",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
+    },
+    {
+      "slug": "nightly-labs-openbot",
+      "name": "openbot",
+      "full_name": "nightly-labs/openbot",
+      "maker": "nightly-labs",
+      "repo": "https://github.com/nightly-labs/openbot",
+      "website": "https://openbot.run/",
+      "license": "PolyForm-Noncommercial-1.0.0",
+      "licenseType": "Source-available",
+      "language": "TypeScript",
+      "stars": 10102,
+      "forks": 982,
+      "open_issues": 4369,
+      "pushed_at": "2026-11-23T22:23:32Z",
+      "created_at": "2026-08-12T21:32:03Z",
+      "topics": [
+        "ai-agents",
+        "bun",
+        "codex",
+        "electron",
+        "local-first",
+        "macos",
+        "solidjs",
+        "typescript"
+      ],
+      "kind": "agent",
+      "category": "teams",
+      "summary": "Espacio de trabajo multiagente (macOS, Windows, Linux, web, iOS y Android) con servidor always-on en VPS/Docker, workspaces persistentes, navegador embebido, Computer Use (cua-driver), rutinas, memoria, canales compartidos e importador directo desde Grok Bot sobre Codex, Claude Code, Grok CLI, Gemini, OpenCode, Cursor, Hermes y más. Ojo: su código es source-available (PolyForm Noncommercial 1.0.0) — gratis solo para uso personal/no comercial y de pago para uso laboral o empresarial.",
+      "tagline": "Equipo de agentes persistentes local o 24/7; gratis personal, de pago para empresas.",
+      "strengths": [
+        "Orquesta 12+ backends (Codex, Claude Code, Grok CLI, Gemini, OpenCode, Cursor, Cline, Hermes, Ollama/LM Studio y ACP) con workspaces persistentes, colas FIFO crash-safe e importador directo de agentes desde Grok Bot.",
+        "Modo always-on real en servidor Ubuntu (systemd), Docker (ghcr.io/nightly-labs/openbot), AWS ECS, Umbrel y macOS multi-tenant, controlable desde escritorio, web (openbot.run/app) y apps nativas iOS/Android vía WebRTC v3.",
+        "Navegador embebido persistente (WebContentsView), Computer Use opcional (cua-driver en macOS/Windows/Linux), rutinas/workflows con triggers (edit_workflow) y memoria persistente incluso desde subagentes en segundo plano.",
+        "Canales compartidos con delegación explícita, transferencia de archivos, modo multiplayer personas + agentes y ritmo de lanzamientos casi diario (v0.77.0, 10,102 estrellas)."
+      ],
+      "weaknesses": [
+        "Licencia restrictiva (PolyForm Noncommercial 1.0.0, source-available — no open source OSI): es gratis (€0) únicamente para uso personal o sin ánimo de lucro; para uso en el trabajo o empresas exige licencia comercial de pago (Starter €10/mes 1 usuario, Team €25/mes 2 usuarios + €10.80/extra, o Enterprise; gratis solo en promo hasta 2026-12-01) y exige CLA para contribuir.",
+        "Sin aprobaciones previas por decisión explícita de diseño: los agentes ejecutan con danger-full-access y approvalPolicy: never sin pedir confirmación por acción irreversible ('Full local access is an explicit current product decision, not a security boundary').",
+        "Volumen muy alto de issues abiertos (4369) y cadencia de cambios casi diaria (v0.77.0 en 3 meses), lo que incrementa la fricción operativa.",
+        "Los planes/APIs de modelos corren aparte y el servidor gestionado cuesta €30–€100/mes si no lo autoalojas."
+      ],
+      "comparison": "Es uno de los clones más cercanos en experiencia a Grok Bot (hasta incluye importador directo de agentes desde Grok Bot, canales, rutinas, memoria, navegador y servidor 24/7), pero queda por debajo del listón y de líderes 100% open source por dos puntos negativos claros: renuncia a aprobaciones previas (approvalPolicy: never) y su licencia PolyForm Noncommercial cobra por uso business/comercial.",
+      "confidence": 80,
+      "judged_day": "2026-11-23",
+      "pillars": {
+        "identidad": true,
+        "computadora": true,
+        "memoria": true,
+        "rutinas": true,
+        "apps": true,
+        "coordinacion": true,
+        "aprobaciones": false,
+        "desatendido": true
+      },
+      "evidence": {
+        "identidad": [
+          {
+            "text": "Prompt-driven agent creation and editing on desktop and mobile, with editable instructions, avatar, and section review before saving.",
+            "source": "https://github.com/nightly-labs/openbot#readme"
+          }
+        ],
+        "computadora": [
+          {
+            "text": "Persistent agents backed by independent Codex, Claude, Grok, OpenCode, Gemini, Cursor, Cline, Kimi, Devin, GitHub Copilot, Mistral, or Hermes sessions and local workspaces.",
+            "source": "https://github.com/nightly-labs/openbot#readme"
+          },
+          {
+            "text": "To run OpenBot as an always-on server of your account on a VPS or home server (Ubuntu 24.04 or 26.04 with systemd), install it from a terminal and sign in with an email code",
+            "source": "https://github.com/nightly-labs/openbot#readme"
+          }
+        ],
+        "memoria": [
+          {
+            "text": "The import adds each agent's name, instructions, avatar, skills, routines, and memories.",
+            "source": "https://github.com/nightly-labs/openbot#readme"
+          },
+          {
+            "text": "Save memory changes that a background subagent makes after the turn ends by @Sniezka1927 in #12911",
+            "source": "https://github.com/nightly-labs/openbot/releases/tag/v0.75.0"
+          }
+        ],
+        "rutinas": [
+          {
+            "text": "Refuse an unknown trigger event in edit_workflow by @Sniezka1927 in #12892",
+            "source": "https://github.com/nightly-labs/openbot/releases/tag/v0.75.0"
+          },
+          {
+            "text": "The import adds each agent's name, instructions, avatar, skills, routines, and memories.",
+            "source": "https://github.com/nightly-labs/openbot#readme"
+          }
+        ],
+        "apps": [
+          {
+            "text": "A persistent embedded browser that agents can open, inspect, and control.",
+            "source": "https://github.com/nightly-labs/openbot#readme"
+          },
+          {
+            "text": "Optional Computer Use on macOS, Windows and Linux through the cua-driver binary in the release, which OpenBot starts as its own child process and gives to every provider.",
+            "source": "https://github.com/nightly-labs/openbot#readme"
+          }
+        ],
+        "coordinacion": [
+          {
+            "text": "Shared desktop channel chats with one task owner, explicit delegation, shared history, and Stop, Resume, Reassign, Archive, and Restore controls.",
+            "source": "https://github.com/nightly-labs/openbot#readme"
+          }
+        ],
+        "aprobaciones": [
+          {
+            "text": "Agents run with danger-full-access and approvalPolicy: never. They can read and modify files, run commands, use the network, and control the embedded browser without per-action confirmations after the explicit first-launch consent.",
+            "source": "https://github.com/nightly-labs/openbot#readme"
+          },
+          {
+            "text": "Full local access is an explicit current product decision, not a security boundary.",
+            "source": "https://github.com/nightly-labs/openbot#readme"
+          }
+        ],
+        "desatendido": [
+          {
+            "text": "To run OpenBot as an always-on server of your account on a VPS or home server (Ubuntu 24.04 or 26.04 with systemd), install it from a terminal and sign in with an email code",
+            "source": "https://github.com/nightly-labs/openbot#readme"
+          },
+          {
+            "text": "FIFO message queues with pause, resume, cancellation, and crash-safe persistence.",
+            "source": "https://github.com/nightly-labs/openbot#readme"
+          }
+        ]
+      },
+      "dimensions": {
+        "capacidad": 83,
+        "autonomia": 80,
+        "computadora": 86,
+        "memoria": 86,
+        "rutinas": 86,
+        "equipo": 90,
+        "confianza": 48,
+        "producto": 70
+      },
+      "total": 78.85,
+      "tier": "A",
+      "agency": 90,
+      "sources": [
+        {
+          "label": "Repositorio GitHub",
+          "url": "https://github.com/nightly-labs/openbot",
+          "accessedAt": "2026-11-23"
+        },
+        {
+          "label": "Web oficial",
+          "url": "https://openbot.run/",
+          "accessedAt": "2026-11-23"
+        },
+        {
+          "label": "Precios y licencia comercial",
+          "url": "https://openbot.run/pricing",
+          "accessedAt": "2026-11-23"
+        },
+        {
+          "label": "Licencia PolyForm Noncommercial 1.0.0",
+          "url": "https://github.com/nightly-labs/openbot/blob/main/LICENSE",
+          "accessedAt": "2026-11-23"
+        },
+        {
+          "label": "README",
+          "url": "https://github.com/nightly-labs/openbot#readme",
+          "accessedAt": "2026-11-23"
+        },
+        {
+          "label": "Releases",
+          "url": "https://github.com/nightly-labs/openbot/releases",
+          "accessedAt": "2026-11-23"
+        }
+      ],
+      "setup": "easy",
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Web",
+        "iOS",
+        "Android"
+      ],
+      "channels": [
+        "Chat",
+        "Web",
+        "Móvil"
+      ],
+      "models": "Codex, Claude Code, Grok CLI, Gemini, OpenCode, Cursor, Cline, Kimi, Devin, Copilot, Mistral, Hermes, Ollama/LM Studio, ACP",
+      "pricing": "freemium",
+      "priceLabel": "Gratis personal · Pago business",
+      "priceNote": "Uso personal / no comercial: €0 en tu equipo o servidor (+ tus modelos). Uso laboral / business: requiere licencia comercial de pago — Starter €10/mes (1 usuario), Team €25/mes (2 usuarios, +€10.80/extra hasta 10) o Enterprise (>10); promoción gratis solo hasta el 1 dic 2026. Servidor gestionado opcional: €30–€100/mes.",
+      "licenseWarning": "Punto negativo — Licencia source-available (PolyForm Noncommercial 1.0.0, no es open source OSI): gratuito (€0) solo para uso personal, estudio o proyectos sin ánimo de lucro. Usarlo en el trabajo o en empresa requiere licencia comercial paga (Starter €10/mes 1 usuario, Team €25/mes 2 usuarios, o Enterprise; gratis solo en promoción hasta 2026-12-01). Solo versiones ≤ 0.1.11 siguen bajo Apache-2.0.",
+      "last_release": "2026-11-23",
+      "last_release_tag": "v0.77.0",
+      "last_release_url": "https://github.com/nightly-labs/openbot/releases/tag/v0.77.0",
+      "last_release_days": 0,
+      "releases_90": 10,
+      "releases_recent": [
+        {
+          "tag": "v0.77.0",
+          "date": "2026-11-23",
+          "pre": false,
+          "url": "https://github.com/nightly-labs/openbot/releases/tag/v0.77.0"
+        },
+        {
+          "tag": "mobile-build/ios/1.4.13/41/fb68d91f414bd250d45ca204e041e59dfa9fc88a",
+          "date": "2026-11-23",
+          "pre": false,
+          "url": "https://github.com/nightly-labs/openbot/releases/tag/mobile-build%2Fios%2F1.4.13%2F41%2Ffb68d91f414bd250d45ca204e041e59dfa9fc88a"
+        },
+        {
+          "tag": "mobile-build/android/1.4.13/31/15fa32c1d86fd58b98eb5d6914e19159a417d59a",
+          "date": "2026-11-23",
+          "pre": false,
+          "url": "https://github.com/nightly-labs/openbot/releases/tag/mobile-build%2Fandroid%2F1.4.13%2F31%2F15fa32c1d86fd58b98eb5d6914e19159a417d59a"
+        },
+        {
+          "tag": "v0.76.1",
+          "date": "2026-11-21",
+          "pre": false,
+          "url": "https://github.com/nightly-labs/openbot/releases/tag/v0.76.1"
+        },
+        {
+          "tag": "v0.76.0",
+          "date": "2026-11-21",
+          "pre": false,
+          "url": "https://github.com/nightly-labs/openbot/releases/tag/v0.76.0"
+        },
+        {
+          "tag": "v0.75.0",
+          "date": "2026-11-20",
+          "pre": false,
+          "url": "https://github.com/nightly-labs/openbot/releases/tag/v0.75.0"
+        }
+      ],
+      "release_note": "What's Changed Let a steer reach a Claude agent while a tool runs by @NorbertBodziony in #14259 Add the ghost, jellyfish and octopus avatar shapes by @NorbertBodziony in #14274 Show a refused key and stop retrying it every 10 minutes by @Sniezka1927 in #14271 Free a browser tab whose page stops answering by @Sniezka1927 in #14273 Tell agents why a sidebar folder tool failed by @Sniezka1927 in #14290 Let a Muse agent run when one of its apps does not start by @Sniezka1927 in #14286 build(nix): install OpenBot 0.76.1 by @github-actions[bot] in #14291 Keep agent IDs in Local scripts responses by @Sniezka1927 in #14308 Read replies aloud in any language with a cloud voice by @Sniezka1927 in #14316 Keep the wake origin when a Claude subagent starts its own task by @Sniezka1927 in #14317 Recover an OpenCode chat after a server says multimodal is not enabled by @Sniezka1927 in #14324 Keep a rel",
+      "release_status": "activo",
+      "release_source": "releases.atom",
+      "release_checked_at": "2026-11-23",
+      "release_http": 200,
+      "changelog_url": null,
+      "release_highlight": "v0.77.0 (y apps móviles iOS/Android 1.4.13): steering en mitad de ejecución de herramientas para Claude, voz cloud multiidioma, recuperación de pestañas colgadas en el navegador embebido, fixes MCP y workflows/rutinas + memoria de subagentes (v0.74.0–v0.76.1).",
+      "release_impact": "Alta en el ranking con 78.85 A (ADN 90, 7/8 pilares). Penalizado en Confianza (48) por correr sin aprobaciones y en Producto (70) por licencia source-available PolyForm Noncommercial 1.0.0 (gratis personal, pago para uso business).",
+      "verificationNote": "README, LICENSE y openbot.run/pricing: 7/8 pilares (ADN 90) con servidor always-on, navegador embebido, cua-driver, canales, rutinas, memoria e importador de Grok Bot. Dos penalizaciones explícitas: (1) Confianza 48 por danger-full-access / approvalPolicy: never; (2) Producto 70 por licencia source-available PolyForm Noncommercial 1.0.0 (gratis personal €0; uso laboral/business requiere licencia paga Starter €10/mes o Team €25/mes)."
     },
     {
       "slug": "sentelabsai-openexecutive",
@@ -3031,7 +3328,11 @@
       "release_http": 200,
       "changelog_url": null,
       "release_highlight": "v0.7.7 (y v0.7.4–v0.7.6): navegador del usuario desde extensión Chrome, aprobación directa en chat/Slack/Google Chat con \"Or tell me\", página Schedule y workflows en segundo plano.",
-      "release_impact": "Sube a 78.40 A (+7.35, ADN 32→82): Memoria, Rutinas, Apps reales y Desatendido pasan a ON con evidencia del README y releases v0.7.5–v0.7.7."
+      "release_impact": "Sube a 78.40 A (+7.35, ADN 32→82): Memoria, Rutinas, Apps reales y Desatendido pasan a ON con evidencia del README y releases v0.7.5–v0.7.7.",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
     },
     {
       "slug": "agentscope-ai-qwenpaw",
@@ -3310,7 +3611,11 @@
       "release_http": 200,
       "changelog_url": null,
       "release_highlight": "v2.3.1-beta.1 (y v2.3.0/post1): aprobación obligatoria para envíos de correo/HTTP/uploads en shell, seguimiento de cron, plugins de terceros y modelos locales Piccolo.",
-      "release_impact": "Sube a Tier A (+12.35, ADN 28→100): Memoria, Rutinas, Apps, Coordinación, Aprobaciones y Desatendido pasan a ON con evidencia verificada."
+      "release_impact": "Sube a Tier A (+12.35, ADN 28→100): Memoria, Rutinas, Apps, Coordinación, Aprobaciones y Desatendido pasan a ON con evidencia verificada.",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
     },
     {
       "slug": "androoagi-starnet",
@@ -3579,7 +3884,11 @@
       "release_http": 200,
       "changelog_url": null,
       "release_highlight": "v0.15.4 (y v0.15.3): nuevo dashboard, endurecimiento de permisos con confirmación para accesos permanentes y rutinas más limpias en el listado de sesiones.",
-      "release_impact": "Sube a 77.45 A (+6.45, ADN 60→86): Rutinas 55→82 y Confianza 55→82; ambos pilares pasan a ON."
+      "release_impact": "Sube a 77.45 A (+6.45, ADN 60→86): Rutinas 55→82 y Confianza 55→82; ambos pilares pasan a ON.",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
     },
     {
       "slug": "makecindy-cindy",
@@ -3871,7 +4180,11 @@
       "release_http": 200,
       "changelog_url": null,
       "release_highlight": "v0.1.144 (y v0.1.141–v0.1.143): colaboración multi-agente Lead/Workers, bandeja de tareas, hosts cloud/Linux, motor de plugins compartido y reconexión móvil en <2s.",
-      "release_impact": "Sube a Tier A (+12.15, ADN 32→90): Identidad, Memoria, Rutinas, Coordinación y Desatendido pasan a ON; Producto 52→68."
+      "release_impact": "Sube a Tier A (+12.15, ADN 32→90): Identidad, Memoria, Rutinas, Coordinación y Desatendido pasan a ON; Producto 52→68.",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
     },
     {
       "slug": "rowboatlabs-rowboat",
@@ -4118,7 +4431,11 @@
       "release_http": 200,
       "changelog_url": null,
       "release_highlight": "v1.0.9: Spaces con AI teammates, roles, agentes hosted y aprobaciones; superagentes y Composio.",
-      "release_impact": "Sube a Tier A (+8.05): Equipo 55→82 y Confianza 55→78; Identidad, Coordinación y Aprobaciones pasan a ON. Computadora sigue en falso."
+      "release_impact": "Sube a Tier A (+8.05): Equipo 55→82 y Confianza 55→78; Identidad, Coordinación y Aprobaciones pasan a ON. Computadora sigue en falso.",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
     },
     {
       "slug": "nano-muse-nanomuse",
@@ -4336,7 +4653,11 @@
       "release_http": 200,
       "changelog_url": null,
       "release_highlight": "",
-      "release_impact": ""
+      "release_impact": "",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
     },
     {
       "slug": "rokaswk-threebot",
@@ -4581,7 +4902,11 @@
       "release_http": 200,
       "changelog_url": null,
       "release_highlight": "v0.1.15 (y v0.1.11–v0.1.14): instalador Windows en un clic + servicio en segundo plano, acceso móvil por QR, rutinas con modelo propio, salas que siguen subagentes y notificaciones push por bot.",
-      "release_impact": "Sube a 73.35 A (+3.30): Producto 40→54, Capacidad 60→64 y Autonomía 62→66 por madurez en Windows, móvil y salas."
+      "release_impact": "Sube a 73.35 A (+3.30): Producto 40→54, Capacidad 60→64 y Autonomía 62→66 por madurez en Windows, móvil y salas.",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
     },
     {
       "slug": "cludegods",
@@ -4764,7 +5089,11 @@
       "release_note": "Added One-line install: curl -fsSL https://raw.githubusercontent.com/AKamaly/CludeGods/main/bootstrap.sh | bash clones CludeGods to ~/.cludegods/src , installs it and the three panes, and checks the result. Add | bash -s -- --voice for voice too. Safe to run again. cludegods ( ~/.claude/skills/gods/bin/cludegods ): setup voice (guided, picks up where it stopped, ends with a spoken self-test and a mic check), doctor (health checks with one-click repairs, also in the Workers pane), update , uninstall and version . uninstall.sh : removes CludeGods, backing everything up first; --keep-data keeps your workers, spaces and settings. Prebuilt CallPill: each published release carries CallPill-macos.zip . The installer uses it, re-signed on your Mac, when it cannot build CallPill itself (no Xcode command line tools). Voice from the first /gods : with no local voice yet, the call says what voice ne",
       "release_http": 200,
       "changelog_url": null,
-      "verificationNote": "README: toolkit macOS sobre Claude Code y VoiceMode con workers always-on, voz, computer use, memoria, horarios, Spaces, Slack y aprobaciones por clic. No hay evidencia de coordinación entre workers."
+      "verificationNote": "README: toolkit macOS sobre Claude Code y VoiceMode con workers always-on, voz, computer use, memoria, horarios, Spaces, Slack y aprobaciones por clic. No hay evidencia de coordinación entre workers.",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
     },
     {
       "slug": "gcwing-openbitfun",
@@ -5019,7 +5348,11 @@
       "release_http": 200,
       "changelog_url": null,
       "release_highlight": "v1.0.12 (y v1.0.11): aprobación de herramientas basada en modelo, recuperación remota con Telegram/Feishu/WeChat, workbench LaTeX/PDF, cron y transporte WebSocket.",
-      "release_impact": "Sube a Tier A (+7.90, ADN 32→78): Memoria, Rutinas, Aprobaciones y Desatendido pasan a ON."
+      "release_impact": "Sube a Tier A (+7.90, ADN 32→78): Memoria, Rutinas, Aprobaciones y Desatendido pasan a ON.",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
     },
     {
       "slug": "ai-timon-timon",
@@ -5231,7 +5564,11 @@
       "release_http": 200,
       "changelog_url": null,
       "release_highlight": "v0.1.9 (y v0.1.8): soporte Google Antigravity (agy) con tarjetas Allow/Deny, grabaciones de navegador con pausa humana, actualizaciones in-app, modo Free sin licencia y mejoras en Windows.",
-      "release_impact": "Sube a Tier A (+13.65, ADN 42→100): Computadora, Memoria, Rutinas y Apps pasan a ON; Producto 29→46 (sigue siendo proyecto joven)."
+      "release_impact": "Sube a Tier A (+13.65, ADN 42→100): Computadora, Memoria, Rutinas y Apps pasan a ON; Producto 29→46 (sigue siendo proyecto joven).",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
     },
     {
       "slug": "fei2411-ds-bot",
@@ -5501,7 +5838,11 @@
       "release_http": 200,
       "changelog_url": null,
       "release_highlight": "v0.3.10 (y v0.3.8–v0.3.9): tareas asíncronas en segundo plano (task_start/stop), Antigravity + 24 CLIs con MCP stdio, consola Settings con búsqueda ⌘K y app Android.",
-      "release_impact": "Sube a Tier A (+11.45, ADN 40→74): Memoria, Apps reales y Aprobaciones pasan a ON; Capacidad 62→72, Autonomía 54→66 y Producto 50→64."
+      "release_impact": "Sube a Tier A (+11.45, ADN 40→74): Memoria, Apps reales y Aprobaciones pasan a ON; Capacidad 62→72, Autonomía 54→66 y Producto 50→64.",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
     },
     {
       "slug": "microclaw-microclaw",
@@ -5762,7 +6103,11 @@
       "release_http": 200,
       "changelog_url": null,
       "release_highlight": "",
-      "release_impact": ""
+      "release_impact": "",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
     },
     {
       "slug": "ryder-sun-meldwork",
@@ -6009,7 +6354,11 @@
       "release_http": 200,
       "changelog_url": null,
       "release_highlight": "",
-      "release_impact": ""
+      "release_impact": "",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
     },
     {
       "slug": "opencrabs-opencrabs",
@@ -6282,7 +6631,11 @@
       "release_http": 200,
       "changelog_url": null,
       "release_highlight": "",
-      "release_impact": ""
+      "release_impact": "",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
     },
     {
       "slug": "zhayujie-cowagent",
@@ -6556,7 +6909,11 @@
       "release_http": 200,
       "changelog_url": null,
       "release_highlight": "",
-      "release_impact": ""
+      "release_impact": "",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
     },
     {
       "slug": "agentvivekkumar-dontbemichael",
@@ -6810,7 +7167,11 @@
       "release_http": 200,
       "changelog_url": null,
       "release_highlight": "v0.4.3 (y v0.4.2): soporte para gestionar varios negocios separados en el mismo equipo y adjuntos de archivos visibles en tarjetas de aprobación.",
-      "release_impact": "Sube a 67.60 B (+0.45): Producto 47→50 por soporte multi-negocio y mejoras en tarjetas de aprobación."
+      "release_impact": "Sube a 67.60 B (+0.45): Producto 47→50 por soporte multi-negocio y mejoras en tarjetas de aprobación.",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
     },
     {
       "slug": "rome-os-rome",
@@ -7066,7 +7427,11 @@
       "release_http": 200,
       "changelog_url": null,
       "release_highlight": "v1.1.222 (y v1.1.218–v1.1.220 + iOS 1.0.0 TestFlight): conversaciones de voz por WebSocket, cliente iOS, selector AI Tools con cambio de proveedor e integraciones Slack/Discord.",
-      "release_impact": "Sube a 66.15 B (+1.35): Capacidad 70→73 y Producto 50→56 por voz en tiempo real y cliente iOS."
+      "release_impact": "Sube a 66.15 B (+1.35): Capacidad 70→73 y Producto 50→56 por voz en tiempo real y cliente iOS.",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
     },
     {
       "slug": "777genius-agent-teams-ai",
@@ -7318,7 +7683,11 @@
       "release_http": 200,
       "changelog_url": null,
       "release_highlight": "",
-      "release_impact": ""
+      "release_impact": "",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
     },
     {
       "slug": "netease-youdao-lobsterai",
@@ -7563,7 +7932,11 @@
       "release_http": 200,
       "changelog_url": null,
       "release_highlight": "2026.11.20 (y 2026.11.16): contexto seleccionable hasta 1M tokens, edición de mensajes con historial de versiones, lectura en voz alta, búsqueda full-text y asistente PPT.",
-      "release_impact": "Sube a 62.70 B (+0.60): Capacidad 76→78 y Producto 59→61."
+      "release_impact": "Sube a 62.70 B (+0.60): Capacidad 76→78 y Producto 59→61.",
+      "pricing": "free",
+      "priceLabel": "Gratis",
+      "priceNote": "Código abierto + tus modelos",
+      "licenseWarning": ""
     }
   ]
 }

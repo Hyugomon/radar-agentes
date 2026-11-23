@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/elie222/rakazo
 - **Web oficial**: https://rakazo.com
 - **Licencia**: Apache-2.0
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: TypeScript
 - **Estrellas**: 9599 · **Forks**: 1727
 - **Último push**: 2026-11-23T21:34:00Z · **Última release**: 2026-11-23

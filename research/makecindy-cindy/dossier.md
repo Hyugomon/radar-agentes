@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/makecindy/cindy
 - **Web oficial**: https://cindy.app
 - **Licencia**: Apache-2.0
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: TypeScript
 - **Estrellas**: 10489 · **Forks**: 1336
 - **Último push**: 2026-11-23T21:16:49Z · **Última release**: 2026-11-23

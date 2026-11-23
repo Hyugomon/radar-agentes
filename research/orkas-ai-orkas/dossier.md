@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/Orkas-AI/Orkas
 - **Web oficial**: https://orkas.ai?source=gh-orkas
 - **Licencia**: MIT
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: JavaScript
 - **Estrellas**: 9559 · **Forks**: 568
 - **Último push**: 2026-11-23T14:21:48Z · **Última release**: 2026-11-16

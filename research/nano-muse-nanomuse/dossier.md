@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/nano-muse/nanoMuse
 - **Web oficial**: https://nanomuse.cn/
 - **Licencia**: GPL-3.0
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: Swift
 - **Estrellas**: 3662 · **Forks**: 450
 - **Último push**: 2026-11-23T03:25:47Z · **Última release**: 2026-10-30

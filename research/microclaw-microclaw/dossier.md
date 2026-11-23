@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/microclaw/microclaw
 - **Web oficial**: https://microclaw.org
 - **Licencia**: MIT
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: Rust
 - **Estrellas**: 757 · **Forks**: 144
 - **Último push**: 2026-11-19T06:53:41Z · **Última release**: 2026-11-13

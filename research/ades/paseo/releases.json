@@ -4,6 +4,14 @@
   "checked_at": "2026-11-23",
   "entries": [
     {
+      "tag": "v0.17.4",
+      "title": "v0.17.4",
+      "date": "2026-11-23",
+      "url": "https://github.com/getpaseo/paseo/releases/tag/v0.17.4",
+      "pre": false,
+      "note": "v0.17.4"
+    },
+    {
       "tag": "v0.17.3",
       "title": "Paseo v0.17.3",
       "date": "2026-11-22",
@@ -74,14 +82,6 @@
       "url": "https://github.com/getpaseo/paseo/releases/tag/v0.16.0",
       "pre": false,
       "note": "0.16.0 - 2026-11-16 Background tasks: See and stop background tasks above the composer for Claude Code, Codex and OpenCode v2. ( #6220 , #9162 , #9635 by @fxlelouarn ) Built-in plugin gallery: Browse, search and install plugins without leaving Paseo. Manage their settings and updates from the same page. ( #9752 ) Command center tabs: Switch between Workspaces, Files and Actions, with recent workspaces shown first. Search now includes archived workspaces and matches agent titles within their workspace. ( #9689 ) Plugin sidebar views: Plugins can replace the sidebar with their own workspace and agent layout across connected hosts. Choose a view per device in Settings → Sidebar. ( #8906 ) Plugin composer controls: Plugins can add composer controls, edit drafts and attachments, and change agent settings. They can also add New workspace items and save metadata on agents and workspaces. ( #874"
-    },
-    {
-      "tag": "v0.16.0-beta.2",
-      "title": "Paseo v0.16.0-beta.2",
-      "date": "2026-11-11",
-      "url": "https://github.com/getpaseo/paseo/releases/tag/v0.16.0-beta.2",
-      "pre": true,
-      "note": "0.16.0-beta.2 - 2026-11-11 Background tasks: Paseo now shows the background tasks an agent is running, such as shells and monitors, above the composer, with a Stop button for each. Works with Claude Code, Codex and OpenCode v2. ( #6220 , #9162 by @fxlelouarn ) Plugin sidebar views: A plugin can replace the sidebar's content with its own layout of workspaces, agents, projects and terminals across every connected host. Pick the view per device under Settings → Sidebar; Paseo's sidebar header and footer stay in place. ( #8906 ) Plugin composer controls: Plugins can add their own controls to the composer, and read and set its prompt, attachments, provider, model, mode and thinking. They can also put the cursor in any agent's composer, add items to New workspace, and store their own metadata on agents and workspaces. ( #8744 , #9209 , #9207 ) Faster diff loading: Opening Changes shows the fil"
     }
   ]
 }

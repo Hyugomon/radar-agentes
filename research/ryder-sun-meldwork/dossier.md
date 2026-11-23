@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/Ryder-Sun/Meldwork
 - **Web oficial**: https://ryder-sun.github.io/Meldwork/
 - **Licencia**: Apache-2.0
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: JavaScript
 - **Estrellas**: 1601 · **Forks**: 111
 - **Último push**: 2026-11-16T05:27:33Z · **Última release**: 2026-11-02

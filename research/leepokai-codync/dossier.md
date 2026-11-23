@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/leepokai/Codync
 - **Web oficial**: https://www.codync.dev
 - **Licencia**: Apache-2.0
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: Rust
 - **Estrellas**: 2427 · **Forks**: 253
 - **Último push**: 2026-11-23T20:39:01Z · **Última release**: 2026-11-22

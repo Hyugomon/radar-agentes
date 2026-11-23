@@ -3,6 +3,7 @@
 - **Repo**: https://github.com/ForeactLabs/OpenExecutive
 - **Web oficial**: https://openexecutive.ai
 - **Licencia**: Apache-2.0
+- **Tipo de licencia**: Open source · **Uso / Precio**: Gratis
 - **Lenguaje**: Python
 - **Estrellas**: 5834 · **Forks**: 634
 - **Último push**: 2026-11-22T21:54:20Z · **Última release**: 2026-11-18
